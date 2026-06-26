@@ -1,0 +1,30 @@
+name: TIOS backfill (one-off)
+
+# Manual one-off: pull ~5y daily history, then compute real statistics. Run from the Actions tab.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Backfill 5y history
+        run: python backfill_prices.py
+      - name: Compute statistics
+        run: python compute_stats.py
+      - name: Commit if changed
+        run: |
+          git config user.name  "tios-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/prices.csv data/stats.json
+          git commit -m "5y backfill + stats $(date -u +%F)" || echo "no changes to commit"
+          git push

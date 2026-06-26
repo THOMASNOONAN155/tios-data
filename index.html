@@ -159,7 +159,7 @@ const PLAN=[
  {t:'CRYP',tgt:2,move:'HOLD',why:'Speculative sleeve, at cap; keep tiny.', read:'The speculative sleeve, deliberately tiny — crypto-economy equities, very high beta; size is the risk control.'},
 ];
 const MOVE={ADD:['ADD','m-add'],STOP:['STOP','m-stop'],FOLD:['FOLD','m-fold'],CAP:['CAP','m-cap'],HOLD:['HOLD','m-hold']};
-let PRICES={},DATES=[],LATEST={},DATEOF={},HOLD={},S={income:'under',depAmt:500,depFreq:'month',resid:'no',emp:'study',buf:'yes'};
+let PRICES={},DATES=[],LATEST={},DATEOF={},HOLD={},STATS=null,S={income:'under',depAmt:500,depFreq:'month',resid:'no',emp:'study',buf:'yes'};
 
 function loadStore(){try{HOLD=JSON.parse(localStorage.getItem('tios_holdings_v1'))||{};}catch(e){HOLD={};}try{Object.assign(S,JSON.parse(localStorage.getItem('tios_situation_v1'))||{});}catch(e){}}
 function saveHold(){localStorage.setItem('tios_holdings_v1',JSON.stringify(HOLD));}
@@ -233,6 +233,10 @@ const PULSE=[
  ['SPX','S&P 500','The biggest engine under the book — transmits <b>levered into ~40%</b> (IVV, GGUS ~2×, much of VGS/NDQ).'],
  ['IXIC','Nasdaq Comp.','The tech-tilt read-across — your <b>long-duration growth concentration</b>.'],
  ['AXJO','ASX 200','Read-across for your <b>~29% AU sleeve</b> (VAS/VHY).'],
+ ['US02Y','US 2-yr yield','The short-rate / Fed read; with the 10-yr it shows the curve shape.'],
+ ['CURVE_2S10S','Yield curve (10y−2y)','Re-steepening from inverted is the late-cycle “getting close” tell.'],
+ ['HY_OAS','US HY credit spread','The canary — you hold no bonds, so it’s a warning gauge; blows out with equity crashes.'],
+ ['IRON_ORE','Iron ore (US$/t)','China-demand proxy — hits BHP/Rio in VAS/VHY and pressures the AUD.'],
 ];
 function renderPulse(){
  $('pulse').innerHTML=PULSE.map(p=>{const v=LATEST[p[0]];if(v==null)return '';const disp=v<10?v.toFixed(4):(v<1000?v.toFixed(2):Math.round(v).toLocaleString());
@@ -247,13 +251,14 @@ function renderScen(){
  $('scen').innerHTML='<table><thead><tr><th>Scenario</th><th>Net</th><th>For your book</th></tr></thead><tbody>'+SC.map(s=>`<tr><td><b>${s[0]}</b></td><td><span class="sev ${s[1]==='up'?'sev-up':(s[1]==='mid'?'sev-mid':'sev-down')}">${s[1]==='up'?'▲':'▼'}</span></td><td>${s[2]}</td></tr>`).join('')+'</tbody></table>';
 }
 function renderStats(){
- const n=DATES.length;
- if(n<10){$('stats').innerHTML=`<b>Statistics:</b> your daily history is accruing — <b>${n} day(s)</b>. Real volatility / beta / correlation / drawdown need ~30+ daily points (≈ end-July), so they stay gated until then (no fabricated precision).`;return;}
- const ds=DATES;let rets=[];
- for(let i=1;i<ds.length;i++){let pv=0,cv=0;PLAN.forEach(p=>{const u=HOLD[p.t]&&HOLD[p.t].u||0,a=PRICES[p.t]&&PRICES[p.t][ds[i-1]],b=PRICES[p.t]&&PRICES[p.t][ds[i]];if(u&&a&&b){pv+=u*b;cv+=u*a;}});if(cv)rets.push(pv/cv-1);}
- if(rets.length<5){$('stats').innerHTML=`<b>Statistics:</b> ${n} days of prices; enter holdings to compute portfolio stats.`;return;}
- const mean=rets.reduce((a,b)=>a+b,0)/rets.length,vol=Math.sqrt(rets.reduce((a,b)=>a+(b-mean)**2,0)/rets.length)*Math.sqrt(252)*100;
- $('stats').innerHTML=`<b>Statistics (preliminary, ${rets.length} daily returns):</b> annualised volatility ≈ <b>${vol.toFixed(0)}%</b>. ⚠ Too few points to trust yet — indicative until ~30+ days; beta/correlation/drawdown follow as history grows.`;
+ if(STATS && STATS.ready){
+  const e=STATS.etfs||{};
+  const rows=PLAN.map(p=>{const r=e[p.t]||{};const v=r.ann_vol!=null?(r.ann_vol*100).toFixed(0)+'%':'—';const b=r.beta_spx!=null?r.beta_spx.toFixed(2):'—';const dd=r.max_drawdown!=null?(r.max_drawdown*100).toFixed(0)+'%':'—';return `<tr><td class="mono">${p.t}</td><td class="r mono">${v}</td><td class="r mono">${b}</td><td class="r mono">${dd}</td></tr>`;}).join('');
+  $('stats').innerHTML=`<b>Statistics</b> — computed daily in the cron (${STATS.n_days} daily returns, as of ${(STATS.generated||'').slice(0,10)}):<table style="margin-top:6px"><thead><tr><th>ETF</th><th class="r">Ann. vol</th><th class="r">Beta vs S&P</th><th class="r">Max DD</th></tr></thead><tbody>${rows}</tbody></table><div class="note" style="margin-top:6px">Full correlation matrix is in data/stats.json. Price-return basis; deterministic, no LLM.</div>`;
+  return;
+ }
+ const n=(STATS&&STATS.n_days)||0,min=(STATS&&STATS.min_days)||25;
+ $('stats').innerHTML=`<b>Statistics — accruing:</b> ${n} of ${min} daily returns needed before volatility / beta / correlation / drawdown are trusted (no fabricated precision). The cron computes them automatically once enough history exists (≈ end-July). Returns + the week-move above are solid now.`;
 }
 
 function renderAll(){$('setup').style.display=haveHoldings()?'none':'block';renderKPIs();renderTodo();renderHoldings();renderTax();renderEdit();renderReads();renderConc();renderPulse();renderRisk();renderScen();renderStats();}
@@ -271,7 +276,7 @@ function applyTheme(t){document.body.classList.toggle('light',t==='light');$('th
 let theme=localStorage.getItem('tios_theme')||'dark';applyTheme(theme);
 $('themebtn').onclick=()=>{theme=theme==='light'?'dark':'light';localStorage.setItem('tios_theme',theme);applyTheme(theme);};
 
-(async function(){loadStore();wireInputs();await loadPrices();renderAll();})();
+(async function(){loadStore();wireInputs();await loadPrices();try{STATS=await fetch('data/stats.json',{cache:'no-store'}).then(r=>r.ok?r.json():null);}catch(e){STATS=null;}renderAll();})();
 </script>
 </body>
 </html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TIOS — Investment Terminal</title>
+<!--
+  SELF-RUNNING dashboard for GitHub Pages. NO Claude, NO server, NO external calls except
+  fetching this repo's own data/prices.csv (same-origin on Pages; updated daily by the Actions cron).
+  Your HOLDINGS + situation live ONLY in your browser (localStorage) — never committed, never public.
+  Decision-support only, not financial advice. Standing answer: hold + keep contributing; sells adviser-gated.
+-->
+<style>
+:root{--bg:#0a0b0e;--panel:#14171f;--panel2:#1a1e27;--ink:#e7eaf0;--ink2:#b9c0cc;--muted:#7f8896;--line:#262b34;--accent:#6ea8fe;--green:#3fb950;--amber:#d8a02a;--red:#f4564a;--add:#3fb950;--stop:#d8a02a;--fold:#f4564a;--cap:#9b8cf0;--mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+body.light{--bg:#eceff2;--panel:#fff;--panel2:#f5f7fa;--ink:#161a20;--ink2:#3a414c;--muted:#6b7280;--line:#e4e7ec;--accent:#2563d8;--green:#1a7f37;--amber:#9a6700;--red:#cf222e;--add:#1a7f37;--stop:#9a6700;--fold:#cf222e;--cap:#6d4fd0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}.pos{color:var(--green)}.neg{color:var(--red)}
+.wrap{max-width:920px;margin:0 auto;padding:14px 18px 70px}
+.top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:4px}
+h1{font-size:15px;font-weight:800}h1 b{color:var(--accent)}
+.asof{font-size:11px;color:var(--muted);margin-left:auto}
+.btn{border:1px solid var(--line);background:var(--panel);color:var(--ink2);border-radius:7px;padding:5px 9px;font-size:11px;cursor:pointer;font-family:var(--sans)}
+.btn:hover{border-color:var(--accent);color:var(--ink)}
+.note{font-size:11px;color:var(--muted)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px 16px;margin-bottom:12px}
+.card h2{font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
+.kpis{display:flex;gap:10px;flex-wrap:wrap}
+.kpi{flex:1;min-width:120px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:11px 13px}
+.kpi .k{font-size:10px;color:var(--muted);text-transform:uppercase}.kpi .v{font-family:var(--mono);font-size:22px;font-weight:800;margin-top:3px}.kpi .s{font-size:10px;color:var(--muted);margin-top:1px}
+.sit{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:620px){.sit{grid-template-columns:1fr}}
+.field label{font-size:11.5px;color:var(--ink2);font-weight:600;display:block;margin-bottom:5px}
+.field .hint{font-size:10.5px;color:var(--muted);margin-top:4px;display:block}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+input[type=number],select,textarea{font-family:var(--mono);font-size:13px;background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:7px 9px}
+input[type=number]{width:108px}textarea{width:100%;min-height:90px;font-size:12px}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{background:var(--panel2);color:var(--ink2);border:none;padding:7px 11px;font-size:12px;cursor:pointer;font-family:var(--sans)}
+.seg button.on{background:var(--accent);color:#fff;font-weight:700}
+.todo{display:flex;gap:11px;padding:11px 0;border-bottom:1px solid var(--line)}.todo:last-child{border-bottom:0}
+.todo .tag{font-family:var(--mono);font-weight:800;font-size:11px;padding:3px 9px;border-radius:6px;height:fit-content;white-space:nowrap;flex:0 0 auto}
+.t-hold{background:rgba(63,185,80,.15);color:var(--green)}.t-add{background:rgba(110,168,254,.14);color:var(--accent)}.t-gate{background:rgba(216,160,42,.15);color:var(--amber)}.t-watch{background:rgba(127,136,150,.15);color:var(--muted)}
+.todo .body{font-size:13px;color:var(--ink2)}.todo .body b{color:var(--ink)}
+.route{margin-top:7px;display:flex;gap:8px;flex-wrap:wrap}.rchip{font-family:var(--mono);font-size:12px;background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:5px 9px}.rchip b{color:var(--green)}
+.hline{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-size:12.5px}.hline:last-child{border-bottom:0}
+.hline .tk{font-family:var(--mono);font-weight:700;width:50px}.hline .wt{font-family:var(--mono);width:120px;color:var(--ink2);font-size:11.5px}.hline .why{color:var(--muted);font-size:11.5px;flex:1;min-width:0}
+.tag2{font-size:9.5px;font-weight:800;padding:2px 6px;border-radius:5px;white-space:nowrap}
+.m-add{background:rgba(63,185,80,.15);color:var(--add)}.m-hold{background:rgba(127,136,150,.15);color:var(--muted)}.m-stop{background:rgba(216,160,42,.15);color:var(--stop)}.m-fold{background:rgba(244,86,74,.15);color:var(--fold)}.m-cap{background:rgba(155,140,240,.16);color:var(--cap)}
+@media(max-width:620px){.hline .why{display:none}}
+.taxbox{font-size:12.5px;color:var(--ink2);line-height:1.55}.taxbox b{color:var(--ink)}.taxbox .em{color:var(--green);font-weight:700}
+.legend{font-size:10.5px;color:var(--muted);margin-top:10px;line-height:1.5}
+details{border:1px solid var(--line);border-radius:12px;background:var(--panel);margin-bottom:10px;overflow:hidden}
+details>summary{cursor:pointer;padding:13px 16px;font-weight:700;font-size:12.5px;list-style:none}
+details>summary::-webkit-details-marker{display:none}details>summary:before{content:"▸ ";color:var(--accent)}details[open]>summary:before{content:"▾ "}
+details .dbody{padding:0 16px 15px}
+table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-size:9.5px;text-transform:uppercase}.r{text-align:right}
+.editrow td{padding:4px 6px}.editrow input{width:88px}
+.warn{background:rgba(216,160,42,.10);border:1px solid rgba(216,160,42,.35);border-radius:10px;padding:11px 13px;font-size:12.5px;color:var(--ink2)}
+.disc{font-size:10.5px;color:var(--muted);margin-top:18px;border-top:1px solid var(--line);padding-top:11px}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <div class="top"><h1>TI<b>OS</b></h1><span class="asof">Live · prices as of <b id="asof">…</b> · auto-updated daily</span><button class="btn" id="themebtn">◐ Light</button></div>
+ <div class="note" style="margin-bottom:12px">Self-running view of your own data — not advice. Prices auto-fetch from your daily feed; your holdings stay private in this browser only. <span id="loadstatus"></span></div>
+
+ <div id="setup" class="card" style="display:none"><h2>One-time setup — enter your holdings (stays in this browser only)</h2>
+  <p class="note" style="margin-bottom:8px">Paste one line per holding as <b>TICKER,units,cost</b> (cost = total $ you paid). Then Save. You can edit anytime; it's stored only on this device.</p>
+  <textarea id="pastebox" placeholder="VAS,43.916,4067.62&#10;IVV,56.325,3702.60&#10;..."></textarea>
+  <div class="row" style="margin-top:8px"><button class="btn" id="savePaste">Save holdings</button><span class="note" id="pasteMsg"></span></div>
+ </div>
+
+ <div class="card"><div class="kpis" id="kpis"></div><div class="legend" id="weekmove"></div></div>
+
+ <div class="card"><h2>Your situation — edit; everything below updates</h2>
+  <div class="sit">
+   <div class="field"><label>Taxable income this financial year</label><div class="row"><span class="seg" id="segIncome"><button data-v="under" class="on">None / under threshold</button><button data-v="over">Above threshold</button></span></div><span class="hint">None → realised gains ~0% AU.</span></div>
+   <div class="field"><label>Planned deposit</label><div class="row">$<input type="number" id="depAmt" value="500" min="0" step="50"> <select id="depFreq"><option value="month">/ month</option><option value="fortnight">/ fortnight</option><option value="once">one-off</option></select></div><span class="hint">Drives where new money goes.</span></div>
+   <div class="field"><label>Residency confirmed with a registered agent?</label><div class="row"><span class="seg" id="segResid"><button data-v="no" class="on">Not yet</button><button data-v="yes">Confirmed</button></span></div><span class="hint">The real gate on any meaningful sale.</span></div>
+   <div class="field"><label>Employment &amp; emergency buffer</label><div class="row"><span class="seg" id="segEmp"><button data-v="study" class="on">Studying</button><button data-v="work">Working</button></span> <span class="seg" id="segBuf"><button data-v="yes" class="on">Buffer ✓</button><button data-v="no">No buffer</button></span></div></div>
+  </div>
+ </div>
+
+ <div class="card"><h2>What to do</h2><div id="todo"></div><div class="legend">Rules-based from your plan + your situation — not a market-timing call. No "sell X now" signals.</div></div>
+ <div class="card"><h2>Where &amp; why — each holding vs plan</h2><div id="holdings"></div><div class="legend"><b>ADD</b> under plan · <b>STOP</b> over plan, don't add · <b>FOLD</b> target 0 · <b>CAP</b> capped sleeve · <b>HOLD</b> on plan.</div></div>
+ <div class="card"><h2>Tax — for your situation</h2><div class="taxbox" id="tax"></div></div>
+
+ <details><summary>Edit holdings / log a confirmed trade</summary><div class="dbody">
+  <p class="note">Update units &amp; cost when trades confirm. Stored in this browser only.</p>
+  <table><thead><tr><th>Ticker</th><th>Units</th><th>Cost $ (total paid)</th></tr></thead><tbody id="editbody"></tbody></table>
+  <div class="row" style="margin-top:8px"><button class="btn" id="saveEdit">Save</button><span class="note" id="editMsg"></span></div>
+ </div></details>
+
+ <details><summary>Show full analysis — concentration, market pulse, stats</summary><div class="dbody">
+  <p class="taxbox"><b>Concentration:</b> the four US lines (IVV/VGS/NDQ/GGUS) hold the same mega-caps and ASIA/EMKT overlap on chips → ~12–14% mega-cap growth + ~10% semis on one engine (AI capex), ~25–30% of the book, ~1.8% gold the only real offset. That's why new money steers to VGS/EM/gold.</p>
+  <div id="pulse" style="margin-top:10px"></div>
+  <div id="stats" class="taxbox" style="margin-top:12px"></div>
+  <p class="legend" style="margin-top:10px">Sources: prices = your GitHub feed (daily). Plan/moves = decisions.md (Target v1). Markdown remains canonical; this is a view.</p>
+ </div></details>
+
+ <div class="disc">Decision-support &amp; education, not financial/tax advice. Hold + keep contributing; meaningful sales gated on confirming residency with a registered agent. Self-contained; your holdings never leave this browser.</div>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+const fmt0=n=>'$'+Math.round(n).toLocaleString();
+const fmtSign=n=>(n>=0?'+':'−')+'$'+Math.abs(Math.round(n)).toLocaleString();
+const PLAN=[ // public-safe plan info; YOUR units/cost come from localStorage only
+ {t:'VGS',tgt:32,move:'ADD', why:'Global core — under target; #1 destination for new money.'},
+ {t:'VAS',tgt:17,move:'STOP',why:'Over plan; let contributions dilute. AU banks/miners.'},
+ {t:'IVV',tgt:10,move:'STOP',why:'Over plan; ~70% overlaps VGS. Route new money to VGS.'},
+ {t:'ASIA',tgt:10,move:'STOP',why:'Best performer; over plan; semis core. Keep, don’t add.'},
+ {t:'HEUR',tgt:6,move:'STOP',why:'Diversifier but over plan; hold, stop adding.'},
+ {t:'EMKT',tgt:8,move:'ADD', why:'Under plan; secondary destination for new money.'},
+ {t:'NDQ',tgt:6,move:'STOP',why:'Sits inside IVV/VGS — amplifier; don’t add.'},
+ {t:'QAU',tgt:4,move:'ADD', why:'Only real crash hedge, under 4% target; lift via new money.'},
+ {t:'VHY',tgt:0,move:'FOLD',why:'Target 0 (~70% duplicates VAS); stop buying.'},
+ {t:'GGUS',tgt:5,move:'CAP', why:'2× leverage sleeve; cap it, don’t add, hold through drawdowns.'},
+ {t:'CRYP',tgt:2,move:'HOLD',why:'Speculative sleeve, at cap; keep tiny.'},
+];
+const MOVE={ADD:['ADD','m-add'],STOP:['STOP','m-stop'],FOLD:['FOLD','m-fold'],CAP:['CAP','m-cap'],HOLD:['HOLD','m-hold']};
+let PRICES={}, DATES=[], LATEST={}, HOLD={}, S={income:'under',depAmt:500,depFreq:'month',resid:'no',emp:'study',buf:'yes'};
+
+/* ---------- storage ---------- */
+function loadStore(){try{HOLD=JSON.parse(localStorage.getItem('tios_holdings_v1'))||{};}catch(e){HOLD={};}
+ try{Object.assign(S,JSON.parse(localStorage.getItem('tios_situation_v1'))||{});}catch(e){}}
+function saveHold(){localStorage.setItem('tios_holdings_v1',JSON.stringify(HOLD));}
+function saveSit(){localStorage.setItem('tios_situation_v1',JSON.stringify(S));}
+function haveHoldings(){return Object.keys(HOLD).some(k=>HOLD[k]&&HOLD[k].u>0);}
+
+/* ---------- prices ---------- */
+async function loadPrices(){
+ try{
+  const r=await fetch('data/prices.csv',{cache:'no-store'}); if(!r.ok) throw 0;
+  const txt=await r.text(); const seen={};
+  txt.split(/\r?\n/).slice(1).forEach(l=>{const c=l.split(','); if(c.length<3)return; const code=c[0],d=c[1],v=parseFloat(c[2]); if(!code||isNaN(v))return; (PRICES[code]=PRICES[code]||{})[d]=v;});
+  // build latest + a clean date list for ETFs
+  Object.keys(PRICES).forEach(code=>{const ds=Object.keys(PRICES[code]).sort(); LATEST[code]=PRICES[code][ds[ds.length-1]];});
+  const vds=Object.keys(PRICES['VAS']||{}).sort(); DATES=vds;
+  $('asof').textContent=DATES.length?DATES[DATES.length-1]:'—';
+  $('loadstatus').textContent='';
+  return true;
+ }catch(e){ $('loadstatus').innerHTML='<b style="color:var(--amber)">Prices couldn’t load</b> — this page must be opened from its GitHub Pages URL (not a local file). Using no prices.'; return false; }
+}
+function px(t){return LATEST[t]||0;}
+function priceNDaysAgo(t,n){const m=PRICES[t]; if(!m)return null; const ds=Object.keys(m).sort(); const i=ds.length-1-n; return i>=0?m[ds[i]]:m[ds[0]];}
+
+/* ---------- compute/render ---------- */
+function totalVal(){return PLAN.reduce((s,p)=>s+((HOLD[p.t]&&HOLD[p.t].u||0)*px(p.t)),0);}
+function totalCost(){return PLAN.reduce((s,p)=>s+((HOLD[p.t]&&HOLD[p.t].c||0)),0);}
+function renderKPIs(){
+ const tot=totalVal(),cost=totalCost(),un=tot-cost;
+ $('kpis').innerHTML=`
+  <div class="kpi"><div class="k">Portfolio value</div><div class="v">${fmt0(tot)}</div><div class="s">live · ${$('asof').textContent}</div></div>
+  <div class="kpi"><div class="k">Unrealised</div><div class="v ${un>=0?'pos':'neg'}">${fmtSign(un)}</div><div class="s">${cost?((un/cost*100).toFixed(1)+'% on '+fmt0(cost)+' cost'):'enter cost'}</div></div>
+  <div class="kpi"><div class="k">Holdings</div><div class="v">${PLAN.filter(p=>HOLD[p.t]&&HOLD[p.t].u>0).length}</div><div class="s">of 11 entered</div></div>`;
+ // week move (≈5 trading days)
+ const wk=PLAN.map(p=>{const a=priceNDaysAgo(p.t,5),b=px(p.t);return a&&b?{t:p.t,ch:(b/a-1)*100}:null;}).filter(Boolean).sort((a,b)=>a.ch-b.ch);
+ $('weekmove').innerHTML=wk.length?`<b>~last week:</b> worst ${wk.slice(0,3).map(w=>w.t+' '+w.ch.toFixed(1)+'%').join(', ')}; best ${wk.slice(-2).reverse().map(w=>w.t+' '+(w.ch>=0?'+':'')+w.ch.toFixed(1)+'%').join(', ')}. Factual context, not a signal.`:'';
+}
+function eligADD(){const tot=totalVal()||1;return PLAN.filter(p=>p.move==='ADD').map(p=>({t:p.t,gap:Math.max(p.tgt-(HOLD[p.t]&&HOLD[p.t].u||0)*px(p.t)/tot*100,0)}));}
+function renderTodo(){
+ const amt=S.depAmt||0,elig=eligADD(),gs=elig.reduce((s,e)=>s+e.gap,0)||1;
+ const split=elig.map(e=>`<span class="rchip">${e.t} <b>${fmt0(amt*e.gap/gs)}</b></span>`).join('');
+ const freq=S.depFreq==='once'?'one-off':('per '+S.depFreq);
+ let sell = S.resid==='yes'
+  ? `<b>On the table, tax-free at your size.</b> ${S.income==='under'?'No taxable income this year → ~0% AU regardless of the 12-month discount.':'Mind the 12-month discount dates (Tax).'} Prefer the contributions route; weigh any sale deliberately with your agent.`
+  : `<b>Off the table for now — and not needed.</b> Confirm residency with a registered agent first; until then it's contributions only, which reach your plan anyway. ${S.income==='under'?'(No taxable income this year → even a sale would be ~0% AU; the only blocker is the residency gate.)':''}`;
+ const buf=S.buf==='no'?` <b style="color:var(--amber)">Build a cash buffer first</b> so the portfolio is never a forced seller.`:'';
+ $('todo').innerHTML=`
+  <div class="todo"><span class="tag t-hold">HOLD</span><div class="body"><b>Keep everything and keep contributing.</b> A 20–40-yr accumulation book; decision quality &gt; activity.${buf}</div></div>
+  <div class="todo"><span class="tag t-add">DEPOSIT</span><div class="body">Next ${fmt0(amt)} ${freq} → <div class="route">${split||'<span class="rchip">enter holdings to route</span>'}</div><span class="note">Biggest gap-to-plan first; skips capped GGUS/CRYP. Tax-free, no adviser.</span></div></div>
+  <div class="todo"><span class="tag t-gate">SELL?</span><div class="body">${sell}</div></div>
+  <div class="todo"><span class="tag t-watch">WATCH</span><div class="body" id="watch"></div></div>`;
+ const wdates=[['30 Jun','FY end — distributions + AMMA statements follow'],['~late Jul','US FOMC + dot plot'],['11 Aug','RBA decision'],['~31 Aug 2026',S.income==='under'?'Aug-2025 parcels hit 12mo — tax-neutral for you while under threshold':'Aug-2025 parcels hit 12mo → 50% CGT discount'],['1 Jul 2027','proposed AU CGT change (not law)']];
+ $('watch').innerHTML=wdates.map(d=>`<div style="display:flex;gap:9px;padding:3px 0"><span class="mono" style="width:90px;flex:0 0 auto;color:var(--ink)">${d[0]}</span><span class="note">${d[1]}</span></div>`).join('');
+}
+function renderHoldings(){
+ const tot=totalVal()||1;
+ $('holdings').innerHTML=PLAN.map(p=>{const u=HOLD[p.t]&&HOLD[p.t].u||0,w=u*px(p.t)/tot*100,gap=p.tgt-w,m=MOVE[p.move];
+  return `<div class="hline"><span class="tk">${p.t}</span><span class="wt">${u?w.toFixed(1)+'%':'—'} <span class="note">/ ${p.tgt}% (${gap>=0?'+':''}${gap.toFixed(0)})</span></span><span><span class="tag2 ${m[1]}">${m[0]}</span></span><span class="why">${p.why}</span></div>`;}).join('');
+}
+function renderTax(){
+ $('tax').innerHTML=(S.income==='under'
+  ? `<b>No taxable income this financial year</b> → under the AU threshold, so <span class="em">any realised gain is ~0% AU regardless of the 50% discount.</span> The 12-month discount timing (e.g. ~31 Aug for the Aug-2025 parcels) is <b>not a constraint for you</b> — it only matters if income rises above the threshold. UK: within the ~£3k exemption. <b>The only real gate on a sale is confirming AU/UK residency with a registered agent.</b>`
+  : `<b>You have taxable income</b> → the 50% CGT discount matters. Parcels held &gt;12 months are taxed on half; the Aug-2025 lines cross ~31 Aug 2026, the Apr-2026 lines in Apr–Jun 2027. Selling newer lines before then is taxed on the full gain. UK: within ~£3k. Sale still gated on residency.`)
+  +` <span class="note">Not tax advice.</span>`;
+}
+function renderPulse(){
+ const map=[['AUDUSD','AUD/USD'],['DXY','DXY'],['VIX','VIX'],['GOLD','Gold US$'],['WTI','WTI'],['SPX','S&P 500'],['IXIC','Nasdaq'],['AXJO','ASX 200']];
+ $('pulse').innerHTML='<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px">'+map.map(m=>{const v=LATEST[m[0]]; if(v==null)return ''; const disp=v<10?v.toFixed(4):(v<1000?v.toFixed(2):Math.round(v).toLocaleString()); return `<div style="background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:8px 10px"><div class="note">${m[1]}</div><div class="mono" style="font-size:14px;font-weight:800">${disp}</div></div>`;}).join('')+'</div>';
+}
+function renderStats(){
+ const n=DATES.length;
+ if(n<10){$('stats').innerHTML=`<b>Statistics:</b> your daily history is accruing — <b>${n} day(s)</b> so far. Real volatility / beta / correlation need ~30+ daily points (≈ end-July), so they stay gated until then (no fabricated precision). The week-move above and your returns are solid now.`;return;}
+ // preliminary portfolio daily-return vol from entered holdings
+ const ds=DATES, wsum=totalVal()||1; let rets=[];
+ for(let i=1;i<ds.length;i++){let pv=0,cv=0;PLAN.forEach(p=>{const u=HOLD[p.t]&&HOLD[p.t].u||0;const a=PRICES[p.t]&&PRICES[p.t][ds[i-1]],b=PRICES[p.t]&&PRICES[p.t][ds[i]];if(u&&a&&b){pv+=u*b;cv+=u*a;}});if(cv)rets.push(pv/cv-1);}
+ if(rets.length<5){$('stats').innerHTML=`<b>Statistics:</b> ${n} days of prices, but enter your holdings to compute portfolio stats.`;return;}
+ const mean=rets.reduce((a,b)=>a+b,0)/rets.length, vol=Math.sqrt(rets.reduce((a,b)=>a+(b-mean)**2,0)/rets.length)*Math.sqrt(252)*100;
+ $('stats').innerHTML=`<b>Statistics (preliminary, ${rets.length} daily returns):</b> annualised volatility ≈ <b>${vol.toFixed(0)}%</b>. ⚠ Too few points to trust yet — treat as indicative until ~30+ days. Beta/correlation/drawdown follow as history grows.`;
+}
+function renderAll(){
+ const need=!haveHoldings(); $('setup').style.display=need?'block':'none';
+ renderKPIs();renderTodo();renderHoldings();renderTax();renderPulse();renderStats();renderEdit();
+}
+function renderEdit(){
+ $('editbody').innerHTML=PLAN.map(p=>{const h=HOLD[p.t]||{};return `<tr class="editrow"><td class="mono">${p.t}</td><td><input type="number" step="0.001" data-t="${p.t}" data-f="u" value="${h.u!=null?h.u:''}"></td><td><input type="number" step="0.01" data-t="${p.t}" data-f="c" value="${h.c!=null?h.c:''}"></td></tr>`;}).join('');
+}
+
+/* ---------- inputs ---------- */
+function seg(id,key){const el=$(id);if(!el)return;el.querySelectorAll('button').forEach(b=>{b.classList.toggle('on',b.dataset.v===S[key]);b.onclick=()=>{el.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');S[key]=b.dataset.v;saveSit();renderAll();};});}
+function wireInputs(){
+ ['segIncome:income','segResid:resid','segEmp:emp','segBuf:buf'].forEach(s=>{const[id,k]=s.split(':');seg(id,k);});
+ $('depAmt').value=S.depAmt; $('depFreq').value=S.depFreq;
+ $('depAmt').addEventListener('input',e=>{S.depAmt=parseFloat(e.target.value)||0;saveSit();renderTodo();});
+ $('depFreq').addEventListener('change',e=>{S.depFreq=e.target.value;saveSit();renderTodo();});
+ $('savePaste').onclick=()=>{const lines=$('pastebox').value.split(/\r?\n/);let n=0;lines.forEach(l=>{const c=l.split(',');if(c.length<2)return;const t=c[0].trim().toUpperCase();if(!PLAN.some(p=>p.t===t))return;HOLD[t]={u:parseFloat(c[1])||0,c:parseFloat(c[2])||0};n++;});saveHold();$('pasteMsg').textContent=`saved ${n} holdings ✓`;renderAll();};
+ $('saveEdit').onclick=()=>{$('editbody').querySelectorAll('input').forEach(inp=>{const t=inp.dataset.t,f=inp.dataset.f,v=parseFloat(inp.value);HOLD[t]=HOLD[t]||{};HOLD[t][f]=isNaN(v)?(f==='u'?0:0):v;});saveHold();$('editMsg').textContent='saved ✓';renderAll();};
+}
+function applyTheme(t){document.body.classList.toggle('light',t==='light');$('themebtn').textContent=t==='light'?'◑ Dark':'◐ Light';}
+let theme=localStorage.getItem('tios_theme')||'dark';applyTheme(theme);
+$('themebtn').onclick=()=>{theme=theme==='light'?'dark':'light';localStorage.setItem('tios_theme',theme);applyTheme(theme);};
+
+/* ---------- boot ---------- */
+(async function(){ loadStore(); wireInputs(); await loadPrices(); renderAll(); })();
+</script>
+</body>
+</html>

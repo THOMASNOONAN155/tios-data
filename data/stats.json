@@ -1,0 +1,98 @@
+{
+ "generated": "2026-06-26T22:27Z",
+ "min_days": 25,
+ "etfs": {
+  "VAS": {
+   "as_of": "2026-06-26",
+   "last": 109.02,
+   "ret_1w": -0.008007279344859008,
+   "ret_1m": null,
+   "ret_all": -0.008007279344859008,
+   "n_days": 5
+  },
+  "VHY": {
+   "as_of": "2026-06-26",
+   "last": 82.99,
+   "ret_1w": -0.008837931446315617,
+   "ret_1m": null,
+   "ret_all": -0.008837931446315617,
+   "n_days": 5
+  },
+  "IVV": {
+   "as_of": "2026-06-26",
+   "last": 70.7,
+   "ret_1w": -0.004645924257355993,
+   "ret_1m": null,
+   "ret_all": -0.004645924257355993,
+   "n_days": 5
+  },
+  "VGS": {
+   "as_of": "2026-06-26",
+   "last": 158.64,
+   "ret_1w": -0.0016362492133418227,
+   "ret_1m": null,
+   "ret_all": -0.0016362492133418227,
+   "n_days": 5
+  },
+  "ASIA": {
+   "as_of": "2026-06-26",
+   "last": 22.1,
+   "ret_1w": -0.06077348066298338,
+   "ret_1m": null,
+   "ret_all": -0.06077348066298338,
+   "n_days": 5
+  },
+  "HEUR": {
+   "as_of": "2026-06-26",
+   "last": 18.97,
+   "ret_1w": -0.010432968179447166,
+   "ret_1m": null,
+   "ret_all": -0.010432968179447166,
+   "n_days": 5
+  },
+  "EMKT": {
+   "as_of": "2026-06-26",
+   "last": 40.13,
+   "ret_1w": -0.045205805377111496,
+   "ret_1m": null,
+   "ret_all": -0.045205805377111496,
+   "n_days": 5
+  },
+  "NDQ": {
+   "as_of": "2026-06-26",
+   "last": 62.06,
+   "ret_1w": -0.022831050228310446,
+   "ret_1m": null,
+   "ret_all": -0.022831050228310446,
+   "n_days": 5
+  },
+  "GGUS": {
+   "as_of": "2026-06-26",
+   "last": 56.7,
+   "ret_1w": -0.04849807014599761,
+   "ret_1m": null,
+   "ret_all": -0.04849807014599761,
+   "n_days": 5
+  },
+  "QAU": {
+   "as_of": "2026-06-26",
+   "last": 31.75,
+   "ret_1w": -0.033779671332927586,
+   "ret_1m": null,
+   "ret_all": -0.033779671332927586,
+   "n_days": 5
+  },
+  "CRYP": {
+   "as_of": "2026-06-26",
+   "last": 7.76,
+   "ret_1w": -0.09662398137369033,
+   "ret_1m": null,
+   "ret_all": -0.09662398137369033,
+   "n_days": 5
+  }
+ },
+ "correlation": null,
+ "n_days": 5,
+ "ready": false,
+ "note": "Live as of the dates shown. Vol/beta/correlation gated until 25+ daily returns accrue (currently 5). Price-return basis; deterministic, computed in the GitHub cron \u2014 no LLM."
+}

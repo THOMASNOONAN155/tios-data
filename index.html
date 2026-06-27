@@ -5,12 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>TIOS — Investment Terminal</title>
 <!--
-  SELF-RUNNING dashboard for GitHub Pages. No Claude, no server. Only external call is fetching
-  this repo's own data/prices.csv (same-origin; updated daily by the Actions cron). Your HOLDINGS +
-  situation live ONLY in your browser (localStorage). Clean default screen; full market analysis under
-  collapsible sections. Decision-support only, not financial advice. Hold + contribute; sells adviser-gated.
-  LIVE data (prices/pulse) updates daily. NARRATIVE analysis (regime/risk/scenarios/valuations) is a dated
-  snapshot from market-intelligence.md / risk-monitor.md / scenario-analysis.md — refreshed periodically.
+  SELF-RUNNING dashboard for GitHub Pages. No Claude, no server. Only external call is fetching this
+  repo's own data/prices.csv + stats.json (same-origin; updated daily by the Actions cron). Your HOLDINGS,
+  situation and deposit log live ONLY in your browser (localStorage). Goal-first layout: where you are vs
+  Target v1, the glide path to get there, a place to log deposits, then market context. Decision-support
+  only, not financial advice. Hold + contribute; sells adviser-gated.
 -->
 <style>
 :root{--bg:#0a0b0e;--panel:#14171f;--panel2:#1a1e27;--ink:#e7eaf0;--ink2:#b9c0cc;--muted:#7f8896;--line:#262b34;--accent:#6ea8fe;--green:#3fb950;--amber:#d8a02a;--red:#f4564a;--add:#3fb950;--stop:#d8a02a;--fold:#f4564a;--cap:#9b8cf0;--mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
@@ -24,9 +23,11 @@ h1{font-size:15px;font-weight:800}h1 b{color:var(--accent)}
 .asof{font-size:11px;color:var(--muted);margin-left:auto}
 .btn{border:1px solid var(--line);background:var(--panel);color:var(--ink2);border-radius:7px;padding:5px 9px;font-size:11px;cursor:pointer;font-family:var(--sans)}
 .btn:hover{border-color:var(--accent);color:var(--ink)}
+.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:700}
 .note{font-size:11px;color:var(--muted)}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px 16px;margin-bottom:12px}
 .card h2{font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin-bottom:11px}
+.card h2 .sub{text-transform:none;letter-spacing:0;color:var(--ink2);font-weight:600;font-size:11px}
 .kpis{display:flex;gap:10px;flex-wrap:wrap}
 .kpi{flex:1;min-width:120px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:11px 13px}
 .kpi .k{font-size:10px;color:var(--muted);text-transform:uppercase}.kpi .v{font-family:var(--mono);font-size:22px;font-weight:800;margin-top:3px}.kpi .s{font-size:10px;color:var(--muted);margin-top:1px}
@@ -34,7 +35,7 @@ h1{font-size:15px;font-weight:800}h1 b{color:var(--accent)}
 .field label{font-size:11.5px;color:var(--ink2);font-weight:600;display:block;margin-bottom:5px}
 .field .hint{font-size:10.5px;color:var(--muted);margin-top:4px;display:block}
 .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
-input[type=number],select,textarea{font-family:var(--mono);font-size:13px;background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:7px 9px}
+input[type=number],input[type=date],select,textarea{font-family:var(--mono);font-size:13px;background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:7px 9px}
 input[type=number]{width:108px}textarea{width:100%;min-height:90px;font-size:12px}
 input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
@@ -44,20 +45,16 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
 .todo .tag{font-family:var(--mono);font-weight:800;font-size:11px;padding:3px 9px;border-radius:6px;height:fit-content;white-space:nowrap;flex:0 0 auto}
 .t-hold{background:rgba(63,185,80,.15);color:var(--green)}.t-add{background:rgba(110,168,254,.14);color:var(--accent)}.t-gate{background:rgba(216,160,42,.15);color:var(--amber)}.t-watch{background:rgba(127,136,150,.15);color:var(--muted)}
 .todo .body{font-size:13px;color:var(--ink2)}.todo .body b{color:var(--ink)}
-.route{margin-top:7px;display:flex;gap:8px;flex-wrap:wrap}.rchip{font-family:var(--mono);font-size:12px;background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:5px 9px}.rchip b{color:var(--green)}
-.hline{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-size:12.5px}.hline:last-child{border-bottom:0}
-.hline .tk{font-family:var(--mono);font-weight:700;width:50px}.hline .wt{font-family:var(--mono);width:120px;color:var(--ink2);font-size:11.5px}.hline .why{color:var(--muted);font-size:11.5px;flex:1;min-width:0}
 .tag2{font-size:9.5px;font-weight:800;padding:2px 6px;border-radius:5px;white-space:nowrap}
 .m-add{background:rgba(63,185,80,.15);color:var(--add)}.m-hold{background:rgba(127,136,150,.15);color:var(--muted)}.m-stop{background:rgba(216,160,42,.15);color:var(--stop)}.m-fold{background:rgba(244,86,74,.15);color:var(--fold)}.m-cap{background:rgba(155,140,240,.16);color:var(--cap)}
-@media(max-width:620px){.hline{flex-wrap:wrap}.hline .wt{width:auto}.hline .why{display:block;flex-basis:100%;margin-top:4px}}
 .taxbox{font-size:12.5px;color:var(--ink2);line-height:1.55}.taxbox b{color:var(--ink)}.taxbox .em{color:var(--green);font-weight:700}
 .legend{font-size:10.5px;color:var(--muted);margin-top:10px;line-height:1.5}
+.ul{margin:4px 0 0 18px;font-size:12.2px;color:var(--ink2);line-height:1.6}.ul li{margin:2px 0}.ul b{color:var(--ink)}
 details{border:1px solid var(--line);border-radius:12px;background:var(--panel);margin-bottom:10px;overflow:hidden}
-details>summary{cursor:pointer;padding:13px 16px;font-weight:700;font-size:12.5px;list-style:none}
+details>summary{cursor:pointer;padding:13px 16px;font-weight:700;font-size:12.5px;list-style:none;color:var(--ink2)}
 details>summary::-webkit-details-marker{display:none}details>summary:before{content:"▸ ";color:var(--accent)}details[open]>summary:before{content:"▾ "}
 details .dbody{padding:0 16px 15px}
 table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-size:9.5px;text-transform:uppercase}.r{text-align:right}
-.editrow input{width:90px}
 .bar{display:flex;align-items:center;gap:9px;margin:5px 0;font-size:11.5px}.bar .bl{width:170px;flex:0 0 auto;color:var(--ink2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.bar .bt{flex:1;height:11px;background:var(--line);border-radius:3px;overflow:hidden}.bar .bt>i{display:block;height:100%;border-radius:3px;background:var(--accent)}.bar .bv{font-family:var(--mono);width:56px;text-align:right;color:var(--ink2)}
 .pulse{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:9px 11px;margin-bottom:7px}
 .pulse .ph{display:flex;justify-content:space-between;align-items:baseline;gap:8px}.pulse .pn{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.3px}.pulse .pv{font-family:var(--mono);font-size:15px;font-weight:800}.pulse .ps{font-size:11.3px;color:var(--ink2);margin-top:5px;line-height:1.45}.pulse .ps b{color:var(--ink)}
@@ -71,12 +68,21 @@ table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;p
 .hero .hv{font-size:15px;font-weight:700;color:var(--ink);margin-top:3px;line-height:1.45}.hero .hv b{color:var(--accent)}
 .riskstrip{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px}.riskstrip .rs{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:5px 9px;font-size:10.5px;color:var(--muted)}.riskstrip .rs b{color:var(--ink);font-family:var(--mono);font-size:12px}
 .heat{border-collapse:collapse;font-size:10px;margin-top:4px}.heat td,.heat th{padding:3px 5px;text-align:center;border:1px solid var(--line);font-family:var(--mono)}.heat th{color:var(--muted);font-weight:700}.heat td.lab{font-weight:700;color:var(--ink2);text-align:left}
+.glide{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:10px 12px;margin-bottom:12px;font-size:12.5px;color:var(--ink2);line-height:1.5}.glide b{color:var(--ink)}
+.prog{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--line);font-size:12px}.prog:last-child{border-bottom:0}
+.prog .tk{font-family:var(--mono);font-weight:700;width:46px;flex:0 0 auto}
+.prog .ptrack{flex:1;min-width:70px;height:14px;background:var(--line);border-radius:4px;overflow:hidden}.prog .pfill{height:100%;border-radius:4px}
+.prog .pnum{font-family:var(--mono);width:150px;flex:0 0 auto;text-align:right;font-size:11px;color:var(--ink2)}
+.prog .ptag{width:42px;flex:0 0 auto;text-align:right}
+@media(max-width:620px){.prog{flex-wrap:wrap}.prog .ptrack{order:3;flex-basis:100%}.prog .pnum{width:auto;flex:1;text-align:left}}
+.depalloc input{width:84px}
+.hist{font-size:11.5px;color:var(--ink2);padding:6px 0;border-bottom:1px solid var(--line)}.hist:last-child{border-bottom:0}.hist b{color:var(--ink);font-family:var(--mono)}
 </style>
 </head>
 <body>
 <div class="wrap">
  <div class="top"><h1>TI<b>OS</b></h1><span class="asof">Live · prices as of <b id="asof">…</b> · auto-updated daily</span><button class="btn" id="themebtn">◐ Light</button></div>
- <div class="note" style="margin-bottom:10px">Self-running view of your own data — not advice. Prices auto-fetch from your daily feed; holdings stay private in this browser. <span id="loadstatus"></span></div>
+ <div class="note" style="margin-bottom:10px">Your goal tracker — not advice. Prices auto-fetch from your daily feed; your holdings, situation and deposit log stay private in this browser. <span id="loadstatus"></span></div>
 
  <div class="hero" id="herocard" style="display:none"></div>
  <div class="legend" style="margin:-2px 0 12px">Flags used below: <span class="flag f-fact">FACT</span> measured / from statements · <span class="flag f-est">EST</span> estimate · <span class="flag f-interp">INTERP</span> interpretation.</div>
@@ -84,75 +90,97 @@ table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;p
  <div id="setup" class="card" style="display:none"><h2>One-time setup — enter your holdings (stays in this browser only)</h2>
   <p class="note" style="margin-bottom:8px">Paste one line per holding as <b>TICKER,units,cost</b> (cost = total $ paid), then Save.</p>
   <textarea id="pastebox" placeholder="VAS,10,1000&#10;IVV,5,500&#10;..."></textarea>
-  <div class="row" style="margin-top:8px"><button class="btn" id="savePaste">Save holdings</button><span class="note" id="pasteMsg"></span></div>
+  <div class="row" style="margin-top:8px"><button class="btn primary" id="savePaste">Save holdings</button><span class="note" id="pasteMsg"></span></div>
  </div>
 
  <div class="card"><div class="kpis" id="kpis"></div><div class="legend" id="weekmove"></div></div>
 
- <div class="card"><h2>Your situation — edit; everything below updates</h2>
+ <div class="card"><h2>Your situation <span class="sub">— edit; everything updates</span></h2>
   <div class="sit">
    <div class="field"><label>Taxable income this financial year</label><div class="row"><span class="seg" id="segIncome"><button data-v="under" class="on">None / under threshold</button><button data-v="over">Above threshold</button></span></div><span class="hint">None → realised gains ~0% AU.</span></div>
-   <div class="field"><label>Planned deposit</label><div class="row">$<input type="number" id="depAmt" value="500" min="0" step="50"> <select id="depFreq"><option value="month">/ month</option><option value="fortnight">/ fortnight</option><option value="once">one-off</option></select></div><span class="hint">Drives where new money goes.</span></div>
+   <div class="field"><label>Planned deposit</label><div class="row">$<input type="number" id="depAmt" value="500" min="0" step="50"> <select id="depFreq"><option value="month">/ month</option><option value="fortnight">/ fortnight</option><option value="once">one-off</option></select></div><span class="hint">Drives the glide path + where new money goes.</span></div>
    <div class="field"><label>Residency confirmed with a registered agent?</label><div class="row"><span class="seg" id="segResid"><button data-v="no" class="on">Not yet</button><button data-v="yes">Confirmed</button></span></div><span class="hint">The real gate on any meaningful sale.</span></div>
    <div class="field"><label>Employment &amp; emergency buffer</label><div class="row"><span class="seg" id="segEmp"><button data-v="study" class="on">Studying</button><button data-v="work">Working</button></span> <span class="seg" id="segBuf"><button data-v="yes" class="on">Buffer ✓</button><button data-v="no">No buffer</button></span></div></div>
   </div>
  </div>
 
- <div class="card"><h2>What to do</h2><div id="todo"></div><div class="legend">Rules-based from your plan + situation — not a market-timing call. No "sell X now" signals.</div></div>
- <div class="card"><h2>Where &amp; why — each holding vs plan</h2><div id="holdings"></div><div class="legend"><b>ADD</b> under plan · <b>STOP</b> over plan, don't add · <b>FOLD</b> target 0 · <b>CAP</b> capped sleeve · <b>HOLD</b> on plan.</div></div>
+ <div class="card"><h2>Path to Target v1 <span class="sub">— where you are &amp; how you get there</span></h2>
+  <div class="glide" id="glide"></div>
+  <div id="goalrows"></div>
+  <div class="legend">Bar = how far each line is to its target weight. <span style="color:var(--add)">$ to go</span> = add this much to hit target · <span style="color:var(--stop)">over</span> = let contributions dilute it · <b>ADD</b> under · <b>STOP</b> over, don't add · <b>FOLD</b> target 0 (sell-gated) · <b>CAP</b> capped · <b>HOLD</b> on plan.</div>
+ </div>
+
+ <div class="card"><h2>Log a deposit / trade <span class="sub">— saved in this browser</span></h2>
+  <div class="row" style="margin-bottom:9px">
+   <label class="note">Date <input type="date" id="depDate"></label>
+   <label class="note">Amount $ <input type="number" id="depLogAmt" min="0" step="50"></label>
+   <button class="btn primary" id="depAuto">Auto-allocate to plan</button>
+  </div>
+  <table class="depalloc"><thead><tr><th>Ticker</th><th class="r">Allocate $</th><th class="r">≈ units @ live price</th></tr></thead><tbody id="depbody"></tbody></table>
+  <div class="row" style="margin-top:9px"><button class="btn primary" id="depSave">Save deposit</button><span class="note" id="depMsg"></span></div>
+  <div class="legend" style="margin-top:12px"><b>Deposit history</b> <span id="depTotal"></span></div>
+  <div id="dephist"></div>
+  <details style="margin-top:10px"><summary>Manual holdings edit (units / cost)</summary><div class="dbody">
+   <p class="note">Use this to correct units &amp; cost directly (e.g. after a distribution-reinvestment or a sale).</p>
+   <table><thead><tr><th>Ticker</th><th>Units</th><th>Cost $ (total)</th></tr></thead><tbody id="editbody"></tbody></table>
+   <div class="row" style="margin-top:8px"><button class="btn" id="saveEdit">Save edits</button><span class="note" id="editMsg"></span></div>
+  </div></details>
+ </div>
+
+ <div class="card"><h2>What to do &amp; what to watch</h2><div id="todo"></div><div class="legend">Rules-based from your plan + situation — not a market-timing call. No "sell X now" signals.</div></div>
  <div class="card"><h2>Tax — for your situation</h2><div class="taxbox" id="tax"></div></div>
 
- <details><summary>Edit holdings / log a confirmed trade</summary><div class="dbody">
-  <p class="note">Update units &amp; cost when trades confirm. Stored in this browser only.</p>
-  <table><thead><tr><th>Ticker</th><th>Units</th><th>Cost $ (total)</th></tr></thead><tbody id="editbody"></tbody></table>
-  <div class="row" style="margin-top:8px"><button class="btn" id="saveEdit">Save</button><span class="note" id="editMsg"></span></div>
- </div></details>
+ <div class="top" style="margin:18px 0 9px"><h2 style="font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin:0">Market context — how the world reaches your book</h2><button class="btn" id="expandbtn" style="margin-left:auto">⊕ Expand all</button></div>
 
- <div class="top" style="margin:18px 0 9px"><h2 style="font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin:0">Full market analysis</h2><button class="btn" id="expandbtn" style="margin-left:auto">⊕ Expand all</button></div>
+ <details><summary>Concentration — your one-AI-bet risk (the most important read)</summary><div class="dbody">
+  <ul class="ul">
+   <li>Eleven funds, but <b>IVV / VGS / NDQ / GGUS hold the same US mega-caps</b>, and ASIA / EMKT overlap on chips.</li>
+   <li>Look-through: <b>~12–14% mega-cap growth</b> + a <b>~10% semiconductor cluster</b> — one engine (AI capex), ≈ <b>25–30% of the book</b>.</li>
+   <li>Only real offset is <b>~1.8% gold</b> (QAU). That's <i>why</i> the plan steers new money to VGS / EMKT / QAU, not the US lines.</li>
+  </ul>
+  <div class="legend" style="margin:10px 0 6px">Look-through Mega-6 ≈12.4% — who carries it: <span class="flag f-est">EST</span></div><div id="mega6"></div>
+  <div class="legend" style="margin:10px 0 6px">Top single names (look-through) — confirmed by the live correlation matrix below:</div><div id="topnames"></div>
+ </div></details>
 
  <details><summary>Per-holding read — what each line really is &amp; how forces reach it</summary><div class="dbody" id="reads"></div></details>
 
- <details><summary>Concentration — your one-AI-bet risk</summary><div class="dbody">
-  <p class="taxbox" style="margin-bottom:9px">Eleven funds, but the four US lines (IVV/VGS/NDQ/GGUS) hold the same mega-caps and ASIA/EMKT overlap on chips → effectively <b>~12–14% look-through mega-cap growth + a ~10% semiconductor cluster on one engine (AI capex), ~25–30% of the book</b>, ~1.8% gold the only real offset. That's <i>why</i> the plan steers new money to VGS/EM/gold, not the US lines. <span class="flag f-est">EST</span></p>
-  <div class="legend" style="margin:0 0 6px">Look-through Mega-6 ≈12.4% — who carries it:</div><div id="mega6"></div>
-  <div class="legend" style="margin:10px 0 6px">Top single names (look-through):</div><div id="topnames"></div>
-  <div class="legend">Semis ≈10.3% (Taiwan/Korea) · AU banks ≈7.6% (VAS+VHY) · top-10 ≈22.4%. Ranks 6–10 aren't individually quantified, so only aggregates shown.</div>
- </div></details>
-
  <details><summary>Market &amp; macro pulse — live reads + what each means for your book</summary><div class="dbody">
   <div id="pulse"></div>
-  <div class="legend">Live from your daily feed (the date shown). The "so what" is interpretation <span class="flag f-interp">INTERP</span>, context only — never a trigger. Iron-ore, CPI and credit-spread aren't in the price feed.</div>
+  <div class="legend">Live from your daily feed (date shown). "So what" is interpretation <span class="flag f-interp">INTERP</span>, context only — never a trigger.</div>
  </div></details>
 
- <details><summary>Look-through exposures (region / currency / sector)</summary><div class="dbody">
-  <p class="taxbox"><b>Region (economic, GGUS 2×):</b> US ~40% · Australia ~29% · Asia/EM ~18% · Europe ~14% · gold ~2%.<br><b>Currency:</b> ~54% carries unhedged foreign-currency risk (HEUR/GGUS/QAU are AUD-hedged).<br><b>Sector:</b> IT/tech ~30% dominant; financials ~12%; materials/energy ~10–12%.<br><b>Factor:</b> large-cap growth + momentum, plus an AU value/dividend pocket; <i>absent</i>: developed value, quality, small-cap, low-vol. <span class="flag f-est">EST</span> (Module 7).</p>
+ <details><summary>Exposures — region / currency / sector / factor</summary><div class="dbody">
+  <ul class="ul">
+   <li><b>Region</b> (economic, GGUS 2×): US ~40% · Australia ~29% · Asia/EM ~18% · Europe ~14% · gold ~2%.</li>
+   <li><b>Currency</b>: ~54% unhedged foreign (HEUR / GGUS / QAU are AUD-hedged).</li>
+   <li><b>Sector</b>: IT/tech ~30% (dominant) · financials ~12% · materials/energy ~10–12%.</li>
+   <li><b>Factor</b>: large-cap growth + momentum + an AU value/dividend pocket. <i>Absent</i>: developed value, quality, small-cap, low-vol.</li>
+  </ul>
+  <div class="legend"><span class="flag f-est">EST</span> from Module 7 (performance-attribution.md).</div>
  </div></details>
 
- <details><summary>Risk monitor — early-warning markers (not action lines)</summary><div class="dbody">
-  <p class="taxbox" style="margin-bottom:9px"><b>Posture:</b> credit tight, breadth moderate, expansion intact — but on extreme valuations + your leverage + concentration, tail-risk is high and cushions thin. <b>Calm ≠ safe.</b> Each "trigger" is a level to <i>understand</i>, never an instruction to act.</p>
+ <details><summary>Risk markers &amp; scenarios — levels to understand, not act on</summary><div class="dbody">
+  <div class="legend" style="margin:0 0 6px"><b>Early-warning markers</b> — calm ≠ safe (extreme valuations + your leverage + concentration = thin cushion):</div>
   <div id="risk"></div>
-  <div class="note" style="margin-top:8px">Narrative snapshot from risk-monitor.md (mid-Jun 2026); the live gauges above update daily.</div>
- </div></details>
-
- <details><summary>Scenarios — how THIS book behaves (sensitivities, not forecasts)</summary><div class="dbody">
+  <div class="legend" style="margin:12px 0 6px"><b>How THIS book behaves</b> (sensitivities, NOT forecasts):</div>
   <div id="scen"></div>
-  <div class="note" style="margin-top:8px">Illustrative ranges from scenario-analysis.md — not predictions or probabilities. The plan already accounts for these (gold + survivable leverage + keep contributing).</div>
+  <div class="note" style="margin-top:8px">Narrative snapshot from risk-monitor.md / scenario-analysis.md (mid-Jun 2026); live gauges update daily.</div>
  </div></details>
 
- <details open><summary>Valuations &amp; statistics</summary><div class="dbody">
+ <details><summary>Valuations &amp; measured statistics</summary><div class="dbody">
   <p class="taxbox"><b>US — expensive on every measure</b> <span class="flag f-fact">FACT</span> <span class="note">(as of mid-Jun 2026)</span>:</p>
-  <ul style="margin:6px 0 0 18px;font-size:12.2px;color:var(--ink2);line-height:1.65">
+  <ul class="ul">
    <li><b>CAPE ~41.9</b> — ~97–99th percentile, near the record</li>
    <li><b>Fwd P/E ~22.4</b> — ~90th percentile</li>
    <li><b>Excess CAPE yield ~1.35%</b> — equities barely paying over bonds</li>
   </ul>
-  <p class="taxbox" style="margin-top:7px">→ lower long-run US returns + de-rating risk, amplified 2× in GGUS. <b>Australia</b> moderately expensive; <b>Europe / EM</b> cheaper (the value case behind HEUR/EMKT).</p>
+  <p class="taxbox" style="margin-top:7px">→ lower long-run US returns + de-rating risk, amplified 2× in GGUS. <b>Australia</b> moderately expensive; <b>Europe / EM</b> cheaper (the value case behind HEUR / EMKT).</p>
   <div id="stats" class="taxbox" style="margin-top:10px"></div>
  </div></details>
 
- <p class="legend">Sources: live prices = your GitHub feed (daily). Units/cost = your entries. Plan/moves = decisions.md (Target v1). Reads/regime/risk/scenarios/valuations = market-intelligence.md, risk-monitor.md, scenario-analysis.md, performance-attribution.md (the canonical files; narrative is a dated snapshot). Markdown remains canonical; this is a view.</p>
+ <p class="legend">Sources: live prices + stats = your GitHub feed (daily). Holdings/deposits = your entries (this browser). Plan = decisions.md (Target v1). Reads/risk/scenarios/valuations = the canonical markdown files (dated snapshot). Markdown remains canonical; this is a view.</p>
 
- <div class="disc">Decision-support &amp; education, not financial/tax advice. Hold + keep contributing; meaningful sales gated on confirming residency with a registered agent. Self-contained; your holdings never leave this browser.</div>
+ <div class="disc">Decision-support &amp; education, not financial/tax advice. Hold + keep contributing; meaningful sales gated on confirming residency + per-fund UK reporting status with a registered agent. Self-contained; your data never leaves this browser.</div>
 </div>
 
 <script>
@@ -173,11 +201,13 @@ const PLAN=[
  {t:'CRYP',tgt:2,move:'HOLD',why:'Speculative sleeve, at cap; keep tiny.', read:'The speculative sleeve, deliberately tiny — crypto-economy equities, very high beta; size is the risk control.'},
 ];
 const MOVE={ADD:['ADD','m-add'],STOP:['STOP','m-stop'],FOLD:['FOLD','m-fold'],CAP:['CAP','m-cap'],HOLD:['HOLD','m-hold']};
-let PRICES={},DATES=[],LATEST={},DATEOF={},HOLD={},STATS=null,S={income:'under',depAmt:500,depFreq:'month',resid:'no',emp:'study',buf:'yes'};
+const ADDLINES=PLAN.filter(p=>p.move==='ADD').map(p=>p.t);
+let PRICES={},DATES=[],LATEST={},DATEOF={},HOLD={},DEP=[],STATS=null,S={income:'under',depAmt:500,depFreq:'month',resid:'no',emp:'study',buf:'yes'};
 
-function loadStore(){try{HOLD=JSON.parse(localStorage.getItem('tios_holdings_v1'))||{};}catch(e){HOLD={};}try{Object.assign(S,JSON.parse(localStorage.getItem('tios_situation_v1'))||{});}catch(e){}}
+function loadStore(){try{HOLD=JSON.parse(localStorage.getItem('tios_holdings_v1'))||{};}catch(e){HOLD={};}try{Object.assign(S,JSON.parse(localStorage.getItem('tios_situation_v1'))||{});}catch(e){}try{DEP=JSON.parse(localStorage.getItem('tios_deposits_v1'))||[];}catch(e){DEP=[];}}
 function saveHold(){localStorage.setItem('tios_holdings_v1',JSON.stringify(HOLD));}
 function saveSit(){localStorage.setItem('tios_situation_v1',JSON.stringify(S));}
+function saveDep(){localStorage.setItem('tios_deposits_v1',JSON.stringify(DEP));}
 function haveHoldings(){return Object.keys(HOLD).some(k=>HOLD[k]&&HOLD[k].u>0);}
 
 async function loadPrices(){
@@ -195,45 +225,89 @@ const px=t=>LATEST[t]||0;
 function priceNDaysAgo(t,n){const m=PRICES[t];if(!m)return null;const ds=Object.keys(m).sort();const i=ds.length-1-n;return i>=0?m[ds[i]]:m[ds[0]];}
 const totalVal=()=>PLAN.reduce((s,p)=>s+((HOLD[p.t]&&HOLD[p.t].u||0)*px(p.t)),0);
 const totalCost=()=>PLAN.reduce((s,p)=>s+((HOLD[p.t]&&HOLD[p.t].c||0)),0);
+function curW(){const tot=totalVal()||1,w={};PLAN.forEach(p=>w[p.t]=(HOLD[p.t]&&HOLD[p.t].u||0)*px(p.t)/tot*100);return w;}
+function alignment(){const w=curW();return PLAN.reduce((s,p)=>s+Math.min(w[p.t],p.tgt),0);}      // % of book already on-target
 
 function renderKPIs(){
- const tot=totalVal(),cost=totalCost(),un=tot-cost;
+ const tot=totalVal(),cost=totalCost(),un=tot-cost,al=alignment();
  $('kpis').innerHTML=`
   <div class="kpi"><div class="k">Portfolio value</div><div class="v">${fmt0(tot)}</div><div class="s">live · ${$('asof').textContent}</div></div>
   <div class="kpi"><div class="k">Unrealised</div><div class="v" style="color:var(--ink2)">${fmtSign(un)}</div><div class="s">${cost?((un/cost*100).toFixed(1)+'% on '+fmt0(cost)+' cost'):'enter cost'}</div></div>
-  <div class="kpi"><div class="k">Holdings</div><div class="v">${PLAN.filter(p=>HOLD[p.t]&&HOLD[p.t].u>0).length}</div><div class="s">of 11 entered</div></div>`;
+  <div class="kpi"><div class="k">Aligned to Target v1</div><div class="v" style="color:var(--accent)">${al.toFixed(0)}%</div><div class="s">100% = exactly on plan</div></div>`;
  const wk=PLAN.map(p=>{const a=priceNDaysAgo(p.t,5),b=px(p.t);return a&&b?{t:p.t,ch:(b/a-1)*100}:null;}).filter(Boolean).sort((a,b)=>a.ch-b.ch);
  $('weekmove').innerHTML=wk.length?`<b>~last week:</b> worst ${wk.slice(0,3).map(w=>w.t+' '+w.ch.toFixed(1)+'%').join(', ')}; best ${wk.slice(-2).reverse().map(w=>w.t+' '+(w.ch>=0?'+':'')+w.ch.toFixed(1)+'%').join(', ')}. Factual context, not a signal.`:'';
- if(STATS&&STATS.ready){const e=STATS.etfs||{};const gv=e.GGUS&&e.GGUS.ann_vol,cv=e.CRYP&&e.CRYP.ann_vol;const dds=PLAN.map(p=>e[p.t]&&e[p.t].max_drawdown).filter(x=>x!=null);const wDD=dds.length?Math.min(...dds):null;$('weekmove').innerHTML+=`<div class="riskstrip"><span class="rs">measured 5-yr risk:</span><span class="rs">GGUS vol <b>${gv!=null?(gv*100).toFixed(0)+'%':'—'}</b></span><span class="rs">CRYP vol <b>${cv!=null?(cv*100).toFixed(0)+'%':'—'}</b></span><span class="rs">worst max-DD <b>${wDD!=null?(wDD*100).toFixed(0)+'%':'—'}</b></span><span class="rs">full table + correlation ↓</span></div>`;}
+ if(STATS&&STATS.ready){const e=STATS.etfs||{};const gv=e.GGUS&&e.GGUS.ann_vol,cv=e.CRYP&&e.CRYP.ann_vol;const dds=PLAN.map(p=>e[p.t]&&e[p.t].max_drawdown).filter(x=>x!=null);const wDD=dds.length?Math.min(...dds):null;$('weekmove').innerHTML+=`<div class="riskstrip"><span class="rs">measured 5-yr risk:</span><span class="rs">GGUS vol <b>${gv!=null?(gv*100).toFixed(0)+'%':'—'}</b></span><span class="rs">CRYP vol <b>${cv!=null?(cv*100).toFixed(0)+'%':'—'}</b></span><span class="rs">worst max-DD <b>${wDD!=null?(wDD*100).toFixed(0)+'%':'—'}</b></span><span class="rs">→ Valuations &amp; statistics</span></div>`;}
 }
-function eligADD(){const tot=totalVal()||1;return PLAN.filter(p=>p.move==='ADD').map(p=>({t:p.t,gap:Math.max(p.tgt-(HOLD[p.t]&&HOLD[p.t].u||0)*px(p.t)/tot*100,0)}));}
+
+/* ---- Path to Target v1 ---- */
+function monthlyDeposit(){return S.depFreq==='fortnight'?(S.depAmt||0)*26/12:(S.depFreq==='month'?(S.depAmt||0):0);}
+function glidePath(){
+ const m=monthlyDeposit(); if(m<=0||!haveHoldings())return null;
+ let val={}; PLAN.forEach(p=>val[p.t]=(HOLD[p.t]&&HOLD[p.t].u||0)*px(p.t));
+ const tt=()=>Object.values(val).reduce((a,b)=>a+b,0)||1;
+ const wOf=t=>val[t]/tt()*100;
+ const align=()=>PLAN.reduce((s,p)=>s+Math.min(val[p.t]/tt()*100,p.tgt),0);
+ let vgsM=null,alignM=null,mo=0;
+ for(mo=1;mo<=600;mo++){
+  const tot=tt();const gaps=ADDLINES.map(t=>{const p=PLAN.find(x=>x.t===t);return {t,gap:Math.max(p.tgt-val[t]/tot*100,0)};});
+  const gs=gaps.reduce((s,g)=>s+g.gap,0);
+  if(gs>0)gaps.forEach(g=>val[g.t]+=m*g.gap/gs); else val.VGS+=m;
+  if(vgsM===null&&wOf('VGS')>=31.5)vgsM=mo;
+  if(alignM===null&&align()>=95)alignM=mo;
+  if(align()>=97||(vgsM&&alignM))break;
+ }
+ return {m,vgsM,alignM:alignM||mo,finalAlign:align()};
+}
+function renderGoal(){
+ const tot=totalVal()||1,w=curW();
+ const g=glidePath();
+ if(!haveHoldings()){$('glide').innerHTML='Enter your holdings to see the path to Target v1.';}
+ else if(!g){$('glide').innerHTML='<b>Glide path</b> — set a recurring deposit in “Your situation” above to project how you reach Target v1.';}
+ else{const d=new Date();d.setMonth(d.getMonth()+g.alignM);const dd=d.toLocaleDateString('en-AU',{month:'short',year:'numeric'});
+  $('glide').innerHTML=`<b>Glide path</b> — at <b>${fmt0(g.m)}/mo</b> routed to the under-target lines: VGS reaches its 32% target in <b>~${g.vgsM||'—'} mo</b>; the book is <b>~95% aligned to Target v1 in ~${g.alignM} mo (≈ ${dd})</b>. The over-target lines (IVV/VAS/HEUR/NDQ) drift toward target as the book grows; <b>VHY → 0 needs a sale (adviser-gated)</b>, so it only falls by dilution. <span class="note">Assumes flat prices — the real path moves with the market.</span>`;}
+ const order=[...PLAN].sort((a,b)=>(b.tgt-w[b.t])-(a.tgt-w[a.t]));
+ $('goalrows').innerHTML=order.map(p=>{const cur=w[p.t],tgt=p.tgt,gapD=(tgt-cur)/100*tot,m=MOVE[p.move];
+  let fill,col,num;
+  if(tgt>0){fill=Math.min(cur/tgt,1)*100; if(cur>tgt+0.3){col='var(--stop)';num=`${cur.toFixed(1)}% / ${tgt}% · <span style="color:var(--stop)">${fmt0(-gapD)} over</span>`;} else if(tgt-cur>0.3){col='var(--accent)';num=`${cur.toFixed(1)}% / ${tgt}% · <span style="color:var(--add)">${fmt0(gapD)} to go</span>`;} else {col='var(--green)';num=`${cur.toFixed(1)}% / ${tgt}% · on plan`;}}
+  else{fill=100;col='var(--fold)';num=`${cur.toFixed(1)}% / 0% · <span style="color:var(--fold)">sell-gated</span>`;}
+  return `<div class="prog"><span class="tk">${p.t}</span><div class="ptrack"><div class="pfill" style="width:${fill.toFixed(0)}%;background:${col}"></div></div><span class="pnum">${num}</span><span class="ptag"><span class="tag2 ${m[1]}">${m[0]}</span></span></div>`;}).join('');
+}
+
+/* ---- deposit log ---- */
+function autoAlloc(amt){const w=curW(),gaps=ADDLINES.map(t=>{const p=PLAN.find(x=>x.t===t);return {t,gap:Math.max(p.tgt-w[t],0)};}),gs=gaps.reduce((s,x)=>s+x.gap,0)||1,out={};gaps.forEach(x=>out[x.t]=Math.round(amt*x.gap/gs));return out;}
+function renderDepForm(alloc){
+ $('depbody').innerHTML=PLAN.map(p=>{const v=(alloc&&alloc[p.t])||'';return `<tr><td class="mono">${p.t}</td><td class="r"><input type="number" min="0" step="10" data-dt="${p.t}" value="${v}"></td><td class="r mono note" id="du-${p.t}">${v&&px(p.t)?(v/px(p.t)).toFixed(3):'—'}</td></tr>`;}).join('');
+ $('depbody').querySelectorAll('input').forEach(inp=>inp.addEventListener('input',()=>{const t=inp.dataset.dt,v=parseFloat(inp.value)||0;$('du-'+t).textContent=(v&&px(t))?(v/px(t)).toFixed(3):'—';}));
+}
+function renderDepHist(){
+ const tot=DEP.reduce((s,d)=>s+(d.amount||0),0);
+ $('depTotal').textContent=DEP.length?`— ${fmt0(tot)} logged across ${DEP.length} deposit${DEP.length>1?'s':''}`:'';
+ $('dephist').innerHTML=DEP.length?[...DEP].map((d,i)=>({d,i})).reverse().map(({d,i})=>`<div class="hist">${d.date||'—'} — <b>${fmt0(d.amount)}</b> → ${Object.entries(d.alloc||{}).filter(([,v])=>v>0).map(([t,v])=>t+' '+fmt0(v)).join(' · ')||'(unallocated)'} <button class="btn" style="padding:1px 7px;font-size:10px" data-di="${i}">undo</button></div>`).join(''):'<div class="note">No deposits logged yet — record one above and it’s saved here.</div>';
+ $('dephist').querySelectorAll('button[data-di]').forEach(b=>b.onclick=()=>{const idx=+b.dataset.di,d=DEP[idx];if(!d)return;Object.entries(d.units||{}).forEach(([t,u])=>{if(HOLD[t]){HOLD[t].u=Math.max(0,(HOLD[t].u||0)-u);HOLD[t].c=Math.max(0,(HOLD[t].c||0)-(d.alloc[t]||0));}});DEP.splice(idx,1);saveDep();saveHold();renderAll();});
+}
+
 function renderTodo(){
- const amt=S.depAmt||0,elig=eligADD(),gs=elig.reduce((s,e)=>s+e.gap,0)||1;
- const split=elig.map(e=>`<span class="rchip">${e.t} <b>${fmt0(amt*e.gap/gs)}</b></span>`).join('');
- const freq=S.depFreq==='once'?'one-off':('per '+S.depFreq);
- let sell=S.resid==='yes'?`<b>On the table, tax-free at your size.</b> ${S.income==='under'?'No taxable income this year → ~0% AU regardless of the 12-month discount.':'Mind the 12-month discount dates (Tax).'} Prefer contributions; weigh any sale with your agent.`:`<b>Off the table for now — and not needed.</b> Confirm residency with a registered agent first; until then it’s contributions only, which reach your plan anyway. ${S.income==='under'?'(No income this year → even a sale would be ~0% AU; the only blocker is the residency gate.)':''}`;
+ const amt=S.depAmt||0,freq=S.depFreq==='once'?'one-off':('per '+S.depFreq);
+ const w=curW(),gaps=ADDLINES.map(t=>({t,gap:Math.max(PLAN.find(x=>x.t===t).tgt-w[t],0)})),gs=gaps.reduce((s,e)=>s+e.gap,0)||1;
+ const split=gaps.some(g=>g.gap>0)?gaps.map(e=>`${e.t} ${fmt0(amt*e.gap/gs)}`).join(' · '):'';
+ let sell=S.resid==='yes'?`<b>On the table, tax-free at your size.</b> ${S.income==='under'?'No taxable income this year → ~0% AU regardless of the 12-month discount.':'Mind the 12-month discount dates (Tax).'} Prefer contributions; weigh any sale with your agent.`:`<b>Off the table for now — and not needed.</b> Confirm residency + per-fund UK reporting status with a registered agent first; until then it’s contributions only, which reach your plan anyway.`;
  const buf=S.buf==='no'?` <b style="color:var(--amber)">Build a cash buffer first</b> so the portfolio is never a forced seller.`:'';
  $('todo').innerHTML=`
   <div class="todo"><span class="tag t-hold">HOLD</span><div class="body"><b>Keep everything and keep contributing.</b> A 20–40-yr accumulation book; decision quality &gt; activity.${buf}</div></div>
-  <div class="todo"><span class="tag t-add">DEPOSIT</span><div class="body">Next ${fmt0(amt)} ${freq} → <div class="route">${split||'<span class="rchip">enter holdings to route</span>'}</div><span class="note">Biggest gap-to-plan first; skips capped GGUS/CRYP. Tax-free, no adviser.</span></div></div>
   <div class="todo"><span class="tag t-gate">SELL?</span><div class="body">${sell}</div></div>
   <div class="todo"><span class="tag t-watch">WATCH</span><div class="body" id="watch"></div></div>`;
- const wd=[['30 Jun','FY end — distributions + AMMA statements follow'],['~late Jul','US FOMC + dot plot'],['11 Aug','RBA decision'],['~31 Aug 2026',S.income==='under'?'Aug-2025 parcels hit 12mo — tax-neutral for you while under threshold':'Aug-2025 parcels hit 12mo → 50% CGT discount'],['1 Jul 2027','proposed AU CGT change (not law)']];
- $('watch').innerHTML=wd.map(d=>`<div style="display:flex;gap:9px;padding:3px 0"><span class="mono" style="width:90px;flex:0 0 auto;color:var(--ink)">${d[0]}</span><span class="note">${d[1]}</span></div>`).join('');
+ const wd=[['30 Jun','FY end — distributions + AMMA statements follow'],['~late Jul','US FOMC + dot plot'],['11 Aug','RBA decision'],['~31 Aug 2026',S.income==='under'?'Aug-2025 parcels hit 12mo — tax-neutral while under threshold':'Aug-2025 parcels hit 12mo → 50% CGT discount'],['1 Jul 2027','proposed AU CGT change (not law)']];
+ $('watch').innerHTML=wd.map(d=>`<div style="display:flex;gap:9px;padding:3px 0"><span class="mono" style="width:92px;flex:0 0 auto;color:var(--ink)">${d[0]}</span><span class="note">${d[1]}</span></div>`).join('');
  const hc=$('herocard');
- if(hc){ if(split){hc.style.display='block';hc.innerHTML=`<div class="hl">Your next move</div><div class="hv">Next ${fmt0(amt)} ${freq} → ${elig.map(e=>`<b>${e.t} ${fmt0(amt*e.gap/gs)}</b>`).join(' · ')} &nbsp;·&nbsp;<span style="color:var(--ink2);font-weight:400"> HOLD + keep contributing — no sale needed</span></div>`;} else {hc.style.display='none';} }
-}
-function renderHoldings(){const tot=totalVal()||1;
- $('holdings').innerHTML=PLAN.map(p=>{const u=HOLD[p.t]&&HOLD[p.t].u||0,w=u*px(p.t)/tot*100,gap=p.tgt-w,m=MOVE[p.move];
-  return `<div class="hline"><span class="tk">${p.t}</span><span class="wt">${u?w.toFixed(1)+'%':'—'} <span class="note">/ ${p.tgt}% (${gap>=0?'+':''}${gap.toFixed(0)})</span></span><span><span class="tag2 ${m[1]}">${m[0]}</span></span><span class="why">${p.why}</span></div>`;}).join('');
+ if(hc){ if(split&&amt>0){hc.style.display='block';hc.innerHTML=`<div class="hl">Your next move</div><div class="hv">Next ${fmt0(amt)} ${freq} → <b>${split}</b> &nbsp;·&nbsp;<span style="color:var(--ink2);font-weight:400">HOLD + keep contributing — no sale needed</span></div>`;} else {hc.style.display='none';} }
 }
 function renderTax(){
  const auLine=S.income==='under'?`<b>AU:</b> no taxable income this year → under the threshold, so <span class="em">any realised gain is ~0% AU regardless of the 50% discount</span> (discount timing ~31 Aug only matters if income rises).`:`<b>AU:</b> you have income → the 50% discount matters; parcels &gt;12mo (Aug-2025 lines ~31 Aug 2026, Apr-2026 lines Apr–Jun 2027) are taxed on half, newer lines on the full gain.`;
- $('tax').innerHTML=auLine+` <b style="color:var(--amber)">⚠ UK (you're a UK + AU dual resident):</b> your ETFs are AU-listed and likely <b>non-reporting</b> in the UK → a sale's gain may be taxed as <b>UK income (up to 45%), NOT within the £3k CGT exemption</b>. This likely makes selling-while-UK-resident costlier than it looks. <b>The real gate: have a registered agent confirm the AU/UK treaty tie-breaker AND the UK offshore-fund treatment before any sale.</b> <span class="note">Not tax advice.</span>`;
+ $('tax').innerHTML=auLine+` <b style="color:var(--amber)">⚠ UK (you're a UK + AU dual resident):</b> your ETFs are AU-listed and <b>non-reporting</b> in the UK → a sale's gain is taxed as <b>UK income (up to 45%), NOT within the £3k CGT exemption</b>. That makes selling-while-UK-resident costlier than it looks. <b>The real gate: a registered agent confirms the AU/UK treaty tie-breaker + per-fund UK reporting status before any sale.</b> <span class="note">Not tax advice.</span>`;
 }
-function renderEdit(){$('editbody').innerHTML=PLAN.map(p=>{const h=HOLD[p.t]||{};return `<tr class="editrow"><td class="mono">${p.t}</td><td><input type="number" step="0.001" data-t="${p.t}" data-f="u" value="${h.u!=null?h.u:''}"></td><td><input type="number" step="0.01" data-t="${p.t}" data-f="c" value="${h.c!=null?h.c:''}"></td></tr>`;}).join('');}
+function renderEdit(){$('editbody').innerHTML=PLAN.map(p=>{const h=HOLD[p.t]||{};return `<tr><td class="mono">${p.t}</td><td><input type="number" step="0.001" data-t="${p.t}" data-f="u" value="${h.u!=null?h.u:''}"></td><td><input type="number" step="0.01" data-t="${p.t}" data-f="c" value="${h.c!=null?h.c:''}"></td></tr>`;}).join('');}
 
-/* ---- full analysis ---- */
+/* ---- market context ---- */
 function renderReads(){$('reads').innerHTML=PLAN.map(p=>`<div class="feed"><div class="ft">${p.t}</div><div class="fw">${p.read}</div></div>`).join('');}
 function bar(target,items,max){$(target).innerHTML=items.map(it=>`<div class="bar"><span class="bl">${it[0]}</span><div class="bt"><i style="width:${Math.min(it[1]/max*100,100).toFixed(0)}%${it[2]?';background:'+it[2]:''}"></i></div><span class="bv">${it[1]}${it[3]||'%'}</span></div>`).join('');}
 function renderConc(){
@@ -260,11 +334,11 @@ function renderPulse(){
   return `<div class="pulse"><div class="ph"><span class="pn">${p[1]}</span><span class="pv">${disp}</span></div><div class="ps"><b>So what:</b> ${p[2]}</div><div class="note" style="margin-top:3px">${DATEOF[p[0]]||''}</div></div>`;}).join('');
 }
 function renderRisk(){
- const R=[['green','Credit spreads','tight / complacent — no warning yet, but no cushion either'],['amber','Yield curve / 10-yr','un-inverted; higher yields de-rate your tech'],['amber','Breadth','~56% above 200-DMA — narrow, mega-cap-led'],['amber','Recession composite','~44/100; LEI “3Ds”; not imminent'],['red','Geopolitical','Iran unresolved; Taiwan latent → semis single-point-of-failure'],['amber','AI capex','~40–50% of S&P EPS growth — your largest correlated bet']];
+ const R=[['green','Credit spreads','tight / complacent — no warning yet, but no cushion either'],['amber','Yield curve / 10-yr','un-inverted; higher yields de-rate your tech'],['amber','Breadth','~56% above 200-DMA — narrow, mega-cap-led'],['amber','Recession composite','~44/100; not imminent'],['red','Geopolitical','Taiwan latent → semis single-point-of-failure'],['amber','AI capex','~40–50% of S&P EPS growth — your largest correlated bet']];
  $('risk').innerHTML=R.map(r=>`<div class="feed"><div class="ft"><span class="dot d-${r[0]}"></span>${r[1]}</div><div class="fw">${r[2]}</div></div>`).join('');
 }
 function renderScen(){
- const SC=[['AI-boom continues','up','Mega-cap/semis/GGUS all win — the best case.'],['AI-capex bust','down','Worst correlated case: mega-cap+semis+GGUS = one bet (~25–30%), −20% to −30%+ fast, almost no offset.'],['Recession','down','~all equity; GGUS 2× & CRYP worst; no bonds → −35% to −50%.'],['Stagflation (live)','mid','Energy shock persists, hawkish CBs; gold/energy soften but don’t hold.'],['Taiwan conflict','down','Catastrophic for the ~10% semi cluster; GGUS amplifies.']];
+ const SC=[['AI-boom continues','up','Mega-cap/semis/GGUS all win — the best case.'],['AI-capex bust','down','Worst correlated case: mega-cap+semis+GGUS = one bet (~25–30%), −20% to −30%+ fast, almost no offset.'],['Recession','down','~all equity; GGUS 2× & CRYP worst; no bonds → −35% to −50%.'],['Stagflation','mid','Energy shock + hawkish CBs; gold/energy soften but don’t hold.'],['Taiwan conflict','down','Catastrophic for the ~10% semi cluster; GGUS amplifies.']];
  $('scen').innerHTML='<table><thead><tr><th>Scenario</th><th>Net</th><th>For your book</th></tr></thead><tbody>'+SC.map(s=>`<tr><td><b>${s[0]}</b></td><td><span class="sev ${s[1]==='up'?'sev-up':(s[1]==='mid'?'sev-mid':'sev-down')}">${s[1]==='up'?'▲':'▼'}</span></td><td>${s[2]}</td></tr>`).join('')+'</tbody></table>';
 }
 function renderStats(){
@@ -277,27 +351,37 @@ function renderStats(){
    const body=ks.map(a=>`<tr><td class="lab">${a}</td>`+ks.map(b=>{const v=cm[a]&&cm[a][b];if(v==null)return '<td>—</td>';const al=Math.max(0,Math.min(1,v));return `<td style="background:rgba(110,168,254,${al.toFixed(2)})">${v.toFixed(2)}</td>`;}).join('')+'</tr>').join('');
    heat=`<div class="legend" style="margin:12px 0 4px"><b>Correlation matrix</b> (daily returns; deeper blue = more correlated — the overlap thesis made visible):</div><div style="overflow-x:auto"><table class="heat"><thead>${hd}</thead><tbody>${body}</tbody></table></div>`;
   }
-  $('stats').innerHTML=`<b>Statistics</b> — measured daily in the cron (${STATS.n_days} daily returns, 5-yr history, as of ${(STATS.generated||'').slice(0,10)}) <span class="flag f-fact">FACT</span><table style="margin-top:6px"><thead><tr><th>ETF</th><th class="r">Ann. vol</th><th class="r">Beta (ASX200)</th><th class="r">Max DD</th></tr></thead><tbody>${rows}</tbody></table><div class="note" style="margin-top:6px">Beta shown is vs <b>ASX 200</b> — the meaningful benchmark for ASX-listed funds. (Beta vs the S&P reads artificially low because AU funds trade out of sync with the US close; that column is in data/stats.json.) Price-return basis; deterministic, no LLM.</div>${heat}`;
+  $('stats').innerHTML=`<b>Statistics</b> — measured daily in the cron (${STATS.n_days} daily returns, 5-yr history, as of ${(STATS.generated||'').slice(0,10)}) <span class="flag f-fact">FACT</span><table style="margin-top:6px"><thead><tr><th>ETF</th><th class="r">Ann. vol</th><th class="r">Beta (ASX200)</th><th class="r">Max DD</th></tr></thead><tbody>${rows}</tbody></table><div class="note" style="margin-top:6px">Beta is vs <b>ASX 200</b> — the meaningful benchmark for ASX-listed funds. (Beta vs the S&P reads artificially low because AU funds trade out of sync with the US close; it's in data/stats.json.) Price-return basis; deterministic, no LLM.</div>${heat}`;
   return;
  }
  const n=(STATS&&STATS.n_days)||0,min=(STATS&&STATS.min_days)||25;
- $('stats').innerHTML=`<b>Statistics — accruing:</b> ${n} of ${min} daily returns needed before volatility / beta / correlation / drawdown are trusted (no fabricated precision). The cron computes them automatically once enough history exists (≈ end-July). Returns + the week-move above are solid now.`;
+ $('stats').innerHTML=`<b>Statistics — accruing:</b> ${n} of ${min} daily returns needed before vol / beta / correlation / drawdown are trusted. The cron computes them automatically once enough history exists. Returns + the week-move above are solid now.`;
 }
 
-function renderAll(){$('setup').style.display=haveHoldings()?'none':'block';renderKPIs();renderTodo();renderHoldings();renderTax();renderEdit();renderReads();renderConc();renderPulse();renderRisk();renderScen();renderStats();}
+function renderAll(){$('setup').style.display=haveHoldings()?'none':'block';renderKPIs();renderGoal();renderTodo();renderTax();renderEdit();renderDepHist();renderReads();renderConc();renderPulse();renderRisk();renderScen();renderStats();}
 
 function seg(id,key){const el=$(id);if(!el)return;el.querySelectorAll('button').forEach(b=>{b.classList.toggle('on',b.dataset.v===S[key]);b.onclick=()=>{el.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');S[key]=b.dataset.v;saveSit();renderAll();};});}
 function wireInputs(){
  ['segIncome:income','segResid:resid','segEmp:emp','segBuf:buf'].forEach(s=>{const[id,k]=s.split(':');seg(id,k);});
  $('depAmt').value=S.depAmt;$('depFreq').value=S.depFreq;
- $('depAmt').addEventListener('input',e=>{S.depAmt=parseFloat(e.target.value)||0;saveSit();renderTodo();});
- $('depFreq').addEventListener('change',e=>{S.depFreq=e.target.value;saveSit();renderTodo();});
+ $('depAmt').addEventListener('input',e=>{S.depAmt=parseFloat(e.target.value)||0;saveSit();renderKPIs();renderGoal();renderTodo();});
+ $('depFreq').addEventListener('change',e=>{S.depFreq=e.target.value;saveSit();renderGoal();renderTodo();});
  $('savePaste').onclick=()=>{let n=0;$('pastebox').value.split(/\r?\n/).forEach(l=>{const c=l.split(',');if(c.length<2)return;const t=c[0].trim().toUpperCase();if(!PLAN.some(p=>p.t===t))return;HOLD[t]={u:parseFloat(c[1])||0,c:parseFloat(c[2])||0};n++;});saveHold();$('pasteMsg').textContent=`saved ${n} ✓`;renderAll();};
  $('saveEdit').onclick=()=>{$('editbody').querySelectorAll('input').forEach(inp=>{const t=inp.dataset.t,f=inp.dataset.f,v=parseFloat(inp.value);HOLD[t]=HOLD[t]||{};HOLD[t][f]=isNaN(v)?0:v;});saveHold();$('editMsg').textContent='saved ✓';renderAll();};
+ // deposit log
+ $('depDate').value=new Date().toISOString().slice(0,10);
+ $('depLogAmt').value=S.depAmt;
+ renderDepForm(null);
+ $('depAuto').onclick=()=>{const amt=parseFloat($('depLogAmt').value)||0;if(amt<=0){$('depMsg').textContent='enter an amount first';return;}renderDepForm(autoAlloc(amt));$('depMsg').textContent='allocated to the under-target lines — edit any line, then Save';};
+ $('depSave').onclick=()=>{const amt=parseFloat($('depLogAmt').value)||0;const date=$('depDate').value||new Date().toISOString().slice(0,10);const alloc={},units={};let any=false;
+  $('depbody').querySelectorAll('input').forEach(inp=>{const t=inp.dataset.dt,v=parseFloat(inp.value)||0;if(v>0){alloc[t]=v;const u=px(t)?v/px(t):0;units[t]=u;HOLD[t]=HOLD[t]||{u:0,c:0};HOLD[t].u=(HOLD[t].u||0)+u;HOLD[t].c=(HOLD[t].c||0)+v;any=true;}});
+  if(!any){$('depMsg').textContent='nothing allocated — enter $ on at least one line (or Auto-allocate)';return;}
+  DEP.push({date,amount:amt||Object.values(alloc).reduce((a,b)=>a+b,0),alloc,units});saveDep();saveHold();
+  $('depMsg').textContent='deposit saved ✓ holdings updated';renderAll();$('depDate').value=new Date().toISOString().slice(0,10);$('depLogAmt').value=S.depAmt;renderDepForm(null);};
  const eb=$('expandbtn');
- if(eb){const all=()=>[...document.querySelectorAll('.dbody')].map(d=>d.closest('details')).filter(Boolean);
-  eb.onclick=()=>{const ds=all();const anyClosed=ds.some(d=>!d.open);ds.forEach(d=>d.open=anyClosed);eb.textContent=anyClosed?'⊖ Collapse all':'⊕ Expand all';localStorage.setItem('tios_expand',anyClosed?'1':'0');};
-  if(localStorage.getItem('tios_expand')==='1'){all().forEach(d=>d.open=true);eb.textContent='⊖ Collapse all';}}
+ if(eb){const all=()=>[...document.querySelectorAll('.dbody')].map(d=>d.closest('details')).filter(d=>d&&d.querySelector('summary'));
+  eb.onclick=()=>{const ds=[...document.querySelectorAll('details')].filter(d=>d.querySelector('summary')&&!d.closest('.card'));const anyClosed=ds.some(d=>!d.open);ds.forEach(d=>d.open=anyClosed);eb.textContent=anyClosed?'⊖ Collapse all':'⊕ Expand all';localStorage.setItem('tios_expand',anyClosed?'1':'0');};
+  if(localStorage.getItem('tios_expand')==='1'){[...document.querySelectorAll('details')].filter(d=>d.querySelector('summary')&&!d.closest('.card')).forEach(d=>d.open=true);eb.textContent='⊖ Collapse all';}}
 }
 function applyTheme(t){document.body.classList.toggle('light',t==='light');$('themebtn').textContent=t==='light'?'◑ Dark':'◐ Light';}
 let theme=localStorage.getItem('tios_theme')||'dark';applyTheme(theme);

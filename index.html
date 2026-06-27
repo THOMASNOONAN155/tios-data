@@ -245,26 +245,26 @@ function glidePath(){
  const m=monthlyDeposit(); if(m<=0||!haveHoldings())return null;
  let val={}; PLAN.forEach(p=>val[p.t]=(HOLD[p.t]&&HOLD[p.t].u||0)*px(p.t));
  const tt=()=>Object.values(val).reduce((a,b)=>a+b,0)||1;
- const wOf=t=>val[t]/tt()*100;
- const align=()=>PLAN.reduce((s,p)=>s+Math.min(val[p.t]/tt()*100,p.tgt),0);
- let vgsM=null,alignM=null,mo=0;
+ const reach={}; ADDLINES.forEach(t=>reach[t]=null);
+ let mo=0;
  for(mo=1;mo<=600;mo++){
   const tot=tt();const gaps=ADDLINES.map(t=>{const p=PLAN.find(x=>x.t===t);return {t,gap:Math.max(p.tgt-val[t]/tot*100,0)};});
   const gs=gaps.reduce((s,g)=>s+g.gap,0);
-  if(gs>0)gaps.forEach(g=>val[g.t]+=m*g.gap/gs); else val.VGS+=m;
-  if(vgsM===null&&wOf('VGS')>=31.5)vgsM=mo;
-  if(alignM===null&&align()>=95)alignM=mo;
-  if(align()>=97||(vgsM&&alignM))break;
+  if(gs<=0.05)break;
+  gaps.forEach(g=>{if(g.gap>0)val[g.t]+=m*g.gap/gs;});
+  ADDLINES.forEach(t=>{const p=PLAN.find(x=>x.t===t);if(reach[t]===null&&val[t]/tt()*100>=p.tgt-0.2)reach[t]=mo;});
+  if(ADDLINES.every(t=>reach[t]!==null))break;
  }
- return {m,vgsM,alignM:alignM||mo,finalAlign:align()};
+ const allM=Math.max(...ADDLINES.map(t=>reach[t]||mo));
+ return {m,reach,allM,vgsM:reach.VGS||mo};
 }
 function renderGoal(){
  const tot=totalVal()||1,w=curW();
  const g=glidePath();
  if(!haveHoldings()){$('glide').innerHTML='Enter your holdings to see the path to Target v1.';}
  else if(!g){$('glide').innerHTML='<b>Glide path</b> — set a recurring deposit in “Your situation” above to project how you reach Target v1.';}
- else{const d=new Date();d.setMonth(d.getMonth()+g.alignM);const dd=d.toLocaleDateString('en-AU',{month:'short',year:'numeric'});
-  $('glide').innerHTML=`<b>Glide path</b> — at <b>${fmt0(g.m)}/mo</b> routed to the under-target lines: VGS reaches its 32% target in <b>~${g.vgsM||'—'} mo</b>; the book is <b>~95% aligned to Target v1 in ~${g.alignM} mo (≈ ${dd})</b>. The over-target lines (IVV/VAS/HEUR/NDQ) drift toward target as the book grows; <b>VHY → 0 needs a sale (adviser-gated)</b>, so it only falls by dilution. <span class="note">Assumes flat prices — the real path moves with the market.</span>`;}
+ else{const d=new Date();d.setMonth(d.getMonth()+g.allM);const dd=d.toLocaleDateString('en-AU',{month:'short',year:'numeric'});
+  $('glide').innerHTML=`<b>Glide path</b> — at <b>${fmt0(g.m)}/mo</b> routed to the under-target lines, your <b>under-target holdings (VGS, EMKT, QAU) all reach their targets in ~${g.allM} mo (≈ ${dd})</b> — VGS specifically ~${g.vgsM} mo. After that, the over-target lines (IVV / VAS / HEUR / NDQ) come down only by <b>dilution</b> as the book grows, and <b>VHY → 0 needs a sale (adviser-gated)</b>. <span class="note">Assumes flat prices — the real path moves with the market.</span>`;}
  const order=[...PLAN].sort((a,b)=>(b.tgt-w[b.t])-(a.tgt-w[a.t]));
  $('goalrows').innerHTML=order.map(p=>{const cur=w[p.t],tgt=p.tgt,gapD=(tgt-cur)/100*tot,m=MOVE[p.move];
   let fill,col,num;

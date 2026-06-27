@@ -1,0 +1,69 @@
+# News that moves the book — 2026-06-27
+*CONTEXT ONLY — not a buy/sell/timing signal. Default: HOLD + keep contributing; any sale adviser-gated. Trust: A=official/primary · B=major wire · C=aggregator.*
+
+## US rates / Fed  → IVV, VGS, NDQ, GGUS
+- [A] Major Economic Indicators Latest Numbers *(BLS, 2026-06-25)* — https://www.bls.gov/bls/
+- [A] Cook, Welcome Remarks *(Fed speeches, 2026-06-24)* — https://www.federalreserve.gov/newsevents/speech/cook20260624a.htm
+- [A] Waller, Welcoming Remarks on the International Role of the U.S. Dollar *(Fed speeches, 2026-06-22)* — https://www.federalreserve.gov/newsevents/speech/waller20260622a.htm
+- [A] Federal Reserve issues FOMC statement *(Fed monetary, 2026-06-17)* — https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
+- [A] Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting *(Fed monetary, 2026-06-17)* — https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm
+
+## US mega-cap / AI capex  → IVV, VGS, NDQ, GGUS
+- [C] Microsoft claims water positivity across data center operations - Data Center Dynamics *(Data Center Dynamics, 2026-06-26)* — https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOF9hOFFLUFk2Nlc0Y0prdzA4LWVPdW1fR2hBaWxHWGE4UEJWSjJ6RlJsTG9oSEdsX3JuMm9jZFlnbXZockRPeEpCSU5ndGNJcFR2YjZFREdHRkRlSFEyV3Jfa3FRdDNFLXVocTRUVE01Uks4cktBdWJmMk1fRmJXS2taZFUtNWp5QkFYcldGOUY1T2hoRXo5Qk1IUXFpOTA0My1TeXA5N0VMRDg?oc=5
+- [C] Opinion: Can Qualcomm actually compete with Nvidia? Inside its bold data-center gamble. - MarketWatch *(MarketWatch, 2026-06-26)* — https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQmFDZ3hLNGp0LU5GRzQxVXZ2MTV2NXRRY0NybkJqLWVEUXZET1l5RDlWYnRnVnFMV3U5aGJ5TVpNdlVuRFB2VTlIQVIyUzYxUjVySi1meWM4Q01kTkxTNEZFZy1ScXhuSzF5dFNMaTNZVlZVelNITkV6SkJzcU14TDJNTHc2WmFSVUhrN0IydV91bjhuQTZ1bk1HaDJGVDZja0oxM3JXU2Q5OWd6aHh1Vk5ldFhXUHhtZXpN?oc=5
+- [C] Why Amazon Dropped Its OpenAI Movie, Data Center Workers Fight Back, and Meta Leaks Employee Data - WIRED *(WIRED, 2026-06-25)* — https://news.google.com/rss/articles/CBMiywFBVV95cUxPWUhiWmVadU9ESy1YQlQ3UjhFYVdibllEajViMFRlRm5BZ0xfTnhreFhISG93c282OE5JNVA5RlpEcGpNa1JUdlJ3anlYTVB4cG51UnBZM25idUFnZEl6MVNUOUl5WlZtc053MmIxWF8xb1dhYVFOSlBTSThKWXJiNVU5NlRwSVRyMDl4VjF5TWhnc0JiS0lCQkdHY0ozdVFsTEpwM2tWbjFTbHZFZkZQVU9uWHp2RHVWejc5QXVWV2RJWnJPZUc4VjUyVQ?oc=5
+- [C] Amazon Investigating Its Own Employees for Daring to Oppose AI Data Center - Futurism *(Futurism, 2026-06-24)* — https://news.google.com/rss/articles/CBMilwFBVV95cUxORUNjMzFEUlA3YU9OWmxvemtSWnpNZVg5ZnluWEpWQ3JsVzJqeUM4SFhuWXJZN3pzUnhMNVk0SDN0R0ZKV193VF9ZZ1I0anRkT3ZiQmlZR1pmanh6aU1vYUZzMWVTTU90dFZWYUNqNUlXdjNVd2xOVWFaUWdmTlc4UG9tQUhRT2hUTEpuMTVidXFZdXdrLXdn?oc=5
+- [C] Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines - NVIDIA Blog *(NVIDIA Blog, 2026-06-22)* — https://news.google.com/rss/articles/CBMiakFVX3lxTFBSN3d6OG5pZ2hJSkZ5cHhhWUxONkEyRzV0V3FwaGpNbERTSmpiU1ZkVzc4d0Vkc0Vic3J2Z3FMVkdza1M1aEE5TDJBb1NsekFGaWtVUjVEQ3VSSXFtbC1vRi1nVHdZb2pJN0E?oc=5
+
+## Semis / Taiwan  → ASIA, EMKT, NDQ
+- [C] Wall Street slips as semiconductor stocks sink anew - AFR *(AFR, 2026-06-26)* — https://news.google.com/rss/articles/CBMirwFBVV95cUxOLVZ0MGczYTBjd3dfcHJhc2E1MUtYSkxtejBnMlBJT29HODRzQV9iTm1yQ1M2OWZURHZoUmY4OTNyckljdmFtZ2hYQml5anctQ3B2RmxlQVB3NTl1Ykx3SlhxUXVxREF6X1E5RlhHaGhQM1YxSHlYSF9hVWZZQ1FuR1BkOEltWU5YWE82VGU4MjN4Y1U4bld5X3Q5QmlWbklYWkFPVktPTGpFcU1yRks4?oc=5
+- [C] Semiconductor stocks retreat over worries about memory costs - Yahoo Finance *(Yahoo Finance, 2026-06-26)* — https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU1Izal8xR2dNaHBGZTVSMTNHSUN5RWd4QWtRVl9uRmxRU3BoMjl2SDJfbVlqdFBtOVFoUm5OZmduSVVkM0hnZ2tCbU0zQjRmb0JkWDBOMkxrTzFPemZLMUVSYlVET1o3MXFhU0tobFVoYmVKSXdxRmpxVHNvUG1ZY3ZBTWc1MlFvREZRaExjRy1vMi1scjNHTWpiV1JxXzllZm12UndkZ0oyNFZDUHpwLTdNV0Z0OTFG?oc=5
+- [C] ON Semiconductor records worst day since 2020 as CEO defends Synaptics deal - CNBC *(CNBC, 2026-06-26)* — https://news.google.com/rss/articles/CBMiigFBVV95cUxOVzgwNUMwY2c5cDN6NG5yLWl6TURJZU1wQ0RXWVo2dkt6WFEzTmh0NWpEMHQ0VnMyYk9VbHRHWmRtamNSZXB3d1I0YUdQc2czc2J6Q2pHVVVTVFFUNkRjVW1fY1BvbTk2MTFjRUVNSHQxOWstX0d0a3RoN2hyaXZPS01ORmttdFlyX1HSAY8BQVVfeXFMUGxiMmtPRm1Wd3dZUlNLN3Rodzd4WW1EYW5hVkNac3A5ZkJLY00zVTlIbng4ZHJqSXkzNjNmdFFsRk0td09KaFJXa2Rtd1VwY0xhOUtWNjBqaEtjNDVqRTFnTnA5ZXBqcmFPSGRzWC1WSTJxNk1FYlJHZDJVYWJleU9ULWQzVlRaSVVSZXhkSjg?oc=5
+- [C] ON Semi Stock Down Big: $7 Billion Deal Dilution Fears, Analyst Raises Target - thebull.com.au *(thebull.com.au, 2026-06-26)* — https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ0lFUmUzX0hvdFBiYWhYQ0JCTUh0UUhGVUI0NFpLVzVJV0lfUUs4ZUxiMUMyV1RMQ3QybDN6Ukh0dmp1Z19UWjRnaFNrYUhCNGY5T0JzaUQzMjY5T1IycXJQTENnNTNiQktfYmZTUkJIWkYyWHUzMVVadmN1MGw5N1p1U2JSM1NmR0lranVZU29aQXp5NzdrN0RHRVREUm9PV05aN1JFbjdmUQ?oc=5
+- [C] Semiconductor quantum dots 'reawaken' predicted Rabi oscillations, boosting quantum control - Phys.org *(Phys.org, 2026-06-26)* — https://news.google.com/rss/articles/CBMigAFBVV95cUxNM3dzX05PaWJMU0c0N19VY3J1Rl81LWhMQ3pENzJCYUE2M01PSU9NdUt5bkZINTVSN1ZFczBmdjl3UlJpb1lrcjBkSndGU2VLb0h2MDBsWWRheUpULVQ4amV2eURJdDV3ZWtqNzZaR2hDbmZPU05mVUp4OHY1ekkxMA?oc=5
+
+## Energy / oil  → VHY, VAS
+- [A] Metered electricity demand in the New York ISO falls midday because of small-scale solar *(EIA Today in Energy, 2026-06-26)* — https://www.eia.gov/todayinenergy/detail.php?id=67806
+- [C] Avalanche re-sign defensemen Brett Kulak, Brent Burns - ESPN *(ESPN, 2026-06-26)* — https://news.google.com/rss/articles/CBMioAFBVV95cUxOdzhlQS1rR00wWFZIOEZFWnVteW9fVVVRNHhiM1ExVnlBazFkdFp4N2ZIWFVmTXl1aWVvR01sZk5VV1JRQ3ZNbEl6RG1KWk5PRzdmWDRZMk11ZmM2RkxGeGtkWHlaUUJuUGdMLUtLQWxRQk9kb3RHekN4NVpvcTZYbFQ1VHFBSE45M3d4cmVfNUsycklHU0t1NEZ5azE4Q0No?oc=5
+- [C] Chinese FM calls for early normalization of shipping through Strait of Hormuz - CCTV.com English *(CCTV.com English, 2026-06-25)* — https://news.google.com/rss/articles/CBMifEFVX3lxTE9YWUhaQWxUY2gycDBFdEJ0QXNiTFFMcUpYVWNzbk92ckRGYUQ0NGlMUFpYNUpWTmtEcklWeS0wbGdadGxGRTMxOFhEM1JoT2VsVm1kTGJxOWl4Q3BaUGNLYlJBaVVVdEhnbWM2ZjJoNjNSN3FPTG1SOVBjSEY?oc=5
+- [A] U.S. commercial crude oil inventories have decreased in June *(EIA Today in Energy, 2026-06-24)* — https://www.eia.gov/todayinenergy/detail.php?id=67805
+- [A] UAE's exit from OPEC+ reduced the group's share of crude oil production and capacity *(EIA Today in Energy, 2026-06-23)* — https://www.eia.gov/todayinenergy/detail.php?id=67804
+- [C] Iran closes Hormuz Strait due to U.S., Israeli - CCTV.com English *(CCTV.com English, 2026-06-21)* — https://news.google.com/rss/articles/CBMifEFVX3lxTE5fYU1vQXBiNUFMVTZDaGo1c2tWV3FaTWtMUHBjSjlZRnFfSkI1RXBVZm9ybG1sQTU1ME4xXzNCTnN1TGVReWduZ0RVU1J6akZXSGNUNkdTUVlZdUU1T1pPMzRHVEMtSno2MzNHQ1JaRTlNUnZuUll6T2diZUM?oc=5
+
+## Crypto  → CRYP
+- [B] Aave, Solana ecosystem tokens lead crypto rebound as bitcoin steadies near $60,000 *(CoinDesk, 2026-06-26)* — https://www.coindesk.com/markets/2026/06/26/aave-solana-ecosystem-tokens-lead-crypto-rebound-as-bitcoin-steadies-near-usd60-000
+- [B] U.S. House Democrat, who may soon run key committee, condemns crypto in 401(k)s *(CoinDesk, 2026-06-26)* — https://www.coindesk.com/policy/2026/06/26/u-s-house-democrat-who-may-soon-run-key-committee-condemns-crypto-in-401-k-s
+- [B] Former Ethereum Foundation leader warns of funding gap as governance shifts *(CoinDesk, 2026-06-26)* — https://www.coindesk.com/markets/2026/06/26/former-ethereum-foundation-leader-warns-of-funding-gap-as-governance-shifts
+- [B] Anti-trafficking group says Clarity Act's Section 604 could weaken accountability *(CoinDesk, 2026-06-26)* — https://www.coindesk.com/policy/2026/06/26/anti-trafficking-group-warns-clarity-act-s-section-604-could-weaken-accountability
+- [B] Virtuals' Jansen Teng says AI agents are evolving into autonomous economic actors *(CoinDesk, 2026-06-26)* — https://www.coindesk.com/coindesk-news/2026/06/26/virtuals-jansen-teng-says-ai-agents-are-evolving-into-autonomous-economic-actors
+
+## AU rates (RBA)  → VAS, VHY
+- [A] Review of Payments System Regulation *(RBA, 2026-06-24)* — https://www.rba.gov.au/media-releases/2026/mr-26-17.html
+
+## AU tax / reg  → ALL (disposal gate)
+- [C] Labor reaches deal with the Greens to pass changes to capital gains tax and negative gearing reforms - The Guardian *(The Guardian, 2026-06-23)* — https://news.google.com/rss/articles/CBMitgFBVV95cUxNSllWMEM4YUtIeUVkZVRwRkRQMFdJNUk1dXp6U0tZX2xLeVp1YWM1U3FLYThlSW91VnYxX2xBUUxMbTQxRnliQXdUSmJtbmRUYXd3MmxGamViU0Q3aGpqVExFREIxcmh1S1RPMzEtMGptRk9ENElCNElEcHVoNzY0Slh1dmJ4dmRJZVVWa3Q3M2M4WTFuUDZRN3F2NFRyS2JJX0xBanM4SkFjLXppVXlZMVg3dFZFZw?oc=5
+- [C] ‘Use it or lose it’: The super tax break closing soon - The Australian *(The Australian, 2026-06-17)* — https://news.google.com/rss/articles/CBMi9AFBVV95cUxNMk05TTM0Um5iM1ZFcFhScW5FSzQyZ0s3LVYxV2tzUDQtRkFVY2VmYXZNVVB0V01Ub0hGcHNGZTMwblpHRkJhQXBSY2s3OWNsYTcyeUVEeE83enBBZE1EdC0yMW9TVXRUc01XakJvMDYyeG9OOFNpNmdKdFlMLTZ2aFVFNWpYUzZYcldKZ19lNEFuLXNLSGhEbEgtS3FYQ3ViLTFXOEJ2ZUZPVWR2V0h3enNvcEo3T1ZKejFiT0x1YlVIUEV1SE8xcUpaNGg4UlM3cEQyUWxmYTlHMHdfeUozbEZjVDFQMFNXc3JKWUJFUjBNb0tU0gH6AUFVX3lxTE15R3BwRXdEZklYTGgyR3hHMFpBVWpjUzV0cVhfTWdnX211bU5fMWtPb0Y0TWl4bFhaOThUZ3Jka0tvTzNGM2RoNDczcFdlZ0JwNlBJVnZDWTM2TTBXeHlNaExTLXVKRmVZNTJaV0F4aHg1b0tPM1pwekRLNkMxRkZESlhPOWtadDktX2hEWkk2cmk0RmNlZFpQaklJa0NmcUk3Y0VTRVRmTmctRkt0Z0hod1pObFZwNWEyZlozY2ZudkV1SS12Tl8yTmNlQWhzTlpwbVl4ZGpsVUQzaVludG1ESVEtSEJfT25ackM4dmo5YmI1djk3dkp4YkE?oc=5
+- [C] Australia softens impact of capital gains tax reform on small businesses after backlash - Reuters *(Reuters, 2026-06-17)* — https://news.google.com/rss/articles/CBMixgFBVV95cUxOQ2NOZ0cxeGtoNzFWYmI4aEJvVDdYWnVlemwybkgwSVFTT05WenZpbUs4eENja0RZSFhlSHJzVnR3NGozWDlKT25WMUxRbk5zSjlPQy14WDFMU29JeThJaWJmV1NhMVhiZlk4RkMyR2w1bWE5ZDVKcWpPSmtHZGNXakpGYkFjXzNnMU1lTzN1VlZEb1ZIV09oTHFIQzZDekdDQl9lUlZCOVZJNE5yT1FjVW9GU2tMcjU1TVk5ZEZ1Q2wyeHBuQ2c?oc=5
+- [C] Labor’s capital gains tax blunder - The Spectator Australia *(The Spectator Australia, 2026-06-16)* — https://news.google.com/rss/articles/CBMiekFVX3lxTE5JVHVyUGdOTWEwenBEMlNwSC1GMzNIRmlRcE9NY0tIVnFoYV90T3FlTDBiaTU2UlVWTEw0RzNsVkI3SDNRLVpoQXVidFowQXdWeWlQSE14d09JMUg4ai13RFhDZGRIWXE4R3ZkMWdCVW5ic2hqYjI4LW5R?oc=5
+- [C] Superannuation Strategy in 2026: Preparing for Australia's $3 Million Super Tax - Kalkine *(Kalkine, 2026-06-15)* — https://news.google.com/rss/articles/CBMitAFBVV95cUxQczBILURCMnVkdGRRR2RLcDVmUmhGUlpUMUxwa1liSUdJcWtCeDZHTDcyeXdrSlFnVHc0UktQT0ZQWkV2N2FZRzB3cmV0LU4tbzJ6TjNQc21wdGwxZFpDLTNMZjhaSU8yVnN6YVMzWVJ4Tk1iajVyN2Z0YWwtOVVOOGpuNlZXVThMeW1DYi15cHJGc1VLSVV4OWNqWlp6WHNMWktJOHIwUlFleEtnYU1GenpLSnE?oc=5
+
+## UK tax / reg  → ALL (disposal gate)
+- [A] Economic Crime Supervision Handbook *(gov.uk HMRC, 2026-06-26)* — https://www.gov.uk/hmrc-internal-manuals/economic-crime-supervision-handbook
+- [A] Guidance: Check the statutory market values for oil *(gov.uk HMRC, 2026-06-26)* — https://www.gov.uk/government/publications/check-the-statutory-market-values-for-oil
+- [A] How to report Pillar 2 Top-up Taxes *(gov.uk HMRC, 2026-06-26)* — https://www.gov.uk/guidance/how-to-report-pillar-2-top-up-taxes
+- [A] Sign up your client for Making Tax Digital for Income Tax *(gov.uk HMRC, 2026-06-26)* — https://www.gov.uk/guidance/sign-up-your-client-for-making-tax-digital-for-income-tax
+- [A] Sign up for Making Tax Digital for Income Tax *(gov.uk HMRC, 2026-06-26)* — https://www.gov.uk/guidance/sign-up-for-making-tax-digital-for-income-tax
+
+## Europe  → HEUR
+- [A] ECB Consumer Expectations Survey results – May 2026 *(ECB press, 2026-06-26)* — https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260626_1~60a21704a8.en.html
+- [A] Piero Cipollone: Central bank money for the digital era *(ECB press, 2026-06-25)* — https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260625~db26a75179.en.pdf
+- [A] ECB to integrate non-financial credit claim portfolios into general collateral framework, phasing out temporary measures *(ECB press, 2026-06-25)* — https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260625~edee181785.en.html
+- [A] Isabel Schnabel: Interview with Die Zeit *(ECB press, 2026-06-25)* — https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260626~c18c7252f3.en.html
+- [A] ECB reports on progress towards euro adoption *(ECB press, 2026-06-24)* — https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260624~ec1dcac037.en.html
+
+## Cross-market  → whole book
+- [B] Tesla and Waymo duel in the robotaxi race — but the company spending the most builds no cars at all *(MarketWatch, 2026-06-26)* — https://www.marketwatch.com/story/tesla-and-waymo-are-chasing-the-robotaxi-dream-but-the-company-spending-the-most-to-win-builds-no-cars-at-all-0d8682b9?mod=mw_rss_topstories
+- [B] SpaceX stock is a terrible buy — what that actually means for the bull market *(MarketWatch, 2026-06-26)* — https://www.marketwatch.com/story/spacex-is-a-bad-buy-why-openai-and-anthropic-will-be-too-2448ea73?mod=mw_rss_topstories
+- [B] ServiceNow, Salesforce and other software stocks surge as the OpenAI threat weakens *(MarketWatch, 2026-06-26)* — https://www.marketwatch.com/story/servicenow-salesforce-and-other-software-stocks-surge-as-the-openai-threat-weakens-bb1eacfb?mod=mw_rss_topstories
+- [B] U.S. confirms retaliatory strike on Iran, pushing oil prices higher in after-hours trading *(MarketWatch, 2026-06-26)* — https://www.marketwatch.com/story/oil-heads-for-another-losing-week-but-analyst-warns-sluggish-strait-of-hormuz-traffic-could-send-it-soaring-again-80ab9ba8?mod=mw_rss_topstories
+- [B] Tech stocks just had one of their worst weeks in a year. Here’s how AI momentum went off the rails. *(MarketWatch, 2026-06-26)* — https://www.marketwatch.com/story/tech-stocks-just-had-one-of-their-worst-weeks-in-a-year-heres-how-ai-momentum-went-off-the-rails-d4596bae?mod=mw_rss_topstories

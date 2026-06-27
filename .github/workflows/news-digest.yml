@@ -1,0 +1,31 @@
+name: TIOS news digest
+
+# Free, keyless news layer: pulls holding-relevant RSS/Atom + Google-News and commits a digest.
+# News is CONTEXT ONLY — never a buy/sell/timing signal. Separate from the price pipeline.
+on:
+  schedule:
+    - cron: "0 20 * * *"     # ~06:00 AEST daily (UTC cron)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install feedparser requests
+      - name: Fetch news
+        run: python news_fetch.py
+      - name: Commit if changed
+        run: |
+          git config user.name  "tios-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/news-digest.json data/news-latest.md
+          git commit -m "news digest $(date -u +%F)" || echo "no changes to commit"
+          git push

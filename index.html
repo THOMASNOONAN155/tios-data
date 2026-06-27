@@ -49,7 +49,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
 .hline .tk{font-family:var(--mono);font-weight:700;width:50px}.hline .wt{font-family:var(--mono);width:120px;color:var(--ink2);font-size:11.5px}.hline .why{color:var(--muted);font-size:11.5px;flex:1;min-width:0}
 .tag2{font-size:9.5px;font-weight:800;padding:2px 6px;border-radius:5px;white-space:nowrap}
 .m-add{background:rgba(63,185,80,.15);color:var(--add)}.m-hold{background:rgba(127,136,150,.15);color:var(--muted)}.m-stop{background:rgba(216,160,42,.15);color:var(--stop)}.m-fold{background:rgba(244,86,74,.15);color:var(--fold)}.m-cap{background:rgba(155,140,240,.16);color:var(--cap)}
-@media(max-width:620px){.hline .why{display:none}}
+@media(max-width:620px){.hline{flex-wrap:wrap}.hline .wt{width:auto}.hline .why{display:block;flex-basis:100%;margin-top:4px}}
 .taxbox{font-size:12.5px;color:var(--ink2);line-height:1.55}.taxbox b{color:var(--ink)}.taxbox .em{color:var(--green);font-weight:700}
 .legend{font-size:10.5px;color:var(--muted);margin-top:10px;line-height:1.5}
 details{border:1px solid var(--line);border-radius:12px;background:var(--panel);margin-bottom:10px;overflow:hidden}
@@ -66,12 +66,20 @@ table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;p
 .flag{font-size:9px;font-weight:700;padding:1px 5px;border-radius:4px}.f-fact{background:rgba(63,185,80,.14);color:var(--green)}.f-est{background:rgba(216,160,42,.16);color:var(--amber)}.f-interp{background:rgba(110,168,254,.14);color:var(--accent)}
 .dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px}.d-green{background:var(--green)}.d-amber{background:var(--amber)}.d-red{background:var(--red)}
 .disc{font-size:10.5px;color:var(--muted);margin-top:18px;border-top:1px solid var(--line);padding-top:11px}
+.hero{background:linear-gradient(90deg,rgba(110,168,254,.12),transparent);border:1px solid var(--accent);border-radius:12px;padding:12px 16px;margin-bottom:12px}
+.hero .hl{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.hero .hv{font-size:15px;font-weight:700;color:var(--ink);margin-top:3px;line-height:1.45}.hero .hv b{color:var(--accent)}
+.riskstrip{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px}.riskstrip .rs{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:5px 9px;font-size:10.5px;color:var(--muted)}.riskstrip .rs b{color:var(--ink);font-family:var(--mono);font-size:12px}
+.heat{border-collapse:collapse;font-size:10px;margin-top:4px}.heat td,.heat th{padding:3px 5px;text-align:center;border:1px solid var(--line);font-family:var(--mono)}.heat th{color:var(--muted);font-weight:700}.heat td.lab{font-weight:700;color:var(--ink2);text-align:left}
 </style>
 </head>
 <body>
 <div class="wrap">
  <div class="top"><h1>TI<b>OS</b></h1><span class="asof">Live · prices as of <b id="asof">…</b> · auto-updated daily</span><button class="btn" id="themebtn">◐ Light</button></div>
- <div class="note" style="margin-bottom:12px">Self-running view of your own data — not advice. Prices auto-fetch from your daily feed; holdings stay private in this browser. <span id="loadstatus"></span></div>
+ <div class="note" style="margin-bottom:10px">Self-running view of your own data — not advice. Prices auto-fetch from your daily feed; holdings stay private in this browser. <span id="loadstatus"></span></div>
+
+ <div class="hero" id="herocard" style="display:none"></div>
+ <div class="legend" style="margin:-2px 0 12px">Flags used below: <span class="flag f-fact">FACT</span> measured / from statements · <span class="flag f-est">EST</span> estimate · <span class="flag f-interp">INTERP</span> interpretation.</div>
 
  <div id="setup" class="card" style="display:none"><h2>One-time setup — enter your holdings (stays in this browser only)</h2>
   <p class="note" style="margin-bottom:8px">Paste one line per holding as <b>TICKER,units,cost</b> (cost = total $ paid), then Save.</p>
@@ -100,7 +108,7 @@ table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;p
   <div class="row" style="margin-top:8px"><button class="btn" id="saveEdit">Save</button><span class="note" id="editMsg"></span></div>
  </div></details>
 
- <h2 style="font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin:18px 0 9px">Full market analysis</h2>
+ <div class="top" style="margin:18px 0 9px"><h2 style="font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin:0">Full market analysis</h2><button class="btn" id="expandbtn" style="margin-left:auto">⊕ Expand all</button></div>
 
  <details><summary>Per-holding read — what each line really is &amp; how forces reach it</summary><div class="dbody" id="reads"></div></details>
 
@@ -131,8 +139,14 @@ table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;p
   <div class="note" style="margin-top:8px">Illustrative ranges from scenario-analysis.md — not predictions or probabilities. The plan already accounts for these (gold + survivable leverage + keep contributing).</div>
  </div></details>
 
- <details><summary>Valuations &amp; statistics</summary><div class="dbody">
-  <p class="taxbox"><b>US — expensive on every measure</b> <span class="flag f-fact">FACT</span>: CAPE ~41.9 (~97–99th percentile, near the record), fwd P/E ~22.4 (~90th), excess CAPE yield ~1.35% (equities barely paying over bonds) → lower long-run US returns + de-rating risk, amplified 2× in GGUS. <b>Australia</b> moderately expensive; <b>Europe / EM</b> cheaper (the value case behind HEUR/EMKT). <span class="note">(percentiles dated mid-Jun)</span></p>
+ <details open><summary>Valuations &amp; statistics</summary><div class="dbody">
+  <p class="taxbox"><b>US — expensive on every measure</b> <span class="flag f-fact">FACT</span> <span class="note">(as of mid-Jun 2026)</span>:</p>
+  <ul style="margin:6px 0 0 18px;font-size:12.2px;color:var(--ink2);line-height:1.65">
+   <li><b>CAPE ~41.9</b> — ~97–99th percentile, near the record</li>
+   <li><b>Fwd P/E ~22.4</b> — ~90th percentile</li>
+   <li><b>Excess CAPE yield ~1.35%</b> — equities barely paying over bonds</li>
+  </ul>
+  <p class="taxbox" style="margin-top:7px">→ lower long-run US returns + de-rating risk, amplified 2× in GGUS. <b>Australia</b> moderately expensive; <b>Europe / EM</b> cheaper (the value case behind HEUR/EMKT).</p>
   <div id="stats" class="taxbox" style="margin-top:10px"></div>
  </div></details>
 
@@ -186,10 +200,11 @@ function renderKPIs(){
  const tot=totalVal(),cost=totalCost(),un=tot-cost;
  $('kpis').innerHTML=`
   <div class="kpi"><div class="k">Portfolio value</div><div class="v">${fmt0(tot)}</div><div class="s">live · ${$('asof').textContent}</div></div>
-  <div class="kpi"><div class="k">Unrealised</div><div class="v ${un>=0?'pos':'neg'}">${fmtSign(un)}</div><div class="s">${cost?((un/cost*100).toFixed(1)+'% on '+fmt0(cost)+' cost'):'enter cost'}</div></div>
+  <div class="kpi"><div class="k">Unrealised</div><div class="v" style="color:var(--ink2)">${fmtSign(un)}</div><div class="s">${cost?((un/cost*100).toFixed(1)+'% on '+fmt0(cost)+' cost'):'enter cost'}</div></div>
   <div class="kpi"><div class="k">Holdings</div><div class="v">${PLAN.filter(p=>HOLD[p.t]&&HOLD[p.t].u>0).length}</div><div class="s">of 11 entered</div></div>`;
  const wk=PLAN.map(p=>{const a=priceNDaysAgo(p.t,5),b=px(p.t);return a&&b?{t:p.t,ch:(b/a-1)*100}:null;}).filter(Boolean).sort((a,b)=>a.ch-b.ch);
  $('weekmove').innerHTML=wk.length?`<b>~last week:</b> worst ${wk.slice(0,3).map(w=>w.t+' '+w.ch.toFixed(1)+'%').join(', ')}; best ${wk.slice(-2).reverse().map(w=>w.t+' '+(w.ch>=0?'+':'')+w.ch.toFixed(1)+'%').join(', ')}. Factual context, not a signal.`:'';
+ if(STATS&&STATS.ready){const e=STATS.etfs||{};const gv=e.GGUS&&e.GGUS.ann_vol,cv=e.CRYP&&e.CRYP.ann_vol;const dds=PLAN.map(p=>e[p.t]&&e[p.t].max_drawdown).filter(x=>x!=null);const wDD=dds.length?Math.min(...dds):null;$('weekmove').innerHTML+=`<div class="riskstrip"><span class="rs">measured 5-yr risk:</span><span class="rs">GGUS vol <b>${gv!=null?(gv*100).toFixed(0)+'%':'—'}</b></span><span class="rs">CRYP vol <b>${cv!=null?(cv*100).toFixed(0)+'%':'—'}</b></span><span class="rs">worst max-DD <b>${wDD!=null?(wDD*100).toFixed(0)+'%':'—'}</b></span><span class="rs">full table + correlation ↓</span></div>`;}
 }
 function eligADD(){const tot=totalVal()||1;return PLAN.filter(p=>p.move==='ADD').map(p=>({t:p.t,gap:Math.max(p.tgt-(HOLD[p.t]&&HOLD[p.t].u||0)*px(p.t)/tot*100,0)}));}
 function renderTodo(){
@@ -205,6 +220,8 @@ function renderTodo(){
   <div class="todo"><span class="tag t-watch">WATCH</span><div class="body" id="watch"></div></div>`;
  const wd=[['30 Jun','FY end — distributions + AMMA statements follow'],['~late Jul','US FOMC + dot plot'],['11 Aug','RBA decision'],['~31 Aug 2026',S.income==='under'?'Aug-2025 parcels hit 12mo — tax-neutral for you while under threshold':'Aug-2025 parcels hit 12mo → 50% CGT discount'],['1 Jul 2027','proposed AU CGT change (not law)']];
  $('watch').innerHTML=wd.map(d=>`<div style="display:flex;gap:9px;padding:3px 0"><span class="mono" style="width:90px;flex:0 0 auto;color:var(--ink)">${d[0]}</span><span class="note">${d[1]}</span></div>`).join('');
+ const hc=$('herocard');
+ if(hc){ if(split){hc.style.display='block';hc.innerHTML=`<div class="hl">Your next move</div><div class="hv">Next ${fmt0(amt)} ${freq} → ${elig.map(e=>`<b>${e.t} ${fmt0(amt*e.gap/gs)}</b>`).join(' · ')} &nbsp;·&nbsp;<span style="color:var(--ink2);font-weight:400"> HOLD + keep contributing — no sale needed</span></div>`;} else {hc.style.display='none';} }
 }
 function renderHoldings(){const tot=totalVal()||1;
  $('holdings').innerHTML=PLAN.map(p=>{const u=HOLD[p.t]&&HOLD[p.t].u||0,w=u*px(p.t)/tot*100,gap=p.tgt-w,m=MOVE[p.move];
@@ -253,8 +270,14 @@ function renderScen(){
 function renderStats(){
  if(STATS && STATS.ready){
   const e=STATS.etfs||{};
-  const rows=PLAN.map(p=>{const r=e[p.t]||{};const v=r.ann_vol!=null?(r.ann_vol*100).toFixed(0)+'%':'—';const b=r.beta_spx!=null?r.beta_spx.toFixed(2):'—';const dd=r.max_drawdown!=null?(r.max_drawdown*100).toFixed(0)+'%':'—';return `<tr><td class="mono">${p.t}</td><td class="r mono">${v}</td><td class="r mono">${b}</td><td class="r mono">${dd}</td></tr>`;}).join('');
-  $('stats').innerHTML=`<b>Statistics</b> — computed daily in the cron (${STATS.n_days} daily returns, as of ${(STATS.generated||'').slice(0,10)}):<table style="margin-top:6px"><thead><tr><th>ETF</th><th class="r">Ann. vol</th><th class="r">Beta vs S&P</th><th class="r">Max DD</th></tr></thead><tbody>${rows}</tbody></table><div class="note" style="margin-top:6px">Full correlation matrix is in data/stats.json. Price-return basis; deterministic, no LLM.</div>`;
+  const rows=PLAN.map(p=>{const r=e[p.t]||{};const v=r.ann_vol!=null?(r.ann_vol*100).toFixed(0)+'%':'—';const b=r.beta_axjo!=null?r.beta_axjo.toFixed(2):'—';const dd=r.max_drawdown!=null?(r.max_drawdown*100).toFixed(0)+'%':'—';return `<tr><td class="mono">${p.t}</td><td class="r mono">${v}</td><td class="r mono">${b}</td><td class="r mono">${dd}</td></tr>`;}).join('');
+  let heat='';const cm=STATS.correlation;
+  if(cm){const ks=Object.keys(cm);
+   const hd='<tr><th></th>'+ks.map(k=>`<th>${k}</th>`).join('')+'</tr>';
+   const body=ks.map(a=>`<tr><td class="lab">${a}</td>`+ks.map(b=>{const v=cm[a]&&cm[a][b];if(v==null)return '<td>—</td>';const al=Math.max(0,Math.min(1,v));return `<td style="background:rgba(110,168,254,${al.toFixed(2)})">${v.toFixed(2)}</td>`;}).join('')+'</tr>').join('');
+   heat=`<div class="legend" style="margin:12px 0 4px"><b>Correlation matrix</b> (daily returns; deeper blue = more correlated — the overlap thesis made visible):</div><div style="overflow-x:auto"><table class="heat"><thead>${hd}</thead><tbody>${body}</tbody></table></div>`;
+  }
+  $('stats').innerHTML=`<b>Statistics</b> — measured daily in the cron (${STATS.n_days} daily returns, 5-yr history, as of ${(STATS.generated||'').slice(0,10)}) <span class="flag f-fact">FACT</span><table style="margin-top:6px"><thead><tr><th>ETF</th><th class="r">Ann. vol</th><th class="r">Beta (ASX200)</th><th class="r">Max DD</th></tr></thead><tbody>${rows}</tbody></table><div class="note" style="margin-top:6px">Beta shown is vs <b>ASX 200</b> — the meaningful benchmark for ASX-listed funds. (Beta vs the S&P reads artificially low because AU funds trade out of sync with the US close; that column is in data/stats.json.) Price-return basis; deterministic, no LLM.</div>${heat}`;
   return;
  }
  const n=(STATS&&STATS.n_days)||0,min=(STATS&&STATS.min_days)||25;
@@ -271,6 +294,10 @@ function wireInputs(){
  $('depFreq').addEventListener('change',e=>{S.depFreq=e.target.value;saveSit();renderTodo();});
  $('savePaste').onclick=()=>{let n=0;$('pastebox').value.split(/\r?\n/).forEach(l=>{const c=l.split(',');if(c.length<2)return;const t=c[0].trim().toUpperCase();if(!PLAN.some(p=>p.t===t))return;HOLD[t]={u:parseFloat(c[1])||0,c:parseFloat(c[2])||0};n++;});saveHold();$('pasteMsg').textContent=`saved ${n} ✓`;renderAll();};
  $('saveEdit').onclick=()=>{$('editbody').querySelectorAll('input').forEach(inp=>{const t=inp.dataset.t,f=inp.dataset.f,v=parseFloat(inp.value);HOLD[t]=HOLD[t]||{};HOLD[t][f]=isNaN(v)?0:v;});saveHold();$('editMsg').textContent='saved ✓';renderAll();};
+ const eb=$('expandbtn');
+ if(eb){const all=()=>[...document.querySelectorAll('.dbody')].map(d=>d.closest('details')).filter(Boolean);
+  eb.onclick=()=>{const ds=all();const anyClosed=ds.some(d=>!d.open);ds.forEach(d=>d.open=anyClosed);eb.textContent=anyClosed?'⊖ Collapse all':'⊕ Expand all';localStorage.setItem('tios_expand',anyClosed?'1':'0');};
+  if(localStorage.getItem('tios_expand')==='1'){all().forEach(d=>d.open=true);eb.textContent='⊖ Collapse all';}}
 }
 function applyTheme(t){document.body.classList.toggle('light',t==='light');$('themebtn').textContent=t==='light'?'◑ Dark':'◐ Light';}
 let theme=localStorage.getItem('tios_theme')||'dark';applyTheme(theme);

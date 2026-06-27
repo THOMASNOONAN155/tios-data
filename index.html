@@ -77,6 +77,8 @@ table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;p
 @media(max-width:620px){.prog{flex-wrap:wrap}.prog .ptrack{order:3;flex-basis:100%}.prog .pnum{width:auto;flex:1;text-align:left}}
 .depalloc input{width:84px}
 .hist{font-size:11.5px;color:var(--ink2);padding:6px 0;border-bottom:1px solid var(--line)}.hist:last-child{border-bottom:0}.hist b{color:var(--ink);font-family:var(--mono)}
+.news{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:9px 11px;margin-bottom:8px}.news .nh{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.3px;margin-bottom:2px}.news a{color:var(--accent);text-decoration:none;font-size:12.5px;font-weight:600}.news a:hover{text-decoration:underline}.news .nm{font-size:10.5px;color:var(--muted);margin-top:1px}.news .ni{margin-top:5px}
+.trust{font-size:9px;font-weight:700;padding:1px 5px;border-radius:4px;background:var(--line);color:var(--ink2)}
 </style>
 </head>
 <body>
@@ -112,10 +114,12 @@ table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;p
 
  <div class="card"><h2>Log a deposit / trade <span class="sub">— saved in this browser</span></h2>
   <div class="row" style="margin-bottom:9px">
+   <label class="note">Type <select id="depType"><option value="deposit">Deposit (new $)</option><option value="drp">DRP (reinvested)</option><option value="dist">Distribution (cash)</option></select></label>
    <label class="note">Date <input type="date" id="depDate"></label>
    <label class="note">Amount $ <input type="number" id="depLogAmt" min="0" step="50"></label>
    <button class="btn primary" id="depAuto">Auto-allocate to plan</button>
   </div>
+  <div class="note" style="margin-bottom:7px">Saved in <b>this browser only</b> — your phone &amp; laptop won't share it; pick one device as your book of record. <i>Distribution (cash)</i> logs income without changing holdings; <i>Deposit</i>/<i>DRP</i> add units &amp; cost.</div>
   <table class="depalloc"><thead><tr><th>Ticker</th><th class="r">Allocate $</th><th class="r">≈ units @ live price</th></tr></thead><tbody id="depbody"></tbody></table>
   <div class="row" style="margin-top:9px"><button class="btn primary" id="depSave">Save deposit</button><span class="note" id="depMsg"></span></div>
   <div class="legend" style="margin-top:12px"><b>Deposit history</b> <span id="depTotal"></span></div>
@@ -124,10 +128,17 @@ table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;p
    <p class="note">Use this to correct units &amp; cost directly (e.g. after a distribution-reinvestment or a sale).</p>
    <table><thead><tr><th>Ticker</th><th>Units</th><th>Cost $ (total)</th></tr></thead><tbody id="editbody"></tbody></table>
    <div class="row" style="margin-top:8px"><button class="btn" id="saveEdit">Save edits</button><span class="note" id="editMsg"></span></div>
+   <div style="margin-top:12px;border-top:1px solid var(--line);padding-top:10px"><p class="note"><b>Reconcile vs your broker</b> — paste current holdings as <b>TICKER,units</b> (one per line) to catch drift:</p>
+    <textarea id="recbox" placeholder="VAS,43.916&#10;IVV,56.325&#10;..."></textarea>
+    <div class="row" style="margin-top:6px"><button class="btn" id="recBtn">Compare</button></div>
+    <div id="recout" class="legend"></div></div>
   </div></details>
  </div>
 
  <div class="card"><h2>What to do &amp; what to watch</h2><div id="todo"></div><div class="legend">Rules-based from your plan + situation — not a market-timing call. No "sell X now" signals.</div></div>
+
+ <div class="card" id="newscard" style="display:none"><h2>News that moves your book <span class="sub">— context, never a signal</span></h2><div id="news"></div><div class="legend">Free daily feed, grouped by what it touches. Headlines are context for understanding — <b>not</b> a buy/sell trigger; default stays HOLD + contribute. <span id="newsasof"></span></div></div>
+
  <div class="card"><h2>Tax — for your situation</h2><div class="taxbox" id="tax"></div></div>
 
  <div class="top" style="margin:18px 0 9px"><h2 style="font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin:0">Market context — how the world reaches your book</h2><button class="btn" id="expandbtn" style="margin-left:auto">⊕ Expand all</button></div>
@@ -202,7 +213,7 @@ const PLAN=[
 ];
 const MOVE={ADD:['ADD','m-add'],STOP:['STOP','m-stop'],FOLD:['FOLD','m-fold'],CAP:['CAP','m-cap'],HOLD:['HOLD','m-hold']};
 const ADDLINES=PLAN.filter(p=>p.move==='ADD').map(p=>p.t);
-let PRICES={},DATES=[],LATEST={},DATEOF={},HOLD={},DEP=[],STATS=null,S={income:'under',depAmt:500,depFreq:'month',resid:'no',emp:'study',buf:'yes'};
+let PRICES={},DATES=[],LATEST={},DATEOF={},HOLD={},DEP=[],STATS=null,NEWS=null,S={income:'under',depAmt:500,depFreq:'month',resid:'no',emp:'study',buf:'yes'};
 
 function loadStore(){try{HOLD=JSON.parse(localStorage.getItem('tios_holdings_v1'))||{};}catch(e){HOLD={};}try{Object.assign(S,JSON.parse(localStorage.getItem('tios_situation_v1'))||{});}catch(e){}try{DEP=JSON.parse(localStorage.getItem('tios_deposits_v1'))||[];}catch(e){DEP=[];}}
 function saveHold(){localStorage.setItem('tios_holdings_v1',JSON.stringify(HOLD));}
@@ -227,6 +238,12 @@ const totalVal=()=>PLAN.reduce((s,p)=>s+((HOLD[p.t]&&HOLD[p.t].u||0)*px(p.t)),0)
 const totalCost=()=>PLAN.reduce((s,p)=>s+((HOLD[p.t]&&HOLD[p.t].c||0)),0);
 function curW(){const tot=totalVal()||1,w={};PLAN.forEach(p=>w[p.t]=(HOLD[p.t]&&HOLD[p.t].u||0)*px(p.t)/tot*100);return w;}
 function alignment(){const w=curW();return PLAN.reduce((s,p)=>s+Math.min(w[p.t],p.tgt),0);}      // % of book already on-target
+function portVol(){ // aggregate portfolio volatility = sqrt(wᵀΣw) from measured per-ETF vol + correlation
+ if(!STATS||!STATS.ready)return null;const e=STATS.etfs||{},cm=STATS.correlation||{},w=curW();
+ const ks=PLAN.map(p=>p.t).filter(t=>e[t]&&e[t].ann_vol!=null&&w[t]>0);let wt=0;ks.forEach(t=>wt+=w[t]);if(wt<=0)return null;
+ let s=0;ks.forEach(a=>ks.forEach(b=>{const wa=w[a]/wt,wb=w[b]/wt,c=(cm[a]&&cm[a][b]!=null)?cm[a][b]:(a===b?1:0.5);s+=wa*wb*e[a].ann_vol*e[b].ann_vol*c;}));
+ return Math.sqrt(Math.max(s,0));
+}
 
 function renderKPIs(){
  const tot=totalVal(),cost=totalCost(),un=tot-cost,al=alignment();
@@ -236,7 +253,7 @@ function renderKPIs(){
   <div class="kpi"><div class="k">Aligned to Target v1</div><div class="v" style="color:var(--accent)">${al.toFixed(0)}%</div><div class="s">100% = exactly on plan</div></div>`;
  const wk=PLAN.map(p=>{const a=priceNDaysAgo(p.t,5),b=px(p.t);return a&&b?{t:p.t,ch:(b/a-1)*100}:null;}).filter(Boolean).sort((a,b)=>a.ch-b.ch);
  $('weekmove').innerHTML=wk.length?`<b>~last week:</b> worst ${wk.slice(0,3).map(w=>w.t+' '+w.ch.toFixed(1)+'%').join(', ')}; best ${wk.slice(-2).reverse().map(w=>w.t+' '+(w.ch>=0?'+':'')+w.ch.toFixed(1)+'%').join(', ')}. Factual context, not a signal.`:'';
- if(STATS&&STATS.ready){const e=STATS.etfs||{};const gv=e.GGUS&&e.GGUS.ann_vol,cv=e.CRYP&&e.CRYP.ann_vol;const dds=PLAN.map(p=>e[p.t]&&e[p.t].max_drawdown).filter(x=>x!=null);const wDD=dds.length?Math.min(...dds):null;$('weekmove').innerHTML+=`<div class="riskstrip"><span class="rs">measured 5-yr risk:</span><span class="rs">GGUS vol <b>${gv!=null?(gv*100).toFixed(0)+'%':'—'}</b></span><span class="rs">CRYP vol <b>${cv!=null?(cv*100).toFixed(0)+'%':'—'}</b></span><span class="rs">worst max-DD <b>${wDD!=null?(wDD*100).toFixed(0)+'%':'—'}</b></span><span class="rs">→ Valuations &amp; statistics</span></div>`;}
+ if(STATS&&STATS.ready){const e=STATS.etfs||{};const gv=e.GGUS&&e.GGUS.ann_vol,cv=e.CRYP&&e.CRYP.ann_vol;const dds=PLAN.map(p=>e[p.t]&&e[p.t].max_drawdown).filter(x=>x!=null);const wDD=dds.length?Math.min(...dds):null;const pv=portVol();$('weekmove').innerHTML+=`<div class="riskstrip"><span class="rs">measured 5-yr risk:</span><span class="rs">portfolio vol <b>${pv!=null?(pv*100).toFixed(0)+'%':'—'}</b></span><span class="rs">GGUS vol <b>${gv!=null?(gv*100).toFixed(0)+'%':'—'}</b></span><span class="rs">CRYP vol <b>${cv!=null?(cv*100).toFixed(0)+'%':'—'}</b></span><span class="rs">worst max-DD <b>${wDD!=null?(wDD*100).toFixed(0)+'%':'—'}</b></span></div>`;}
 }
 
 /* ---- Path to Target v1 ---- */
@@ -282,7 +299,7 @@ function renderDepForm(alloc){
 function renderDepHist(){
  const tot=DEP.reduce((s,d)=>s+(d.amount||0),0);
  $('depTotal').textContent=DEP.length?`— ${fmt0(tot)} logged across ${DEP.length} deposit${DEP.length>1?'s':''}`:'';
- $('dephist').innerHTML=DEP.length?[...DEP].map((d,i)=>({d,i})).reverse().map(({d,i})=>`<div class="hist">${d.date||'—'} — <b>${fmt0(d.amount)}</b> → ${Object.entries(d.alloc||{}).filter(([,v])=>v>0).map(([t,v])=>t+' '+fmt0(v)).join(' · ')||'(unallocated)'} <button class="btn" style="padding:1px 7px;font-size:10px" data-di="${i}">undo</button></div>`).join(''):'<div class="note">No deposits logged yet — record one above and it’s saved here.</div>';
+ $('dephist').innerHTML=DEP.length?[...DEP].map((d,i)=>({d,i})).reverse().map(({d,i})=>`<div class="hist">${d.date||'—'} <span class="trust">${d.type||'deposit'}</span> <b>${fmt0(d.amount)}</b> →${Object.entries(d.alloc||{}).filter(([,v])=>v>0).map(([t,v])=>t+' '+fmt0(v)).join(' · ')||'(unallocated)'} <button class="btn" style="padding:1px 7px;font-size:10px" data-di="${i}">undo</button></div>`).join(''):'<div class="note">No deposits logged yet — record one above and it’s saved here.</div>';
  $('dephist').querySelectorAll('button[data-di]').forEach(b=>b.onclick=()=>{const idx=+b.dataset.di,d=DEP[idx];if(!d)return;Object.entries(d.units||{}).forEach(([t,u])=>{if(HOLD[t]){HOLD[t].u=Math.max(0,(HOLD[t].u||0)-u);HOLD[t].c=Math.max(0,(HOLD[t].c||0)-(d.alloc[t]||0));}});DEP.splice(idx,1);saveDep();saveHold();renderAll();});
 }
 
@@ -296,7 +313,7 @@ function renderTodo(){
   <div class="todo"><span class="tag t-hold">HOLD</span><div class="body"><b>Keep everything and keep contributing.</b> A 20–40-yr accumulation book; decision quality &gt; activity.${buf}</div></div>
   <div class="todo"><span class="tag t-gate">SELL?</span><div class="body">${sell}</div></div>
   <div class="todo"><span class="tag t-watch">WATCH</span><div class="body" id="watch"></div></div>`;
- const wd=[['30 Jun','FY end — distributions + AMMA statements follow'],['~late Jul','US FOMC + dot plot'],['11 Aug','RBA decision'],['~31 Aug 2026',S.income==='under'?'Aug-2025 parcels hit 12mo — tax-neutral while under threshold':'Aug-2025 parcels hit 12mo → 50% CGT discount'],['1 Jul 2027','proposed AU CGT change (not law)']];
+ const wd=[['30 Jun','FY end — distributions + AMMA statements follow'],['~late Jul','US FOMC + dot plot'],['11 Aug','RBA decision'],['~31 Aug 2026',S.income==='under'?'Aug-2025 parcels hit 12mo — tax-neutral while under threshold':'Aug-2025 parcels hit 12mo → 50% CGT discount'],['1 Jul 2027','AU CGT discount change — now a Bill before the Senate, not yet law']];
  $('watch').innerHTML=wd.map(d=>`<div style="display:flex;gap:9px;padding:3px 0"><span class="mono" style="width:92px;flex:0 0 auto;color:var(--ink)">${d[0]}</span><span class="note">${d[1]}</span></div>`).join('');
  const hc=$('herocard');
  if(hc){ if(split&&amt>0){hc.style.display='block';hc.innerHTML=`<div class="hl">Your next move</div><div class="hv">Next ${fmt0(amt)} ${freq} → <b>${split}</b> &nbsp;·&nbsp;<span style="color:var(--ink2);font-weight:400">HOLD + keep contributing — no sale needed</span></div>`;} else {hc.style.display='none';} }
@@ -358,7 +375,10 @@ function renderStats(){
  $('stats').innerHTML=`<b>Statistics — accruing:</b> ${n} of ${min} daily returns needed before vol / beta / correlation / drawdown are trusted. The cron computes them automatically once enough history exists. Returns + the week-move above are solid now.`;
 }
 
-function renderAll(){$('setup').style.display=haveHoldings()?'none':'block';renderKPIs();renderGoal();renderTodo();renderTax();renderEdit();renderDepHist();renderReads();renderConc();renderPulse();renderRisk();renderScen();renderStats();}
+async function loadNews(){try{const r=await fetch('data/news-digest.json',{cache:'no-store'});if(!r.ok)return null;return await r.json();}catch(e){return null;}}
+function renderNews(nd){const c=$('newscard');if(!c)return;if(!nd||!nd.items||!nd.items.length){c.style.display='none';return;}c.style.display='block';const by={};nd.items.forEach(it=>{(by[it.driver]=by[it.driver]||[]).push(it);});$('news').innerHTML=Object.keys(by).map(dr=>{const its=by[dr].slice(0,3);const hold=(its[0].holdings||[]).join(', ');return `<div class="news"><div class="nh">${dr} → ${hold}</div>${its.map(i=>`<div class="ni"><span class="trust">${i.trust}</span> <a href="${i.url}" target="_blank" rel="noopener">${i.title}</a><div class="nm">${i.source} · ${i.published}</div></div>`).join('')}</div>`;}).join('');$('newsasof').textContent='Updated '+((nd.generated||'').slice(0,10));}
+
+function renderAll(){$('setup').style.display=haveHoldings()?'none':'block';renderKPIs();renderGoal();renderTodo();renderTax();renderEdit();renderDepHist();renderNews(NEWS);renderReads();renderConc();renderPulse();renderRisk();renderScen();renderStats();}
 
 function seg(id,key){const el=$(id);if(!el)return;el.querySelectorAll('button').forEach(b=>{b.classList.toggle('on',b.dataset.v===S[key]);b.onclick=()=>{el.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');S[key]=b.dataset.v;saveSit();renderAll();};});}
 function wireInputs(){
@@ -373,11 +393,13 @@ function wireInputs(){
  $('depLogAmt').value=S.depAmt;
  renderDepForm(null);
  $('depAuto').onclick=()=>{const amt=parseFloat($('depLogAmt').value)||0;if(amt<=0){$('depMsg').textContent='enter an amount first';return;}renderDepForm(autoAlloc(amt));$('depMsg').textContent='allocated to the under-target lines — edit any line, then Save';};
- $('depSave').onclick=()=>{const amt=parseFloat($('depLogAmt').value)||0;const date=$('depDate').value||new Date().toISOString().slice(0,10);const alloc={},units={};let any=false;
-  $('depbody').querySelectorAll('input').forEach(inp=>{const t=inp.dataset.dt,v=parseFloat(inp.value)||0;if(v>0){alloc[t]=v;const u=px(t)?v/px(t):0;units[t]=u;HOLD[t]=HOLD[t]||{u:0,c:0};HOLD[t].u=(HOLD[t].u||0)+u;HOLD[t].c=(HOLD[t].c||0)+v;any=true;}});
-  if(!any){$('depMsg').textContent='nothing allocated — enter $ on at least one line (or Auto-allocate)';return;}
-  DEP.push({date,amount:amt||Object.values(alloc).reduce((a,b)=>a+b,0),alloc,units});saveDep();saveHold();
-  $('depMsg').textContent='deposit saved ✓ holdings updated';renderAll();$('depDate').value=new Date().toISOString().slice(0,10);$('depLogAmt').value=S.depAmt;renderDepForm(null);};
+ $('depSave').onclick=()=>{const type=$('depType')?$('depType').value:'deposit';const applyHold=(type!=='dist');const amt=parseFloat($('depLogAmt').value)||0;const date=$('depDate').value||new Date().toISOString().slice(0,10);const alloc={},units={};let any=false;
+  $('depbody').querySelectorAll('input').forEach(inp=>{const t=inp.dataset.dt,v=parseFloat(inp.value)||0;if(v>0){alloc[t]=v;const u=px(t)?v/px(t):0;units[t]=u;if(applyHold){HOLD[t]=HOLD[t]||{u:0,c:0};HOLD[t].u=(HOLD[t].u||0)+u;HOLD[t].c=(HOLD[t].c||0)+v;}any=true;}});
+  if(!any&&amt<=0){$('depMsg').textContent='enter an amount and allocate it (or Auto-allocate)';return;}
+  DEP.push({date,type,amount:amt||Object.values(alloc).reduce((a,b)=>a+b,0),alloc,units:applyHold?units:{}});saveDep();saveHold();
+  $('depMsg').textContent=applyHold?'saved ✓ holdings updated':'distribution logged ✓ (holdings unchanged)';renderAll();$('depDate').value=new Date().toISOString().slice(0,10);$('depLogAmt').value=S.depAmt;renderDepForm(null);};
+ const rb=$('recBtn');
+ if(rb)rb.onclick=()=>{const lines=($('recbox').value||'').split(/\r?\n/),diffs=[];let checked=0;lines.forEach(l=>{const c=l.split(',');if(c.length<2)return;const t=c[0].trim().toUpperCase(),u=parseFloat(c[1]);if(!PLAN.some(p=>p.t===t)||isNaN(u))return;checked++;const cur=(HOLD[t]&&HOLD[t].u)||0;if(Math.abs(cur-u)>0.01)diffs.push(`${t}: dashboard ${cur.toFixed(3)} vs broker ${u} (${u-cur>0?'+':''}${(u-cur).toFixed(3)})`);});$('recout').innerHTML=!checked?'<span class="note">Paste TICKER,units lines, then Compare.</span>':(diffs.length?'<b style="color:var(--amber)">Drift found:</b><br>'+diffs.join('<br>')+'<br><span class="note">Use Manual edit above to correct.</span>':'<b style="color:var(--green)">✓ all '+checked+' pasted lines match your dashboard holdings.</b>');};
  const eb=$('expandbtn');
  if(eb){const all=()=>[...document.querySelectorAll('.dbody')].map(d=>d.closest('details')).filter(d=>d&&d.querySelector('summary'));
   eb.onclick=()=>{const ds=[...document.querySelectorAll('details')].filter(d=>d.querySelector('summary')&&!d.closest('.card'));const anyClosed=ds.some(d=>!d.open);ds.forEach(d=>d.open=anyClosed);eb.textContent=anyClosed?'⊖ Collapse all':'⊕ Expand all';localStorage.setItem('tios_expand',anyClosed?'1':'0');};
@@ -387,7 +409,7 @@ function applyTheme(t){document.body.classList.toggle('light',t==='light');$('th
 let theme=localStorage.getItem('tios_theme')||'dark';applyTheme(theme);
 $('themebtn').onclick=()=>{theme=theme==='light'?'dark':'light';localStorage.setItem('tios_theme',theme);applyTheme(theme);};
 
-(async function(){loadStore();wireInputs();await loadPrices();try{STATS=await fetch('data/stats.json',{cache:'no-store'}).then(r=>r.ok?r.json():null);}catch(e){STATS=null;}renderAll();})();
+(async function(){loadStore();wireInputs();await loadPrices();try{STATS=await fetch('data/stats.json',{cache:'no-store'}).then(r=>r.ok?r.json():null);}catch(e){STATS=null;}try{NEWS=await loadNews();}catch(e){NEWS=null;}renderAll();})();
 </script>
 </body>
 </html>

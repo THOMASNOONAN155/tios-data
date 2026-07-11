@@ -1,8 +1,185 @@
 {
- "generated": "2026-07-10T21:04Z",
+ "generated": "2026-07-11T20:43Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
  "count": 45,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta announces $9.17 billion Canada AI data center that will consume electricity equal to 800,000 homes - The Economic Times",
+   "source": "The Economic Times",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPMjNrZUxTVTRHVmVyX0d4V1BEZGxhcjZDVzk5am1lS1BhSWZhQ0JvWHQwaEVab0xadzJMenpaZUJTNDAwSmpUVXpsbnN5V3lLa2Y1aldlNTZCX2hkYzl6Y2lnVFpCVWlRVzJtRDRMcFBWS0ZleTBKRmNsT3BRSWpNYkQyVi0zYWg0TTFJWUpVbzdmZUZMVG9wbjlNZnZyYlB6YzNYVi1nZ1BWRWNVc2EtQVg0OGV4eVZoeGp1UFJONHNtVndENW1RMUt2d0UzZDBhSm5UaXRvcldUQVEya0xOa2c0VkhjTEF1akJZNEtjNWZ4VVF6VUg2X2VpTmdPV0ROUmfSAYcCQVVfeXFMTWF6VUxiT1ppc0FpQWh4ZDNISl9JWENvbDMxd1RSVHNaVVBQRzd3YzdxQjZ4WUF5Q3dydE5mTV9nX0dmRFpNVEhXaEJxdlMzbENicGRkVmEyc2hzSldSNE5lTlMtUUpjb3pXVzNubTRtd2RUVXBFRDkyQzVBRFEzRjd2NGVfMWI0VGkwc2ZVeUpTdjY0TGlXUGxoQmRRZG1VWU9LTWtDX2I4dGlBNGtNRFVQalk5VE9zR3YwLUlIRk12XzVhS3lvTUJ0ZXZPakszVl9HaElhS3JOTUw3TGtkWGF0R0pRRmRVdGpGOHp3ajRTMXE3VFRSSXk3NVFRbS1jZjlqMVFHTm8?oc=5",
+   "published": "2026-07-11",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "ON Semiconductor (ON) Joins Russell Growth Indexes As Fair Value Stays In Focus - simplywall.st",
+   "source": "simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLUYzQVFyZThfTmRiaHNyQmNpeG1PaVc1Z0tuQTNXcnB0S085bnAzX1BTUkIxNWJFSjdnWW5yT0k5S3lTM1ZiTjAxUnlUdzQ4UmtRaFg2R05VdFdqNVFqanNDSjlRQzRia2J2djhVLWlFVXVqX0U4NGhoelk2RG9TUm9LZFFXRFd5WkpVV1ZGZ3dIdWtoVVNUSXZZbWhhTklCSjZqOWNpeVVsUVRuYTVxd3lEdkFBbnRuM1dBOVlxNlhWbXVqYWY4SDFodXlCOEtOaFBSYVV30gHbAUFVX3lxTE8xYjVJWDBvcmJwQi1vMFY3Nm8wZVJ6TFZ5djg0YXJlZnRqUDhjUUdqYldvVk13V1lFTi00SnNjSm9ZOXNMX1BXUTlaQXpRVUhERndHV2pPRjlxbDBPZ3BNdmZnZXlLTWxXUjlDdDlGYjdycE00TlVfTDhqbEc4SEFhQW1pU3dUaFAwUFBVeV9lck1FQ0hMVk4xSTZWbmw0b0FfTjYyeEJoUG5YUExUUlJadFlGOUZfVDA2a1pJazZUelJzSHNkSWw5SFlOekw2QWc4U1VfLW9JTDhKQQ?oc=5",
+   "published": "2026-07-11",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Prediction: Taiwan Semiconductor's Stock Will Soar on July 17 - The Motley Fool",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTGFmVkd6MFAzR2xaS3lKRE52VTF5Q1lNQldsdVJDSDgwU0FaaWRpeEM5a2ZzRGpTd0Y0clY3TXRNRHVEM01Xc1N2UmdwNml5X1hQczdZYWJFbTFXMUV4bUdDLURLU0lleWpTbl9vYk55ajE3RGszUG04MlZndHhkeGZDcHhOOGpfNTFFdklDZTBWMzUwM1NZ?oc=5",
+   "published": "2026-07-11",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Australia\u2019s Semiconductor Sector Calls For Coordinated National Approach - techbusinessnews.com.au",
+   "source": "techbusinessnews.com.au",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRlhNbEM0cE1iQjNGZUFNOXR3dFoxU3BQSUIteFgzUi03bEk5d2N5ZXJ1X3cwam9YVnZTdUNMam1JVGRXUWhaOXZUZk5nYjFmT1RnS1NLcElLalBUX191dmdmX0hmTEVnLUhIVDVRUWVOMjV6aC1DcWNWbGd1Nm9pczZST295U0pabkx1Z0FiZEpabzZWT2RjVVdVdGZZTVhuVTRSQ3NnV2Qyd3hYcExKUS01OA?oc=5",
+   "published": "2026-07-11",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Lending protocol Bonzo loses 77% of value locked as $9 million oracle exploit rattles Hedera",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/web3/2026/07/11/lending-protocol-bonzo-loses-77-of-value-locked-as-usd9-million-oracle-exploit-rattles-hedera",
+   "published": "2026-07-11",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Crypto IPO market stalls as capital rotates to AI and macro uncertainty weighs",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/07/08/crypto-ipo-market-stalls-as-capital-rotates-to-ai-and-macro-uncertainty-weighs",
+   "published": "2026-07-11",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "The UK has finally shown it\u2019s serious about crypto",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/opinion/2026/07/11/the-uk-has-finally-shown-it-s-serious-about-crypto",
+   "published": "2026-07-11",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin treasury company Empery Digital sold about half of its BTC stack",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/07/11/bitcoin-treasury-company-empery-digital-sold-about-half-of-btc-stack",
+   "published": "2026-07-11",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "AI found an Ethereum bug that could take validators offline, but humans had to prove it",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/07/10/ai-found-an-ethereum-bug-that-could-take-validators-offline-but-humans-had-to-prove-it",
+   "published": "2026-07-11",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018I get $1,460 in Social Security\u2019: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/i-get-1-460-in-social-security-my-millionaire-ex-husband-74-refuses-to-pay-alimony-what-can-i-do-c5e60824?mod=mw_rss_topstories",
+   "published": "2026-07-11",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018It\u2019s heartbreaking\u2019: My brother claimed Social Security at 70. He died from cancer after one payment. Why wait to claim?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/its-heartbreaking-my-brother-claimed-social-security-at-70-he-died-from-cancer-after-one-payment-why-wait-to-claim-491669b6?mod=mw_rss_topstories",
+   "published": "2026-07-11",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Is it better to spend my savings now so I can delay taking Social Security? How do I choose?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-retirement-savings-will-suffer-if-i-delay-social-security-how-do-i-choose-between-the-two-a85273e3?mod=mw_rss_topstories",
+   "published": "2026-07-11",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Your data built the AI boom \u2014 but Big Tech is pocketing 100% of the equity",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/your-share-of-the-ai-wealth-is-a-right-not-a-handout-here-is-how-we-claw-back-our-money-7454b0e0?mod=mw_rss_topstories",
+   "published": "2026-07-11",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Only 5% of U.S. adults can ace this 8-question financial-literacy test. Can you?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/only-5-of-u-s-adults-can-ace-this-8-question-financial-literacy-test-can-you-93a57cc6?mod=mw_rss_topstories",
+   "published": "2026-07-11",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -19,51 +196,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta stock turns positive on the year on data center plans, new AI model pricing - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSElyYzRBckhFMFRnSWZrU0dtY3A4TFB3aGdGSnFRQldybzNrendhQm9oSDJpWFo1TTJOcmltcy0tM0JiSUtuWFNXSVBDdmNaLTZmdFIwel83TnQzbWFKbU1kY2tRa0MxdkVoOVNZTTlKYVExM1l5elJtR0xzSk1RTERxYXVZNDdIaE1rTmJGeWdoNWVoRHJORENlZFZjSEZVR3M1UlRrN2Jtbnp3Z3FRemtsZHhXR09lNV9FRmNOeWdJWWdsUWk0RTAxUW5xT3YxLU5TWHVR?oc=5",
-   "published": "2026-07-10",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "US eases restrictions on Apple\u2019s access to AI chips and data center equipment in the UAE - 9to5Mac",
-   "source": "9to5Mac",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUlzUVVEclgxVGN3WWNKWDFiUVpURUYxYmhFYkY0Y2tDOVdON1I4WlFxenlUX2ZxQzJTVDUxYVVsY0NqcURrNVNMRzRmd0VnanRVOVBzT0t0Y0x4bFdSS1dCQ2JocUd3dDFVWTlEU2l4NmVZX2FNZW9hSnBuWmZuSHlaZWRVSk1wZjZzSnFndUIxYWJnQTY2WEg1OVI5Vk1zcGY0eVVqNXp6YUlucEZ5ekV6aXlkdVB2c05v?oc=5",
-   "published": "2026-07-10",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Microsoft's carbon emissions climbed 25% in 2025 as AI data center boom strains climate goals - qz.com",
-   "source": "qz.com",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQdjNxV01jeGZaVEtLNXpIRWZNNVVUVmlqWUtrTVl3dFpXMW52dE5aTE1Rc2JzN3pxUnJLVE9yQndsNFBPWm9KSktEUlJyTkdZeU9YcUM5T0RkOXZpVVZSRjNmNDc2QWFQSmdnWjVQejlOdw?oc=5",
-   "published": "2026-07-10",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Semis / Taiwan",
    "holdings": [
     "ASIA",
@@ -75,94 +207,6 @@
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWmR3cV9fVWxkNEl0WjZGTmhpSXFFTV9hLV9fWFpfemtVQnVldkJFU0NRX29OSDZaQnVZOURFWnhQTF9Ka1NxWTFmR1VKRzE3T1lhbml4c2pRaUdJVWZIbUhTRnhsRGJxZE5kdEFtLWw5Y2RyUGpPNXNKU3F1bW9Hb3RVblRxcDBDRlFfMk4zeng?oc=5",
    "published": "2026-07-10",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "New method improves control over organic semiconductor doping for flexible electronics - Tech Xplore",
-   "source": "Tech Xplore",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY0VWblRDdXQzN1dJX1dpeG8xYjhIMDMzQXFJLXV0UXBHYVdYZmNDdGo1OGpUMnN2TkhJcWtaMHg0SzZoREdRR21GQnlDeDhWY3JBX3FFcGUxWThLb3VaRDE2TXVyajVBZGZQMWdRRHpyenZERjM1UXN6UVJ1UG5YMGpxTG9uMjQzRDd0VjFIY1c1Y2M?oc=5",
-   "published": "2026-07-10",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "What Makes Taiwan Semiconductor Manufacturing (TSM) Central to the AI Infrastructure Buildout? - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObUpxZVU3RHF3TDJPMndSSTZKUHBqY3RzUHhwRnhUSjJLeXV3ZTBBU1ZhV3VOdm4wN1FwTnhNNTljVjR2NDJldFZqYkMzUjNOZkltZkJWYTY3VW1tNFJUZERzb3hEd004UXNkZllpcFJ6TUZISHVNQ2FwajNyVHRvRVoxa3FETFdqblpLVVpmZGY2RnpJR0Y1ekxXYmNUQ0RpU1EwQjlIOE1OMEFPLWc?oc=5",
-   "published": "2026-07-10",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "U.S. government digital dollar set to be banned tonight under housing law's CBDC limit",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/07/10/u-s-government-digital-dollar-set-to-be-banned-tonight-under-housing-law-s-cbdc-limit",
-   "published": "2026-07-10",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Hyundai becomes first major South Korean company to introduce internal stablecoin transfers",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/10/hyundai-becomes-first-major-south-korean-company-to-introduce-internal-stablecoin-transfers",
-   "published": "2026-07-10",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "OKX, MetaMask, Matter Labs back dispute resolution court for AI agents",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/10/okx-metamask-matter-labs-back-dispute-resolution-court-for-ai-agents",
-   "published": "2026-07-10",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Circle soars after securing U.S. trust bank approval in crypto expansion",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/10/circle-secures-u-s-trust-bank-approval-in-crypto-expansion",
-   "published": "2026-07-10",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Japan's 'invest locally' plan likely to spur demand for assets like bitcoin, gold",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/daybook-us/2026/07/10/japan-s-invest-locally-plan-likely-to-spur-demand-for-assets-like-bitcoin-gold",
-   "published": "2026-07-10",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -226,66 +270,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Meta\u2019s stock roars back to life as it heads for its best week in years",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/metas-stock-roars-back-to-life-as-it-heads-for-its-best-week-in-years-0ff0fa7d?mod=mw_rss_topstories",
-   "published": "2026-07-10",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Summer travel season is here: Make this vital purchase before your next vacation",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/8-things-i-learned-about-travel-expenses-after-a-family-tragedy-1bbb024f?mod=mw_rss_topstories",
-   "published": "2026-07-10",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Where to put cash right now: Should you lock in at 4% \u2014 or wait for the next Fed rate decision?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/should-you-lock-in-a-4-cd-rate-now-heres-how-to-decide-on-the-next-move-for-your-cash-41a7ef4c?mod=mw_rss_topstories",
-   "published": "2026-07-10",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "A hedge-fund trade blamed for a massive market blowup in 2024 has made a big comeback, Goldman Sachs says",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/a-hedge-fund-trade-blamed-for-a-massive-market-blowup-in-2024-has-made-a-big-comeback-goldman-sachs-says-f2308a78?mod=mw_rss_topstories",
-   "published": "2026-07-10",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Prepare for the Fed to undo rate cuts that stabilized the economy, expert cautions",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/prepare-for-the-fed-to-undo-rate-cuts-that-stabilized-the-economy-expert-cautions-bc36ea76?mod=mw_rss_topstories",
-   "published": "2026-07-10",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "US rates / Fed",
    "holdings": [
     "IVV",
@@ -311,6 +295,36 @@
    "title": "Meta to build first data center in Canada in expansion of global fleet - The Japan Times",
    "source": "The Japan Times",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZTJGM1EwRDJGY0FvU2ZVWld0QjFoU3oya2tGUmJYdGlTVDdfVzVwdVFCdVdvMFpqYW8tQTBOa2V0NWpUU3dBZ3RHbEFJY2lMUTJiZFU0OTFrbExmSkFqakpYQlJtc211U1JyNkc4WHVYUlBwRDRvSVEwY2UyYnJWWFROc0o?oc=5",
+   "published": "2026-07-09",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta Is Building a $9B Data Center in Canada - Business Insider",
+   "source": "Business Insider",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPS2pPQ1RELUdqNGNEdmMyRUVUV0NKNmNpeVZOeFBhTWYzMjR6SENwRnRBSmpJWTVMdnlCR3UzWEJZaDMtLUU1TzFpQ0YyNEdMdmpzRW1yRzFnNnBucUdtYlU3Wjl0b3NHTFRKQXg0YVlabmk4X3JITXNkdUYxMVd5YWxqaHRSdnlyU1F3Tkt4dzhUZw?oc=5",
+   "published": "2026-07-09",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta Stock Dips as AI Capex Concerns Arise - Schaeffer's Investment Research",
+   "source": "Schaeffer's Investment Research",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU1BRbFduTVNkODZNVGJRUl9acHZNM0pDZV84YVYxQkxObWpySV9ZNjJhWmdnTGxsc0I3TTF0RVpSNjVZV3FnUVhiTTFjODhBR21Jb0NUcjBrZldhTUV0XzBUZGFRYWpwQ3o0cm4zN3pBOENWaVlzbWFrOTBLSW1zU01pMFhiamV6dzZFM2prLWEyZmtsanJoSzdXdE1nd1lLNEhj?oc=5",
    "published": "2026-07-09",
    "trust": "C",
    "flag": "context-only"
@@ -398,18 +412,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "AU tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Treasurer Chalmers Defends Australia\u2019s Capital Gains Tax Amidst Opposition Criticism - SSBCrack",
-   "source": "SSBCrack",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXk3UVBqbDZvZnVaeFJjYWVtZ0tTN3BZV0ViOUcwR2M0N0UzUlVEWTZUNG5GQ3BDUkpsVzVqNU1MWW1QYjhUQk5LVUlhV3pYTTdMRlZyRXlJU3RJYlZUQm9DaDJONjV0Sm56dS1va3BPMk1ERDR6U3hzbTF3LWZraW45OEdDWndiY0ZWRjhXLUlnREtjdnVUT05vS0VHTG81RnpuZnp3Z1pEMFdjNzhz?oc=5",
-   "published": "2026-07-08",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "US rates / Fed",
    "holdings": [
     "IVV",
@@ -422,6 +424,19 @@
    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260707a.htm",
    "published": "2026-07-07",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "China + iron ore",
+   "holdings": [
+    "VAS",
+    "VHY"
+   ],
+   "title": "PBOC Unveils Measures to Cement Hong Kong\u2019s Yuan Hub Status - Bloomberg.com",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYm1WOGM0T21QRkZkX1ZMYWozam9idTNvOTBzclR5ZGd5bVF6SzY4RXFyTlRINFhPdGhOM252bUFrUnk0dXNlbzJ1bFVhUHh1OERYT2pzWXNJWnlhUXI4TGx3emxFZUgyeDJaYktrSWx5RTRLenJEYzRaTjBJMzFhRkVIYW01MlFFWVV1MXRJZnFoVWR6Q1VGa1NSYi1YamN5ODRVNk5DbkNnaUIwb1BqM0M0alA?oc=5",
+   "published": "2026-07-07",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -527,18 +542,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "AU tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Australia Plans To End 50% Crypto Capital Gains Tax Discount - CoinMarketCap",
-   "source": "CoinMarketCap",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ0loWTQ1SDViZXpSdkg1aGhqc3Y4Qm1PLThoSXpuOXR1S25wUmVyV0pGTHpTanJIVDRXUS1OREZ6ZzBXRUNmeUFtWVhHY25ER2trNjMxdFI1Q2xOa3hVeW5SdUxVUWU3RzIydG1DUnNhOU82MU1Cam90Q3R3R3NxUkVMU0dfQks5bV9oSUZzVERnVWs?oc=5",
-   "published": "2026-07-01",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -549,6 +552,18 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=67824",
    "published": "2026-06-30",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "AU tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Division 296 super tax explained (including calculator) - superguide.com.au",
+   "source": "superguide.com.au",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yUmY2cjdqeDluSlJKV2NmcXZPaVR3LWRWdXpqLVBZc1FiVTQ0YjhHUHhJUHY1M1didHQwVlQyM01NaVVnMWdmUzdZVEpjSy1tV3JLUUpxUUV2UUdwaEgxQUozY1RpSXhzQm5Od2pIeVI5WDBOQzYxWTFrcVU?oc=5",
+   "published": "2026-06-30",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -575,20 +590,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=67807",
    "published": "2026-06-29",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Wall Street slips as semiconductor stocks sink anew - AFR",
-   "source": "AFR",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLVZ0MGczYTBjd3dfcHJhc2E1MUtYSkxtejBnMlBJT29HODRzQV9iTm1yQ1M2OWZURHZoUmY4OTNyckljdmFtZ2hYQml5anctQ3B2RmxlQVB3NTl1Ykx3SlhxUXVxREF6X1E5RlhHaGhQM1YxSHlYSF9hVWZZQ1FuR1BkOEltWU5YWE82VGU4MjN4Y1U4bld5X3Q5QmlWbklYWkFPVktPTGpFcU1yRks4?oc=5",
-   "published": "2026-06-27",
-   "trust": "C",
    "flag": "context-only"
   }
  ]

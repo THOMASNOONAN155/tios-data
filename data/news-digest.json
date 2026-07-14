@@ -1,8 +1,416 @@
 {
- "generated": "2026-07-13T20:55Z",
+ "generated": "2026-07-14T20:58Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 45,
+ "count": 49,
  "items": [
+  {
+   "driver": "US rates / Fed",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+   "source": "Fed monetary",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
+   "published": "2026-07-14",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US rates / Fed",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Bowman, Responsible Innovation and Financial Inclusion",
+   "source": "Fed speeches",
+   "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
+   "published": "2026-07-14",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US rates / Fed",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?",
+   "source": "Fed speeches",
+   "url": "https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm",
+   "published": "2026-07-14",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US rates / Fed",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Major Economic Indicators Latest Numbers",
+   "source": "BLS",
+   "url": "https://www.bls.gov/bls/",
+   "published": "2026-07-14",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Apple Avoided the AI CapEx Trap \u2014 It Could Create the Biggest iPhone Upgrade Cycle Ever - 24/7 Wall St.",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMjVwY05mQ1YwVi00Uko3YUhvZTYtLTY2eEI3dDI0YkVPX2F4SF9WNm9CNm9PSFNVbzZQdlVqV1U3Ny1hZVJqUnV1d252TFVtc3d4M3RIY19XYWxZYlpZMWtRcHUtUGs2UVJTSFBfLTNZZnZfMXJWSExmWnpQQS1NbldaSzlJbWF2NTQ0NWc3V2Zlc09zVG1rcU9yYWVGMWc2VnZTRHRQajJQeHlra2M0T28zWGNxRVA1SGg4ZlNvdEtCVTNKdnAxVw?oc=5",
+   "published": "2026-07-14",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Nvidia, Mitsubishi Heavy eye cooperation on AI data center cooling and power - Nikkei Asia",
+   "source": "Nikkei Asia",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQellyX185cDZyMnVKQ05MY2dqNElxNkE3aXBXMThSMEhxZUlmN1ZZV29JaWlCS2hRM1FPZlJNQkRrVDJOUC1PVmZYaGlDeTBobDcwcF83ZEVxMW05bFRUcHpaUEVQNEduQ1JBZzZyeW1DdFFsRlpSbEcxMzRwOHBlNXc2MXhyZnZBMzJjcks0NzhoczhxSFNmUjN4TXIxMWI2a1hBRUZ2c0sxUkdNcHdjc1RhSTFUQk5uRG1aTTRGX3ZHMjNfVlJNSFFkZGhXWkRSbmQtcXRtaGhyVk0?oc=5",
+   "published": "2026-07-14",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Firmus, Nvidia Lead Indonesia's AI Data Center Push - Jakarta Globe",
+   "source": "Jakarta Globe",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR2p6TkV2aURYbFpzbVhLM29ibVhxQ0VBVUU4SDUzWGFpU2J3eG5aRFE2YTZ2dW9wNVFjMkpMVnlBOVlpOGxGR3pCTVRQa2ZyN0w3NVJZMnhXQTZxa2NPeDBmdHE1ODl5WUl4Skpwbk96bEdqYmd1MjAzcW9od2p5VHdrak0?oc=5",
+   "published": "2026-07-14",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Pure DC Building Finland AI Data Center, Secures Microsoft Deal - Bloomberg.com",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNXy1DNlNNUnRYRjYzd09kODY2NTBVLTlWNFVrMWYzaG4wMnlZc19lU3pwdURGbW45VXNGTWhIVDlBM1RLejMyUnlCWGFYb1pjSy1GcS1DMHc1YmMzQWtYdWsyN3BFcXFfTGFNOFdrV0VXMkZzSzZKOWlNWHJrVkplMnM4NmxTRExXWXE1RGowVnJXVVVTMzltNVl1UlFwS0stb3g0b2NRNE50VlpjeXlEbi1WUQ?oc=5",
+   "published": "2026-07-14",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta boosts investment in Hyperion data center campus to $50B+ - SiliconANGLE",
+   "source": "SiliconANGLE",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMHhRQnVLcDNXMTI1a1dlM29VRF9mZWxjNXozWlZ2RjRXc0kzbjBpeVA2REpDUnV4ZVlGR2Y4OC1aY2Z5QzFEV2ZKZmdFZDV6Y3A4Vnk2WFJQNjhnSUIwWXdTTHNiamJwS0F1ZWZrUkItVjJXT1p2R2JQMlBlX0VlMFdjc2Z2OWtGejdfWGVDZ1N2QzBiS1E?oc=5",
+   "published": "2026-07-14",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Buying TSMC Stock Before July 16 Just Became a No-Brainer Due to This Massive News - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWWxHbmJLSE5tNlhkTXhFS1p3M0pHeHlzRFZzTWw0T2hjQmhQWFc1REl2N010aWJVQTVnZE1FZUNIa0JhSDk0SzlSVDJVZU5acUQyS1Y4dHdhcWItMGozaHlBcnBTVWtWLXJmV0ZrbjBfZWE0TGN6QV9uMjlCdWlQXzI0aW1GWGEwS1gtTWFDZ3BoOGU4?oc=5",
+   "published": "2026-07-14",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "TSMC (TSM) Stock Still Looks Undervalued Despite A Very Large Run - simplywall.st",
+   "source": "simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOMTVaX2d3LVUxX2QxMW56Nlh2NkFFbXBqdmxJOXRxX0RkRE9ZM2FRVnhIajVFOEFCNll2Z3BoSmRNVDlRdEticUFrX3VjV25vcUNDcURsYlN1TDRUMW5oSkRrai1PcXZOZ1BvbkdrMlVGOGhZbGc4QlFhdGx3M3d1VThzSmlESGJsbUNOQjlJbjUwbkxyTzdyMmo5RnRaVncxMDFPVHdjZ3plczNITXVPaFVhdUtOV1VLZUxFNzZhUEgtWGhPTlVZUGlSdmJveXRWNThSNGtiOGZyOFUtSGpITEhIUE9vSTVYblZ30gHwAUFVX3lxTE9kYnA0clFfallON1lnWW5haS1tN2FnNGU5WEZHdHduRjJWZkFSTnVHY3EyUkVwNFFGY0VWdjBfRnRvVjZHVGpTOHY5NVlfTFBQTlp0YzFYeVZBRG5LY3kwZGp6Vm5yZ1hnbU5ZT2gzWkZILW1BNDhjb2JyenRTMHMta2tENUtBMVlyMFItYi13cU5ZcDdacERZRURYdVlzMm5pVWxFX2FxRzVDdXh5UlJRUjh2bVJBUFlrZ0lWSFZ5amstbGhONC1GZlNtdDZXbnYydlZib20wcVJzeHBlZ0ZtOTRFa0xmY3VEX2FwTjFULQ?oc=5",
+   "published": "2026-07-14",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Tower Semiconductor shares jump on $3B Japan expansion By Investing.com - Investing.com Australia",
+   "source": "Investing.com Australia",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc3h1QVZUMU0wcy1PbnhGWmVMd0I1c2QxQ2xPNFdudDlreDJ2R2tSS0JvRkx3RzlhUzNvc1BVRUJUNnI1TmQyUU1uQ2QyYk1peG5VMG5aS29XakNtTDZ3SEVzOUh3VTljY1lGQWFnWkU5cWpSQWgtcm13cThpNFlCWnFzbi04SFFkSFFHRDVLcURYc0RRd2g0OTVtSzg4d19iN1ZmREM0WWlVSFVmbzlLR0ZOd3g?oc=5",
+   "published": "2026-07-14",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Tower Semiconductor to invest $3 billion in Japan, backed by government grants - Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc2dOdUdnMlNKcXpvcXAxVlNSZjNSUGptSFRDZnNiNHRkX2FxYzVJSWRFSUdLSVRTdGEzTEk1aVVTY0dFWGFPOHlhWHY0MWlsYXR0VWliaDRNS21fUW41bnRFMElFcmx4azhlRUZRaU5CSHhLbW5zV20zVDgtWHdFRVgweWROUUxJSWRGQk5KR3RIeVJUMHB6T2o1SFJqREFjZWpFZng5YVVOUWJPUlFFZXpNTkZXelhPcnh2Um9IMFEwQXc?oc=5",
+   "published": "2026-07-14",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "Global liquefied natural gas trade volumes reached record high in 2025",
+   "source": "EIA Today in Energy",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=",
+   "published": "2026-07-14",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "U.S. CFTC moves to stop Kalshi from canceling trades as ordered by Michigan court",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/07/14/u-s-cftc-moves-to-stop-kalshi-from-canceling-trades-as-ordered-by-michigan-court",
+   "published": "2026-07-14",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Some U.S. Senate Democrats come out against Clarity Act, calling it a 'corrupt' bill",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/07/14/some-u-s-senate-democrats-come-out-against-clarity-act-calling-it-a-corrupt-bill",
+   "published": "2026-07-14",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/07/14/binance-bets-on-becoming-a-crypto-super-app-as-stablecoins-reshape-growth",
+   "published": "2026-07-14",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "The Clarity Act isn't a ticket to sanctions evasion, actually",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/opinion/2026/07/14/the-clarity-act-isn-t-a-ticket-to-sanctions-evasion-actually",
+   "published": "2026-07-14",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Mizuho downgrades Circle to underperform, cuts price target to $50 on Open USD threat",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/07/14/mizuho-downgrades-circle-to-underperform-cuts-price-target-to-usd50-on-open-usd-threat",
+   "published": "2026-07-14",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "AU tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Australia Plans To End 50% Crypto Capital Gains Tax Discount - CoinMarketCap",
+   "source": "CoinMarketCap",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ0loWTQ1SDViZXpSdkg1aGhqc3Y4Qm1PLThoSXpuOXR1S25wUmVyV0pGTHpTanJIVDRXUS1OREZ6ZzBXRUNmeUFtWVhHY25ER2trNjMxdFI1Q2xOa3hVeW5SdUxVUWU3RzIydG1DUnNhOU82MU1Cam90Q3R3R3NxUkVMU0dfQks5bV9oSUZzVERnVWs?oc=5",
+   "published": "2026-07-14",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Register to complete origin declarations under the UK-India Free Trade Agreement",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/register-to-complete-origin-declarations-under-the-uk-india-free-trade-agreement",
+   "published": "2026-07-14",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Form: Request transfer of a VAT registration number",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/vat-request-for-transfer-of-a-registration-number-vat68",
+   "published": "2026-07-14",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: Gains on foreign life insurance policies (Self Assessment helpsheet HS321)",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/gains-on-foreign-life-insurance-policies-hs321-self-assessment-helpsheet",
+   "published": "2026-07-14",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Check if a business is registered for money laundering supervision",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
+   "published": "2026-07-14",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Software developers providing entry summary declaration support",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/software-developers-providing-entry-summary-declaration-support",
+   "published": "2026-07-14",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "ECB selects 36 payment service providers to join digital euro pilot",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260714~8cd07d9d45.en.html",
+   "published": "2026-07-14",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Your stock portfolio is tied to the Japanese yen \u2014 and a looming intervention is flashing a major warning sign",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/another-warning-sign-is-flashing-for-tech-stocks-and-this-one-comes-from-outside-the-u-s-d51d6bfd?mod=mw_rss_topstories",
+   "published": "2026-07-14",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Skip the lettuce, cook your other greens and more advice on avoiding cyclosporiasis",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/skip-the-lettuce-cook-your-other-greens-and-more-advice-on-avoiding-cyclosporiasis-ec2aed46?mod=mw_rss_topstories",
+   "published": "2026-07-14",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "IBM\u2019s stock just had its worst day ever after the surprise release of an earnings miss",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/ibms-stock-dives-toward-worst-day-in-nearly-40-years-after-the-surprise-release-of-an-earnings-miss-8519741e?mod=mw_rss_topstories",
+   "published": "2026-07-14",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Lucid denies bankruptcy talk, but the stock still sinks to a record low",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/lucid-denies-bankruptcy-talk-but-the-stock-still-sinks-to-a-record-low-82f87d0d?mod=mw_rss_topstories",
+   "published": "2026-07-14",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "I\u2019m 67 with a $140,000 pension. Should I wait until 70 to claim Social Security so my wife gets more?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/im-67-with-a-140-000-pension-should-i-wait-until-70-to-claim-social-security-so-my-wife-gets-more-63759d48?mod=mw_rss_topstories",
+   "published": "2026-07-14",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -34,81 +442,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Teachers and Local Businesses Win as Meta Expands Louisiana Data Center - Meta Store",
-   "source": "Meta Store",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa2hOcUJlWUVuOG9EZGVYQWNqSFhhcGFReUVLeDVXUzlkQjY0RlZQYTdDd3JkOEx3bzZKbGJLZkVReUM4ckZhbUxWOHhVT1htYXlBQWhIWl9md21HWnBlUUhJWkVHVGY3VDdwWWlFU1JjV1dYVTJkMXBZOC1nd3B0Ukd0eElaX1NscXNDWkdhX0NST1Q5U2cweFVGdkZIa1RrSGFlRNIBqgFBVV95cUxONkVrd3NvUmJDbDhsbk92OXo3M24yV0NVTmRpV1BhaExUT0RINFpOWUZFRDlBdk5ZRUswUmF0ekpYZ18wOXoyYUJWd09Ob25Cb1NrTzduX1FOMEVMMnIxTlVMck1ISjlUVHJGc2hOSV9QQW8xZnFzd2U1NXF6TEJNLS1tWlFYSUgwUzZEcUZKalNudzBFU2tyd0lMdDVUTEZfZkFLNUtBc0h2dw?oc=5",
-   "published": "2026-07-13",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta's Louisiana data center investment to reach $50 billion, aided by generous tax incentives - CNBC",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdUtTQ2toaDhkd1dtTmQ2MlpDVkJSSFlidkxnUjVNMllfZmd1allzZjRxUm9qYWtCOXNSUk53QWd1akdLZWJyekJjYTVhQ2ZWa1lzclhQYUpSVF9fYUg3LURpQ1dkUUg5TGpJVnY1NDVBbFBxcXFtRXU2T1VZV0dzNHVvYjVtT0xmVXJvZ19JaE9JYU52WkU5SmVnb1o4aXRrdDZPRVFDTHM5QdIBrwFBVV95cUxNSzVPT3Rpbmx1LVcwMUJnX1dKVVIzX0ZYSFZ3TExSNWtHODFpT2hOVTdOSDUteDhPdGtxOGVWaUROREVBME05dUFiSGZ2bWloN3VpZjVTaERLRENib2NSVmhkMnAzXzlvdTVWeUs0SUstME1xaE9HbXg5d3Qwd0gtT1ZVZl8tUjg0RjIzVGVsbVJMb19SSzZKTkdQR2ZFelRkaTJvaFNSQmNTWkYwMlFR?oc=5",
-   "published": "2026-07-13",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Buy, Sell or Hold: My View On Microsoft As AI Capex Costs Rise - 24/7 Wall St.",
-   "source": "24/7 Wall St.",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWEZuS0dYMjhNY0ZoaTZYNXdZcDA4M1RmUWpDcUVHdlR5QnRuOXBKSVI1LUtCRjVrVFV1YzdScnp4YW14R2hIcUVuajZsSHhLMGg3WVYxTDVrZllrZzBPNEduZEVMaEJDclZoRkN3b3BrR1BIRGxIYXJBc2RhN244QmwwX1A3SXJDLVVXTllYc2FfQVd0aXUwUDJkeWk5MWRHX0FSclVOdw?oc=5",
-   "published": "2026-07-13",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta says it's expanding the Louisiana AI data center that helped fuel $50K teacher bonuses - Business Insider",
-   "source": "Business Insider",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbGM2Y0tmT3gxRDVIWndINmdsRU94ZlczQkFiS1FqNHIwNHRLUnRlZnMxcVZFRExVRkRDR2JvVkNQMTlTSmdGYndHUlM4OWtBLW9IcWpQXzlGc3RCc1FOSEFPSkZ3MHhKVmNvSDZZME8xTmQtR1RYOHI2SF9JTTBDd1NFOXMteGludlE5ZU5UMmhXRXN3TG9iUlZBLUs?oc=5",
-   "published": "2026-07-13",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta Scales Up Louisiana Mega AI Data Center To $50 Billion - Investor's Business Daily",
-   "source": "Investor's Business Daily",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR0VTb080cnZLUkVPUkROUF9oeXE3ZGJ5cUNOakFTWWd3RmY5eWY4Tk5UZGZ6MlJEU3dCY0pick1KeEE2QXR6cEtwLWtSNEt3NkhLX2ktSE5nWE9iS205RGZLeVBRaXc0b2ZyTndKTDhnZUNRUVdfOWRpbVR2RjVnLWVyaExqdFhaNWpBaHRGSXR6ZUUtSUJGOFdXS3FGRlk?oc=5",
-   "published": "2026-07-13",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Semis / Taiwan",
    "holdings": [
     "ASIA",
@@ -123,179 +456,16 @@
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
+   "driver": "Energy / oil",
    "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
+    "VHY",
+    "VAS"
    ],
-   "title": "Global Semiconductor Stocks Slide as Record SK Hynix Selloff Ripples Across Markets - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORmhpT0lyY1cxR0ZSQ0Fka2NQWHhXNEE5M194OTRjRW15ZWhTMWt4TlBqbU9aWUEzVndIZ183UUdHSENjUUs1bk80RHNSY3k3bmRlQ29pbE5WNlFwNlBqcWhEUFBReHBXVTBNRW5pV1FvZVNvZldUZllZNWR2OVU1NklwZXljS1Z4djZDaWVmd2J1dFVJOEFQVDljQXg4QmkwTXBuUXQtTjA?oc=5",
+   "title": "U.S. will take out Pickaxe Mountain in Iran, Trump says - The Detroit News",
+   "source": "The Detroit News",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbXREOWVfQUN4d0ZVNzRGd1V1a0x3eXNXYUNqUDVaX0NVWU9vS1ppRndxWWxTRHJ5M0g2d3NJQnNybzZrM2hiUXVkV1ZOWkVMTVdYRGh4UE5TZWV6VkhaZ0g4dGdiVFdrS2xFZ3prTTAtb2N2bUYtNGxMWXpOaS1FdzlQZmp1b2lHbnJwVE1KOVV4bHE0X085d3RZYmY?oc=5",
    "published": "2026-07-13",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "TSMC sales hit record on AI demand - Taipei Times",
-   "source": "Taipei Times",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Gc013Ny11MnFqSmpRT0NiamtQMFVpZmJhV1dpR0ZkTkM4U1JPbkVaNUJEczNZVE51UVdtbDNDQTA5VHphaWRjN3lqZktacjN2Z1BsZXlVbHNKWVp6THlWZW55SVJnYU9GY195alBGTlRuTDI2RUE?oc=5",
-   "published": "2026-07-13",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Taiwan Semiconductor Posts Stronger-Than-Expected June Sales - Investor's Business Daily",
-   "source": "Investor's Business Daily",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNelRtemlXOTRDbnFKSXRwb1UwVUdxYUVNS0V3bEhXSWQ2cEdtUndFOTh3eWE3V3V0dnVHQmtpUlVpTFgzRG04b1hvM2NhZUwzRkowRzU0UkVfR0ZEUnJIVFVmVk9CZEgwc2pwbmlweHhyX0YtNEc4RGNFRlo5ZXozcy1lRWtXeG9LVnhXNHhEYnZsWVE?oc=5",
-   "published": "2026-07-13",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "TSMC, the world's largest contract chipmaker, reports 68% surge in June revenue - CNBC",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYkpaR2xMRU44OFdXYWtKVkxDbGpiTmlMVFNQelU2RXBwVXlDVWpEdmlva3lidXJ4MmEzUXNQUzNHV2dtNjJjb1BoRHVKeUFSd1Y3dWY3ZDY4RjRqcjA2VkVqWmpneE1yam5DQklBTUE1M29FRDlLOS0zOE9KLThHQUJ6Tm11dk9HUU1sOVdBN3FsLXPSAZgBQVVfeXFMTXNpeUxkaGhJbkhLZG81S1Bpcmxzc3lMQU1Vb0RUeVFUUk9RY1JfMno2VmVNSUVZZTFUWEhtVzhaTlhQaWM3TU9FT0hEMnVXZUY2TGdZLTZRMGh2VUV1R3VaYmxod1VkOWtuQlFkazMyMTJONHVaRFY2Mmw0WV9teFRfTldWY0hVclhjR2hhV0VZSGZEWTE2S1k?oc=5",
-   "published": "2026-07-13",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Binance.US CEO says exchange is rebuilding, eyes return to 20% U.S. market share",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/coindesk-news/2026/07/13/binance-us-ceo-says-exchange-is-rebuilding-eyes-return-to-20-u-s-market-share",
-   "published": "2026-07-13",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Franklin Crypto CIO says crypto prices are disconnected from fundamentals",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/07/13/franklin-crypto-cio-says-crypto-prices-are-disconnected-from-fundamentals",
-   "published": "2026-07-13",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "TeraWulf CEO: 'Not All Megawatts Are Created Equally' in AI Race",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/coindesk-news/2026/07/13/terawulf-ceo-not-all-megawatts-are-created-equally-in-ai-race",
-   "published": "2026-07-13",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Trump's crypto riches loom over Clarity Act talks to ban conflicts for U.S. officials",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/07/13/trump-s-crypto-riches-loom-over-clarity-act-talks-to-ban-conflicts-for-u-s-officials",
-   "published": "2026-07-13",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Mizuho says Circle bank approval doesn't solve USDC growth, stablecoin competition risks",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/13/mizuho-says-circle-bank-approval-doesn-t-solve-usdc-growth-stablecoin-competition-risks",
-   "published": "2026-07-13",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Choose the right software for Making Tax Digital for Income Tax",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/choose-the-right-software-for-making-tax-digital-for-income-tax",
-   "published": "2026-07-13",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Specialist Investigations Operational Guidance",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/specialist-investigations-operational-guidance",
-   "published": "2026-07-13",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Appendix 1: DE 1/10: Requested and Previous Procedure Codes",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/appendix-1-de-110-requested-and-previous-procedure-codes",
-   "published": "2026-07-13",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Self Assessment commercial software suppliers",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/self-assessment-commercial-software-suppliers",
-   "published": "2026-07-13",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Check genuine HMRC contact that uses more than one communication method",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
-   "published": "2026-07-13",
-   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -323,66 +493,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Lindsey Graham died from a rare heart condition. Here\u2019s how to know if you\u2019re at risk.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/lindsey-graham-died-from-a-rare-heart-condition-heres-how-to-know-if-youre-at-risk-8ca5a618?mod=mw_rss_topstories",
-   "published": "2026-07-13",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "You don\u2019t have to be rich to be financially independent. Here\u2019s how to take control of your money.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/you-dont-have-to-be-rich-to-be-financially-independent-heres-how-to-take-control-of-your-money-5345f146?mod=mw_rss_topstories",
-   "published": "2026-07-13",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Stock pickers know they can\u2019t outsmart the market. That doesn\u2019t stop them from trying.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/stock-pickers-know-they-cant-outsmart-the-market-that-doesnt-stop-them-from-trying-b4fddc41?mod=mw_rss_topstories",
-   "published": "2026-07-13",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Billionaires are loading up on these superior stocks. Why it pays to follow their money.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/billionaires-are-loading-up-on-these-superior-stocks-why-it-pays-to-follow-their-money-9120c242?mod=mw_rss_topstories",
-   "published": "2026-07-13",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Micron and other chip stocks feel the pain of imported volatility \u2014 blame SK Hynix",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-feel-the-pain-of-imported-volatility-blame-sk-hynix-f705a0fd?mod=mw_rss_topstories",
-   "published": "2026-07-13",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "China + iron ore",
    "holdings": [
     "VAS",
@@ -406,21 +516,6 @@
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lY2RBV0JwZDl5SmEyLXZTTHJSVFBScmJYZ1J3Y2NvTEpwRW9MVDFLVWsxS2xhVm5DUmFyUEJWeFRodko1QWxIRVgzRkRaVmdCRFE?oc=5",
    "published": "2026-07-11",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US rates / Fed",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Major Economic Indicators Latest Numbers",
-   "source": "BLS",
-   "url": "https://www.bls.gov/bls/",
-   "published": "2026-07-10",
-   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -520,21 +615,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US rates / Fed",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Waller, Two Thoughts on the Transmission of Monetary Policy",
-   "source": "Fed speeches",
-   "url": "https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm",
-   "published": "2026-07-06",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -547,6 +627,19 @@
    "flag": "context-only"
   },
   {
+   "driver": "China + iron ore",
+   "holdings": [
+    "VAS",
+    "VHY"
+   ],
+   "title": "Iron ore mystery as China looks to target Forrest\u2019s golden goose - The Australian",
+   "source": "The Australian",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNXzJ4eTRNRi1rMU82Vm9senFoWHZnalctd0p3YVA5MkJOOC1HU01ZdnF2U3ZydExMdDRYU2ZiNzhWZkZaVFNUODA3RExwSFc3TWUyLWtabkFGQzVVcEhhblM5a0I2Zy1RVXlDcnRqVlBEck5VZndlY3J6Ri1BYU53ZlBLb1NxNlZ2V2doa1FFeVRzOFhlWHRkMnUtaTNCcUE3Ri0tRXlyMGgxdWdCVGJpN2o5NlhTbUtHeUxXVzJkcmZSaWdWZjF6QXJfSTk1eGttd2RQNVpkSHRYc2dHZmRJWkczNUZLejROZXBVVExNXzZUMDdybDV5U2tRRllWQdIBgwJBVV95cUxQM0xqNWV1Z0thYS1ONHd6MkxoSUlYbmtwVHRYVVdOczA1a2pRUV8wYmUtSEVESFJDNnRUUkVzd0ZuWnJ0VTVvLVhMRkJkVmQ1ZzhsVmdiZ1R3RjhSTnZNcHM1SmFXUWZtRlVjUzJjdlV4bHJGVnBDdi1QTVFtQzlzX3VCdlZhemZQWkE1VVZ1dlA2Y2ZralpjenI4MGV5UFFfMXJqYUlrSnh4VEU5dnlDX2IwNWZOc093OXh5bG5JM0ttaVpjenRLZENjSy1KLTlHc0NCemROZENSaHpiOUk0ZzItam1QSWtZYklFbTBFTUZZRGpaRWtXZnFvMUNuYmkzMzJr?oc=5",
+   "published": "2026-07-02",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -556,43 +649,6 @@
    "source": "ESPN Philippines",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNN3BGVnNTT2J5ZUtNSDh2cjZxMldxbTJfQmE2UjBSWThMeVgwbnNUY0hPWldvbFpOdjZSRHZrU1E1VjBNMnl0Z2pHNHZ1eXdjZXZwbUltN3ZkWlNuUi1KYUNOaUctYUNuT21JMlIwQ05YN3o2SDNCaU15MzVYUG9ZNF9SVHU3UFEwdm5raXJ3UEI4ZHVBUzE0MGUyQzlTTkE?oc=5",
    "published": "2026-07-02",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "Christine Lagarde: Interview with Les \u00c9chos",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260702~c56db179c3.en.html",
-   "published": "2026-07-02",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "The 250-year history of U.S. energy consumption",
-   "source": "EIA Today in Energy",
-   "url": "https://www.eia.gov/todayinenergy/detail.php?id=67824",
-   "published": "2026-06-30",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "AU tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Division 296 super tax explained (including calculator) - superguide.com.au",
-   "source": "superguide.com.au",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yUmY2cjdqeDluSlJKV2NmcXZPaVR3LWRWdXpqLVBZc1FiVTQ0YjhHUHhJUHY1M1didHQwVlQyM01NaVVnMWdmUzdZVEpjSy1tV3JLUUpxUUV2UUdwaEgxQUozY1RpSXhzQm5Od2pIeVI5WDBOQzYxWTFrcVU?oc=5",
-   "published": "2026-06-30",
    "trust": "C",
    "flag": "context-only"
   }

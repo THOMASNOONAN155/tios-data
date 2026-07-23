@@ -1,8 +1,325 @@
 {
- "generated": "2026-07-22T21:04Z",
+ "generated": "2026-07-23T21:01Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 48,
+ "count": 47,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft at $390: Irrational AI Capex Fear Is Your Opportunity - 24/7 Wall St.",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRHpvODlzbnJMMDd0WTQ3dGQ0c3liZ2VSMFBWUGQ0U3BVR2dEMURFZDR0ZW9ndVNiZmxxX1hQVlFialRwaHRPN191QzJ2S2RYcnpscWt6eDJZOU1uakQ4OXdCd3FSdUxISk5tbW5tZ1JwNFBmMnljTlJrdElsYUxydlFFNnc5T3YyQ2RiZC1WU1dnb0RBakJrci1RMlktY0hSSTlBMnhodXM?oc=5",
+   "published": "2026-07-23",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft: Strong Buy Despite The AI CapEx Problem (NASDAQ:MSFT) - Seeking Alpha",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOc0VKYWtvbFNNVEpYNHdTUm54bnlCTVVpTV9sVG4wbFR2cnJLeXpjWE5aSUlHWHhWeVc5eW9JQjZtZnFDajNXWnY5NFRXSVBJS2ZqYUZnckVKSUMyRnBleFRiNjA1RnFibVBsTW5nbURvX182WW5KZTZTZXU1SnUxNVozYU1PRnhrNUMydFFacXNyOGlD?oc=5",
+   "published": "2026-07-23",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Plan for data center at Nvidia site in San Jose faces appeal - Data Center Dynamics",
+   "source": "Data Center Dynamics",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbndjWnpVV3o2RmtTT0NYeWNaMDVMMHpQcm52RzlGWUJtX1ZHTFMwalNYQmEzZGN1MjBLSy0tV2N3RkNBZUM0MWJ5czhybm5ZaU1YNlRfb1A1ZW03ekQ4bmk4dWdGQzR1UkNfMUk5bFQyT25uMDY4UWktYVhlX2ZqTmttOEp3LVM0ZzdCNjZyY1RxOC1lenBNOHVFOVdZdk1YcV9YNW5QWQ?oc=5",
+   "published": "2026-07-23",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Adisyn (ASX:AI1) Is Moving Higher \u2014 Is the Graphene Semiconductor Story Worth a Closer Look? - Kalkine",
+   "source": "Kalkine",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT2QwLXB0RHduVzhvVmZHVXVyOVlzWHZJYU9IYVlQVk1Gd09LX2JHRnNFaGQxT282N1l6Q2NydEItNWZ0V1V3ZUxMZExFQTJmNEJPRXBvWVVwUThzSmlxUGdkNGxpcGoxcDlsUk5qRkVwMHp6Zi04Tmk5c2hqbVhtTDN0N2NmVVBmdENGb002SW5nYi1KUndDczhOX05fN1VXb2ZEOE5VNlhXa09BQ3RXLTJuNE02UGF5RVRFXzJtUDlXR1E?oc=5",
+   "published": "2026-07-23",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Semiconductor manufacturers are prioritizing the production of high-margin, advanced products for AI over those for smartphones and computers. - Japan Today",
+   "source": "Japan Today",
+   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOOFpXRTQ1VjZlOHB5RzVpV3F4bHpJaGVjOWNSdm9DSmtvNGh6c1JMTnJIUUlTeTVEMXVOZjdKLS1MaWZ0MHVrbktWNWZSUTM0QS00NG81dE1OaHg3WVpoS2RYN0JVVThoWDV5RmJuZF91NU9SY0VNWm9xX0x2SnlQN2tUcnVJR18tSWlyaDZqV3Z6UHJUX09Va3pETXhTU21SRktZZG1uWlFYR1NmOHk4dUhRYjBXLWtqb25VUFNMZ0lMbDR3bk1odmI5bndTMkhickM2Z2cyOEFHYzNzaExLYzRFSTdjQzFlaEQ3RDRzQXF0QUhkWEozNDVUNi1GZkRnSGhfQjgtUkFtdlBCNWo5UmM4RUJSNkhQ?oc=5",
+   "published": "2026-07-23",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "TSMC makes another $100B US investment - Supply Chain Dive",
+   "source": "Supply Chain Dive",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdXhnc2Fsbl9EZ3N4Z2NpNGlZdWFQMmJLWGMteU9EZ0xIRFN0cjlJNmk1bWVYYmpCd2dTTk1fYnhSb3VmMno0MjZRZjd1MjBzZ0U0dGxmbVgyTUw0MnJXSnlyQ3dtVDk3cHZrYWZPT2ZqU1VvOEp3eF8tbVFxVnVYR0VOVTlBSGNFdDJWeG5MdGM5RFZiSTR4NkpqTQ?oc=5",
+   "published": "2026-07-23",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Synthetic molecular model mimics semiconductor surfaces - Open Access Government",
+   "source": "Open Access Government",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObE9kLVZ4aEVtM2FMcU1PbVN2RG9CNkhSSk9TNU16U2JGVWQ5Y0NEQXhwOVFwTWRWM2tXcmVTY205Z1kxQ3A5ZWJhRTBTZjgtSFAtQnI1WHkyNUVXdnlUd1ZBai1zdkpkeUROZk9mR0FZZV9ycWtwNnI0ZGhqUEthaWNmaHVvaTJvbEY4Ti1yUU1LWUk0S2N3VmpoaXBfYWZkOHc?oc=5",
+   "published": "2026-07-23",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Clarity Act expected to miss its window before Congress' summer break, leadership says",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/07/23/clarity-act-expected-to-miss-its-window-before-congress-summer-break-leadership-says",
+   "published": "2026-07-23",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Robinhood CEO Vlad Tenev's X account hacked to promote token amid memecoin frenzy",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/07/23/robinhood-ceo-vlad-tenev-s-x-account-hacked-to-promote-token-amid-memecoin-frenzy",
+   "published": "2026-07-23",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Tassat wants to help smaller banks tap the trillion-dollar stablecoin boom before Wall Street lock them out",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/07/23/tassat-wants-to-help-smaller-banks-tap-the-trillion-dollar-stablecoin-boom-before-wall-street-lock-them-out",
+   "published": "2026-07-23",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Coinbase's corporate customers can now accept payments from AI agents",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/07/23/coinbase-closes-the-gaps-in-ai-agent-economy-for-businesses-users-and-developers",
+   "published": "2026-07-23",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "The SEC settles with Coinbase over its missing Gary Gensler texts",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/07/23/sec-agrees-to-end-lawsuit-over-missing-ethereum-records-will-pay-usd150-000-in-fees",
+   "published": "2026-07-23",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Check genuine HMRC contact that uses more than one communication method",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
+   "published": "2026-07-23",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "VAT Construction",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/vat-construction",
+   "published": "2026-07-23",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Official Statistics: Plastic Packaging Tax (PPT) statistical publication",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/statistics/announcements/plastic-packaging-tax-ppt-statistical-publication--3",
+   "published": "2026-07-23",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Accredited official statistics: Hydrocarbon Oils Bulletin",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/statistics/announcements/hydrocarbon-oils-bulletin--18",
+   "published": "2026-07-23",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Capital Gains Manual",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual",
+   "published": "2026-07-23",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "ECB reveals shortlisted designs for new banknotes and launches public survey",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260723~c2d43f9170.en.html",
+   "published": "2026-07-23",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Christine Lagarde, Boris Vuj\u010di\u0107: Monetary policy statement (with Q&A)",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+   "published": "2026-07-23",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Monetary policy decisions",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html",
+   "published": "2026-07-23",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "S&P 500 flashes sell signals \u2014 options traders are bracing for wild swings in Apple, Meta and Microsoft",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/s-p-500-flashes-sell-signals-options-traders-are-bracing-for-wild-swings-in-apple-meta-and-microsoft-83ff7d65?mod=mw_rss_topstories",
+   "published": "2026-07-23",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Lockheed Martin\u2019s stock skyrockets as push to build more missiles faster pays off",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/lockheed-martins-stock-leaps-as-push-to-build-more-missiles-faster-pays-off-9d7e2091?mod=mw_rss_topstories",
+   "published": "2026-07-23",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Japan\u2019s $1.8 trillion pension giant might bring money home. That could jolt U.S. stocks and the Fed.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/japans-1-8-trillion-pension-giant-might-bring-money-home-that-could-jolt-u-s-stocks-and-the-fed-908c66d5?mod=mw_rss_topstories",
+   "published": "2026-07-23",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "T-Mobile\u2019s stock sinks despite customers pouring into premium plans",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/t-mobile-earnings-rise-as-customers-pour-into-premium-plans-dbed96b8?mod=mw_rss_topstories",
+   "published": "2026-07-23",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "The rising cost of capital for companies today is starting to spook the stock market: \u2018The worry is the spending might not pay off\u2019",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/the-rising-cost-of-capital-for-companies-today-is-starting-to-spook-the-stock-market-the-worry-is-the-spending-might-not-pay-off-de4c69e4?mod=mw_rss_topstories",
+   "published": "2026-07-23",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -26,54 +343,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "'AI tailwind' keeps Arista at No. 1 spot in data center switching \u2014 now Nvidia looms - Fierce Network",
+   "title": "Google Cloud surges, but Alphabet\u2019s AI capex problem grows - Fierce Network",
    "source": "Fierce Network",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUEJPLXRsNkJqdkhzR1JGamFIVlUzMDE2anJpanZ0SVhYNzBCSkk0a0xoVk83ODNpS2xYY29LZ1pHNjl5VzkxUUZHcUNFbzY3SWpBM1N2S2FwWmdKTlRTSndFOXB3aXJuOGU0azJHWlBhWXZNTVRuLXhDR1FvS0R0TDVGbzFROEU?oc=5",
-   "published": "2026-07-22",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Stock Market Midday, July 22: Markets Brace for Alphabet Earnings as Hyperscaler's AI Debt Comes Into Focus - The Motley Fool",
-   "source": "The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUzZOY0lxTXBqdVdTT2pSU0ZFWklzbkRmcHk5OXg3TVAycGQ3TC1na0dEQmdrMkdSUk83Rl9CWWtIZjMzejBXYUtQVVNZSmFDekN5U3VucUNLZDJ3X3JGT1drbzlVRDhVR0RKT09XdzctaHpXem1qeE4takRsYk5McHU1TDE4ZWZDamE3RTBWNjNfMEU2Z29PdTFkQ1FoRjVUSzNERjBfalNwZEYyY056NEpoOVRucWZ6Z3VmUGlucGlWci1qYlJvUWp4OElVeUpKSnQzZ2N3LUU5NFQyYndWUTJXQ0o1UEVFVDBsRVVvY2tXamstRlZVcDJtM0ZkRktR?oc=5",
-   "published": "2026-07-22",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Sorry, AI Bears: Meta, Microsoft, and Google Lead Record Data Center Demand - 24/7 Wall St.",
-   "source": "24/7 Wall St.",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdXA2U2J0anI5X0xCNmVvTmhxdC1mMExGMFJ1RFB0TWkycUVQSzN3S0llejZmZGdwZWo2eHQzZ3VTTFo4RnFxLVBCcy00ZXY3SlUzMHd0MFpqVEtvLWk4WXNyODVBLVMzcFFldG1vV0dCYVVTY2tzdVl5OEl1UGJUQXFiRzItY3dVZ0tJaGhMcUF4V21FSWlTTExrOXFfdG81MUcwdm96ODAtWVIzYlNNS2kzc0V6QQ?oc=5",
-   "published": "2026-07-22",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta announces new STEM grants alongside Temple Data Center launch - kcentv.com",
-   "source": "kcentv.com",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQX2o4R1gtX0FqcGptUUM3TGVzMWM0TVRqVnp2ZTVXMWJpZF83N0w5WnB4NVR3dEtDdkRhY1pyTHlmekdHRnhxT1hRUWdSYnZRaERMdUxtR25vRk55bEhvTWlOVjVLckpZRjMxcDZkNmI2WDUyZm93ZVN2QmV6N29mT0dZVkFleHRQX044TUVKNlF0bXpVQy00RzBvaFBwWHBjNmN4LUlRcjREV0VwdG5MQ2t3QTNMMEtRZlBnWTV5RjdfWkZqZ05pcWVUSlFWcU5SUE1SdXg0R0JhSjZ2dnJN?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa3RyY2JsMjhyN3JMUFdxUFJJbUJXTnRxa0lkTjN3VE1wWURlV1Z6cTNYal9iVkJkc3BwQVVjQlVVTkhJVEJZSlN0UlRsZFlfSmFKS1BENzdDSTdaT0NmSmQ0Z281SFBEY09zMlRGMWdYZGd1Ui04VU5aYTRfcFkweGdjaEV0MWZrMXhRTUFjUERzcHc?oc=5",
    "published": "2026-07-22",
    "trust": "C",
    "flag": "context-only"
@@ -85,51 +357,9 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Weebit Nano (ASX:WBT) Drops 7.3%: Semiconductor Memory Play Faces Tech Sector Headwinds - Kalkine",
-   "source": "Kalkine",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNU1NFU29PdTlQOGNfYXd2czF6eGc2eE1wQzNyV1hseTdzVzQzeTNsM3c0ZEpkRllwek5yWWJ5dU9RR25PNEJTckd0Z2ZkcWk3ejU3T2dfT3lNOXNuY0VXLURTUXpPM0l2d0twTUhZVkZXVTd3cjV2OVd6UnVYZHlaS0UxdUFHdXdQSV9QTlpTaWZlZUU3VTBvMHFnLVNGT2NweEVMNEJDUlpfVEszRXctUnlDRThlVlVQZTVtSA?oc=5",
-   "published": "2026-07-22",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Trump's push for American-made AI chips hits TSMC's margins - CNBC",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMDJ5dnNSUl9jR2o1dV9ZZ2loYmpULUd2bGJCeFFIYkl3dU1qZlpnVFJ1MGQxNmdZdTB2bTdkRnRHcjQxWUNmVEEtY1NZNl8yUldLc2ZYdU1TWlJGdVB5dzN0U1JsOWI0THBybUpvS0RWcnVHWEdDdy02cFFSS1V3bndn0gGHAUFVX3lxTE5EanA4cVIzWmQ1T0VRN3ExclZ4WU1KS0h6QnVPbWtzQ3UzeEM4cmVqRno2SE9DYVFYRmYyYUtRbjJyc1VBN2puZXA3R1l4dTV2eEZRdVhaOVlUR2Q4MHdMQ2Vhc0dHVEd3X0hzQzZmTjJpVjJvbHAyUGNPUWlTVkVYRm9qV1BXQQ?oc=5",
-   "published": "2026-07-22",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Molecular model for semiconductor surfaces developed - Phys.org",
-   "source": "Phys.org",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxMi1aUzFEeGlLWWNRYXdTTlJnVTFXLVFJMmhWNzZibUdGYUlqMXhhNWF3OUdHVHJMNGVlQ2JjME5PUGZ1eGlqcUlIbHF5elVad3ZXVXphN2cyR0xOWmIwanhfTndGR2lCYVdKeFVoT05qNGVwQWc?oc=5",
-   "published": "2026-07-22",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Can India become the next semiconductor hub after Taiwan? - DW.com",
-   "source": "DW.com",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbm1vQ2xIcVAxcU1oR1cxTEtvOVZiZllnM0ZWNm1QeXlLVUpKOE1ZNDBZOVFhSG1KMm9MNWZqaUp2djBVR3hnZmJLLUdvUWJDSDRHOGcwOWl6VFBGZDQ0NklSUV9tYzhacWxIQklOMlVYc3FGQ0NES0g2QU5fZFVYQnVId0ZFRTRsV0pPUGRNZmZEcXPSAZMBQVVfeXFMT3o5Yml0UmVYUlR4Q1hBSVB4akl0Ul9Xa0RYMHNNSXBhLW82SVBGM3g2bnVQYTF5M2NLLUU3OHo5LWMxajdvU3NuWG1FVkZnVmo4a1VERFNYYzJiblRwdV9BN2pHT1pfbDZjMXl4VzljQUxGMjlkMzVyUHQ0LU96VHFwSkphanVvOVVFX1F3Q0NGYk84?oc=5",
+   "title": "Gradiant completes ahead-of-schedule work for major semiconductor manufacturing project in Germany - Australian Manufacturing",
+   "source": "Australian Manufacturing",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaTQ2M0tTVVFJMFllSkpIVGpUMlpKdl9sQnQyYm03UjczLS1aMVl5WjZfVGt1c2xaMDlYTjc0VWFQdVpTeUNwUThiRElIMG40YVlKeVEzY00zdGNWVHB3S1B2TmxCZHhwbjZ6OEZsNC1mWGMxdDQ3enh0QWp5b2gxSE9KbGZKMUhDSVVSY29zc3A5U0JuZ3N1bmhBbF9pTk1wRWdsT2V6X2NUWF9Hbmw4UWExR29rRGExcEVIZGJ4ZDRkX0hzVEVoNEl2WHRuUUh1cDBzU3NLelRWZw?oc=5",
    "published": "2026-07-22",
    "trust": "C",
    "flag": "context-only"
@@ -145,200 +375,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=67868",
    "published": "2026-07-22",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Tesla holds bitcoin treasury steady, reports $112M impairment loss",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/07/22/tesla-holds-bitcoin-steady-reports-usd112m-impairment-loss",
-   "published": "2026-07-22",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "New draft of Clarity Act is out, and it would impose limits on Trump's crypto empire",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/07/22/new-clarity-act-emerges-that-s-a-start-on-the-final-draft-makes-ethics-rule-temporary",
-   "published": "2026-07-22",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Revolut hits $115 billion valuation in employee share sale: WSJ",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/22/revolut-hits-usd115-billion-valuation-in-employee-share-sale-wsj",
-   "published": "2026-07-22",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "SEC's Peirce warns some DeFi vaults, onchain lending may fall under securities laws",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/07/22/sec-s-peirce-warns-some-defi-vaults-onchain-lending-may-fall-under-securities-laws",
-   "published": "2026-07-22",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "UK digital bond plans hinge on one missing piece: onchain cash",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/22/uk-digital-bond-plans-hinge-on-one-missing-piece-onchain-cash",
-   "published": "2026-07-22",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Group and divisional registration (VAT Notice 700/2)",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/group-and-divisional-registration-vat-notice-7002",
-   "published": "2026-07-22",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Check genuine HMRC contact that uses more than one communication method",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
-   "published": "2026-07-22",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Official Statistics: Non-domestic rating: challenges and changes, 2023 and 2026 rating lists, June 2026",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/statistics/announcements/non-domestic-rating-challenges-and-changes-2023-and-2026-rating-lists-june-2026",
-   "published": "2026-07-22",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: GloBE Information Return Filing and Exchange: Transitional approach",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/global-information-return-filing-and-exchange-transitional-approach",
-   "published": "2026-07-22",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Employment Status Manual",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/employment-status-manual",
-   "published": "2026-07-22",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Yes, the AI stock selloff looks terrifying. But it might actually save the bull market.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/yes-the-ai-stock-selloff-looks-terrifying-but-it-might-actually-save-the-bull-market-3bef59be?mod=mw_rss_topstories",
-   "published": "2026-07-22",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "IBM just cut its outlook. Why its stock is bouncing higher anyway.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/ibm-just-cut-its-outlook-why-its-stock-is-bouncing-anyway-9d36e22a?mod=mw_rss_topstories",
-   "published": "2026-07-22",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "ServiceNow\u2019s stock rises as earnings show momentum in cybersecurity",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/servicenows-stock-gains-as-earnings-show-momentum-in-cybersecurity-86e7a038?mod=mw_rss_topstories",
-   "published": "2026-07-22",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "The Treasury market touches a worrying milestone not seen since 2007",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/the-treasury-market-is-on-the-verge-of-a-worrying-milestone-not-seen-since-2007-81158082?mod=mw_rss_topstories",
-   "published": "2026-07-22",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/oil-prices-climb-to-six-week-high-as-hopes-of-de-escalation-in-iran-diminish-b5fb0942?mod=mw_rss_topstories",
-   "published": "2026-07-22",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "5 Semiconductor Stocks To Buy And 1 To Ignore - Forbes",
-   "source": "Forbes",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaUxTRWN1SXVqNHFRTjRoOTlJcExTUWtMM3k4Rk9vbDlaUnNTWUwtSldVMGExcmktZWVNOG5HRk8xQWlkQXlQMUstNWlmbDBuRmVXWlczZWV5RTdOSHRmbHVvMVQtX3JkTHJCWGc5by1ZdkRLSnlONEhXMVByTmNVaFhrUmU2cmJtaXJlYUZKRlNlUjA?oc=5",
-   "published": "2026-07-21",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -405,18 +441,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260720~cafc3874a7.en.html",
-   "published": "2026-07-20",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -427,18 +451,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdUt1S21IVnQwV2tCUUM1V2YzZFQyNktlV3IxeGhlelJKaG1SWDlkckFDUTFwWnpwbWZnZ2RvQ29BMktONXVGSHB0X0daS0t0dEVJRlNBTFQwbGZqcnpiMmxYWUJ0MEk5MkxHTjVtSzV1QXgtY0ZRLUpiT1A0emZLUmFtaWpFQndqWVp4R1ZjQU83V1hVakJSQ3NaYkc2MEhVRW1LREVNY2xEY3c?oc=5",
    "published": "2026-07-17",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "Piero Cipollone: The cooperative spirit at the heart of the digital euro",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260717~b6a156dc40.en.html",
-   "published": "2026-07-17",
-   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -508,18 +520,6 @@
    "title": "Petroleum markets responded to disruptions in the Middle East in the second quarter",
    "source": "EIA Today in Energy",
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=67865",
-   "published": "2026-07-15",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "Piero Cipollone: Interview with Ouest-France",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260715~ab95a43007.en.html",
    "published": "2026-07-15",
    "trust": "A",
    "flag": "context-only"
@@ -620,21 +620,6 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbXREOWVfQUN4d0ZVNzRGd1V1a0x3eXNXYUNqUDVaX0NVWU9vS1ppRndxWWxTRHJ5M0g2d3NJQnNybzZrM2hiUXVkV1ZOWkVMTVdYRGh4UE5TZWV6VkhaZ0g4dGdiVFdrS2xFZ3prTTAtb2N2bUYtNGxMWXpOaS1FdzlQZmp1b2lHbnJwVE1KOVV4bHE0X085d3RZYmY?oc=5",
    "published": "2026-07-13",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US rates / Fed",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-   "source": "Fed monetary",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-   "published": "2026-07-09",
-   "trust": "A",
    "flag": "context-only"
   }
  ]

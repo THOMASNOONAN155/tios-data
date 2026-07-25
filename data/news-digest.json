@@ -1,8 +1,157 @@
 {
- "generated": "2026-07-24T21:00Z",
+ "generated": "2026-07-25T20:50Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 47,
+ "count": 48,
  "items": [
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "South Korea\u2019s semiconductor boom risks flatlining under US\u2013China pressure - East Asia Forum",
+   "source": "East Asia Forum",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVZ4TWtQWWc0c3puLWROT1FoSHJjbGFQcnM0Z0prM3dWd1FPTHpGdVZjR0hCVUtabjlqY3VuY0xQRGZsS0IxbTBxeGhkbkZvS3drTmJtSTRyeHlXQ282UlhfdGFFV2J2NV9sRXhOcmtZMDlJMk9ld1REc1NaSUdQbUdXeXh4eS1aR252YnZxVlA3NU52OWc0ei1pZEpLbU9lV1FVNHFNbDdPY0dfZ3BR?oc=5",
+   "published": "2026-07-25",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Bangladesh Semiconductor Sector Growth | Bangladesh steps up in global chip race - The Daily Star",
+   "source": "The Daily Star",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNnZrOFFQZElHLWN2ZUJTZmRjN2F2R0ZObHhodzNuODlQUHJ5OFFfSk94dTMxbnZNTUJndm5rOElseUY2VmV1cGRXbkJ2Y3VzSUNPd2tXZUtzY0RVcy1YUFZlenptakpxOWs2bW5qMVRMWUhHOThYb2dMUktuZGRYd2ZwdFFGSzlGQ0FOdlZDZmpPZk81QkxR?oc=5",
+   "published": "2026-07-25",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "US-Iran conflict enters prolonged struggle over Strait of Hormuz - CCTV.com English",
+   "source": "CCTV.com English",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9yM2JncXVIbExpZzlJbzVUWXM0M2pkZU1GNjN6NzdxcjlxYVhwN2VpdnhrazFwQUU0NHNuRVR6dHBzN0ZkUTRqTDJjcTg2bFZ3QXY1aEo2N0JPblNqZmxSMVh3ZGV1TFE4cy1DbU9LRWkyeDd6V05qUHdITjE?oc=5",
+   "published": "2026-07-25",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Russia\u2019s largest bank Sberbank plans crypto trading infrastructure by December",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/07/25/russia-s-largest-bank-sberbank-plans-crypto-trading-infrastructure-by-december",
+   "published": "2026-07-25",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/07/25/north-korea-arrests-hackers-accused-of-laundering-stolen-funds-from-country-s-bank-via-crypto",
+   "published": "2026-07-25",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/opinion/2026/07/25/democratizing-weather-derivatives-through-tokenization-could-be-crypto-s-most-important-real-world-use-case",
+   "published": "2026-07-25",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Robinhood Chain's real-world assets jump fivefold as tokenized stocks start trading in bigger size",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/07/25/robinhood-chain-s-real-world-assets-jump-fivefold-as-tokenized-stocks-start-trading-in-bigger-size",
+   "published": "2026-07-25",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
+   "published": "2026-07-25",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018Time will tell whether that was a good bet\u2019: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
+   "published": "2026-07-25",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Yes, the AI stock selloff looks terrifying. But it might actually save the bull market.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/yes-the-ai-stock-selloff-looks-terrifying-but-it-might-actually-save-the-bull-market-3bef59be?mod=mw_rss_topstories",
+   "published": "2026-07-25",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "College kids are moving into retirement communities for reasons beyond \u2018cheap rent\u2019",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/college-kids-are-moving-into-retirement-communities-for-reasons-beyond-cheap-rent-577dc94b?mod=mw_rss_topstories",
+   "published": "2026-07-25",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Is your index fund an accidental bet on AI? These two massive ETFs show why it might be.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/south-korean-stocks-werent-a-big-deal-in-your-emerging-markets-fund-artificial-intelligence-changed-that-21308089?mod=mw_rss_topstories",
+   "published": "2026-07-25",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US mega-cap / AI capex",
    "holdings": [
@@ -11,9 +160,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Nvidia is Winning AI Capex Wars So I Continue Loading Up - 24/7 Wall St.",
-   "source": "24/7 Wall St.",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdlBPWTVodUxUQlFkejhpaTdnOEF2WFJIcGRURGV1cVpya1JmU2dmU3dwRnQtWmlZaWdQMkxEaEFFMGZnM1pSOXZUUEpEcGR5OUM1LWFJdjFrQ2hhMXdBT1lhbUxoSzUwM2EwWUFzbmVIVkZyc2tOcHRWb295QkpKaXlSOF9laldXeEg3WU1BWVMzS2FralVjRlNZWVRiNWotcUE?oc=5",
+   "title": "1 hyperscaler megacap down, 3 to go. Alphabet raises the stakes on AI spending - CNBC",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcDJFY1dYTHUwZGJnWjRMUGozakdabktnVFNVVDBYaEdkd0dEWnlSU1BDeGdFa2tlZTQzZWlkYVNhcWc4a0tZdjNBVDI5OUlkWjhFWlJ4YWdWQmxFYW1mSWxOMkJwb2VXbXdWX2dudF8wMlAxTjByenp6UVZRS204ZWRBR2llRloyNlVhTzJKSWFrVnBKTE13UlNsTWcwZG91akd4WW1oeFBwUVJndHhpWlhwWQ?oc=5",
    "published": "2026-07-24",
    "trust": "C",
    "flag": "context-only"
@@ -40,34 +189,6 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Trust Stamp joins EU semiconductor initiative to advance digital identity - Proactive financial news",
-   "source": "Proactive financial news",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNb3dkd1M0WUJYVXZPaW1FZzdWajBnZHdvWXJkRFJna0p0ZDhIRWl2cTNkMFZRb3VJRGdXa1BYUDN3ejBuaXJlZEFyc2ZiTHhHeTc5QjZfQTdMVE0wNnhnUDZlWVlaanZydlg2MWpVcmFkMGFIaEV3ZkY5VmV2ZGU2cmRoXzRON0lYeGdwVlVWXzlDdkExVW5UQmkwUFVXcVpyeV8wWnRRaDBOTnlZcmppbFBkcVl6UlVITXNyNlo0TENnMFQwTl8wc29adXNFVlRNdU9BVmRqdGh6U1VVcU5NZA?oc=5",
-   "published": "2026-07-24",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Weebit Nano ASX:WBT) Edges Lower as Market Evaluates Semiconductor Sector Outlook - Kalkine",
-   "source": "Kalkine",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVWtjX3o5bDluNlRFMkRrSjBDS0VJRWNQU0R3anoybFU2RnZWYmNoVmRkSmo0bFpuX2VJdXVFajgyTXpZeXd2YlJjemUzRlFsVDVLT0F5bVRHbzV2R3Zja1hFU0NTZ0lmM1pPaE9fSnRvRGNUVnl2NjlocVgyVHNwanNfaFFGaVV6amZWZHBzejBhMHd0ZzJudldtbV9tdnlYSzZEUkFWeTJ5QUUySm43TUFwbTVEUnFxZ0E?oc=5",
-   "published": "2026-07-24",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
    "title": "Intel and Lens Technology Collaborate to Enable Advanced Semiconductor Packaging for the AI Era - Intel Newsroom",
    "source": "Intel Newsroom",
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMUVjVFJXZ0ZnNm1ndlp1aTJKUzN5Nk1WRU9ENnJmMTFiSnFfalRybmluWF9EM3lPUHgyVnhzcDlRRDVIcXByVzlONUo4dWdibkxoMkE1Ykx2akVPS21YUEp5M21FQy1FbzlxRWhRZEZyNnpiTjctSUtsY2luQ3k4ckRBZndDc25SSVNyOXZOeVB2NGNzZzRMYnNETjRyWDZtZVQ0NmxqbXlUbWxNNjNHRVFTR0lsdVhmT0c4TDdraG9aLXRwNFpqYTU4LVllOGVxQVg0VmVn?oc=5",
@@ -82,9 +203,22 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Pullback in chip stocks is a buying opportunity, Citi says - Yahoo Finance Australia",
-   "source": "Yahoo Finance Australia",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdHdQalZhaDY1Qmp3NlhDdHlWR1RZMG5NQzVfYUc3dThfeEo0cDV5VUZIZTFMUmZOMkpqUGZJT0ZCWkxDZ2MyZmluZzQ2YVRjMWIzMWtPUEYweENkM0UwYm1lcUFkVDlFOXl6WUpqMi00SFNBRFZZSW5IeHhNWVhHYXJzMGFvSEZRaFpzaEI1U0hiZw?oc=5",
+   "title": "One NASDAQ - Listed Semiconductor Stock Near Resistance Level: CRDO - Kalkine",
+   "source": "Kalkine",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU2Z2elJFM29QTjM3d3A5OXJ6TmNMcGp3ZWtkODVpdGtmbk94TEhMUG05VlpFVlliSHFVUlJEd2ZkRnRXT2RVWjFhd3dhNzBqQmtNdlIwVHBBS19PZTdYb242RTh5T21DTXB4VTZRSHJqeG9feDl5bzh2Y2thdjFZZ0ZnaHAxSTVFcU91Rm52bjY0NjBOSkkyNFVXUXR2RXo0dGNBS2RB?oc=5",
+   "published": "2026-07-24",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "China + iron ore",
+   "holdings": [
+    "VAS",
+    "VHY"
+   ],
+   "title": "Iron Ore CFR China (Platts) Overview - CME Group",
+   "source": "CME Group",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTR5VVR4cVVRZlR2bWFQNUFJcjFfak9tNG1wOTdWelNkNWcwQWw2V2g4WUdvVHJWdDZIRE9lRXp3YnNSaHRhSWRmWlhPNkRkZldTT0tVRUlHdk5UeGZ3MExWTWs0NWt4VWhDT0l4TUJLaXNvcm9NM0JLWi1RMGlHVFVVNnZ2VW1uTlJudG1NRURmY19sS0hWNWdvUmR0UQ?oc=5",
    "published": "2026-07-24",
    "trust": "C",
    "flag": "context-only"
@@ -115,51 +249,15 @@
    "flag": "context-only"
   },
   {
-   "driver": "Crypto",
+   "driver": "UK tax / reg",
    "holdings": [
-    "CRYP"
+    "ALL (disposal gate)"
    ],
-   "title": "Sam Altman-backed World Network secures $52.5 million in fresh funding to fight online AI deepfakes",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/24/sam-altman-backed-world-network-secures-fresh-funding-to-fight-online-ai-deepfakes",
+   "title": "Official Statistics: Tax-Free Childcare Statistics, June 2026",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/statistics/announcements/tax-free-childcare-statistics-june-2026",
    "published": "2026-07-24",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Institutional crypto trading platform LMAX is exploring sale, IPO",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/05/22/institutional-crypto-trading-platform-lmax-is-exploring-sale-ipo",
-   "published": "2026-07-24",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/07/24/saylor-and-team-overhaul-strategy-s-bitcoin-metrics-as-bear-market-persists",
-   "published": "2026-07-24",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Brazilian farmers tokenized dairy cows to get loans, bypassing bank lending limits",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits",
-   "published": "2026-07-24",
-   "trust": "B",
+   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -206,18 +304,6 @@
    "title": "Register to complete origin declarations under the UK-India Free Trade Agreement",
    "source": "gov.uk HMRC",
    "url": "https://www.gov.uk/guidance/register-to-complete-origin-declarations-under-the-uk-india-free-trade-agreement",
-   "published": "2026-07-24",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Register to complete origin declarations under the UK-India Free Trade Agreement: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/register-to-complete-origin-declarations-under-the-uk-india-free-trade-agreement-service-availability-and-issues",
    "published": "2026-07-24",
    "trust": "A",
    "flag": "context-only"
@@ -280,66 +366,6 @@
    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_2~d7d475d2f0.en.html",
    "published": "2026-07-24",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "FDA advisers say six popular peptides can be compounded. Here are the issues they considered.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/fda-advisers-vote-against-sleep-peptide-as-they-debate-safety-and-health-claims-2bc85739?mod=mw_rss_topstories",
-   "published": "2026-07-24",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "I\u2019m 38, lost my job, and have to move back in with my parents. What did I do wrong?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/i-lost-my-job-my-emergency-fund-is-running-out-and-now-i-have-to-move-back-in-with-my-parents-what-did-i-do-wrong-cf1c0f9f?mod=mw_rss_topstories",
-   "published": "2026-07-24",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "The world is facing its largest oil shock ever. Here is why prices are not higher.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/the-world-is-facing-its-largest-oil-shock-ever-here-is-why-prices-are-not-higher-0bb943c7?mod=mw_rss_topstories",
-   "published": "2026-07-24",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Don\u2019t rush to save Social Security, AARP tells Congress: \u2018It should be debated openly \u2014 not through an accelerated process\u2019",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/dont-rush-to-save-social-security-aarp-tells-congress-it-should-be-debated-openly-not-through-an-accelerated-process-96cfb75d?mod=mw_rss_topstories",
-   "published": "2026-07-24",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Before you ask AI to invest your life savings, you need to understand its hidden biases",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/can-ai-replace-your-financial-adviser-why-bots-still-cant-match-human-judgment-ddb5903a?mod=mw_rss_topstories",
-   "published": "2026-07-24",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -425,19 +451,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=67867",
    "published": "2026-07-20",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "Brent Venables explains how the Sooners are more prepared this year - ESPN",
-   "source": "ESPN",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcVVJODZzd0RNMjlReExRc281TVJpenljUmFBQzJTNXRwY2MyYk4yMDFYNUl3ckowMmRsWFdoUUlPNk1Yc3N6Z1pvQUJBWGxCWDFrZkE0SWpzQXpWdEw0SDlXWkwyRXhsa3U0Uy0yXzcxTjkyaEVQcW12OXVtYkNwOEFGRThHLUltLTdxYU1tbm1oQUJNUnd5SFh5c1RiVU9YN1dnUA?oc=5",
-   "published": "2026-07-20",
-   "trust": "C",
    "flag": "context-only"
   },
   {

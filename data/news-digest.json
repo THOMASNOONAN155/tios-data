@@ -1,8 +1,156 @@
 {
- "generated": "2026-07-25T20:50Z",
+ "generated": "2026-07-26T20:56Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
  "count": 48,
  "items": [
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Alpha And Omega Semiconductor (AOSL) Could Be 34% Undervalued On Its AI Power Story - simplywall.st",
+   "source": "simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUTd6RUFxcndwaFoxWGU1S2tqdHRHaERQa2J1M2lPVGxJTm10dWJfOU1FYTFsZWRjTzRvVy1qM3RFZnpVck44SU81cWpnTjlGYlFpOW50M2tuVmRxNWxac1VRelpWaFBuMjM1NWFrMnlwQWtjd2Y1eElPUENiMUVPR19HOXFCaDJfLVl5eGVFTDdxZFIybW5TSXk2dFpyQXVGTWxqTm81dTktRURrWUVZREZFbFJJZ21HYzU3UXdDZ01sOEZ5ejRCck1FTEtFTl80dXJaZnNtdnJueVpXVVZtUXhXR2Vpa1NpcVHSAe8BQVVfeXFMTm1aRmREa0ZkX0tsU3BYbml1czF4c1dnbUU4RkM2d2g0YzV3b09BMzJfSDRlcXM1RjdqZ0Fja3FraWltYXZzRDFkcUpiMlNaaVFmZ2w0YWMyenBHUThqZFZsazBVZTI0LVhDcl9zMzNsNDdJWEFURnBCY1RmdlpIUE5mSVNTOXAxNkZGZ21hSTFYcWFhRTAzN0tCLTYxbzVXUlU1T2VEMkdjbGhvY3VsNWZEV2V6SEVTSUEyTkdaSXJIR1JOX3RnYXJ3amlwdGhHd0Y0V3Qzb0hpZ2EtQWtnR241c181WE4zeVNoVFhRVlE?oc=5",
+   "published": "2026-07-26",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "'The AI trade is still on': Wall Street sees Big Tech's spending as positive for semiconductor stocks - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNblZPUEQxem4tUVh3WjlsR1Q5MGxoRzhoVXgtWDlfT19KRXNSdjNqM3l6Y2VNUlFla0xMUFpGREFjVmdyTnlpYk9MLVB0TUp6NGZBQ19LaXNwX3gtaTVKWndpVXlkVXVZZVJOSXFfbl9Dd3Z6UThaakg1aE1oN1hZSXhMYTRhMWtjcEZRbG1zSEFwZHFPM2FCT0lxV0k0VzZkVUFaX1VRdEZsOXNtNkZyRTI4dElHM0R5emQ3eUJuT0UzUG9sclNpVXRLQ3ViRGJadU9Sc2xWTlEwQnFDaTY2T0x3ekdyTGdpTlE?oc=5",
+   "published": "2026-07-26",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "2 weeks left for Clarity: State of Crypto",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/07/26/2-weeks-left-for-clarity-state-of-crypto",
+   "published": "2026-07-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "U.S. regulator warns prediction markets against cutting corners in event contracts",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/07/24/u-s-regulator-warns-prediction-markets-against-cutting-corners-in-event-contracts",
+   "published": "2026-07-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Europe's high regulatory bar could spark new crypto industry M&A wave",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/07/26/europe-s-high-regulatory-bar-could-spark-new-crypto-industry-m-and-a-wave",
+   "published": "2026-07-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Shiba Inu surges 36% as South Korean traders fuel mystery rally",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/07/26/shiba-inu-surges-36-as-south-korean-traders-fuel-mystery-rally",
+   "published": "2026-07-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Crypto exchange BitMart to shut down after nine years, BMX token crashes 58%",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/07/26/crypto-exchange-bitmart-to-shut-down-after-nine-years-bmx-token-crashes-58",
+   "published": "2026-07-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "I will definitely claim Social Security early. Why do so few people talk about the elephant in the room?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
+   "published": "2026-07-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018It\u2019s nothing personal\u2019: Should I tell my 96-year-old stepmother that I don\u2019t want her inheritance?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/it-would-feel-like-a-burden-my-stepmother-96-owns-the-house-i-grew-up-in-is-it-wrong-to-tell-her-i-dont-want-to-inherit-it-9d5810c2?mod=mw_rss_topstories",
+   "published": "2026-07-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "There\u2019s a technical \u2018triple threat\u2019 for stocks, but also places investors can hide",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/theres-a-technical-triple-threat-for-stocks-but-also-places-investors-can-hide-59108c6b?mod=mw_rss_topstories",
+   "published": "2026-07-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018Time will tell whether that was a good bet\u2019: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
+   "published": "2026-07-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
+   "published": "2026-07-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "Semis / Taiwan",
    "holdings": [
@@ -18,20 +166,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Bangladesh Semiconductor Sector Growth | Bangladesh steps up in global chip race - The Daily Star",
-   "source": "The Daily Star",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNnZrOFFQZElHLWN2ZUJTZmRjN2F2R0ZObHhodzNuODlQUHJ5OFFfSk94dTMxbnZNTUJndm5rOElseUY2VmV1cGRXbkJ2Y3VzSUNPd2tXZUtzY0RVcy1YUFZlenptakpxOWs2bW5qMVRMWUhHOThYb2dMUktuZGRYd2ZwdFFGSzlGQ0FOdlZDZmpPZk81QkxR?oc=5",
-   "published": "2026-07-25",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -42,114 +176,6 @@
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9yM2JncXVIbExpZzlJbzVUWXM0M2pkZU1GNjN6NzdxcjlxYVhwN2VpdnhrazFwQUU0NHNuRVR6dHBzN0ZkUTRqTDJjcTg2bFZ3QXY1aEo2N0JPblNqZmxSMVh3ZGV1TFE4cy1DbU9LRWkyeDd6V05qUHdITjE?oc=5",
    "published": "2026-07-25",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Russia\u2019s largest bank Sberbank plans crypto trading infrastructure by December",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/25/russia-s-largest-bank-sberbank-plans-crypto-trading-infrastructure-by-december",
-   "published": "2026-07-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/25/north-korea-arrests-hackers-accused-of-laundering-stolen-funds-from-country-s-bank-via-crypto",
-   "published": "2026-07-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/opinion/2026/07/25/democratizing-weather-derivatives-through-tokenization-could-be-crypto-s-most-important-real-world-use-case",
-   "published": "2026-07-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Robinhood Chain's real-world assets jump fivefold as tokenized stocks start trading in bigger size",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/25/robinhood-chain-s-real-world-assets-jump-fivefold-as-tokenized-stocks-start-trading-in-bigger-size",
-   "published": "2026-07-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/i-am-a-63-year-old-semiretired-physician-if-you-have-saved-2-million-for-retirement-should-social-security-be-optional-0de70d53?mod=mw_rss_topstories",
-   "published": "2026-07-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018Time will tell whether that was a good bet\u2019: My adviser got me a full SpaceX IPO allocation. Was I lucky?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/time-will-tell-whether-that-was-a-good-bet-my-adviser-got-me-a-full-spacex-ipo-allocation-was-i-lucky-7f319645?mod=mw_rss_topstories",
-   "published": "2026-07-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Yes, the AI stock selloff looks terrifying. But it might actually save the bull market.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/yes-the-ai-stock-selloff-looks-terrifying-but-it-might-actually-save-the-bull-market-3bef59be?mod=mw_rss_topstories",
-   "published": "2026-07-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "College kids are moving into retirement communities for reasons beyond \u2018cheap rent\u2019",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/college-kids-are-moving-into-retirement-communities-for-reasons-beyond-cheap-rent-577dc94b?mod=mw_rss_topstories",
-   "published": "2026-07-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Is your index fund an accidental bet on AI? These two massive ETFs show why it might be.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/south-korean-stocks-werent-a-big-deal-in-your-emerging-markets-fund-artificial-intelligence-changed-that-21308089?mod=mw_rss_topstories",
-   "published": "2026-07-25",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -234,18 +260,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=67884",
    "published": "2026-07-24",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/07/24/senate-dems-should-accept-the-victory-they-won-on-trump-s-crypto-limits-white-house",
-   "published": "2026-07-24",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -422,20 +436,6 @@
    "title": "BlackRock Launches $12 Billion+ Meta Data Center Debt Deal - Yahoo Finance Australia",
    "source": "Yahoo Finance Australia",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVGlfei0xZXRtMDVSTENDeUpRcDlrVklzZVJyc2ZteUMxVmFlNXNpelhVTDN3NEtORks0R0dYSTUyYl95MGU1V1RSVlBXaWc4OEFzZXAzNDUwY2E4OWEyMDVUazB3dG1jMHU4U0c1T3hyZHdpMUFHOVI3S2FHNFk3Rm1hWTB0QjF2cDY0?oc=5",
-   "published": "2026-07-21",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "5 Semiconductor Stocks To Buy And 1 To Ignore - Forbes",
-   "source": "Forbes",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaUxTRWN1SXVqNHFRTjRoOTlJcExTUWtMM3k4Rk9vbDlaUnNTWUwtSldVMGExcmktZWVNOG5HRk8xQWlkQXlQMUstNWlmbDBuRmVXWlczZWV5RTdOSHRmbHVvMVQtX3JkTHJCWGc5by1ZdkRLSnlONEhXMVByTmNVaFhrUmU2cmJtaXJlYUZKRlNlUjA?oc=5",
    "published": "2026-07-21",
    "trust": "C",
    "flag": "context-only"

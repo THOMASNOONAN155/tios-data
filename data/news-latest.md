@@ -1,4 +1,4 @@
-# News that moves the book — 2026-07-29
+# News that moves the book — 2026-07-30
 *CONTEXT ONLY — not a buy/sell/timing signal. Default: HOLD + keep contributing; any sale adviser-gated. Trust: A=official/primary · B=major wire · C=aggregator.*
 
 ## US rates / Fed  → IVV, VGS, NDQ, GGUS
@@ -6,58 +6,37 @@
 - [A] Major Economic Indicators Latest Numbers *(BLS, 2026-07-29)* — https://www.bls.gov/bls/
 - [A] Jefferson, Navigating Economic Shocks: A Monetary Policymaker’s Perspective *(Fed speeches, 2026-07-16)* — https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm
 
-## US mega-cap / AI capex  → IVV, VGS, NDQ, GGUS
-- [C] Alphabet Captures 2026 AI Capex Alpha But Amazon Begins Surging in 2027 - 24/7 Wall St. *(24/7 Wall St., 2026-07-29)* — https://news.google.com/rss/articles/CBMitgFBVV95cUxNVzY0U2NhOVo3Z1d0RmxmY3A0UzZwaldLeEZ4N3AxQUQxbmRidEhHS1FNYVo4V2hTdEpvcVNfUHBWRHJTcHM0eUhYcWNKbkVMbFFwSlNkVnhNaE5xdFFfME0xU19ONnYxdzZuUk5JOHFCMlRWZHB6eTVnd1A4WmlBTGxTQTZhNzdpemNoYnc1a1RFWmNyWVRrSGhQM08xZVlQTmd2aEFhYjFlZGI1cUhOU3VPcllmQQ?oc=5
-- [C] ETFs in the Crosshairs Ahead of Microsoft & Meta Earnings - ETF Database *(ETF Database, 2026-07-29)* — https://news.google.com/rss/articles/CBMijAFBVV95cUxOYVlCU1N5U0JnVlNIV1hxeXdIRnFRNDdiTlotUDg1bVdYd1BFdm9ZeXByOUkzSnlaN3drdmkxUlFsNWgyTGJja0FfNlo0V1IzOG4wTk9GMk9RUlhwNS1CM1hGQ29Ob1JOdUk5R3k5dlFULUhlSWM0dk5wNVU2bTlJNWJLS2JXSHRHUTNrMw?oc=5
-- [C] Meta and BlackRock team up for data center in El Paso, Texas - datacenterdynamics.com *(datacenterdynamics.com, 2026-07-29)* — https://news.google.com/rss/articles/CBMipgFBVV95cUxOLUh5OFF0X2x3dG1rWDdFSlBVeHhySzBMYy1YaTRPM0FLbXB5RC1yTEI4WmY1RUNTaGp6WkFxZU85eHQ4VzRTRjBUR1MyR1MwTTc4NlhNRFlYRlBpVWhMclQ3NktIU01DT1lZRnV0OTJoNEpLMDQ0WmpUSk9yM3F6MUwtZVJCMWJOekF1VUdXOXFLOU96eXJrYWFLamR2STNHanZGWWJn?oc=5
-- [C] Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off - CNBC *(CNBC, 2026-07-28)* — https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYmFTZV9PdnYxTnNKT3RHemp5WmNNRUdLTko4b1pEdURWMkE0eFg1WEFaTGNFUEVZV080RXB1Y3BPbjYxX0QtNnAybzJObmVFS3oxYWtySGlYRzN1NGFGaGgxX3hLNkx5bkh2dHY3U0EtZFIxeXRwWHA5R19sWjdfSVJRb1U3cXhNOGJiQzhMTW1uSU1vNmRkbWJFVzBmd1pCZFc5c1ZCdUPSAa4BQVVfeXFMTzh4di1UM0VFcFFLX3k2bjZKSjJSVFhmNjB4ZmNuNXdUVnlRaXRsQnR3Z2lvNzZESnM5blB1dkgwbW9ieUJscFdHTm1pU2pPdmJBb1k5c3FOckhzbURUUUZtRGI3SGotQl9sTEdWRXNrU3BCV215elhab2NiM3I3TmhvYlpFcmplZkJ5MnM3Wlg5WXBJTU5CTmR2azNuOXZvZ1ExbzZNbmhZUFM3WWJR?oc=5
-- [C] Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center - WSJ *(WSJ, 2026-07-26)* — https://news.google.com/rss/articles/CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw?oc=5
-
-## Semis / Taiwan  → ASIA, EMKT, NDQ
-- [C] Semiconductor stocks are going up in smoke. But the S&P 500 is holding strong. - Yahoo Finance *(Yahoo Finance, 2026-07-29)* — https://news.google.com/rss/articles/CBMizAFBVV95cUxNaXFnUjdwQ2UyME1LWjYzcVJySktGbXEyMWxmOGpmUTN2WlFQT0hnM2FZM1JWd3BlRW9rUWc2el9EWjFTQ2VzVUdfX3JDR2liVDV0Vnd0dG5USEFIVmRvWEZKeXE2RWRzbjl2VXc3bnc4QUNZV2hQNTRWeTVRRVhqVVNuYkpUZk9ubFA1RGxyRzBtVmFfMjV3dVF4b2xpQzZqaDBmTnJMNDlPZmlBemIxOVFnWnAyQ2w2WXJXck5CTzBuNG9fUDZqR0ZJdU4?oc=5
-- [C] Department of Commerce Announces Letters of Intent With 7 Companies for $874 Million to Accelerate Semiconductor R&D for the Compute Supply Chain - National Institute of Standards and Technology (.gov) *(National Institute of Standards and Technology (.gov), 2026-07-29)* — https://news.google.com/rss/articles/CBMitAFBVV95cUxOZzcxTXJ1dkYwSHNnbU11YUx6ZVM2RDZFb0ltd1NfeFRVdWxNXzBJcVRCZHV3OUJqS0p6V1ZjZl9wVDc0M2k3LVVJRWo0ZGJXTXF0Tmp6a3ZUejhUakJldnRrR19JeTdPSXpINHBfZnFFTXhBTUUxNWFUdk1LYmJTY0JobEJWaU84a2U1T0VKWTBqRmFpNFN4TW9iV3hKNWlOVGhQUm1yZTJBdlRoY251VTh6d0o?oc=5
-- [C] Status of the earthquakes occurred on July 28 in the Kumamoto region｜Information - sony-semicon.com *(sony-semicon.com, 2026-07-29)* — https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pZjd6UkhWNlU4RURxR3ZxSmhZQjlrTVRYS0s0OHJoZUstWjBMVHRFSHA4NEdiQ2ZIT2FOdjlHZk1qenhPLWRpbV9LU3hxNURPclpfOERYc3NPWkVqX0NsV3dacVpzVTVP?oc=5
-- [C] SIA Commends CHIPS Awards to Accelerate Advanced Compute Semiconductor R&D - Semiconductor Industry Association | SIA *(Semiconductor Industry Association | SIA, 2026-07-29)* — https://news.google.com/rss/articles/CBMiqAFBVV95cUxORjQ2ZzNDY0dnWEVvWVREeXZoUW9mWDgwcHpHR0JtNFBrWVpqQmdxMzZJOUt0dmdCX2ZfaGlMODRHT0s1cmxJUkdHMnNJR1dJY0tXNUJlSGIxZWhoNTY3cWRFZXZreF9OU2lkREZ3UTBKUVdnektmRTI3R0ZZTWs1emc2YlZKMlhZa0U2TkpNOFM0dk1NbHlXX3YxUVR4LW5YZnRxMi14ZG0?oc=5
-- [C] Nasdaq 100 nears a correction as semiconductor sell-off extends - AFR *(AFR, 2026-07-28)* — https://news.google.com/rss/articles/CBMivwFBVV95cUxOa3l0N0NxVGdVb3ViNXJFVlVmOXhheTJTOGdfc3ZFeE5XekFsa3N4UTg0RWJTaDRXY29HSkp3ckdyVG1Rb2pLSGJ0emJrcy00WnA2UktIM1BNYjRkblh6Q3NDRlVBNXhwN2o3Z1pBanktR2I2dGJiak1CMlN3WDRnWGplT0tYSVM1ZDNYR3dGTm81Q1NGY0g1dFlqY2R4d1A1c3FQNjJaOGhlcXpZX1c3VGFsNFNQejJLRWdsZVVBdw?oc=5
-
-## China + iron ore  → VAS, VHY
-- [C] China's PBOC to conduct overnight reverse repos, inject a total of 2.1 trillion yuan - Reuters *(Reuters, 2026-07-24)* — https://news.google.com/rss/articles/CBMixwFBVV95cUxPaS1tbzNSOFNWWEctdlhJLWdrSHhOZUZWNjJvUnd0c0FaS3JVMEpKRlZyOV9OOFJzdDFIaGt6cTF2WmpuQ0RlLWs2eVBPNUVBTmdMcG1vcEloVlA4RUIwcTJjcUMtZzRiRVYwSFJlVU42ak1fWDZOeVBnT2dRVExicGVoWThVWWlldUktc3dqOTFzX0JTM2tHMlpTRFVaY1hsRVRGTnBjUXBUSGlLU2ZmaG1GWFFxaGJRWmNFbDJXbEZqbG1nVTNn?oc=5
-
 ## Energy / oil  → VHY, VAS
 - [A] Lower crude oil prices reduced U.S.-Canada energy trade value in 2025 *(EIA Today in Energy, 2026-07-29)* — https://www.eia.gov/todayinenergy/detail.php?id=67904
 - [A] Hybrid sales rise while battery electric sales remain lower after tax credit expiration *(EIA Today in Energy, 2026-07-27)* — https://www.eia.gov/todayinenergy/detail.php?id=67885
-- [C] US-Iran conflict enters prolonged struggle over Strait of Hormuz - english.cctv.com *(english.cctv.com, 2026-07-25)* — https://news.google.com/rss/articles/CBMifEFVX3lxTE9yM2JncXVIbExpZzlJbzVUWXM0M2pkZU1GNjN6NzdxcjlxYVhwN2VpdnhrazFwQUU0NHNuRVR6dHBzN0ZkUTRqTDJjcTg2bFZ3QXY1aEo2N0JPblNqZmxSMVh3ZGV1TFE4cy1DbU9LRWkyeDd6V05qUHdITjE?oc=5
 - [A] Energia Costa Azul, Mexico's second LNG terminal, shipped first cargo *(EIA Today in Energy, 2026-07-24)* — https://www.eia.gov/todayinenergy/detail.php?id=67884
 - [A] Commercial crude oil inventories increased by 2.0 million barrels *(EIA Today in Energy, 2026-07-22)* — https://www.eia.gov/todayinenergy/detail.php?id=67868
 - [A] New York imports more electricity from Canada after high-voltage transmission line opens *(EIA Today in Energy, 2026-07-20)* — https://www.eia.gov/todayinenergy/detail.php?id=67867
 
 ## Crypto  → CRYP
-- [B] Robinhood slides 4% despite earnings beat as crypto revenue cools *(CoinDesk, 2026-07-29)* — https://www.coindesk.com/markets/2026/07/29/robinhood-slides-4-despite-earnings-beat-as-crypto-revenue-cools
-- [B] As crypto perpetual futures boom, Ethereum’s role is shifting *(CoinDesk, 2026-07-29)* — https://www.coindesk.com/tech/2026/07/29/as-crypto-perpetual-futures-boom-ethereum-s-role-is-shifting
-- [B] Fed holds rates steady, extending pause as markets await Kevin Warsh's policy roadmap *(CoinDesk, 2026-07-29)* — https://www.coindesk.com/markets/2026/07/29/fomc-hold-fed-holds-rates-steady-extending-pause-as-markets-await-warsh-s-policy-roadmap
-- [B] The traditional 9-to-5 banking day is officially dying, says Morgan Stanley execs *(CoinDesk, 2026-07-29)* — https://www.coindesk.com/markets/2026/07/29/morgan-stanley-execs-admit-the-traditional-9-to-5-banking-day-is-officially-dying
-- [B] Stablecoin firm Brale says new protocol can remove a major hurdle to scaling custom tokens *(CoinDesk, 2026-07-29)* — https://www.coindesk.com/business/2026/07/29/stablecoin-firm-brale-says-new-protocol-can-remove-a-major-hurdle-to-scaling-custom-tokens
-
-## AU tax / reg  → ALL (disposal gate)
-- [C] ‘If you make $1250, you’ll pay $1850 tax bill’ - news.com.au *(news.com.au, 2026-07-16)* — https://news.google.com/rss/articles/CBMigAJBVV95cUxONXN6QWNMdFlmVW1jcFRtWnRoRjZyRTdWd3lXRmE4WkhjbjhMeDh0dnJtUmgxcS00VWxFdVBVUzBpdy0zUkVXY1dJVEVTOExQRHBnYUJlNEl6ZGVHbl9OWUdwT083azllT0hvelRkX2tVMGg3OHZpSEJLS3ljQWtndTQxaVloMGJZV2pQVlN1b1d6SzVTN3FFaG1QWjBHa2pmaFdFczdCNWlSUlEySUNVUE1Sek1LY0NkblV2aHFsaTZyMy1HQXJRVUp0TWs2UVV5THFyb1BqVk0wejF0QnoxYm9pTGpaN0E5YlZlaURHbi1mckQxOUZEaXFKbDN3OE4y0gGGAkFVX3lxTFBBUVd2c1ljSDBGZktMWHRwZXVlZ1pHZVJDbVRhRXRYSWMzRGk2M3hNbC1aRmMybGlnWGpLcnJ5RTBlS0FmQ2pJYkQ0dnhZeDg1bFBpVkdnN040UlQ4ODkwV1c3VjdQenRDX05hV1VvU3NOVDRuSEpqV25pS283SUE5NlJWUnd2YmdOV3FqaVQ3ckNMazM5RzBkbkpyeGNJZjB2dGFBTVJCUURsUUVtcnBBa2JVYUR2Wll3UnFxRnJHeF9DSUtqSWlqaEtJbVF6ZnpESjM2T2hmWU1LYjNmMUFEMUgtbW5fQy1pdUNuRHhwNDVSWlktUENrSGV2eUJzckFjRTJMd1E?oc=5
+- [B] Strategy books $8.2 billion Q2 loss on bitcoin price decline *(CoinDesk, 2026-07-30)* — https://www.coindesk.com/markets/2026/07/30/strategy-books-usd8-2-billion-second-quarter-loss-on-bitcoin-price-decline
+- [B] Coinbase sinks 5% after missing second quarter revenue estimates *(CoinDesk, 2026-07-30)* — https://www.coindesk.com/markets/2026/07/30/coinbase-sinks-5-after-missing-q2-revenue-estimates
+- [B] Global banks test tokenized money for cross-border payments in $1 million BIS pilot *(CoinDesk, 2026-07-30)* — https://www.coindesk.com/business/2026/07/30/global-banks-test-tokenized-money-for-cross-border-payments-in-usd1-million-bis-pilot
+- [B] Ondo Finance weighs acquisition worth up to $500 million *(CoinDesk, 2026-07-30)* — https://www.coindesk.com/business/2026/07/30/ondo-finance-weighs-acquisition-worth-up-to-usd500-million
+- [B] Crypto for Advisors: Is the Clarity Act dead? *(CoinDesk, 2026-07-30)* — https://www.coindesk.com/coindesk-indices/2026/07/30/crypto-for-advisors-is-the-clarity-act-dead
 
 ## UK tax / reg  → ALL (disposal gate)
-- [A] Correspondence: Edition 5: Making Tax Digital for Income Tax — software developer newsletter *(gov.uk HMRC, 2026-07-29)* — https://www.gov.uk/government/publications/edition-5-making-tax-digital-for-income-tax-software-developer-newsletter
-- [A] Guidance: Data Element 2/3: Documents and Other Reference Codes (Union) of the Customs Declaration Service (CDS) *(gov.uk HMRC, 2026-07-29)* — https://www.gov.uk/government/publications/data-element-23-documents-and-other-reference-codes-union-of-the-customs-declaration-service-cds
-- [A] Part 5: Domestic and Non Domestic Borderline *(gov.uk HMRC, 2026-07-29)* — https://www.gov.uk/guidance/rating-manual-section-2-maintaining-the-rating-list/part-5-domestic-and-non-domestic-borderline
-- [A] Rating Manual section 2: valuation principles *(gov.uk HMRC, 2026-07-29)* — https://www.gov.uk/guidance/rating-manual-section-2-maintaining-the-rating-list
-- [A] Guidance: GloBE Information Return Filing and Exchange: Transitional approach *(gov.uk HMRC, 2026-07-29)* — https://www.gov.uk/government/publications/global-information-return-filing-and-exchange-transitional-approach
+- [A] Venture Capital Schemes Manual *(gov.uk HMRC, 2026-07-30)* — https://www.gov.uk/hmrc-internal-manuals/venture-capital-schemes-manual
+- [A] Oils Technical Manual *(gov.uk HMRC, 2026-07-30)* — https://www.gov.uk/hmrc-internal-manuals/oils-technical-manual
+- [A] Policy paper: Revenue and Customs Brief 7 (2026): Changes to the VAT Capital Goods Scheme *(gov.uk HMRC, 2026-07-30)* — https://www.gov.uk/government/publications/revenue-and-customs-brief-7-2026-changes-to-the-vat-capital-goods-scheme
+- [A] Sign in to your payment provider account for Tax-Free Childcare *(gov.uk HMRC, 2026-07-30)* — https://www.gov.uk/guidance/sign-in-to-your-payment-provider-account-for-tax-free-childcare
+- [A] Oil Taxation Manual *(gov.uk HMRC, 2026-07-30)* — https://www.gov.uk/hmrc-internal-manuals/oil-taxation-manual
 
 ## Europe  → HEUR
+- [A] Digital euro app to incorporate highest accessibility standards *(ECB press, 2026-07-30)* — https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html
 - [A] ECB wage tracker at 2.7% in Q1 2027, indicating stable negotiated wage pressures *(ECB press, 2026-07-29)* — https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260729~4ad7508d8a.en.html
 - [A] Philip R. Lane: Outlook for the euro area economy *(ECB press, 2026-07-24)* — https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260724~d484b483b9.en.pdf
 - [A] Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates) *(ECB press, 2026-07-24)* — https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260724~eebbc30622.en.html
 - [A] ECB to extend use of climate factors in Eurosystem collateral framework to non-financial corporate credit claims *(ECB press, 2026-07-24)* — https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_4~f082ce289d.en.html
-- [A] Results of the June 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD) *(ECB press, 2026-07-24)* — https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_3~c0b45e246f.en.html
 
 ## Cross-market  → whole book
-- [B] ‘Love Island USA’ winners are spending their $100,000 prize money in a very relatable way *(MarketWatch, 2026-07-29)* — https://www.marketwatch.com/story/love-island-usa-winners-are-spending-their-100-000-prize-money-in-a-very-relatable-way-5f4f1794?mod=mw_rss_topstories
-- [B] Robinhood puts up record revenue as volatility drives a trading bonanza *(MarketWatch, 2026-07-29)* — https://www.marketwatch.com/story/robinhood-puts-up-record-revenue-as-volatility-drives-a-trading-bonanza-8e0729c1?mod=mw_rss_topstories
-- [B] Looking for a second home? Sellers in these markets could be ready to make a deal. *(MarketWatch, 2026-07-29)* — https://www.marketwatch.com/story/looking-for-a-second-home-sellers-in-these-markets-could-be-ready-to-make-a-deal-b8d85b34?mod=mw_rss_topstories
-- [B] I’m managing a former colleague who just can’t keep up with her workload. How do I handle this without being a jerk? *(MarketWatch, 2026-07-29)* — https://www.marketwatch.com/story/im-managing-a-former-colleague-who-just-cant-keep-up-with-her-workload-how-do-i-handle-this-without-being-a-jerk-eb2303ee?mod=mw_rss_topstories
-- [B] Americans are living longer than our retirement system can handle — and many of us are unprepared *(MarketWatch, 2026-07-29)* — https://www.marketwatch.com/story/americans-are-living-longer-than-our-retirement-system-can-handle-and-many-of-us-are-unprepared-76c50a35?mod=mw_rss_topstories
+- [B] Implosion of Situational Awareness hedge fund has Wall Street betting the bottom is in for the AI trade *(MarketWatch, 2026-07-30)* — https://www.marketwatch.com/story/implosion-of-situational-awareness-has-wall-street-betting-the-bottom-is-in-for-the-ai-trade-05d9f346?mod=mw_rss_topstories
+- [B] Meta’s stock falls hard. Here’s why the company is in Wall Street’s doghouse. *(MarketWatch, 2026-07-30)* — https://www.marketwatch.com/story/metas-stock-is-falling-hard-heres-why-the-company-is-in-wall-streets-doghouse-afae2f55?mod=mw_rss_topstories
+- [B] Micron, Sandisk and other chip stocks get major boosts in the wake of Microsoft’s earnings *(MarketWatch, 2026-07-30)* — https://www.marketwatch.com/story/micron-sandisk-and-other-chip-stocks-get-major-boosts-in-the-wake-of-microsofts-earnings-25460e61?mod=mw_rss_topstories
+- [B] Why Microsoft’s stock soared to a historic gain after earnings *(MarketWatch, 2026-07-30)* — https://www.marketwatch.com/story/why-microsofts-stock-is-soaring-toward-a-historic-gain-after-earnings-96cd5b1e?mod=mw_rss_topstories
+- [B] Warsh’s Wall Street cred takes a hit as investors doubt the Fed chair’s inflation-fighting resolve *(MarketWatch, 2026-07-30)* — https://www.marketwatch.com/story/warshs-wall-street-cred-takes-a-hit-as-investors-doubt-the-fed-chairs-inflation-fighting-resolve-82be4f77?mod=mw_rss_topstories

@@ -1,8 +1,200 @@
 {
- "generated": "2026-07-29T20:53Z",
+ "generated": "2026-07-30T21:07Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 42,
+ "count": 28,
  "items": [
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Strategy books $8.2 billion Q2 loss on bitcoin price decline",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/07/30/strategy-books-usd8-2-billion-second-quarter-loss-on-bitcoin-price-decline",
+   "published": "2026-07-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Coinbase sinks 5% after missing second quarter revenue estimates",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/07/30/coinbase-sinks-5-after-missing-q2-revenue-estimates",
+   "published": "2026-07-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Global banks test tokenized money for cross-border payments in $1 million BIS pilot",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/07/30/global-banks-test-tokenized-money-for-cross-border-payments-in-usd1-million-bis-pilot",
+   "published": "2026-07-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Ondo Finance weighs acquisition worth up to $500 million",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/07/30/ondo-finance-weighs-acquisition-worth-up-to-usd500-million",
+   "published": "2026-07-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Crypto for Advisors: Is the Clarity Act dead?",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/coindesk-indices/2026/07/30/crypto-for-advisors-is-the-clarity-act-dead",
+   "published": "2026-07-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Venture Capital Schemes Manual",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/venture-capital-schemes-manual",
+   "published": "2026-07-30",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Oils Technical Manual",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/oils-technical-manual",
+   "published": "2026-07-30",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Policy paper: Revenue and Customs Brief 7 (2026): Changes to the VAT Capital Goods Scheme",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/revenue-and-customs-brief-7-2026-changes-to-the-vat-capital-goods-scheme",
+   "published": "2026-07-30",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Sign in to your payment provider account for Tax-Free Childcare",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/sign-in-to-your-payment-provider-account-for-tax-free-childcare",
+   "published": "2026-07-30",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Oil Taxation Manual",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/oil-taxation-manual",
+   "published": "2026-07-30",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Digital euro app to incorporate highest accessibility standards",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html",
+   "published": "2026-07-30",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Implosion of Situational Awareness hedge fund has Wall Street betting the bottom is in for the AI trade",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/implosion-of-situational-awareness-has-wall-street-betting-the-bottom-is-in-for-the-ai-trade-05d9f346?mod=mw_rss_topstories",
+   "published": "2026-07-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Meta\u2019s stock falls hard. Here\u2019s why the company is in Wall Street\u2019s doghouse.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/metas-stock-is-falling-hard-heres-why-the-company-is-in-wall-streets-doghouse-afae2f55?mod=mw_rss_topstories",
+   "published": "2026-07-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Micron, Sandisk and other chip stocks get major boosts in the wake of Microsoft\u2019s earnings",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/micron-sandisk-and-other-chip-stocks-get-major-boosts-in-the-wake-of-microsofts-earnings-25460e61?mod=mw_rss_topstories",
+   "published": "2026-07-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Why Microsoft\u2019s stock soared to a historic gain after earnings",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/why-microsofts-stock-is-soaring-toward-a-historic-gain-after-earnings-96cd5b1e?mod=mw_rss_topstories",
+   "published": "2026-07-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Warsh\u2019s Wall Street cred takes a hit as investors doubt the Fed chair\u2019s inflation-fighting resolve",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/warshs-wall-street-cred-takes-a-hit-as-investors-doubt-the-fed-chairs-inflation-fighting-resolve-82be4f77?mod=mw_rss_topstories",
+   "published": "2026-07-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -34,107 +226,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Alphabet Captures 2026 AI Capex Alpha But Amazon Begins Surging in 2027 - 24/7 Wall St.",
-   "source": "24/7 Wall St.",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVzY0U2NhOVo3Z1d0RmxmY3A0UzZwaldLeEZ4N3AxQUQxbmRidEhHS1FNYVo4V2hTdEpvcVNfUHBWRHJTcHM0eUhYcWNKbkVMbFFwSlNkVnhNaE5xdFFfME0xU19ONnYxdzZuUk5JOHFCMlRWZHB6eTVnd1A4WmlBTGxTQTZhNzdpemNoYnc1a1RFWmNyWVRrSGhQM08xZVlQTmd2aEFhYjFlZGI1cUhOU3VPcllmQQ?oc=5",
-   "published": "2026-07-29",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "ETFs in the Crosshairs Ahead of Microsoft & Meta Earnings - ETF Database",
-   "source": "ETF Database",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYVlCU1N5U0JnVlNIV1hxeXdIRnFRNDdiTlotUDg1bVdYd1BFdm9ZeXByOUkzSnlaN3drdmkxUlFsNWgyTGJja0FfNlo0V1IzOG4wTk9GMk9RUlhwNS1CM1hGQ29Ob1JOdUk5R3k5dlFULUhlSWM0dk5wNVU2bTlJNWJLS2JXSHRHUTNrMw?oc=5",
-   "published": "2026-07-29",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta and BlackRock team up for data center in El Paso, Texas - datacenterdynamics.com",
-   "source": "datacenterdynamics.com",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLUh5OFF0X2x3dG1rWDdFSlBVeHhySzBMYy1YaTRPM0FLbXB5RC1yTEI4WmY1RUNTaGp6WkFxZU85eHQ4VzRTRjBUR1MyR1MwTTc4NlhNRFlYRlBpVWhMclQ3NktIU01DT1lZRnV0OTJoNEpLMDQ0WmpUSk9yM3F6MUwtZVJCMWJOekF1VUdXOXFLOU96eXJrYWFLamR2STNHanZGWWJn?oc=5",
-   "published": "2026-07-29",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Semiconductor stocks are going up in smoke. But the S&P 500 is holding strong. - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaXFnUjdwQ2UyME1LWjYzcVJySktGbXEyMWxmOGpmUTN2WlFQT0hnM2FZM1JWd3BlRW9rUWc2el9EWjFTQ2VzVUdfX3JDR2liVDV0Vnd0dG5USEFIVmRvWEZKeXE2RWRzbjl2VXc3bnc4QUNZV2hQNTRWeTVRRVhqVVNuYkpUZk9ubFA1RGxyRzBtVmFfMjV3dVF4b2xpQzZqaDBmTnJMNDlPZmlBemIxOVFnWnAyQ2w2WXJXck5CTzBuNG9fUDZqR0ZJdU4?oc=5",
-   "published": "2026-07-29",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Department of Commerce Announces Letters of Intent With 7 Companies for $874 Million to Accelerate Semiconductor R&D for the Compute Supply Chain - National Institute of Standards and Technology (.gov)",
-   "source": "National Institute of Standards and Technology (.gov)",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZzcxTXJ1dkYwSHNnbU11YUx6ZVM2RDZFb0ltd1NfeFRVdWxNXzBJcVRCZHV3OUJqS0p6V1ZjZl9wVDc0M2k3LVVJRWo0ZGJXTXF0Tmp6a3ZUejhUakJldnRrR19JeTdPSXpINHBfZnFFTXhBTUUxNWFUdk1LYmJTY0JobEJWaU84a2U1T0VKWTBqRmFpNFN4TW9iV3hKNWlOVGhQUm1yZTJBdlRoY251VTh6d0o?oc=5",
-   "published": "2026-07-29",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Status of the earthquakes occurred on July 28 in the Kumamoto region\uff5cInformation - sony-semicon.com",
-   "source": "sony-semicon.com",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pZjd6UkhWNlU4RURxR3ZxSmhZQjlrTVRYS0s0OHJoZUstWjBMVHRFSHA4NEdiQ2ZIT2FOdjlHZk1qenhPLWRpbV9LU3hxNURPclpfOERYc3NPWkVqX0NsV3dacVpzVTVP?oc=5",
-   "published": "2026-07-29",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "SIA Commends CHIPS Awards to Accelerate Advanced Compute Semiconductor R&D - Semiconductor Industry Association | SIA",
-   "source": "Semiconductor Industry Association | SIA",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORjQ2ZzNDY0dnWEVvWVREeXZoUW9mWDgwcHpHR0JtNFBrWVpqQmdxMzZJOUt0dmdCX2ZfaGlMODRHT0s1cmxJUkdHMnNJR1dJY0tXNUJlSGIxZWhoNTY3cWRFZXZreF9OU2lkREZ3UTBKUVdnektmRTI3R0ZZTWs1emc2YlZKMlhZa0U2TkpNOFM0dk1NbHlXX3YxUVR4LW5YZnRxMi14ZG0?oc=5",
-   "published": "2026-07-29",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -143,126 +234,6 @@
    "title": "Lower crude oil prices reduced U.S.-Canada energy trade value in 2025",
    "source": "EIA Today in Energy",
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=67904",
-   "published": "2026-07-29",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Robinhood slides 4% despite earnings beat as crypto revenue cools",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/07/29/robinhood-slides-4-despite-earnings-beat-as-crypto-revenue-cools",
-   "published": "2026-07-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "As crypto perpetual futures boom, Ethereum\u2019s role is shifting",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/07/29/as-crypto-perpetual-futures-boom-ethereum-s-role-is-shifting",
-   "published": "2026-07-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Fed holds rates steady, extending pause as markets await Kevin Warsh's policy roadmap",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/07/29/fomc-hold-fed-holds-rates-steady-extending-pause-as-markets-await-warsh-s-policy-roadmap",
-   "published": "2026-07-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "The traditional 9-to-5 banking day is officially dying, says Morgan Stanley execs",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/07/29/morgan-stanley-execs-admit-the-traditional-9-to-5-banking-day-is-officially-dying",
-   "published": "2026-07-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Stablecoin firm Brale says new protocol can remove a major hurdle to scaling custom tokens",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/29/stablecoin-firm-brale-says-new-protocol-can-remove-a-major-hurdle-to-scaling-custom-tokens",
-   "published": "2026-07-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Correspondence: Edition 5: Making Tax Digital for Income Tax \u2014 software developer newsletter",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/edition-5-making-tax-digital-for-income-tax-software-developer-newsletter",
-   "published": "2026-07-29",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Data Element 2/3: Documents and Other Reference Codes (Union) of the Customs Declaration Service (CDS)",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/data-element-23-documents-and-other-reference-codes-union-of-the-customs-declaration-service-cds",
-   "published": "2026-07-29",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Part 5: Domestic and Non Domestic Borderline",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/rating-manual-section-2-maintaining-the-rating-list/part-5-domestic-and-non-domestic-borderline",
-   "published": "2026-07-29",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Rating Manual section 2: valuation principles",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/rating-manual-section-2-maintaining-the-rating-list",
-   "published": "2026-07-29",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: GloBE Information Return Filing and Exchange: Transitional approach",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/global-information-return-filing-and-exchange-transitional-approach",
    "published": "2026-07-29",
    "trust": "A",
    "flag": "context-only"
@@ -280,95 +251,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018Love Island USA\u2019 winners are spending their $100,000 prize money in a very relatable way",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/love-island-usa-winners-are-spending-their-100-000-prize-money-in-a-very-relatable-way-5f4f1794?mod=mw_rss_topstories",
-   "published": "2026-07-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Robinhood puts up record revenue as volatility drives a trading bonanza",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/robinhood-puts-up-record-revenue-as-volatility-drives-a-trading-bonanza-8e0729c1?mod=mw_rss_topstories",
-   "published": "2026-07-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Looking for a second home? Sellers in these markets could be ready to make a deal.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/looking-for-a-second-home-sellers-in-these-markets-could-be-ready-to-make-a-deal-b8d85b34?mod=mw_rss_topstories",
-   "published": "2026-07-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "I\u2019m managing a former colleague who just can\u2019t keep up with her workload. How do I handle this without being a jerk?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/im-managing-a-former-colleague-who-just-cant-keep-up-with-her-workload-how-do-i-handle-this-without-being-a-jerk-eb2303ee?mod=mw_rss_topstories",
-   "published": "2026-07-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Americans are living longer than our retirement system can handle \u2014 and many of us are unprepared",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/americans-are-living-longer-than-our-retirement-system-can-handle-and-many-of-us-are-unprepared-76c50a35?mod=mw_rss_topstories",
-   "published": "2026-07-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off - CNBC",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYmFTZV9PdnYxTnNKT3RHemp5WmNNRUdLTko4b1pEdURWMkE0eFg1WEFaTGNFUEVZV080RXB1Y3BPbjYxX0QtNnAybzJObmVFS3oxYWtySGlYRzN1NGFGaGgxX3hLNkx5bkh2dHY3U0EtZFIxeXRwWHA5R19sWjdfSVJRb1U3cXhNOGJiQzhMTW1uSU1vNmRkbWJFVzBmd1pCZFc5c1ZCdUPSAa4BQVVfeXFMTzh4di1UM0VFcFFLX3k2bjZKSjJSVFhmNjB4ZmNuNXdUVnlRaXRsQnR3Z2lvNzZESnM5blB1dkgwbW9ieUJscFdHTm1pU2pPdmJBb1k5c3FOckhzbURUUUZtRGI3SGotQl9sTEdWRXNrU3BCV215elhab2NiM3I3TmhvYlpFcmplZkJ5MnM3Wlg5WXBJTU5CTmR2azNuOXZvZ1ExbzZNbmhZUFM3WWJR?oc=5",
-   "published": "2026-07-28",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Nasdaq 100 nears a correction as semiconductor sell-off extends - AFR",
-   "source": "AFR",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa3l0N0NxVGdVb3ViNXJFVlVmOXhheTJTOGdfc3ZFeE5XekFsa3N4UTg0RWJTaDRXY29HSkp3ckdyVG1Rb2pLSGJ0emJrcy00WnA2UktIM1BNYjRkblh6Q3NDRlVBNXhwN2o3Z1pBanktR2I2dGJiak1CMlN3WDRnWGplT0tYSVM1ZDNYR3dGTm81Q1NGY0g1dFlqY2R4d1A1c3FQNjJaOGhlcXpZX1c3VGFsNFNQejJLRWdsZVVBdw?oc=5",
-   "published": "2026-07-28",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -379,47 +261,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=67885",
    "published": "2026-07-27",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center - WSJ",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw?oc=5",
-   "published": "2026-07-26",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "US-Iran conflict enters prolonged struggle over Strait of Hormuz - english.cctv.com",
-   "source": "english.cctv.com",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9yM2JncXVIbExpZzlJbzVUWXM0M2pkZU1GNjN6NzdxcjlxYVhwN2VpdnhrazFwQUU0NHNuRVR6dHBzN0ZkUTRqTDJjcTg2bFZ3QXY1aEo2N0JPblNqZmxSMVh3ZGV1TFE4cy1DbU9LRWkyeDd6V05qUHdITjE?oc=5",
-   "published": "2026-07-25",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "China + iron ore",
-   "holdings": [
-    "VAS",
-    "VHY"
-   ],
-   "title": "China's PBOC to conduct overnight reverse repos, inject a total of 2.1 trillion yuan - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaS1tbzNSOFNWWEctdlhJLWdrSHhOZUZWNjJvUnd0c0FaS3JVMEpKRlZyOV9OOFJzdDFIaGt6cTF2WmpuQ0RlLWs2eVBPNUVBTmdMcG1vcEloVlA4RUIwcTJjcUMtZzRiRVYwSFJlVU42ak1fWDZOeVBnT2dRVExicGVoWThVWWlldUktc3dqOTFzX0JTM2tHMlpTRFVaY1hsRVRGTnBjUXBUSGlLU2ZmaG1GWFFxaGJRWmNFbDJXbEZqbG1nVTNn?oc=5",
-   "published": "2026-07-24",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -472,18 +313,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "Results of the June 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_3~c0b45e246f.en.html",
-   "published": "2026-07-24",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -510,19 +339,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "A's DH Brent Rooker undergoes season-ending knee surgery - ESPN",
-   "source": "ESPN",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdUt1S21IVnQwV2tCUUM1V2YzZFQyNktlV3IxeGhlelJKaG1SWDlkckFDUTFwWnpwbWZnZ2RvQ29BMktONXVGSHB0X0daS0t0dEVJRlNBTFQwbGZqcnpiMmxYWUJ0MEk5MkxHTjVtSzV1QXgtY0ZRLUpiT1A0emZLUmFtaWpFQndqWVp4R1ZjQU83V1hVakJSQ3NaYkc2MEhVRW1LREVNY2xEY3c?oc=5",
-   "published": "2026-07-17",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "US rates / Fed",
    "holdings": [
     "IVV",
@@ -535,18 +351,6 @@
    "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm",
    "published": "2026-07-16",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "AU tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "\u2018If you make $1250, you\u2019ll pay $1850 tax bill\u2019 - news.com.au",
-   "source": "news.com.au",
-   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxONXN6QWNMdFlmVW1jcFRtWnRoRjZyRTdWd3lXRmE4WkhjbjhMeDh0dnJtUmgxcS00VWxFdVBVUzBpdy0zUkVXY1dJVEVTOExQRHBnYUJlNEl6ZGVHbl9OWUdwT083azllT0hvelRkX2tVMGg3OHZpSEJLS3ljQWtndTQxaVloMGJZV2pQVlN1b1d6SzVTN3FFaG1QWjBHa2pmaFdFczdCNWlSUlEySUNVUE1Sek1LY0NkblV2aHFsaTZyMy1HQXJRVUp0TWs2UVV5THFyb1BqVk0wejF0QnoxYm9pTGpaN0E5YlZlaURHbi1mckQxOUZEaXFKbDN3OE4y0gGGAkFVX3lxTFBBUVd2c1ljSDBGZktMWHRwZXVlZ1pHZVJDbVRhRXRYSWMzRGk2M3hNbC1aRmMybGlnWGpLcnJ5RTBlS0FmQ2pJYkQ0dnhZeDg1bFBpVkdnN040UlQ4ODkwV1c3VjdQenRDX05hV1VvU3NOVDRuSEpqV25pS283SUE5NlJWUnd2YmdOV3FqaVQ3ckNMazM5RzBkbkpyeGNJZjB2dGFBTVJCUURsUUVtcnBBa2JVYUR2Wll3UnFxRnJHeF9DSUtqSWlqaEtJbVF6ZnpESjM2T2hmWU1LYjNmMUFEMUgtbW5fQy1pdUNuRHhwNDVSWlktUENrSGV2eUJzckFjRTJMd1E?oc=5",
-   "published": "2026-07-16",
-   "trust": "C",
    "flag": "context-only"
   }
  ]

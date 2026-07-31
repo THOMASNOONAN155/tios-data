@@ -1,31 +1,55 @@
-# News that moves the book — 2026-07-30
+# News that moves the book — 2026-07-31
 *CONTEXT ONLY — not a buy/sell/timing signal. Default: HOLD + keep contributing; any sale adviser-gated. Trust: A=official/primary · B=major wire · C=aggregator.*
 
 ## US rates / Fed  → IVV, VGS, NDQ, GGUS
+- [A] Major Economic Indicators Latest Numbers *(BLS, 2026-07-31)* — https://www.bls.gov/bls/
 - [A] Federal Reserve issues FOMC statement *(Fed monetary, 2026-07-29)* — https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm
-- [A] Major Economic Indicators Latest Numbers *(BLS, 2026-07-29)* — https://www.bls.gov/bls/
-- [A] Jefferson, Navigating Economic Shocks: A Monetary Policymaker’s Perspective *(Fed speeches, 2026-07-16)* — https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm
+
+## US mega-cap / AI capex  → IVV, VGS, NDQ, GGUS
+- [C] Meta Turns to Joint Ventures With BlackRock to Finance 1GW AI Data Center - thelec.net *(thelec.net, 2026-07-31)* — https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBidUphSVN1enlmU3pmVkpVRTBQdmlCZHBTOVc3cFlQdjZfQ2tmS0xPUThDUndaVXJSbGtqM1lMcDVVNy12a2RNdFh1YjFMaVIwVzl3OUhvUVRDekhwcUstSE9TVUhIelU?oc=5
+- [C] Meta, Microsoft, and the AI Capex Divide - Barron's *(Barron's, 2026-07-30)* — https://news.google.com/rss/articles/CBMie0FVX3lxTE95VFJxRm1GSE82NUhwWl9Gc3c4Y1Z0ZmlNU3h0VmNVSkdhRlkxUHF6UGZvLU91b08zTFIzYXdSazhnTFVKM2xlVzFjMlFUdDVvdkllM19Ickw2eTRpMjlrVWJza0t5YnlzbzN0c2hTRTlnd2xrQ3dNakduQQ?oc=5
+- [C] The Hyperscaler Prisoner’s Dilemma: Why I Keep Buying Nvidia - Yahoo Finance *(Yahoo Finance, 2026-07-30)* — https://news.google.com/rss/articles/CBMipAFBVV95cUxOS3dmQUp5clFYaUxGZk9iUGlnYjVUUFJUUzFyZDRuWHNMelFZNjFYTXRDcXp3a3hzblRiV19xczFoR281VlhxYVdoM21INlZ5dTVTM3o1UlZFR3R0WnBNVGpyWm1LaGdrbWhYZllVYm9MWUJpQ0RXR216TC1hMXoxX1YtYVVkSW05Y3M2czNaY0VoRjNROXBQa3Bpak80YU0xMXFZOA?oc=5
+- [C] Alphabet Captures 2026 AI Capex Alpha But Amazon Begins Surging in 2027 - 24/7 Wall St. *(24/7 Wall St., 2026-07-29)* — https://news.google.com/rss/articles/CBMitgFBVV95cUxNVzY0U2NhOVo3Z1d0RmxmY3A0UzZwaldLeEZ4N3AxQUQxbmRidEhHS1FNYVo4V2hTdEpvcVNfUHBWRHJTcHM0eUhYcWNKbkVMbFFwSlNkVnhNaE5xdFFfME0xU19ONnYxdzZuUk5JOHFCMlRWZHB6eTVnd1A4WmlBTGxTQTZhNzdpemNoYnc1a1RFWmNyWVRrSGhQM08xZVlQTmd2aEFhYjFlZGI1cUhOU3VPcllmQQ?oc=5
+- [C] Forget AI Capex Concerns - Buy Alphabet After Excellent Q2 Earnings - TradingView *(TradingView, 2026-07-27)* — https://news.google.com/rss/articles/CBMivgFBVV95cUxNRUZ2UGpJMUtWWUJlY3NQZGFUVkMweFVWakh2WGJCU0NfWnJUeG0wTWd6blZnVUxMYnM1eGZqMjR5VW00NF9CSTZLTW83Njd6UWdMZGFmSzZZOUsyR3N4bmhBYmZWSEJhbHp0QVpCZEtvbDEyZEJaeExoNEJjZDdBR2RIVGpSWVRJZTNXMmtrU2NfWV9fakViaTA3ZVpHaGx4dnFlVHRJZ2R2UF9XeWFKTFB3eDB3ak9MLVJ0NkhB?oc=5
+
+## Semis / Taiwan  → ASIA, EMKT, NDQ
+- [C] Adisyn Secures Second US Patent Allowance Covering Graphene-Coated Semiconductor Surfaces - Kalkine *(Kalkine, 2026-07-31)* — https://news.google.com/rss/articles/CBMiywFBVV95cUxPc2xsV1FQMjdPU0Rvdkduc0drS2lzZTRqTXVEMnJwcjM3ZlZUUjFfQmZGcTFCNXhwZ2Fzbm1GUEhfeEpTYTMyMTJyaktFRC1VYkMza2pnSlN6RHVMQm5nelVpM0xQNzdaU1FtZURkVmdMQmwyWTlJOFlpNThiT2k3cjc5MENlaWV5WmNEeVFyZGppcUNaS2hnQVBZemZQaGl2RHJ4QzdMeWNSeVE2U0JkSFEyZnlUMGk4djJjRXRlbHpVMmpwMzVMU081QQ?oc=5
+- [C] Is Bangladesh ready to build semiconductor chips? - The Daily Star *(The Daily Star, 2026-07-31)* — https://news.google.com/rss/articles/CBMisAFBVV95cUxOUUxBeEN6SUJFek8tYUZtaW9ZQ3ZtMUJWRFdrUnBlX3JMdzVRTEJ5MUdXUGRUUDlEOVBHTzlSMTJRbjNST3N3cC1mdEFBNEZjaVNaT0RWNGloTkE5VVl3WnNoTUxLczBHblB2TWtqNW9aRmhyOFNTQUJOX0dpLTVkSVExd05abDAybzdNaWJ4TGRnbDJYRW9SWjlCSVhjb2JHRmp5dlhqM0JScDFHSkFEMA?oc=5
+- [C] Goliath’s GC - law.asia *(law.asia, 2026-07-31)* — https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QMzFqNVNJRkVnZUtlMC1yV0JveXlKbDJCNnZRdXVyWkQ2dkFselNYTUJsS1BsZHdTSzBDNUoteW9tTmhPaS1ka1ZxY2xRSmt0QXJnRDBwdmpzMVRnRmc?oc=5
+- [C] Department of Commerce Announces Letters of Intent With 7 Companies for $874 Million to Accelerate Semiconductor R&D for the Compute Supply Chain - National Institute of Standards and Technology (.gov) *(National Institute of Standards and Technology (.gov), 2026-07-29)* — https://news.google.com/rss/articles/CBMitAFBVV95cUxOZzcxTXJ1dkYwSHNnbU11YUx6ZVM2RDZFb0ltd1NfeFRVdWxNXzBJcVRCZHV3OUJqS0p6V1ZjZl9wVDc0M2k3LVVJRWo0ZGJXTXF0Tmp6a3ZUejhUakJldnRrR19JeTdPSXpINHBfZnFFTXhBTUUxNWFUdk1LYmJTY0JobEJWaU84a2U1T0VKWTBqRmFpNFN4TW9iV3hKNWlOVGhQUm1yZTJBdlRoY251VTh6d0o?oc=5
+- [C] Nasdaq 100 nears a correction as semiconductor sell-off extends - AFR *(AFR, 2026-07-28)* — https://news.google.com/rss/articles/CBMivwFBVV95cUxOa3l0N0NxVGdVb3ViNXJFVlVmOXhheTJTOGdfc3ZFeE5XekFsa3N4UTg0RWJTaDRXY29HSkp3ckdyVG1Rb2pLSGJ0emJrcy00WnA2UktIM1BNYjRkblh6Q3NDRlVBNXhwN2o3Z1pBanktR2I2dGJiak1CMlN3WDRnWGplT0tYSVM1ZDNYR3dGTm81Q1NGY0g1dFlqY2R4d1A1c3FQNjJaOGhlcXpZX1c3VGFsNFNQejJLRWdsZVVBdw?oc=5
+
+## China + iron ore  → VAS, VHY
+- [C] China's PBOC to conduct overnight reverse repos, inject a total of 2.1 trillion yuan - Reuters *(Reuters, 2026-07-24)* — https://news.google.com/rss/articles/CBMixwFBVV95cUxPaS1tbzNSOFNWWEctdlhJLWdrSHhOZUZWNjJvUnd0c0FaS3JVMEpKRlZyOV9OOFJzdDFIaGt6cTF2WmpuQ0RlLWs2eVBPNUVBTmdMcG1vcEloVlA4RUIwcTJjcUMtZzRiRVYwSFJlVU42ak1fWDZOeVBnT2dRVExicGVoWThVWWlldUktc3dqOTFzX0JTM2tHMlpTRFVaY1hsRVRGTnBjUXBUSGlLU2ZmaG1GWFFxaGJRWmNFbDJXbEZqbG1nVTNn?oc=5
 
 ## Energy / oil  → VHY, VAS
+- [A] China's crude oil imports fell in the second quarter *(EIA Today in Energy, 2026-07-31)* — https://www.eia.gov/todayinenergy/detail.php?id=67905
 - [A] Lower crude oil prices reduced U.S.-Canada energy trade value in 2025 *(EIA Today in Energy, 2026-07-29)* — https://www.eia.gov/todayinenergy/detail.php?id=67904
 - [A] Hybrid sales rise while battery electric sales remain lower after tax credit expiration *(EIA Today in Energy, 2026-07-27)* — https://www.eia.gov/todayinenergy/detail.php?id=67885
+- [C] US-Iran conflict enters prolonged struggle over Strait of Hormuz - english.cctv.com *(english.cctv.com, 2026-07-25)* — https://news.google.com/rss/articles/CBMifEFVX3lxTE9yM2JncXVIbExpZzlJbzVUWXM0M2pkZU1GNjN6NzdxcjlxYVhwN2VpdnhrazFwQUU0NHNuRVR6dHBzN0ZkUTRqTDJjcTg2bFZ3QXY1aEo2N0JPblNqZmxSMVh3ZGV1TFE4cy1DbU9LRWkyeDd6V05qUHdITjE?oc=5
 - [A] Energia Costa Azul, Mexico's second LNG terminal, shipped first cargo *(EIA Today in Energy, 2026-07-24)* — https://www.eia.gov/todayinenergy/detail.php?id=67884
 - [A] Commercial crude oil inventories increased by 2.0 million barrels *(EIA Today in Energy, 2026-07-22)* — https://www.eia.gov/todayinenergy/detail.php?id=67868
-- [A] New York imports more electricity from Canada after high-voltage transmission line opens *(EIA Today in Energy, 2026-07-20)* — https://www.eia.gov/todayinenergy/detail.php?id=67867
+
+## Gold  → QAU
+- [C] Gold Price Today: Can $4,000 Hold as Traders Await the Fed? - investingLive *(investingLive, 2026-07-30)* — https://news.google.com/rss/articles/CBMimwFBVV95cUxQV1BXbjBQaFFUa0hnWXRLWExiZlIxR0owUFRqLU8taGFfdTNfZFgyeFdVQU1wak04WU5EU0s4VTBHZ3N3S2EzeWc2T2hsM1JZbEtjcnJMQXVrY28yaHRfZXczem0tUU9XYXp3aU85Y1Y4M2daeFk1UDRXS1E4aE5mZ0NMWWNrcVlUNFVFaVdfLVNVcE5Ma0pnVmpaaw?oc=5
+- [C] Gold price analysis today: Futures retreat from $4,119 as a new decision zone forms - investingLive *(investingLive, 2026-07-27)* — https://news.google.com/rss/articles/CBMivAFBVV95cUxQU09WQTFQZXlldW53V0gzcFJJa2FIbi0xZEpNb1VkWjRaUzBtM2dRSmVJdzRLa2o4U3ZKODRQWGYzTFk5bkg0azlib1Y0TnJFdF9HRGNSMUJHRGg0V1VDYkxJQTNJQ0dSRVRwZFNlQ2JYUDZPZTlFa1BRdlE4Y2JKa1FSRm03VmxKVktaejZvQWVQVS1IbjRKNjk5czMySE9RQ1BhTW1FUjVNcWVvY1JXNkxKWEo5cU4ya0RIeg?oc=5
 
 ## Crypto  → CRYP
-- [B] Strategy books $8.2 billion Q2 loss on bitcoin price decline *(CoinDesk, 2026-07-30)* — https://www.coindesk.com/markets/2026/07/30/strategy-books-usd8-2-billion-second-quarter-loss-on-bitcoin-price-decline
-- [B] Coinbase sinks 5% after missing second quarter revenue estimates *(CoinDesk, 2026-07-30)* — https://www.coindesk.com/markets/2026/07/30/coinbase-sinks-5-after-missing-q2-revenue-estimates
-- [B] Global banks test tokenized money for cross-border payments in $1 million BIS pilot *(CoinDesk, 2026-07-30)* — https://www.coindesk.com/business/2026/07/30/global-banks-test-tokenized-money-for-cross-border-payments-in-usd1-million-bis-pilot
-- [B] Ondo Finance weighs acquisition worth up to $500 million *(CoinDesk, 2026-07-30)* — https://www.coindesk.com/business/2026/07/30/ondo-finance-weighs-acquisition-worth-up-to-usd500-million
-- [B] Crypto for Advisors: Is the Clarity Act dead? *(CoinDesk, 2026-07-30)* — https://www.coindesk.com/coindesk-indices/2026/07/30/crypto-for-advisors-is-the-clarity-act-dead
+- [B] Bitcoin holds monthly gain, faces 'choppy' August as 'forced-selling' exhausted, analysts say *(CoinDesk, 2026-07-31)* — https://www.coindesk.com/markets/2026/07/31/bitcoin-holds-onto-july-gain-as-forced-selling-fuel-was-already-spent-analysts-say
+- [B] Tether posts $1.5 billion operating profit in Q2 as reserve buffer falls by half *(CoinDesk, 2026-07-31)* — https://www.coindesk.com/business/2026/07/31/tether-posts-usd1-5-billion-operating-profit-in-q2-as-reserve-buffer-falls-by-half
+- [B] The good and the bad of perps, according to crypto traders *(CoinDesk, 2026-07-31)* — https://www.coindesk.com/business/2026/07/31/the-good-and-the-bad-of-perps-according-to-crypto-traders
+- [B] Coldcard's $38 million (so far) exploit shakes faith in self-custody, may push investors to ETFs *(CoinDesk, 2026-07-31)* — https://www.coindesk.com/business/2026/07/31/coldcard-s-usd38-million-so-far-exploit-shakes-faith-in-self-custody-may-push-investors-to-etfs
+- [B] Quantum computing nears commercial breakthrough, IBM CEO says *(CoinDesk, 2026-07-31)* — https://www.coindesk.com/markets/2026/07/31/quantum-computing-nears-commercial-breakthrough-ibm-ceo-says
+
+## AU tax / reg  → ALL (disposal gate)
+- [C] Australia Plans To End 50% Crypto Capital Gains Tax Discount - CoinMarketCap *(CoinMarketCap, 2026-07-29)* — https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ0loWTQ1SDViZXpSdkg1aGhqc3Y4Qm1PLThoSXpuOXR1S25wUmVyV0pGTHpTanJIVDRXUS1OREZ6ZzBXRUNmeUFtWVhHY25ER2trNjMxdFI1Q2xOa3hVeW5SdUxVUWU3RzIydG1DUnNhOU82MU1Cam90Q3R3R3NxUkVMU0dfQks5bV9oSUZzVERnVWs?oc=5
 
 ## UK tax / reg  → ALL (disposal gate)
-- [A] Venture Capital Schemes Manual *(gov.uk HMRC, 2026-07-30)* — https://www.gov.uk/hmrc-internal-manuals/venture-capital-schemes-manual
-- [A] Oils Technical Manual *(gov.uk HMRC, 2026-07-30)* — https://www.gov.uk/hmrc-internal-manuals/oils-technical-manual
-- [A] Policy paper: Revenue and Customs Brief 7 (2026): Changes to the VAT Capital Goods Scheme *(gov.uk HMRC, 2026-07-30)* — https://www.gov.uk/government/publications/revenue-and-customs-brief-7-2026-changes-to-the-vat-capital-goods-scheme
-- [A] Sign in to your payment provider account for Tax-Free Childcare *(gov.uk HMRC, 2026-07-30)* — https://www.gov.uk/guidance/sign-in-to-your-payment-provider-account-for-tax-free-childcare
-- [A] Oil Taxation Manual *(gov.uk HMRC, 2026-07-30)* — https://www.gov.uk/hmrc-internal-manuals/oil-taxation-manual
+- [A] Disclosing VAT and other indirect tax avoidance schemes (VAT Notice 799) *(gov.uk HMRC, 2026-07-31)* — https://www.gov.uk/guidance/disclosing-vat-and-other-indirect-tax-avoidance-schemes-vat-notice-799
+- [A] Disclosure of VAT avoidance schemes (VAT Notice 700/8) *(gov.uk HMRC, 2026-07-31)* — https://www.gov.uk/guidance/disclosure-of-vat-avoidance-schemes-vat-notice-7008
+- [A] Disclosure of tax avoidance schemes *(gov.uk HMRC, 2026-07-31)* — https://www.gov.uk/guidance/disclosure-of-tax-avoidance-schemes-overview
+- [A] Forms to disclose tax avoidance schemes *(gov.uk HMRC, 2026-07-31)* — https://www.gov.uk/guidance/forms-to-disclose-tax-avoidance-schemes
+- [A] Guidance: Disclosure of tax avoidance schemes: guidance *(gov.uk HMRC, 2026-07-31)* — https://www.gov.uk/government/publications/disclosure-of-tax-avoidance-schemes-guidance
 
 ## Europe  → HEUR
 - [A] Digital euro app to incorporate highest accessibility standards *(ECB press, 2026-07-30)* — https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html
@@ -35,8 +59,8 @@
 - [A] ECB to extend use of climate factors in Eurosystem collateral framework to non-financial corporate credit claims *(ECB press, 2026-07-24)* — https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_4~f082ce289d.en.html
 
 ## Cross-market  → whole book
-- [B] Implosion of Situational Awareness hedge fund has Wall Street betting the bottom is in for the AI trade *(MarketWatch, 2026-07-30)* — https://www.marketwatch.com/story/implosion-of-situational-awareness-has-wall-street-betting-the-bottom-is-in-for-the-ai-trade-05d9f346?mod=mw_rss_topstories
-- [B] Meta’s stock falls hard. Here’s why the company is in Wall Street’s doghouse. *(MarketWatch, 2026-07-30)* — https://www.marketwatch.com/story/metas-stock-is-falling-hard-heres-why-the-company-is-in-wall-streets-doghouse-afae2f55?mod=mw_rss_topstories
-- [B] Micron, Sandisk and other chip stocks get major boosts in the wake of Microsoft’s earnings *(MarketWatch, 2026-07-30)* — https://www.marketwatch.com/story/micron-sandisk-and-other-chip-stocks-get-major-boosts-in-the-wake-of-microsofts-earnings-25460e61?mod=mw_rss_topstories
-- [B] Why Microsoft’s stock soared to a historic gain after earnings *(MarketWatch, 2026-07-30)* — https://www.marketwatch.com/story/why-microsofts-stock-is-soaring-toward-a-historic-gain-after-earnings-96cd5b1e?mod=mw_rss_topstories
-- [B] Warsh’s Wall Street cred takes a hit as investors doubt the Fed chair’s inflation-fighting resolve *(MarketWatch, 2026-07-30)* — https://www.marketwatch.com/story/warshs-wall-street-cred-takes-a-hit-as-investors-doubt-the-fed-chairs-inflation-fighting-resolve-82be4f77?mod=mw_rss_topstories
+- [B] Did China build a top-tier AI model by itself? A new report suggests Nvidia chips played a role. *(MarketWatch, 2026-07-31)* — https://www.marketwatch.com/story/did-china-build-a-top-tier-ai-model-by-itself-a-new-report-suggests-nvidia-chips-played-a-role-ad4644cd?mod=mw_rss_topstories
+- [B] Job seekers can now spend thousands on AI certificates. Is it worth it? *(MarketWatch, 2026-07-31)* — https://www.marketwatch.com/story/is-spending-thousands-of-dollars-on-an-ai-certification-worth-it-heres-how-to-decide-f73e49c6?mod=mw_rss_topstories
+- [B] If Social Security’s funding crisis is the elephant in the room, this is the mouse everyone has overlooked. You have been warned. *(MarketWatch, 2026-07-31)* — https://www.marketwatch.com/story/if-social-securitys-funding-crisis-is-the-elephant-in-the-room-this-is-the-mouse-everyone-has-overlooked-you-have-been-warned-b95c450d?mod=mw_rss_topstories
+- [B] We’re in our 60s with $1.5 million. Would a trust be more effective than a will to prevent conflict among our heirs? *(MarketWatch, 2026-07-31)* — https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories
+- [B] It’s getting easier for terminally ill people to end their own lives. What to know as laws change. *(MarketWatch, 2026-07-31)* — https://www.marketwatch.com/story/its-getting-easier-for-terminally-ill-people-to-end-their-own-lives-what-to-know-as-laws-change-4fa04c54?mod=mw_rss_topstories

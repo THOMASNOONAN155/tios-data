@@ -1,8 +1,182 @@
 {
- "generated": "2026-07-31T21:02Z",
+ "generated": "2026-08-01T20:49Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 42,
+ "count": 41,
  "items": [
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Is Bangladesh ready to build semiconductor chips? - The Daily Star",
+   "source": "The Daily Star",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUUxBeEN6SUJFek8tYUZtaW9ZQ3ZtMUJWRFdrUnBlX3JMdzVRTEJ5MUdXUGRUUDlEOVBHTzlSMTJRbjNST3N3cC1mdEFBNEZjaVNaT0RWNGloTkE5VVl3WnNoTUxLczBHblB2TWtqNW9aRmhyOFNTQUJOX0dpLTVkSVExd05abDAybzdNaWJ4TGRnbDJYRW9SWjlCSVhjb2JHRmp5dlhqM0JScDFHSkFEMA?oc=5",
+   "published": "2026-08-01",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "ON Semiconductor Stock and 2 Chip Picks Near the CHIPS Act Funding Shift - simplywall.st",
+   "source": "simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZ0R4WFdmYi10bDMwdzVzZnR1Mlh2Y21DXzFjYVFVT05zaXdHV2hrbE1zQWpnWEU1bVZaRTR3ckEtRDFQTGUzTDFPa1hhU19WbnVWalRzTDl3UXBIU1pPLWkyOEZ3T3NNS3k5WUNUdmhYNjVYR3VaZHVXU29DakxiSl90RlJUZ09yUHV0R0xBbVpIbGtDZVVoSklHSkgxNWtiMC1lcjhRRW1nemF2VXZkS2VyOEN4bHdOaUFwZXJCdnZGc1hCUmxxQ3p0RmJoaGFGYWpFeTVB0gHbAUFVX3lxTE1VTXNSd21aOGx1N0dtdXYyQ0J1eWl2cjh1a1h0ZnZqUDl1ZC1sdmVKTWtqLXl6c3lxbVRZMXVFNWNqTEgtbUdZeVRoTTk0aGdvZkNCd2Z0U0NmNmRVTWNnN1VwWUloejB6bHlxd1hBUHBQaEk2UjY5UE5EajBRQ0ozVG1ZeVBSNmxfYkFZTkxKbEY1ZTdUdVVSV3hQclhhYjhNZndxNlI1VVd5cVE1d3NfSW1ubk1WQ0F4TDEweGtfR19qRU9PQWxidldCYkhhZzhzQkZLMGpnSmxfNA?oc=5",
+   "published": "2026-08-01",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Interactive modules make semiconductor physics click for engineering students - eurekalert.org",
+   "source": "eurekalert.org",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5DMkIyZ05wdVpGd0VoQkt0cW9HT2U0MU1iektyLVRuSlhmSGxacFFSWm14cDlhMkdLdUJXN2tRNTVDRE1qQ3RLYTVfRThpdFFkVXVZZmVnV0d2RWdK?oc=5",
+   "published": "2026-08-01",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/08/02/bitcoin-cold-wallet-attack-spreads-to-4-500-addresses-as-losses-near-usd89-million",
+   "published": "2026-08-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/08/01/tokenized-stock-trading-surged-288-in-july-but-one-qqq-token-drove-most-of-it",
+   "published": "2026-08-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
+   "published": "2026-08-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/01/bitcoin-mining-difficulty-shrinks-14-from-this-year-s-high-as-plunging-revenues-force-operators-to-pivot",
+   "published": "2026-08-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "SEC to review Nasdaq bitcoin options approval after CME challenge",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge",
+   "published": "2026-08-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Apprenticeship Levy Manual",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/apprenticeship-levy",
+   "published": "2026-08-01",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Let\u2019s elect candidates who will make the wealthy pay taxes",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/lets-elect-candidates-who-will-make-the-wealthy-pay-taxes-15f53a4a?mod=mw_rss_topstories",
+   "published": "2026-08-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018Don\u2019t get suckered like I did\u2019: I paid $185 to the wrong passport website. Can I get my money back?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/dont-get-suckered-like-i-did-i-paid-185-to-the-wrong-passport-website-can-i-get-my-money-back-3a781412?mod=mw_rss_topstories",
+   "published": "2026-08-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Rising Medicare Part D premiums could drive more people into Medicare Advantage plans",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/rising-part-d-premiums-could-drive-more-people-into-medicare-advantage-plans-32c2a392?mod=mw_rss_topstories",
+   "published": "2026-08-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Americans are living longer than our retirement system can handle \u2014 and many of us are unprepared",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/americans-are-living-longer-than-our-retirement-system-can-handle-and-many-of-us-are-unprepared-76c50a35?mod=mw_rss_topstories",
+   "published": "2026-08-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My financial adviser says I don\u2019t need a tax-efficient withdrawal plan for my $2.3 million portfolio. Is that madness?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/its-a-high-price-to-pay-my-adviser-says-i-dont-need-a-withdrawal-plan-for-my-2-3-million-portfolio-is-he-right-06cb1eb2?mod=mw_rss_topstories",
+   "published": "2026-08-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -34,43 +208,29 @@
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
+   "driver": "US mega-cap / AI capex",
    "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
    ],
-   "title": "Adisyn Secures Second US Patent Allowance Covering Graphene-Coated Semiconductor Surfaces - Kalkine",
-   "source": "Kalkine",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPc2xsV1FQMjdPU0Rvdkduc0drS2lzZTRqTXVEMnJwcjM3ZlZUUjFfQmZGcTFCNXhwZ2Fzbm1GUEhfeEpTYTMyMTJyaktFRC1VYkMza2pnSlN6RHVMQm5nelVpM0xQNzdaU1FtZURkVmdMQmwyWTlJOFlpNThiT2k3cjc5MENlaWV5WmNEeVFyZGppcUNaS2hnQVBZemZQaGl2RHJ4QzdMeWNSeVE2U0JkSFEyZnlUMGk4djJjRXRlbHpVMmpwMzVMU081QQ?oc=5",
+   "title": "Amazon Lifts 2026 AI Capex to $220B, Still Capacity-Constrained - Data Center Knowledge",
+   "source": "Data Center Knowledge",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU004dGJtU0c4Z2lmMmdONnEtd0NsZGotNTBWVG5wNlNyYlBPYWxhN3NaenNzdG05YWt4SUJGdWhXUUJlTV9rY1Y4dGdLcVVpQV9MNXNJSldtUTJsSVIyYkF4Z3hDWnFNdlZ5SXA4cW5HRXZFQ3ExdHhXUWYtUWlfaV9ET29NN1A4UnZqSThTVnozT3BUbkFkVGE2aFhVMW9SRlBOaU5OcnUwQlNwSHQ4eG1xUDBXZ3l1blB6aVhWTzBUeUs5?oc=5",
    "published": "2026-07-31",
    "trust": "C",
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
+   "driver": "China + iron ore",
    "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
+    "VAS",
+    "VHY"
    ],
-   "title": "Is Bangladesh ready to build semiconductor chips? - The Daily Star",
-   "source": "The Daily Star",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUUxBeEN6SUJFek8tYUZtaW9ZQ3ZtMUJWRFdrUnBlX3JMdzVRTEJ5MUdXUGRUUDlEOVBHTzlSMTJRbjNST3N3cC1mdEFBNEZjaVNaT0RWNGloTkE5VVl3WnNoTUxLczBHblB2TWtqNW9aRmhyOFNTQUJOX0dpLTVkSVExd05abDAybzdNaWJ4TGRnbDJYRW9SWjlCSVhjb2JHRmp5dlhqM0JScDFHSkFEMA?oc=5",
-   "published": "2026-07-31",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Goliath\u2019s GC - law.asia",
-   "source": "law.asia",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QMzFqNVNJRkVnZUtlMC1yV0JveXlKbDJCNnZRdXVyWkQ2dkFselNYTUJsS1BsZHdTSzBDNUoteW9tTmhPaS1ka1ZxY2xRSmt0QXJnRDBwdmpzMVRnRmc?oc=5",
+   "title": "Iron Ore CFR China (Platts) Overview - CME Group",
+   "source": "CME Group",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTR5VVR4cVVRZlR2bWFQNUFJcjFfak9tNG1wOTdWelNkNWcwQWw2V2g4WUdvVHJWdDZIRE9lRXp3YnNSaHRhSWRmWlhPNkRkZldTT0tVRUlHdk5UeGZ3MExWTWs0NWt4VWhDT0l4TUJLaXNvcm9NM0JLWi1RMGlHVFVVNnZ2VW1uTlJudG1NRURmY19sS0hWNWdvUmR0UQ?oc=5",
    "published": "2026-07-31",
    "trust": "C",
    "flag": "context-only"
@@ -86,66 +246,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=67905",
    "published": "2026-07-31",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitcoin holds monthly gain, faces 'choppy' August as 'forced-selling' exhausted, analysts say",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-holds-onto-july-gain-as-forced-selling-fuel-was-already-spent-analysts-say",
-   "published": "2026-07-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Tether posts $1.5 billion operating profit in Q2 as reserve buffer falls by half",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/31/tether-posts-usd1-5-billion-operating-profit-in-q2-as-reserve-buffer-falls-by-half",
-   "published": "2026-07-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "The good and the bad of perps, according to crypto traders",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/31/the-good-and-the-bad-of-perps-according-to-crypto-traders",
-   "published": "2026-07-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Coldcard's $38 million (so far) exploit shakes faith in self-custody, may push investors to ETFs",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/07/31/coldcard-s-usd38-million-so-far-exploit-shakes-faith-in-self-custody-may-push-investors-to-etfs",
-   "published": "2026-07-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Quantum computing nears commercial breakthrough, IBM CEO says",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/07/31/quantum-computing-nears-commercial-breakthrough-ibm-ceo-says",
-   "published": "2026-07-31",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -197,78 +297,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Disclosure of tax avoidance schemes: guidance",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/disclosure-of-tax-avoidance-schemes-guidance",
-   "published": "2026-07-31",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Did China build a top-tier AI model by itself? A new report suggests Nvidia chips played a role.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/did-china-build-a-top-tier-ai-model-by-itself-a-new-report-suggests-nvidia-chips-played-a-role-ad4644cd?mod=mw_rss_topstories",
-   "published": "2026-07-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Job seekers can now spend thousands on AI certificates. Is it worth it?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/is-spending-thousands-of-dollars-on-an-ai-certification-worth-it-heres-how-to-decide-f73e49c6?mod=mw_rss_topstories",
-   "published": "2026-07-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "If Social Security\u2019s funding crisis is the elephant in the room, this is the mouse everyone has overlooked. You have been warned.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/if-social-securitys-funding-crisis-is-the-elephant-in-the-room-this-is-the-mouse-everyone-has-overlooked-you-have-been-warned-b95c450d?mod=mw_rss_topstories",
-   "published": "2026-07-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "We\u2019re in our 60s with $1.5 million. Would a trust be more effective than a will to prevent conflict among our heirs?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
-   "published": "2026-07-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "It\u2019s getting easier for terminally ill people to end their own lives. What to know as laws change.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/its-getting-easier-for-terminally-ill-people-to-end-their-own-lives-what-to-know-as-laws-change-4fa04c54?mod=mw_rss_topstories",
-   "published": "2026-07-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "US mega-cap / AI capex",
    "holdings": [
     "IVV",
@@ -279,33 +307,6 @@
    "title": "Meta, Microsoft, and the AI Capex Divide - Barron's",
    "source": "Barron's",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95VFJxRm1GSE82NUhwWl9Gc3c4Y1Z0ZmlNU3h0VmNVSkdhRlkxUHF6UGZvLU91b08zTFIzYXdSazhnTFVKM2xlVzFjMlFUdDVvdkllM19Ickw2eTRpMjlrVWJza0t5YnlzbzN0c2hTRTlnd2xrQ3dNakduQQ?oc=5",
-   "published": "2026-07-30",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "The Hyperscaler Prisoner\u2019s Dilemma: Why I Keep Buying Nvidia - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOS3dmQUp5clFYaUxGZk9iUGlnYjVUUFJUUzFyZDRuWHNMelFZNjFYTXRDcXp3a3hzblRiV19xczFoR281VlhxYVdoM21INlZ5dTVTM3o1UlZFR3R0WnBNVGpyWm1LaGdrbWhYZllVYm9MWUJpQ0RXR216TC1hMXoxX1YtYVVkSW05Y3M2czNaY0VoRjNROXBQa3Bpak80YU0xMXFZOA?oc=5",
-   "published": "2026-07-30",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Gold",
-   "holdings": [
-    "QAU"
-   ],
-   "title": "Gold Price Today: Can $4,000 Hold as Traders Await the Fed? - investingLive",
-   "source": "investingLive",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV1BXbjBQaFFUa0hnWXRLWExiZlIxR0owUFRqLU8taGFfdTNfZFgyeFdVQU1wak04WU5EU0s4VTBHZ3N3S2EzeWc2T2hsM1JZbEtjcnJMQXVrY28yaHRfZXczem0tUU9XYXp3aU85Y1Y4M2daeFk1UDRXS1E4aE5mZ0NMWWNrcVlUNFVFaVdfLVNVcE5Ma0pnVmpaaw?oc=5",
    "published": "2026-07-30",
    "trust": "C",
    "flag": "context-only"
@@ -345,9 +346,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Alphabet Captures 2026 AI Capex Alpha But Amazon Begins Surging in 2027 - 24/7 Wall St.",
-   "source": "24/7 Wall St.",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVzY0U2NhOVo3Z1d0RmxmY3A0UzZwaldLeEZ4N3AxQUQxbmRidEhHS1FNYVo4V2hTdEpvcVNfUHBWRHJTcHM0eUhYcWNKbkVMbFFwSlNkVnhNaE5xdFFfME0xU19ONnYxdzZuUk5JOHFCMlRWZHB6eTVnd1A4WmlBTGxTQTZhNzdpemNoYnc1a1RFWmNyWVRrSGhQM08xZVlQTmd2aEFhYjFlZGI1cUhOU3VPcllmQQ?oc=5",
+   "title": "Meta (META) Launches $14 Billion Texas AI Data Center Campus With BlackRock - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOW5ObVB2b3BxUUVTNFpvZHRveExFRkIzcWRKeWJXbVRNeEtuTWk1N0p0T1E0eVN0U1lBbldqaTVMQVBhQzd6S3FCYnFpX05fVVBJTUx0STFqNVJxTUFVSkxqd2xITW9vVkFIVjZMYzJGVlVvOXBlOUR2OU40VjlwRE1BZGxtclhNaVUzUmdiRF9RUXZLSzZMYQ?oc=5",
    "published": "2026-07-29",
    "trust": "C",
    "flag": "context-only"
@@ -446,25 +447,13 @@
    "flag": "context-only"
   },
   {
-   "driver": "Gold",
-   "holdings": [
-    "QAU"
-   ],
-   "title": "Gold price analysis today: Futures retreat from $4,119 as a new decision zone forms - investingLive",
-   "source": "investingLive",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQU09WQTFQZXlldW53V0gzcFJJa2FIbi0xZEpNb1VkWjRaUzBtM2dRSmVJdzRLa2o4U3ZKODRQWGYzTFk5bkg0azlib1Y0TnJFdF9HRGNSMUJHRGg0V1VDYkxJQTNJQ0dSRVRwZFNlQ2JYUDZPZTlFa1BRdlE4Y2JKa1FSRm03VmxKVktaejZvQWVQVS1IbjRKNjk5czMySE9RQ1BhTW1FUjVNcWVvY1JXNkxKWEo5cU4ya0RIeg?oc=5",
-   "published": "2026-07-27",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
     "VAS"
    ],
-   "title": "US-Iran conflict enters prolonged struggle over Strait of Hormuz - english.cctv.com",
-   "source": "english.cctv.com",
+   "title": "US-Iran conflict enters prolonged struggle over Strait of Hormuz - CCTV.com English",
+   "source": "CCTV.com English",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9yM2JncXVIbExpZzlJbzVUWXM0M2pkZU1GNjN6NzdxcjlxYVhwN2VpdnhrazFwQUU0NHNuRVR6dHBzN0ZkUTRqTDJjcTg2bFZ3QXY1aEo2N0JPblNqZmxSMVh3ZGV1TFE4cy1DbU9LRWkyeDd6V05qUHdITjE?oc=5",
    "published": "2026-07-25",
    "trust": "C",

@@ -1,228 +1,8 @@
 {
- "generated": "2026-08-09T20:28Z",
+ "generated": "2026-08-10T20:39Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 39,
+ "count": 41,
  "items": [
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Amazon\u2019s new 7.65GW Texas AI data center power plant could become the largest source of CO\u2082 pollution in the US \u2014 custom 35-turbine gas plant authorized to emit 33 million tons of annual greenhouse gases - Tom's Hardware",
-   "source": "Tom's Hardware",
-   "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOSld2RGJqLUpaN2FleGV1SnBTSll2elZoczJCdjVDekpsRjY0WmZuQk9TN2pqQjJRYTh1OTdJdVRKSnVsM2t2VGtWc2ZjS0VjUGgzVldZc0R3VWhlUzBXTHUzbi1VMk9mT2NWMV9PZVUwaXhRU3dZZWUxT1BpWnotUmZJSXJ2NE9nel9zNy1LeE1vc2IwUldaNm84Rmx5Sm1DVno3RS0wcVhOcTYxMU5PQk5UTnJDMzFMdVRNcEZpV2V5b3VuTW1sUGgxOFZlbjlmb25RZC1mN3EwSVM3WnJ6RTZ0MXR1Z2d0MDV6czFhUzg0eklqcW5Gd1Y5RHk2N1dhdi1fREpRSUNhZENJYzlDSDZLZTZzdFExR1ZISDUwMTl4NXpuQ3RRY01pYXpFXzhEcEhzbEY3THBhU3R4RTdOQjU1U3hRNUMzNERUM2ZqQTZBUHo2WklWTlE0VE9jWE9WUWJqY3BLWXhJanB3eVpYVG9n?oc=5",
-   "published": "2026-08-09",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "BlackRock takes majority ownership of Meta\u2019s massive El Paso data center. Here\u2019s what to know. - El Paso Matters",
-   "source": "El Paso Matters",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYlM2eC1DXzZJTUhhaXBpckotQl9BVGFySEVBcVdmZXBCLWxxaWFpY2U0Z284SHRvUFFpeW5wbjNfUHB5bEVQSGdUTHJJWE9ZX0xzOGdVbHN5dF9pS0s5aEhHVkhEMlpKSTBFNGhVZGlkSFFMLTBkVEdkWjZldFdKOG9RbDQxR3JZVFVkV3BSU3ExQjk2NEpIaS1tRnl4M1pjS2JIUDJ3?oc=5",
-   "published": "2026-08-09",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Should investors be targeting the semiconductor boom? - The Motley Fool Australia",
-   "source": "The Motley Fool Australia",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVDVubWlUaUg1N0JMTG9IMTJXb2M0S2w3bEgxZ010dll0eXU1M2JJcXJldGFHS1BLanhkc181NU1UQVJNTGprOGtPWXJnX1pjXzNsb1k3Szh4SjA1bUdxbzBTZ1JwRlJILTdEZmVJYkNfREgtTE1VRnlLRFV0MmxrRjFkbzNsRGpNdGFYRDdBTkpZdw?oc=5",
-   "published": "2026-08-09",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "A $10,000 Investment in Taiwan Semiconductor Today Will Be Worth This Much by 2028 - The Motley Fool",
-   "source": "The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcmJ2Q3VxaWhJb29Ua1g5ei01YUNVc1FINFVkQ0lPbThITUpqQmQ4WndMT3hneVo2bkViSTZKeXVmVEtzUlBGb2tVYkIxblBqdDFOQ2JNZk1MTFotWHpNbnE4SndjWFhKbXhDWHlSRlJRQ1k1bjR5SndCZkhMeVBXMEJVZS1Dem5lTGJrcDdqTHVidTFIVlE?oc=5",
-   "published": "2026-08-09",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "$Taiwan Semiconductor (TSM.US)$ - Moomoo",
-   "source": "Moomoo",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOXJBX08wdVc4dUdKSFlnYThjZl9uc25FSEVPY0RaTkl5MmVJUnlvWFhza3oyRTBxdUM2RmEyOGQzcHE4TVRDMzEyRW5yNlFuSzE5V2NickZZLUROM0JmMzNVblZXeXF0ZngwalM3UUtqeGdGelpKOUktOU9FaWVIUlNOSnd5a2ky?oc=5",
-   "published": "2026-08-09",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "TSMC Longtan science park discussions begin again - taipeitimes.com",
-   "source": "taipeitimes.com",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA0cVpiZXZqVmJFSGt2aFJBeGdLUG5XdGp4eVNlVnBMTE9QRGhaT3Y0LXI1MDVja1EwenhfZU9FWjctcTlVRUxfbVRsWTVzYTFvbG41SjY5YnlSVTB6c0VEaWlNWTFJVW5VQk1FNE5wUDBGTTk2aDI4TA?oc=5",
-   "published": "2026-08-09",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Pax Silica to boost semiconductor industry - Inquirer.net",
-   "source": "Inquirer.net",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcThGY0xyY2E5OVM3UG01TDYxTHZqdU9uQlcxaFk5MTl5UjNsU1VxSDBDYjU3LTh2ZE94V3hFMmdUeXBvS2Jnb3lqQWQ3dnRaR3J2RXVfcV9qbm4zcUJOcTI0RllGZ2ZYTjZfRW9TdmRPNXoxekMyMk1ZRnZWR1g0MDJEYjFUUdIBiwFBVV95cUxOT2tfQnJPVXo5OERCeXVUT002cE0yc2JEZVFSRE1yX1NOTVF2UzF6MGN4RDJJand4ckJya3hpUkptZ21wUUR2SGdtNHk2WVRuTmg3SWpDZDVhTUU4T0R2Y3Qxdnd1dDRvM0NkY3FqOFpwZVhiWEhWXzZkM0dXN2Z3U2ZmdW9ta21WNmZV?oc=5",
-   "published": "2026-08-09",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Is Clarity's delay a blessing in disguise?: State of Crypto",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/08/09/is-clarity-s-delay-a-blessing-in-disguise-state-of-crypto",
-   "published": "2026-08-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Hyperliquid\u2019s RWA perps boom is eating into the revenue that backs HYPE",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/09/hyperliquid-s-rwa-perps-boom-is-eating-into-the-revenue-that-backs-hype",
-   "published": "2026-08-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitcoin investors pour $853 million into spot ETFs. BlackRock\u2019s IBIT claims the bulk",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/08/09/bitcoin-investors-pour-usd853-million-into-spot-etfs-blackrock-s-ibit-claims-the-bulk",
-   "published": "2026-08-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Crypto is going through a massive dot-com style shakeout as over 100 projects fold in 2026",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/09/crypto-is-going-through-a-massive-dot-com-style-shakeout-as-over-100-projects-fold-in-2026",
-   "published": "2026-08-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Controversial Bitcoin fork BIP-110 mines two blocks, then stops",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/08/09/controversial-bitcoin-fork-bip-110-mines-two-blocks-then-stops",
-   "published": "2026-08-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/the-number-of-stocks-beating-the-s-p-500-is-the-highest-in-4-years-why-that-number-should-rise-b9bd05b3?mod=mw_rss_topstories",
-   "published": "2026-08-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018My wife and I are both retired\u2019: Do we dip into our $2.3 million fund to pay off our $300,000 mortgage at 2.9%?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-wife-and-i-are-both-retired-do-we-dip-into-our-2-3-million-fund-to-pay-off-our-300-000-mortgage-at-2-9-2d23d1df?mod=mw_rss_topstories",
-   "published": "2026-08-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "S&P 500 sales growth is at a nearly 5-year high. Here\u2019s what\u2019s behind the surge.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/s-p-500-sales-growth-is-at-a-nearly-5-year-high-heres-whats-behind-the-surge-a4ccf06d?mod=mw_rss_topstories",
-   "published": "2026-08-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018I don\u2019t wish to be cold-hearted\u2019: My elderly relative can no longer care for himself. Am I wrong to leave his care to the state?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
-   "published": "2026-08-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018This has been an emotionally difficult time\u2019: My brother has cancer and my father is 94. How do I shoulder this responsibility?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/this-has-been-an-emotionally-difficult-time-my-brother-has-cancer-and-my-father-is-94-how-do-i-shoulder-this-responsibility-9da09dc4?mod=mw_rss_topstories",
-   "published": "2026-08-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
   {
    "driver": "US mega-cap / AI capex",
    "holdings": [
@@ -234,21 +14,319 @@
    "title": "New Amazon Data Center Stokes Worry It Would Be the Most Polluting Power Plant in the U.S. - The New York Times",
    "source": "The New York Times",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcTZPMTAxS3FINHdEcmlIV3pqSWpUOVI0MUFJMFRlZ0MxeDJyc19aekRLMFA1ZF9RaU00TXZxWGFxSTBGbEhyekxneHZ3QTFfMXVJZFBRZWlLYlNmamROS1ktTUZVOVJHZElkUkVWYWtpUFRxbDcwenFBQkFMdGc2aFBLb3JOejRGMGc?oc=5",
-   "published": "2026-08-08",
+   "published": "2026-08-10",
    "trust": "C",
    "flag": "context-only"
   },
   {
-   "driver": "China + iron ore",
+   "driver": "US mega-cap / AI capex",
    "holdings": [
-    "VAS",
-    "VHY"
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
    ],
-   "title": "Iron Ore CFR China (Platts) Overview - CME Group",
-   "source": "CME Group",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTR5VVR4cVVRZlR2bWFQNUFJcjFfak9tNG1wOTdWelNkNWcwQWw2V2g4WUdvVHJWdDZIRE9lRXp3YnNSaHRhSWRmWlhPNkRkZldTT0tVRUlHdk5UeGZ3MExWTWs0NWt4VWhDT0l4TUJLaXNvcm9NM0JLWi1RMGlHVFVVNnZ2VW1uTlJudG1NRURmY19sS0hWNWdvUmR0UQ?oc=5",
-   "published": "2026-08-08",
+   "title": "Amazon Used a Startlingly Dirty Trick to Build a Data Center Without Consent of Community - Futurism",
+   "source": "Futurism",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPck9td0FTTl9oTWJGUVBhZ1MzSnhoZ2NOVDVpV3M4Y0RUMTVYeDVBWF8tV1pVTjczdTRFdk1Qd2szZ09fQ0o2Y1liVTI5QmI1TWktOEJjY05PQVlGdlBQZUVKZlIweDRVYVBuRUxRVzB4Q0tObGtHQW5rX0Q0LXlIZmR1UUUyQmgw?oc=5",
+   "published": "2026-08-10",
    "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Amazon's new Texas AI data center will include massive amounts of air pollution - Mashable",
+   "source": "Mashable",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SWWs5YzBBS3Ffd2JTTU1Rd2tyZnR4VFQ5RDVKd2xJbjlMNDBWQXRqT1lfNTlCMzVDbzdES0ltYmFkTlI2Q3dUdFRkbHpsQlFYYTB1QjV2a0RrRUM3ejB5eUd0ZEZOZUdOLUxEMw?oc=5",
+   "published": "2026-08-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta Hides Data Center Info As it Pushes More Risks to Entergy\u2019s Customers - blog.ucs.org",
+   "source": "blog.ucs.org",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWENJcVg5UmdFS1lscnpfb3JqWVBJQ0pLaEZPRTBzQ0g3LTJkTjh3REJTci00UDFEUTFNWW5ZaXV2V3NmSi11X3ZLc1huMEs1SmdaeU9DZDFLc3hnYTdrRHlNQXNBTXlnd2hGTTRCcHBVUWdsTlgyRXdIREFfM1VpaTcyNWRLYnVSQmVESjZyU1ZnU3lXelVUVWROMmlSVm9lNjh1T0VwVmVBXzQ?oc=5",
+   "published": "2026-08-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "FILE \u2013 Data center controversy is hot topic at Texas Capitol - FOX 7 Austin",
+   "source": "FOX 7 Austin",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tLWh1bHl1c3BUaEU5RVlaT3hpSlpiRndKZ2ZXNE4wU2VJS3IzU3lWUGpkTzdudUZTbzJER19RY1o2YjRyc2N4QzJvNVp5RWwxMUh1WndfcmF5TXBFQ1ZlbjNUWUdncUVLelhlS21uVzhMdWxVdXdmVTYxLTNsZ9IBgwFBVV95cUxOS0N3dE9RcVQ5ak14RUUwcXoxY0dxYlYyZlJfQWxUbHBvb0VfaVBNUklncF9ud1J2cXRxTUtqWTRkSUt0bU54UW9NNHRZZjFSNjBDZGszTlNpYnV5WFdTalF0czhyQWZXQVVqVkowRVpheHpjQVdIR3NJODBZM25kNVdfNA?oc=5",
+   "published": "2026-08-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand - CNBC",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oWGx0TFRvc0JiTHhDMHpIZ25ZM0c3QURGMGIwdEl5UWgtRUtIdFd3UW5taUFGNnFMQ2E2ZG12eVE2cGdYNWh4NF9YaDVBWDNDWTVwM1ltUjJKMUUwZXc0U0Q2TU9iVkh5SEF2QnBDZmlleHptdzJHdzRvTmvSAYIBQVVfeXFMT2dPYmpkcHVyekVEY2V1c09ZbWxWekFkMFpFUk5nN213VDNXWWpTQVphRmZIbFpjZEFId1RfSDQzdjBCdFF1MzhWdlZWZ0tiRWlhYm15dUkwRTBobERlWVNaSHRoSHU1SF8yWXdYeFpiWnBTanhwNjdORE8tNzhJc2VKZw?oc=5",
+   "published": "2026-08-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "TSMC, Sony to invest in sensor plant - Taipei Times",
+   "source": "Taipei Times",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WNndsSFYxYXRkOWFiR2VLcW9LY3Y2Ulg4Q1pIUGFWdE1iUVkyT0RnNjFLMVJVOTVDVE9scVk1bDFKeVRPTVE0Vm5nT2dIMmgzcWp6RFRFLXk5dF9MVHRZbVBHWTlIaVMtVzhDQmhwWXM0Y0R4cmc?oc=5",
+   "published": "2026-08-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Why Taiwan Semiconductor (TSM) Could Be a Top AI Infrastructure Winner - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYU1acEhQZnNmMHg3V2xUUHVJVUEwLUpnTHpna0xRRmRnWGtUX2xQQWxvUUVkdFZPVnhEalhuZW1XNDdTdjVBbFMxVkItd2pUM18wVXZ4bXZuYWN0UE1fSmhsZS1qSjRxTU03TXB2YjBRQjZrb2ZJa2hkbkxsRVM5UmZPdVJuc2JnajVNR05YQmhBdzR2TmZWYTFOR0VxUTg?oc=5",
+   "published": "2026-08-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Africa's global semiconductor supply chain opportunities - The World Economic Forum",
+   "source": "The World Economic Forum",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa3B3QUI2NkVweFZSSy1SUThxZlFqLWN1cDNYckhwbmdsLXhUOXdaQ2JuVDFiYjFxSmV3NVVLbTNwcHJmazFhNTdyTlFlS244YTEzMVN6NXZZQmpyR0xkcE1CQW1HbjViYXlGTVY5OUtIVjJaQ0ZQbkpCZ2pxdkVIZmRMV3FfXzREaWI0eV9uZ2xxZ29heU1yNXdHRGlKSndXYjc1dWlCY0ZUVGZLLWJlR0F6dTc3V2haclpUSA?oc=5",
+   "published": "2026-08-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Taiwan condemns China\u2019s shipping controls over Taiwan Strait amid Typhoon Dolphin - Lloyd's List",
+   "source": "Lloyd's List",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdEE2blB1c3d2T2FzUFRTTXhzMlM5U01WYzRXaVZKVlpKSXBGZW1nVjJ6UTRvQ0E2MkUzaUtuSHd5SjRsaFhLOW9yV0tnUVBkWEt1U2xoeTdySkhQMmloU0J6Z0lBeFRHSHhyc2JfN0hzRE9pcVhfTjZGM2E3WjNKMzV0TXRVZFBUYzRxQmtuUEpkQTBwWTRfRTZDX1NMbEl2aGlRZmJNYTJKWkh4Y1FjZUNER1g3QVNnbDdLdXJjckNja25B?oc=5",
+   "published": "2026-08-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "Duration of power outages in Puerto Rico not caused by major events increased 19% in 2025",
+   "source": "EIA Today in Energy",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=67926",
+   "published": "2026-08-10",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitwise's Rasmussen: Circle is mispriced as stablecoins head toward trillions",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/coindesk-news/2026/08/10/bitwise-s-rasmussen-circle-is-mispriced-as-stablecoins-head-toward-trillions",
+   "published": "2026-08-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Strategy builds $4.75 billion cash cushion as only bitcoin isn\u2019t enough for investors",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/coindesk-news/2026/08/10/strategy-builds-usd4-75-billion-cash-cushion-as-only-bitcoin-isn-t-enough-for-investors",
+   "published": "2026-08-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Grayscale quietly drops Cardano, Polkadot and Hedera ETF plans",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/10/grayscale-quietly-drops-cardano-polkadot-and-hedera-etf-plans",
+   "published": "2026-08-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Solana lending giant Jupiter now lets the same dollar earn twice",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/08/10/solana-lending-giant-jupiter-now-lets-the-same-dollar-earn-twice",
+   "published": "2026-08-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitmine\u2019s ETH buying slows as Tom Lee's firm shifts capital to share buybacks",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/10/bitmine-s-eth-buying-slows-as-tom-lee-s-firm-shifts-capital-to-share-buybacks",
+   "published": "2026-08-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Multinational Top-up Tax and Domestic Top-up Tax",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/multinational-top-up-tax-and-domestic-top-up-tax",
+   "published": "2026-08-10",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: Appendix 21: Import Declaration Category Data Sets",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/appendix-21-import-declaration-category-data-sets",
+   "published": "2026-08-10",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: Community and Amateur Sports Club newsletter 4 \u2014 August 2026",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/community-and-amateur-sports-club-newsletter-4-august-2026",
+   "published": "2026-08-10",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Apply for a refund of Class 1 National Insurance contributions",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/apply-for-refund-of-class-1-national-insurance-contributions",
+   "published": "2026-08-10",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Workers are worried, but there\u2019s no sign AI is muscling people out of their jobs on a massive scale",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/workers-are-worried-but-theres-no-sign-ai-is-muscling-people-out-of-their-jobs-on-a-massive-scale-8eb92638?mod=mw_rss_topstories",
+   "published": "2026-08-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "EBay may dodge a GameStop takeover \u2014 but there\u2019s a new twist in the Ryan Cohen saga",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/ebay-may-dodge-a-gamestop-takeover-but-theres-a-new-twist-in-the-ryan-cohen-saga-d779b753?mod=mw_rss_topstories",
+   "published": "2026-08-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/should-wealthier-americans-forgo-their-social-security-benefits-as-a-charitable-gesture-2c7b6801?mod=mw_rss_topstories",
+   "published": "2026-08-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Good news for stock-market bulls: Corporate earnings growth is no longer being driven just by tech",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/good-news-for-stock-market-bulls-corporate-earnings-growth-is-no-longer-being-driven-just-by-tech-ddac973b?mod=mw_rss_topstories",
+   "published": "2026-08-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "This Nvidia change could spell good news for Micron",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/this-nvidia-change-could-spell-good-news-for-micron-80449e59?mod=mw_rss_topstories",
+   "published": "2026-08-10",
+   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -267,31 +345,14 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
+   "driver": "China + iron ore",
    "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
+    "VAS",
+    "VHY"
    ],
-   "title": "Scoop: Amazon Is Behind One of the Largest Planned Gas Power Plants in the US - Distilled | Michael Thomas",
-   "source": "Distilled | Michael Thomas",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xWnVPSFRnenJKU1R3VU1CRGZJc0hDUUJ4cm8yMDhkbVN5Ql91NWNINGJCVk9zMFR5MVJUQUpQZU5FT1NkeFM4bkFNR0FzRmdGNWZvbS1hdUlqRmF3TGlZTlZsUmVnXzE1OUVQNl90Tkk?oc=5",
-   "published": "2026-08-07",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta executive offers data center insights - Social Media Today",
-   "source": "Social Media Today",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTENHT1F0eUl1c2t0LTBLZjlOR0lpdWVkSTF2RnVJVzB4SmxLemtJX0tXdHNtS0JDWXpDMTFKX2ttRy1QWUh5bjZwd3pnUGY0eWhFZFRFUHVZQXBOOGdCN1RGQnFpa2QtNnc4Y1ZBRjBhaloxQkRZU2FsYTREUWl6WFRxWkpvM1BhWU53YmEwSFo2dw?oc=5",
+   "title": "Iron Ore CFR China (Platts) Overview - CME Group",
+   "source": "CME Group",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTR5VVR4cVVRZlR2bWFQNUFJcjFfak9tNG1wOTdWelNkNWcwQWw2V2g4WUdvVHJWdDZIRE9lRXp3YnNSaHRhSWRmWlhPNkRkZldTT0tVRUlHdk5UeGZ3MExWTWs0NWt4VWhDT0l4TUJLaXNvcm9NM0JLWi1RMGlHVFVVNnZ2VW1uTlJudG1NRURmY19sS0hWNWdvUmR0UQ?oc=5",
    "published": "2026-08-07",
    "trust": "C",
    "flag": "context-only"
@@ -335,54 +396,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Import Control System 2: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/import-control-system-2-service-availability-and-issues",
-   "published": "2026-08-07",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Corporate Intangibles Research and Development Manual",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/corporate-intangibles-research-and-development-manual",
-   "published": "2026-08-07",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Official Statistics: Schedule of updates and announcements for HMRC's statistics",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/statistics/schedule-of-updates-and-announcements-for-hmrcs-statistics",
-   "published": "2026-08-07",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Transparency data: HMRC major projects: appointment letters for Senior Responsible Owners",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/hmrc-major-projects-appointment-letters-for-senior-responsible-owners",
-   "published": "2026-08-07",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -420,6 +433,30 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=",
    "published": "2026-08-05",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "AU tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Australia Crypto Tax Guide: Capital Gains Tax, Staking and DeFi Explained - CryptoRank",
+   "source": "CryptoRank",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMkkyMXdlUUpVMUpHV3hSb2g2bVI2SDdiZmVMYnd2RWhaTF9PMkNmMG5OSFh6QmoyTUpWYmhuRjEzamxUem9qZEVUSHd0QXNMUkFpNjFtUmdzMThYVmVUR0dHTEwySE8tRDNHU2lYZEJJUFB3MjJ6dnZGamJ6OXFiVEVZSnk4aUFKNkpVMzdGdXI2dnl1Ql9SX3VZalhDQnRnYWwxZkYtTVg3cGNKQ1E?oc=5",
+   "published": "2026-08-04",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "AU tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Australia Crypto Tax Guide: Capital Gains Tax, Staking and DeFi Explained - coinedition.com",
+   "source": "coinedition.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMnhZSzhjazFtRTZCLXBWUDVuQTV4Uzc1T20wVVE1aEE4Z2RWQ0ZPc2Y0Z1pwNmNHd1dIdDhSeGItRkZFTHFoSDZneVoxVlFRYUxfR0I0aDEwUEprZjNyc1k3aE1VeWtWYXdVV3QtSXh0SHVwT0J3N1UzOWs3Zm9abmZ1QzRiZjNJNzJmTkFhdFgzNFJLOTYzSGV5RUg?oc=5",
+   "published": "2026-08-04",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -471,19 +508,6 @@
    "title": "Federal Reserve issues FOMC statement",
    "source": "Fed monetary",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-   "published": "2026-07-29",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "Lower crude oil prices reduced U.S.-Canada energy trade value in 2025",
-   "source": "EIA Today in Energy",
-   "url": "https://www.eia.gov/todayinenergy/detail.php?id=67904",
    "published": "2026-07-29",
    "trust": "A",
    "flag": "context-only"

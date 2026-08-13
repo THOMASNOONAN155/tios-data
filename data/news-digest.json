@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-12T20:40Z",
+ "generated": "2026-08-13T20:39Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 39,
+ "count": 37,
  "items": [
   {
    "driver": "US rates / Fed",
@@ -14,8 +14,287 @@
    "title": "Major Economic Indicators Latest Numbers",
    "source": "BLS",
    "url": "https://www.bls.gov/bls/",
-   "published": "2026-08-12",
+   "published": "2026-08-13",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "IREN Jumps 10% as Microsoft Accepts First AI Data Center Under $9.7 Billion Deal IREN Stock Jumps As Micr - Benzinga",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN2E0U0pod2tCcDc5aEgtdnBpWkNWc0hlNGdMdFdKdkdEQWxYNVoxX2xOalhraHRjSEJWY2Jmekd5cEZ0NmhOOTdRSGpENkJuU1hrWXc1Y2JIeXVXY19XcEJXRUZLY1JtY0RQX0hndnJvV2tpdXViZVNwdTctNGFRY3JyY1owdF8tZVppbkV5YjlnOVFiT09XNDg5UmpzNnlTQ0lhVXRGYU1NWFY2enVxejN2NA?oc=5",
+   "published": "2026-08-13",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta can keep its data center details private, PSC decides - Louisiana Illuminator",
+   "source": "Louisiana Illuminator",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBEUFBOMmJMZVMwU2dESjRhcHBsOGhLd2t3c21iODNQYWhwMFp3RTJkMURfQWx3UUZNLVV1ckxKcmNaZ3BhTnJfbFkxaGpuMm8zTVRSYmZOQmp5Q1FyMTJlaGhNWTZMUjE2a25PQ2pKZw?oc=5",
+   "published": "2026-08-13",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "IREN Delivers Horizon 1 Data Center Facility to Microsoft - marketscreener.com",
+   "source": "marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcENjVFZYc0U2UWpqcjJtNnJ3MmR3U29kVTBRUjYzMXpDTnExOGtpSENFLW1xa2ViWFpINGEwdkZ1SGZVSkdNVDNVUU1ramltTzlkOFhpYV9qWF9HRllzTVlzUHpmRzZEMUw1TTJaVDNQMmZnRWJRZVpRM2tUVk0zSmpzeThvRVN2S3lFcG93U2tPNWRXVkFpZ0kyWVdZMlhBVVJIUzc0bGVuV2tjMmJB?oc=5",
+   "published": "2026-08-13",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Tesla semiconductor factory to be world\u2019s biggest building - Global Construction Review",
+   "source": "Global Construction Review",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU0FhUmZrTmtua1pEYkRnVmk1OEVZUzdIVTNmNzFlVDh5THB4eDI4UlpsaEtuV0ZiTjdfWlNaQlZzemFmYVhhbDZNZG9WaldzbHZ3TXhETHNrWXlNa2JrTFdpZkJ3ME9fMWcxanlONmdQMkM0ZFdrTU9PdEpoaG4zNmpvdHc5TnU4MTNOMHY0VUg5VXBKR3QzTjFGczg2Njlx?oc=5",
+   "published": "2026-08-13",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Skytech eyes high demand on AI boom - taipeitimes.com",
+   "source": "taipeitimes.com",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRcDRIMEJhWG5PUkZfQWszdHROR1N5d2RJRlhXOUpDZEdsWGd5cExHaHVhZE9LRUVQVkgwUzVmVGVUWjdJR2xRUGtycU5DYmd5dklpZ1ZjVGdFUjNtR3BnbW1QZmlwbjZhN1N4TzN2b3l3aHpMVGc?oc=5",
+   "published": "2026-08-13",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "$Taiwan Semiconductor (TSM.US)$ TSMC TO THE MOON - Moomoo",
+   "source": "Moomoo",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2lMcV9IbUJEZ3V6Q0NFWl9XNmc0NjJoZjdhX3djdEI3bnVOMlNzZGl3ZTRtci1BQ2FlRUtBbFRnUlRYNE85N09IaS1DQjZPdTRkUng0cXlhRm9pVjRhTmdUeU1HVEpUclkxajJPTnBTcDBmQ1N2M213WGRPQnNjWjk2dlNUdnlsem9Bcm05MXotYllTSjdGeW44WV9zM00?oc=5",
+   "published": "2026-08-13",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Tether says it completed long-promised 'Big Four' audit of finances behind $180 billion USDT stablecoin",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/13/tether-says-it-completed-long-promised-big-four-audit-of-finances-behind-usd180-billion-usdt-stablecoin",
+   "published": "2026-08-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Forecasts for $1 million bitcoin price likely look too ambitious, key ratio suggests",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/08/13/forecasts-for-usd1-million-bitcoin-price-likely-look-too-ambitious-key-ratio-suggests",
+   "published": "2026-08-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Trezor warns 14,000 customers after fulfilment partner suffers data breach",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/08/13/trezor-warns-14-000-users-after-fulfilment-partner-suffers-data-breach",
+   "published": "2026-08-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Crypto for Advisors: The crypto advice gap",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-for-advisors-the-crypto-advice-gap",
+   "published": "2026-08-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "B2C2 taps Schroders veteran to chase Asia\u2019s growing crypto wealth",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/13/b2c2-taps-schroders-veteran-to-chase-asia-s-growing-crypto-wealth",
+   "published": "2026-08-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Health professionals and pharmaceutical products (VAT Notice 701/57)",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/health-professionals-pharmaceutical-products-and-vat-notice-70157",
+   "published": "2026-08-13",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: HMRC Trusts and Estates newsletters",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/hm-revenue-and-customs-trusts-and-estates-newsletters",
+   "published": "2026-08-13",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Using an intermediary to register and act on your behalf for the VAT Import One Stop Shop scheme",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/using-an-intermediary-to-register-and-act-on-your-behalf-for-the-vat-import-one-stop-shop-scheme",
+   "published": "2026-08-13",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Check your tax filing and payment deadlines",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/check-your-tax-filing-and-payment-deadlines",
+   "published": "2026-08-13",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Apply for a voluntary clearance amendment (underpayment)",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/apply-for-a-voluntary-clearance-amendment-underpayment-c2001",
+   "published": "2026-08-13",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Cash remains most widely accepted payment method in euro area",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260813~389729d6a9.en.html",
+   "published": "2026-08-13",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "SpaceX set an IPO record. Now there\u2019s hope that Anthropic could shatter it.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/spacex-set-an-ipo-record-now-theres-hope-that-anthropic-could-shatter-it-ea44b12a?mod=mw_rss_topstories",
+   "published": "2026-08-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "The average car loan is now $785 a month \u2014 and lasts for almost 6 years",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/the-average-car-loan-is-now-785-a-month-and-lasts-for-almost-6-years-a950c80c?mod=mw_rss_topstories",
+   "published": "2026-08-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Sandisk\u2019s stock is flying higher. Here are the new targets that are exciting Wall Street.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/sandisks-stock-is-flying-higher-here-are-the-new-targets-that-are-exciting-wall-street-4eaab99d?mod=mw_rss_topstories",
+   "published": "2026-08-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Rich Americans are propping up the travel economy as airfares soar 25% from a year ago",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/rich-americans-are-propping-up-the-travel-economy-as-airfares-soar-25-higher-than-last-year-c76067a5?mod=mw_rss_topstories",
+   "published": "2026-08-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018My husband and I are at odds\u2019: Should we tap our home equity or sell stocks to build a $100,000 emergency fund?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-husband-and-i-are-at-odds-should-we-tap-our-home-equity-or-sell-stocks-to-build-a-100-000-emergency-fund-097d36a4?mod=mw_rss_topstories",
+   "published": "2026-08-13",
+   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -34,92 +313,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Amazon open house draws debate over Walla Walla County data center - Nonstop Local News",
-   "source": "Nonstop Local News",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPd3Y4c3ZDRWFHNkpGMjFPbVE5Vms1RDg4OGZTR0xwZ0xWakdoR093UWtNclVMUHB0ZjZ5dVhuZlF4M1BSUXJWOFRndk82c3BBQjh4dk1ycHZ5WENQN2kybWRIQ21NWUFEUnc0cGd1b1FFQkkwODRpUHpiWjhrcmlCNE1wWXcyOXo0QlNMT3NpRE90ci1OOGJHdHRhQm5vVTVOX3RVWHUtYk9seWstZ1hPejA2UF9yRHdFVW9WMmlEaVNNTG4tUU5EelRsLURRS045b0szaTFIbFMzakltc3VQS1dBMA?oc=5",
-   "published": "2026-08-12",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "The Single Largest Pollution Source In The USA Going To Be An Amazon AI Data Center - CleanTechnica",
-   "source": "CleanTechnica",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSjN3YU5RZVlmNWF2NUVqc1BXbldOV05Jc3lhZEp4YmtrQlhKdFVRTmdzY2NyT0Q2T0toUjl5TnNuV1BPbzJFQ2dJaUo4Nkt5OTFjRmlpalBZdVNBZldLOGNKRmRpb0o5eGhQeUdsWndFOWlJZzhfMUZzN1cwWUFMVGRqdnhmcGE5SU1vRlYzZGRRSzVtUlR5NUV6cGZSRzVlelkya0RZZ1B4U3JWZ0E0LVZ6YXRVaWlEdDhuTERn?oc=5",
-   "published": "2026-08-12",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Weebit Nano (ASX:WBT) Semiconductor IP Story Gains Attention as Licensing Momentum Builds - Kalkine",
-   "source": "Kalkine",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamJwdnAzTHNXUHhqakNlSWZNZi10RndadGQzODU4ZVZQZ2dyUFQyN3F2T2lJNU91TVFQMld2WVd4RndnM2kweUpBTnpuN1lBTDVidEc0SVdPclNNbG8yMEJ3czB6VTlDeXNJWnFPV2M3VFF6RFBVd2MwLWNMRk9wT0hLOWw3aUlwU3pKam9HWGZzcmoxNHc1YlZJT0xHdENWT01MdkR1NHhHRkpJUk52WUVtSkJrSVNZRUZwUUV0dGthcnM?oc=5",
-   "published": "2026-08-12",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Why Is Taiwan Semiconductor Manufacturing (TSM) Raising Spending After 45% July Growth? - simplywall.st",
-   "source": "simplywall.st",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVVg4NHNFc0IzdWR2UjltN2lyMEhBS3hjZW5zQzlrY2RHN3ZTbWxVTWNqSjBoeEt4cy02VnhIaTYxaUcybnIxVTdTQkREaVhaMktWcjMwYjEwczR4TFp3QW1aVlY2cGNmMFhxM00xcVA5UUVmNW9JTDBnb3psOVR4VU1nRDZjbV9QZFQ2d3dseERhSVBhTTU4SEk0cFdEM19WTF83NU5PbmtLdnpKNHVjR2xCVzZPS0IwLVFaeEhPMXY2WlZGdEt5SU5hM29NMFJmMk8tR2lwTFFXNEZVSDBSNGdHYU93S1RTMFNMddIB8gFBVV95cUxOb1pXNzhaY0RIeURvWWpicV9oTlluWWFJR19VeTNSWnFkdWxINkhnZ2c0RG1IWDlCc0phamlrU1hxakFJTnlXaUdTNEZaTExRUmVKWjZsRGVmYlJMTVo5b085UzRQNnhvVXFxb0VaMmdkb3pWTlhubjFjZTNmWDNvNUxRZlQ1dmliTmhkMjE2emJrYzdOdk5vcC1XQ0l1blFSUEcyTmlxdzEwZ2xxbkNvdkk0QkNtdFJZaDREd29NNFV4RFJwaHEtZHdVYlVpNUJNRUlrZm14NlRrRE5aUDJIV1FlODUwdjlRVUYxdjN0MDZ5dw?oc=5",
-   "published": "2026-08-12",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Jenoptik raises 2026 outlook on strong semiconductor equipment demand By Investing.com - Investing.com Australia",
-   "source": "Investing.com Australia",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdW93Umk1UTQxWTlHYTZnRWdvajI5RWlnRndEM3lMa213MjlRZ0hLWlhhUk9ObjljRV9RdVBLb1RMOFd2N0FxRE5MX1VuM0dpYnRYMURQTi1uM1hhSXAzSWh5Z1NocDRySWhLa2pHRFZXWEFBSXFaYzlaUUt0M1FLbEk2U0JmWHJmUVRpQk9zTktRMFZiYTd3TXFjbFlXb0VnaXhEUUVjY1AySVdHaVdpZ3N4TGZzMzQ?oc=5",
-   "published": "2026-08-12",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Sony Semiconductor and TSMC Establishing Joint Venture | Business | Aug 2026 - Photonics Spectra",
-   "source": "Photonics Spectra",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTWYxZFk0Z2tDQzhoTEJSN3kwd084anM5NFVpSXIyU3NnU1Q5TlJ5WnFRYzlBTHNCT2VQNklTdnNDMFMzb01UaWZFbkt5RGFzdXQyU1VoYlVGdmVPUFdwcHpUWWk1YzZRY3ZtSVdBMEd2d0FqRmM3ZFRpTEpVbW1wQTZkUHlFRWlLYXYtR1R6NnJLYnQzM1E?oc=5",
-   "published": "2026-08-12",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -133,209 +326,15 @@
    "flag": "context-only"
   },
   {
-   "driver": "Crypto",
+   "driver": "Semis / Taiwan",
    "holdings": [
-    "CRYP"
+    "ASIA",
+    "EMKT",
+    "NDQ"
    ],
-   "title": "Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/12/goldman-sachs-leaps-into-bitcoin-income-etfs-with-usd2-25-billion-neos-buyout",
-   "published": "2026-08-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Wintermute plans $1 billion AI push beyond crypto: Bloomberg",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/12/wintermute-plans-usd1-billion-ai-push-beyond-crypto-bloomberg",
-   "published": "2026-08-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Kalshi taps DoubleZero for Wall Street-style high-speed data feed",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/12/solana-platform-taps-prediction-market-kalshi-for-wall-street-style-high-speed-data-feed",
-   "published": "2026-08-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Miden bets on privacy stablecoins with introduction of USDCx",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/08/12/miden-bets-on-privacy-stablecoins-with-introduction-of-usdcx",
-   "published": "2026-08-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Crypto Long & Short: When capital can't move fast enough, markets pay the price",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-long-and-short",
-   "published": "2026-08-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Self Assessment Manual",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-manual",
-   "published": "2026-08-12",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Mandatory Tax Adviser Registration",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/mandatory-tax-adviser-registration",
-   "published": "2026-08-12",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "International Manual",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/international-manual",
-   "published": "2026-08-12",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Check if a business is registered for money laundering supervision",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
-   "published": "2026-08-12",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Choose the right software for Pillar 2 Top-up Taxes",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/choose-the-right-software-for-pillar-2-top-up-taxes",
-   "published": "2026-08-12",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Now China wants to become the shop floor for the Muslim world",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/now-china-wants-to-become-the-shop-floor-for-the-muslim-world-9ffd785a?mod=mw_rss_topstories",
-   "published": "2026-08-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Will Trump accounts and grandparent 529s bring down the price of college in the future?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/will-trump-accounts-and-grandparent-529s-bring-down-the-price-of-college-in-the-future-88459da7?mod=mw_rss_topstories",
-   "published": "2026-08-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Alphabet\u2019s stock slips as Nvidia\u2019s $500 billion financing deal threatens custom chips",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/alphabets-stock-slips-as-nvidias-500-billion-financing-deal-threatens-custom-chips-c4166a59?mod=mw_rss_topstories",
-   "published": "2026-08-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Chili\u2019s has hopped on the chicken-sandwich bandwagon, and it\u2019s driving big sales gains",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/chilis-has-hopped-on-the-chicken-sandwich-bandwagon-and-its-driving-big-sales-gains-cfad9549?mod=mw_rss_topstories",
-   "published": "2026-08-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018I unexpectedly came into some money\u2019: Is putting $20,000 into CDs a smart move?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
-   "published": "2026-08-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Amazon's New AI Data Center Is So Enormous That It Appears It Will Become the Largest Single Source of Pollution in the United States - Futurism",
-   "source": "Futurism",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVGFhdDJMT2Z2cW1ZZTFMQkdZcTQwbnZrLXlmNUFBRHF4Z0poTy1PTFZNZUJBaDZhUDQ2MktSUVMwdVF3aDF0UHl0TWR6Wmo5YnBzaDhrVy1nc2lnb01FS0wxLVVBd2dlNEhJX2NyTE9aR0oxdC10VzdOcUg5MlIwOUlyX215NFJ6eWxlUk44bEdvd1QzY2RfTFZOcWY2TVU?oc=5",
-   "published": "2026-08-11",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "M&M Talkin' Season: Brent Venables' first job taught life lessons - ESPN",
-   "source": "ESPN",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMUptYXV6SVd3ZGJvVGcxbDg0SmprWFBiSjZDYzNtYzd3ZjhKQ1dVdWd3aFJSNy1vbUJjLXFTVE1udjVjbDNaNEdETHVhM3hTbjB5MVlQLUFNcmVQUFJZUGpDUFdIWkNaMnRTTWk3T3JWc0VWU21JZU9TTHpjNlhUMEhZZ3c0NUlCOEVVcXV5SHlOQUwt?oc=5",
+   "title": "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors - pr.tsmc.com",
+   "source": "pr.tsmc.com",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvajd3THJ2elh1VDBrNDNGd2VLbzFVNlJEZDJsa0Q1enVtMmFTYi1ZMk1icWMzUFcwclNqOTFvank4VlFrRFAyWXI4S0ltQQ?oc=5",
    "published": "2026-08-11",
    "trust": "C",
    "flag": "context-only"
@@ -420,19 +419,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "China + iron ore",
-   "holdings": [
-    "VAS",
-    "VHY"
-   ],
-   "title": "Iron Ore CFR China (Platts) Overview - CME Group",
-   "source": "CME Group",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTR5VVR4cVVRZlR2bWFQNUFJcjFfak9tNG1wOTdWelNkNWcwQWw2V2g4WUdvVHJWdDZIRE9lRXp3YnNSaHRhSWRmWlhPNkRkZldTT0tVRUlHdk5UeGZ3MExWTWs0NWt4VWhDT0l4TUJLaXNvcm9NM0JLWi1RMGlHVFVVNnZ2VW1uTlJudG1NRURmY19sS0hWNWdvUmR0UQ?oc=5",
-   "published": "2026-08-07",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -495,18 +481,6 @@
    "source": "EIA Today in Energy",
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=67906",
    "published": "2026-08-03",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "Digital euro app to incorporate highest accessibility standards",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html",
-   "published": "2026-07-30",
    "trust": "A",
    "flag": "context-only"
   }

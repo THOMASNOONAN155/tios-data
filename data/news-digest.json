@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-15T20:19Z",
+ "generated": "2026-08-16T20:18Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 38,
+ "count": 39,
  "items": [
   {
    "driver": "US mega-cap / AI capex",
@@ -11,9 +11,201 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Nvidia in Talks to Invest $3 Billion in SB Energy as Part of OpenAI Data Center Deal - The Information",
-   "source": "The Information",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRkdfbWl5THQ1b0hjNk5zS1EyYU9iUXJQXzR1YVE3Z1dxTU9yN1JlX2wtNXZUV3gyVVBndUlzYXNnZ3A1TzJBcjZ2UklCY3Mza3hoNXcyTGl3c1ZNNVd1aTc1YUlfVDEtVzdfMDNyb296N1hGaXNqSE13YnRYaDhsOHNLM3MwWWRPU3c1blJxMFZfVUlmcWdlbU12MWxaQmxRRWppVnFpZHlCRDhk?oc=5",
+   "title": "Nvidia weighs $3 bln in SB Energy for Ohio AI data center - The Information - Investing.com",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaFVMTFg4MlRCREViSjI0Uy1Sb2ZuX3JZWDFJaWhIbF9YdFEyUlBybU9qYmY1QXh3dzNvbDhhOUJXbm1kYVlIYUxSMmpfaW52UHJYNTNlNVFDYll2Y0RqWVg0Uzd4b2RWQlppQXVvSTd6VHctYkFaWTdEUFpkTFE2VXFnS3R4S2VrbGdZc01XWmE3bm8zVlBqbXBGS0RGT0ttUjRySHZhR1NyOHZqRVhabk1OVmp1UUlJbE5IUWlxT0dpb21TZFIzRTdR?oc=5",
+   "published": "2026-08-16",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Nvidia eyes investing US$3 billion in SB Energy under OpenAI data center deal, Information says - The Standard (HK)",
+   "source": "The Standard (HK)",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUWhIcVE0SmkzX1ZBbjNNQXd5REw4Ykl1WjFjaUFfZVowOFo3MzlxU3ZyMTZaQnJQZmFFTEVGcU1Xa2dwTFhsRms5b182b0s0cFd2TnIzYldJWWpoa1lZaGNpcElaSW1JVDhNNWdPMVlHc3ZCbEVRbEE2bzViQWxRQjN6R253ZEdmWXctZ2NpTzFOZGlhUndsR01NSUhOOVl5eVdhWjNZUmJxazk4VnVhaG1XRVlhMVlPb21yMEFEb2haVWJ2YlNERHhWendfcndzaHFpWUNGRUJYMllmR2xobA?oc=5",
+   "published": "2026-08-16",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "KAIST Unveils Noise-Tuning Semiconductor Neuron - Mirage News",
+   "source": "Mirage News",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdUFJVUdiY2V3WVB1eS1PNmZHRDhsLTVXX3BnVlZSdjhZQlU0bmNncmlaanhDOTJwQXJxVzRPenVjSUxMX2xUX2ZRSFdZNm9CTUtfRzdSRVZMX05KcU5KcVhUaU5ZazZNNTUtR1lNV3pqM1lJSnptTnQ2S2hTdmhua2pLN3lLc3g1cEtZ?oc=5",
+   "published": "2026-08-16",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Taiwan groups warn of Taiwan Strait security risks due to Japan's neo-militarism - chinadailyasia.com",
+   "source": "chinadailyasia.com",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DanowX1g2VDBmczFESDZxRVBxaTc0VmRjX05jYkFXcFQ4UkRYamV1WjM2dWFXcE14Uy1SX2NqSGRNUHBVbVF4ZjBwTDB4X1EzR2kyMjhYSmI?oc=5",
+   "published": "2026-08-16",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Should You Buy Taiwan Semiconductor Stock Below $440? Here's What History Says. - theglobeandmail.com",
+   "source": "theglobeandmail.com",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOUy1ZdnFISzdMWG1iTHVnbHRzbkZRcl9zZlVLbVEwbms0V21BVm9xdGJBM01LWDVZMkw4QUNVY1dvWE1uS3RqdjdTeXVkNHZDX2R2Ul94VzVqTnpETGROc0xRLWt5T3RrOVhRYnI3TUl1QWczRUNRbzd3YXRfcFVZbDN5WXp4RTk2OEUwRG9fcTQ1N3RiMnk0NHZTTk9rb1EtbkFQTldVQ1JfZzkzZEp3V3JzRmJtcGEyYUp5Z3BEVUJJYlp1WnhFWE1MSlZkRjE0WTdKZjBrRDFYbkV5ek80SWVISjJpcHNPV2hZM3JrVVltZw?oc=5",
+   "published": "2026-08-16",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "The SEC meeting that wasn't: State of Crypto",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
+   "published": "2026-08-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Crypto investors are looking past market-cap rankings and back to fundamentals",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/16/crypto-investors-are-looking-past-market-cap-rankings-and-back-to-fundamentals",
+   "published": "2026-08-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info",
+   "published": "2026-08-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "MiCA's cleanup is creating a new scam wave across the European Union",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/14/mica-s-cleanup-is-creating-a-new-scam-wave-across-the-european-union",
+   "published": "2026-08-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
+   "published": "2026-08-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Can I claim 50% of my husband\u2019s Social Security now \u2014 and switch to my higher benefit at 70?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/can-i-claim-50-of-my-husbands-social-security-now-and-switch-to-my-higher-benefit-at-70-5518700b?mod=mw_rss_topstories",
+   "published": "2026-08-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My friend\u2019s mother died. Can she stop Medicaid from taking the family home?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/shes-desperate-my-friends-mother-died-can-she-stop-medicaid-from-taking-the-family-home-394fb6e9?mod=mw_rss_topstories",
+   "published": "2026-08-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018It\u2019s a double-edged sword\u2019: My husband got a $42,000 bonus. Will it wipe out our Affordable Care Act subsidy?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
+   "published": "2026-08-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "I\u2019m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
+   "published": "2026-08-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Here\u2019s the real reason oil prices aren\u2019t moving higher",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/heres-the-real-reason-oil-prices-arent-moving-higher-256afdbc?mod=mw_rss_topstories",
+   "published": "2026-08-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Nvidia scales back funding guarantee for Ohio OpenAI data center, WSJ reports - Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWjY4Y0RmbnNIZU5fWV83TGxRb0M1T0hva0dCRUtWQzcxclJ5TW02NExHQzREZmwwenZIQjh5eU01YjYycGMxNUg5MlJuZVh5RGQyM0M1MHB1Znhld2x2OXFFNF93OGg3SUJMYUNsMTZjZ2VQemtkM3M0SnVDam1vSHNKVUJCWHpKbzVzLXdLWmtlZElxYW5BS0c3MU9iRk41Ty1LUzY4TWl4YVQtRElKWHNFSzg0dTA?oc=5",
    "published": "2026-08-15",
    "trust": "C",
    "flag": "context-only"
@@ -31,197 +223,6 @@
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDFTeHlja3VWbWlHVGpYWUVramQ5RGxIT21EVV9XNkRXYWlxdnlMWXl2OTJWbEZBWDhBN29Nd2RadmtSVmVEQzZvMjhxZ0JyYlhvQ3lhQVFyS3dkYXpFX0xRRk81RVVPUVFhQ1pvS3BrYkY4RWk1Qk45NnA4SVJOYUVIcC1tZw?oc=5",
    "published": "2026-08-15",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "NVIDIA Stock (NVDA) Opinions on Reduced OpenAI Data Center Guarantee - quiverquant.com",
-   "source": "quiverquant.com",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRmkySWx4NzBNeGNfTG9FdkxIS0U5STRDOHkxZlRMckcwRWNnTlljeVRiNmxlbGV0WlExVFo0NXh5VUJIM2VkSWhtUUZKNEpfclF4ZzNlcVhpRzY4eXlrRFpjNEJhVnlMNWhpV2s1SmxWcFctRGl2enlTOWhtNzR1Nm4wczJydDY2SmtpdWkyaE1ZRFhwVF9McW1BVVN1OHAzR0VYNTcxYTU?oc=5",
-   "published": "2026-08-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Nonrepeating photonic crystal may enable more tunable, reliable semiconductor lasers - Phys.org",
-   "source": "Phys.org",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMWFLbG1NaWt4ZTVxZVRtRnZhRXREYTlHUW5vOElyWXRIajBKWjNvWHlSRzVMZURJWVFfRzFSU2tFam5UNmFjUEFaYlB5b2NscTRpMDRwVGk4amNHeWt4M1EyRnA5dmMyNXVOMlp1TGVBcG9yZExwdE45SXJJTUt5SHo0aFdDZw?oc=5",
-   "published": "2026-08-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Not Nvidia. Not AMD. This Chip Stock Will Be the Biggest Winner of the Historic AI Semiconductor Boom - fool.com",
-   "source": "fool.com",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMjk5ZWRMcm1HMU84YWV6T3VOYl9INHlzX2VCRHl1Z0pCZ3ZVeGlvdGozcUdPUllfU19heExPWXVUazNNbkRrUEgyTlpOMktYcXl3MWNoampRU1htNU1RanZWbzRjS0M1dmhWeHV4c0wwcm5XZ1g5ME80R0VIMlBHVHRIRHBwSmN0ODRyYjhzLU8yZGJwdFRDQg?oc=5",
-   "published": "2026-08-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Did ON Semiconductor's (ON) Strong Q2 Beat, Guidance and Buybacks Just Redefine Its AI-Auto Story? - simplywall.st",
-   "source": "simplywall.st",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnhBS1kwSS1ZdE02bjAydjJWbjFoV2YxMFh4ZXRobDJHdVppY2VNNUlQS3FNT3h1WUFTemZUa21pRkRWUFd2N0FYRGFMbXNyMUoxaXZhNE1rcnVKOUFjaHliekVTa2F4RGIwZU9yT0ZldklLZ2NNREhCdXBCTG1ka2NkT3NVMWkyWlhwQzhaNDVmZHRzNUpGY3REN19hSkFFUmhxTm83ZEotRUVkUW5aZEhfYVBFWTg2VmRuaUlTYVV0MjdqMUxfSnJCOHRyTzhUY0VSa3RB0gHbAUFVX3lxTE9HWjFUVUtEZjh6SVJpbFBISVpJZnp1cDlpS3d5U0NuTkdTdmU0UjFPTExiZFI2SXo2ZDZoQk9iaExpRTZ0Y3RaV3pKeDRVczhEUGJITXZqMkZCcUdsZTNxeUJzSFdjYWdBNUE5QkdTRnllaWp5Vlpkd0cyZjg2YjNhbzZ0VDEybk9wb3JvZS1rdjZHU2ZPdmJFZXIyQzBFVzIyN092RWo2Zld0NTFvNF9GMWVaUlM5REtRcUJraDFYTFVhSk80S0t6SnVzRVJCY2xuZlNVeXN1M2RWMA?oc=5",
-   "published": "2026-08-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Demand for Chips Shows No Signs of Slowing. Is Taiwan Semiconductor Too Expensive Now? - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbC1hb05tbkVidVRTNVRkSmxaZGNiVG1WYjRaVjRadzZOakF2SUdCdWJDazg4YnRfVGp0TzVqbDZPbjdlWjI4XzdaemszclgtVXBKNnFPZ0tweVhtOGU5aFV2VWRGek5TREtUWW1jZFR1Z1d3NDY1NUJYX3dYaTl5UEhUblhwWGZXUXBBR1FiRXJFaEJfY2x3?oc=5",
-   "published": "2026-08-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Robot maker Unitree is going public. Hyperliquid traders see 4x upside from IPO price",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/08/15/robot-maker-unitree-is-going-public-hyperliquid-traders-see-4x-upside-from-ipo-price",
-   "published": "2026-08-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/15/swiss-mega-bank-ubs-ramps-up-its-bitcoin-exposure-with-a-massive-24-fold-surge-in-etf-call-options",
-   "published": "2026-08-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Why the world\u2019s second-largest Bitcoin mining power is shutting down rigs in its capital city",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city",
-   "published": "2026-08-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Paul Tudor Jones\u2019 investment firm increases stake in BlackRock's bitcoin ETF after year of selling",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/15/paul-tudor-jones-investment-firm-increases-blackrock-s-bitcoin-etf-stake-after-year-of-selling",
-   "published": "2026-08-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "The $11.2 billion in 2026 funding that killed crypto\u2019s permissionless era",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/15/the-usd11-2-billion-in-2026-funding-that-killed-crypto-s-permissionless-era",
-   "published": "2026-08-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "I\u2019m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
-   "published": "2026-08-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Think interest rates are high now? These charts offer a different perspective.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/think-interest-rates-are-high-now-these-charts-offers-a-different-perspective-ae5f28c6?mod=mw_rss_topstories",
-   "published": "2026-08-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Owning a home is overrated. Renting is now often a much better money move.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/owning-a-home-is-overrated-renting-is-now-often-a-much-better-money-move-711288a6?mod=mw_rss_topstories",
-   "published": "2026-08-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "An active fund holding a whopping 800 stocks is beating major indexes. Here\u2019s how.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/an-active-fund-holding-a-whopping-800-stocks-is-beating-major-indexes-heres-how-6bf73062?mod=mw_rss_topstories",
-   "published": "2026-08-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Ballet flats are so popular that even brands like Birkenstock and Crocs are cashing in on the trend",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/ballet-flats-are-so-popular-that-even-brands-like-birkenstock-and-crocs-are-cashing-in-on-the-trend-3d44997c?mod=mw_rss_topstories",
-   "published": "2026-08-15",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -366,6 +367,20 @@
    "flag": "context-only"
   },
   {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors - pr.tsmc.com",
+   "source": "pr.tsmc.com",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvajd3THJ2elh1VDBrNDNGd2VLbzFVNlJEZDJsa0Q1enVtMmFTYi1ZMk1icWMzUFcwclNqOTFvank4VlFrRFAyWXI4S0ltQQ?oc=5",
+   "published": "2026-08-11",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
    "driver": "AU tax / reg",
    "holdings": [
     "ALL (disposal gate)"
@@ -387,21 +402,6 @@
    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html",
    "published": "2026-08-11",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "New Amazon Data Center Stokes Worry It Would Be the Most Polluting Power Plant in the U.S. - The New York Times",
-   "source": "The New York Times",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcTZPMTAxS3FINHdEcmlIV3pqSWpUOVI0MUFJMFRlZ0MxeDJyc19aekRLMFA1ZF9RaU00TXZxWGFxSTBGbEhyekxneHZ3QTFfMXVJZFBRZWlLYlNmamROS1ktTUZVOVJHZElkUkVWYWtpUFRxbDcwenFBQkFMdGc2aFBLb3JOejRGMGc?oc=5",
-   "published": "2026-08-10",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -454,6 +454,19 @@
    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html",
    "published": "2026-08-07",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "The Strait of Hormuz closure: How it happened and what it led to? - CCTV.com English",
+   "source": "CCTV.com English",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80YXhNTFliaVVzOU4tY3Rla1lOcjVlYlVfay1mY3l2VTAxYmpIQ1U1WU9UT2RBWTBlaXJodXlGZTA1SF9ZWjV2WDh3c1BKRkpFU2xqaHJwU01GMUNfeWp4V1BkeXNqYTBHM1ZUY09fOHZuQWw2ZTRkZHR6a1E?oc=5",
+   "published": "2026-08-06",
+   "trust": "C",
    "flag": "context-only"
   },
   {

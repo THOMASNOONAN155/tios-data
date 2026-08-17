@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-16T20:18Z",
+ "generated": "2026-08-17T20:23Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 39,
+ "count": 41,
  "items": [
   {
    "driver": "US mega-cap / AI capex",
@@ -11,10 +11,10 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Nvidia weighs $3 bln in SB Energy for Ohio AI data center - The Information - Investing.com",
-   "source": "Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaFVMTFg4MlRCREViSjI0Uy1Sb2ZuX3JZWDFJaWhIbF9YdFEyUlBybU9qYmY1QXh3dzNvbDhhOUJXbm1kYVlIYUxSMmpfaW52UHJYNTNlNVFDYll2Y0RqWVg0Uzd4b2RWQlppQXVvSTd6VHctYkFaWTdEUFpkTFE2VXFnS3R4S2VrbGdZc01XWmE3bm8zVlBqbXBGS0RGT0ttUjRySHZhR1NyOHZqRVhabk1OVmp1UUlJbE5IUWlxT0dpb21TZFIzRTdR?oc=5",
-   "published": "2026-08-16",
+   "title": "Nvidia\u2019s Huang Says OpenAI Data Center Could Generate $600 Billion in Revenue - Barron's",
+   "source": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3dW9JWUlCUkQtOUVFZW1zSFV2X1p3Vl9HRXpTWEdSLXgzVy1KZThoLVRqYkVkd0xEenZ4encwcExhWlJrSGY4bzZFbmkzY3JBamJ0RzZJYlZvOEFCTDUxREplUlNyc1BlMFVuUGhlcHAwSXlrREE?oc=5",
+   "published": "2026-08-17",
    "trust": "C",
    "flag": "context-only"
   },
@@ -26,11 +26,302 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Nvidia eyes investing US$3 billion in SB Energy under OpenAI data center deal, Information says - The Standard (HK)",
-   "source": "The Standard (HK)",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUWhIcVE0SmkzX1ZBbjNNQXd5REw4Ykl1WjFjaUFfZVowOFo3MzlxU3ZyMTZaQnJQZmFFTEVGcU1Xa2dwTFhsRms5b182b0s0cFd2TnIzYldJWWpoa1lZaGNpcElaSW1JVDhNNWdPMVlHc3ZCbEVRbEE2bzViQWxRQjN6R253ZEdmWXctZ2NpTzFOZGlhUndsR01NSUhOOVl5eVdhWjNZUmJxazk4VnVhaG1XRVlhMVlPb21yMEFEb2haVWJ2YlNERHhWendfcndzaHFpWUNGRUJYMllmR2xobA?oc=5",
-   "published": "2026-08-16",
+   "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project - TechCrunch",
+   "source": "TechCrunch",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSjMxTnFSRWFxVlVGaUwzSDVEbkJtMVN6UWJ5VGVIeXlKZFliVGJmQzdDTjdiRnRiOEZLTGl5aFJOQU8xY05nMzNrWjNqZWplT256QlVMeVhvYnVkZ3NJWTJhM2xhdG85U1hCcWZ6LXlCY3AtRm9LYWg0Q2g5WGZLdDNKVGxqQVBraHM3NHcwZkJBMHQwWTh5RFRkTTBuOWZ0ZU1yeV9KNUwxcjB0VjZ0aW9R?oc=5",
+   "published": "2026-08-17",
    "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Nvidia to provide up to $105 billion guarantee for OpenAI's Ohio data center - Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZkxQZ0FIUUQ0X2p6bVF1NWw1eF9PQnBtRVJVbUk4eV83UkU5X0JjdmE0RnFDdkZOLVJNWWlCejVmOTdmdTFoT3FGWmhGOGVYdFdwcXNwWlAtaEVNRnFPYkZFVzhmY3ZBQ0xERGUtWFF6QWdxcVFqR2k4dkdDTkJHNURIdUJ0Rk05NE94ekVPMjYtaWNodnItODdIdGU4Qmw5bndYZ095UF9nRFc5RnRheGxtNXFCM2VWbXd5M2pCTGw?oc=5",
+   "published": "2026-08-17",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Nvidia backing $105 billion in financing for OpenAI data center in Ohio - CNBC",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONTY0SXEyaEQ3Q1pRaUhyaVdKNzBHWUJNNVdQX3V5SHRSWVdfYmYzTWJpQjhKVHd5OGRmdjFzT25reUNJX21IWFc0Z2FwY0hQcWFSRm16bURnUVVydUVuT2FDYy11TmV0T09nMDJEdVBsbTdvRWN0ckoxQ2p4b3NPRVVSd3TSAYoBQVVfeXFMUGE1ZTROeEprR2lWenlwXy12a09IbkgwRGdzQ1lTSlhzSzRUb2M2LUF1OXVwT1g5NkxMeEFxX2hleklhU0Z0Q0pZVE40eDVNT2xzRGtFQnp0U2luSVQ3bjlGMkpYNlV6UzVSRXBqUXJqV2Q2SHpkdFZIWDdSRUk1R21LbThheEN5c1VB?oc=5",
+   "published": "2026-08-17",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Alpha and Omega Semiconductor (AOSL) After Earnings And Guidance Through A Richer Valuation Lens - simplywall.st",
+   "source": "simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxONERHajNFZlRwZWppekdkYTBndHFlRkVOUWlNZlJXeHMwMzdrV1FlcGk5UC1pLXJRX0Nwbl9SeXI5TTg3TzhDNW5lWnpyYXJvdE5DM0FSdnRSZ25Lc0NaYlBxYzlYSEJxaFpfMDVWUU1sSmFIUUZ3aDhtenpXSWowckluaUVVd0xwQ3N2VlVHLTFDaTFyejZGT2xmNFMyalJxYXFhU3pDTzVwYi1pd2lEWEpsS0pMd0tXTnVzUHlzM0xaeGdWdWpmemhzV29XVlM3bmp0REtDZTdrUktqYlYwZTY3V3o2QnkyZVHSAe8BQVVfeXFMTWotWkVpRnNwOVNXYkF3WldHU1pwOTFsWmtVSGJsdlZESmliRzFOcGxicWxpSFFVdlpIWHBOVlFydG02THZfM0pnU0dORWd5UGcyajZaOEdJNjY1N1RQRFQ3OVBBbFZiNE9FbnByTDRXd2MxS2lCUEMzRUNfTFVZN3dQT3AzWkUtdEVNVUZUamhCNUNFdGdDM3JWYXpsUmc5WWJjMmxnV09hVzdUbWZ1Z1NkRFltdTlwanZodHl6ek5YZUJySm9zNFJyRHJNOU95VHhqM3A5cFJSM0Y3RUc0aVgzT0pMcmF2RTBVbWdEWTg?oc=5",
+   "published": "2026-08-17",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Should You Buy, Hold or Sell QUBT Stock Amid Semiconductor Boom? - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQejFTeXJ5SUNZS3gxRkE1aVozSnRMT3dfendzcndTdTkzTEpKNTJnT3Jaek1hby1qRkZXbk1vOXp6ZjJqdHdyLV84VTNDZVlNdlFZTWRlcWFuSGpIb3BDdDFUVjViOGxaRV9FZEpYeEtUblhsRDlTYWFoTUxlRGdQX1V5aGxaZW1UM3Y4Q282NEZjblpHUGF3LXdWYjNmX0xNcDBoc2ZxX3NpNWpvR3VWclZsWXNnNnNxaEE?oc=5",
+   "published": "2026-08-17",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Semiconductor Giants Are Busy Backing Startups This Year - Crunchbase News",
+   "source": "Crunchbase News",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWDNhVjdPUVUzV0NXZ19Gb1VXWGlLQmxDd052VEU0ZjdjRUdFaXZqRTFGWFRBMHVlbjgzTkxlSWxTd3BDdzNJSHotdmZUTm94NjY3b0Q0TjVSYXBBRjZaUlRjRDQzYzM3VXg0eEc3M2ZESkZmNnpKOGVCeUJzbjRHV1VDM3Q4QzhIamxJVjZaUDZnY2VHUUY4cjRGWms0dmRsd1E?oc=5",
+   "published": "2026-08-17",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Taiwan groups warn of Taiwan Strait security risks due to Japan's neo-militarism - CCTV.com English",
+   "source": "CCTV.com English",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1lRGtQeExESWg1WkF3M0p5UGlkZndsOTY2LXE0NzRkYkxydEtxQ3VTMERTU1c1RXJndlV0T1JJOVUtZGtHbzFnZ3NvZ29Cbk5QRzVzMGJRYlYyUTRDV3hyTEhmaGw0TERzczdKS3hnM19rMjNCLWhpandHdDA?oc=5",
+   "published": "2026-08-17",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "Waterborne shipments from the U.S. Gulf Coast increased in April and May",
+   "source": "EIA Today in Energy",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=67964",
+   "published": "2026-08-17",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Saylor says share buyback isn\u2019t priority as Strategy builds $4.8 billion cash reserve",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/08/17/saylor-says-share-buyback-isn-t-a-priority-as-it-builds-its-usd4-8-billion-cash-reserve-though-a-possibility",
+   "published": "2026-08-17",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "BitMart founder dismisses calls for audit as users report blocked funds, unpaid employees",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/17/bitmart-founder-dismisses-calls-for-audit-as-users-report-blocked-funds-unpaid-employees",
+   "published": "2026-08-17",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Compound bets $52 million, new leadership team in switch to institutional focus",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/17/compound-bets-usd52-million-new-leadership-team-in-switch-to-institutional-focus",
+   "published": "2026-08-17",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "U.S. Treasury Department proposes GENIUS Act stablecoin rule",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/08/17/u-s-treasury-department-proposes-genius-act-stablecoin-rule",
+   "published": "2026-08-17",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "The Coldcard hack proves reputation is not a security model",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/opinion/2026/08/17/the-coldcard-hack-proves-reputation-is-not-a-security-model",
+   "published": "2026-08-17",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Check genuine HMRC contact that uses more than one communication method",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
+   "published": "2026-08-17",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Capital Gains Manual",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual",
+   "published": "2026-08-17",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Mandatory Tax Adviser Registration",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/mandatory-tax-adviser-registration",
+   "published": "2026-08-17",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: Employers PAYE payment plan: service availability and issues",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/employers-paye-payment-plan-service-availability-and-issues",
+   "published": "2026-08-17",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: VAT payment plan: service availability and issues",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/vat-payment-plan-service-availability-and-issues",
+   "published": "2026-08-17",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Philip R. Lane: The rise in defence spending and the euro area economy",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260817~1f9f7149c9.en.pdf",
+   "published": "2026-08-17",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "SpaceX\u2019s stock is rising, and that\u2019s a good sign for Nvidia and Google",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/spacexs-stock-is-rising-and-thats-a-good-sign-for-nvidia-and-google-913ce9de?mod=mw_rss_topstories",
+   "published": "2026-08-17",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Why it pays to stay invested: No amount of bad news could stop the stock market\u2019s strongest run in more than 25 years",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/why-it-pays-to-stay-invested-no-amount-of-bad-news-could-stop-the-stock-markets-strongest-run-in-more-than-25-years-54ba3f8a?mod=mw_rss_topstories",
+   "published": "2026-08-17",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018I\u2019m running out of time\u2019: I sold my $300,000 rental property at a $75,000 loss. Should I buy another one to avoid taxes?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/im-running-out-of-time-i-sold-my-300-000-rental-property-at-a-75-000-loss-should-i-buy-another-one-to-avoid-taxes-f214c172?mod=mw_rss_topstories",
+   "published": "2026-08-17",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
+   "published": "2026-08-17",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Getting diagnosed with dementia isn\u2019t the end. It\u2019s a time to take financial action.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/getting-diagnosed-with-dementia-isnt-the-end-its-a-time-to-take-financial-action-f52769b6?mod=mw_rss_topstories",
+   "published": "2026-08-17",
+   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -48,179 +339,14 @@
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
+   "driver": "China + iron ore",
    "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
+    "VAS",
+    "VHY"
    ],
-   "title": "Taiwan groups warn of Taiwan Strait security risks due to Japan's neo-militarism - chinadailyasia.com",
-   "source": "chinadailyasia.com",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DanowX1g2VDBmczFESDZxRVBxaTc0VmRjX05jYkFXcFQ4UkRYamV1WjM2dWFXcE14Uy1SX2NqSGRNUHBVbVF4ZjBwTDB4X1EzR2kyMjhYSmI?oc=5",
-   "published": "2026-08-16",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Should You Buy Taiwan Semiconductor Stock Below $440? Here's What History Says. - theglobeandmail.com",
-   "source": "theglobeandmail.com",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOUy1ZdnFISzdMWG1iTHVnbHRzbkZRcl9zZlVLbVEwbms0V21BVm9xdGJBM01LWDVZMkw4QUNVY1dvWE1uS3RqdjdTeXVkNHZDX2R2Ul94VzVqTnpETGROc0xRLWt5T3RrOVhRYnI3TUl1QWczRUNRbzd3YXRfcFVZbDN5WXp4RTk2OEUwRG9fcTQ1N3RiMnk0NHZTTk9rb1EtbkFQTldVQ1JfZzkzZEp3V3JzRmJtcGEyYUp5Z3BEVUJJYlp1WnhFWE1MSlZkRjE0WTdKZjBrRDFYbkV5ek80SWVISjJpcHNPV2hZM3JrVVltZw?oc=5",
-   "published": "2026-08-16",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "The SEC meeting that wasn't: State of Crypto",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
-   "published": "2026-08-16",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Crypto investors are looking past market-cap rankings and back to fundamentals",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/16/crypto-investors-are-looking-past-market-cap-rankings-and-back-to-fundamentals",
-   "published": "2026-08-16",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info",
-   "published": "2026-08-16",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "MiCA's cleanup is creating a new scam wave across the European Union",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/14/mica-s-cleanup-is-creating-a-new-scam-wave-across-the-european-union",
-   "published": "2026-08-16",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
-   "published": "2026-08-16",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Can I claim 50% of my husband\u2019s Social Security now \u2014 and switch to my higher benefit at 70?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/can-i-claim-50-of-my-husbands-social-security-now-and-switch-to-my-higher-benefit-at-70-5518700b?mod=mw_rss_topstories",
-   "published": "2026-08-16",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "My friend\u2019s mother died. Can she stop Medicaid from taking the family home?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/shes-desperate-my-friends-mother-died-can-she-stop-medicaid-from-taking-the-family-home-394fb6e9?mod=mw_rss_topstories",
-   "published": "2026-08-16",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018It\u2019s a double-edged sword\u2019: My husband got a $42,000 bonus. Will it wipe out our Affordable Care Act subsidy?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/its-a-double-edged-sword-my-husband-got-a-42-000-bonus-will-it-wipe-out-our-affordable-care-act-subsidy-32db285e?mod=mw_rss_topstories",
-   "published": "2026-08-16",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "I\u2019m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
-   "published": "2026-08-16",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Here\u2019s the real reason oil prices aren\u2019t moving higher",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/heres-the-real-reason-oil-prices-arent-moving-higher-256afdbc?mod=mw_rss_topstories",
-   "published": "2026-08-16",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Nvidia scales back funding guarantee for Ohio OpenAI data center, WSJ reports - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWjY4Y0RmbnNIZU5fWV83TGxRb0M1T0hva0dCRUtWQzcxclJ5TW02NExHQzREZmwwenZIQjh5eU01YjYycGMxNUg5MlJuZVh5RGQyM0M1MHB1Znhld2x2OXFFNF93OGg3SUJMYUNsMTZjZ2VQemtkM3M0SnVDam1vSHNKVUJCWHpKbzVzLXdLWmtlZElxYW5BS0c3MU9iRk41Ty1LUzY4TWl4YVQtRElKWHNFSzg0dTA?oc=5",
-   "published": "2026-08-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Microsoft: AI CapEx Is A Good Problem To Buy (NASDAQ:MSFT) - Seeking Alpha",
-   "source": "Seeking Alpha",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDFTeHlja3VWbWlHVGpYWUVramQ5RGxIT21EVV9XNkRXYWlxdnlMWXl2OTJWbEZBWDhBN29Nd2RadmtSVmVEQzZvMjhxZ0JyYlhvQ3lhQVFyS3dkYXpFX0xRRk81RVVPUVFhQ1pvS3BrYkY4RWk1Qk45NnA4SVJOYUVIcC1tZw?oc=5",
+   "title": "Iron Ore CFR China (Platts) Overview - CME Group",
+   "source": "CME Group",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTR5VVR4cVVRZlR2bWFQNUFJcjFfak9tNG1wOTdWelNkNWcwQWw2V2g4WUdvVHJWdDZIRE9lRXp3YnNSaHRhSWRmWlhPNkRkZldTT0tVRUlHdk5UeGZ3MExWTWs0NWt4VWhDT0l4TUJLaXNvcm9NM0JLWi1RMGlHVFVVNnZ2VW1uTlJudG1NRURmY19sS0hWNWdvUmR0UQ?oc=5",
    "published": "2026-08-15",
    "trust": "C",
    "flag": "context-only"
@@ -282,66 +408,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Mandatory Tax Adviser Registration",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/mandatory-tax-adviser-registration",
-   "published": "2026-08-14",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: NCTS: software developers",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/ncts-software-developers",
-   "published": "2026-08-14",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "HMRC email updates, videos and webinars if you\u2019re self-employed",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/help-and-support-if-youre-self-employed",
-   "published": "2026-08-14",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Tell HMRC if you've claimed too much Research and Development (R&D) tax relief",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/tell-hmrc-if-youve-claimed-too-much-research-and-development-rd-tax-relief",
-   "published": "2026-08-14",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Submitting interim and annual tax claims for ISA managers",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/annual-returns-and-tax-claims-for-isa-managers",
-   "published": "2026-08-14",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -364,20 +430,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=67944",
    "published": "2026-08-12",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors - pr.tsmc.com",
-   "source": "pr.tsmc.com",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvajd3THJ2elh1VDBrNDNGd2VLbzFVNlJEZDJsa0Q1enVtMmFTYi1ZMk1icWMzUFcwclNqOTFvank4VlFrRFAyWXI4S0ltQQ?oc=5",
-   "published": "2026-08-11",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -415,20 +467,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=67926",
    "published": "2026-08-10",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Should investors be targeting the semiconductor boom? - The Motley Fool Australia",
-   "source": "The Motley Fool Australia",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVDVubWlUaUg1N0JMTG9IMTJXb2M0S2w3bEgxZ010dll0eXU1M2JJcXJldGFHS1BLanhkc181NU1UQVJNTGprOGtPWXJnX1pjXzNsb1k3Szh4SjA1bUdxbzBTZ1JwRlJILTdEZmVJYkNfREgtTE1VRnlLRFV0MmxrRjFkbzNsRGpNdGFYRDdBTkpZdw?oc=5",
-   "published": "2026-08-09",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -494,19 +532,6 @@
    "source": "EIA Today in Energy",
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=",
    "published": "2026-08-05",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "Hourly peak load in ERCOT set a new record, exceeding 91 GW on July 22",
-   "source": "EIA Today in Energy",
-   "url": "https://www.eia.gov/todayinenergy/detail.php?id=67906",
-   "published": "2026-08-03",
    "trust": "A",
    "flag": "context-only"
   }

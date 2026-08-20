@@ -1,8 +1,314 @@
 {
- "generated": "2026-08-19T20:23Z",
+ "generated": "2026-08-20T20:24Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 42,
+ "count": 43,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
+   "published": "2026-08-20",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "KKR Data Center Chief Vaults to Prominence With Nvidia Pact - Bloomberg.com",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOczExOTNYQlp1TEpuM2kwOFlhb2IxeVcyS2wxNzhnbHlBWUZGR0hFVGg2U29wOUZmekxiQjhzbnU2R2s0SjlVSGRYcHZ6TG13Sm1PNlFKNWNYVzFnSlJWQ29VVENXaW5ncnBiYmRqVUQ5aFNWNWtkY2k2bGFhMVNXOExSNEhtcTRyeTNHY0NjVXU0MEZEMmJIWUh1bFpjZDRNTVNnQUlreDRwMF9BaVpR?oc=5",
+   "published": "2026-08-20",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Beyond Chips: Inside Global X Semiconductor ETF (ASX:SEMI) Distribution Profile - Kalkine",
+   "source": "Kalkine",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdktmWHBXd21YNi0ySWIxVGF4a0NWZWVmMzRmTnpsQmpHQmhlZ0ViTGpUVXFQOEpBeEswVzVnVEt6X19DYnBFREZ2SERELUxLbFZLNEQzWUQwbzJTQlFMbVdxTEctXzBRcWQ4ZDV2TFVmYk5ucmdjbGhESTJGcloyc3pkSjYxVG9qQ3NHUzdGYnhyM1hfa2R3ekdmUVlyMndpWi1SeXZHa3Y5WFlSNGxxNUpKUlRHTWhfZDRv?oc=5",
+   "published": "2026-08-20",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Does Taiwan Semiconductor Manufacturing (TSM) Risk Losing AI Chip Orders To Capacity Limits? - simplywall.st",
+   "source": "simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRDR1Vklwc29YMzU0Wi1ydnRhcWszcnhjdlUxZGw5b0lNRXRpVWh0ekdWdVlSeEhZWGxZNjliU2dZcjVnNUREN2J2U0ZhSlByNmRlVjAxZkxrTmZraTZ5V1hOZjhITEtYSkRlaTlSd3VRWlZmajZMY25xdEV5UnpxSXZsWDdhemQ4VklOWVM3Qnl2YnJrTEtOQXltME5ILUViMzhQTlBqblBCV25CT0xRcVVaUTVVT1JPTWRxdUFLVTZjUTlha3dMT0pvWTJWM0xVR3R2SFN5Zm4yXzUtTjFHMVY3S3pFbHJPdTVoZtIB8gFBVV95cUxPM1hqSXdTYUJRcXh1SFBoc1FrenBWSlFiZGgxQWJsWlZvc3FzemFUZE9FNGxQTWVrNi1wS3lydXlDT01xTUtWb1padEwyci1tQXZiejhmbVdpUWgwRTh0VFJrM1h5aGY4N3dtQ1Y3ZVZHZzdiOF80d2tpTGJXZzdWOFNQRi0tcEh4aXhSbTg2YXdWLUNPUTVsSWtWUWNVZEVBZlU3NjdyaVFkZ2MtZ0JoS1FwT0NGUDRGbVVKRDdLRFZvVVUxRXRaeFZReERVZTczZHJyZjdGNkZ6bzJzY0lYYVVZRmI2TUZmNndMX0plN1dOdw?oc=5",
+   "published": "2026-08-20",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "America Is Sailing Through the Taiwan Strait Less. Does It Matter? - The Heritage Foundation",
+   "source": "The Heritage Foundation",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOVVDdDM1Wk9MSVFkRkwwZmxUdVVZM1I3OGhsYW51UFFFdHhiaGdZZDdWSTFrc3drYmllcG9yWkR4SFFXMGRCY05BRUkySTZQeU5PVnYtWlptd0FzQWhJYmtCdFNBZERndHY5UjFEeDNndHhCRWNjMzAzTmhHejd1aXVvZEgyR0ZQTzU1dlpJcjl0bjlYVHM2ZW5IMXhCaE9PVG9MZ1Z3?oc=5",
+   "published": "2026-08-20",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "What Could Taiwan Semiconductor Manufacturing (TSM) Capacity Strains Mean For AI Demand? - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUXVuMXpJNFhhZTdKdjkyaFhUT3ZfSmk0VDVpRG9MdnZGYkt3bVRja2huVE9oMW9UVlJjeV9aUFVZRENPbkx6Ym1KOXJXY0YzMzNlUTVhZGNfVmw5RW9RUWE1aEk4MHJjWnJ4bUVnakJMdldsZVNNT0xNNGNKWVF0bndDc1R0cWxSNWFNWlM5TE1XRVY1dzRSVUp2Q25rOWgxdThBV0E5NkZfZ0RR?oc=5",
+   "published": "2026-08-20",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Messer invests $40m to support Vietnam\u2019s semiconductor boom - gasworld",
+   "source": "gasworld",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWDE4bjRMYkpyYWNiMXB1czJDTFNIOWFZWEpCNy12ZEpKcWJINnRjeDltTDQtam12cGlMcGkxUTRzdDM1d0RWQWltTTRKRXA2T1FDb0tnMHlSWU1jT3o1c2EzMVNSUGJLZTRGR2hOajNEN3ozSmV4dURfYjhzdWU3SUtSc1ZsWHk3bjBGeEs2OWF1amxtSGF1MFBrTVpoOFNqdnl6Zy1vRjM?oc=5",
+   "published": "2026-08-20",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "China + iron ore",
+   "holdings": [
+    "VAS",
+    "VHY"
+   ],
+   "title": "China\u2019s Property Crisis: From Evergrande Collapse to Spiraling Prices - Bloomberg.com",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQXFMZEhnSlR2TENKMmliV0lDb3dOelAzM1JfWURaY004T0E4NTc1MWpSTURxaFNzYktSTy0zYjZrY0FkZktrZHVkT1pBTTgzaUZuUXlUZ01hb2VXTkdKTVhXX2hfVHJHdFVpYU5tQmdmNnNtbnhCV1ZQZ2hVcW9hSWFSbnNvTnYxd3J1N2RlWFhnT1JrQnBrZkM2ZW9wZ0FSUDVDNXlKQ0JIcnVBY0daNGZ4eklJWlp2dDZV?oc=5",
+   "published": "2026-08-20",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "Oklahoma, coach Brent Venables agree to new 6-year contract - ESPN",
+   "source": "ESPN",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWXhKbHJKODhBSWlrWWF4al9pYU9wRHROYlRYV081MkFLUkpuWlVZNld3QWRHLTNsWllxWXp3b0FmYUV5T1lCR1B1Q3ZSaDlSVlE1ci0yTW4yaVdkRjg1ajJ0QVJ2MzZ2MnN1Qk1fcVJLb2dIQThJVTRqS0htN0VHUHVRNlVLaFdxcm82ZlQ2anRDRFVKV1BCQ2dNREZSRnZnNkVZSEI4VlF2WTliWV94WnFKMTJ6Zw?oc=5",
+   "published": "2026-08-20",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "U.S. CFTC chief puts staff on notice to create crypto regulations if Clarity Act fails",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/08/20/u-s-cftc-chief-puts-staff-on-notice-to-create-crypto-regulations-if-clarity-act-fails",
+   "published": "2026-08-20",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Treasury buybacks could set up Bitcoin\u2019s next move toward $180,000, says strategist",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/08/20/treasury-buybacks-could-set-up-bitcoin-s-next-move-toward-usd180-000",
+   "published": "2026-08-20",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin's jump above $71,000 sets up bullish golden cross pattern",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/08/20/bitcoin-s-jump-above-usd71-000-sets-up-bullish-golden-cross-pattern",
+   "published": "2026-08-20",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Crypto for Advisors: What are tokenized deposits?",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/coindesk-indices/2026/08/20/crypto-for-advisors-what-are-tokenized-deposits",
+   "published": "2026-08-20",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Optimism-funded team's deciding vote shifts $49 million in OP tokens away from users",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/web3/2026/08/20/optimism-funded-team-s-deciding-vote-shifts-usd49-million-in-op-tokens-away-from-users",
+   "published": "2026-08-20",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Form: Tell HMRC your Stamp Duty Land Tax scheme reference number",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/tax-avoidance-schemes-stamp-duty-land-tax-scheme-reference-number-aag4-sdlt",
+   "published": "2026-08-20",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Capital Gains Manual",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual",
+   "published": "2026-08-20",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Form: Tell HMRC your ATED tax avoidance scheme reference number",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/tax-avoidance-schemes-disclosure-of-ated-scheme-reference-number-aag4ated",
+   "published": "2026-08-20",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: Agent Update: issue 146",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/agent-update-issue-146",
+   "published": "2026-08-20",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Form: Tax avoidance schemes: notification by scheme user where no promoter, or promoted by lawyer who can't make full notification (AAG3)",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/tax-avoidance-schemes-notification-by-scheme-user-where-no-promoter-or-promoted-by-lawyer-unable-to-make-full-notification-aag3",
+   "published": "2026-08-20",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Anxious bond market sends troubling message to investors: There\u2019s no easy fix for U.S. debt",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/treasury-rout-restarts-one-day-after-bessents-beefed-up-buyback-plan-972766a1?mod=mw_rss_topstories",
+   "published": "2026-08-20",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Sports betting to build wealth is becoming the new American dream",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/sports-betting-to-build-wealth-is-becoming-the-new-american-dream-1e29b728?mod=mw_rss_topstories",
+   "published": "2026-08-20",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "The bond market is going to burst the stock-market bubble",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/the-bond-market-is-going-to-burst-the-stock-market-bubble-1c6f0971?mod=mw_rss_topstories",
+   "published": "2026-08-20",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Moderna\u2019s personalized mRNA shot could reshape the fight against skin cancer \u2014 but it may also be overhyped",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/modernas-personalized-mrna-shot-could-reshape-the-fight-against-skin-cancer-but-it-may-also-be-overhyped-a6f1bc88?mod=mw_rss_topstories",
+   "published": "2026-08-20",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Neocloud stocks like CoreWeave are having a moment \u2014 and time\u2019s running out to cash in",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/neocloud-stocks-like-coreweave-are-having-a-moment-and-times-running-out-to-cash-in-8aca34c8?mod=mw_rss_topstories",
+   "published": "2026-08-20",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -26,9 +332,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Nvidia plays matchmaker in Nordics, sources tell CNBC, as AI data center deals boom in region - CNBC",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4teEJkRklqaHFoUnU0NzFTNk5CQ0hxS1hvT25ocVR0UW8tSEt3UTZGZXRHNjNzZ0ZnVk9rOGdXZGJ0bGsxb25PYTR5RlRTUVBVb0x3VENKU3RIU2drVXI0Z1JJelVQNXEyWnRlUnk4QXlCTlpW0gF6QVVfeXFMTTRWbmNYcnlQMVNoZF9sWjBLOHVSTTdOcGx4Nl9tT2ZTS055SXRVaVNaSjFlNUlITHJZRlNnY01GNk40XzR3Z0YwQmNEN0R6QVhnQkhGcXljTXJySFRWYVgyUHZzTGU4RlNiaHh6ZlNBM0ZLRXNSMUtsT2c?oc=5",
+   "title": "OpenAI to lease massive new AI data center in U.S., backed by Nvidia - Japan Today",
+   "source": "Japan Today",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRjN2NzRWT3dIMFpQQVZtd1VkN0RlSjhMNFFzSXlFTzRwaTJZWTJfNW9yWVdxLVZIcmlxN2ZPWEhrQjJPblZZaERzNU5iRXpYLXdCUjZoZ3NIZWNnM2pSWXlsZDBuSDRSYTl0OGpKN21oelpXWjZQdmZ5OXFVbmNnYU9IS0dtWWk4M0k4cmNOSVAtLTBwWl9OX3J0RDlfMERaejN2ZA?oc=5",
    "published": "2026-08-19",
    "trust": "C",
    "flag": "context-only"
@@ -41,65 +347,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Nvidia Backs OpenAI\u2019s Ohio Data Center Buildout With $105B Guarantee - Data Center Knowledge",
-   "source": "Data Center Knowledge",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMXc5WTdtYWN2QkNpUUtCU2JQUm96a0x4R1lWTGxabHZQSVB1UFBsSERKZE1DNnBUdGxFTEZLRDJzVnNaWE1CaF9oUUlfOTAtRG5LZzhudWxjbmpRdkxiYU9TM2J1bGZaTktScmZzWWItc3RIU0dadWVJX0x0SjBsaVlhWDhGM2ZRQno0SEktLU0zLThESTZ5bS0zZk5zaWVFMUJpcTU0cU1xZ29yaXl5UnBsVEJfV3Bya1QxYlJzYm5IbHJhcDdZ?oc=5",
-   "published": "2026-08-19",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Reunion across the Taiwan Strait after 79 years - China Daily",
-   "source": "China Daily",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE50SXRwU21oeEE1X2NqR254RlpfRm5UQUlraWFjVHZHNVNGX0dnaVBtQm9nSVdYUnE4T3VSbjNzUUlsejRRYkNSeGhINWlJMW05V2lTS2pySjh2RDlUSDktaDBkWUY3Z1VpcVhBMjNYM1VrZEVmMmticjdrak9QZw?oc=5",
-   "published": "2026-08-19",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Europe\u2019s semiconductor industry: Global dependencies and the 2030 outlook - Innovation News Network",
-   "source": "Innovation News Network",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRm9acHEtcEw1dXMxS3JIQU95b1g0LXlMQXZsa0lUb2RVVzk1c1cyT0NpMS1HT3R3MnV4aHJEcTdleG03OWExc2R5UEN1SUJKNy05SXZkX3JZOERJZG4zdFZZdlRnVTlzQU51RmF0YUVSbW1ndEZEdk5YYjJaUEVUdFdzOTZndTZwMkluX0NzQlJWb0FOZEF2N3ktTGtNUGxPb0k2MW5nLVRCQkt5?oc=5",
-   "published": "2026-08-19",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Lattice Semiconductor (LSCC) Stock Looks Fully Priced Despite Strong 114% Returns - simplywall.st",
-   "source": "simplywall.st",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOUN1VlhlRG9YTjZPaTRpbmsyVE13T0hyTjFiclRERlhwYWdUWXFzTUxDUko4a3Rkd1R6eHZLVHdHQUZrTXdyVWFMa3g5Vm9DdkRFSThieEhuemRhNGJFX094dkc3d21hTjJDa014TVF2bnc0VFlOX3VMeEhmR1JmNU8tVFVPUUJCTlJTaGxxODNUT3RVYXhCVklSU1BPWlNvdEc0ZGdKMUxZcHJFenQ1OVYxdkpPT19adGladW5YVGQ3alNTYjFnWEtjcGdKVUZLUHBUN29NMFgxMFFpSGfSAeMBQVVfeXFMUEtSQi04UUJXOFJpUjVMVjFfc1NORk43bUZuMWlNckhOd1Q5cjZ5UEg1LVBXRmlqRHYtYlNacXd2UFlHTng2dWk1bnRfSlQtVFdiNDljVlZ2V09MNkh0UzBLTEpqbHE3c3NPM3g5U29ZbGhaM2NjcTc5QUNzM1FLU3MtUGY0cGQtUW80bnpIVVh1bG5BWUFuRk1rU0xzVV90czdUNmR5aXNFM3hSX1JhR0tlaEVBby1vM2pZc3JMOXN2SUJKRnJCVWYtXzN2S05HMElmOVgzSzVWLVZFVi1Gc2ZPNGc?oc=5",
-   "published": "2026-08-19",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Navitas Semiconductor vs. Rezolve AI: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
-   "source": "The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNy1kck1waGhibUxXNzI2eVVRNW1ZVEpUZkltQzl2cjZkVkFINmdhZ0dad2dNVGtFanN3NGZ1T2NXWVhnUHhZY3JCX3hHTjBPVWtMczNkckswSXU3SWdhc1lva3VwcHRJWERIRmQweVRkaTZOZ3VNQThvS1F5RmtHS1hlUVFoZUJORi0wQzNkeTRwcUE5SFNjeFpIb2hYWHZZbDVVQ2xjakhaM2EzckdvWXowekdkR1VZZHBkVmc2bUdySE55VFhzZkIzUXZGVEhC?oc=5",
+   "title": "Nvidia plays matchmaker in Nordics, sources tell CNBC, as AI data center deals boom in region - CNBC",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4teEJkRklqaHFoUnU0NzFTNk5CQ0hxS1hvT25ocVR0UW8tSEt3UTZGZXRHNjNzZ0ZnVk9rOGdXZGJ0bGsxb25PYTR5RlRTUVBVb0x3VENKU3RIU2drVXI0Z1JJelVQNXEyWnRlUnk4QXlCTlpW0gF6QVVfeXFMTTRWbmNYcnlQMVNoZF9sWjBLOHVSTTdOcGx4Nl9tT2ZTS055SXRVaVNaSjFlNUlITHJZRlNnY01GNk40XzR3Z0YwQmNEN0R6QVhnQkhGcXljTXJySFRWYVgyUHZzTGU4RlNiaHh6ZlNBM0ZLRXNSMUtsT2c?oc=5",
    "published": "2026-08-19",
    "trust": "C",
    "flag": "context-only"
@@ -118,66 +368,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "HYPE jumps 11% as Trump says CFTC is working to bring Hyperliquid to U.S.",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/08/19/hype-jumps-11-as-trump-says-cftc-is-working-to-bring-hyperliquid-to-u-s",
-   "published": "2026-08-19",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Trump pushes Congress to move on Clarity Act during White House crypto event",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/08/19/trump-pushes-congress-to-move-on-clarity-act-during-white-house-crypto-event",
-   "published": "2026-08-19",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Crypto campaign fund Fairshake faces $2 million setback in Florida primaries",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/08/19/crypto-campaign-fund-fairshake-faces-usd2-million-setback-in-florida-primaries",
-   "published": "2026-08-19",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitcoin surges above $68,000, liquidating $1.4 billion shorts as Treasury buybacks boost risk appetite",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/08/19/bitcoin-surges-above-usd68-000-liquidating-usd1-4-billion-shorts-as-treasury-buybacks-boost-risk-appetite",
-   "published": "2026-08-19",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitcoin nears key technical breakout that could propel prices to $76,000",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/08/19/bitcoin-nears-key-technical-breakout-that-could-propel-prices-to-usd76-000",
-   "published": "2026-08-19",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "AU rates (RBA)",
    "holdings": [
     "VAS",
@@ -186,66 +376,6 @@
    "title": "Renewal of Bilateral Local Currency Swap Agreement With the People's Bank of China",
    "source": "RBA",
    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-21.html",
-   "published": "2026-08-19",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "VAT Health",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/vat-health",
-   "published": "2026-08-19",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Appendix 2: DE 1/11: Additional Procedure Codes of the Customs Declaration Service (CDS)",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/appendix-2-de-111-additional-procedure-codes-of-the-customs-declaration-service-cds",
-   "published": "2026-08-19",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Capital Gains Manual",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual",
-   "published": "2026-08-19",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "HMRC email updates, videos and webinars for employing people",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/help-and-support-for-employing-people",
-   "published": "2026-08-19",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "List of ports using the Goods Vehicle Movement Service",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/list-of-ports-using-the-goods-vehicle-movement-service",
    "published": "2026-08-19",
    "trust": "A",
    "flag": "context-only"
@@ -260,66 +390,6 @@
    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260819~98ddf24b7b.en.html",
    "published": "2026-08-19",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Moderna\u2019s experimental vaccine prevents cancer recurrence, in \u2018historic\u2019 win for personalized medicine. Its stock soared.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/modernas-stock-doubles-on-promising-cancer-vaccine-results-896b1f2c?mod=mw_rss_topstories",
-   "published": "2026-08-19",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Hidden Valley Ranch dressing may be a victim of this summer\u2019s salad scare",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/hidden-valley-ranch-dressing-may-be-a-victim-of-this-summers-salad-scare-f8537cd5?mod=mw_rss_topstories",
-   "published": "2026-08-19",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "You can now Venmo your kid\u2019s college tuition. But should you?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/should-you-venmo-your-tuition-heres-what-to-know-as-colleges-add-new-payment-options-1a70ae96?mod=mw_rss_topstories",
-   "published": "2026-08-19",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Moderna\u2019s cancer-vaccine breakthrough drives broad biopharma stock rally",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/modernas-cancer-vaccine-breakthrough-drives-broad-biopharma-stock-rally-ff2816aa?mod=mw_rss_topstories",
-   "published": "2026-08-19",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Trump calls for passage of a key cryptocurrency bill as it falters in the Senate: \u2018We need Congress to take the next step\u2019",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/trump-calls-for-passage-of-a-key-cryptocurrency-bill-as-it-falters-in-the-senate-we-need-congress-to-take-the-next-step-ce9aa046?mod=mw_rss_topstories",
-   "published": "2026-08-19",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -349,50 +419,6 @@
    "source": "AI Business",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTUdSc1FyNUZnWkgwSmFUajVMc2Niblp4RDI5NkN4UE5WS1lzNHVpMEstTVB5RHczMmkxeTFYVlB3Sm5mSzk4aUpCdnE5Z2RlNW1xR3lweXhkXzVHWElSRlp2RkY4T1JCWVdXLW5GVnlhYkJGT1FQMEdmWDNWTFhJc0l3N2VESnRUdHc?oc=5",
    "published": "2026-08-18",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Why Alphabet and Microsoft Suffer Less If AI CapEx Goes Wrong - 24/7 Wall St.",
-   "source": "24/7 Wall St.",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRnh3ODBCUWY0XzZrOWV1bGpZcFJUNVJBbmRfTjVzT3VudlFtczkyVkNLM21WWUZUY2lZWUJKSFZ4Z192TGJ4a3dVejU3Q01MR2JmR2h0OUlySzNKN25ic1JyajV0TWdnZkJPOXFEbTNibTBTZHd5dVdKeWJPdkJ0SGtZaWFWYlpVQXhnNFpGanRJRzlGQVRENXk2dmRMVXFCc0RSNmNEdXE?oc=5",
-   "published": "2026-08-18",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Michael Robbins Named President and CEO of Semiconductor Industry Association - Semiconductor Industry Association | SIA",
-   "source": "Semiconductor Industry Association | SIA",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ19FcVh0SGtpNFNiY2M5Q0h4ZmhqQVR4bjE1NGdiaWN0S1lrUkVnQjEwWnBHdFVWaHZYaTF5VFJYVmxxdVNXTjU3MGlIN0E4SElsZlZGUjRCaExkay1VZGFzdlBzaGluZWhjX2hnQ1JDYUZhWWZ2OTRfb0ZLelBKZ1FtT095SmpWYUdvTVIzYnRzRXR5ZTh0SGUtRTRYOXBkQVlBd25ZbkFYVXliRHc?oc=5",
-   "published": "2026-08-18",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "IREN delivers Horizon 1 data center to Microsoft, achieves NVIDIA status - eciks.org",
-   "source": "eciks.org",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tLU9IcUtnQ2ZfWWIzdkZzRklOY3V0RDVaOVljNXZQQnlmNGJhdGN6dlJ3YkdsMHN5cGlTeDRVMzlPSlRiNVB2Yy14b2FKNndieUk1YmMtQ3VGX3E1b3Voc0hzNHpSZGE1?oc=5",
-   "published": "2026-08-17",
    "trust": "C",
    "flag": "context-only"
   },
@@ -532,19 +558,6 @@
    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html",
    "published": "2026-08-07",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "The Strait of Hormuz closure: How it happened and what it led to? - CCTV.com English",
-   "source": "CCTV.com English",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80YXhNTFliaVVzOU4tY3Rla1lOcjVlYlVfay1mY3l2VTAxYmpIQ1U1WU9UT2RBWTBlaXJodXlGZTA1SF9ZWjV2WDh3c1BKRkpFU2xqaHJwU01GMUNfeWp4V1BkeXNqYTBHM1ZUY09fOHZuQWw2ZTRkZHR6a1E?oc=5",
-   "published": "2026-08-06",
-   "trust": "C",
    "flag": "context-only"
   }
  ]

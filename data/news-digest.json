@@ -1,8 +1,185 @@
 {
- "generated": "2026-08-21T20:22Z",
+ "generated": "2026-08-22T20:19Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 43,
+ "count": 42,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
+   "published": "2026-08-22",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "US Navy aircraft transits Taiwan Strait ahead of Xi-Trump meeting - T\u00fcrkiye Today",
+   "source": "T\u00fcrkiye Today",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdlcyeHRPZkRNTE5RSmxhNXRXZEpYMlZZelNmTzhQeEJpLUJ3endZXzktblBUeGl4dk1ZMFdBc3JUWHFCdWhLOEk2S05hRUt0M1BoS3phRXdIWTg2a0JSUEJrblROazRvanA5WVZ6SHIzN1RWNmFjOXlqczdPbFhjRFRQNDBYSEt3eGxoSTRDM2toSGxEZ1J4S0kxcE5OaHgzQ3N5aERDN2tpY0ZL?oc=5",
+   "published": "2026-08-22",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "TSMC vs. ASML: Which Semi Monopoly Has the Wider Moat? - 24/7 Wall St.",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWkRnZ3djVk8zOXVtNG0zZDQ2aVlHMVQ2MHBVTnRsUGEwWHExeWs3cGxadW5ycWtGRXVHN3Y3a3dWT2ZORmpqd1BiSUtFbUZEMVZjMWJaM1JGQzBDQ3Y3ZF91N1NqUHpOVzZiZm9QeXU3Y19sYzlnVG53NGI5NHVnM2FIMFZ5a2phaWltVzVaSGJxTGxsR3pTNkQwZw?oc=5",
+   "published": "2026-08-22",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Prediction: Taiwan Semiconductor Stock Will Reach a Fresh High Before 2026 Ends - The Motley Fool",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWTRQTnRKWU01Wnpia0dUV1piU1cyYXR5ZU5xOWN3ZXQ0eGVLZzhpYmI3VDlKYUd2d215QlV5Wm5qeHV5cU9NOWZiZzJqVzRzMXoxbF85cjN0V3hqdHBsejVaZjFHcVZmSk43dDQ2ZFoyNFVHYXVZM0hWamcxejZ0Q2dJdm1BRWlLWnBtdjJMS3FTQk9DMld4TA?oc=5",
+   "published": "2026-08-22",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown",
+   "published": "2026-08-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Web3 gaming network Sandbox stops Base and BNB chain bridging after exploit",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/web3/2026/08/22/web3-gaming-network-sandbox-stops-base-and-bnb-chain-bridging-after-exploit",
+   "published": "2026-08-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Tokenized stocks risk repeating Wall Street\u2019s 1960s \u2018paper crisis,\u2019 Fairmint CEO says",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/08/22/tokenized-stocks-risk-repeating-wall-street-s-1960s-paper-crisis-fairmint-ceo-says",
+   "published": "2026-08-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Kalshi off-limits in multiple states as prediction markets, CFTC team up for battle",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/news-analysis/2026/08/21/kalshi-off-limits-in-multiple-states-as-prediction-markets-cftc-team-up-for-battle",
+   "published": "2026-08-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
+   "published": "2026-08-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018She looked into COBRA\u2019: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
+   "published": "2026-08-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Canada announces retaliatory tariffs on U.S. goods after trade talks break down",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/canada-announces-retaliatory-tariffs-on-u-s-goods-after-trade-talks-break-down-45081c2f?mod=mw_rss_topstories",
+   "published": "2026-08-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "I hold my mother-in-law\u2019s power of attorney. I\u2019m also her executor and trustee. Do I have too much power over her affairs?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/im-my-mother-in-laws-power-of-attorney-executor-and-trustee-do-i-hold-all-the-power-a11968a2?mod=mw_rss_topstories",
+   "published": "2026-08-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018I\u2019m running out of time\u2019: I sold my $300,000 rental property at a $75,000 loss. Should I buy another one to avoid taxes?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/im-running-out-of-time-i-sold-my-300-000-rental-property-at-a-75-000-loss-should-i-buy-another-one-to-avoid-taxes-f214c172?mod=mw_rss_topstories",
+   "published": "2026-08-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Our 4-year-old son has $100,000 in his 529 account. Is a bull market a bad time to buy him stocks instead?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/our-4-year-old-son-has-100-000-in-his-529-account-should-we-buy-him-stocks-instead-3ca745b2?mod=mw_rss_topstories",
+   "published": "2026-08-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -16,36 +193,6 @@
    "url": "https://www.bls.gov/bls/",
    "published": "2026-08-21",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Nvidia scales back financing guarantee for OpenAI data center - Network World",
-   "source": "Network World",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNenFIcHVpc0dKamEyb01mdmNPY1RLSWZxNm1zUEtuUDdhRTBYa1lsOENRMUFjWHc4SHlnSkVCd2JSV25ZVjV2OFBCQmotYm1EODNrRzFGTDVDSnhrTFJaNW9EM1BLbXN5M3kteEkwYjdXa05XeWRVU3NxRldIYWVRVnlKRUZlWEQzMFlFcEtSV0ZWeFNOeWdaeDY3NnZCTGlwcHBGV1lnUFNnYjc5dVF3ZA?oc=5",
-   "published": "2026-08-21",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Nvidia invests in data center developer Cloverleaf Infrastructure - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYnVtUUVfYWJoSUhsRXpLZGNEdHM0eFBmU0hVZzZiVzlDdUZXWkV2X3k1bGppdnp5Zy1fcy1HYnBGc0pPXzZoRmpsZmtPTDRqSFd5anNGR1hnMDlOYjk2U1BZeU42UTh4RUxiaE1XSWRyZW9RTjUtWjYzVXM5N0ZYU0VXdXRSNmNmZnRpREUzdDE4U3l4VDBIa3JPdklOUjdvbFp3dGRZdlZnQjBwSEE?oc=5",
-   "published": "2026-08-21",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -71,24 +218,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "A Single Meta Data Center Will Require \"8 Million Miles of Fiber.\" These Stocks Are Cashing In On the 802 Data Centers Currently Under Construction - 24/7 Wall St.",
-   "source": "24/7 Wall St.",
-   "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNZGdQWTE4cEhmNi1tSHhwai1kUHd0eFJBakVQMEZXNEVlaGdIa0pZWXlYdC1lUjBma2hjekN5ZGJ4bXVaeEdHVjNrVmZYUWJhT1pYWVcxWXFrLURZUHB5LVdSVnBkWlptbzB6cTZPb0hSUGhjeDRqVW00Y0hqZkVqX0REYy14NEx2aG1CLVpZODBsVTA5R2U4QmZGX3pKanEtS1NJXzIxZ1drb3o0SU80bXRGOC1mRXNsYjQ0THY1UGZ4ZU02TjNhU280V2djMEt1U3NMY1Z2anNJa2lMSU5FSmFsRHkwQ2swS0VESUxxekhQWU5VbUR3eC1ueG1NWDE5cU1HU2xJa2ItUHliTTR0N0VZcEp5Z0U?oc=5",
-   "published": "2026-08-21",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Nvidia backs data center powered land company Cloverleaf - Data Center Dynamics",
-   "source": "Data Center Dynamics",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcW9pRHlFNEphaGxibVdsYVF0cy1SZHJOVHd3NjJhZmQyTEJ6VVJPdjlEQWNYdkZZNk53MEpoMDV3UmduVjAxRUhPX1E3dWdyYUlvbFpQWmNrZzFhb1pfVFE0ZlFqRWdkZ0ViWHYxVmNoYTJvTzNfT0lMVmFnd0JGelFwWDBCQUtvQ3owcWNTQzgyY3BpYnhmMWU0OUJPcnZ4YWc?oc=5",
+   "title": "Nvidia partners with data center developer Cloverleaf - TechCrunch",
+   "source": "TechCrunch",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRjJpMUNyWEhLOFVLUHU2M05haDdFRXpkUnBuby1ZSUhwdjZjMjhJYmVqUTY4UEdSZFBYNG00RWxOMUowekFsZEJ0LWFmckpQSFVGcE4yMlZTUnlqSERKeDJTM3pZNDUtdjRKeGpPTnNpSy01UlkxV256UjhxSzFNZUlWQUwwZWlveTVMcXBUOGRZUQ?oc=5",
    "published": "2026-08-21",
    "trust": "C",
    "flag": "context-only"
@@ -100,8 +232,8 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "China\u2019s Own Version of Ambiguity in the Taiwan Strait - The Diplomat \u2013 Asia",
-   "source": "The Diplomat \u2013 Asia",
+   "title": "China\u2019s Own Version of Ambiguity in the Taiwan Strait - The Diplomat \u2013 Asia-Pacific",
+   "source": "The Diplomat \u2013 Asia-Pacific",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeFZpSTlNb3puSTNjN3dOVFZaM0d5Tlh4NndWOWpmTUZrWWhzVGRKeWFwdERUQTNpZEtVUmRHTnhPcGRveDM4TW5PVnhVd2pPbll1ZDhUV0dFdTRqSXhkUFVsN1JPdkc4Z2ZJeWlGekRZYWhlZ2pFVUh6N0FyTmJEam1lN181RmxkLVhkSU9n?oc=5",
    "published": "2026-08-21",
    "trust": "C",
@@ -119,108 +251,6 @@
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa1MyNlBtaWpmcDFTdXdkVzAxSVN3dGNabkU3VmxEWVlwblhYWU56bE1QNVJLVjZzb1RTNzFraFNuVHNjZ3ZORk5jSEtIZk9BTVpRcW9jb0xNWElHeHptU3MxcHJKQ0tXaXlBeE5wT3czVHN3OThIN1ZIc2VDTU1VODlJN1MyN2FoNXdHXzV6Y2k?oc=5",
    "published": "2026-08-21",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Weebit Nano (ASX:WBT): Semiconductor Partnerships, Revenue Growth and AI Opportunities Under Review - Kalkine",
-   "source": "Kalkine",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQkplcEwzb2JfX0ZYVGpfYWtMQlJPOFEyR3R0dWV2WGtSRUk2bmgzRWJBTEZadGhVS3dTZUlqRXROMXpEVWxHZVBXN3A0VVo3eVdqZlVJLWs4eEJtT0xmT2R6VVZMWmk0Rkw2cGRMRF9wSmNBTkp5V1RCWkxSNEUyWjdPMmp5S2pvNDlPMW03SkVYZk9LMkJYN05BQlBodHctYlp6YlFxemR0YnZtSXlaekRVQ0h5cF9BNzA2U1VabU9PVklXVmRfMUQ1R3A3QQ?oc=5",
-   "published": "2026-08-21",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Semiconductors bounced back from a bear market; now inflation is back - what\u2019s next? - Mitrade",
-   "source": "Mitrade",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeGlMRTU3TTVYdFB4UmlTMm0talozdFFPeDlGX2xya3NBSl9oNGtvZ2dmX213TF83VU9NMmNlTjBzLV9VS1VrVjFtRHpuczNrQTE5NmhOblEyOG9sVzlVQmxDN0h5SC1udVdFOTBGQ2VYS1BzN1JPRnF0aGZaM1lhallOdjkyTFpsY2Mwd0g3aw?oc=5",
-   "published": "2026-08-21",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "AXTI vs. ASYS: Which AI Semiconductor Stock Is the Better Buy Now? - TradingView",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc2JFT09sMHVxSUZ0d04zYjlyZF9QOHJpMlE5VmUyOUtZOXlWTGNzemVjQlVoNXFhN2Jrbl9WeWd1MUQtMk5qTjZrX0NjQ1NsWjZuSmloVjFaMnpuX2huZUFpSFo1MS1BdXVYMVg0RmNIc1VfbTMwaWQzQ1dmOFJkVVlvVy1Ed3A1cVlmOHVEaVpHY0dMTUJhUDRweTNIVWZOSWlYZVJLMUtmYkxHYVE4VGtBMFBDQ2JMR0dj?oc=5",
-   "published": "2026-08-21",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Pass the Clarity Act",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/opinion/2026/08/21/pass-the-clarity-act",
-   "published": "2026-08-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Ethena's ENA token surges 48%, but altcoin season will have to wait",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/08/21/ethena-surges-48-as-altcoins-pull-away-from-bitcoin",
-   "published": "2026-08-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/08/21/coldcard-ships-firmware-after-usd114-million-bitcoin-theft-says-ai-helped-catch-more-bugs",
-   "published": "2026-08-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Analysts split on whether Bitcoin's surge past key levels signals a new bull run",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/08/21/analysts-split-on-whether-bitcoin-s-surge-past-key-levels-signals-a-new-bull-run",
-   "published": "2026-08-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "The hard truth is that the Clarity Act is an anti-crypto bill",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/opinion/2026/08/21/the-hard-truth-is-that-the-clarity-act-is-an-anti-crypto-bill",
-   "published": "2026-08-21",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -308,66 +338,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "I plan to leave money to grandkids \u2014 but they must pass financial-literacy classes to get it. Is that fair?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/im-leaving-my-grandkids-money-but-they-must-pass-financial-literacy-classes-to-get-it-is-that-fair-8a630648?mod=mw_rss_topstories",
-   "published": "2026-08-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Retirees: This investment gives you a guaranteed 5% safe withdrawal rate",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/retirees-this-investment-gives-you-a-guaranteed-5-safe-withdrawal-rate-facdfd76?mod=mw_rss_topstories",
-   "published": "2026-08-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Here\u2019s how Bessent\u2019s newly activist Treasury Department is undercutting the Fed\u2019s Warsh",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/heres-how-bessents-newly-activist-treasury-department-is-undercutting-the-feds-warsh-480455c2?mod=mw_rss_topstories",
-   "published": "2026-08-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Sports betting to build wealth is becoming the new American dream",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/sports-betting-to-build-wealth-is-becoming-the-new-american-dream-1e29b728?mod=mw_rss_topstories",
-   "published": "2026-08-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Former JPMorgan exec takes on Social Security advisory role",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/former-jpmorgan-exec-takes-on-social-security-advisory-role-d0cf6e4f?mod=mw_rss_topstories",
-   "published": "2026-08-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "China + iron ore",
    "holdings": [
     "VAS",
@@ -409,6 +379,21 @@
    "flag": "context-only"
   },
   {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "OpenAI to lease massive new AI data center in U.S., backed by Nvidia - Japan Today",
+   "source": "Japan Today",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRjN2NzRWT3dIMFpQQVZtd1VkN0RlSjhMNFFzSXlFTzRwaTJZWTJfNW9yWVdxLVZIcmlxN2ZPWEhrQjJPblZZaERzNU5iRXpYLXdCUjZoZ3NIZWNnM2pSWXlsZDBuSDRSYTl0OGpKN21oelpXWjZQdmZ5OXFVbmNnYU9IS0dtWWk4M0k4cmNOSVAtLTBwWl9OX3J0RDlfMERaejN2ZA?oc=5",
+   "published": "2026-08-19",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -447,6 +432,21 @@
    "flag": "context-only"
   },
   {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Nvidia to Back OpenAI Data Center With $105B Financing - AI Business",
+   "source": "AI Business",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTUdSc1FyNUZnWkgwSmFUajVMc2Niblp4RDI5NkN4UE5WS1lzNHVpMEstTVB5RHczMmkxeTFYVlB3Sm5mSzk4aUpCdnE5Z2RlNW1xR3lweXhkXzVHWElSRlp2RkY4T1JCWVdXLW5GVnlhYkJGT1FQMEdmWDNWTFhJc0l3N2VESnRUdHc?oc=5",
+   "published": "2026-08-18",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -469,19 +469,6 @@
    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260817~1f9f7149c9.en.pdf",
    "published": "2026-08-17",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "China + iron ore",
-   "holdings": [
-    "VAS",
-    "VHY"
-   ],
-   "title": "Iron Ore CFR China (Platts) Overview - CME Group",
-   "source": "CME Group",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTR5VVR4cVVRZlR2bWFQNUFJcjFfak9tNG1wOTdWelNkNWcwQWw2V2g4WUdvVHJWdDZIRE9lRXp3YnNSaHRhSWRmWlhPNkRkZldTT0tVRUlHdk5UeGZ3MExWTWs0NWt4VWhDT0l4TUJLaXNvcm9NM0JLWi1RMGlHVFVVNnZ2VW1uTlJudG1NRURmY19sS0hWNWdvUmR0UQ?oc=5",
-   "published": "2026-08-15",
-   "trust": "C",
    "flag": "context-only"
   },
   {

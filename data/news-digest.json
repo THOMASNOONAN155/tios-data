@@ -1,16 +1,208 @@
 {
- "generated": "2026-08-29T02:42Z",
+ "generated": "2026-08-29T22:20Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 46,
+ "count": 45,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Chevron's Microsoft Data Center Deal Was a Bigger Story Than Its Earnings. Here's Why. - The Motley Fool",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOT1pRX1hXYUpGLWx6YTM1QzlybExuWlpMbUQzWHFkcU5PR3hPZ3NONzJkZFREYURmSTBxSTRFSlhEQ1pVR0xkb0RkdmNlME8tYThvaFJrTnhwX01tMUtHTFJjbHFrV3ptOG5RQ2dGc0Y5U0dpa1Q1UEs5TXF3eHRjSnNrQl81Z2d6bFNLdDVUaDRGYVk?oc=5",
+   "published": "2026-08-29",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft-backed AI data center faces backlash over alleged unpermitted gas turbines and 1.5M-gallon LNG tank \u2014 groups' issues with $19.4B facility range from illegal construction to noise pollution - Tom's Hardware",
+   "source": "Tom's Hardware",
+   "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQdDUxdElCZEVydWRtUVRSQnFOZXpNQkVaTFVRb3FJZXd4TDdacTg1Ti1qaFNOMlRjTzQ2dkQ1WFlIRWdkVWNsa0pacFVCc1BfMTFHMWJJTUJlUVo0QWhMdjZDV3pKVk43blliSWVTUXRTcUp4R2lCcDRBNVk3ZllfU2ZVRGFDS1g5RHUtY1hwdmdFODR5WWR0cU1vVlh3OGNZaWt6dDVzSVVPeFBzQjhUbHNsLUxOMm9MbWdZNDBWRWRyaE8yYlFaeTQwbmtRYjZtM2xzUmF4aTlhMk5ETVg2LXJDbTRRTHZLZGV6VS1uMVo0R25rN0gzTWh3QklSRzQ2LU43OHN6TEFjdVBWY3doOTluSjVGOWVHVXhYODdjNlZoN3loNGtBU01FdzhYa1hQZmJYQUNldU1fUzQ?oc=5",
+   "published": "2026-08-29",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "US Allies and the Taiwan Strait \u2013 Book Review - Modern Diplomacy",
+   "source": "Modern Diplomacy",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOFZZei1rcFlKb0xtOXhFbl9KeFZPcGJLdnlWNVFseWItdS0xajlKeS1UaUFZc041NnhCdGJseFdoRnJrQ2ZRSE5HSnA3ZHVYcVdBNXg3bWtYWllqNlVqc0s0M04zcVBrWGRZbkFBZDRLUnlxcWdib0tGNU1KLV9hams0aXlpeGhzSUE?oc=5",
+   "published": "2026-08-29",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Lattice Semiconductor (LSCC) Could Be 31% Undervalued Following Its Latest AI Event - simplywall.st",
+   "source": "simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQV1JiZkJJY2hMWXVCVkM1d1FPVldKOW5DWUhrS1l6b0ViTi00d1RXWGxxLUhpM25wQUlpaXRoTVktbjBiYVRmUk9jVEdMalJvRDJrQ2NlM2V2akF5OE1mUlQ1YlhaaEV3SHNhU0FpOVJvVXFoamNWbjdieUJ1R1VwUDkyY2o3VmRWLWV3cXAyOUpRcjZ0QlR3OU9uOVZkWDFhLWJIVmJzaEU5Tm5fV0MxRDBpNzhPY3hLSUoyOUwySWpVVk51YXVHR0J4U2FyYjlac3FIUUlIV0s1Y2ZlSkJJ0gHkAUFVX3lxTE1Qemp6MHJXOTlrcVY4dUlqT1ZrQUxlYk9YLWs2TUJCdmhiMlJldDU0NjZzWG5UMEpyUHVrSXFrT3V1RmN1Z2ctdFZWUTE0NjRZVERjaXotV3UtTVdPUGtCMUlrZlhULWhRTWF3QmJLbW0xRjVqeERLNUVxbnNDdVdrcHg0YXAwZF81LUs0VEpKRTA2UUkzeFlyNUxYckxTLWZCYUR5YjFObjZBMkROMDQtNlF2dzJsWTdBTElfZThJWGpxcVlqSlZxMC1wRVVtU1JvaTZ5RHhZRkxPMGhnRDF1Z1RQaQ?oc=5",
+   "published": "2026-08-29",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Taiwan Semiconductor Manufacturing (TSM) Stock Looks Stretched As Its 363% Run Continues - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVHNLR2ViUjM2SHNnaFBqWXhza3dHTVVhaGw4c2hKR1lfSVF4SGtXbTdnam85RGhKN1RoSlF0T21iSjZQYXVuSXlRTGFWMjB3bGJDWkZabW1mRndtZzM4ZjBfem1Jb2VDYlhRRFplTU5jc0ZkSFotNG53RkltQWoyOEc5ekNPUkhHS2F5R1liOHdpTDhENmRSYm5pdkZwZDVULTVtbXBvS1ZwV2Y4UVE?oc=5",
+   "published": "2026-08-29",
+   "trust": "C",
+   "flag": "context-only"
+  },
   {
    "driver": "Crypto",
    "holdings": [
     "CRYP"
    ],
-   "title": "Ripple is preparing XRP Ledger for quantum computers before \u2018Q-Day\u2019 arrives",
+   "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
+   "url": "https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing",
+   "published": "2026-08-29",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Swift\u2019s $1.5 quadrillion network faces a blockchain test",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test",
+   "published": "2026-08-29",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "The next trillion-dollar currency may not be a stablecoin \u2014 it might not even have a name yet",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet",
+   "published": "2026-08-29",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Tokenized assets are busier than the data shows",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/opinion/2026/08/29/tokenized-assets-are-busier-than-the-data-shows",
+   "published": "2026-08-29",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges",
+   "published": "2026-08-29",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "AU tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Australia Plans To End 50% Crypto Capital Gains Tax Discount - CoinMarketCap",
+   "source": "CoinMarketCap",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ0loWTQ1SDViZXpSdkg1aGhqc3Y4Qm1PLThoSXpuOXR1S25wUmVyV0pGTHpTanJIVDRXUS1OREZ6ZzBXRUNmeUFtWVhHY25ER2trNjMxdFI1Q2xOa3hVeW5SdUxVUWU3RzIydG1DUnNhOU82MU1Cam90Q3R3R3NxUkVMU0dfQks5bV9oSUZzVERnVWs?oc=5",
+   "published": "2026-08-29",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Am I too old for Roth conversions? I\u2019m 84 and my wife is 77. We have $8 million saved.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
+   "published": "2026-08-29",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
+   "published": "2026-08-29",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018I feel shoehorned\u2019: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
+   "published": "2026-08-29",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Why would someone lock up money by rolling it into a 401(k)?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/why-would-someone-lock-up-money-by-rolling-it-into-a-401-k-2c742e90?mod=mw_rss_topstories",
+   "published": "2026-08-29",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "5 affordable cities to retire in the U.S. right now",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
    "published": "2026-08-29",
    "trust": "B",
    "flag": "context-only"
@@ -53,9 +245,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Microsoft Workers Raise Concerns Over AI Data Center Impact - marketscreener.com",
-   "source": "marketscreener.com",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNXQ1QnA4ZjNWVnpMTjBDUGl6N0hBcXI4TU0yWWEzWFd5eUxseDN6bTNUNmdvaGNyTmNlREIxYWJvUzVxaGhzVmYtdk93UnBxbjRXSjdId3MzQTcwNTY4al93THlXVzBMZ0Q4VmVjRVR3UTJ5V0l1Q1ZHb0JIUC1jOGpzeUlhd3BTSVpfdVJ6MkdTSlU2STZYWmJzMmtXak91VkU4UjlnWXZpak4ydnZiV3lR?oc=5",
+   "title": "Meta Tests Robots to Handle Data Center Work - Decrypt",
+   "source": "Decrypt",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtZlhXMUtQN180aFhjOENEQTZOSkMyeFZ1bU1rLTVERjNFQ1d5Mmo3WGsxTk5pOTlicGxRdjhLY3RING56VG9MTFB0dHZwTzdrUDVxbWZueDVHSDdBbTBuV1djNkYxUdIBbkFVX3lxTE03Q1l4R0szNXFWYnVLc0I4aGtqeVdwQ3I2b3d1cDg1Y1ZPVm1fZ2xxLVJjaVdBajgzWUVNdEwteEtVTjRmQ2RLWmFROFJKM0xrUEhnb01oRU5wRXdPdzUxZmlqai0zamV2c25zOHpn?oc=5",
    "published": "2026-08-28",
    "trust": "C",
    "flag": "context-only"
@@ -68,38 +260,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Prediction: Nvidia's Data Center Business Alone Clears $100 Billion in a Quarter This Fiscal Year - The Motley Fool",
-   "source": "The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbmQwWTkyamREcTZKUFhaRDdlMWNTSVhta09lOWRJTV8zSmZZQ0RNX2NzUTloYVo1RlBzQUZfekVwS0xfckZydXp3SWVVYXVscExFd0g0MnJBbGJWbkU0NVVaclpSb2hsVFZackthUzJ0SnE5YWlmV3p2bzctSHdRQnYwbDhEaGlQUldRQk5xZi03THZrVmFLbGttOW04Tl9GcjY0bmtuQkdMUHdWckl2dkhyc2hjd0NuQ0IzVkxuSnltWWd2d2JXZUU3RHl4VzlsSXZjc19JQ20?oc=5",
-   "published": "2026-08-28",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Microsoft-Backed AI Data Center Has Been Accused Of Violating Federal Law - Engadget",
-   "source": "Engadget",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZE5OMV9POUVMelVJcXBsWXNSY3U2cWw2Vm9BMmx3a0RCQlZNNnpNbnoxWjVMbDdoVV9tdGJnbTNsdnZwQk1TNzhONVdzVE4wWDNBNUhMalJxUFJGempPNGl2UGZwUzgtX0JibHY1UzAwcDZyRFE2bFgteHpKTTVWQ2YzNkIzTGpEU2pUa1k3X2hPUWFOUlpCM0ZwdGg5WGY5eERJSGJldXIyNDA?oc=5",
-   "published": "2026-08-28",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "What Is Taiwan Semiconductor Manufacturing (TSM) Getting From Its 3nm Chip Partnership? - simplywall.st",
-   "source": "simplywall.st",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQU2YzVEVRb0FTeW1JNFhNSmlaV2JGWTVRdUkyczhBU29PeEtQaVNOWGRIRUp5Ul83bDVMWDJxMmVDZWZQc1hwTVh3NUxHMUk0aDVrTVVSdC1hZ1NIVlhKRk1ZRGtOdWRzbk5PRU4ydTZkVnZSdFVaUHlOel9uRnhHQTVDVEFBaGtiZzBSLVE0Wm9pVXVKN3RGVFZucmVtRmZFR0xZSkc1S0NnRFp1Z0ltZEFtNE9kdnpBcW1YVnhxTktrNDNZSE1RZHBKTGcxV3hhcWI4MUN6LWxpdkpEUnU3NGNvN2xoUlQ0aHVF0gHwAUFVX3lxTE9BcVFHYm1qc0p1LUtWME8yQU91TmJyRVR6MmRUaGxOUnZmMmpZT3BXdFVGaEIxSjRyaFpRZ2JsTi16OEtDQmZ6NWxleTVIOTJxTFpuUW9ZVXlmRmY2eHFIX2VQSllnbUNmOWNtM1lnWENaYkVreUZIMWRjTnU3VjAtNFRtcUlfSlhkalRndDdtY3FUR25GeVFOOHAzVWVTb1lMSTNWU3FLcXlrZkxCNHRDX1BZSVptVTdyMDA1VEhSUUxyNXpYU0FRR1NWUjNSUmVCaW1PNWJUTHhYblNEWnZWbjZxVFNiUnM5cGlfV2JwUA?oc=5",
+   "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
    "published": "2026-08-28",
    "trust": "C",
    "flag": "context-only"
@@ -119,20 +282,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "India and Indonesia look to strengthen semiconductor ties - gasworld",
-   "source": "gasworld",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYzA0S0N0WnBDRlJSTTd6QlU5c3BwckdoZjNLUVB0VGZMc1I1WXQzeXZDeUg3amNScTFFVXkwaTctMkxmbVRsOTF5WmdNXzZGV0hrcUp6YVNKLWw5cmRCN0FCNVAzWWVfZm9MWEs0dGF4bWhWNE1yd1ZmQ3ptTFdGM2JDQms2alpIT09iLXVCNER5blJtdTM1Q1VRTDB6Yzg1SnY2NlB2Wk8?oc=5",
-   "published": "2026-08-28",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -143,66 +292,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68044",
    "published": "2026-08-28",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/08/28/kalshi-takes-legal-blow-in-court-ruling-confirming-state-powers-over-prediction-markets",
-   "published": "2026-08-28",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Solana vote to double disinflation passes by a hair in dramatic finish",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/08/28/solana-vote-to-double-disinflation-passes-by-a-hair-in-dramatic-finish",
-   "published": "2026-08-28",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "BitGo to buy NYDIG trading arm for $42.5M in cash and stock plus $15M earnout",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/28/bitgo-to-buy-nydig-trading-arm-for-usd42-5m-in-cash-and-stock-plus-usd15m-earnout",
-   "published": "2026-08-28",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/08/28/warsh-at-jackson-hole-we-have-work-to-do-on-inflaiton",
-   "published": "2026-08-28",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "AU tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Stealth super tax \u2018to cost workers $146k\u2019 - The Australian",
-   "source": "The Australian",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcS12QmFSTUxnT1Nrd1pfMjl3Ukl6aUNReFotWl9wNm84V0JNaFpqN194WTBFUURONnd3OWdMMWtmN1pGeF83N3ItQ1EzcnEydXI4b3k0WXVzVUtZLVJZYXJ2TlFnbXJhVXFTMG1nODh4NnJIOXJiYkgtZTdaV0staGdGVnlLN1pvcDhVT3dlRFhNcHpqc1c4SmRmbzhXcnkzVWZ1czRBVmdsdU1Bem9ybkNvUFJUNjRmbjhOaEp3azRFdkN2WGx5OUZSbjh2NmhiaENralhjRVd4aDl0LWfSAeMBQVVfeXFMTzA3eUlnUTBhRGNJZzM5SC1RT0tyTENoRFpySEpzMFh4VC1tZS11WFl4TVZMS1J6U3RuRUMxbEhQTUduamZDRTB2aEtyYmhnQlFRZzNadWNUejlQOGxfVEtjLTN6aUZqN0ctT3pUbC1TSlpxd0VERjMzdTFmS0x2eHRwc3E3Y2txTUxQVGYyNjNEUDlQSi1RZEloNTVDeXJhLXlud3preVV4SVpWR1R0OG5fVk96Wjh2ZFVqeU9RTG45Qnl1ZEptakdCSGZlVjhBMmEzdXQ1V1F3a0hFNEFsZi1ONGs?oc=5",
-   "published": "2026-08-28",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -278,66 +367,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
-   "published": "2026-08-28",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories",
-   "published": "2026-08-28",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Microsoft\u2019s stock seals its longest winning streak of the year as AI software fears fade",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/microsofts-stock-seals-its-longest-winning-streak-of-the-year-as-ai-software-fears-fade-e5669f5b?mod=mw_rss_topstories",
-   "published": "2026-08-28",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018We are committed Christians\u2019: Our son and daughter-in-law cut us off over politics. Should we change our $3 million will?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
-   "published": "2026-08-28",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Nvidia\u2019s revenue forecast is so huge that Wall Street wonders if SpaceX is the reason",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/nvidias-revenue-forecast-is-so-huge-that-wall-street-wonders-if-spacex-is-the-reason-1ee7a8a9?mod=mw_rss_topstories",
-   "published": "2026-08-28",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "US mega-cap / AI capex",
    "holdings": [
     "IVV",
@@ -348,20 +377,6 @@
    "title": "Nvidia\u2019s AI Boom Tests Data Center Infrastructure Limits - Data Center Knowledge",
    "source": "Data Center Knowledge",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNb1l5endxVXl5MGF3WGMyNzgtVjk2VjY1MS1GbUN4SUM0VnBXNVQxN2kzOXVNTjVnVnlsd1I5NUpsM3h1cDhGRXU1X1NCVFRZQ0ZGNGNXLXNKRTBlWkRNczQ0QUZfcHdCa1RqTWpvaHBnR2VLNnBEODM0NXNXdTJmVWV6Xzlhcmt3VFJ1b1h5RlNsd29MZnVkNmVZNFNqNVp5MDNldEhpQ3RValRhLUZjUDFNMjV2S25LSXhMTzFqMGo4dUczN2Y4?oc=5",
-   "published": "2026-08-27",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Another potential headache for US data centers \u2014 Trump tariffs - Politico",
-   "source": "Politico",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdFRMNlNMVUdZcnBvbXI3cURKYmxzLXpUaGx2MFZHVGUzOHpIWXhVSkJ6RXE0VVJpeGJUakFUVUtyUDBKV0Zrd2VjUUZiN0pUd050Rk1QNVF0LWVSTVIzOEpGa2xPUWNtT29nUWU3eWlHeWY3Mzh0b19BdjdhcldDYzZHS25UMTBzOWJB?oc=5",
    "published": "2026-08-27",
    "trust": "C",
    "flag": "context-only"
@@ -522,21 +537,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "NVIDIA, Cloverleaf Partnering to Advance Data Center Development - POWER Magazine",
-   "source": "POWER Magazine",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVkJSV1RNSl9GMWg3TmQxd3NnUHBBbkdzUThZTUktTEtXc3V3ZkZLUmxZWmJzbzlBZGJMUHFqY25STklPZHQxZ1FSQVhjN1BRSDVUQnRLbVZSR3NHQVZYNDc2cXpjcFhiLUFwLWtlZU1rdUExZC1ZTzJhei1ZQk1Ydk5xa204eU5zdHRyV0ZidEhEdDA?oc=5",
-   "published": "2026-08-23",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -546,19 +546,6 @@
    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260821~a044fdddd9.en.html",
    "published": "2026-08-21",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "Oklahoma, coach Brent Venables agree to new 6-year contract - ESPN",
-   "source": "ESPN",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc2hrTG1IUlhzMFFvZ2p2ZUxCcFZ3SFFMN3lQMVVSVmlPVmZ6eDlVa3NZYnBwdG11eUVVQTN6eEt4dEFCQUpkMEpPWFZhQk13bV95amZfeUF3WXF4eHhWS2JfYS1nU0phZzV0TGd2R3NRb0FySDFlajc4WGFaYXBNOUJxSFVsUW90MlE3OF9IUmZBLUt2MHJlVWg2OUdiMGpReGtDTmljNE10S01UMHl1X1ZwaVF5OFJj?oc=5",
-   "published": "2026-08-20",
-   "trust": "C",
    "flag": "context-only"
   },
   {

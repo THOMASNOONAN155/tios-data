@@ -1,8 +1,176 @@
 {
- "generated": "2026-08-29T22:20Z",
+ "generated": "2026-08-30T22:23Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
  "count": 45,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft, ratepayer advocates challenge ATC plan for data center transmission costs - Milwaukee Neighborhood News Service",
+   "source": "Milwaukee Neighborhood News Service",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSjhCWUVNZXQzNTYyTG5sYjNrcWpWMm1RS2lFcF9jV0xsRWh0Zy1Zci1uWXRTYkM5Y1RjX3g3bjVRNTdLY3hWeTlBUnIxLVl5OFlBTTJBaEhIVTNnX2pjS0JMR296QXl3bl80cE5zREx4YmI0MjZ6TnhWX2NLYmEzckxyOTE2U0RKQ19maHQ5QklZU200WDJwWVM1bkxXLXlUOWt0bWZtdU9aQVNRbXZ1U01vZEhOMDluQlZVN09MR0hSd3Z6?oc=5",
+   "published": "2026-08-30",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Cathie Wood buys $53 million of popular semiconductor stock - Yahoo Finance Singapore",
+   "source": "Yahoo Finance Singapore",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSWp0X0t5Q0lNUWtkeDVuV2N4dzk4c1ZjS3BmTXNVMWRPcFZ1Q0tGUno1UWNod3ZmdGY0RVg5bEE4ZnZvREM4M2VhY1VVMFlwaUtXc01MZzVrTllaWDhlYVpjNVd0NHpVdElNbU10RXlIdmhRUGVUaHRyeVRTM01xN2xR?oc=5",
+   "published": "2026-08-30",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "TSMC Q2 employee bonuses rise more than 50% - Taipei Times",
+   "source": "Taipei Times",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83RmhOY2hSeU53WFdLOUxvNlJVZ1NFY3l1dy1EREJVbVh5SE5MYWp2dTE3bEFXay0wdW5zaFExN2hIbmg2VzV1dzdJa0ZyV3FvbFptRjJpRlU3RzBqQzBxb2pRanhpVDZaOFpNS1Qwd2duUUdPN0E?oc=5",
+   "published": "2026-08-30",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race. - The Motley Fool",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeFN0RTZoMXNQZ0JUS2dHcWtFeGdKVGZtQjl2M1I4N1BYZWNkNVo5SkxPcWdQNmxIcnRkbnhRVUl1X3ZhbktwN2FKZWlmaEJXNm1DdXZLVkctLTE5T2hVS0JaUUlQVGtWTFAyaXoxbGp3NUNaRlYwRVBqQi1rLTVZbXF3VF9Ka2MyTWJacTNiandvN21CZ1E?oc=5",
+   "published": "2026-08-30",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/08/30/bitcoin-nears-usd79-000-as-michael-saylor-hints-at-first-bitcoin-purchase-in-two-months",
+   "published": "2026-08-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "From Hawala to Swift: Inside the 1,000-year battle to move money safely",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/30/from-hawala-to-swift-inside-the-1-000-year-battle-to-move-money-safely",
+   "published": "2026-08-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
+   "published": "2026-08-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018My main goal is to help people\u2019: I\u2019m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+   "published": "2026-08-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018I feel shoehorned\u2019: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
+   "published": "2026-08-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "U.S. stock futures flat as chances of rate hike rise after Warsh\u2019s Jackson Hole comments",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
+   "published": "2026-08-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
+   "published": "2026-08-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My contractor handed my $42,000 pool upgrade to a subcontractor I had already rejected. What can I do?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-contractor-handed-my-42-000-pool-upgrade-to-a-subcontractor-i-had-already-rejected-what-can-i-do-dce41b2b?mod=mw_rss_topstories",
+   "published": "2026-08-30",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
+   "published": "2026-08-29",
+   "trust": "C",
+   "flag": "context-only"
+  },
   {
    "driver": "US mega-cap / AI capex",
    "holdings": [
@@ -34,45 +202,15 @@
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
+   "driver": "Crypto",
    "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
+    "CRYP"
    ],
-   "title": "US Allies and the Taiwan Strait \u2013 Book Review - Modern Diplomacy",
-   "source": "Modern Diplomacy",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOFZZei1rcFlKb0xtOXhFbl9KeFZPcGJLdnlWNVFseWItdS0xajlKeS1UaUFZc041NnhCdGJseFdoRnJrQ2ZRSE5HSnA3ZHVYcVdBNXg3bWtYWllqNlVqc0s0M04zcVBrWGRZbkFBZDRLUnlxcWdib0tGNU1KLV9hams0aXlpeGhzSUE?oc=5",
+   "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
    "published": "2026-08-29",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Lattice Semiconductor (LSCC) Could Be 31% Undervalued Following Its Latest AI Event - simplywall.st",
-   "source": "simplywall.st",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQV1JiZkJJY2hMWXVCVkM1d1FPVldKOW5DWUhrS1l6b0ViTi00d1RXWGxxLUhpM25wQUlpaXRoTVktbjBiYVRmUk9jVEdMalJvRDJrQ2NlM2V2akF5OE1mUlQ1YlhaaEV3SHNhU0FpOVJvVXFoamNWbjdieUJ1R1VwUDkyY2o3VmRWLWV3cXAyOUpRcjZ0QlR3OU9uOVZkWDFhLWJIVmJzaEU5Tm5fV0MxRDBpNzhPY3hLSUoyOUwySWpVVk51YXVHR0J4U2FyYjlac3FIUUlIV0s1Y2ZlSkJJ0gHkAUFVX3lxTE1Qemp6MHJXOTlrcVY4dUlqT1ZrQUxlYk9YLWs2TUJCdmhiMlJldDU0NjZzWG5UMEpyUHVrSXFrT3V1RmN1Z2ctdFZWUTE0NjRZVERjaXotV3UtTVdPUGtCMUlrZlhULWhRTWF3QmJLbW0xRjVqeERLNUVxbnNDdVdrcHg0YXAwZF81LUs0VEpKRTA2UUkzeFlyNUxYckxTLWZCYUR5YjFObjZBMkROMDQtNlF2dzJsWTdBTElfZThJWGpxcVlqSlZxMC1wRVVtU1JvaTZ5RHhZRkxPMGhnRDF1Z1RQaQ?oc=5",
-   "published": "2026-08-29",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Taiwan Semiconductor Manufacturing (TSM) Stock Looks Stretched As Its 363% Run Continues - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVHNLR2ViUjM2SHNnaFBqWXhza3dHTVVhaGw4c2hKR1lfSVF4SGtXbTdnam85RGhKN1RoSlF0T21iSjZQYXVuSXlRTGFWMjB3bGJDWkZabW1mRndtZzM4ZjBfem1Jb2VDYlhRRFplTU5jc0ZkSFotNG53RkltQWoyOEc5ekNPUkhHS2F5R1liOHdpTDhENmRSYm5pdkZwZDVULTVtbXBvS1ZwV2Y4UVE?oc=5",
-   "published": "2026-08-29",
-   "trust": "C",
+   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -88,54 +226,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Swift\u2019s $1.5 quadrillion network faces a blockchain test",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test",
-   "published": "2026-08-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "The next trillion-dollar currency may not be a stablecoin \u2014 it might not even have a name yet",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet",
-   "published": "2026-08-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Tokenized assets are busier than the data shows",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/opinion/2026/08/29/tokenized-assets-are-busier-than-the-data-shows",
-   "published": "2026-08-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges",
-   "published": "2026-08-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "AU tax / reg",
    "holdings": [
     "ALL (disposal gate)"
@@ -145,66 +235,6 @@
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ0loWTQ1SDViZXpSdkg1aGhqc3Y4Qm1PLThoSXpuOXR1S25wUmVyV0pGTHpTanJIVDRXUS1OREZ6ZzBXRUNmeUFtWVhHY25ER2trNjMxdFI1Q2xOa3hVeW5SdUxVUWU3RzIydG1DUnNhOU82MU1Cam90Q3R3R3NxUkVMU0dfQks5bV9oSUZzVERnVWs?oc=5",
    "published": "2026-08-29",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Am I too old for Roth conversions? I\u2019m 84 and my wife is 77. We have $8 million saved.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
-   "published": "2026-08-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
-   "published": "2026-08-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018I feel shoehorned\u2019: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
-   "published": "2026-08-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Why would someone lock up money by rolling it into a 401(k)?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/why-would-someone-lock-up-money-by-rolling-it-into-a-401-k-2c742e90?mod=mw_rss_topstories",
-   "published": "2026-08-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "5 affordable cities to retire in the U.S. right now",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
-   "published": "2026-08-29",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -248,21 +278,6 @@
    "title": "Meta Tests Robots to Handle Data Center Work - Decrypt",
    "source": "Decrypt",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtZlhXMUtQN180aFhjOENEQTZOSkMyeFZ1bU1rLTVERjNFQ1d5Mmo3WGsxTk5pOTlicGxRdjhLY3RING56VG9MTFB0dHZwTzdrUDVxbWZueDVHSDdBbTBuV1djNkYxUdIBbkFVX3lxTE03Q1l4R0szNXFWYnVLc0I4aGtqeVdwQ3I2b3d1cDg1Y1ZPVm1fZ2xxLVJjaVdBajgzWUVNdEwteEtVTjRmQ2RLWmFROFJKM0xrUEhnb01oRU5wRXdPdzUxZmlqai0zamV2c25zOHpn?oc=5",
-   "published": "2026-08-28",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
    "published": "2026-08-28",
    "trust": "C",
    "flag": "context-only"
@@ -367,21 +382,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Nvidia\u2019s AI Boom Tests Data Center Infrastructure Limits - Data Center Knowledge",
-   "source": "Data Center Knowledge",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNb1l5endxVXl5MGF3WGMyNzgtVjk2VjY1MS1GbUN4SUM0VnBXNVQxN2kzOXVNTjVnVnlsd1I5NUpsM3h1cDhGRXU1X1NCVFRZQ0ZGNGNXLXNKRTBlWkRNczQ0QUZfcHdCa1RqTWpvaHBnR2VLNnBEODM0NXNXdTJmVWV6Xzlhcmt3VFJ1b1h5RlNsd29MZnVkNmVZNFNqNVp5MDNldEhpQ3RValRhLUZjUDFNMjV2S25LSXhMTzFqMGo4dUczN2Y4?oc=5",
-   "published": "2026-08-27",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "China + iron ore",
    "holdings": [
     "VAS",
@@ -400,9 +400,9 @@
     "VHY",
     "VAS"
    ],
-   "title": "NE PACK 15O FINAL | LI GULLS VS PENS ELITE| Clanko Media 2023 | [HD] Iran War Hormuz (FIp4GyUtAk) - Mshale",
-   "source": "Mshale",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TTGwtU2Q5SWdaYkhHbWNyZ1BrbndYcUtuRVlVX0xWQlFGZVBkXzhJWTF2OVgwSXpGZ25yQ3NrdjRWTFFNYjlxNk1zTTR5bjhNbFNLZEhuT21ENjQ?oc=5",
+   "title": "Brent Strom returning to Astros amid pitching struggles - ESPN",
+   "source": "ESPN",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnRLUkNSelFaZXdGT3lyU25oSE9JZmJJcGZTX3pIRzlrSndndmE4TnNDN2JYSjk1OU9xUDFFd05taUlPMjNtdC1mb2dkeHdGOS1FbGotYU1udlBoVGQ2VHFLSy1KVHY1TDFhZGlRSzBGVldfQ0tmTHFJUzV0UHNhcnlieHNvU3JKUUNmMFV3TGJZNXZtbEdCMGcyYnhSZw?oc=5",
    "published": "2026-08-27",
    "trust": "C",
    "flag": "context-only"
@@ -413,9 +413,9 @@
     "VHY",
     "VAS"
    ],
-   "title": "Brent Strom returning to Astros amid pitching struggles - ESPN",
-   "source": "ESPN",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnRLUkNSelFaZXdGT3lyU25oSE9JZmJJcGZTX3pIRzlrSndndmE4TnNDN2JYSjk1OU9xUDFFd05taUlPMjNtdC1mb2dkeHdGOS1FbGotYU1udlBoVGQ2VHFLSy1KVHY1TDFhZGlRSzBGVldfQ0tmTHFJUzV0UHNhcnlieHNvU3JKUUNmMFV3TGJZNXZtbEdCMGcyYnhSZw?oc=5",
+   "title": "NE PACK 15O FINAL | LI GULLS VS PENS ELITE| Clanko Media 2023 | [HD] Iran War Hormuz (FIp4GyUtAk) - Mshale",
+   "source": "Mshale",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TTGwtU2Q5SWdaYkhHbWNyZ1BrbndYcUtuRVlVX0xWQlFGZVBkXzhJWTF2OVgwSXpGZ25yQ3NrdjRWTFFNYjlxNk1zTTR5bjhNbFNLZEhuT21ENjQ?oc=5",
    "published": "2026-08-27",
    "trust": "C",
    "flag": "context-only"

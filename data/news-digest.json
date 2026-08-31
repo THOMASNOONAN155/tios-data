@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-30T22:23Z",
+ "generated": "2026-08-31T23:36Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
  "count": 45,
  "items": [
@@ -11,10 +11,40 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Microsoft, ratepayer advocates challenge ATC plan for data center transmission costs - Milwaukee Neighborhood News Service",
-   "source": "Milwaukee Neighborhood News Service",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSjhCWUVNZXQzNTYyTG5sYjNrcWpWMm1RS2lFcF9jV0xsRWh0Zy1Zci1uWXRTYkM5Y1RjX3g3bjVRNTdLY3hWeTlBUnIxLVl5OFlBTTJBaEhIVTNnX2pjS0JMR296QXl3bl80cE5zREx4YmI0MjZ6TnhWX2NLYmEzckxyOTE2U0RKQ19maHQ5QklZU200WDJwWVM1bkxXLXlUOWt0bWZtdU9aQVNRbXZ1U01vZEhOMDluQlZVN09MR0hSd3Z6?oc=5",
-   "published": "2026-08-30",
+   "title": "Will Amazon or Alphabet Better Digest AI Capex This Quarter? - 24/7 Wall St.",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWl95YmhNTDV3X1k1eFhjTzRDcEp3LUd6S1NGTzFGeHdINXdpa2lNREZ3VndfTzdiQTRuR3NVMVVzRmFpTGRWSFczcC1mQnp4UXNaSi1xUVBnT2djWHhyZTdkUmJpMVZkSUM4b2VGMVJicnpTa0NpUFRoTlNrWWNuRmxiNEFGeDlGVkNMd3FPNEF6NUFnVDBRZ3lKVnJMYnJUMWF4V3F3?oc=5",
+   "published": "2026-08-31",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta Tests Robot Technicians: Inside Its Push to Automate Data Center Work - TechRepublic",
+   "source": "TechRepublic",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUkVtYTVaVm80Q2FqbUx3dEwxV1UxMkxGeWhYWXVQTjAxclFpOGR2bnBwQk1IeXA0dDA1NHpfNDlXMG5XUF9CZXVBR1VYX3Nna3ZKSHRTQXhqdV9mLUlmX18ydVEyT2hRZzNLcGd6UFFqbG1Ub3ZHZXM2M3l5SVM4SGRRV29UTXdmNF9SeHhqbGJvbFU?oc=5",
+   "published": "2026-08-31",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Amazon\u2019s Appeal Is More About This Than The AI Capex Fear Discount - 24/7 Wall St.",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSmljbU1nZmxpcS1Da0JRM1dVdFo5ZThqOEJ3Z3NjckJZUDZxb1RPb01zQk1JY2FpNk1OZ1lleDBEanVRb280MkNLZmd6UGg1NERCV01nc0diTEQ5dV9ZemN1RVJTODlOZG10Zm1jbnFVeDEzbktldVVka01iMzhlZzhSUjBXN3lUVF9qRFVaWkQ4VWtSNnRtd19Sei1ZTlY0c29mLWxHQzdET0dfQXc?oc=5",
+   "published": "2026-08-31",
    "trust": "C",
    "flag": "context-only"
   },
@@ -25,10 +55,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Cathie Wood buys $53 million of popular semiconductor stock - Yahoo Finance Singapore",
-   "source": "Yahoo Finance Singapore",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSWp0X0t5Q0lNUWtkeDVuV2N4dzk4c1ZjS3BmTXNVMWRPcFZ1Q0tGUno1UWNod3ZmdGY0RVg5bEE4ZnZvREM4M2VhY1VVMFlwaUtXc01MZzVrTllaWDhlYVpjNVd0NHpVdElNbU10RXlIdmhRUGVUaHRyeVRTM01xN2xR?oc=5",
-   "published": "2026-08-30",
+   "title": "Southeast Asia Shows Surprising Semiconductor Strengths - cepa.org",
+   "source": "cepa.org",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWE91WTYwallTOFZBeDQyVEFuOE84MllWTVExU2dLWTFDSEJVYmFfYUtXb0RtVUNSSm50Zl9hQS1xV09QbFMxVU9SbFoxVUkxV0dMRmtkblI2ekhWS1puRzJseGdybjJWQ1d0NW52Z21hVk41N1RkVWFHckhWajh4bnNVejFERTFV?oc=5",
+   "published": "2026-08-31",
    "trust": "C",
    "flag": "context-only"
   },
@@ -39,10 +69,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "TSMC Q2 employee bonuses rise more than 50% - Taipei Times",
+   "title": "Silicon photonics expected to dominate AI growth, TSMC vice president says - Taipei Times",
    "source": "Taipei Times",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83RmhOY2hSeU53WFdLOUxvNlJVZ1NFY3l1dy1EREJVbVh5SE5MYWp2dTE3bEFXay0wdW5zaFExN2hIbmg2VzV1dzdJa0ZyV3FvbFptRjJpRlU3RzBqQzBxb2pRanhpVDZaOFpNS1Qwd2duUUdPN0E?oc=5",
-   "published": "2026-08-30",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBoLXZObUlYVmFDTEtDaXdyalFCM2FBT0hteTRKbHozUTVoaDNTaGhEdTVDdkk2Y3FRRVNxQTFrTWhYM1pPX2kwZ0x2c2p1bVFFVUpNN21pSVNaVzNraHdtdHFvelVPV0dNdTFwNXJ5Y19TZkNZR3c?oc=5",
+   "published": "2026-08-31",
    "trust": "C",
    "flag": "context-only"
   },
@@ -53,10 +83,51 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race. - The Motley Fool",
-   "source": "The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeFN0RTZoMXNQZ0JUS2dHcWtFeGdKVGZtQjl2M1I4N1BYZWNkNVo5SkxPcWdQNmxIcnRkbnhRVUl1X3ZhbktwN2FKZWlmaEJXNm1DdXZLVkctLTE5T2hVS0JaUUlQVGtWTFAyaXoxbGp3NUNaRlYwRVBqQi1rLTVZbXF3VF9Ka2MyTWJacTNiandvN21CZ1E?oc=5",
-   "published": "2026-08-30",
+   "title": "Semiconductor, Defense Sectors Lure Elite Bureaucrats - \uc870\uc120\uc77c\ubcf4",
+   "source": "\uc870\uc120\uc77c\ubcf4",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPODNSR05sUkRDTUJmUE9SeDdDVm9wQ2N2M0l6VlhzRnBzMTQwTndGVElHWGdoUWVoSzR4RERROGgzSWRvRkQ1bElrRXJZdnVIRUxhUHRjU0tHeTFWRWZ2U2s2S2cwbmdKSGlWMWR6WlNlRFNGZEhHMWNoYlppX0ZucC1wMUVHSTRM?oc=5",
+   "published": "2026-08-31",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "What Is the Philadelphia Semiconductor Index and Who Still Moves It? - Disruption Banking",
+   "source": "Disruption Banking",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQmlSc2dSd1Z3WHFPdDM2QjNBS0QzdFhuNFRZUWZxLW1XUXE5THVPMndCTUk2VkNsdkhQRkZ5QzJxNVVzWTNQN3ZoOTI0UUVMR0pjYWktNU91eFoyWm5iVGN1QlZOMkE5Qy1GTFBQVU4tckhyQ1JPZlpLS1d6ZmFDUmdDOTVKR2NSb09kSFpzWm10bzBqUzctaERsT1B6S3NVdTVNLWM2WDN4c2wyd0JrU191Zw?oc=5",
+   "published": "2026-08-31",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Wuxi conference highlights new frontiers in city's semiconductor industry - China Daily",
+   "source": "China Daily",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBldHRjS1MzZm53Z2ZaR0t0RVVqZEZTX0hybDhBcHV5VzVPX0ZPV0o5YkNmRURQUld6dGNwQllDRnlVSEhzRy05c0hOMlc0aFdQWENGY3pESmJTelZjWlh1amstakhTS1cxTkstTU0xWVFTaHlTNzJVc3l3bkpEdw?oc=5",
+   "published": "2026-08-31",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "Trump Calls Iran \u2018Failed Nation\u2019, Demands War Crimes Trial - - TVC News",
+   "source": "TVC News",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeGhVd2I1T1MyZFVQSVFwaGRWeFNGWmVPRF9JSEYyYmNWZGgzUmM0M3A5d2pHTE8wS3UyTElHaWNSSlRncTd3dUUyekJqZFROZ2otNUV4NjBXZVM1V05tRFdaYU5HOU9iUS1aRk43aXlCeGFOUGMyLURoeFpMYTNaN1dRSU0tQQ?oc=5",
+   "published": "2026-08-31",
    "trust": "C",
    "flag": "context-only"
   },
@@ -65,10 +136,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000",
+   "title": "North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/08/30/bitcoin-nears-usd79-000-as-michael-saylor-hints-at-first-bitcoin-purchase-in-two-months",
-   "published": "2026-08-30",
+   "url": "https://www.coindesk.com/business/2026/08/31/north-korean-hackers-are-moving-tens-of-millions-on-hyperliquid-as-trump-pushes-to-onshore-the-crypto-platform",
+   "published": "2026-08-31",
    "trust": "B",
    "flag": "context-only"
   },
@@ -77,10 +148,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "From Hawala to Swift: Inside the 1,000-year battle to move money safely",
+   "title": "Kalshi lays down first lifetime ban for ex-member of Congress George Santos",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/30/from-hawala-to-swift-inside-the-1-000-year-battle-to-move-money-safely",
-   "published": "2026-08-30",
+   "url": "https://www.coindesk.com/policy/2026/08/31/kalshi-lays-down-first-lifetime-ban-for-ex-member-of-congress-george-santos",
+   "published": "2026-08-31",
    "trust": "B",
    "flag": "context-only"
   },
@@ -89,10 +160,70 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+   "title": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
-   "published": "2026-08-30",
+   "url": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm",
+   "published": "2026-08-31",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Ireland bars crypto from new tax-advantaged investment accounts",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/31/ireland-bars-crypto-from-new-tax-advantaged-investment-accounts",
+   "published": "2026-08-31",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitmine makes largest ether purchase since June as Tom Lee points to crypto's strong Q3",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/31/bitmine-makes-largest-ether-purchase-since-june-as-tom-lee-points-to-crypto-s-strong-q3",
+   "published": "2026-08-31",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Rates and thresholds for employers 2026 to 2027",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
+   "published": "2026-08-31",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: Transit newsletters \u2014 HMRC updates",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/community-common-transit-and-tir-newsletters",
+   "published": "2026-08-31",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Amazon\u2019s stock slips as the FTC alleges billions of dollars in hidden ad fees",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
+   "published": "2026-08-31",
    "trust": "B",
    "flag": "context-only"
   },
@@ -101,10 +232,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "\u2018My main goal is to help people\u2019: I\u2019m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+   "title": "\u2018I\u2019m leaving money on the table\u2019: I\u2019m 64 and my husband is 70. Should I take spousal benefits or wait for my own?",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-   "published": "2026-08-30",
+   "url": "https://www.marketwatch.com/story/im-leaving-money-on-the-table-im-64-and-my-husband-is-70-should-i-take-spousal-benefits-or-wait-for-my-own-2490f5cd?mod=mw_rss_topstories",
+   "published": "2026-08-31",
    "trust": "B",
    "flag": "context-only"
   },
@@ -113,10 +244,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "\u2018I feel shoehorned\u2019: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
+   "title": "The S&P 500 usually falls in September. Why this year should be different.",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
-   "published": "2026-08-30",
+   "url": "https://www.marketwatch.com/story/the-s-p-500-usually-falls-in-september-why-this-year-should-be-different-77ebb626?mod=mw_rss_topstories",
+   "published": "2026-08-31",
    "trust": "B",
    "flag": "context-only"
   },
@@ -125,10 +256,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "U.S. stock futures flat as chances of rate hike rise after Warsh\u2019s Jackson Hole comments",
+   "title": "\u2018Neither of us attended college\u2019: At 62, how can we afford to put our granddaughter through college?",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
-   "published": "2026-08-30",
+   "url": "https://www.marketwatch.com/story/her-life-was-very-challenging-before-we-got-custody-at-62-how-can-we-afford-to-put-our-granddaughter-through-college-b9d550bb?mod=mw_rss_topstories",
+   "published": "2026-08-31",
    "trust": "B",
    "flag": "context-only"
   },
@@ -137,22 +268,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+   "title": "Vanguard\u2019s S&P 500 index fund changed how we invest \u2014 but there may be a smarter way to get into the market",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
-   "published": "2026-08-30",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "My contractor handed my $42,000 pool upgrade to a subcontractor I had already rejected. What can I do?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-contractor-handed-my-42-000-pool-upgrade-to-a-subcontractor-i-had-already-rejected-what-can-i-do-dce41b2b?mod=mw_rss_topstories",
-   "published": "2026-08-30",
+   "url": "https://www.marketwatch.com/story/vanguards-s-p-500-index-fund-changed-how-we-invest-but-there-may-be-a-smarter-way-to-get-into-the-market-a54a612c?mod=mw_rss_topstories",
+   "published": "2026-08-31",
    "trust": "B",
    "flag": "context-only"
   },
@@ -169,60 +288,6 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
    "published": "2026-08-29",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Chevron's Microsoft Data Center Deal Was a Bigger Story Than Its Earnings. Here's Why. - The Motley Fool",
-   "source": "The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOT1pRX1hXYUpGLWx6YTM1QzlybExuWlpMbUQzWHFkcU5PR3hPZ3NONzJkZFREYURmSTBxSTRFSlhEQ1pVR0xkb0RkdmNlME8tYThvaFJrTnhwX01tMUtHTFJjbHFrV3ptOG5RQ2dGc0Y5U0dpa1Q1UEs5TXF3eHRjSnNrQl81Z2d6bFNLdDVUaDRGYVk?oc=5",
-   "published": "2026-08-29",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Microsoft-backed AI data center faces backlash over alleged unpermitted gas turbines and 1.5M-gallon LNG tank \u2014 groups' issues with $19.4B facility range from illegal construction to noise pollution - Tom's Hardware",
-   "source": "Tom's Hardware",
-   "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQdDUxdElCZEVydWRtUVRSQnFOZXpNQkVaTFVRb3FJZXd4TDdacTg1Ti1qaFNOMlRjTzQ2dkQ1WFlIRWdkVWNsa0pacFVCc1BfMTFHMWJJTUJlUVo0QWhMdjZDV3pKVk43blliSWVTUXRTcUp4R2lCcDRBNVk3ZllfU2ZVRGFDS1g5RHUtY1hwdmdFODR5WWR0cU1vVlh3OGNZaWt6dDVzSVVPeFBzQjhUbHNsLUxOMm9MbWdZNDBWRWRyaE8yYlFaeTQwbmtRYjZtM2xzUmF4aTlhMk5ETVg2LXJDbTRRTHZLZGV6VS1uMVo0R25rN0gzTWh3QklSRzQ2LU43OHN6TEFjdVBWY3doOTluSjVGOWVHVXhYODdjNlZoN3loNGtBU01FdzhYa1hQZmJYQUNldU1fUzQ?oc=5",
-   "published": "2026-08-29",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
-   "published": "2026-08-29",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing",
-   "published": "2026-08-29",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -283,20 +348,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "What Does Weebit Nano\u2019s (ASX:WBT) FY26 Result Reveal About Its Semiconductor Growth Strategy? - Kalkine",
-   "source": "Kalkine",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMDZMdl9wQUNmTE9mbzJhV3pLRllmNzZSdTBoTUcwUkZieFBSNE1VbVBVSDZVMWZhYjUtYnFkSEFpSFdwaW5nMzBYdFB2Y0tpWmFISFlnekprV0cxRFVUVHRhd3MyTFp5UE12bDhIR2txeThDc3dDWVNzaEpaYllEcmlZeDc3aWFVdE9kck1PUlBPYnQxMC1rVzMzQXFPVXQ4VG1OeGd3SmZmVWpQTGhnNG43a2tsRTVpTl9vUVMtWC1xVFJMeXc?oc=5",
-   "published": "2026-08-28",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -341,30 +392,6 @@
    "title": "Preparing to use a mass balance approach for Plastic Packaging Tax",
    "source": "gov.uk HMRC",
    "url": "https://www.gov.uk/guidance/preparing-to-use-a-mass-balance-approach-for-plastic-packaging-tax",
-   "published": "2026-08-28",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Minimum certification requirements for a mass balance approach for Plastic Packaging Tax",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/minimum-certification-requirements-for-a-mass-balance-approach-for-plastic-packaging-tax",
-   "published": "2026-08-28",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Check if an email you've received from HMRC is genuine",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/check-if-an-email-youve-received-from-hmrc-is-genuine",
    "published": "2026-08-28",
    "trust": "A",
    "flag": "context-only"
@@ -498,20 +525,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Gartner Forecasts Worldwide Semiconductor Revenue to Reach $1.6 Trillion in 2026 - Gartner",
-   "source": "Gartner",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRWlpWG85TTI3MEo5QjkweWtGRFF3b3NyN0U1UVlJWkd5VlBpTVRJMjBadWZHU3dLVEJfWWxGZ1BpUW95dWd2d3IwWGNqTHlOTjFVd3VHc3pfTGE3dmZ6QzFMRzJTUzVuUzJ3YmlnVEZNR0dtbmY4YWFVZlJ5TnFod1pnUWRmcDc5LUpJREVETXk5X2VScEJFWHFHbXZDcHZlbGdBMXB6LTdWcDFBVmE0WUlzSjR1eURRcEJXOGFPUUZTQ3FMNFgxSXIwTTdOTlE3ZmFoTW1YOWV1bEc5em85Tg?oc=5",
-   "published": "2026-08-24",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -573,19 +586,6 @@
    "source": "EIA Today in Energy",
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=67984",
    "published": "2026-08-19",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "Waterborne shipments from the U.S. Gulf Coast increased in April and May",
-   "source": "EIA Today in Energy",
-   "url": "https://www.eia.gov/todayinenergy/detail.php?id=67964",
-   "published": "2026-08-17",
    "trust": "A",
    "flag": "context-only"
   }

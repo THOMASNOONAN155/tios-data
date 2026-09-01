@@ -1,8 +1,328 @@
 {
- "generated": "2026-08-31T23:36Z",
+ "generated": "2026-09-01T22:22Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 45,
+ "count": 46,
  "items": [
+  {
+   "driver": "US rates / Fed",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
+   "source": "Fed speeches",
+   "url": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm",
+   "published": "2026-09-01",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US rates / Fed",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Major Economic Indicators Latest Numbers",
+   "source": "BLS",
+   "url": "https://www.bls.gov/bls/",
+   "published": "2026-09-01",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft: Why This Is The Hyperscaler Pick In My Recommended Stock Portfolio (MSFT) - Seeking Alpha",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOWhEeGhZVENRdFpBNm5mVkJIR2trVGJxS01xSW5GNnUtMjhKeHM1bC1qM280OTNwaVJrbDl2blRzallhUHhNc3R1Y2FKTmVlU0VrZHlmVURxNmlYa1lDZmVreUpIczU1LTViOGFtb3NhMHlYcVZMQUtrUzloLWlkUUFBbE1mTVBFNTFrX25icngtQ0pTcmxxUVNhc2tfZ1UtLUQ4cGZnazMzemNOT0ZESlg1VEQyMElK?oc=5",
+   "published": "2026-09-01",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Taiwan Semiconductor Manufacturing Company (TSM) Limited Continues to Deliver Stellar Financial Results - Yahoo Finance Australia",
+   "source": "Yahoo Finance Australia",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVGNRWjFydGh4eFA5RENNODd5dXN0bHRUM1hzNnB3aGVsVkczLW9EYmlSYjVoV3R6WF9IT3hZZUdrLThnaURFb2Y0QmpSSF9JQndSb1o2VjYxekVnMVhlSlRtVTZIUTMyR282RTE2YVl0WUkzQWxqSUNlTHc1RXZkNGlrT2pVaVJEX3NIQmdnR1FsalhaYThiUGcxdw?oc=5",
+   "published": "2026-09-01",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Pathkey.AI (ASX:PKY): AI Semiconductor and Healthcare Technology Ambitions Remain in Focus - Kalkine",
+   "source": "Kalkine",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZzhQMGVxNXBiQy02b2t2MGQwSUJfWksydDQ3ZDdjLUlIT1hkdkdURnI1UE5aUG1ZVDJBYzNOOVZzQkhvc1NRZkUzSzhaNmZ0ZlpwRUxvQklWT09UQldzWDkwaFFicTJ1UE11dmN2dGNCajFZSGNydW1PX3FVRHRtR2dqQ1lzVU5oZUJIeVpvRjNCTGhaOW1GX1ZMV3JDRkF6bFd4UDJiSEMwR1Z2OEFHYnNDQ1ZHbUU1cUh5WUdTVVU2dw?oc=5",
+   "published": "2026-09-01",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "ON Semiconductor (ON) Faces A Fair Value Debate, Is The 35% Undervaluation Case Convincing? - simplywall.st",
+   "source": "simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMkx6UzF3dVdJYW42aTlQdmZqTWVqRXNRZ1hrY2RzamIyTjZfTmtrNXIxNE9SVXdYWGxaSGo0RFZpbGJUckRpY0xmV0FrWFNxNXBmQjgySkw5eXpmaThZcG9Pa1F0YmNnVmFFd3lJWjl5MjQwdGU0cl9iTjdzdjJ1Qm5iNzk1NE5ORk1CTi1fX1hDTXR4dUNCbDkzRTY1UFFyeGpHMWpJUTFoUDZfTi1uWnBsOWoxQjdlZUFXMkc2b3Eyb0F4RmdXSmRpQ2dxMWxzd2h0eW5R0gHbAUFVX3lxTE5xRldscU04OEJlc3c4TE85RTZyR3RZTmhWYlBOUVhGa2Vja19JQ053Y3o5ZE5KMjBhUHQzWW9CUUZ5ZVZVMkJBcDZTQ21xT05QWlZUb294TjRhVlVWZXJ1TzBCaWRhVkxDUTJpNXpTWkllY1UzVFNMNWo2VnE2UGd1dGJDbjZiZGdKV1RjZlZFN0s1dnNVWmJIanR3c0xyS3d2OVdNTHZURjd5LTl1NU4wcUNuc0xxNVZnUXlRbFlvLXNyOXVjczBBdWlsMnNPUC1mRkFrSEx6RUNOWQ?oc=5",
+   "published": "2026-09-01",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "New global hub advances Arizona's semiconductor industry - University of Arizona News",
+   "source": "University of Arizona News",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUENENWFOaXNJU3RtR1dEc1ctNkI4S2dNWHd0ZnRVLTBiNV9HUmZIaFBwOURpOHpKbS13Ymd5XzFaUWpIUVJyQ282SjFydlF2ZHE1WXRTekh6eTRjSkNlM29WZGVaMTd0Zno4TlNCWVkwYkpqcGNSSVgxRWlxenFIam5waGdxbHEtU093ZVdR?oc=5",
+   "published": "2026-09-01",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Goldman Sachs: AI Capex Resilience Runs Through the Semiconductor Supply Chain, Equipment Upcycle Could Extend to 2028 - finance.biggo.com",
+   "source": "finance.biggo.com",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBISUstVVdCMzViYWNDREhFaFN3ckxnNEVIMmVoaTkxV21WdzVRSDZCRFpON1EzTVZvM08zbTVXNHpBOXVsV25LcEp0WXM5NW1wMWNMMWUySTFwdHNLU1ZLZmJwYzVYVDBENzIwelhuU0o5ci1lalE?oc=5",
+   "published": "2026-09-01",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "U.S. LNG exports rose 23% in the first half of 2026 because of higher capacity",
+   "source": "EIA Today in Energy",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=",
+   "published": "2026-09-01",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/09/01/citi-goldman-other-global-banks-and-asset-managers-team-up-on-stablecoin-venture",
+   "published": "2026-09-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/09/01/robinhood-s-new-crypto-network-is-printing-cash-and-it-s-sending-arbitrum-s-token-soaring",
+   "published": "2026-09-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Musk\u2019s X hit by wave of unsolicited password reset emails",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/09/01/musk-s-x-hit-by-wave-of-unsolicited-password-reset-emails",
+   "published": "2026-09-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Firelight raises $8 million, expands beyond XRP as it aims to make DeFi less scary for fintechs",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/08/31/firelight-raises-usd8-million-expands-beyond-xrp-as-it-aims-to-make-defi-less-scary-for-fintechs",
+   "published": "2026-09-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin enters \u2018Rektember\u2019 as rate-hike risk combines with seasonality to threaten rally",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/09/01/bitcoin-enters-rektember-as-rate-hike-risks-threaten-its-august-rally",
+   "published": "2026-09-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: One Stop Shop Union scheme: service availability and issues",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/one-stop-shop-union-scheme-service-availability-and-issues",
+   "published": "2026-09-01",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: VAT Import One Stop Shop Scheme: service availability and issues",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/vat-import-one-stop-shop-scheme-service-availability-and-issues",
+   "published": "2026-09-01",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Debt Management and Banking Manual",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking",
+   "published": "2026-09-01",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Accredited official statistics: UK overseas trade in goods statistics: July 2026",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/statistics/announcements/uk-overseas-trade-in-goods-statistics-july-2026",
+   "published": "2026-09-01",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "One month until Vaping Products Duty and the Vaping Duty Stamps Scheme start",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/news/one-month-until-vaping-products-duty-and-the-vaping-duty-stamps-scheme-start",
+   "published": "2026-09-01",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Boris Vuj\u010di\u0107: Listening to households: expectations, behaviour and monetary policy",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
+   "published": "2026-09-01",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Dow drops below a key chart level, warning of more trouble ahead",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/dow-drops-below-a-key-chart-level-warning-of-more-trouble-ahead-ec3eb664?mod=mw_rss_topstories",
+   "published": "2026-09-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Dell\u2019s AI servers drive a stellar earnings performance, and a raised outlook",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/dells-ai-servers-drive-a-stellar-earnings-performance-and-a-raised-outlook-86476ace?mod=mw_rss_topstories",
+   "published": "2026-09-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Palo Alto Networks\u2019 stock falls despite strong AI cybersecurity demand",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/palo-alto-networks-stock-climbs-as-demand-for-ai-cybersecurity-powers-an-earnings-beat-4b39578c?mod=mw_rss_topstories",
+   "published": "2026-09-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Which workers are using AI surprisingly often? Dry cleaners and construction workers.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/which-workers-are-using-ai-surprisingly-often-dry-cleaners-and-construction-workers-b0ea5655?mod=mw_rss_topstories",
+   "published": "2026-09-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "This could be the 10-year Treasury\u2019s tipping point into the danger zone",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/this-could-be-the-10-year-treasurys-tipping-point-into-the-danger-zone-891cd45d?mod=mw_rss_topstories",
+   "published": "2026-09-01",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US mega-cap / AI capex",
    "holdings": [
@@ -26,9 +346,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Meta Tests Robot Technicians: Inside Its Push to Automate Data Center Work - TechRepublic",
-   "source": "TechRepublic",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUkVtYTVaVm80Q2FqbUx3dEwxV1UxMkxGeWhYWXVQTjAxclFpOGR2bnBwQk1IeXA0dDA1NHpfNDlXMG5XUF9CZXVBR1VYX3Nna3ZKSHRTQXhqdV9mLUlmX18ydVEyT2hRZzNLcGd6UFFqbG1Ub3ZHZXM2M3l5SVM4SGRRV29UTXdmNF9SeHhqbGJvbFU?oc=5",
+   "title": "Nvidia partners with Cloverleaf to accelerate data center development - Channel Dive",
+   "source": "Channel Dive",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN0ZuWUNFeVF0eVY5NW9ITS0zWlNsek4wUXIxRndHRFhGTWZMMnRqMDV5YmpGeHFjaGgxdWxMOE5XMHRHMkc5Y1h5TnlhVjhaTFFncDJEbmdCSlFkeDFEb3hHOWVtbXF4TUxhT2dRbF9QSkJuZEd0ZnhHUlU0S3A5dDFYMGRrY3dpZFYxaG5wSXFPYVlqbU1EcDBzaHFzN1JrQTRDV2Y1MnN3cnJHQXpN?oc=5",
    "published": "2026-08-31",
    "trust": "C",
    "flag": "context-only"
@@ -41,79 +361,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Amazon\u2019s Appeal Is More About This Than The AI Capex Fear Discount - 24/7 Wall St.",
-   "source": "24/7 Wall St.",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSmljbU1nZmxpcS1Da0JRM1dVdFo5ZThqOEJ3Z3NjckJZUDZxb1RPb01zQk1JY2FpNk1OZ1lleDBEanVRb280MkNLZmd6UGg1NERCV01nc0diTEQ5dV9ZemN1RVJTODlOZG10Zm1jbnFVeDEzbktldVVka01iMzhlZzhSUjBXN3lUVF9qRFVaWkQ4VWtSNnRtd19Sei1ZTlY0c29mLWxHQzdET0dfQXc?oc=5",
-   "published": "2026-08-31",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Southeast Asia Shows Surprising Semiconductor Strengths - cepa.org",
-   "source": "cepa.org",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWE91WTYwallTOFZBeDQyVEFuOE84MllWTVExU2dLWTFDSEJVYmFfYUtXb0RtVUNSSm50Zl9hQS1xV09QbFMxVU9SbFoxVUkxV0dMRmtkblI2ekhWS1puRzJseGdybjJWQ1d0NW52Z21hVk41N1RkVWFHckhWajh4bnNVejFERTFV?oc=5",
-   "published": "2026-08-31",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Silicon photonics expected to dominate AI growth, TSMC vice president says - Taipei Times",
-   "source": "Taipei Times",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBoLXZObUlYVmFDTEtDaXdyalFCM2FBT0hteTRKbHozUTVoaDNTaGhEdTVDdkk2Y3FRRVNxQTFrTWhYM1pPX2kwZ0x2c2p1bVFFVUpNN21pSVNaVzNraHdtdHFvelVPV0dNdTFwNXJ5Y19TZkNZR3c?oc=5",
-   "published": "2026-08-31",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Semiconductor, Defense Sectors Lure Elite Bureaucrats - \uc870\uc120\uc77c\ubcf4",
-   "source": "\uc870\uc120\uc77c\ubcf4",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPODNSR05sUkRDTUJmUE9SeDdDVm9wQ2N2M0l6VlhzRnBzMTQwTndGVElHWGdoUWVoSzR4RERROGgzSWRvRkQ1bElrRXJZdnVIRUxhUHRjU0tHeTFWRWZ2U2s2S2cwbmdKSGlWMWR6WlNlRFNGZEhHMWNoYlppX0ZucC1wMUVHSTRM?oc=5",
-   "published": "2026-08-31",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "What Is the Philadelphia Semiconductor Index and Who Still Moves It? - Disruption Banking",
-   "source": "Disruption Banking",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQmlSc2dSd1Z3WHFPdDM2QjNBS0QzdFhuNFRZUWZxLW1XUXE5THVPMndCTUk2VkNsdkhQRkZ5QzJxNVVzWTNQN3ZoOTI0UUVMR0pjYWktNU91eFoyWm5iVGN1QlZOMkE5Qy1GTFBQVU4tckhyQ1JPZlpLS1d6ZmFDUmdDOTVKR2NSb09kSFpzWm10bzBqUzctaERsT1B6S3NVdTVNLWM2WDN4c2wyd0JrU191Zw?oc=5",
-   "published": "2026-08-31",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Wuxi conference highlights new frontiers in city's semiconductor industry - China Daily",
-   "source": "China Daily",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBldHRjS1MzZm53Z2ZaR0t0RVVqZEZTX0hybDhBcHV5VzVPX0ZPV0o5YkNmRURQUld6dGNwQllDRnlVSEhzRy05c0hOMlc0aFdQWENGY3pESmJTelZjWlh1amstakhTS1cxTkstTU0xWVFTaHlTNzJVc3l3bkpEdw?oc=5",
+   "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
    "published": "2026-08-31",
    "trust": "C",
    "flag": "context-only"
@@ -128,165 +378,6 @@
    "source": "TVC News",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeGhVd2I1T1MyZFVQSVFwaGRWeFNGWmVPRF9JSEYyYmNWZGgzUmM0M3A5d2pHTE8wS3UyTElHaWNSSlRncTd3dUUyekJqZFROZ2otNUV4NjBXZVM1V05tRFdaYU5HOU9iUS1aRk43aXlCeGFOUGMyLURoeFpMYTNaN1dRSU0tQQ?oc=5",
    "published": "2026-08-31",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/31/north-korean-hackers-are-moving-tens-of-millions-on-hyperliquid-as-trump-pushes-to-onshore-the-crypto-platform",
-   "published": "2026-08-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Kalshi lays down first lifetime ban for ex-member of Congress George Santos",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/08/31/kalshi-lays-down-first-lifetime-ban-for-ex-member-of-congress-george-santos",
-   "published": "2026-08-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm",
-   "published": "2026-08-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Ireland bars crypto from new tax-advantaged investment accounts",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/31/ireland-bars-crypto-from-new-tax-advantaged-investment-accounts",
-   "published": "2026-08-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitmine makes largest ether purchase since June as Tom Lee points to crypto's strong Q3",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/08/31/bitmine-makes-largest-ether-purchase-since-june-as-tom-lee-points-to-crypto-s-strong-q3",
-   "published": "2026-08-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Rates and thresholds for employers 2026 to 2027",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2026-to-2027",
-   "published": "2026-08-31",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Transit newsletters \u2014 HMRC updates",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/community-common-transit-and-tir-newsletters",
-   "published": "2026-08-31",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Amazon\u2019s stock slips as the FTC alleges billions of dollars in hidden ad fees",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
-   "published": "2026-08-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018I\u2019m leaving money on the table\u2019: I\u2019m 64 and my husband is 70. Should I take spousal benefits or wait for my own?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/im-leaving-money-on-the-table-im-64-and-my-husband-is-70-should-i-take-spousal-benefits-or-wait-for-my-own-2490f5cd?mod=mw_rss_topstories",
-   "published": "2026-08-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "The S&P 500 usually falls in September. Why this year should be different.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/the-s-p-500-usually-falls-in-september-why-this-year-should-be-different-77ebb626?mod=mw_rss_topstories",
-   "published": "2026-08-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018Neither of us attended college\u2019: At 62, how can we afford to put our granddaughter through college?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/her-life-was-very-challenging-before-we-got-custody-at-62-how-can-we-afford-to-put-our-granddaughter-through-college-b9d550bb?mod=mw_rss_topstories",
-   "published": "2026-08-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Vanguard\u2019s S&P 500 index fund changed how we invest \u2014 but there may be a smarter way to get into the market",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/vanguards-s-p-500-index-fund-changed-how-we-invest-but-there-may-be-a-smarter-way-to-get-into-the-market-a54a612c?mod=mw_rss_topstories",
-   "published": "2026-08-31",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
-   "published": "2026-08-29",
    "trust": "C",
    "flag": "context-only"
   },
@@ -313,21 +404,6 @@
    "title": "Warsh, In Our Time",
    "source": "Fed speeches",
    "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
-   "published": "2026-08-28",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US rates / Fed",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Major Economic Indicators Latest Numbers",
-   "source": "BLS",
-   "url": "https://www.bls.gov/bls/",
    "published": "2026-08-28",
    "trust": "A",
    "flag": "context-only"
@@ -361,42 +437,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Sign up for the Trader Support Service",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/trader-support-service",
-   "published": "2026-08-28",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Check which packaging is subject to Plastic Packaging Tax",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/work-out-which-packaging-is-subject-to-plastic-packaging-tax",
-   "published": "2026-08-28",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Preparing to use a mass balance approach for Plastic Packaging Tax",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/preparing-to-use-a-mass-balance-approach-for-plastic-packaging-tax",
-   "published": "2026-08-28",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -406,19 +446,6 @@
    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260828~fe9afc86e8.en.html",
    "published": "2026-08-28",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "China + iron ore",
-   "holdings": [
-    "VAS",
-    "VHY"
-   ],
-   "title": "Iron Ore CFR China (Platts) Overview - CME Group",
-   "source": "CME Group",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTR5VVR4cVVRZlR2bWFQNUFJcjFfak9tNG1wOTdWelNkNWcwQWw2V2g4WUdvVHJWdDZIRE9lRXp3YnNSaHRhSWRmWlhPNkRkZldTT0tVRUlHdk5UeGZ3MExWTWs0NWt4VWhDT0l4TUJLaXNvcm9NM0JLWi1RMGlHVFVVNnZ2VW1uTlJudG1NRURmY19sS0hWNWdvUmR0UQ?oc=5",
-   "published": "2026-08-27",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -546,18 +573,6 @@
    "source": "ECB press",
    "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260824~fa5acbddea.en.html",
    "published": "2026-08-24",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "ECB Consumer Expectations Survey results \u2013 July 2026",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260821~a044fdddd9.en.html",
-   "published": "2026-08-21",
    "trust": "A",
    "flag": "context-only"
   },

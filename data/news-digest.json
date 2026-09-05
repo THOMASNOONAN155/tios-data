@@ -1,8 +1,197 @@
 {
- "generated": "2026-09-04T22:05Z",
+ "generated": "2026-09-05T21:54Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
  "count": 50,
  "items": [
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "3 AI Semiconductor Stocks Facing A Fed Driven Test in US Tech - simplywall.st",
+   "source": "simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSTZYWWNlZ25qRnNUajFGM3JvWHlxZDlVRHZ4cnBNUUNRSFNvX2dTXzFHanphelpjSzhGdVYwdUh4TnVpSUY1eG1ZcnNqTHlSOTBOOHBtOUFMZlZYc2VyVF8wRlE0SkFFWW9ycHFTaU50N0tnazNGcHV6YTVPamVFaHBpQlNWUFluQ1ptdE5kM3VHWXI3ZDZRcllVbWZMc1NteG5GSjIxYS1jakxzUUpBc3h2eEpJeXp6YjlEOThaN0IySzE1cFhOQ2VGS2JLU19DRTYtb9IB2gFBVV95cUxPOUxCaWs2OEhlTW90N1JObEpKSDgwVjRHLV9kaGVrZjRJWGZUOVV3ZUxZNVdsVEo5LWxHUExJbXlSRlcxV09taDdTM2xfczNtd2ZGeHIyMUhmVkVVSkNtbHBiMGtUX2wxdmQ0Ym1ucDB5ZGphbFVHNVZkZnBSZ2hCN1VURG5IeXJ3eXMzTlFsRUQ0bnU4X3k5dmp5Z09hRlBXMnJsc2ZfMkZDcUVFYmhxOTJMbkVrUTVCdC0yb1FBTldfcXBud21FZlVhbGtCc0tjUUxnYkFEUHRPdw?oc=5",
+   "published": "2026-09-05",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "ASML vs. Taiwan Semiconductor: Which Semiconductor Monopoly Is the Safer Investment? - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd2FFeUUya2tHR3JoaHJQQUd5Y25IVHowMVVMQ1RONkpNVTE5TVg3SUVEWWxDR1RxS292N2xraXNkcGlibjZOOXI0LW1xOFZDWHlMQ1pfN3BrVk95UllCb3NNejJ2Vi1veDVBSGZ0cHBSdHh2b1BmMkEtR2FnV0NZTnVzNmlwQzVHYXdjYjAteVRSYU1sRXdRX0xnYnQ3cGVDUmFKWll6SmFfRjQ?oc=5",
+   "published": "2026-09-05",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Film about chips screened in The Hague - Taipei Times",
+   "source": "Taipei Times",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5FVGdrUE9uWG56TG5kb1ItNWhiN2w4ekJObllRVHRmalFWUDZUbmFmZlBBWFNKbmgxRGhEWkVBaW5DU1I4ZWhtRXcxblBPcXI4d2tfRkU1QjVwUmxUal9sSUlKcklYRnZfWXlINkRCa3FLNjFHMzI2R1dR?oc=5",
+   "published": "2026-09-05",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "[Ko Young-hak\u2019s Semiconductor Talk Talk] Who Sets Semiconductor Prices? - \uc800\uc2a4\ud2b8 \uc774\ucf54\ub178\ubbf9\uc2a4",
+   "source": "\uc800\uc2a4\ud2b8 \uc774\ucf54\ub178\ubbf9\uc2a4",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zanFOMWRCWmtrN2xubDhHUVhseVhHQTRfZ0FXUG1mdEpYVHhYLWZmQnRqOS1RRmdISUNfZmlSdEQyZFhOcUsxcXlIV0FBemVWSWczeGVuLVdYazlITW84?oc=5",
+   "published": "2026-09-05",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "Brent Venables credits Sooners' toughness in win vs. UTEP - ESPN",
+   "source": "ESPN",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQnNuaFhVVFFpRm9iM19ESmpXTVNuUExPSmw4NGI2dWlOakZxMlBUajlfMzdpTmtxWmJPQ3Q2RnFobVU3VGExVXVDQWVCZi1XNG1kcS16cE10bl9CanhrQmVmQXZqZGk3dzdBTzZybGY3aUYwQmRlQzR3UmNkekhMSEU2NG9BeURZeFMyVzhIc3NIdm8yX2xNdzVWWFFDMXlJSmc?oc=5",
+   "published": "2026-09-05",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Why crypto experts say buying and holding bitcoin easily beats trying to time the market",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
+   "published": "2026-09-05",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
+   "published": "2026-09-05",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/09/02/british-investor-thought-he-lost-usd2-000-in-bitcoin-in-2012-he-just-recovered-usd4-5-million",
+   "published": "2026-09-05",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "XRP Ledger has fewer active accounts than last year, but bigger trades and more value",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/09/05/xrp-ledger-has-fewer-active-accounts-but-bigger-trades-and-more-value",
+   "published": "2026-09-05",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Southeast Asia\u2019s crypto funding rebounds to $680 million as investors focus on mature firms",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/09/05/southeast-asia-s-crypto-funding-rebounds-to-usd680-million-as-investors-focus-on-mature-firms",
+   "published": "2026-09-05",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Think you maxed out your 401(k)? The real limit is actually almost $50,000 higher.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/think-you-maxed-out-your-401-k-the-real-limit-is-actually-almost-50-000-higher-217a89ee?mod=mw_rss_topstories",
+   "published": "2026-09-05",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Will a data center hurt your home\u2019s value? Research says no. Sellers disagree.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/will-a-data-center-hurt-your-homes-value-research-says-no-sellers-disagree-7017ace4?mod=mw_rss_topstories",
+   "published": "2026-09-05",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Why the jobs report will actually be good for bonds",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/why-the-jobs-report-will-actually-be-good-for-bonds-eb062fda?mod=mw_rss_topstories",
+   "published": "2026-09-05",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "7% mortgage rates are already here, some buyers and mortgage experts say",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/7-mortgage-rates-are-already-here-some-buyers-mortgage-experts-say-c51a7e04?mod=mw_rss_topstories",
+   "published": "2026-09-05",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Maybe the snowbirds are right? One state dominates this list of best places to retire.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/maybe-the-snowbirds-are-right-one-state-dominates-this-list-of-best-places-to-retire-ab506160?mod=mw_rss_topstories",
+   "published": "2026-09-05",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -26,24 +215,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "When analyst benchmarks miss the mark: Why Nvidia doesn't fit Forrester's data center matrix - Network World",
-   "source": "Network World",
+   "title": "When analyst benchmarks miss the mark: Why Nvidia doesn't fit Forrester's data center matrix - networkworld.com",
+   "source": "networkworld.com",
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOTIyTXRBVE1hMmlBbm5GOHJUSXVrM3JjNDV6Q3hVR3VmY0s5aHI0VGhBSDFrSDJKRXVrMGxoLW1BX3hrRGhYMFNGQTB2OVhDNnhaNFFMVEVKbWtrQTY5cG85TFY2RlhPcmlfMjY3d1hHcW1oVlRPelFoQU5Yb1ZXNGhIMmNuVVBZTW9HQ2E5WXgxUV9xR2hueHQ5YUNXcTFZMmxDY2RHemhOSWNjMC1XWWVmWWd0QXI3bFRvclFSei11UktFSlphNFBfUHRVSmxUVWxzM3hn?oc=5",
-   "published": "2026-09-04",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Nvidia wants your home network to work like a mini data center for local AI - the-decoder.com",
-   "source": "the-decoder.com",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa19KYVFxRWdEVm8weXZ5MkVkNF8tRXlJV3Awdl9iTHNsTXFmZG5FNUR1bl9vRzhJTmlERTFTLURFMzRYYjZSTDdrd0l5a0pObUxKRUlaRUVXeHQwX3lva2lwdG1INzZGQm9raHQ0VlRtN2ZQU2JBRlhNSjdEeHZJTFJ5YUEzWk5sTnYwNHNJR3B3RGl2a3d1Y0JnZzlVUXN6RXc?oc=5",
    "published": "2026-09-04",
    "trust": "C",
    "flag": "context-only"
@@ -64,57 +238,16 @@
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
+   "driver": "US mega-cap / AI capex",
    "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
    ],
-   "title": "BluGlass Rises \u2014 Semiconductor Speculators Eye the Next Big Catalyst - Kalkine",
-   "source": "Kalkine",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOelVBYzJnVFBDcElkMFp4Nzk2Vl9lRFhPVGJvc3hiLVdvWl9FRldiVjF6dDY4ZGxMT1NrODROZjl4WDFiVmJSQzVmQTFRS0tWMXlZN1ZBU092VVItRi11Z0JZN1NYRkJUNzdhR2JuQkRXcHh2ZUVXTWx4MkVtZWdVUjNGSi1uNHF6cnhZNDBCaHJKd0hsRkFqZi1RTmJEcWhXZUZpS2FydHo?oc=5",
-   "published": "2026-09-04",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Global Semiconductor Sales Increase 6.4% Month-to-Month in July - Semiconductor Industry Association | SIA",
-   "source": "Semiconductor Industry Association | SIA",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTDZLdTI5eUt6aWJ4S1BNSk90d2R5TXdSakc5dEJCdTZtTlE4WjB1R1FBM1ZjVGplV0xQM2VpNzBVakNUcUlNWWkxLTZvbzN3WEZfNXlZb1IwaGd0bHBqb1BUM2RRVHVNWl90aDBVYjgwcHh4ZEpLcWMtQ2hzcXR1LXFZTlg3Z0NOQnpxeUNpejNzdE91ZjhFaUNn?oc=5",
-   "published": "2026-09-04",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Participation in Semiconductor GVCs: Can Southeast Asia leverage its experience for the Artificial Intelligence Era? - ESCAP",
-   "source": "ESCAP",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTdnZF9kaTlKODV6VEpnMnkwZjJLYVlDTWZwYkVPVGliZTV3bHpjRnQ0V2x0ZlpvZ1pTXzY3dXM3MmVFb0N6TlY1d2EtblNXaEhTd2FDMnJBVDcwNUVYMXZqNzV5T09TeHd1SGRrUTNjUjRKdHhhanBIREkydllWRUJvMV9rSzNSMVIwbXptaEIwejdyd3NfOXloaHpSa3REd3BRcm9vT0VodmNUaXR2ME9VT1ZmeW43YXc?oc=5",
-   "published": "2026-09-04",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Yaho System forecasts steady revenue growth - taipeitimes.com",
-   "source": "taipeitimes.com",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ic1dId1ZTcWJ4Mjg0bHNKSllzV1F6TzVmUUF5X1NMeEs4Nkd2RW9sOW1kUmhsY01zd3hUQ0t4RTlBZE1nWDU1NGVSeThMV0lUSFRXNjVjWEFVbXBUYWtqRG56OVd5eUxpY1F2cXplWGQ1Z1FWOHc?oc=5",
+   "title": "Nvidia wants your home network to work like a mini data center for local AI - the-decoder.com",
+   "source": "the-decoder.com",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa19KYVFxRWdEVm8weXZ5MkVkNF8tRXlJV3Awdl9iTHNsTXFmZG5FNUR1bl9vRzhJTmlERTFTLURFMzRYYjZSTDdrd0l5a0pObUxKRUlaRUVXeHQwX3lva2lwdG1INzZGQm9raHQ0VlRtN2ZQU2JBRlhNSjdEeHZJTFJ5YUEzWk5sTnYwNHNJR3B3RGl2a3d1Y0JnZzlVUXN6RXc?oc=5",
    "published": "2026-09-04",
    "trust": "C",
    "flag": "context-only"
@@ -130,66 +263,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68104",
    "published": "2026-09-04",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
-   "published": "2026-09-04",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "From warning to listing: UK\u2019s largest retail investment platform opens access to crypto ETNs",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/09/04/from-warning-to-listing-uk-s-largest-wealth-platform-opens-access-to-crypto-etns",
-   "published": "2026-09-04",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "U.S. Sheriff\u2019s association shifts opposition stance to Clarity Act to 'neutral'",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/09/04/u-s-sheriff-s-association-shifts-opposition-stance-to-clarity-act-to-neutral",
-   "published": "2026-09-04",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "U.S. added stronger than expected 162,000 jobs in August as labor market bounced back",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/09/04/u-s-added-stronger-than-expected-162-000-jobs-in-august-as-labor-market-bounced-back",
-   "published": "2026-09-04",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "We checked 6 years of bitcoin data. The NFP report isn't big price mover",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/daybook-us/2026/09/04/we-checked-6-years-of-bitcoin-data-the-nfp-report-isn-t-big-price-mover",
-   "published": "2026-09-04",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -265,66 +338,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories",
-   "published": "2026-09-04",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Tesla\u2019s stock falls as Cybercab launch lands with a thud",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/teslas-stock-falls-as-cybercab-launch-lands-with-a-thud-1108376b?mod=mw_rss_topstories",
-   "published": "2026-09-04",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/micron-is-doubling-down-on-ai-memory-chips-that-could-pay-off-big-time-for-investors-da9e7f5e?mod=mw_rss_topstories",
-   "published": "2026-09-04",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Will a data center hurt your home\u2019s value? Research says no. Sellers disagree.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/will-a-data-center-hurt-your-homes-value-research-says-no-sellers-disagree-7017ace4?mod=mw_rss_topstories",
-   "published": "2026-09-04",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Here\u2019s what\u2019s worth streaming in September 2026 on Netflix, Hulu, HBO Max and more",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-september-2026-on-netflix-hulu-hbo-max-and-more-a702e7dd?mod=mw_rss_topstories",
-   "published": "2026-09-04",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "US rates / Fed",
    "holdings": [
     "IVV",
@@ -340,14 +353,29 @@
    "flag": "context-only"
   },
   {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft backing measure protecting consumers over data center water usage costs - The Hill",
+   "source": "The Hill",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ2dBazdfUXR5VzhITlgxY1BFb2JMdVhXYWpJY2o2cVlXdkRla3pRNkZrWi1vTXJBR08yUzVQY2FHWUZlYklKQnlvWDJpNENKdlktZmJnMV9IVU9mQ3huVlZ5UEhJUmNoUW1FM3hWMDVCUzVmaS1rOVRHTFhIR1NuVmpqUjVDLVJZT3pJTXhPX0lkNk9kTTZYM2dlcDnSAaIBQVVfeXFMTUl6a3ZoRm11bXcxRUtmNW1LRVI2R0Y5ZHJCaGJWZEdsMUhjeEp5S0E2X2NLcGdqdHMwMlFhTi1pLUJEdUU2bjdiQjQwYUk4b1g3bDZ0bnUyLUo1YUxaRllVWlNOUlIwWS1vbEt6S05WRjAzVjBXUml6ZUthNS0tc1hGWUpUYzlLc3ZtaDBid2xJQ1htYUdPbFdfR2xWZWdiS05R?oc=5",
+   "published": "2026-09-03",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
    "driver": "Semis / Taiwan",
    "holdings": [
     "ASIA",
     "EMKT",
     "NDQ"
    ],
-   "title": "Thailand\u2019s semiconductor plan has a Washington problem - lowyinstitute.org",
-   "source": "lowyinstitute.org",
+   "title": "Thailand\u2019s semiconductor plan has a Washington problem - Lowy Institute",
+   "source": "Lowy Institute",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeUl2cklxMDItRkRFdlFzMW5LVVNSQjc3ZGl5Wlp1OWxJRkxRM0RsQ3JFM2VGTkZDWXRKaUhOazlHLVlSQ3UtaGFBYlRtYk1ncjE4b2JwNllaSXBKb25tRnkwMFdMUUVoZjFyaHpMWEJaTWQ4YW5OVlBDSTlLSlJ4cTJVVGh3RkFBanJuN241b0cxZGJzU01UV0paWnltOGpKTUE?oc=5",
    "published": "2026-09-03",
    "trust": "C",
@@ -364,6 +392,18 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68084",
    "published": "2026-09-03",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Gold",
+   "holdings": [
+    "QAU"
+   ],
+   "title": "Gold Futures Overview - CME Group",
+   "source": "CME Group",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeDc1RGtZSl9sWTFkQXE5RFZpdVo3VkRJT08zLU5TSUVSQWpLTUNOR3RjZEwxY2hYNUdLUzdrV2xsdDY1OTlkcGJxM1pyaUNOSndxdDNuY2N0NXROM1psWERyeVVRZko1ZGc?oc=5",
+   "published": "2026-09-03",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -473,34 +513,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Nvidia partners with Cloverleaf to accelerate data center development - Channel Dive",
-   "source": "Channel Dive",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN0ZuWUNFeVF0eVY5NW9ITS0zWlNsek4wUXIxRndHRFhGTWZMMnRqMDV5YmpGeHFjaGgxdWxMOE5XMHRHMkc5Y1h5TnlhVjhaTFFncDJEbmdCSlFkeDFEb3hHOWVtbXF4TUxhT2dRbF9QSkJuZEd0ZnhHUlU0S3A5dDFYMGRrY3dpZFYxaG5wSXFPYVlqbU1EcDBzaHFzN1JrQTRDV2Y1MnN3cnJHQXpN?oc=5",
-   "published": "2026-08-31",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "3Q NEV Lenny Jones 32 Yd Interception Return (Brent Zuzo Kick) - espn.co.uk",
-   "source": "espn.co.uk",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EczZ4akRRMVRoanpnQ095eEU4YTUxejlfYURPUWNCdVZIVnltN1RwVWMxNk4xZDU0aGtTTndCLV9saHQxSlRXb2ZJVGpyT0ROSzVUUXkwVmZjZk0?oc=5",
-   "published": "2026-08-29",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "AU tax / reg",
    "holdings": [
     "ALL (disposal gate)"
@@ -549,19 +561,6 @@
    "title": "Brent Strom returning to Astros amid pitching struggles - ESPN",
    "source": "ESPN",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMUQ1c28wdV9qTTRJVzNXemhoTWxpejU0dDR6WmlzQk14ZzNoTkI4Z1IwaE05SUJ6VkpwVzB3MlhLNW9sMk0yTTU1VnhWWlZVY0F2TW41UGx5RmxaM1gzekIxYVQzcVFIalp2R1JrUmZjcklBWjZGbWJGX1UtaHEyaXR0SUs1UWpBWjNTYkFDNlZfbVF6blI3ZnViR2FRdEkxSkE?oc=5",
-   "published": "2026-08-28",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "Relato Knicks 89-87 SuperSonics (1 Mar., 2002) - ESPN Panam\u00e1",
-   "source": "ESPN Panam\u00e1",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hSU5GMGtFbHkwNDJZUWw4R0doS0VDYTNlV3NvSkZjRHFyb0VYMzB1dk9ER1hIWDhBNlJIbWVVOXpNVXBwMmRRTFY3cFIwSFk2aE5ZREVLRWRaQnozSlM4OTlwcnJ1d2JVVF8wUkZfTGI2RllN?oc=5",
    "published": "2026-08-28",
    "trust": "C",
    "flag": "context-only"
@@ -635,9 +634,9 @@
    "holdings": [
     "ALL (disposal gate)"
    ],
-   "title": "Australia Capital Gains Tax Draft Tests A$372 Billion of Super Assets - TechStock\u00b2",
-   "source": "TechStock\u00b2",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbmc0ZFJsX3JxNXU5bWVwbGotbExXZWl5eVloYno1QUVzcHA0eElEQTFRTDRfT1pRYThzT2FwT3FqTjZpNVhlb29zRmFFYUlSQ1hONmhXb3dSVVZpOTRpUHdmRFcyUTllb2xnS2N1QTFFRmw2NWNScm84aDFWMzNtVVJFLVFLYWYycjBBVmVYNnRqSE0?oc=5",
+   "title": "Revealed: Labor\u2019s stealth \u2018super tax\u2019 to cost retirees - The Australian",
+   "source": "The Australian",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQbi1ZV2FYVFRYRmxYZDJOcTFWNzlBWjVNTXZyWU1MTDY2Y0JMN2xEZnNiZ3lFYVlSV05pSHNTa3lDOVY4UnRmRnRzX1FBTno5amx0SmpZRFZHQjhpQTZPMVR2bXRLaVNTd2txZkF3SUZCUFFCaG4xc0NlSFo2X2R0aFhYM0JoX3YxcmlNdklPdElWMVVrYV90azBseWpsSVVaenJ0WDEtNjc0WnBzb2JoSDRJbnFONnVkcnJIc3Rsd0xqZWh3RjZrWEpRalVNLWxTcTQ2akUtQkpLMlVhd3VRZDFCVTJCbHhTbm1aT3FlTVRES0x5cVRzeE91YlpKTFNlOE5Rai1Kd2tYRXRrVEN4aWJn0gGXAkFVX3lxTE5QeF9saDdoSVVfQkNOYnkycGNkYUFvWDMwTUFCY09CR3cydnY0V1MwR3o3U3hJRnZ2UE1HcldtUEdwZ1gwM1QwbE41dElJMGpSQkxiR3RNTzNld3kzRVl0SXFqZUotQ3ZBeEdkMFdjb0tQS2pybFJHWVgzOWVyRG1RVlVkUzBUaldESWpnRVdJdm5vaVc3UEh5TnJpUTFHQl82NmpFeDJBUXhweDNfY0tZVUFGaWhwamZ5WjJQU0FWUTRidUctbFZQbzhVeW45T0UtYlBFRjVoVFJ0SHBIUmNrQ3FCMmZYSEN4dkNvbkhUVHhGeXBINTNleU01VXYxSG5GTERwVDdlRkZCam5kNkRWa1AtS2Z0UQ?oc=5",
    "published": "2026-08-25",
    "trust": "C",
    "flag": "context-only"
@@ -647,9 +646,9 @@
    "holdings": [
     "ALL (disposal gate)"
    ],
-   "title": "Labor\u2019s hidden super tax to hit $372bn worth of assets despite promises to carve out retirees - The Australian",
-   "source": "The Australian",
-   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQbi1ZV2FYVFRYRmxYZDJOcTFWNzlBWjVNTXZyWU1MTDY2Y0JMN2xEZnNiZ3lFYVlSV05pSHNTa3lDOVY4UnRmRnRzX1FBTno5amx0SmpZRFZHQjhpQTZPMVR2bXRLaVNTd2txZkF3SUZCUFFCaG4xc0NlSFo2X2R0aFhYM0JoX3YxcmlNdklPdElWMVVrYV90azBseWpsSVVaenJ0WDEtNjc0WnBzb2JoSDRJbnFONnVkcnJIc3Rsd0xqZWh3RjZrWEpRalVNLWxTcTQ2akUtQkpLMlVhd3VRZDFCVTJCbHhTbm1aT3FlTVRES0x5cVRzeE91YlpKTFNlOE5Rai1Kd2tYRXRrVEN4aWJn?oc=5",
+   "title": "Australia Capital Gains Tax Draft Tests A$372 Billion of Super Assets - TechStock\u00b2",
+   "source": "TechStock\u00b2",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbmc0ZFJsX3JxNXU5bWVwbGotbExXZWl5eVloYno1QUVzcHA0eElEQTFRTDRfT1pRYThzT2FwT3FqTjZpNVhlb29zRmFFYUlSQ1hONmhXb3dSVVZpOTRpUHdmRFcyUTllb2xnS2N1QTFFRmw2NWNScm84aDFWMzNtVVJFLVFLYWYycjBBVmVYNnRqSE0?oc=5",
    "published": "2026-08-25",
    "trust": "C",
    "flag": "context-only"

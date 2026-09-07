@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-06T21:56Z",
+ "generated": "2026-09-07T22:29Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 50,
+ "count": 52,
  "items": [
   {
    "driver": "Semis / Taiwan",
@@ -10,10 +10,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "China\u2019s chip push is closing in on Korea - Korea JoongAng Daily",
-   "source": "Korea JoongAng Daily",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMGhfSENTSWttc2lpc0tWYUpPc2dQZEVrRG02V0tNN3p3WkphcFdsbmlnLTRUN09FSmlqcnNlUkE3ZThjTnJRLWRUSEd2cUVfUmZyR09YdndReTBaMG5LVzlReU5ZdFJRUmxlRTlVeXhwTWc3VGNuc2liSVE5SnRiX09NdUN6R1lVb1U4OFBsSDNHSGQ3UWpMMVIzeXh1WnIyWkI3V1VCaw?oc=5",
-   "published": "2026-09-06",
+   "title": "Taiwan Semiconductor Retains 73% Foundry Share: Is the Stock a Buy? - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRXdJZkc0b1gxbEp6NmNtLWpZOTlfNGdidUxLWlllZmJUa1BOMmVPempKWEFpUjhGZTl3dUJRTEpOWjdBVTdmcjdNRGpaWktMQ1NNZ1ZqTHphSm9JWGIzaDNneUJRbVhsMlNkN2VBOGIxVlZZbmZkZjBqSVFnMVhuTjBLQWtvZVFDcXlWUjdWNkt2Q0VtYUN1MDltaVU3NmJlaTJKZ3Zxcw?oc=5",
+   "published": "2026-09-07",
    "trust": "C",
    "flag": "context-only"
   },
@@ -24,24 +24,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Day 6 Check-In: Taiwan Semiconductor & The Monopoly Hidden at a Discount - Moomoo",
-   "source": "Moomoo",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT2N5QVBDcmYzMDJlR1hGUFdVRjZkZFNyWVp2WXAybnhvQlJKVWtua3h1ZWt4Sl9mVFVwTzcxemx3VUNXSlRYX0NadHFmd3FGTHhmV2RRS2Q1NXE5SzZxVUpSOWpsN0hqYjBFazcxaHVTMTNQUXdpZWhwTFNCSjRCaUV4ZTNiOFp4UnlyOWExMHUzSWxrRU9lOWNwcGVoMUl2MjkxeWI3S3R0WEN3X1AzUXdB?oc=5",
-   "published": "2026-09-06",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Compound vision - Taipei Times",
+   "title": "No shortcut to excellence in chips: TSMC executive - Taipei Times",
    "source": "Taipei Times",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1EYXJOQno1SF8wendMQVlka01VM0pkbGFyS0pJemZhTFJubmNfbzk0UU5YZXRRWVZ2SGlzcnNHU09SaXBkLVlCTTZkQ21nWjFYSXdqX0FfRVNrd3g5OENybUJrbGZ4LUtYSWVFOFB5djJiTUF4TWc?oc=5",
-   "published": "2026-09-06",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oZVV6TGt1cVRCeXY1WnRqODA3RFp1QV92MTR0VHJHcjU4QlRNZ08xSFdYUEM1ZklZZU81T0s3MkFYZVJJeHliRlVPYWh2SGRTbUdOZ1Z5aW1LU0xOQjhnN1BvVFZkUnMzLXJXc3BjZ0NwVjhfc0E?oc=5",
+   "published": "2026-09-07",
    "trust": "C",
    "flag": "context-only"
   },
@@ -52,10 +38,37 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Pressure-Line Filter Cartridges Market Semiconductor Fab Expansion in Asia-Pacific Drives 4\u20136% CAGR Through 2035 - IndexBox",
-   "source": "IndexBox",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOWF3ZjNuanlRUlo1YVVZN0xQT1pKTGJSVUJnamQxNDc3VkJ6Vlo3aUNCTXEwMnRycGJPMVZyOFdtc1FFcVljdDRramNjQVB3WGg2a2c0dWlQLWt3bWNqUndSeGwxMFZnRFdUdzRVY3dZV1ZmckU5Q1J0LUJGeEh1LXdFeENHdkU1ZmdKYllfQWFCTzNtNElyd2tkSWFmY19iZUZWYW42X3VQdnhSMi1YbkpQTHVWbFdnb0FoRHBZT2ZkTVI4QlpqbFEzNmxVWmUyX2xNWlM3ZXk?oc=5",
-   "published": "2026-09-06",
+   "title": "Belgium detains Chinese man on suspicion of semiconductor espionage - reuters.com",
+   "source": "reuters.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObmNUMkNpaHRGSU5YVjBwaUs2elJrS0YyY2xNT1BpV2lha2JNSVdmZUNoUzRmUmQ1UVFGTjQ2UnZVWlUtcjkxV1B3YzZtWUJyNTExemVaTHdCVUhPVWVCSFItX2NCQUtnYmFwUlZ5ektQcDhQT0lteHN5WEd0ZG5rYXFpQVBSNmVNbFNCRS1YT2ZTeGVSbmVtYlJWYTQtQVE4QTBUSUlZZ3hWdHVlNnc?oc=5",
+   "published": "2026-09-07",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "New nitride semiconductor expands material options for more powerful electronics - Phys.org",
+   "source": "Phys.org",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcjVVLWVzamU4a24tVHRoWFpiTE5OeGNaQktFSTllQTVIRTFGSHczMnZJWnJrdzAtSHJYSGl1elMzQlNJaG8waXE3RkR1bTF5SGpSS3l3MDA1emlGYmZSS0NuMUw0LVFwNmFhdFRhaWNZWUhjanV2SjduYUJZTUE5Q0lvQWtoWnEySGc?oc=5",
+   "published": "2026-09-07",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "Iran to announce \"restricted zone\" outside Hormuz Strait: top security official - CCTV.com English",
+   "source": "CCTV.com English",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtWkVPbUtadE82bE9sdVNFZTFSd2VwSzROMGdaa29LWHk5VDN6NTIxNDd3eHY0SGozNE9yODdxQl92TXdqWHkzcU1iTUVhS3hadEFhdUhIOHBQMFNOZ203TE5WQ2Q3dkJnOUx3NkhKT2tmbU4tOFZQeEh3eks?oc=5",
+   "published": "2026-09-07",
    "trust": "C",
    "flag": "context-only"
   },
@@ -64,10 +77,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Prediction markets inch closer to the Supreme Court: State of Crypto",
+   "title": "Hunter Biden debuts 'LAPTOP' memecoin targeting TRUMP holders",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/news-analysis/2026/09/06/prediction-markets-inch-closer-to-the-supreme-court-state-of-crypto",
-   "published": "2026-09-06",
+   "url": "https://www.coindesk.com/business/2026/09/07/hunter-biden-is-launching-a-memecoin-named-after-his-laptop",
+   "published": "2026-09-07",
    "trust": "B",
    "flag": "context-only"
   },
@@ -76,10 +89,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Ukrainian police took down a crypto scam that stole up to $1 million a month",
+   "title": "Polish prosecutors charge fifth suspect in a massive crypto probe",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/09/06/ukrainian-police-took-down-a-crypto-scam-that-stole-up-to-usd1-million-a-month",
-   "published": "2026-09-06",
+   "url": "https://www.coindesk.com/policy/2026/09/07/polish-prosecutors-charge-fifth-suspect-in-a-massive-crypto-probe",
+   "published": "2026-09-07",
    "trust": "B",
    "flag": "context-only"
   },
@@ -88,11 +101,95 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Better and Coinbase\u2019s bitcoin-backed mortgages can reuse borrowers\u2019 collateral",
+   "title": "Stablecoin wallets challenge traditional bank accounts as main consumer money hub",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/09/06/better-and-coinbase-s-bitcoin-backed-mortgages-can-reuse-borrowers-collateral",
-   "published": "2026-09-06",
+   "url": "https://www.coindesk.com/business/2026/09/07/stablecoin-wallets-challenge-traditional-bank-accounts-as-main-consumer-money-hub",
+   "published": "2026-09-07",
    "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Ethereum commits to letting users pay gas fees without having to hold ETH",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/09/07/ethereum-commits-to-letting-users-pay-gas-fees-without-having-to-hold-eth",
+   "published": "2026-09-07",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Solana to triple transaction size as apps get room for more complex trades",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/09/07/solana-to-triple-transaction-size-as-apps-get-room-for-more-complex-trades",
+   "published": "2026-09-07",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Official Statistics: Patent Box relief statistics: September 2026",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/statistics/announcements/patent-box-relief-statistics-september-2026",
+   "published": "2026-09-07",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Download the HMRC app",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/download-the-hmrc-app",
+   "published": "2026-09-07",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: Making Tax Digital for Income Tax: service availability and issues",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/use-software-to-send-income-tax-updates-service-availability-and-issues",
+   "published": "2026-09-07",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "If your circumstances change",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/if-your-circumstances-change",
+   "published": "2026-09-07",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Use Making Tax Digital for Income Tax",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax",
+   "published": "2026-09-07",
+   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -100,46 +197,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "\u2018I currently give him $1,000 a month\u2019: My grandson has severe mental illness. How do I protect him after I\u2019m gone?",
+   "title": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/im-desperately-trying-to-plan-ahead-im-leaving-everything-to-my-grandson-who-has-severe-mental-illness-how-can-i-protect-him-d8df2646?mod=mw_rss_topstories",
-   "published": "2026-09-06",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018It\u2019s not fair\u2019: My twin brother and I were left houses by our parents. Can I make him pay his share for taxes and upkeep?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/its-not-fair-my-twin-brother-and-i-were-left-houses-by-our-parents-can-i-make-him-pay-his-share-for-taxes-and-upkeep-43feb780?mod=mw_rss_topstories",
-   "published": "2026-09-06",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "My wife and I are in our 70s. Should we move to California and take on a bigger mortgage to be near our kids?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-wife-and-i-are-in-our-70s-should-we-move-to-california-and-take-on-a-bigger-mortgage-to-be-near-our-kids-1d619084?mod=mw_rss_topstories",
-   "published": "2026-09-06",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018Poverty doesn\u2019t have to be my reality\u2019: I thought I\u2019d have to rely on Social Security. Then I taught myself how to invest.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
-   "published": "2026-09-06",
+   "url": "https://www.marketwatch.com/story/oil-prices-hit-near-seven-week-highs-before-edging-lower-as-iran-plans-to-increase-control-of-hormuz-5070167c?mod=mw_rss_topstories",
+   "published": "2026-09-07",
    "trust": "B",
    "flag": "context-only"
   },
@@ -151,7 +212,43 @@
    "title": "Why does almost nobody want to befriend older people like me \u2014 except scammers?",
    "source": "MarketWatch",
    "url": "https://www.marketwatch.com/story/why-does-almost-nobody-want-to-befriend-older-people-like-me-except-scammers-fda849d1?mod=mw_rss_topstories",
-   "published": "2026-09-06",
+   "published": "2026-09-07",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018I\u2019m the executor\u2019: My two siblings and I inherited an IRA. Can we just cash it out?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/im-the-executor-my-two-siblings-and-i-inherited-an-ira-can-we-just-cash-it-out-dafc5b8d?mod=mw_rss_topstories",
+   "published": "2026-09-07",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018Poverty doesn\u2019t have to be my reality\u2019: I thought I\u2019d have to rely on Social Security. Then I taught myself how to invest.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
+   "published": "2026-09-07",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "We\u2019re in our 60s. We earn $345,000 and have $1 million in 403(b)s. Is it too late for Roth conversions?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/were-in-our-60s-my-wife-and-i-have-345-000-in-annual-pensions-and-1-million-in-403-b-s-is-it-too-late-for-roth-conversions-5df35d42?mod=mw_rss_topstories",
+   "published": "2026-09-07",
    "trust": "B",
    "flag": "context-only"
   },
@@ -169,27 +266,16 @@
    "flag": "context-only"
   },
   {
-   "driver": "Crypto",
+   "driver": "Energy / oil",
    "holdings": [
-    "CRYP"
+    "VHY",
+    "VAS"
    ],
-   "title": "Timing the bitcoin market is exciting but nearly impossible. Here's why",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
+   "title": "Sooner Football with Brent Venables - ESPN.nl",
+   "source": "ESPN.nl",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX1R4SWJ4OFBMWE5aZldDbWt0MlBEblMxZlVYN3JTSFBqaDFfWS1iMGNITGVpUE1VT3BYOVZZRHA0ZURRX3ZQVjY1SklVakVfR0hhbmdqcUhkNTFfNG81SVYzZ0JwZlMwZEc1Zms0ajl3YkV0R3RacDRxQ2lpa1o4RzB5Sk5mM3lfNURGSHlvMEUwM2hB?oc=5",
    "published": "2026-09-05",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
-   "published": "2026-09-05",
-   "trust": "B",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -230,9 +316,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Nvidia wants your home network to work like a mini data center for local AI - the-decoder.com",
-   "source": "the-decoder.com",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa19KYVFxRWdEVm8weXZ5MkVkNF8tRXlJV3Awdl9iTHNsTXFmZG5FNUR1bl9vRzhJTmlERTFTLURFMzRYYjZSTDdrd0l5a0pObUxKRUlaRUVXeHQwX3lva2lwdG1INzZGQm9raHQ0VlRtN2ZQU2JBRlhNSjdEeHZJTFJ5YUEzWk5sTnYwNHNJR3B3RGl2a3d1Y0JnZzlVUXN6RXc?oc=5",
+   "title": "Nvidia Wants to Turn Your Idle PCs Into a Personal Home Data Center With 'PAIR' - PCMag",
+   "source": "PCMag",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc0s3NWJyZFVlWWxwVlYtb2dSWW5pQ3U3enZ3MUI3QUtZYlhGYmFzbGRpWUF3SWlGeVY5cVRJaW8zQVlrQ3RzMzlZMmRsN08xVXZJUWRfYzJsN3BTdlJUSWhzbjluV1lsWTlQdUpieDU4RTdrNWhZbVBkZnVRQ01sbVBqbHVwVG5TMHI3dU1mT1VXcWd2cWc?oc=5",
    "published": "2026-09-04",
    "trust": "C",
    "flag": "context-only"
@@ -245,9 +331,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Nvidia Wants to Turn Your Idle PCs Into a Personal Home Data Center With 'PAIR' - PCMag",
-   "source": "PCMag",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc0s3NWJyZFVlWWxwVlYtb2dSWW5pQ3U3enZ3MUI3QUtZYlhGYmFzbGRpWUF3SWlGeVY5cVRJaW8zQVlrQ3RzMzlZMmRsN08xVXZJUWRfYzJsN3BTdlJUSWhzbjluV1lsWTlQdUpieDU4RTdrNWhZbVBkZnVRQ01sbVBqbHVwVG5TMHI3dU1mT1VXcWd2cWc?oc=5",
+   "title": "Meta's $1.2bn data center in Kuna, Idaho, goes live - Data Center Dynamics",
+   "source": "Data Center Dynamics",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLWY0Y3EwNnB4b0hUQ2tvQTh2bHVXZzl3NUx6ZUppbEhyb2JGX2Fqb0t3NkNFZkNzeUtDVmZ3YWVOTHJQV1daRWIteHJaRHdDMC10X1h0am5zSmxEb2hHLVpsak4tdE1EVGdfSGZQalVaQnl6cnZPcEhzWmVtTjhSMkRlZzhGMDRRckJVcHV0cFpoc1p0?oc=5",
    "published": "2026-09-04",
    "trust": "C",
    "flag": "context-only"
@@ -266,6 +352,19 @@
    "flag": "context-only"
   },
   {
+   "driver": "China + iron ore",
+   "holdings": [
+    "VAS",
+    "VHY"
+   ],
+   "title": "Baowu eyes stake in BHP\u2019s massive Jimblebar iron ore mine - Mining.com",
+   "source": "Mining.com",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa2FJLXpDRXpIeGxMeHRlWWE3Rmp2UXZOX1Q5TUFZcWdOTS1wZlpQWldPRTR0MzdJMzA0cmNWUm5NSDFTTmZIcHNBQVdBR2tFSF9XaUNfQXJ6dTlKa1FQY3ZWSk9ObEdFeF9BTW5lcUk2bHVGU2F3RGJMVllyc0VsWmVrYjYwSjA?oc=5",
+   "published": "2026-09-04",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -279,63 +378,15 @@
    "flag": "context-only"
   },
   {
-   "driver": "UK tax / reg",
+   "driver": "Gold",
    "holdings": [
-    "ALL (disposal gate)"
+    "QAU"
    ],
-   "title": "Guidance: CDS BIRDS Declarations and Customs Clearance Request completion instructions",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/cds-birds-declarations-and-customs-clearance-request-completion-instructions",
+   "title": "Gold Futures Overview - CME Group",
+   "source": "CME Group",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeDc1RGtZSl9sWTFkQXE5RFZpdVo3VkRJT08zLU5TSUVSQWpLTUNOR3RjZEwxY2hYNUdLUzdrV2xsdDY1OTlkcGJxM1pyaUNOSndxdDNuY2N0NXROM1psWERyeVVRZko1ZGc?oc=5",
    "published": "2026-09-04",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Cross-border arrangement reporting: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/cross-border-arrangement-reporting-service-availability-and-issues",
-   "published": "2026-09-04",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Country-by-country: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/country-by-country-service-availability-and-issues",
-   "published": "2026-09-04",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Check genuine HMRC contact that uses more than one communication method",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
-   "published": "2026-09-04",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Register a trust or estate: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/register-a-trust-or-estate-service-availability-and-issues",
-   "published": "2026-09-04",
-   "trust": "A",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -461,19 +512,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "Trump Orders Fresh Strikes On Iran, Warns Of \u2018Even Bigger\u2019 Attack - TVC News",
-   "source": "TVC News",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa1JKT0hfLTZsdlcxTG5CSkk3MXhXRFgtb2ZvUFlSb2NNQzRyOTYtbllrSUhxYjNXY0hjRTc2ejFTT1VKUk9NQndMZWpDeWNLOTRwYkZwQTM5emNfdUdZbWw5WlNQY1c5WlJDNGp3ZzlQYjZGVThRVnNvVGsyay1ZNkQzTERXbVYwLXNjOWNnTQ?oc=5",
-   "published": "2026-09-01",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -496,19 +534,6 @@
    "title": "Will Amazon or Alphabet Better Digest AI Capex This Quarter? - 24/7 Wall St.",
    "source": "24/7 Wall St.",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWl95YmhNTDV3X1k1eFhjTzRDcEp3LUd6S1NGTzFGeHdINXdpa2lNREZ3VndfTzdiQTRuR3NVMVVzRmFpTGRWSFczcC1mQnp4UXNaSi1xUVBnT2djWHhyZTdkUmJpMVZkSUM4b2VGMVJicnpTa0NpUFRoTlNrWWNuRmxiNEFGeDlGVkNMd3FPNEF6NUFnVDBRZ3lKVnJMYnJUMWF4V3F3?oc=5",
-   "published": "2026-08-31",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "Brent Venables on why OU is battle tested and ready to adapt - ESPN",
-   "source": "ESPN",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYUZTYUQ2Rk9GT2h2QTZjcVh2bG96MkVVNDdVOVlfRU05bmZPS2NnM3FtalppQjBJbUFZbVl5Q2d5Q0tRc3ExRTJBN0hiMENTVE1oOWJJTnE4OUozLUg4eENRNnJabHlMR0N6SVYwT3ktSUF5Q1RHZ3VBSlB5N2NEQVBrUUJvTmxIYS1VVkJXdzc1Z2tFS1F6MQ?oc=5",
    "published": "2026-08-31",
    "trust": "C",
    "flag": "context-only"

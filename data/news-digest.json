@@ -1,8 +1,220 @@
 {
- "generated": "2026-09-11T22:15Z",
+ "generated": "2026-09-12T21:55Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
  "count": 45,
  "items": [
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Hits Record August Revenue, Is The AI Upside Already Priced In? - simplywall.st",
+   "source": "simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNYnMxVG9PSmNnOW5pRGVtbE1XVXpCQmFGTW1ZWkhYbWp1eVgyRzMzRFpCNDRkc29FUkNjTFN3VlQ5TUo1RUExaFBzVW9qTDl0VlU1TnY5RTNGVENZOFZzdE9rcnE3REJGY3JPQjYybi11SWFjT2FfVHZWMW1sSDllR2VyMUVzcFk4aGNPazRURENHVkxNbm9wVmc2VXBBdkZreERtSnJvaWtzZnhycjBLQkRoTnpJd09CZzNOaElTTkJaRHF6eVFHeEczU1Rlbm1Lc3BGMHlPVy1kX3JtLWU3dW9zRXJQaHc5Vzg3VdIB8gFBVV95cUxNcXo4WV91OHRlb1JyeDQtOXhRRk9iSzM1REs3LTlNLU15T3Bmb1Ztd0VRS0xLQjFlZ2RNSGM4YzRZS1VISy12c3FDNEdjS0hBZGFPTnIydXN2RUZ2OGxHVVJEU3UxU1NQQmZNeFB0TURablpvanhOa0Zjc1FSZDI2MTZVUmpzNWxMbDBXZ0dlNEY3XzdEMkhjXzdyZzhQNEFkNl9xbFpXamNHLWg2NFIwWGwtNGhucjlPdUNKbTNldlh5Y3Jfd0pIYXViZHJuVGM1MGFFSG5FWEp2azJZQ2RXRnQyQmMyLTlOZ09ya3dOdDA0QQ?oc=5",
+   "published": "2026-09-12",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Apple and Taiwan Semiconductor Manufacturing Just Announced a Cutting-Edge Chip. 1 Stock Offers Far Greater Upside. - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ3VnVS1Kd3JUNldqTGRQYVpjNUlDeHZXWHVLSkVTY21DS0FLcTZzcEp3eFgxQzRpVFYwYlk3NDZqQmxqTUE2Q1lUZWNUeGRQd0N5aExwNVZKbUx0bVRYRHVPNmtpaUZiNWZMMXhNSXdqY0dkZmh1XzAzUURrOUszRlI1QmZBcmRBTzU2VmxnajhvaVpZZHQ3TEtDWEt3MGRUZ04xV2JCY0l5dDQ2U2hn?oc=5",
+   "published": "2026-09-12",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Nanoscale polarization whirlpools discovered in atom-thin semiconductor - Nanowerk",
+   "source": "Nanowerk",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQcU5DVFhxSDNnUE45eHVocENRZy1fOTNSNkRJOXc2YmN4VlF4YlFwRnpZNHAtd3BjWVRuSkZjY3hXaWhwZ2xJaEZ4ek54b3dVcGFpcUsya0pNd1FBR3QzNi03UnVuTl9yWVpQcTlScw?oc=5",
+   "published": "2026-09-12",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Apple, Taiwan Semi Lead Five Stocks Near Buy Points - Investor's Business Daily",
+   "source": "Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa0NXTTRONDBkLTlvbEZqcG8tS2JiNDFmMlRNV2Rnenc4SVpaZEZ4M001aG9PNDNhV1I5cDZKMHA2aEhqRU55am9wQWFSb1F6UnRsQ2ZPeEp3UGFEZ2xTZHJWV0tLZnZWempmXzlqUVMtSzU4QkNQMzJXLVRXd21LNzFCek9FOFhVdUd3RDlXZXQyT0QxTko4?oc=5",
+   "published": "2026-09-12",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "OpenAI IPO won't happen this year, says Sam Altman",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/09/12/openai-ipo-won-t-happen-this-year-says-sam-altman",
+   "published": "2026-09-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin Suisse plans to cut up to half its Swiss jobs as it shifts work abroad",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/09/12/bitcoin-suisse-plans-to-cut-up-to-half-its-swiss-jobs-as-it-shifts-work-abroad",
+   "published": "2026-09-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Nigel Farage\u2019s Reform UK lands $97 million donations from two crypto billionaires in 24 hours",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/09/12/nigel-farage-s-reform-uk-lands-usd97-million-donations-from-two-crypto-billionaires-in-24-hours",
+   "published": "2026-09-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Anthropic CEO calls for AI race to slow down. Musk and OpenAI's Altman agrees",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/09/12/anthropic-ceo-calls-for-ai-race-to-slow-down-musk-and-openai-s-altman-agrees",
+   "published": "2026-09-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Ripple stablecoin chief sees $13 trillion corporate treasury opportunity for RLUSD",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/09/12/ripple-stablecoin-chief-sees-usd13-trillion-corporate-treasury-opportunity-for-rlusd",
+   "published": "2026-09-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "AU tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Australia Plans To End 50% Crypto Capital Gains Tax Discount - CoinMarketCap",
+   "source": "CoinMarketCap",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ0loWTQ1SDViZXpSdkg1aGhqc3Y4Qm1PLThoSXpuOXR1S25wUmVyV0pGTHpTanJIVDRXUS1OREZ6ZzBXRUNmeUFtWVhHY25ER2trNjMxdFI1Q2xOa3hVeW5SdUxVUWU3RzIydG1DUnNhOU82MU1Cam90Q3R3R3NxUkVMU0dfQks5bV9oSUZzVERnVWs?oc=5",
+   "published": "2026-09-12",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Christine Lagarde: Interview with Ouest-France",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260912~3cc706f4d6.en.html",
+   "published": "2026-09-12",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Christine Lagarde: Europe seen from Normandy",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html",
+   "published": "2026-09-12",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Why OpenAI\u2019s Sam Altman says an IPO isn\u2019t in the cards this year",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/why-openais-sam-altman-says-an-ipo-isnt-in-the-cards-this-year-229de89c?mod=mw_rss_topstories",
+   "published": "2026-09-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Elon Musk backs Anthropic\u2019s call to slow down AI progress before rogue bots take over the entire internet",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/elon-musk-backs-anthropics-call-to-slow-down-ai-progress-before-rogue-bots-take-over-the-entire-internet-46f12d98?mod=mw_rss_topstories",
+   "published": "2026-09-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018I still don\u2019t have my MRI\u2019: My health insurer canceled my plan without warning. Is that legal?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/i-still-dont-have-my-mri-my-health-insurer-canceled-my-plan-without-warning-is-that-legal-02143710?mod=mw_rss_topstories",
+   "published": "2026-09-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018I\u2019m the executor\u2019: My two siblings and I inherited an IRA. Can we just cash it out?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/im-the-executor-my-two-siblings-and-i-inherited-an-ira-can-we-just-cash-it-out-dafc5b8d?mod=mw_rss_topstories",
+   "published": "2026-09-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My 87-year-old mother wants to pay for my brother\u2019s kids\u2019 education. I don\u2019t have children. How is that fair?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-87-year-old-mother-wants-to-pay-for-my-brothers-kids-education-i-dont-have-children-is-that-fair-b647a4bd?mod=mw_rss_topstories",
+   "published": "2026-09-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -41,128 +253,24 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Watch Microsoft Plans Data Center Push to Triple Its Computing Power - Bloomberg.com",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVkp4Q3BFcGJnd1YzMEQ1TGdmQUJ3MHpkc29JZjlvbFh3MnFNbUtxQVVyRFlVSFR6cGw2Q2Y5NFR2eGJTcnpqN0tQRDQzeGJYeXJMMENPUllCUzFqNTBoWmJ3a2VwNTRxYk9BOTVpZmppMnJURjQ4djYwbFZpVVlrREMtRUJHNm1iM25hWExlTVc?oc=5",
+   "title": "Meet the data center capital of Europe as Google joins Microsoft and TikTok in betting over $30.2 billion on Finland - Arctic Today",
+   "source": "Arctic Today",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUFhzbTlZTjNzZEUtQ0R1MUpvcHo0VHNzbkdydGV6NjJQQ1Z4U0szN3dJMmdrQjZoV0ZSOTVIQmZ2VjMwLWNOc1g2OTJpTmtRaFJwSkdQSnFKWVNWWWNhRFZxRmRoTy1IbVBLY2x1NVpUR3lJVUo3Znk3OEtHZGd2MEZZZmlZRXZWVVVLZTl0X3c4NVFNVmhHRmRRSUlJRGJTVXNSZkl1ZWhDREp2YWJ1QVRmRjBLdmRMbjhlc3FtRDBIRGl2bWxoemlZdlRpTkVDM2pCc0doUG5LaHJ0?oc=5",
    "published": "2026-09-11",
    "trust": "C",
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
+   "driver": "China + iron ore",
    "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
+    "VAS",
+    "VHY"
    ],
-   "title": "Microsoft Data Center Capacity Sprinting Toward 38 Gigawatts, Computing Power Bottleneck Poised to Be Broken - NAI500",
-   "source": "NAI500",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSThjRWxkUl9UOHMzQVdfbnFJRVp5MFlUeVdoZk1QTXFjdWdxTXlfRXRtY3dYTElsQVZfRjFPbHNEZjAtdU9OVHdULVQ4cTBTUzdiUnVHdkZMbEdIcmZ1dnpKWUx4U0FmTm9lQnlsUDhrS05ud3NpZ0FWWktYUC1JbTFVZ19yeEstZjVKcVN5TkZQR1RWUFVHQmJ5WTZhVmUwWWhudGFXaW1SamtDNVNTTVRlQjZ0alhWWXNxSU83NkNqQU5KTFdZRERfTHRCR0p4MHBpMkxacw?oc=5",
+   "title": "Iron Ore CFR China (Platts) Overview - CME Group",
+   "source": "CME Group",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTR5VVR4cVVRZlR2bWFQNUFJcjFfak9tNG1wOTdWelNkNWcwQWw2V2g4WUdvVHJWdDZIRE9lRXp3YnNSaHRhSWRmWlhPNkRkZldTT0tVRUlHdk5UeGZ3MExWTWs0NWt4VWhDT0l4TUJLaXNvcm9NM0JLWi1RMGlHVFVVNnZ2VW1uTlJudG1NRURmY19sS0hWNWdvUmR0UQ?oc=5",
    "published": "2026-09-11",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "What is Intel? The semiconductor company explained - qz.com",
-   "source": "qz.com",
-   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5VbmhEekE3WDRyWlF1R3pwR1JONVJDUi1UM0R4dVlORkF3SlB0Y3RFVi1aMHVuWXNsbTBnWXFpY2NCZw?oc=5",
-   "published": "2026-09-11",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "What Could Taiwan Semiconductor Manufacturing (TSM) 2 Nanometer GAA Ramp Change? - simplywall.st",
-   "source": "simplywall.st",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONlJ1YVFGS0I5eUlfQ3VkTG5hUl91TkJZRlRRNThLS3lLdzhjWmEwMnRxVGE3M1V1c0Y5dkNBTDY5QjFKT0dsZ2x0VFZvcnV2UGFldElBUVpER3FYbjBvVHFfZXM4anJLcnBRYVl3MWVHc1dxcElORkw0YnJOU2VhTEtTZkp0VGdDU3ZtcVZXNG1XMlJXd3RIUi0tckxFWGl4bmNaR3c2ckpOSjhMcHlkenVvWEM4RTBxWFI3czFvNFl2aWRmUWZ6cklkVW1GYkw3cXg4Mzd2ZkFLY1l1U3RNRVJLSEVsWlJzaDhJSdIB8gFBVV95cUxNTjcycGlBeFZwSXZZZ0pzREhkX1FqY0duRU9XWV9VU1V5b0djaFF0dUMxajl4cVVVb3NnRHJrcHlPbUYxcm9pYktPVXl6YldiZXl2ZGd0VVA4X3NHY3dENVZTYzlxOEhlT2pRX3ZFVEI4NlJSNmZ6Vlo2b3luRS1hVjI2RlFhSnNFTjVVV3M1V2tGYVdickxQNnpmUjY0eXJLQU51Y2tIdUZxUDJwTFFmT1JKYmlheUhoZ2hYOUxsVzROMHhOV1ZwdUpDU2h2SVU5Z2pQREJJcHl5RXlkRkJBX0hSQzRFOHRlbVFSM2k3R21FQQ?oc=5",
-   "published": "2026-09-11",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Semiconductor Soft Starters Market Size, Share & Forecast 2036 - Fact.MR",
-   "source": "Fact.MR",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1aU0hFaDNRMTJodXB5bE5PcklfUkl0dWZKNmJXbXFGRTdUcTJDSEFVS0c1Y2dSNF9iUDFkQ1VzaWYzdnBtTFNySVlzX1pLb2JwVmdjT2Flel9pUWtNVWZCZDZIaUJjd21iZlJ1UGJHRzIwdw?oc=5",
-   "published": "2026-09-11",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "The legal drama of imprisoned Sam Bankman-Fried is waiting on its last act",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/news-analysis/2026/09/11/the-legal-drama-of-imprisoned-sam-bankman-fried-is-waiting-on-its-last-act",
-   "published": "2026-09-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "With Fed rate hike all but assured, here's how markets might react",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story",
-   "published": "2026-09-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "India's richest state is exploring tokenizing its own assets to fund new infrastructure",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/09/11/india-s-richest-state-is-exploring-tokenizing-its-own-assets-to-fund-new-infrastructure",
-   "published": "2026-09-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/09/11/metaplanet-cuts-executive-reward-pool-by-41-extinguishes-usd220-million-in-value",
-   "published": "2026-09-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Zodia Custody CEO Julian Sawyer steps down, becomes adviser",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/09/11/zodia-custody-ceo-julian-sawyer-steps-down-becomes-adviser",
-   "published": "2026-09-11",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -238,66 +346,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "This investment is safe from both Trump and the Democrats \u2014 and it pays 4.7%",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/this-investment-is-safe-from-both-trump-and-the-democrats-and-it-pays-4-7-4b76c2f3?mod=mw_rss_topstories",
-   "published": "2026-09-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Marvell is sitting on an incredibly \u2018sticky\u2019 business that could help it unlock a $30 billion opportunity",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/marvell-is-sitting-on-an-incredibly-sticky-business-that-could-help-it-unlock-a-30-billion-opportunity-caa6c83f?mod=mw_rss_topstories",
-   "published": "2026-09-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018I\u2019m the executor\u2019: My two siblings and I inherited an IRA. Can we just cash it out?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/im-the-executor-my-two-siblings-and-i-inherited-an-ira-can-we-just-cash-it-out-dafc5b8d?mod=mw_rss_topstories",
-   "published": "2026-09-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Tesla could transform the trucking business \u2014 and capitalize on high diesel prices",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/tesla-could-transform-the-trucking-business-and-capitalize-on-high-diesel-prices-e4c48d79?mod=mw_rss_topstories",
-   "published": "2026-09-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Oracle shook off fears about AI spending, but its stock still loses ground",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/oracle-shares-are-climbing-after-results-what-wall-street-analysts-are-saying-now-0d4517ae?mod=mw_rss_topstories",
-   "published": "2026-09-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "US mega-cap / AI capex",
    "holdings": [
     "IVV",
@@ -320,9 +368,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Meet the data center capital of Europe as Google joins Microsoft and TikTok in betting over $30.2 billion on Finland - Fortune",
-   "source": "Fortune",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdHhQeVBvckRTZ05yV0QtbjlqbnNORU1NbEJVemdhRnA4ZW1mdEE5cl9uUl95MFdmREFDcTlTbTBaYU52b2ZrQzg3RnNpVWwtRHFTLTVTTThvQjhBaWppazNKOElicFFsN0dxTFZQWS1saHYzWXU0cUhzNVYyWjRvcDRuNFZhVGFvbnZJRk1qOWtLVm8yY0JtM3hiMA?oc=5",
+   "title": "Microsoft plans 38 gigawatts of data center capacity by 2032, Bloomberg News reports - Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTHBHOWMxWUFLYUt0NHZRR1c4V1RvckEzcFBfZHlhUG5POTFyeklqXzB3SW5CMVlMaUhCTGZjLXZOeno0RFduTXlkbUgwT1V2WmU0T2FPU25MM0YxRmdCdEl6V2w4SDI1a0xLOEFDTmdieWxrOTAtWlM5YWdVek9qcjdleGhFNGNCYUd4LU10YTJyY1g4Mm42Z0EtdjN6VkFiVFRDRklsU29WbG8tdTFWc3M4VnZCM2hjVzFnRUxBNjVtNWM?oc=5",
    "published": "2026-09-10",
    "trust": "C",
    "flag": "context-only"
@@ -334,8 +382,8 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "World\u2019s largest contract chipmaker TSMC sees August revenue surge over 53% to record high - cnbc.com",
-   "source": "cnbc.com",
+   "title": "World\u2019s largest contract chipmaker TSMC sees August revenue surge over 53% to record high - CNBC",
+   "source": "CNBC",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ycjd0eDNoeHBMd2Y4OE5TT2JvVUlNbVlhREFBc19jRTU3b0lrRTkxU1JrSmdmZ1AwcGFsWUlvZXBfT3FVS093cWxNZDA0WlRmb3haODhHVHREaDlyV3RYWVNjdEtYWTMtdGxwUEhPb3kzd9IBd0FVX3lxTE51eV9XN2ZtTHdhbUJaX1dtaTFWT0k5THItMFBIb3RRN3ZZT2dlamlnLXRaMkROcHFCQjBTWkcyQ3BlTWc1bmRsMUpsTnRwU2VKUWRxSW5lQ3FiTV9MRzVKX1QwUi1LYThTaEhpdUs0dTcyd0hER2Jn?oc=5",
    "published": "2026-09-10",
    "trust": "C",
@@ -392,40 +440,16 @@
    "flag": "context-only"
   },
   {
-   "driver": "Europe",
+   "driver": "US mega-cap / AI capex",
    "holdings": [
-    "HEUR"
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
    ],
-   "title": "Christine Lagarde: The choice facing Europeans",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260909~59a07e6f05.en.html",
-   "published": "2026-09-09",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Samsung and Mistral AI Announce Strategic Partnership for Intelligence-Driven Semiconductor Infrastructure - Samsung Global Newsroom",
-   "source": "Samsung Global Newsroom",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaUxyLVROeVZpX2dYVHo0RjhzRUJaMnNJdk1nNVc4REtZb0xnOVdtTEFiX2lZanlINHlxYnN5V1JIY3pVS2FXT3JFbGVfUFBzYkVFQlhIODBZaUhUUm4wTTNSdHFiRk5CMno4RF9mV3VQekZXV3MzR2MxN0NTSU0xb3VOdE53VHBPZlU2RG9jSVRxemx1UmZYZlV5bEtmY21MUHczSU9kVU9ZaUdyMjVxVWJaczBTX3ZjZU4tYzNBb0pkYmRLSmctZnFiMFYwb1lidUNUUg?oc=5",
-   "published": "2026-09-08",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "No. 11 OU's Brent Venables reflects on Week 1, previews road test - ESPN",
-   "source": "ESPN",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRVBjclpkXzlPaVRQWWRIUDY3bGZTSHBiOWpJS0dKWmhMZHlrWkN3Q3pESm10bDJ5ZlF3M01mZ19PZE1ReG5BdWMtLU16aFNydS1PSUtHT3RyVHgtWXJmaUJseWs2bTZnaFh6RWZ0X3ptbHJaVWthZjJFYzkzNlhfS29fdXhCQmdKbUdFaHc0QlM5UkRDb1g0Z05NSk5yTDkwSlNZc0VhS1RMYUk?oc=5",
+   "title": "Qualcomm Announces Multi-Generational Product Collaboration with Amazon to Build Next-Generation AI Data Center Infrastructure - Qualcomm",
+   "source": "Qualcomm",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaEg3TlU0dE54MjJpRk1OelViNFJud2hjUnJiOWhnTHVVVjRQUmhKOGcwY0NrZFBndG5fb3ZBRFk4RkZ0eU9VdXNfM3NvZk5SWWdJX0MwTC1UX2N6dzg2dEN5Y3UzVFJyN1hWZUZiWmpHQlNQU1dacG5jLXhJMHBCZmNMcXlfQVJWenhmUHpNMkRYWlpEZXM5OWdoUkIwXzBsQ1lqUlNBM1hhV0xCZDY0TQ?oc=5",
    "published": "2026-09-08",
    "trust": "C",
    "flag": "context-only"
@@ -444,25 +468,13 @@
    "flag": "context-only"
   },
   {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "Frank Elderson: Fireside chat",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260908~3652aa828f.en.html",
-   "published": "2026-09-08",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
     "VAS"
    ],
-   "title": "Iran to announce \"restricted zone\" outside Hormuz Strait: top security official - \u592e\u89c6\u7f51",
-   "source": "\u592e\u89c6\u7f51",
+   "title": "Iran to announce \"restricted zone\" outside Hormuz Strait: top security official - CCTV.com English",
+   "source": "CCTV.com English",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtWkVPbUtadE82bE9sdVNFZTFSd2VwSzROMGdaa29LWHk5VDN6NTIxNDd3eHY0SGozNE9yODdxQl92TXdqWHkzcU1iTUVhS3hadEFhdUhIOHBQMFNOZ203TE5WQ2Q3dkJnOUx3NkhKT2tmbU4tOFZQeEh3eks?oc=5",
    "published": "2026-09-07",
    "trust": "C",
@@ -573,18 +585,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68064",
    "published": "2026-09-01",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "AU tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Stealth super tax \u2018to cost workers $146k\u2019 - The Australian",
-   "source": "The Australian",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcS12QmFSTUxnT1Nrd1pfMjl3Ukl6aUNReFotWl9wNm84V0JNaFpqN194WTBFUURONnd3OWdMMWtmN1pGeF83N3ItQ1EzcnEydXI4b3k0WXVzVUtZLVJZYXJ2TlFnbXJhVXFTMG1nODh4NnJIOXJiYkgtZTdaV0staGdGVnlLN1pvcDhVT3dlRFhNcHpqc1c4SmRmbzhXcnkzVWZ1czRBVmdsdU1Bem9ybkNvUFJUNjRmbjhOaEp3azRFdkN2WGx5OUZSbjh2NmhiaENralhjRVd4aDl0LWfSAeMBQVVfeXFMTzA3eUlnUTBhRGNJZzM5SC1RT0tyTENoRFpySEpzMFh4VC1tZS11WFl4TVZMS1J6U3RuRUMxbEhQTUduamZDRTB2aEtyYmhnQlFRZzNadWNUejlQOGxfVEtjLTN6aUZqN0ctT3pUbC1TSlpxd0VERjMzdTFmS0x2eHRwc3E3Y2txTUxQVGYyNjNEUDlQSi1RZEloNTVDeXJhLXlud3preVV4SVpWR1R0OG5fVk96Wjh2ZFVqeU9RTG45Qnl1ZEptakdCSGZlVjhBMmEzdXQ1V1F3a0hFNEFsZi1ONGs?oc=5",
-   "published": "2026-08-29",
-   "trust": "C",
    "flag": "context-only"
   }
  ]

@@ -1,19 +1,20 @@
 {
- "generated": "2026-09-12T21:55Z",
+ "generated": "2026-09-13T22:06Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 45,
+ "count": 46,
  "items": [
   {
-   "driver": "Semis / Taiwan",
+   "driver": "US mega-cap / AI capex",
    "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
    ],
-   "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Hits Record August Revenue, Is The AI Upside Already Priced In? - simplywall.st",
-   "source": "simplywall.st",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNYnMxVG9PSmNnOW5pRGVtbE1XVXpCQmFGTW1ZWkhYbWp1eVgyRzMzRFpCNDRkc29FUkNjTFN3VlQ5TUo1RUExaFBzVW9qTDl0VlU1TnY5RTNGVENZOFZzdE9rcnE3REJGY3JPQjYybi11SWFjT2FfVHZWMW1sSDllR2VyMUVzcFk4aGNPazRURENHVkxNbm9wVmc2VXBBdkZreERtSnJvaWtzZnhycjBLQkRoTnpJd09CZzNOaElTTkJaRHF6eVFHeEczU1Rlbm1Lc3BGMHlPVy1kX3JtLWU3dW9zRXJQaHc5Vzg3VdIB8gFBVV95cUxNcXo4WV91OHRlb1JyeDQtOXhRRk9iSzM1REs3LTlNLU15T3Bmb1Ztd0VRS0xLQjFlZ2RNSGM4YzRZS1VISy12c3FDNEdjS0hBZGFPTnIydXN2RUZ2OGxHVVJEU3UxU1NQQmZNeFB0TURablpvanhOa0Zjc1FSZDI2MTZVUmpzNWxMbDBXZ0dlNEY3XzdEMkhjXzdyZzhQNEFkNl9xbFpXamNHLWg2NFIwWGwtNGhucjlPdUNKbTNldlh5Y3Jfd0pIYXViZHJuVGM1MGFFSG5FWEp2azJZQ2RXRnQyQmMyLTlOZ09ya3dOdDA0QQ?oc=5",
-   "published": "2026-09-12",
+   "title": "I own a house rental business near a future Meta AI data center. Construction workers make up most of our tenants. - Business Insider",
+   "source": "Business Insider",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcC1pUWttN0lRWmEtUmx4V0EzTHEzeHlCRnpIT3F1dUZqTEVDWVhJNUpXbmtMNFllZERZTVhYOEJobTJxeno4ZHVkR29pYkROMFNXZlcxOUZianJnZ3dhQmthZ3VjbGU1M1g2Njc1ZUFVNmJEejY2QW5SV2RWTi1TT0gtTmVlV3NvbFNmbl9GejduajlTTGVmZDNIa1A?oc=5",
+   "published": "2026-09-13",
    "trust": "C",
    "flag": "context-only"
   },
@@ -24,10 +25,24 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Apple and Taiwan Semiconductor Manufacturing Just Announced a Cutting-Edge Chip. 1 Stock Offers Far Greater Upside. - Yahoo Finance",
+   "title": "Chinese breakthrough in chip material aims to clear hurdle for next-gen memory - South China Morning Post",
+   "source": "South China Morning Post",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUkVxTG40UjVyZF93bnQ0Mzh6aTNkYVJ2d3Zkdi1zVUVmUjNiZHk4b1U2ektvV0ZIc19GMGllaGRXb2xpcDdqQWwtdEpYc181TU41MGJRZzBXc2lmQ2d3UjNhcE5hT010eDFtZFpCN1Z5TEEwOU9RRXYtUTc3X3RkbzQxcnhSQWpRLWNFLWg5QVExZVA5T0ZKQzFNVWxOVVpCYU9DaTc4TnpDZzlGcHUxdHVZTUliWkd1ejgtcXc5d3XSAcABQVVfeXFMTk4tMDV3OE52V09mZHdkX04tVV9HOTNSZWlFSDBtalMyeVdFUUJOOVhnSUw4LXB1UWdvTGlUVktEU0Y2T3Rnb3l2OVFuQ0pRT29Yam9Jek94aTFSSE1iTEVwTXNGRzJuRnJaeG5ucUI0aEQ4d0tUQUE5UXplbjZHc2V2UU0wVHIxRS12VGdrbHJ3N2tsVnZjY0h1UXJGcmV1TXF1a2w0M0hFODZ3ZlYzMWJaVFNuaGJPOUo3VjAzYms4?oc=5",
+   "published": "2026-09-13",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Prediction: 2 AI Semiconductor Stocks That Will Join Micron and Broadcom in the $1 Trillion Club by 2028 - Yahoo Finance",
    "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ3VnVS1Kd3JUNldqTGRQYVpjNUlDeHZXWHVLSkVTY21DS0FLcTZzcEp3eFgxQzRpVFYwYlk3NDZqQmxqTUE2Q1lUZWNUeGRQd0N5aExwNVZKbUx0bVRYRHVPNmtpaUZiNWZMMXhNSXdqY0dkZmh1XzAzUURrOUszRlI1QmZBcmRBTzU2VmxnajhvaVpZZHQ3TEtDWEt3MGRUZ04xV2JCY0l5dDQ2U2hn?oc=5",
-   "published": "2026-09-12",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRkliNC1ReUVTbncwRGpuYjJPRnFHU3lReVp6bXdKVTgtYTdydGEyZVBSaURsakg1TXZoaUNxeHBjakVWek1xWVN3eTZ5NFlzQ0NoVVd4RHU1dzI4UVlMVlByYVMwMV9kNVFsUUJFTTljUWQwbEhFVDYzWmM3YlAwN3U4YUVHckhsLUJRZGhYcEVwUDVMUTMzREVSWTl2U1dmUXc?oc=5",
+   "published": "2026-09-13",
    "trust": "C",
    "flag": "context-only"
   },
@@ -38,10 +53,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Nanoscale polarization whirlpools discovered in atom-thin semiconductor - Nanowerk",
-   "source": "Nanowerk",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQcU5DVFhxSDNnUE45eHVocENRZy1fOTNSNkRJOXc2YmN4VlF4YlFwRnpZNHAtd3BjWVRuSkZjY3hXaWhwZ2xJaEZ4ek54b3dVcGFpcUsya0pNd1FBR3QzNi03UnVuTl9yWVpQcTlScw?oc=5",
-   "published": "2026-09-12",
+   "title": "Prediction: Taiwan Semiconductor Manufacturing Stock Will Hit $600 by the End of 2027 - The Motley Fool",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOejNzandWdGJVaU1UbktHZmhSeFhRMzlTTk5qMXhVWW1aNFl5S0E0em1YNHFOWGdkTUVoVUdnd2pKRjlTejFkWndPQm9sTlhTNXpTWXVlMnN2cmpzQkI3cWh3QVZTZno2YU1uZkdreXVlUzgzeFN0QXFZSXpIVE1wTGN2emZuUUtra3pTai1aU3g0dkI2amQySw?oc=5",
+   "published": "2026-09-13",
    "trust": "C",
    "flag": "context-only"
   },
@@ -52,10 +67,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Apple, Taiwan Semi Lead Five Stocks Near Buy Points - Investor's Business Daily",
-   "source": "Investor's Business Daily",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa0NXTTRONDBkLTlvbEZqcG8tS2JiNDFmMlRNV2Rnenc4SVpaZEZ4M001aG9PNDNhV1I5cDZKMHA2aEhqRU55am9wQWFSb1F6UnRsQ2ZPeEp3UGFEZ2xTZHJWV0tLZnZWempmXzlqUVMtSzU4QkNQMzJXLVRXd21LNzFCek9FOFhVdUd3RDlXZXQyT0QxTko4?oc=5",
-   "published": "2026-09-12",
+   "title": "Immunofluorescence Antibody Kits Market To 2035: Semiconductor Quality Control Drives Growth - News and Statistics - IndexBox",
+   "source": "IndexBox",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQLXFuVzNyZk5NQ0NwemY2QjM1S21lcU1Xa25kcllkdG4tTlNiSV9GaVR2UHdaT25QVlJlaGVXWERuOGxmYWpJQWpXMU1lY1RGOUxHMU5ZTEVIWFZvVlFVR19qOHQ3SUFmQ01JMzJuWWdqdGo0dE03RG5xTE9RZXFydk5uYjRuc1F5cVVRdWJvb0pyMEZ0NEFBSTZ6Z0VmRlhkUENUb3NjUnJ6VWlZcmJzQkN3ZWFaR2ZISF9aaDVGR18ybzlQaWFEb05YbUp2ZTdFRzNXbFJFSHlkUUM0cEY2Ug?oc=5",
+   "published": "2026-09-13",
    "trust": "C",
    "flag": "context-only"
   },
@@ -64,10 +79,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "OpenAI IPO won't happen this year, says Sam Altman",
+   "title": "Is Clarity dead? A vibes-based analysis: State of Crypto",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/09/12/openai-ipo-won-t-happen-this-year-says-sam-altman",
-   "published": "2026-09-12",
+   "url": "https://www.coindesk.com/policy/2026/09/13/is-clarity-dead-a-vibes-based-analysis-state-of-crypto",
+   "published": "2026-09-13",
    "trust": "B",
    "flag": "context-only"
   },
@@ -76,10 +91,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Bitcoin Suisse plans to cut up to half its Swiss jobs as it shifts work abroad",
+   "title": "Quantum-proof blockchain: why math, not machines, holds the key",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/09/12/bitcoin-suisse-plans-to-cut-up-to-half-its-swiss-jobs-as-it-shifts-work-abroad",
-   "published": "2026-09-12",
+   "url": "https://www.coindesk.com/opinion/2026/09/13/quantum-proof-blockchain-why-math-not-machines-holds-the-key",
+   "published": "2026-09-13",
    "trust": "B",
    "flag": "context-only"
   },
@@ -88,10 +103,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Nigel Farage\u2019s Reform UK lands $97 million donations from two crypto billionaires in 24 hours",
+   "title": "Fed rate hike is about Wall Street, not inflation, says economist",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/09/12/nigel-farage-s-reform-uk-lands-usd97-million-donations-from-two-crypto-billionaires-in-24-hours",
-   "published": "2026-09-12",
+   "url": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist",
+   "published": "2026-09-13",
    "trust": "B",
    "flag": "context-only"
   },
@@ -100,10 +115,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Anthropic CEO calls for AI race to slow down. Musk and OpenAI's Altman agrees",
+   "title": "Circle's $400M Tazapay deal buys emerging market links that take \u2018years to build\u2019",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/09/12/anthropic-ceo-calls-for-ai-race-to-slow-down-musk-and-openai-s-altman-agrees",
-   "published": "2026-09-12",
+   "url": "https://www.coindesk.com/business/2026/09/13/circle-s-usd400m-tazapay-deal-buys-emerging-market-links-that-take-years-to-build",
+   "published": "2026-09-13",
    "trust": "B",
    "flag": "context-only"
   },
@@ -112,10 +127,70 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Ripple stablecoin chief sees $13 trillion corporate treasury opportunity for RLUSD",
+   "title": "Crypto's Clarity Act is a Schr\u00f6dinger's cat in life-death limbo as U.S. Senate returns",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/09/12/ripple-stablecoin-chief-sees-usd13-trillion-corporate-treasury-opportunity-for-rlusd",
-   "published": "2026-09-12",
+   "url": "https://www.coindesk.com/news-analysis/2026/09/11/crypto-s-clarity-act-is-a-schroedinger-s-cat-in-life-death-limbo-as-u-s-senate-returns",
+   "published": "2026-09-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "These are the 10 biggest retirement fears \u2014 and what you can do about them",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/these-are-the-10-biggest-retirement-fears-and-what-you-can-do-about-them-4dde8b9c?mod=mw_rss_topstories",
+   "published": "2026-09-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "I\u2019m locked into a 10-year annuity and now I\u2019m strapped for cash. What are my options?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/im-locked-into-a-10-year-annuity-and-now-im-strapped-for-cash-what-are-my-options-e6463c91?mod=mw_rss_topstories",
+   "published": "2026-09-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Your Social Security COLA could go up another $71 per month in 2027. That\u2019s not necessarily good news.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/your-social-security-check-could-go-up-another-71-next-year-thats-not-necessarily-good-news-f952c08a?mod=mw_rss_topstories",
+   "published": "2026-09-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "This simple mistake can give your money to the wrong person when you die. Here\u2019s how to protect your estate.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/this-simple-mistake-can-cost-your-loved-ones-their-share-of-your-estate-heres-how-to-protect-your-money-99374a95?mod=mw_rss_topstories",
+   "published": "2026-09-13",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "How to trade a well-paying job for more work-life balance \u2014 without going broke",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/how-to-trade-a-well-paying-job-for-more-work-life-balance-without-going-broke-794de555?mod=mw_rss_topstories",
+   "published": "2026-09-13",
    "trust": "B",
    "flag": "context-only"
   },
@@ -153,66 +228,6 @@
    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html",
    "published": "2026-09-12",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Why OpenAI\u2019s Sam Altman says an IPO isn\u2019t in the cards this year",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/why-openais-sam-altman-says-an-ipo-isnt-in-the-cards-this-year-229de89c?mod=mw_rss_topstories",
-   "published": "2026-09-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Elon Musk backs Anthropic\u2019s call to slow down AI progress before rogue bots take over the entire internet",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/elon-musk-backs-anthropics-call-to-slow-down-ai-progress-before-rogue-bots-take-over-the-entire-internet-46f12d98?mod=mw_rss_topstories",
-   "published": "2026-09-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018I still don\u2019t have my MRI\u2019: My health insurer canceled my plan without warning. Is that legal?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/i-still-dont-have-my-mri-my-health-insurer-canceled-my-plan-without-warning-is-that-legal-02143710?mod=mw_rss_topstories",
-   "published": "2026-09-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018I\u2019m the executor\u2019: My two siblings and I inherited an IRA. Can we just cash it out?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/im-the-executor-my-two-siblings-and-i-inherited-an-ira-can-we-just-cash-it-out-dafc5b8d?mod=mw_rss_topstories",
-   "published": "2026-09-12",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "My 87-year-old mother wants to pay for my brother\u2019s kids\u2019 education. I don\u2019t have children. How is that fair?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-87-year-old-mother-wants-to-pay-for-my-brothers-kids-education-i-dont-have-children-is-that-fair-b647a4bd?mod=mw_rss_topstories",
-   "published": "2026-09-12",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -261,14 +276,13 @@
    "flag": "context-only"
   },
   {
-   "driver": "China + iron ore",
+   "driver": "Gold",
    "holdings": [
-    "VAS",
-    "VHY"
+    "QAU"
    ],
-   "title": "Iron Ore CFR China (Platts) Overview - CME Group",
+   "title": "Gold Futures Overview - CME Group",
    "source": "CME Group",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTR5VVR4cVVRZlR2bWFQNUFJcjFfak9tNG1wOTdWelNkNWcwQWw2V2g4WUdvVHJWdDZIRE9lRXp3YnNSaHRhSWRmWlhPNkRkZldTT0tVRUlHdk5UeGZ3MExWTWs0NWt4VWhDT0l4TUJLaXNvcm9NM0JLWi1RMGlHVFVVNnZ2VW1uTlJudG1NRURmY19sS0hWNWdvUmR0UQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeDc1RGtZSl9sWTFkQXE5RFZpdVo3VkRJT08zLU5TSUVSQWpLTUNOR3RjZEwxY2hYNUdLUzdrV2xsdDY1OTlkcGJxM1pyaUNOSndxdDNuY2N0NXROM1psWERyeVVRZko1ZGc?oc=5",
    "published": "2026-09-11",
    "trust": "C",
    "flag": "context-only"
@@ -440,16 +454,14 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
+   "driver": "Energy / oil",
    "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
+    "VHY",
+    "VAS"
    ],
-   "title": "Qualcomm Announces Multi-Generational Product Collaboration with Amazon to Build Next-Generation AI Data Center Infrastructure - Qualcomm",
-   "source": "Qualcomm",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaEg3TlU0dE54MjJpRk1OelViNFJud2hjUnJiOWhnTHVVVjRQUmhKOGcwY0NrZFBndG5fb3ZBRFk4RkZ0eU9VdXNfM3NvZk5SWWdJX0MwTC1UX2N6dzg2dEN5Y3UzVFJyN1hWZUZiWmpHQlNQU1dacG5jLXhJMHBCZmNMcXlfQVJWenhmUHpNMkRYWlpEZXM5OWdoUkIwXzBsQ1lqUlNBM1hhV0xCZDY0TQ?oc=5",
+   "title": "No. 11 OU's Brent Venables reflects on Week 1, previews road test - espn.com.au",
+   "source": "espn.com.au",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRVBjclpkXzlPaVRQWWRIUDY3bGZTSHBiOWpJS0dKWmhMZHlrWkN3Q3pESm10bDJ5ZlF3M01mZ19PZE1ReG5BdWMtLU16aFNydS1PSUtHT3RyVHgtWXJmaUJseWs2bTZnaFh6RWZ0X3ptbHJaVWthZjJFYzkzNlhfS29fdXhCQmdKbUdFaHc0QlM5UkRDb1g0Z05NSk5yTDkwSlNZc0VhS1RMYUk?oc=5",
    "published": "2026-09-08",
    "trust": "C",
    "flag": "context-only"

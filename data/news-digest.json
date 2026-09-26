@@ -1,8 +1,195 @@
 {
- "generated": "2026-09-25T23:04Z",
+ "generated": "2026-09-26T22:21Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 50,
+ "count": 49,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
+   "published": "2026-09-26",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Semiconductor sales hit a record as AMD reaches $1 trillion - equiti.com",
+   "source": "equiti.com",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1BNOFBsd005Z29mM2RiWGZMSHFVV2R0dWhNaDBVNldMMW5KM0haU3A5c2xEd0RMV3NoZUJpclpja0ZCSFE3d05TdTN5MFRuVFV3djE0TUF5REwzOFBSdlhQOWF2aUZzZGxHLU9TWHh5d1IxYnFPVV9RVUdfSG9PcE1HVkcxZzlHRDgtTnpEalpxVUEyajNXdzZGOXhwZGcwdkdOTGRZcjI?oc=5",
+   "published": "2026-09-26",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Economics Ministry approves US$44B in TSMC U.S. investments since 2020 - Focus Taiwan",
+   "source": "Focus Taiwan",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QTjJhX0V0My1oVnZqeDR4eFNadUZNV0g1LU1oaEl0NFNYc3VNQU5BQ0lSajhrWHF6UlRzb3ZkeGJGbmJPUFZYUHczTzNVMFBDSlJCOTVmOA?oc=5",
+   "published": "2026-09-26",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Kraken\u2019s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange",
+   "published": "2026-09-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
+   "published": "2026-09-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitget hacker moves $83 million in stolen XRP that Ripple cannot freeze",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/09/26/bitget-hacker-moves-usd83-million-in-stolen-xrp-that-ripple-cannot-freeze",
+   "published": "2026-09-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules",
+   "published": "2026-09-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Solana\u2019s 150-millisecond settlement upgrade reaches second public test network",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network",
+   "published": "2026-09-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Claim a waiver for duty on goods that you bring to Northern Ireland from Great Britain or countries outside the UK and EU",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/claim-a-waiver-for-duty-on-goods-that-you-bring-to-northern-ireland-from-great-britain",
+   "published": "2026-09-26",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Report payments and view your allowance for non-customs state aid and Customs Duty waiver claims",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/report-payments-and-view-your-allowance-for-non-customs-state-aid-and-customs-duty-waiver-claims",
+   "published": "2026-09-26",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
+   "published": "2026-09-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018We lived within our means\u2019: I earned $30,000 as a pastor and still retired comfortably. Why don\u2019t you tell people that?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
+   "published": "2026-09-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/from-6-eggs-to-50-000-cars-these-charts-show-how-inflation-has-defined-the-past-5-years-3c7b9ab9?mod=mw_rss_topstories",
+   "published": "2026-09-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Social Security checks are projected to be cut by $540 a month in just six years",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/social-security-checks-are-projected-to-be-cut-by-540-a-month-in-just-six-years-a8842912?mod=mw_rss_topstories",
+   "published": "2026-09-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "A 10% risk-free yield? For some, yes.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/a-10-risk-free-yield-for-some-yes-0d1fa51a?mod=mw_rss_topstories",
+   "published": "2026-09-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -41,52 +228,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "New Jersey hits data center powering Microsoft Copilot with $1m fine after drone expose 62 secretly-installed gas generators - TechRadar",
-   "source": "TechRadar",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNjROcVFvRDBuQk5SNDNZYzJkaENaUHZhMUVnTzRqZ3V5XzRzOXo1YUdfSVU1ZkRMcHBKaXVUbDZlRTF5dWdrNmRBRG5aRFFiRG9leEZkSm9kbnFkQVZQWEd5ODJFY01MWWtFWElCYUdPUl9OZ0pPVlhPOG50TE9zX3g2bFYxY2tmQ1Q1UDJtZmNhT1lMbUtfSWhnUEFJeXFQUklidTdjaDh0WDBldTRHMDdqU2M2eTJmWXdicmxKVDJUU1lVakdKZElFdDJrTFVOSGprTG1HanphRG9fU0p0Zl91REw1VnUyUkhfNw?oc=5",
-   "published": "2026-09-25",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "New Jersey hits Microsoft-linked AI data center with record fine for 62 unpermitted power generators, issues 45-day shutdown deadline \u2014 site tied to $33 billion deal also built illegal 1.5M-gallon fuel tank - Tom's Hardware",
-   "source": "Tom's Hardware",
+   "title": "New Jersey hits Microsoft-linked AI data center with record fine for 62 unpermitted power generators, issues 45-day shutdown deadline \u2014 site tied to $33 billion deal also built illegal 1.5M-gallon fuel tank - tomshardware.com",
+   "source": "tomshardware.com",
    "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQM2RYNXhvTVNWWTVmLXBrT214OVA1bkg2alpWODRYd0tCbFI4by12d1NlU2JxekJyZ1FQeUswSWhvamE5eW4zS3dPRVNmbXU5MzMzbUtUdElqMENTVGtOTW5vNFdqWTRzTThpNEQteVI1dTRXUWs5N0VGU2hEcHFleFpCVUJ6QkFmcUJRaW9MWWtxdWN1bzhTQXVFZDRzci1NTTg0V2c0NTFydGlPYWNUWHF3R1NQUkNlVE5XRExGVVdQdFUxaG9YWmgtWldOQWs5MGk1UXh6VXBHRjNRRFhKVjJFOHFBbjFmWjNSOTRRN0pIU04yTzc2NlBvbWZPaGZ4ODd3cVZfeTJXZnhUa2dMdm1laWMzNThvNUY0d29NQ1dHU0tEUXRPdjZnTEVpUGYyekFF?oc=5",
-   "published": "2026-09-25",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "ON Semiconductor (ON) After New Power Platform And Subaru Tie Up Is Valuation Still Compelling - simplywall.st",
-   "source": "simplywall.st",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNM0hBMHJLRWlMX2Y5elFfVUROQXBmWGE2Z0pFeEVpZjB3MEZrbDVqUlM3dzlCOXVuNzdkUjNHWElVRkplb0ctMU1wNU1CSVY3MEgzX25ILU9TSl9OSGt0NjFlRUhzNFE5VmdBeHM1bXJHY2N4Uk5yLTJ0N3VwWXpqRkpFUk5XdzRRTDVxWHVtTUVpQW9ZYTllS3hnNUFZREpid0pfR2oxNzdQeVJRdzZhWUszQzF2RDJ5MW9OXzFQMHh1TjI5V0ZmbzIxUXJNY3hkbXBWatIB2gFBVV95cUxQeW5XTElBTVhDdzR3UlU4eG1XUjRuelFKME54YnMzYnNULXhXOThSOS1ka3NkTUVkZ1dxUmduMC1WeTc2SWFjMzFQd0tBcVlOR250WGtieS1Ld2lfckJZcGttQlBJOFFPS0dFaFQ3eWlsQ3FidFJhY1ZEZEpuY0gwdG9TSHRKMi1zdmRlbjZRc2czVWpOZUNhRERnaGxMeHhwdWlxWkgzUkNyWVE4SGp2V3hQSHBJSlRLdlZCcVBsZTFGbTU2QklhSzdnWjQ2R1JraTRTS08zNVBHUQ?oc=5",
-   "published": "2026-09-25",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Meet the Super Semiconductor ETF With 34.7% of Its Assets Parked in Intel, AMD, Micron, and Nvidia - The Motley Fool",
-   "source": "The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVE9OUXNxVnhHX2NmMmRFWkFzNEJkRV9kZ045QXZjcVNTRUJ2THp0c1BXbE9pM3FYa0RrVllIMkN6TUk0YUNuZDIzVzNSUXJBd295N2liWmtxOG11NjNNVjhnVjJaSzhGUktEcXFLaUgyWVdGcnE3YnBiYl9mdl9UU2JzY3JWM1hnODNsWFYwNjdNMG5nNkJkNQ?oc=5",
    "published": "2026-09-25",
    "trust": "C",
    "flag": "context-only"
@@ -119,73 +263,13 @@
    "flag": "context-only"
   },
   {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week",
-   "published": "2026-09-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Another appeals court rules against prediction market provider Kalshi, says sports contracts are subject to state regulations",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/09/25/another-appeals-court-rules-against-prediction-market-provider-kalshi-says-sports-contracts-are-subject-to-state-regulations",
-   "published": "2026-09-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/09/25/blockchain-association-sees-leadership-shift-shortly-after-crypto-clarity-act-fizzles",
-   "published": "2026-09-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/09/25/circle-and-tether-step-in-to-freeze-hacker-wallet-after-massive-bitget-crypto-heist",
-   "published": "2026-09-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Tokenization is moving faster than Washington",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/opinion/2026/09/25/tokenization-is-moving-faster-than-washington",
-   "published": "2026-09-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "UK tax / reg",
    "holdings": [
     "ALL (disposal gate)"
    ],
-   "title": "Accredited official statistics: Monthly property transactions completed in the UK with the value of \u00a340,000 or above",
+   "title": "Guidance: CDS Declaration Completion Instructions for Exports",
    "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/statistics/announcements/monthly-property-transactions-completed-in-the-uk-with-the-value-of-40000-or-above--30",
+   "url": "https://www.gov.uk/government/publications/uk-trade-tariff-cds-volume-3-export-declaration-completion-guide",
    "published": "2026-09-25",
    "trust": "A",
    "flag": "context-only"
@@ -195,9 +279,9 @@
    "holdings": [
     "ALL (disposal gate)"
    ],
-   "title": "Form: Excise movements: notice of intention to claim drawback (EX75)",
+   "title": "Guidance: Excise tax types, excise duty rates and supplementary guidance",
    "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/excise-movements-notice-of-intention-to-claim-drawback-ex75",
+   "url": "https://www.gov.uk/government/publications/excise-tax-types-excise-duty-rates-and-supplementary-guidance",
    "published": "2026-09-25",
    "trust": "A",
    "flag": "context-only"
@@ -207,95 +291,11 @@
    "holdings": [
     "ALL (disposal gate)"
    ],
-   "title": "How to get an agent reference number for PAYE",
+   "title": "Guidance: CDS Declaration Completion Instructions for Imports",
    "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/how-to-get-an-agent-reference-number-for-paye",
+   "url": "https://www.gov.uk/government/publications/cds-uk-trade-tariff-volume-3-import-declaration-completion-guide",
    "published": "2026-09-25",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Vaping Products Duty and Vaping Duty Stamps guidance",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/vaping-products-duty-and-vaping-duty-stamps-guidance",
-   "published": "2026-09-25",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "VAT Payments on Account Regime",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/vat-payments-on-account-scheme",
-   "published": "2026-09-25",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018She says it\u2019s just money\u2019: My friend pays for everything. I should be grateful, but I can\u2019t stand her anymore.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
-   "published": "2026-09-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "A \u2018death cross\u2019 is coming for the dollar. Why Trump will be happy.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?mod=mw_rss_topstories",
-   "published": "2026-09-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories",
-   "published": "2026-09-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Microsoft\u2019s stock has roared back to life, closing at its highest level of the year",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/microsofts-stock-has-roared-back-to-life-and-is-now-headed-for-its-highest-close-of-the-year-89e4d596?mod=mw_rss_topstories",
-   "published": "2026-09-25",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Apple\u2019s expensive new iPhones could be a double-edged sword for the company",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/apples-expensive-new-iphones-could-be-a-double-edged-sword-for-the-company-21c4fefb?mod=mw_rss_topstories",
-   "published": "2026-09-25",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -314,29 +314,14 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
-   "published": "2026-09-24",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Semis / Taiwan",
    "holdings": [
     "ASIA",
     "EMKT",
     "NDQ"
    ],
-   "title": "Reflecting On Semiconductor Manufacturing Stocks\u2019 Q2 Earnings: Teradyne (NASDAQ:TER) - au.finance.yahoo.com",
-   "source": "au.finance.yahoo.com",
+   "title": "Reflecting On Semiconductor Manufacturing Stocks\u2019 Q2 Earnings: Teradyne (NASDAQ:TER) - Yahoo Finance Australia",
+   "source": "Yahoo Finance Australia",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVThSaDdWd0VxbWw0TTFQSC04WnpSa0ZlZnpDVDlYNG5vYXJOcFljeXluaFNKTWVIZkFxYzljcXc5UzQ3dk9DaDkzelA3aXplMXYtN2NmTDl2SWg1RUt1M1pRbmxYa2dTa0FVMmJPRktLVV9tZFNJQ3dORzAtU1dIY3k4NnlQOFFhamVGWUt4MEloaEUzRGwzS0xTTklxQQ?oc=5",
    "published": "2026-09-24",
    "trust": "C",
@@ -401,8 +386,8 @@
     "VHY",
     "VAS"
    ],
-   "title": "Is Iran\u2019s Hormuz offer a sign of economic strain or a bid to buy time? - arabnews.pk",
-   "source": "arabnews.pk",
+   "title": "Is Iran\u2019s Hormuz offer a sign of economic strain or a bid to buy time? - Arab News PK",
+   "source": "Arab News PK",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORngwY3V2RFJ0M1NjYkJURzBXR0twTjFWYkZqQzJ4eFJoQmI2cDdrSzRTaWVKWGpHN25CTE9tckwwOWtaTnYtQXR4a2FvTk9WdTE1bmFURndUMzluMjlUYWwyRy1qUVpXTERXaE5UREVlOUJmc2hNY3gzOHRVTy00MUUtSUJyN3JwdEZ6bzdzNUxQVThDaDRKZWxwbkRFOEtGS3JNeUJfdlFVT0Nqb3QzMDdn?oc=5",
    "published": "2026-09-23",
    "trust": "C",
@@ -487,19 +472,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "Brent Venables says Oklahoma needs to correct 'fundamental mistakes' - ESPN",
-   "source": "ESPN",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaTdYOVFSazhDQkdfSVF4QzBwT29wWngwaE5Kc09mMXlWWngyazE3QXlqeFQ5MmhIQ3pOdThRVTdfZVpzQ09wNC1EV29fZ0x2dUdmbDREa1hvNVNqam5Za29UQXpfanJmb0FmUUZUc3d0MVQxY0Z2c0xSQ09HWFhJX1FheksyWWl4V3dxd0ZoZXl2ZU5fbGZ3NVlZLVpndXpwOXY1WFFRZzdjX0RuTTFqNWVn?oc=5",
-   "published": "2026-09-22",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -509,6 +481,21 @@
    "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
    "published": "2026-09-22",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta data center boosts Alberta appeal for hyperscalers, Capital Power says - Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTldhVlJRcngtVWZhZFV3Q3l5TllveS1oQ2FzY3BMSlpHRTY1OS1BNWdxSF9aREtHdmN0WDZIMnl3dmtwOVI3ek1EejFhLVNKMjh3OXYtZmVhRWJBYThHcGg0eGZmeEZVeVctN2ozZ2l6SHZEYnNXWnhST19VR0VjZmlPOHF2U1IwNDlNTWNKdHhYNXlBRUZHSFdyMF8xRXhrZ0F1aW10ak9MYnpWeVFtNENzdjQ4QmhzeU1EZzNVT0Y?oc=5",
+   "published": "2026-09-21",
+   "trust": "C",
    "flag": "context-only"
   },
   {

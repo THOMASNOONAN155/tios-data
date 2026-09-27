@@ -1,8 +1,176 @@
 {
- "generated": "2026-09-26T22:21Z",
+ "generated": "2026-09-27T22:48Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 49,
+ "count": 51,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "LG Electronics named Nvidia partner for AI data center cooling - The Korea Herald",
+   "source": "The Korea Herald",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1XclRKRzFVWFkxRXdOVUN0RFFnNENkN3RvRzFOT3NnYlQyZXljdldCSE1OcXdvRUxpUE9BczFuSG84N1JZMFhKS2ozbWx1U25MMnVVZGx2Yw?oc=5",
+   "published": "2026-09-27",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Inside the workforce housing attracting Meta's data center workers - Business Insider",
+   "source": "Business Insider",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdWJsZEk3emJIR05kVUgzT0M3dkhhMUJISWtXc21YTTlobFdDZVk4VVdhcXNUa1kwbzNObGdoRWNCS3d2RklsRjVZV21YemQzV01KMUhxcHBqUDFBdGdrcWdSNEptYldGamw5WDQ5QUs0aVZEU1BmT2V0Nlk1eDFyTGlERkpmN3Y2SVJ1eXIxa3EwRTVMNklucVk4UVA2WkJCZVE?oc=5",
+   "published": "2026-09-27",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "How Investors Are Reacting To Lattice Semiconductor (LSCC) Secure FPGA Launch - simplywall.st",
+   "source": "simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONWpGYzdCUzcwdkNxZjdTNWxVZ1VrYVpJRUxpb0xULTh6YWdJQjRpNnVia19FRlRHRWNfTWN0UnJaV2xLUk95NkgxTlBYQ1NfcHNFQkx1WnlBS2hPZTZ2VHREYjhyNHNkWEpRYkx4dzR6c0pQc0FDNDZwLVRZblJfSHU0dHlSd0pQeGVHLUxoX3JOMkJnT0o1UnVYaXVsbFFGa01sUjVuWGZrSXJQSk1NdDdLa0MyVUhvSUR0dHhpNHJ0bE1xSVNjQ2ZNR29KNzFVRmsxSmNmRUVQT2VhUnVJ0gHkAUFVX3lxTFB2SmMwUWh0bUxiWXAtOEZseW12bUFQLVJETE1qRkgzcnpkeGxwU2xYcG9RbmZ4R0ZEY3F1NDU5QV9xTVh6bjdLUnNwOEJZT0h6Y0RtakxZd052ZnpNa2toSzZKWlBNZnI2UWtGSFNJM2prUE9UYjNMVUFqeERfSDdYMHlqSDBSQWd3ai04cTBLYS1NQ25ZZlkwdkNweVJUaFJKWVc1eVM2T3NYUlNldjVnYnVaOUI2TUMwRVA1V1dBRjg0Wm41X0tUNVlfQ3IwTXRBNDVGbkZRUHN2bFJDb2xQd1lyLQ?oc=5",
+   "published": "2026-09-27",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Prediction: ON Semiconductor Could Be a Sleeper AI Infrastructure Winner - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOG9PaWpJVGZLOVE1Z0Zmc2ROS1BpSkNqeUhZS19aeXVybXVqY3NHMXVtRlNmc0h0c3k2RmxaamlEY0JjUFAyLVRLbnVDcGRqSFJ4d21zYlF1Y3hiN0pMaGpXZkg4UXQ4bnZQRkw1MFlFMW5kcmZxZUFxcXNaMG5uX1cwdUdsSHdOZUozNHlKNWRqaGxZN1luUDZtSzZDQ0hvVlA5a2ZrenM?oc=5",
+   "published": "2026-09-27",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Prediction: ON Semiconductor Could Be a Sleeper AI Infrastructure Winner - 24/7 Wall St.",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNWo0dV9QTUdWdUJ2T3c0UFV2NEFfNzE0MW5TMFNNOThRWUxTdTJ6dmtYX2l4RkI1WGpXc1Y0SUNWODRHeF9xVFZidXBhS1pDaEtDMndHVjVKV2Rfa1NPZkZOQ2tDYTdkVUo4VS1mVTJ2eVd4M3JZOFhWNkxVMXJlQ1VnSXpWUUJlRlg3UEpUZzR4VUdzY3Q3RmU4UTBRSFJGcVV0WEhtRkFKUFlsOENRSnRaWE54Zw?oc=5",
+   "published": "2026-09-27",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Vitalik Buterin maps Ethereum\u2019s shift beyond a blockchain in sweeping 2030 vision",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision",
+   "published": "2026-09-27",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "How months of work on the Clarity Act all fell apart",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/news-analysis/2026/09/27/how-months-of-work-on-the-clarity-act-all-fell-apart",
+   "published": "2026-09-27",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Customs Declaration Service: service availability and issues",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/customs-declaration-service-service-availability-and-issues",
+   "published": "2026-09-27",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018I want to make her proud\u2019: My mother, a divorc\u00e9e, died and I\u2019m her executor. Do I need to file for probate?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
+   "published": "2026-09-27",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018We lived within our means\u2019: I earned $30,000 as a pastor and still retired comfortably. Why don\u2019t you tell people that?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
+   "published": "2026-09-27",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "A \u2018death cross\u2019 is coming for the dollar. Why Trump will be happy.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?mod=mw_rss_topstories",
+   "published": "2026-09-27",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Social Security overpaid my 82-year-old mother by $20,000. What else is hiding in her finances?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
+   "published": "2026-09-27",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories",
+   "published": "2026-09-27",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US mega-cap / AI capex",
    "holdings": [
@@ -14,34 +182,6 @@
    "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
    "source": "EnergyNow.com",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
-   "published": "2026-09-26",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Semiconductor sales hit a record as AMD reaches $1 trillion - equiti.com",
-   "source": "equiti.com",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1BNOFBsd005Z29mM2RiWGZMSHFVV2R0dWhNaDBVNldMMW5KM0haU3A5c2xEd0RMV3NoZUJpclpja0ZCSFE3d05TdTN5MFRuVFV3djE0TUF5REwzOFBSdlhQOWF2aUZzZGxHLU9TWHh5d1IxYnFPVV9RVUdfSG9PcE1HVkcxZzlHRDgtTnpEalpxVUEyajNXdzZGOXhwZGcwdkdOTGRZcjI?oc=5",
-   "published": "2026-09-26",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Economics Ministry approves US$44B in TSMC U.S. investments since 2020 - Focus Taiwan",
-   "source": "Focus Taiwan",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QTjJhX0V0My1oVnZqeDR4eFNadUZNV0g1LU1oaEl0NFNYc3VNQU5BQ0lSajhrWHF6UlRzb3ZkeGJGbmJPUFZYUHczTzNVMFBDSlJCOTVmOA?oc=5",
    "published": "2026-09-26",
    "trust": "C",
    "flag": "context-only"
@@ -83,27 +223,15 @@
    "flag": "context-only"
   },
   {
-   "driver": "Crypto",
+   "driver": "UK tax / reg",
    "holdings": [
-    "CRYP"
+    "ALL (disposal gate)"
    ],
-   "title": "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules",
+   "title": "Guidance: Data Element 2/3: Documents and Other Reference Codes (Union) of the Customs Declaration Service (CDS)",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/data-element-23-documents-and-other-reference-codes-union-of-the-customs-declaration-service-cds",
    "published": "2026-09-26",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Solana\u2019s 150-millisecond settlement upgrade reaches second public test network",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network",
-   "published": "2026-09-26",
-   "trust": "B",
+   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -128,66 +256,6 @@
    "url": "https://www.gov.uk/guidance/report-payments-and-view-your-allowance-for-non-customs-state-aid-and-customs-duty-waiver-claims",
    "published": "2026-09-26",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
-   "published": "2026-09-26",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018We lived within our means\u2019: I earned $30,000 as a pastor and still retired comfortably. Why don\u2019t you tell people that?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
-   "published": "2026-09-26",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/from-6-eggs-to-50-000-cars-these-charts-show-how-inflation-has-defined-the-past-5-years-3c7b9ab9?mod=mw_rss_topstories",
-   "published": "2026-09-26",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Social Security checks are projected to be cut by $540 a month in just six years",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/social-security-checks-are-projected-to-be-cut-by-540-a-month-in-just-six-years-a8842912?mod=mw_rss_topstories",
-   "published": "2026-09-26",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "A 10% risk-free yield? For some, yes.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/a-10-risk-free-yield-for-some-yes-0d1fa51a?mod=mw_rss_topstories",
-   "published": "2026-09-26",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -221,35 +289,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "New Jersey hits Microsoft-linked AI data center with record fine for 62 unpermitted power generators, issues 45-day shutdown deadline \u2014 site tied to $33 billion deal also built illegal 1.5M-gallon fuel tank - tomshardware.com",
-   "source": "tomshardware.com",
-   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQM2RYNXhvTVNWWTVmLXBrT214OVA1bkg2alpWODRYd0tCbFI4by12d1NlU2JxekJyZ1FQeUswSWhvamE5eW4zS3dPRVNmbXU5MzMzbUtUdElqMENTVGtOTW5vNFdqWTRzTThpNEQteVI1dTRXUWs5N0VGU2hEcHFleFpCVUJ6QkFmcUJRaW9MWWtxdWN1bzhTQXVFZDRzci1NTTg0V2c0NTFydGlPYWNUWHF3R1NQUkNlVE5XRExGVVdQdFUxaG9YWmgtWldOQWs5MGk1UXh6VXBHRjNRRFhKVjJFOHFBbjFmWjNSOTRRN0pIU04yTzc2NlBvbWZPaGZ4ODd3cVZfeTJXZnhUa2dMdm1laWMzNThvNUY0d29NQ1dHU0tEUXRPdjZnTEVpUGYyekFF?oc=5",
-   "published": "2026-09-25",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Thailand approves semiconductor strategy targeting $80B investment - TNGlobal",
-   "source": "TNGlobal",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdWlCNEswSzZvd2NfbXNBcXI4UEJ2dkl3UkUzRnFmVEZhZnFUZ3B2aGZ6NEkzWllNSUNjZDVPVGlybHp1eElmc0VuVHJUUEJ6MS1ObHppTGRxZVE0bERoRnIxRExoSTBhYzJzU01veENISnBLS1pqMll1WjhBUm0xa0RkVUpOWFF5RHJnUXlwMlk1TVE?oc=5",
-   "published": "2026-09-25",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -275,30 +314,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Excise tax types, excise duty rates and supplementary guidance",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/excise-tax-types-excise-duty-rates-and-supplementary-guidance",
-   "published": "2026-09-25",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: CDS Declaration Completion Instructions for Imports",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/cds-uk-trade-tariff-volume-3-import-declaration-completion-guide",
-   "published": "2026-09-25",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "US mega-cap / AI capex",
    "holdings": [
     "IVV",
@@ -309,20 +324,6 @@
    "title": "Nvidia: AI data center loses a third of its power - Techzine Global",
    "source": "Techzine Global",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNU5Rcmd3UEFYelloaWJIeHdiT29tOG1hQ1NVeGFmanEya1VfcTl5M3NyUEY2UWZ6ZDdaMTByb3lhSmFvdUdBcnAxNXZnZXpTWjdMOWFadmdoLTRsWDlPZExCa0xvZlN0Yl9tVkNCM3hjbzNaZVh6SW9lSTdYbzBjVWNiYTRJMlZwWUdscVhCYTBmNTB3SDJuS2htbmU0blR5SzNj?oc=5",
-   "published": "2026-09-24",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Reflecting On Semiconductor Manufacturing Stocks\u2019 Q2 Earnings: Teradyne (NASDAQ:TER) - Yahoo Finance Australia",
-   "source": "Yahoo Finance Australia",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVThSaDdWd0VxbWw0TTFQSC04WnpSa0ZlZnpDVDlYNG5vYXJOcFljeXluaFNKTWVIZkFxYzljcXc5UzQ3dk9DaDkzelA3aXplMXYtN2NmTDl2SWg1RUt1M1pRbmxYa2dTa0FVMmJPRktLVV9tZFNJQ3dORzAtU1dIY3k4NnlQOFFhamVGWUt4MEloaEUzRGwzS0xTTklxQQ?oc=5",
    "published": "2026-09-24",
    "trust": "C",
    "flag": "context-only"
@@ -407,6 +408,18 @@
    "flag": "context-only"
   },
   {
+   "driver": "AU tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Property investors may pay less capital gains tax under Labor\u2019s reforms, analysis suggests - The Guardian",
+   "source": "The Guardian",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUWo3d3F1dm9EOEM5cTlZWXgzVmQxMWJNdjQyMmt6TmFsdUc0YUZ1ejNHQldnZ0FMRkZBWmstbThUai1ZQmtVTko4RWpfT21QVzRjZXdtVUR0clBPTWhobDhnc1F3eEo1LWJTUGxYTWhUZEo5SXpCZjJpTkpuT3JLZWRRaEFtRWZIYkJiS1M1UGJ5NndWQ1hiczQ0ZjhDZnhjLTJtemtGbmhVSjgyNzRMVmZ1ZFRWOGl3cDU3ampZQ21TcXBBajBEa0hhVzB6STdxX0hkYXJLNC1URkU?oc=5",
+   "published": "2026-09-23",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -472,6 +485,19 @@
    "flag": "context-only"
   },
   {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "Brent Venables says Oklahoma needs to correct 'fundamental mistakes' - ESPN",
+   "source": "ESPN",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaTdYOVFSazhDQkdfSVF4QzBwT29wWngwaE5Kc09mMXlWWngyazE3QXlqeFQ5MmhIQ3pOdThRVTdfZVpzQ09wNC1EV29fZ0x2dUdmbDREa1hvNVNqam5Za29UQXpfanJmb0FmUUZUc3d0MVQxY0Z2c0xSQ09HWFhJX1FheksyWWl4V3dxd0ZoZXl2ZU5fbGZ3NVlZLVpndXpwOXY1WFFRZzdjX0RuTTFqNWVn?oc=5",
+   "published": "2026-09-22",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -481,21 +507,6 @@
    "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
    "published": "2026-09-22",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta data center boosts Alberta appeal for hyperscalers, Capital Power says - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTldhVlJRcngtVWZhZFV3Q3l5TllveS1oQ2FzY3BMSlpHRTY1OS1BNWdxSF9aREtHdmN0WDZIMnl3dmtwOVI3ek1EejFhLVNKMjh3OXYtZmVhRWJBYThHcGg0eGZmeEZVeVctN2ozZ2l6SHZEYnNXWnhST19VR0VjZmlPOHF2U1IwNDlNTWNKdHhYNXlBRUZHSFdyMF8xRXhrZ0F1aW10ak9MYnpWeVFtNENzdjQ4QmhzeU1EZzNVT0Y?oc=5",
-   "published": "2026-09-21",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -645,6 +656,20 @@
    "source": "ESPN",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYWgteE5CLXZ2eVFaWmsyanZsaURfRFRIeGFBRTdfbGxUMTFSeXozQW9qRFFFTTdIZ2w1TlhReGRwU1FHN3BObWxqay1qVTI0VjVtRFZEazJXVUM2THktYmZHY3d1cW5sTnZYUi1WOUdOR0N4LW9LdlNKaDBHM0RVb1gwNktTRE5zMmZwOEpqZEtIQlZ5d1Brd3dsNHE?oc=5",
    "published": "2026-09-15",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Tiny \u2018whirlpools\u2019 discovered in atom-thin semiconductor - Monash University",
+   "source": "Monash University",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeU5xNWZoeWVFQVI2a2x1Y1REZU9menJ3YjNLLW4tVWppZWRuTnBqMHd4V3ZGa1BwbVpmbzhfb1RlQXA5Qmw2TldUOVM2eXIwR3p5MWZ4bHFZSUM5RkxlSmJ1RGcwVTJKT19Ud0RXb0J2Q05ycVpGdHNLTmd2NWFaZWZpelI2TkRVYVFNMWRDbkxyaWRrOWdPNEJHYW03cUJNRjVuc1luYS1TQQ?oc=5",
+   "published": "2026-09-14",
    "trust": "C",
    "flag": "context-only"
   }

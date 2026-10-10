@@ -1,8 +1,199 @@
 {
- "generated": "2026-10-09T23:48Z",
+ "generated": "2026-10-10T23:13Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
  "count": 45,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Nvidia reportedly halts GeForce RTX 5090 production in favor of AI data center and professional GPUs \u2014 impending supply drought expected to drive up prices, RTX 5080 24GB rumored as new gaming flagship - Tom's Hardware",
+   "source": "Tom's Hardware",
+   "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQSjBCd255Y1gyWXBvSnlpVW4xNHVteF9MTG40Yngxdml6SnJ2R2JoNkF4OTdzMGJ1dkRIaVNoVlc0MnItdkNCTV9QX2FscW4zRGw1UkFTV285VW9DZS0tWmNXdmR2dUtCNmh6dWRWcmxSN3lVWDVhZ01qNUxGZ2k1bW03LWZPWndlX3NXcENxczczNUJNSUU4OHNzN3pQbmlkMmpPM2xfVXA1Z1E0b2dsMUZ4UXRGUkJ5aWh5MnVMUjZuNDMyeHBOUFdjNEJ1X3V2Wm1seDlfWHpEbC1idlR3RFhIMzhvTzRhYXFYWF91UEhXTEpfMldZUXNhMmt6Vmtsa0dnQ1B3eS15X0tmVEFXYWo5RFlUZWl6b21LTUtGM3FQbjJ0eFZscy1IOE9LaEdWb3F2Nnd4TWVXcnBKN2J1TTNzbEhaQ0ExVEpYQTRuaEhOLWg1elY2U0pYc3dvdHBac0JLLQ?oc=5",
+   "published": "2026-10-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Is ON Semiconductor (ON) Reasonable On Cash Flow After Its All Cash Deal? - Simply Wall Street",
+   "source": "Simply Wall Street",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONjBWUXlxdGM1M2NJZ1JrU2ZOeVR0NjNlRm04OFZYSHh1ZlhQQXBwQ1Y3cHNvRW45SUJOLXliSzZzTW81cmx1Qm5pblFTZUFPdGJfX1lCUXdkNWY5VXh3bUhMQ0xRXzU5eW5NZ05VTUVJeExvU3FTUnc1T1dEYVJpQ1V6STFhb1FZT1Fmak5nMnBuLU5LbzJaalhCYlB1b3FKU0Z2WEJoME1aQS1yS3A5SXNvSmFiVmtaRU9UdHdlSWk4cHR5LUUtOTZOXzZOZXpOa29SY1dR0gHbAUFVX3lxTE1iV1R4aDFxSVZpX1EwWmZha2czendWYTl2ZGdmOEh1elVjUXhfb3lXV1plel9zbUkxNlNCVXdMT21NTUdVbEdCalVEZlZfQnlObnFoRUZoUk5VODZhUko5YTZRaTdMTU14SnJxaS1udWRyWUdYNjZrMjU5WDBrTWx5WFRFVFNwbm5qcjVSVElZd29iN2ZJNlJ0NnJWbU4zaElfNnR6YklPa3NEOEl6NG9OMUxlNnV4X2lpOW9qZXBvRFY1czk4RkZrdmpveWppblZ1eFVka0hpLWpKQQ?oc=5",
+   "published": "2026-10-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "AI Revenue Questions Pull Semiconductor Stocks Off October Highs - Investing News Network",
+   "source": "Investing News Network",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeXBySVpxeEdYT2pLMlE5eEdRdDVGZC02UjF5SjNBS0ZFNUZFcFZkb0FZUG9lSndROHJJX1hwcXJuT2RsaV8xZnRORno4aXFkZFpqc282TVI3ZlFKMnFLMXJDMXJ5bzgyOFlZRU1YZkdwNkd0d0JXWk5JTzJiMXVMSzdLZ2daTDFkYVpJZHZxelBMMmVWdmc?oc=5",
+   "published": "2026-10-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Taiwan Semiconductor Manufacturing (TSM) Posted Record Q3 2026 Revenue - Yahoo Finance Singapore",
+   "source": "Yahoo Finance Singapore",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMVlacy1ISWI5UUR1X29yRzM0Y1pGZDlVX3BsbUQzSVhwUDlIYXlYQ2pmSEU4Rmh0MC0yemQxSkFkUkExdGlmR3gwZ2FNcENLX1RGOVA0OG0wVjRkTnIyY2ZzRXo1cDJUWk9IWjhmTFpGbkFQZnBwb09oLTlNUFFHQmxoT3AwVG96a1FtUy13MmY2M2djYjdiWWR3?oc=5",
+   "published": "2026-10-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "VOO Doesn't Hold SpaceX, Taiwan Semiconductor, Samsung Electronics, SK Hynix, or ASML. Meet the Vanguard ETF That Does. - The Motley Fool",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZFAyWmdyUXVYVnB0UkVSZ0dSREVrcjV0UFBncUZEOURwdGdVT3NMcDAyc3B5dHZaQWJiSjJCSGlxc0pxZXVLSlo3Njk1UDNhNDJIRFlCMnBOMWw2eXE3SVFJUHZXUnRrTHZRaEhWdjhEbXRoZExRN2ZEYVVaUEdHeFgxTVZMc1lXVXJlN25ETEwxYVlrb3lyeA?oc=5",
+   "published": "2026-10-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
+   "published": "2026-10-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Tokenized commodities look beyond gold as lending and oil open new markets",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/05/tokenized-commodities-look-beyond-gold-as-lending-and-oil-open-new-markets",
+   "published": "2026-10-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
+   "published": "2026-10-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/10/09/bitcoin-s-volatility-has-plunged-but-extreme-price-swings-are-more-frequent-than-in-2018",
+   "published": "2026-10-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Robinhood Chain slowdown spreads from fees to trading as transactions fall more than 40%",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/10/10/robinhood-chain-slowdown-spreads-from-fees-to-trading-as-transactions-fall-more-than-40",
+   "published": "2026-10-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Should I put my nest egg in a 30-year Treasury bond?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
+   "published": "2026-10-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Worse than taking away your parents\u2019 car keys? Taking away their cell phone. How to protect your aging parents.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/worse-than-taking-away-your-parents-car-keys-taking-away-their-cellphone-how-to-protect-your-aging-parents-f01be6e6?mod=mw_rss_topstories",
+   "published": "2026-10-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "These decisions you make in your 20s \u2014 not your income \u2014 determine whether you\u2019ll spend decades in debt or retire comfortably",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/these-decisions-you-make-in-your-20s-not-your-income-determine-whether-youll-spend-decades-in-debt-or-retire-comfortably-7bbb28f9?mod=mw_rss_topstories",
+   "published": "2026-10-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "How to downsize like a pro \u2014 and free yourself from being a \u2018prisoner of your possessions\u2019",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
+   "published": "2026-10-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Rising interest rates: The good, the bad and the ugly for retirees",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/the-good-the-bad-and-the-ugly-of-rising-interest-rates-ee465a81?mod=mw_rss_topstories",
+   "published": "2026-10-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -26,9 +217,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust? - TechCrunch",
-   "source": "TechCrunch",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVE1HU1NoUllacW43bzk0T2FPSEk5OU9CUTZqMzAxaDVfdF9kSEpqSjBfRDdyTy1CekgydmROYlpTTTRhWmx3eWs2YU1FVFRYUTU2QXRuaWtPbklPZXk1QU96UXF5eHpKMTNsdmNWMF9tSVhMUmg5NjJVczQ0WXhtOVVmM1UtSERQSEhQSVNHT2ZHc2JDOW93eS1uRHhoRU5zT0VwOC1aaHpMS09aV0VzZ1Q3cS14bVRJ?oc=5",
+   "title": "Nvidia-backed data center provider Firmus scraps $5bn Australian IPO - Nikkei Asia",
+   "source": "Nikkei Asia",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaTNUTnRrXzUwMGhVVlBvczE0QktaVkQweWNFTy1oODJpQUkyLTFVSm51dWc4UFFfY3M0NFNYWXJlWGkzNkpnUXBWZ0J1VXctdGpYY1FlWGdvVVNKelg1VlJlbEdOWTU1eURYSkRGNHQ1aFV2ZGRzZmoxWEZmUm5zeW5mbmpDNGlpdllXbUxqU2F6NEpQdUNsRDJkTDVpUjFzamdhbjFRUGhJdld1WGNST09R?oc=5",
    "published": "2026-10-09",
    "trust": "C",
    "flag": "context-only"
@@ -41,141 +232,11 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Nvidia-backed data center provider Firmus scraps $5bn Australian IPO - Nikkei Asia",
-   "source": "Nikkei Asia",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaTNUTnRrXzUwMGhVVlBvczE0QktaVkQweWNFTy1oODJpQUkyLTFVSm51dWc4UFFfY3M0NFNYWXJlWGkzNkpnUXBWZ0J1VXctdGpYY1FlWGdvVVNKelg1VlJlbEdOWTU1eURYSkRGNHQ1aFV2ZGRzZmoxWEZmUm5zeW5mbmpDNGlpdllXbUxqU2F6NEpQdUNsRDJkTDVpUjFzamdhbjFRUGhJdld1WGNST09R?oc=5",
+   "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust? - TechCrunch",
+   "source": "TechCrunch",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVE1HU1NoUllacW43bzk0T2FPSEk5OU9CUTZqMzAxaDVfdF9kSEpqSjBfRDdyTy1CekgydmROYlpTTTRhWmx3eWs2YU1FVFRYUTU2QXRuaWtPbklPZXk1QU96UXF5eHpKMTNsdmNWMF9tSVhMUmg5NjJVczQ0WXhtOVVmM1UtSERQSEhQSVNHT2ZHc2JDOW93eS1uRHhoRU5zT0VwOC1aaHpMS09aV0VzZ1Q3cS14bVRJ?oc=5",
    "published": "2026-10-09",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Musk confirms Tesla will retain control of Terafab despite TSMC talks - Cleanroom Technology",
-   "source": "Cleanroom Technology",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMENPbm53a0tCZ0tudncyakJJRE9qWVBMUVhPaTE2N3JKaDlzZW5KSzdXNFI2WFdhb0sxanVCNUF4THJGcWEtaFQ5QzBpSWM5aTZIZW1UY2l0ZkF5NG1WNXh6Zm9jZzF3RXNqSl9mRXNXR3hfY0ZfTXl1S2dOMlRmNHJJOS1LaHBEY1k2S2w1aw?oc=5",
-   "published": "2026-10-09",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "What Tower Semiconductor Shares Laser Chip Partnership Means For Shareholders - Simply Wall Street",
-   "source": "Simply Wall Street",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTVVhN1lqRUc3ek8zYXB0azA3VllOZXRKRVRBelpTODBual9mSWl5RGdwOWg1WHYtMDlJU3NmYkloNFNZYlU2ZUhDc3JxOVpUcktXN2dGWldfcnVGRnctWGdzZGZDVEptdlRNSElkTFNRVi1MbTAwM2xmekhBNllfLWFwN0t1cFJwckRDNDdRNUw2V0cwWXhRZDR2dzVRRVFRVExNZ2E5N216c2tDTWpqb3YxUnQ5aEVpejUyWnVjLVdJVUE5aVNad25IbTcxZ0RGM3dlX0hDRldRYkMy0gHiAUFVX3lxTE1TS1BzWFFKWW1tMnVHQWZSeWJMSXdiZE9DbF9tcXViTFJDLTZhaXg0SVpiQjZJNG9oX0NNQURuRmdUNlluaEV6a1d3MVdKSXhRQXBaZF9TTjFaWWNjUmk2WndWQ2dGeEpzZWJISUJMZno1dHJkaGZ6V1hPcGZHcDRKM3U5YmxZeGRsZGhXV1c2TEpWMkNlWjBXRW10cU1fcmNPM3RrQ2g3ZEotMHpVOUJDUERUVkxMU01TaC1WeVF6UHpwTGt1dFRCZzVwclg1bTZhTEhFbU0tWGxJQTBkSnBqaHc?oc=5",
-   "published": "2026-10-09",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Anderon Extends IBM\u2019s Semiconductor Legacy To Quantum Foundry Services - Forbes",
-   "source": "Forbes",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVmU3TVpfMUFXREo2UXdHbkVXQl95aFlYY2dpb2pDZFllWTl5VjJLM096U21hSUhuZ2FEendyd0xOX1VSTVRyYmZxckFMcUNRNk9fV0RVUTlwUjREV2hOSE1DdW1Fcldqc2pQLUhLdTRpVzdtOTRfQjFTV1dsTjBTVHp6R0h3QmJkWDFtc0ZiYkZHcllHdFIwQjlGUVBocS1lNHJsTGk1NVpHMGw5eVdGbVdZSVZ2NUJaRnMySDRDdndlUEE?oc=5",
-   "published": "2026-10-09",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Chinese semiconductor firms report strong performances - Global Times",
-   "source": "Global Times",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMa05RX2cxVUp6RzRjNC1oT1RwWGd0WlFWSEE4R29KdkRKdUsyV2NGSUZGYnFlLWtjWlI2RTBYb3VoOVRERjZUUU92Sm5vZTdOdE4zb1lGUU1Dbkk3UDFhSUJR?oc=5",
-   "published": "2026-10-09",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Should You Buy Taiwan Semiconductor Manufacturing Stock Before Oct. 15? History Is Crystal Clear on Where the Stock Is Headed Next. - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUUx0Y19QM1BLVlRoSGhQRVJmd0Z6NWFKYlhEWTJWNjZ6YjJSdHBDbWFsSUtWbjFoNmV2VDRvOV9wbE1RdkdDRGdZTUdSQ1RzQlkwY3NiT3NIbG9WU0hRZHZ0MnJxUGZYdW11dzZlSnpSZmZpVWw3ZHRsSnJEMDQ0TFBJZHV3Y1NxMDE5NlR6STlKTWRrc3lERFBxdVREM3hYUFBqRVJfb0RvN3Q5R3c?oc=5",
-   "published": "2026-10-09",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "U.S. CFTC moves to fold event contracts into swaps regulations as legal fight rages",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/10/09/u-s-cftc-moves-to-fold-event-contracts-into-swaps-regulations-as-legal-fight-rages",
-   "published": "2026-10-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Robinhood Chain considers technology that gives paying traders priority",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/09/robinhood-chain-considers-technology-that-gives-paying-traders-priority",
-   "published": "2026-10-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "New York AG secures up to $35 million and lifetime crypto ban from Celsius\u2019 Alex Mashinsky",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/10/09/new-york-ag-secures-up-to-usd35-million-and-lifetime-crypto-ban-from-celsius-alex-mashinsky",
-   "published": "2026-10-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Ledger investigates potential wallet tampering after reports of $86 million in crypto stolen",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/09/ledger-investigates-potential-wallet-tampering-after-reports-of-usd86-million-in-crypto-stolen",
-   "published": "2026-10-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "DWF Labs subsidiaries sue BitGo for $141 million over alleged token lock-up breach",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/10/09/dwf-labs-subsidiaries-sue-bitgo-for-usd141-million-over-alleged-token-lock-up-breach",
-   "published": "2026-10-09",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -239,66 +300,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
-   "published": "2026-10-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "How to provide guaranteed retirement income while paying no commissions",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/how-to-provide-guaranteed-retirement-income-while-paying-no-commissions-b2085511?mod=mw_rss_topstories",
-   "published": "2026-10-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Trump taps Russia to boost global diesel supplies ahead of midterms. It may be \u2018too little, too late,\u2019 says strategist.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/trump-taps-russia-to-boost-global-diesel-supplies-ahead-of-midterms-it-may-be-too-little-too-late-says-strategist-8c789030?mod=mw_rss_topstories",
-   "published": "2026-10-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Is iPhone 18 demand cooling off? Here\u2019s how deep Apple reportedly is cutting component orders.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/is-iphone-18-demand-cooling-off-heres-how-deep-apple-reportedly-is-cutting-component-orders-a44244ee?mod=mw_rss_topstories",
-   "published": "2026-10-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "AI chip stocks wobble even as investors get clarity on a key OpenAI issue",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/nvidia-and-micron-shares-bounce-as-investors-get-clarity-on-a-key-openai-matter-ba76ed20?mod=mw_rss_topstories",
-   "published": "2026-10-09",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "US rates / Fed",
    "holdings": [
     "IVV",
@@ -353,6 +354,20 @@
    "flag": "context-only"
   },
   {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "A 7-eV bandgap semiconductor based on silicon-doped \u03b1-(AlxGa1\u2212x)2O3 - Nature",
+   "source": "Nature",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPWmJhbUlxaXNZWWNYRnV5dUg2S1hvQXgzM193R2h3LU02T1B2Nk5BV3p5d1FwdldTZTdfaTRyYmREbVpaUGRGWG1sM1dMNVRXd19Kbm5SRGJoLWxTaVlB?oc=5",
+   "published": "2026-10-07",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -390,21 +405,6 @@
    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm",
    "published": "2026-10-06",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Free Community College Part of Amazon\u2019s $1B Plan to Quell Data Center Backlash - Inside Higher Ed",
-   "source": "Inside Higher Ed",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOHJaV1Q1SGZVSFpzRkp6bHNnNjR4SWF0YmRpUGtXcVhrZEM4QkdmTGw4Q0xpMjN4YkdsS05UcEtWbnZqSWROQUQ2M29aMEd4OUtyWUpMMkdCXzZHS20xZTNfTU15R2ZhYWl4VElwV3JEUEs2bUVybHU3dEtxRW1GUFBBR2FlZWtxYmNDeVY3cE9sUDNlMFpIR0lQc3Joa1pRb0o3cTczeVpoVmhBZnhUZ0xFT3U?oc=5",
-   "published": "2026-10-06",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -447,21 +447,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Why Google, Amazon and Microsoft Need Chinese Data Center Suppliers - The Information",
-   "source": "The Information",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNajc3UklCU3FBSTZiVW9jSno4OHZvTGtXekt3eUlNLXhWR3VKX3YxRWRoYi1RVWhPek52bGV2LTRfZTZ2d2JHcWhjQktOUWxRZmFnTEstOUMwWHdZeGJIRVdKQzdqaE5UR3A2ay0tbmVSbXh1d2lqLTE0U0dkSHhJVlFDemczZmRQQzZ4bkRsTHlCT1JSNTBsTktZMGVON0VETnJ1VGVvN2hWdkZJWjBYQnI4bWdmaVBORDdN?oc=5",
-   "published": "2026-10-05",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -483,6 +468,21 @@
    "source": "AFR",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNams1bXJyRlQyeUdKdnRRYWNZZm1Hanc4SWdRM2FNNWxJV25XcGVMX0dlNWFocUdCQXdJSDQzVmRJS002MDYxMWhrQkxmV0QwQXpwbHM5ZTNURTF5d0ZoZUpIMGxnTkFlM1VBZEJuN3J2SmlvdHhOOHoxQ0oyazNTRTJhQVlZNTJDZXo0MFdZX3MzYW8zQUl5bUlBcFljN2p3bnRfay1MT0paVVhpakN5XzRnSnMxQ0tSWGhXZzUyN0s?oc=5",
    "published": "2026-10-04",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "The race our nation can\u2019t afford to lose, plus a new commitment from us and a fresh set of community investments - About Amazon",
+   "source": "About Amazon",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSmVvOXNHN3ROUU96WTF0R3hKSnhDcFNXclNzUzBNMEM1bngzV044M3VNdUFNWkJVYjhlcTc3enNfbkV3MTRBNE9CVzUwUURTYThWazJnX2x6MmtWNjZnWXB2bGFZNjhxMjVzZU9Id0lqWnA5SHR5NDl0OVFlS1hROURLOU1qRlE?oc=5",
+   "published": "2026-10-02",
    "trust": "C",
    "flag": "context-only"
   },

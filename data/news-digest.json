@@ -1,8 +1,23 @@
 {
- "generated": "2026-10-14T22:58Z",
+ "generated": "2026-10-15T22:53Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 48,
+ "count": 46,
  "items": [
+  {
+   "driver": "US rates / Fed",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+   "source": "Fed speeches",
+   "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+   "published": "2026-10-15",
+   "trust": "A",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -14,7 +29,7 @@
    "title": "Major Economic Indicators Latest Numbers",
    "source": "BLS",
    "url": "https://www.bls.gov/bls/",
-   "published": "2026-10-14",
+   "published": "2026-10-15",
    "trust": "A",
    "flag": "context-only"
   },
@@ -26,10 +41,10 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
-   "published": "2026-10-14",
+   "title": "Meta's Muse could change investors' perception of AI capex this earnings season - Business Insider",
+   "source": "Business Insider",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNjkxZlBhZzdCb2VYX1VTQk9OdzJhQTNneUF0T2M1MG1fTVdhWlFDVXVudVRFN2NYVnlBRV9CcG1yblAwRjdjMm10LU1IRXV1d2Q3WUZES1BIdU43YnZOc1pqMm91Y0daVFZoczF5U0pjYWZmMDZpeE5rQkNHZXNEZDFfaEo?oc=5",
+   "published": "2026-10-15",
    "trust": "C",
    "flag": "context-only"
   },
@@ -41,10 +56,55 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Senators Question Meta\u2019s Data Center Tax Strategy - The New York Times",
-   "source": "The New York Times",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObElIMDREWVcyNDVBZERFd2VSSnd5SDc5VERHbXVGRmUzaERKZGh5RWowb0xLdFozUkk1Yk1WekpBV0pZdHNUaWt5ekhUak5UYXVvSUw5SWhta1ZNakllVFVWaHRVRmppanIzZUx4QlJqdU1kaUNkeGN6Y2E0N1ZGZzVjWUs?oc=5",
-   "published": "2026-10-14",
+   "title": "Meta under investigation regarding alleged tax filings claiming data center projects qualify for research credits - Data Center Dynamics",
+   "source": "Data Center Dynamics",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUzBNcFR2ck5tLTdmelNIaDVSTEdLWjJZYVBaS01fVGpBRTBpcVlDUS0wWWsxZ1M4TWJfcGVNdWtuWWU4Slh4ZFFoaFRfZHRCX2hxQmpMOVZ2WTJ4X2tuRHFyYjVUTnNaSEx5Qi1vbV9FNjdSV1FvV3FiSjJkN1FfcGdCZWlWZVFNY0c4MFRRNmxzTlI1NFdYV0lnQlFFUUFFZGJXQ2ZHSUV4QlZWY1dqU00weDhsZE1XY244cHBydGs0NzNJVEo4SDRmakJKR2lOLUxxaXE4TXNYaHZEdzh0SGVWaXdSTlVIWlVvdk5n?oc=5",
+   "published": "2026-10-15",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Apple\u2019s \u2018Minions\u2019 tech turns idle Macs into an AI data center - Computerworld",
+   "source": "Computerworld",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTEczUUhjR19sVmZuSVc1Ulo0MEZKaTlFcW1sT0h1VWpaLVFNVHJyLTlBUGZ0WG5hUk83TkhUSFFuZGxQMXNqVjFDTjhzRS1GbVlsc0taUk1INlRVMEtkY0ktQ0s0Z2hqVXRPM1FOLWFGcmppUzlKU2dpbTJiNVYwQWFQVWM3cS1FSmVqbUs0Vkc5UnVuWk5Na2REa1JuNmFRTFR1bEd3RWNMcGx0bkE?oc=5",
+   "published": "2026-10-15",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Why We\u2019re Going to Court Over Meta\u2019s Louisiana Data Center - The Equation - Union of Concerned Scientists",
+   "source": "Union of Concerned Scientists",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObjR6VXhmWVJCRHJCT0JUc2hEeERMQkJKSUVlTG5nby1pYWo3YjJMd3Rpb1BPa04tal9WYjJHSEY3LWw1ckV5aW51TnowNEpCakYweVpvclp0MExHUmRtRmZOWnNQS1V0X1p1SmczQTZVMUxvVzRSMWI0ZFdodDJzS0s0Y2Y2c1R2bVpKVko0cGNyRGxh?oc=5",
+   "published": "2026-10-15",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models - NVIDIA Blog",
+   "source": "NVIDIA Blog",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVVU0zYjltcWc5TzJiNlRiOC13eUlPV2NLb0lBYlRCTDVIZHZDeTBlWW1nTU1idlQ2aGNHX0xGWjBDSXJ6VTFrWGVaa1M1UHRNTXFHUUp1bWZNOXJsVDNCSkZn?oc=5",
+   "published": "2026-10-15",
    "trust": "C",
    "flag": "context-only"
   },
@@ -55,10 +115,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs - NVIDIA Newsroom",
-   "source": "NVIDIA Newsroom",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY0JQSW1rVk16Vk96aEt1QzRJeHNUNXZfclVRVlBFdmhhQ09HS2N3YUlfRnRTejgtdGkwc040QWdHbXkyVXFJcW1uaTdZdV9EMUo0ZDN6cnFiOWxneTlidVpIYmljSHJkTVJaNmhUTDRwb2czQXNtN00taFQ5MkhBZVlITUN6QTBYcUVrdV8tQXFtcDJ2d2EwRjVONU1VdGRCNUhRRnBUbUp1UFRfMmNqaWFJMVdRVXRLa2UzTF9yVmhnM0VadXk3TzRSTjJMZGJn?oc=5",
-   "published": "2026-10-14",
+   "title": "TSMC Reports Third Quarter EPS of NT$29.43|Taiwan Semiconductor Manufacturing Company Limited - TSMC",
+   "source": "TSMC",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE53WTNKZC1rRTNpMk5IYXZOU2J1REhGZXdqNkduVDg2YVJvSHRVdHAxWlJGSldYTmJDVlZEeXhFaU9EU1V0T21fSzJYQ3NsUQ?oc=5",
+   "published": "2026-10-15",
    "trust": "C",
    "flag": "context-only"
   },
@@ -69,10 +129,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Struggling Semiconductor Stock Flashing Bounce-Back Signal - Forbes",
-   "source": "Forbes",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMHBRNUtLU3NLYzR0cFZ5RHJYTGlYcm5yUGhGZ0JJOVE4RVQ4cDI5YjZjLVlwRTNiM0Ezckh4c09PSEl1WDE4Z2pnOTRPcGdFS3p2dXZXWjBQOXZEaGJTTUJFX2F5S0RTbEFrTVZ3dmptS0tYa0lXN1BUSEJRY3kyNXR6OTcxN3drdVlTb3B2RnA3aWZNMkVUcThtWUFhSkNMZUJ0eHhfcXIwTlQ4SXdmdGVLNUFCSkdG?oc=5",
-   "published": "2026-10-14",
+   "title": "Is the semiconductor industry headed for an almighty crash? - The Economist",
+   "source": "The Economist",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONG13VFVpMmRfamdQcy15WkdqVjVtOXNkZE0tbENrdHV2Vlk0QTNtXzlLR0NUcFdicXZEYlF6azZFRWZGLVRUcTgwTmwwbnBjVzhlaHh1X3RGSFB4dGtmVHNSY09ENVA2Vm9uOXhaajNodUtKOG1ibll1dXlORU10RWJ3YVViRG1qQTBhZTVqanc0VFItRThoY0IwdWpKX29RalFLTVY4aw?oc=5",
+   "published": "2026-10-15",
    "trust": "C",
    "flag": "context-only"
   },
@@ -83,10 +143,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "A Taiwanese Youth\u2019s Perspective: TSMC\u2019s US Expansion and the American Dream - Global Taiwan Institute",
-   "source": "Global Taiwan Institute",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPclF3ZXdEb0NrenJxbEI2YUU2OGMwNVRUdEZFN24wU29rU2dCMmpZREVwQnhnejdpUV9vRG1CMzRzanAwanhrcFppRXNWaF96dUNnc0JzVlNlcGd3T08xUWZfVW9hMVY0OThDbEtlTnpDTjJqZmtKVVZqN25TXzB4NzQ1UU1LaUNEQnN2YlpBd0lfZE1zTHUxTldZNjYxaktJWXAxZ0xTLWNlZw?oc=5",
-   "published": "2026-10-14",
+   "title": "Europe\u2019s critical dependencies put semiconductor diplomacy in the spotlight - Decode39",
+   "source": "Decode39",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQnpjS3hmQVQ2ZlJKUmE4UTd2enhZZFJLTlR2a2VVcVVFM0VnVGlNdk9ScjZPbDFvMVFRNUd1SURDTW9tdHhQdThyNVh3ZUVGZG5jZXJ5ZDNNS19rX0djRDhQVjRJUFdveEpzSF9qWWYzQ0FFbVdKSW1tTG40bWlIYk9QRHRNVmhUdEV6alE1WmhuXzhyaGltOHFTTld3RFNKMTBMcA?oc=5",
+   "published": "2026-10-15",
    "trust": "C",
    "flag": "context-only"
   },
@@ -97,10 +157,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "History Says This Happens to Taiwan Semiconductor Stock After Oct. 15 - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOakZJTWw5YWltRGJSZXZCRGt2eW95Qm9wSWpZWnE4dVQyQXVXM0h6UWV6TFJNMUNRQUJHTkR0MlRGSzNtdjAxS3ZhejdRLXQwYmh5MzVEMzBvaU5nRVFXSnA5NWhYX1J2ZUZaamh1ZkY5S0ZsR1RIZGRFMU9qY2ZPR3RkdVY5cWxTNktjNjNMWkYxNXQza0lFTUpXXzhqRi1SUU5WMTk3SkhWdw?oc=5",
-   "published": "2026-10-14",
+   "title": "TSMC Q3 profit jumps 69% to record, beating expectations - Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUkd5cXQ0TjJXLWVtRFJZS0x5T1p5ZlBWTllOZjdqTG1xTTJ5eURYQm52eUdQYnhEVy1YSDg2YjU2M2RZQnFBYXk5SEE4U2tSVFZlMTdBMlJTUjRxSVNQREFiR2dTc045blJabGR3eGs1MEtpU09vd09pTkpkUGplY25udTJSamxpbjM1R19CdUNOeUFSM1dHWXhGZDBsN0xVOWM4dzhUNjNZZw?oc=5",
+   "published": "2026-10-15",
    "trust": "C",
    "flag": "context-only"
   },
@@ -111,11 +171,204 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Musk\u2019s Terafab plan poses no short-term threat to TSMC: Analyst - Taipei Times",
-   "source": "Taipei Times",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94SDYyRF9FSTVVWklETm9vaTlWNFFnZ3JFWDRvQXY5VUZwbmNIT0FFOVlUUXZ5bm4xTWNyZ3pCck5TOVl3Ymd5cldQY2lnUVBzdEhzTUNRVnhiSUNDTmI0QUJSVUF5Z1Vvb1RuT1VKbEc0dkY5TVE?oc=5",
-   "published": "2026-10-14",
+   "title": "TSMC chip capacity is \u2018fierce\u2019 battleground for AI customers, amid record quarter - CNBC",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcTFFbGhXV2lUQmRUM2o1WWtweGVWa1VZQThOY3dTaTNkZFppb1I0cGd5eDcxSVpMWVRJVG5IN1JCOGJZQkJOcVIyY09ya0Q0X3FMaFh1dDh0T1lRSTNnNHpCVHhLSWNxMW9XM1RnaVhOV2RJWGJ5UVU4VjdQZFg2X1hOeG10LS15TS1uMzBfWlBoUjdCSVdWQmZvVkFRd9IBowFBVV95cUxPUkZGUlVRSTZaVDQ5OUtSR0MtV1JuN1NKMi0xbXBENDNfaVNucS1SaG92VDFhalBNNlhfS3VBQnlxOG1wS0t3MVNUQ2pmNnVFR2g5dWlQX05kTEFQay03c09NczIyTlplQXpZcmEzWWpsbHBLSDJvZTQxbGIzam9fM1JFT3ZmQWxJZ05hcDkyQzBuMDMzX3E2aDFMM0NCdzBqT1pZ?oc=5",
+   "published": "2026-10-15",
    "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "PJM, ERCOT, and SWPP all set peak load records this summer",
+   "source": "EIA Today in Energy",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
+   "published": "2026-10-15",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "At the White House, crypto policy vacancy looms large",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/news-analysis/2026/10/15/at-the-white-house-crypto-policy-vacancy-looms-large",
+   "published": "2026-10-15",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/coindesk-indices/2026/10/15/crypto-for-advisors-wall-street-is-done-waiting-on-congress-for-crypto-rules",
+   "published": "2026-10-15",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/15/how-brooklyn-prosecutors-and-the-fbi-took-down-a-massive-crypto-fraud-network-targeting-russian-speakers",
+   "published": "2026-10-15",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Under pressure, Ledger unveils plan to turn its crypto hardware wallet into a smartphone",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/10/15/under-pressure-ledger-unveils-plan-to-turn-its-crypto-hardware-wallet-into-a-smartphone",
+   "published": "2026-10-15",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin, copper, stocks, yields all fall; gold rises",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises",
+   "published": "2026-10-15",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: How to make a voluntary disclosure to HMRC",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/hmrc-your-guide-to-making-a-disclosure",
+   "published": "2026-10-15",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Check genuine HMRC contact that uses more than one communication method",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
+   "published": "2026-10-15",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Check if an email you've received from HMRC is genuine",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/check-if-an-email-youve-received-from-hmrc-is-genuine",
+   "published": "2026-10-15",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "How to use your ATA Carnet",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/how-to-use-your-ata-carnet",
+   "published": "2026-10-15",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: Tied Oils Enquiry Service: service availability and issues",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/tied-oils-enquiry-service-service-availability-and-issues",
+   "published": "2026-10-15",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "I\u2019m 64 years old, with two sons, but only one works in the family firm. Should I leave him 70% of the business?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
+   "published": "2026-10-15",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "How a midterm sweep by Democrats could turn this tech selloff into a tech crash",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/how-a-midterm-sweep-by-democrats-could-turn-this-tech-selloff-into-a-tech-crash-a1d1a82f?mod=mw_rss_topstories",
+   "published": "2026-10-15",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Nvidia and other chip stocks face renewed pressure as AI fears swell",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989?mod=mw_rss_topstories",
+   "published": "2026-10-15",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Don\u2019t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/dont-ditch-tech-stocks-just-yet-make-these-moves-to-take-advantage-of-the-latest-ai-reset-cb70c7b2?mod=mw_rss_topstories",
+   "published": "2026-10-15",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "CoreWeave\u2019s polarizing stock rebounds as Wall Street squares off about AI spending",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931?mod=mw_rss_topstories",
+   "published": "2026-10-15",
+   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -129,66 +382,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68304",
    "published": "2026-10-14",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Kalshi CEO says state-led oversight of U.S. prediction markets would push them out",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/10/14/kalshi-ceo-says-state-led-oversight-of-u-s-prediction-markets-would-push-them-out",
-   "published": "2026-10-14",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/14/ai-agents-make-138-million-crypto-payments-as-u-s-dominates-spending-on-ai-models",
-   "published": "2026-10-14",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/coindesk-indices/2026/10/14/crypto-long-and-short-why-gold-and-bitcoin-belong-in-the-same-portfolio",
-   "published": "2026-10-14",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "EasyA hits $1.1 billion valuation, targets 2027 public listing and tokenized shares",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/14/easya-hits-usd1-1-billion-valuation-targets-2027-public-listing-and-tokenized-shares",
-   "published": "2026-10-14",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/10/14/blackrock-s-crypto-etf-assets-surge-63-but-remain-far-below-2025-peak",
-   "published": "2026-10-14",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -217,66 +410,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Enquiry Manual",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/enquiry-manual",
-   "published": "2026-10-14",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Find out which HMRC services are experiencing issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/find-out-which-hmrc-services-are-experiencing-issues",
-   "published": "2026-10-14",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Official Statistics: Non-domestic rating: challenges and changes, 2023 and 2026 rating lists, September 2026",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/statistics/announcements/non-domestic-rating-challenges-and-changes-2023-and-2026-rating-lists-september-2026",
-   "published": "2026-10-14",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Declare goods that you're moving to or from Northern Ireland using the Trader Support Service (TSS)",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/declare-goods-that-youre-moving-to-or-from-northern-ireland-using-the-trader-support-service-tss",
-   "published": "2026-10-14",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Register to declare goods moving to or from Northern Ireland using the Trader Support Service (TSS)",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/register-to-declare-goods-moving-to-or-from-northern-ireland-using-the-trader-support-service-tss",
-   "published": "2026-10-14",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -286,66 +419,6 @@
    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html",
    "published": "2026-10-14",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
-   "published": "2026-10-14",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Rocket Lab\u2019s stock slides as the company pushes back Neutron\u2019s first launch",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/rocket-labs-stock-slides-as-the-company-pushes-back-neutrons-first-launch-afd2932a?mod=mw_rss_topstories",
-   "published": "2026-10-14",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018Some people did everything right\u2019: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
-   "published": "2026-10-14",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "You\u2019re probably too invested in equities. Why a 60-40 portfolio is still the smart way to go.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/youre-probably-too-invested-in-equities-why-a-60-40-portfolio-is-still-the-smart-way-to-go-853daade?mod=mw_rss_topstories",
-   "published": "2026-10-14",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Your Social Security check will rise an average of $75 a month \u2014 will it be able to keep up with inflation?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
-   "published": "2026-10-14",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -361,36 +434,6 @@
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
    "published": "2026-10-13",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Microsoft Reports $130 Billion in Data Center Leases - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSnRELUlsT1lSclJrajZKVlhlYXYxU0t5eUhzN1lqZ0tRMkp4SUFleGgzQ0J4NU5EeEJOd2FPUFBSd2Y4QlNJVGJZenNLamdZTEd4VjMwT2pzQmozcWwtR1NVU0Y2MVdzVmhCcGlCdUJlS2Zwa25JMjZXa3MwSG1sbXVkSjVCVjQ?oc=5",
-   "published": "2026-10-13",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta exec blows the OCP audiences\u2019 mind with its data center innovations - Fierce Network",
-   "source": "Fierce Network",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeHo1VFRXVkxyQWxMRUpUVmhaS0xhdzBOZFZ0cVdsWThReVNReGx1c1JCUHJZQWFwSFAyandHaXFnNjFMVGhyOEVlMUFpdVlIZW5wYU1XTDFxTUg2QmxSb3JWQ2ZYLVlWXzdQNDJmWjBsTTNMMEo5TUM1VWpRZGt3M251LThLaVJXbXpDV1NuN05VUmQxRXlwbEdTclpJQ09DRS1rUXNn?oc=5",
-   "published": "2026-10-13",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -416,21 +459,6 @@
    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261013~9db9bf4fd6.en.html",
    "published": "2026-10-13",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta publishes post to counter data center concerns - Social Media Today",
-   "source": "Social Media Today",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVTd4ZHFCM1Jsd2ItbnVTSVg0MzVaQXk2LUNMUHdMdi03MHRGYU9Tc2xwRG5RX2hQQjlXZWx4YmZHMS1sdC1OcVkxVDI4YUptU2xMSlRGVnZJNkY0bDVDbE5RVUxFTWpxUWQ2V0JYU08wYlRsTmFkUW1jMXduUUFwS0otOEtKWXYtbXRBYnFDcUJLeTRfQmd4dzlKNzRFQQ?oc=5",
-   "published": "2026-10-12",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -558,69 +586,11 @@
     "VHY",
     "VAS"
    ],
-   "title": "U.S. natural gas production reached a record high in July 2026",
-   "source": "EIA Today in Energy",
-   "url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
-   "published": "2026-10-02",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
    "title": "How Brent Pry went from head coach to coordinator at Virginia Tech - ESPN",
    "source": "ESPN",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQlFDNS1jd1p6TjBDWkZBbzA0UWRXcVg5M0ZTa0VPTnllOGpYWlZ2aTFSTEZRRmlyd25mT082a2Rkczd3NDBPQmc2MFdiR1duSWRaN0JMcHJmWWFJcGJ3dEJocnZ4TnotSTdfZU15VkZWb1FHX1dSbjJyUkN4bTk3dm9tWXRFTmZaY1NXM3lQeTk4M0RES1Z2UGZNX2paU2JnWkpuMlAtY1dRVHdOTi01dF9JNGV4Rm91bzZUZGNBOWdzQ3gwR2dv?oc=5",
    "published": "2026-10-02",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US rates / Fed",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
-   "source": "Fed speeches",
-   "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
-   "published": "2026-10-01",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US rates / Fed",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Jefferson, The U.S. Economy and Monetary Policy",
-   "source": "Fed speeches",
-   "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-   "published": "2026-10-01",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US rates / Fed",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
-   "source": "Fed speeches",
-   "url": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
-   "published": "2026-10-01",
-   "trust": "A",
    "flag": "context-only"
   },
   {

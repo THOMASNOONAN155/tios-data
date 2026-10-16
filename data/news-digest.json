@@ -1,8 +1,258 @@
 {
- "generated": "2026-10-15T22:53Z",
+ "generated": "2026-10-16T22:31Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 46,
+ "count": 45,
  "items": [
+  {
+   "driver": "US rates / Fed",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Major Economic Indicators Latest Numbers",
+   "source": "BLS",
+   "url": "https://www.bls.gov/bls/",
+   "published": "2026-10-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "GCT Semiconductor (NYSE:GCTS) Stock: Still Waiting for 5G Orders to Lift Revenue - Kalkine",
+   "source": "Kalkine",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUDZDRVZRQ1NJeEdDZFo3ZzRpb3E3MlBNNFJDNFZDZVMyb2tGNVltcW9JZmdhanhhRnVpclRYN29IRkJoQ2hFeDlUam8tanI1MzhncFNoWm9wWlE5RWQtUFVFMmhkYUh2SGllb29pOFRpZ1RBeEU1UlA3TXZWRkFCNnpVQjdPVlVfaDc2cGt0VE5ySHZqSVc0RkFMdDg5VGZXWXdOS2VydFZzWUZMZllKQlVrYjhjQQ?oc=5",
+   "published": "2026-10-16",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Is ON Semiconductor (ON) Undervalued As Sungrow Picks Its EliteSiC Modules? - Simply Wall Street",
+   "source": "Simply Wall Street",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMVVSV19tZWFDdHdPa09iYl95UnJXTGx2Y1d3YlJzY0RIOEhlaFFKR2pwR3cyZHY4Sk5CLTNKVkZuaEpyQmFNaTBETkxVdzMtWXhLQTVfMmVXdHh0RVZYN2xwaEktenUzLURuSUs0MkwxTVFYeFV2ZlhRS0V1UEx1MHU0UkJVRVg5Zm4yZmVzbF9PYXdTRTFNUDM0UlBSUTh4SDVHX3RLVjJTbERkZ2pQUVQ5R3kxTGhWV082aVFSNFN3TUZRSll6SVRkNFBSYW5CR3lvb21R0gHbAUFVX3lxTE1Wc2Z6SU9nVVRlMDJiRUhIMkNja0ZUWFdnQnhCNVVjLXdseC1fMHhqS1JrTGdSYVBQUzBjX0d6dS00S2l3V2p2VFJweklKd3VLeEI5bVo1RnRKSDM5OGpxaldMRFlscENDSUh5bVpkYkRTS3paWHNXUzZKYk9SN25wV3o2Y2tpcVRNdGY3MjVodFB6VmljLWRuTFJvVFM0R2M4Wm5DRU1QZHh5cVQ2b0F1ZWtZbmVYTTZyclFrcTYzbEpjTlNrRVV1Q1VEYW92QU9XS3I2SmlkRzJFZw?oc=5",
+   "published": "2026-10-16",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Taiwan Semiconductor Manufacturing: 3 Key Takeaways for Long-Term Investors - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS05aQlpvQzJndHF6OTh6UmhEcnhWdzh0X050MGQ3Sm1JcVNMcW9yX3JUQzF2ZzFjbnJtTTRYcXBNLThZUHlLMVgtUkpzNXVERzdlSjllaXhScFFxdEpXd29FdVgxcnpSNnQ2eElCSGV6Q0c1YWhYeGVCeDlIMDRTME51bzZZamNPcE1DTVVBM2hDNkhGNUxNMFhSdzhldHFXai02UGZFTWw?oc=5",
+   "published": "2026-10-16",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "U.S. small-scale solar generation has quadrupled in the last decade",
+   "source": "EIA Today in Energy",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=68324",
+   "published": "2026-10-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Big Tech's AI auditors will only see what they're shown",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/opinion/2026/10/16/big-tech-s-ai-auditors-will-only-see-what-they-re-shown",
+   "published": "2026-10-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Traders will soon be able to bet on whether Coinbase, Robinhood and Marathon will hit their targets",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/daybook-us/2026/10/16/traders-will-soon-be-able-to-bet-on-whether-coinbase-robinhood-and-marathon-will-hit-their-targets",
+   "published": "2026-10-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Circle targets 40 new markets as stablecoin demand grows globally",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/16/circle-targets-40-new-markets-as-stablecoin-demand-grows-globally",
+   "published": "2026-10-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next",
+   "published": "2026-10-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Tokenized Tesla surges as Elon Musk unveils SpaceX-powered flying Roadster prototype",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/16/elon-musk-s-flying-roadster-reveal-sent-tesla-crypto-trading-into-overdrive-while-stock-markets-were-closed",
+   "published": "2026-10-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Herbal smoking products and Tobacco Products Duty",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/herbal-smoking-products",
+   "published": "2026-10-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: Community Amateur Sports Clubs detailed guidance notes",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/community-amateur-sports-clubs-detailed-guidance-notes",
+   "published": "2026-10-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Software developers providing customs declaration software",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/list-of-software-developers-providing-customs-declaration-support",
+   "published": "2026-10-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: One Stop Shop Union scheme: service availability and issues",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/one-stop-shop-union-scheme-service-availability-and-issues",
+   "published": "2026-10-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: VAT Import One Stop Shop Scheme: service availability and issues",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/vat-import-one-stop-shop-scheme-service-availability-and-issues",
+   "published": "2026-10-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories",
+   "published": "2026-10-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "This Senate race where data centers are a crucial issue has more spending than any other midterm clash",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/this-senate-race-where-data-centers-are-a-crucial-issue-has-more-spending-than-any-other-midterm-clash-5152b43d?mod=mw_rss_topstories",
+   "published": "2026-10-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Could an Anthropic IPO put your 401(k) at risk? The AI safety debate hits a new dimension.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/could-an-anthropic-ipo-put-your-401-k-at-risk-the-ai-safety-debate-hits-a-new-dimension-db3f09f7?mod=mw_rss_topstories",
+   "published": "2026-10-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771?mod=mw_rss_topstories",
+   "published": "2026-10-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "New SEC rules would fleece everyday investors to enrich Wall Street",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories",
+   "published": "2026-10-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -19,21 +269,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US rates / Fed",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Major Economic Indicators Latest Numbers",
-   "source": "BLS",
-   "url": "https://www.bls.gov/bls/",
-   "published": "2026-10-15",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "US mega-cap / AI capex",
    "holdings": [
     "IVV",
@@ -44,21 +279,6 @@
    "title": "Meta's Muse could change investors' perception of AI capex this earnings season - Business Insider",
    "source": "Business Insider",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNjkxZlBhZzdCb2VYX1VTQk9OdzJhQTNneUF0T2M1MG1fTVdhWlFDVXVudVRFN2NYVnlBRV9CcG1yblAwRjdjMm10LU1IRXV1d2Q3WUZES1BIdU43YnZOc1pqMm91Y0daVFZoczF5U0pjYWZmMDZpeE5rQkNHZXNEZDFfaEo?oc=5",
-   "published": "2026-10-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta under investigation regarding alleged tax filings claiming data center projects qualify for research credits - Data Center Dynamics",
-   "source": "Data Center Dynamics",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUzBNcFR2ck5tLTdmelNIaDVSTEdLWjJZYVBaS01fVGpBRTBpcVlDUS0wWWsxZ1M4TWJfcGVNdWtuWWU4Slh4ZFFoaFRfZHRCX2hxQmpMOVZ2WTJ4X2tuRHFyYjVUTnNaSEx5Qi1vbV9FNjdSV1FvV3FiSjJkN1FfcGdCZWlWZVFNY0c4MFRRNmxzTlI1NFdYV0lnQlFFUUFFZGJXQ2ZHSUV4QlZWY1dqU00weDhsZE1XY244cHBydGs0NzNJVEo4SDRmakJKR2lOLUxxaXE4TXNYaHZEdzh0SGVWaXdSTlVIWlVvdk5n?oc=5",
    "published": "2026-10-15",
    "trust": "C",
    "flag": "context-only"
@@ -101,23 +321,24 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models - NVIDIA Blog",
-   "source": "NVIDIA Blog",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVVU0zYjltcWc5TzJiNlRiOC13eUlPV2NLb0lBYlRCTDVIZHZDeTBlWW1nTU1idlQ2aGNHX0xGWjBDSXJ6VTFrWGVaa1M1UHRNTXFHUUp1bWZNOXJsVDNCSkZn?oc=5",
+   "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
    "published": "2026-10-15",
    "trust": "C",
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
+   "driver": "US mega-cap / AI capex",
    "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
    ],
-   "title": "TSMC Reports Third Quarter EPS of NT$29.43|Taiwan Semiconductor Manufacturing Company Limited - TSMC",
-   "source": "TSMC",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE53WTNKZC1rRTNpMk5IYXZOU2J1REhGZXdqNkduVDg2YVJvSHRVdHAxWlJGSldYTmJDVlZEeXhFaU9EU1V0T21fSzJYQ3NsUQ?oc=5",
+   "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models - NVIDIA Blog",
+   "source": "NVIDIA Blog",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVVU0zYjltcWc5TzJiNlRiOC13eUlPV2NLb0lBYlRCTDVIZHZDeTBlWW1nTU1idlQ2aGNHX0xGWjBDSXJ6VTFrWGVaa1M1UHRNTXFHUUp1bWZNOXJsVDNCSkZn?oc=5",
    "published": "2026-10-15",
    "trust": "C",
    "flag": "context-only"
@@ -143,37 +364,9 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Europe\u2019s critical dependencies put semiconductor diplomacy in the spotlight - Decode39",
-   "source": "Decode39",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQnpjS3hmQVQ2ZlJKUmE4UTd2enhZZFJLTlR2a2VVcVVFM0VnVGlNdk9ScjZPbDFvMVFRNUd1SURDTW9tdHhQdThyNVh3ZUVGZG5jZXJ5ZDNNS19rX0djRDhQVjRJUFdveEpzSF9qWWYzQ0FFbVdKSW1tTG40bWlIYk9QRHRNVmhUdEV6alE1WmhuXzhyaGltOHFTTld3RFNKMTBMcA?oc=5",
-   "published": "2026-10-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "TSMC Q3 profit jumps 69% to record, beating expectations - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUkd5cXQ0TjJXLWVtRFJZS0x5T1p5ZlBWTllOZjdqTG1xTTJ5eURYQm52eUdQYnhEVy1YSDg2YjU2M2RZQnFBYXk5SEE4U2tSVFZlMTdBMlJTUjRxSVNQREFiR2dTc045blJabGR3eGs1MEtpU09vd09pTkpkUGplY25udTJSamxpbjM1R19CdUNOeUFSM1dHWXhGZDBsN0xVOWM4dzhUNjNZZw?oc=5",
-   "published": "2026-10-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "TSMC chip capacity is \u2018fierce\u2019 battleground for AI customers, amid record quarter - CNBC",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcTFFbGhXV2lUQmRUM2o1WWtweGVWa1VZQThOY3dTaTNkZFppb1I0cGd5eDcxSVpMWVRJVG5IN1JCOGJZQkJOcVIyY09ya0Q0X3FMaFh1dDh0T1lRSTNnNHpCVHhLSWNxMW9XM1RnaVhOV2RJWGJ5UVU4VjdQZFg2X1hOeG10LS15TS1uMzBfWlBoUjdCSVdWQmZvVkFRd9IBowFBVV95cUxPUkZGUlVRSTZaVDQ5OUtSR0MtV1JuN1NKMi0xbXBENDNfaVNucS1SaG92VDFhalBNNlhfS3VBQnlxOG1wS0t3MVNUQ2pmNnVFR2g5dWlQX05kTEFQay03c09NczIyTlplQXpZcmEzWWpsbHBLSDJvZTQxbGIzam9fM1JFT3ZmQWxJZ05hcDkyQzBuMDMzX3E2aDFMM0NCdzBqT1pZ?oc=5",
+   "title": "Japan\u2019s semiconductor revival must wire in local economies - East Asia Forum",
+   "source": "East Asia Forum",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbkZiMG8xVGx3cEE3MkJLOGpzNm5NX3JhTy02Wm5pdXIxajJvb1hOV1N6ZUtvbFhPMWNTbWd5VWJHZFlrQUQ3Zm9oYXJ3OU5EWW1kVENPRDI2Sm1ka0hkRGlzeE83cG03bUp5blVmcUIwT20yb3cyeDdLOWZzSlpoOU0tcng2c1AwSmtmVDdPR2JXNzdNNlRzTTVQSQ?oc=5",
    "published": "2026-10-15",
    "trust": "C",
    "flag": "context-only"
@@ -189,186 +382,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
    "published": "2026-10-15",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "At the White House, crypto policy vacancy looms large",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/news-analysis/2026/10/15/at-the-white-house-crypto-policy-vacancy-looms-large",
-   "published": "2026-10-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/coindesk-indices/2026/10/15/crypto-for-advisors-wall-street-is-done-waiting-on-congress-for-crypto-rules",
-   "published": "2026-10-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/15/how-brooklyn-prosecutors-and-the-fbi-took-down-a-massive-crypto-fraud-network-targeting-russian-speakers",
-   "published": "2026-10-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Under pressure, Ledger unveils plan to turn its crypto hardware wallet into a smartphone",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/10/15/under-pressure-ledger-unveils-plan-to-turn-its-crypto-hardware-wallet-into-a-smartphone",
-   "published": "2026-10-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitcoin, copper, stocks, yields all fall; gold rises",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises",
-   "published": "2026-10-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: How to make a voluntary disclosure to HMRC",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/hmrc-your-guide-to-making-a-disclosure",
-   "published": "2026-10-15",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Check genuine HMRC contact that uses more than one communication method",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
-   "published": "2026-10-15",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Check if an email you've received from HMRC is genuine",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/check-if-an-email-youve-received-from-hmrc-is-genuine",
-   "published": "2026-10-15",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "How to use your ATA Carnet",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/how-to-use-your-ata-carnet",
-   "published": "2026-10-15",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Tied Oils Enquiry Service: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/tied-oils-enquiry-service-service-availability-and-issues",
-   "published": "2026-10-15",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "I\u2019m 64 years old, with two sons, but only one works in the family firm. Should I leave him 70% of the business?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
-   "published": "2026-10-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "How a midterm sweep by Democrats could turn this tech selloff into a tech crash",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/how-a-midterm-sweep-by-democrats-could-turn-this-tech-selloff-into-a-tech-crash-a1d1a82f?mod=mw_rss_topstories",
-   "published": "2026-10-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Nvidia and other chip stocks face renewed pressure as AI fears swell",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989?mod=mw_rss_topstories",
-   "published": "2026-10-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Don\u2019t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/dont-ditch-tech-stocks-just-yet-make-these-moves-to-take-advantage-of-the-latest-ai-reset-cb70c7b2?mod=mw_rss_topstories",
-   "published": "2026-10-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "CoreWeave\u2019s polarizing stock rebounds as Wall Street squares off about AI spending",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931?mod=mw_rss_topstories",
-   "published": "2026-10-15",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -556,19 +569,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "Crude oil prices and refinery margins generally increased throughout the third quarter",
-   "source": "EIA Today in Energy",
-   "url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
-   "published": "2026-10-05",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "AU tax / reg",
    "holdings": [
     "ALL (disposal gate)"
@@ -577,19 +577,6 @@
    "source": "AFR",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNams1bXJyRlQyeUdKdnRRYWNZZm1Hanc4SWdRM2FNNWxJV25XcGVMX0dlNWFocUdCQXdJSDQzVmRJS002MDYxMWhrQkxmV0QwQXpwbHM5ZTNURTF5d0ZoZUpIMGxnTkFlM1VBZEJuN3J2SmlvdHhOOHoxQ0oyazNTRTJhQVlZNTJDZXo0MFdZX3MzYW8zQUl5bUlBcFljN2p3bnRfay1MT0paVVhpakN5XzRnSnMxQ0tSWGhXZzUyN0s?oc=5",
    "published": "2026-10-04",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "How Brent Pry went from head coach to coordinator at Virginia Tech - ESPN",
-   "source": "ESPN",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQlFDNS1jd1p6TjBDWkZBbzA0UWRXcVg5M0ZTa0VPTnllOGpYWlZ2aTFSTEZRRmlyd25mT082a2Rkczd3NDBPQmc2MFdiR1duSWRaN0JMcHJmWWFJcGJ3dEJocnZ4TnotSTdfZU15VkZWb1FHX1dSbjJyUkN4bTk3dm9tWXRFTmZaY1NXM3lQeTk4M0RES1Z2UGZNX2paU2JnWkpuMlAtY1dRVHdOTi01dF9JNGV4Rm91bzZUZGNBOWdzQ3gwR2dv?oc=5",
-   "published": "2026-10-02",
    "trust": "C",
    "flag": "context-only"
   },

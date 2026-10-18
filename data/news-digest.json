@@ -1,8 +1,68 @@
 {
- "generated": "2026-10-17T21:57Z",
+ "generated": "2026-10-18T22:12Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 48,
+ "count": 45,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft pulls out of UK data center deal with Nscale, Telegraph reports - Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMmVDUVQyZjhnbFN2MHQ1MHVPMHVpLVVsUFE1aU44Y2QzMUx2a25MRXR5OWtkTGd5RkViaG9fM3lZcnFHblYyT2xMeGZ3MHI3NkFjQ0FhdWFVRWlmdHlPRDRFRVRsclFpbUExakpiN3Z4aGMtODdDb09Mb0xXbnIxdU04ZmQ3UTEyTkhQd2EyMFhDNzQzYVgzZG9FeDlNYTJTanNOOThVSGRTb2RnRWdCajBVXzFMcDB4MWZpbXR1STMzZ1JaOXRr?oc=5",
+   "published": "2026-10-18",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says - Bloomberg.com",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYXhlWkpqYnAwNVVYQjBLWTdQdi1HYm50VjhBQ3UwTkNhc0gtTGhoMnluWGxuMVdmZWM3eFRjVFA5dWZ0STlFRVJ6S090WVFveFF1RVNjcHFpd2ZNTFJfamxDNGl6YTNrSmkta2pteXpnMElHVXVjcUI5WDNlemltdVRSZURQUXBmcTFrV0NyY2R0a3J1clFlOGU2RjRTbVRnbzRnU3NvRktJR3g3RUw4Zm9vTnE?oc=5",
+   "published": "2026-10-18",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft withdraws from artificial intelligence data center project in Britain - \u0635\u0648\u062a \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a",
+   "source": "\u0635\u0648\u062a \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaWVvb2prZGFKM2dTallHT0pqYjc1RUNGN1Btek80a1BvLXFFR1hsZU5MZWVXVXZ4VjM0Q1dSTG9KcVZhRGNCc0dtaWZDbGMwZk82WGZueUpOWkl3SThHRjl0aEZtaVNxZHRYbmlwcjdSS29hQXJwS2FxdnZQRkdiRHgyMWpuMUIyam10eGlxSFpEeEpRRWJfMUcyVTJwcmRxWEVORDNZX0tJU1NRSl8yQnZraTRYaXUxNlRYVEMzYW9haG55RVZMWXYxTQ?oc=5",
+   "published": "2026-10-18",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft scraps UK data center project with Nscale ahead of IPO - The News International",
+   "source": "The News International",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUTJzbG1iWEs4X3J1UWNzc3VRN0xmNFdfVXFoLVFLeGNsVzlmQVF6bWQxd2NpLThQS3ZsVTU5YzRaVUhlY00xS0FONkNyOUJNV1FoYzFkSEVmdHdYVDl4b1E1UENmbjY1UF9rRzdKTi1vOE9samI5WElyaUtzcW1lekRCSkFHcE1NQmlFRUVhR0RTMmdsSDdMd19UV0ZXMHNINFJuZHlodUZHZ9IBpgFBVV95cUxNeXU5OGxxaG9fZkoxT09Fdy1aQnlIWFF0RHB0bmg0dWMzMnk4MnVyMGRCZEJobUgxeFBLSk5tNzJlVTlFQ2ZsTkt4WFFmTVV2QzhrWlNIWlBOMl9uY0FodjllSlJYNEwtRnJnTGc3QjBwMHhPRFBZQVJqX0l6TGVFSldjb2JUZE84NEZjYjhCVkpBd3JtLTZnYjhDZmVZRXZtVjNnLVpR?oc=5",
+   "published": "2026-10-18",
+   "trust": "C",
+   "flag": "context-only"
+  },
   {
    "driver": "US mega-cap / AI capex",
    "holdings": [
@@ -14,7 +74,7 @@
    "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
    "source": "EnergyNow.com",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
-   "published": "2026-10-17",
+   "published": "2026-10-18",
    "trust": "C",
    "flag": "context-only"
   },
@@ -25,10 +85,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Form 4 ON Semiconductor Corporation: Sudhir Gopalswamy (Group President, AMG & ISG) For: 1 October - Investing.com Australia",
-   "source": "Investing.com Australia",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSFhGRWhfLW5Pb1BrMEVfOS1RSEVzbGNXVjN4NTBNS3l6cEFXY0hKTEN5MGpUdDBYYS1HLVBRVEgwZDV4czdvcXNybjF6eng4eEg4c29xQW1tbmRMc2JQUTRDT2FhMDBfbm9pQjQ1LWxhOTR4NDNieXBsQzFXcnpGM25QamdZdnFGZXRsYWhNVjc4bEQ1VUN2VmVsSlVDcTFGSlBVV0MzRjNNQ1VNYm03S2ttWlpOUW96Q1lDZ0xqWkVKVklzMGZFMUFqaVhvcEotdmMwbG5pUFVaa2NhTkw4bDhHVUNRM2pj?oc=5",
-   "published": "2026-10-17",
+   "title": "Taiwan Semiconductor Just Proved Why It's a Top AI Investment - The Motley Fool",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMVBfajlrTTNrNHNqX1Z1RkFYQUMzRDA3VUhkTkREWTN4My1hbXA5Vk5qdndORG1iOWk3Y0R2cmx0WlFvME1ZRFB4aEg2V0hVeUFmbmlPMFYtM1B6Tjd5MHRRU0dWOUZNWGQ3a2ZXUmZIU0t5YmdKdUNDc0huMDZWVHZBR3IxOGpfV1FBRVlLVE5WVDZDaUNJ?oc=5",
+   "published": "2026-10-18",
    "trust": "C",
    "flag": "context-only"
   },
@@ -39,11 +99,159 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Semiconductor market to remain solid \u2018at least through next year,\u2019 South Korea finance minister says - CNBC",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZXhtaE1RUk5kMDU2aUdhQThmY1M1bzNaRmNYbDhMZGZsZ005eHVZWU1zM19WVHR5djJKcVIzVTFIZWpMMkZ0THljQXdmZTA4dU9nZms3OFhpd2IwdlVndGZzM3RkVlk5MXJLdmtNVDNZOHRKejNIbzVfaWJoUThhSTZyQm1WRng2blVuR9IBkgFBVV95cUxNazg5ZWV5amlrcnpLZkZnaDd5SjZsSmdXbVBEQVFfYUdZdUIzX20wbHJMNk9JRWtjZkhqRk8xZlpvenVvNGtoRWVHU3ZhMk1PZE1lOXBjZDFoNjY5cDFaOFpOd2Q3SkdxWXFLVHhUSUNqdDhJeGxWRkhwRXpoTnNiZVU3eGZiSzRFb1BZWEJiSVU5Zw?oc=5",
-   "published": "2026-10-17",
+   "title": "Better AI Chip Stock: Taiwan Semiconductor vs. Micron - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWdNdGZSeFJpNll0RnpoS0VKUzFBaHRUYWFmcE1JUE5EVGEwWVlaa2ZoNkNsN1BiRExXMHQxR01pY3ZRV0NvcDdNNm9tN1BvdjBSZ2JuelRfT252ODVDY29sR0JMTXZhVy14NDFnVXJ4ZHhnUVBwbjZXTUkzUm5nWEpZeUlvWWY2dVVscS1Xb2Vwdw?oc=5",
+   "published": "2026-10-18",
    "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports - Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVd3RU5QdzNwZHd0cUNCbUQxM3B6M2JOTXZZbEE4b3Y4czkxSjBuNklIRXU2S1VyRld6WTlRQUdlZkN3TGNRcng5cjR6ZEViNXNqcHh2RnlRU2hWVXRPUVFjVXRvd2FaaTVkd002aUk4WHlEQ2wxTGk3alF5S0FUTGNMUXF2dV9QUjk4eThjcWVPaVBLYzc2c0NUaUN4UUVMcVZTSERiMDE5VXp0NDdoVFpuS2E0TGZoUnBrRTExcnZDRlJia1VNcU40SUxQcE1y?oc=5",
+   "published": "2026-10-18",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Taiwan Semiconductor Just Proved Why It's a Top AI Investment - The Globe and Mail",
+   "source": "The Globe and Mail",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZUdnc1JhNklhektKTkl4MUJYN1Ezd3RxeW5RYlYwZ0kyNmVfeVNzeGRXQ1ljTEtXVFZOeHRDOTc1cVNaV05NYmhHdy14TThNRFd2QThldGpiSWgxVE03WmFBUDY1RTVGWnhKbENGUElmbWY3d3RJcmdKbTNqdWplNldGN1VHS202MDVVeEZfdFgzYVJnM1NhT1FybjNMSnRROGVoeXp1ZHE5VDhsUXFLOXU0VVJIaTkxMl9DNHVMRW1CSUlPRXoxNkZZdWgyV3NhUXVGSEtNRUc1czJmenc?oc=5",
+   "published": "2026-10-18",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "The White House's crypto chief departs: State of Crypto",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/10/18/the-white-house-s-crypto-chief-departs-state-of-crypto",
+   "published": "2026-10-18",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Wall Street freaked out Friday. VIX and bitcoin say the fear may fade Monday.",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+   "published": "2026-10-18",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Latvia eyes crypto tax payments in 2027 as parliament overhauls crypto taxation",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation",
+   "published": "2026-10-18",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
+   "published": "2026-10-18",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin\u2019s $100,000 year-end hope divides analysts as inflation clouds outlook",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/10/18/bitcoin-s-usd100-000-year-end-hope-divides-analysts-as-inflation-clouds-outlook",
+   "published": "2026-10-18",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My wife says we can\u2019t afford to retire. I vetoed her $8,000 trip to Italy. We\u2019re in our 60s and have $4 million. Do I keep working?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+   "published": "2026-10-18",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018Some people did everything right\u2019: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
+   "published": "2026-10-18",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+   "published": "2026-10-18",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "I\u2019m 64 with two sons, but only one works in the family business. Is it ethical to leave him 70% of the company?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
+   "published": "2026-10-18",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "I\u2019m 63 and diagnosed with lymphoma. Should I take my Social Security next year?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories",
+   "published": "2026-10-18",
+   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -60,66 +268,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Goldman, Wells Fargo, Morgan Stanley see tokenization as a growth play, not a threat",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat",
-   "published": "2026-10-17",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Citrini sees a tokenization boom. The harder question is who profits",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/17/citrini-sees-a-tokenization-boom-the-harder-question-is-who-profits",
-   "published": "2026-10-17",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Polygon sees Coinme acquisition as entry to payments sector dominated by Visa, Stripe",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe",
-   "published": "2026-10-17",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Banks could slow stablecoin growth by paying savers more, BIS paper finds",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/14/banks-could-slow-stablecoin-growth-by-paying-savers-more-bis-paper-finds",
-   "published": "2026-10-17",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "\u2018Wow, it\u2019s a real discovery\u2019: Claude cracks a 25-year NSA number mystery",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery",
-   "published": "2026-10-17",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -129,66 +277,6 @@
    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
    "published": "2026-10-17",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Can a $55,000 robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab?mod=mw_rss_topstories",
-   "published": "2026-10-17",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Fake shopping sprees and \u2018happiness insurance\u2019: The latest fintech apps reveal our financial anxieties",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
-   "published": "2026-10-17",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
-   "published": "2026-10-17",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Is Apple\u2019s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13?mod=mw_rss_topstories",
-   "published": "2026-10-17",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018Some people did everything right\u2019: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
-   "published": "2026-10-17",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -204,20 +292,6 @@
    "url": "https://www.bls.gov/bls/",
    "published": "2026-10-16",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Taiwan Semiconductor Manufactur (TSM) Stock forecasts - Yahoo Finance Australia",
-   "source": "Yahoo Finance Australia",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS1JXYWpDOXhvblM2UmFxbEpSS2Y2V0U3My1mY19fcFhaM1VBeUVjVHhYbWZXbFV4enBDU19haUZ3eHV1ZkpEVEoydkFhQURlQ0tYdVJGRkRJeXVXUXV5dlNjSVltZV9wZXA5V1J2bmk3RnJZZURDYWU4elNiNlhPcmk0R054WF9nU1haMzZMNm8?oc=5",
-   "published": "2026-10-16",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -309,66 +383,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta's Muse could change investors' perception of AI capex this earnings season - Business Insider",
-   "source": "Business Insider",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNjkxZlBhZzdCb2VYX1VTQk9OdzJhQTNneUF0T2M1MG1fTVdhWlFDVXVudVRFN2NYVnlBRV9CcG1yblAwRjdjMm10LU1IRXV1d2Q3WUZES1BIdU43YnZOc1pqMm91Y0daVFZoczF5U0pjYWZmMDZpeE5rQkNHZXNEZDFfaEo?oc=5",
-   "published": "2026-10-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Apple\u2019s \u2018Minions\u2019 tech turns idle Macs into an AI data center - Computerworld",
-   "source": "Computerworld",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTEczUUhjR19sVmZuSVc1Ulo0MEZKaTlFcW1sT0h1VWpaLVFNVHJyLTlBUGZ0WG5hUk83TkhUSFFuZGxQMXNqVjFDTjhzRS1GbVlsc0taUk1INlRVMEtkY0ktQ0s0Z2hqVXRPM1FOLWFGcmppUzlKU2dpbTJiNVYwQWFQVWM3cS1FSmVqbUs0Vkc5UnVuWk5Na2REa1JuNmFRTFR1bEd3RWNMcGx0bkE?oc=5",
-   "published": "2026-10-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Why We\u2019re Going to Court Over Meta\u2019s Louisiana Data Center - The Equation - Union of Concerned Scientists",
-   "source": "Union of Concerned Scientists",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObjR6VXhmWVJCRHJCT0JUc2hEeERMQkJKSUVlTG5nby1pYWo3YjJMd3Rpb1BPa04tal9WYjJHSEY3LWw1ckV5aW51TnowNEpCakYweVpvclp0MExHUmRtRmZOWnNQS1V0X1p1SmczQTZVMUxvVzRSMWI0ZFdodDJzS0s0Y2Y2c1R2bVpKVko0cGNyRGxh?oc=5",
-   "published": "2026-10-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models - NVIDIA Blog",
-   "source": "NVIDIA Blog",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVVU0zYjltcWc5TzJiNlRiOC13eUlPV2NLb0lBYlRCTDVIZHZDeTBlWW1nTU1idlQ2aGNHX0xGWjBDSXJ6VTFrWGVaa1M1UHRNTXFHUUp1bWZNOXJsVDNCSkZn?oc=5",
-   "published": "2026-10-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Semis / Taiwan",
    "holdings": [
     "ASIA",
@@ -378,20 +392,6 @@
    "title": "Is the semiconductor industry headed for an almighty crash? - The Economist",
    "source": "The Economist",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONG13VFVpMmRfamdQcy15WkdqVjVtOXNkZE0tbENrdHV2Vlk0QTNtXzlLR0NUcFdicXZEYlF6azZFRWZGLVRUcTgwTmwwbnBjVzhlaHh1X3RGSFB4dGtmVHNSY09ENVA2Vm9uOXhaajNodUtKOG1ibll1dXlORU10RWJ3YVViRG1qQTBhZTVqanc0VFItRThoY0IwdWpKX29RalFLTVY4aw?oc=5",
-   "published": "2026-10-15",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Japan\u2019s semiconductor revival must wire in local economies - East Asia Forum",
-   "source": "East Asia Forum",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbkZiMG8xVGx3cEE3MkJLOGpzNm5NX3JhTy02Wm5pdXIxajJvb1hOV1N6ZUtvbFhPMWNTbWd5VWJHZFlrQUQ3Zm9oYXJ3OU5EWW1kVENPRDI2Sm1ka0hkRGlzeE83cG03bUp5blVmcUIwT20yb3cyeDdLOWZzSlpoOU0tcng2c1AwSmtmVDdPR2JXNzdNNlRzTTVQSQ?oc=5",
    "published": "2026-10-15",
    "trust": "C",
    "flag": "context-only"
@@ -407,18 +407,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
    "published": "2026-10-15",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Gold",
-   "holdings": [
-    "QAU"
-   ],
-   "title": "Gold Futures Overview - CME Group",
-   "source": "CME Group",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeDc1RGtZSl9sWTFkQXE5RFZpdVo3VkRJT08zLU5TSUVSQWpLTUNOR3RjZEwxY2hYNUdLUzdrV2xsdDY1OTlkcGJxM1pyaUNOSndxdDNuY2N0NXROM1psWERyeVVRZko1ZGc?oc=5",
-   "published": "2026-10-15",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -496,19 +484,6 @@
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
    "published": "2026-10-13",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "Somalia Will Benefit from New Geo-Political Reality in Middle East - Borkena",
-   "source": "Borkena",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU3VrT0VRQ0ZULUthVmFEQnVwNHg4ME9rbU5GQmF3Mi0wcDMwQ05waXBMTmdZZUxUc3djYmhncHkzVUxBM2dubWhXeUFFVzNid0RsNXBSTEQyOGVRRVp6WEx2aG9xSWZhQ2NPbFFlTE9IWUd0NVRwOHhTbkx1dWRrUDV6bElCbzF1VTI5eXQtcDc?oc=5",
-   "published": "2026-10-13",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -603,18 +578,6 @@
    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm",
    "published": "2026-10-06",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "AU tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Capital Gains Tax changes are influencing how Australians invest - AFR",
-   "source": "AFR",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNams1bXJyRlQyeUdKdnRRYWNZZm1Hanc4SWdRM2FNNWxJV25XcGVMX0dlNWFocUdCQXdJSDQzVmRJS002MDYxMWhrQkxmV0QwQXpwbHM5ZTNURTF5d0ZoZUpIMGxnTkFlM1VBZEJuN3J2SmlvdHhOOHoxQ0oyazNTRTJhQVlZNTJDZXo0MFdZX3MzYW8zQUl5bUlBcFljN2p3bnRfay1MT0paVVhpakN5XzRnSnMxQ0tSWGhXZzUyN0s?oc=5",
-   "published": "2026-10-04",
-   "trust": "C",
    "flag": "context-only"
   },
   {

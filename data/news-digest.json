@@ -1,9 +1,24 @@
 {
- "generated": "2026-10-18T22:12Z",
+ "generated": "2026-10-19T23:17Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 45,
+ "count": 47,
  "items": [
   {
+   "driver": "US rates / Fed",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Major Economic Indicators Latest Numbers",
+   "source": "BLS",
+   "url": "https://www.bls.gov/bls/",
+   "published": "2026-10-19",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
    "driver": "US mega-cap / AI capex",
    "holdings": [
     "IVV",
@@ -11,10 +26,10 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Microsoft pulls out of UK data center deal with Nscale, Telegraph reports - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMmVDUVQyZjhnbFN2MHQ1MHVPMHVpLVVsUFE1aU44Y2QzMUx2a25MRXR5OWtkTGd5RkViaG9fM3lZcnFHblYyT2xMeGZ3MHI3NkFjQ0FhdWFVRWlmdHlPRDRFRVRsclFpbUExakpiN3Z4aGMtODdDb09Mb0xXbnIxdU04ZmQ3UTEyTkhQd2EyMFhDNzQzYVgzZG9FeDlNYTJTanNOOThVSGRTb2RnRWdCajBVXzFMcDB4MWZpbXR1STMzZ1JaOXRr?oc=5",
-   "published": "2026-10-18",
+   "title": "Microsoft exits data center deal in blow to UK AI ambitions - Tech Xplore",
+   "source": "Tech Xplore",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5DUF84cUVKeGdnY3RKa0Z6bUNtLVhSQjJHVVhJa1Rsa1BpMVc3aW04R0ZjWTROd21FTjZPemQ1ald5LUxXdFRxWTJNUHR3ek8yNlBQZmJOYmpzQkZTaUVOQTFKMXZFOWpsQWFYOFBKV1JFc1h5cmJ1Vw?oc=5",
+   "published": "2026-10-19",
    "trust": "C",
    "flag": "context-only"
   },
@@ -26,55 +41,55 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says - Bloomberg.com",
-   "source": "Bloomberg.com",
+   "title": "Microsoft Pulls out of Nscale U.K. Data-Center Deal Over Power-Supply Issues - WSJ",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOFBSano2YWNRY1dzTTFvSmc4NjZ0NEtuRVZDa2ZDMGFmYzVFekJMVzR2aTd5aWZmVEFvLWFKQ052cFJYU3NfUGFpMGhla0c3VUYzR1VfUEQ4bHlfdDFCTnZuN2pvUzJNTDd2UWN0MmlqbVhYQ0V4dmdiT1VkUmUzb2preEF0ZHpnRlc2dGJwTnhTYm5zSTljbzZGMC1EdXF4OFRTUjBHa2E4Q2t5eHc?oc=5",
+   "published": "2026-10-19",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft withdraws from Nscale\u2019s UK AI data center plans - W.Media",
+   "source": "W.Media",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fWDJDN0hDbDlTdEw4akdWOG4xRzBJMHpWWGhtWTI5QUVIcDhGbVc2NHpQcFYzQ1ZDOF9ZRkxFR1Q1RWl4U2JxTlZWMjB1V05RTHh4aGdYblFFRTExTWQwTWw0NW00YmJfZUFYV204OUZKMkRRTkxwbGcxR1pUUQ?oc=5",
+   "published": "2026-10-19",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft pulls out of delayed Nscale data center in Loughton, Essex - Data Center Dynamics",
+   "source": "Data Center Dynamics",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbTJnNkNNSjdNSGNsZGFDX28yTkc3WXctWGFfbEFtVVNCQVVNc2twRDJKdi1wdVA5TUNzYk5CaFpITFM4V2ZyeWZzcE40TWx3VWpBYWdDemJrcXRnVkhGMU1nYll6MFdMVFpWOHhjRk9nSGxrRnhRQnlyVUEydUN6QUVPUXpzTmVzUWxneGd5RFJiWGVmY1ZWU01BaWFXZ1VjNUk3RWRrQjhUb1B4dkd2Mw?oc=5",
+   "published": "2026-10-19",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says - Bloomberg",
+   "source": "Bloomberg",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYXhlWkpqYnAwNVVYQjBLWTdQdi1HYm50VjhBQ3UwTkNhc0gtTGhoMnluWGxuMVdmZWM3eFRjVFA5dWZ0STlFRVJ6S090WVFveFF1RVNjcHFpd2ZNTFJfamxDNGl6YTNrSmkta2pteXpnMElHVXVjcUI5WDNlemltdVRSZURQUXBmcTFrV0NyY2R0a3J1clFlOGU2RjRTbVRnbzRnU3NvRktJR3g3RUw4Zm9vTnE?oc=5",
-   "published": "2026-10-18",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Microsoft withdraws from artificial intelligence data center project in Britain - \u0635\u0648\u062a \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a",
-   "source": "\u0635\u0648\u062a \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaWVvb2prZGFKM2dTallHT0pqYjc1RUNGN1Btek80a1BvLXFFR1hsZU5MZWVXVXZ4VjM0Q1dSTG9KcVZhRGNCc0dtaWZDbGMwZk82WGZueUpOWkl3SThHRjl0aEZtaVNxZHRYbmlwcjdSS29hQXJwS2FxdnZQRkdiRHgyMWpuMUIyam10eGlxSFpEeEpRRWJfMUcyVTJwcmRxWEVORDNZX0tJU1NRSl8yQnZraTRYaXUxNlRYVEMzYW9haG55RVZMWXYxTQ?oc=5",
-   "published": "2026-10-18",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Microsoft scraps UK data center project with Nscale ahead of IPO - The News International",
-   "source": "The News International",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUTJzbG1iWEs4X3J1UWNzc3VRN0xmNFdfVXFoLVFLeGNsVzlmQVF6bWQxd2NpLThQS3ZsVTU5YzRaVUhlY00xS0FONkNyOUJNV1FoYzFkSEVmdHdYVDl4b1E1UENmbjY1UF9rRzdKTi1vOE9samI5WElyaUtzcW1lekRCSkFHcE1NQmlFRUVhR0RTMmdsSDdMd19UV0ZXMHNINFJuZHlodUZHZ9IBpgFBVV95cUxNeXU5OGxxaG9fZkoxT09Fdy1aQnlIWFF0RHB0bmg0dWMzMnk4MnVyMGRCZEJobUgxeFBLSk5tNzJlVTlFQ2ZsTkt4WFFmTVV2QzhrWlNIWlBOMl9uY0FodjllSlJYNEwtRnJnTGc3QjBwMHhPRFBZQVJqX0l6TGVFSldjb2JUZE84NEZjYjhCVkpBd3JtLTZnYjhDZmVZRXZtVjNnLVpR?oc=5",
-   "published": "2026-10-18",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Meta to Build C$13 Billion Alberta Data Center, its First in Canada - EnergyNow.com",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpJcTRfS0hLbWRWNWpadFdJOHZBaFNyUTdaUkh5ZFRSN25wTGRwNHBRZXRwVHBXR3ZQRHhWZXJ5MjNVRG5nZzU4bE1wc2RlRWhPdF9BdkNtbk9NTFNveXRvNTNoaHJheFV5SG5LQlM1Vzg3M1VWZVFYUGFiLVp4eWYxaVctcHkzdGxRREpDTnJrQnNLcC1XQlllQkc?oc=5",
-   "published": "2026-10-18",
+   "published": "2026-10-19",
    "trust": "C",
    "flag": "context-only"
   },
@@ -85,10 +100,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Taiwan Semiconductor Just Proved Why It's a Top AI Investment - The Motley Fool",
-   "source": "The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMVBfajlrTTNrNHNqX1Z1RkFYQUMzRDA3VUhkTkREWTN4My1hbXA5Vk5qdndORG1iOWk3Y0R2cmx0WlFvME1ZRFB4aEg2V0hVeUFmbmlPMFYtM1B6Tjd5MHRRU0dWOUZNWGQ3a2ZXUmZIU0t5YmdKdUNDc0huMDZWVHZBR3IxOGpfV1FBRVlLVE5WVDZDaUNJ?oc=5",
-   "published": "2026-10-18",
+   "title": "A pipe under the Taiwan Strait outlasts the politics above it - Lowy Institute",
+   "source": "Lowy Institute",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ0plck9WR2luNnkwclVEWGNIU21SN2tEeHVfai1xYmRzWldsZkZ0a2V1Y3l6OWdnd29uSHVydkFwbWhoRl9zQXJDYTFzaU00YTJodHJIdHRrelM1cWJFMlhyQkFwMm44eDZPZEQtYWlEcXZoRUh3aVQtemtRZUQ4WnBhVklJNDZNOVpKY3lrOXpxVm91LTM2OE9HclVLc1RWQmpBQTRGOTNjams?oc=5",
+   "published": "2026-10-19",
    "trust": "C",
    "flag": "context-only"
   },
@@ -99,10 +114,24 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Better AI Chip Stock: Taiwan Semiconductor vs. Micron - Yahoo Finance",
+   "title": "Taiwan Semiconductor Manufacturing (TSM) Stock May Be Reasonably Priced Following Record AI Chip Demand - Simply Wall Street",
+   "source": "Simply Wall Street",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORFBXclh6Y2t3XzNkSkZZRUlBbktHQ0Nqb1JVaWpnRkIwVHNvOWo3cWxoZnRNZUJrU2lIYmJCZFpHRXNwOFlHMGs3SFRNVTZaRnlpcGlJZlBnY1VJSG9SNlBxNTNJemUtcVpMdVBhVTJLVldlcEt2VTJaeXhTUkppSktyakV3enFDU0ZjbmdiNWd2eXZoMFNLdWhUdXB5cVNsdTM2OVVnbEFabHZLOVM4djcxUnQ5RGlzMUdEM3JvZ1RHdWJEYTYxeHRfZ0Q2UnNfRy1Oamo0amREeTQ1c3lPNDZ0WjhBbXFRbGhsTNIB8gFBVV95cUxOZVB5QzZZQ0hpRlRQM293V2N0d3NJMkVNSFk0dnhNUkkteXA0YlpSYm1oS25GVGJUb3JCbC1oSHNDX055c0F0YWU4NG1PSGdRN1IyRGJFTzBuMFpJdUtHa1NzUmFZTjhkMnU5cG1BWm4tLU1EZG1BSHB3SDR4R2N2RWZ0cTkxY0dwN3BCZzMtNGZDVWpHcWFNWUVsSk9VTndhMU1sOW1IdnA2YkFGMVhpanZ5bjM4VE1OYy1ROGxNX3ZwMEY3VC1PUkZHZEJrb01CQUFaeFBzS3BVNjFZOGFvTXVuZFBsMnNsYXJPRWl3TEdOUQ?oc=5",
+   "published": "2026-10-19",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "TSMC (TSM) Underperforms in Q3 as Semiconductor \u2018Crowded Trade\u2019 Unwinds - Yahoo Finance",
    "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWdNdGZSeFJpNll0RnpoS0VKUzFBaHRUYWFmcE1JUE5EVGEwWVlaa2ZoNkNsN1BiRExXMHQxR01pY3ZRV0NvcDdNNm9tN1BvdjBSZ2JuelRfT252ODVDY29sR0JMTXZhVy14NDFnVXJ4ZHhnUVBwbjZXTUkzUm5nWEpZeUlvWWY2dVVscS1Xb2Vwdw?oc=5",
-   "published": "2026-10-18",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOREU2WlFUM1d2SmhjR1R5LXlEUmNoZVVrOGt3ZE1aR3A2dlNHaFdYS0RPUTBlUC1SZ3dYaTd2b3E4NUVXUGZrWTd4MlRVZTVOcFREdG9yU05fWTRnblpxb081RnMxd1FBMEZBbW80WlQzSU84VGVRREJkWFV3RngtMk5XRFVESGVnVTFlZS1oSDl6c0RaWDJWS0dlVGhkdFN2UDl3ak9Hdw?oc=5",
+   "published": "2026-10-19",
    "trust": "C",
    "flag": "context-only"
   },
@@ -113,10 +142,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVd3RU5QdzNwZHd0cUNCbUQxM3B6M2JOTXZZbEE4b3Y4czkxSjBuNklIRXU2S1VyRld6WTlRQUdlZkN3TGNRcng5cjR6ZEViNXNqcHh2RnlRU2hWVXRPUVFjVXRvd2FaaTVkd002aUk4WHlEQ2wxTGk3alF5S0FUTGNMUXF2dV9QUjk4eThjcWVPaVBLYzc2c0NUaUN4UUVMcVZTSERiMDE5VXp0NDdoVFpuS2E0TGZoUnBrRTExcnZDRlJia1VNcU40SUxQcE1y?oc=5",
-   "published": "2026-10-18",
+   "title": "Opinion: The Most Important Number in Taiwan Semiconductor's Earnings Report Was 68% - The Motley Fool",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUUN0ZlljRGpSRFAySjMyN053R0ZpLWlUTXZ3RVdMbThFSmE2TkJ6anoxY2t4NkU2VVBVcThLWXdTa1hRbkwyQ19qejZkeThZbUxLbWh0ZFVCcFVTMXFfM1BhYVpyVkxTQVJFR3drSW9rU3JLelVmaFo2cEYwTGFTeTR5UGV3YUpxd3RoUmpqeFVPWjZBQ01mTg?oc=5",
+   "published": "2026-10-19",
    "trust": "C",
    "flag": "context-only"
   },
@@ -127,23 +156,24 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Taiwan Semiconductor Just Proved Why It's a Top AI Investment - The Globe and Mail",
-   "source": "The Globe and Mail",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZUdnc1JhNklhektKTkl4MUJYN1Ezd3RxeW5RYlYwZ0kyNmVfeVNzeGRXQ1ljTEtXVFZOeHRDOTc1cVNaV05NYmhHdy14TThNRFd2QThldGpiSWgxVE03WmFBUDY1RTVGWnhKbENGUElmbWY3d3RJcmdKbTNqdWplNldGN1VHS202MDVVeEZfdFgzYVJnM1NhT1FybjNMSnRROGVoeXp1ZHE5VDhsUXFLOXU0VVJIaTkxMl9DNHVMRW1CSUlPRXoxNkZZdWgyV3NhUXVGSEtNRUc1czJmenc?oc=5",
-   "published": "2026-10-18",
+   "title": "[KITZ FY2026 FY2026 Plan Earnings Briefing] KITZ Targets \u00a5100 Billion in Semiconductor-Related Business Sales by FY2030 - Becomes World No. 2 with V TEX Acquisition, Sets Data Center CAGR of Over 60% - finance.biggo.com",
+   "source": "finance.biggo.com",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tb243TnVzR2FoLWctZWMwa3F3T1Mxb1VTdE5jRWtZWEFFemFEMXVnVW1OejJMU2ZQcVhudGdfdEI4UzdjU3hNVERkOEd2d3MzakktdkpqdkR0Y2tlWnc3RQ?oc=5",
+   "published": "2026-10-19",
    "trust": "C",
    "flag": "context-only"
   },
   {
-   "driver": "Crypto",
+   "driver": "Energy / oil",
    "holdings": [
-    "CRYP"
+    "VHY",
+    "VAS"
    ],
-   "title": "The White House's crypto chief departs: State of Crypto",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/10/18/the-white-house-s-crypto-chief-departs-state-of-crypto",
-   "published": "2026-10-18",
-   "trust": "B",
+   "title": "Hybrid sales rise while battery electric sales remain lower after tax credit expiration",
+   "source": "EIA Today in Energy",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=68325",
+   "published": "2026-10-19",
+   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -151,22 +181,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Wall Street freaked out Friday. VIX and bitcoin say the fear may fade Monday.",
+   "title": "Tether: Senator's investigation misses positive work that's led to lower Iran volumes",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
-   "published": "2026-10-18",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Latvia eyes crypto tax payments in 2027 as parliament overhauls crypto taxation",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation",
-   "published": "2026-10-18",
+   "url": "https://www.coindesk.com/policy/2026/10/19/tether-senator-s-investigation-misses-positive-work-that-s-led-to-lower-iran-volumes",
+   "published": "2026-10-19",
    "trust": "B",
    "flag": "context-only"
   },
@@ -175,10 +193,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
+   "title": "U.S. CFTC rebuffs CME legal stance in consequential fight over perpetual futures",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
-   "published": "2026-10-18",
+   "url": "https://www.coindesk.com/policy/2026/10/19/u-s-cftc-rebuffs-cme-legal-stance-in-consequential-fight-over-perpetual-futures",
+   "published": "2026-10-19",
    "trust": "B",
    "flag": "context-only"
   },
@@ -187,10 +205,142 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Bitcoin\u2019s $100,000 year-end hope divides analysts as inflation clouds outlook",
+   "title": "Zerohash rolls out a new tool to move crypto without copying wallet addresses",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/10/18/bitcoin-s-usd100-000-year-end-hope-divides-analysts-as-inflation-clouds-outlook",
-   "published": "2026-10-18",
+   "url": "https://www.coindesk.com/business/2026/10/19/zerohash-rolls-out-a-new-tool-to-move-crypto-without-copying-wallet-addresses",
+   "published": "2026-10-19",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Cardano founder Charles Hoskinson is building a new programming language for the network",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/10/19/cardano-founder-charles-hoskinson-is-building-a-new-programming-language-for-the-network",
+   "published": "2026-10-19",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/daybook-us/2026/10/19/strategy-on-verge-of-golden-cross-just-weeks-after-bitcoin-flashed-same-bullish-signal",
+   "published": "2026-10-19",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "AU tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "NZ Super Fund warned Australia over capital gains tax changes - NZ Herald",
+   "source": "NZ Herald",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbzdWNjRjU0p2TkVVUnowR0pabnFIUms1dk1GQmFkTFBIdFVTV3R5YjgxNUJOSFpMMy1IRUlVYmpXOEswLXVJdV8xZE41NXN5eXpMcWpaYWpVRUZzLXY0QjBWUHUyVm5WV3FycXJsOUNtdEpVSkl5Vkotd3hKR3JhTF9TcmVPQmdPMDBLRURnLWpxTkdudEdVWUJPMF9Gbl9SNlhJTE9vUjVrQlc2b1BCMXhwT1cwakw5bzRSc3JMWEF6QlJ6MWM1RlA3T0pmOWlOSUxGOV95dUlQQ09WNjlrN2xhczhXUFU?oc=5",
+   "published": "2026-10-19",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "AU tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "NZ Super Fund warned Australia over capital gains tax changes - Newstalk ZB",
+   "source": "Newstalk ZB",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0ZIQ2VBUW9WdGRQWUl6YzNyMFF5aHBwd3dBemhlOGMzYU1ONWdMQjhPNHduaklmZ2c5SmxBS0ZBYWJhTlZ0TjJoaEZMWU5tX3h2eDNHZUJYa1Nlb3l3UW1pV0lqQXZqSE0teUljQTlqQnNmMFktTUpZb2w3d002eGxPQzBxOU5pRHh4RU5OUWZQOHZlZGlZM1RndEZtRklOR0RlQ3g1cjU?oc=5",
+   "published": "2026-10-19",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Holding and Movements Assurance Guidance",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/holding-and-movements-assurance-guidance",
+   "published": "2026-10-19",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Pay Climate Change Levy",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/pay-climate-change-levy",
+   "published": "2026-10-19",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Check if an alcohol wholesaler in the Isle of Man is approved",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/check-if-an-alcohol-wholesaler-in-the-isle-of-man-is-approved",
+   "published": "2026-10-19",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "VAT refunds for constructing a new charity building",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/vat-refunds-for-constructing-a-new-charity-building",
+   "published": "2026-10-19",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "VAT refunds for new builds if you\u2019re a DIY housebuilder",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/vat-refunds-for-new-builds-if-youre-a-diy-housebuilder",
+   "published": "2026-10-19",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Frank Elderson: From climate and nature risks to economic resilience and competitiveness",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html",
+   "published": "2026-10-19",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Blood clots are \u2018incredibly common,\u2019 even for pro athletes like Jalen Hurts. Here\u2019s what to know.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/blood-clots-are-incredibly-common-even-for-pro-athletes-like-jalen-hurts-heres-what-to-know-e20071ef?mod=mw_rss_topstories",
+   "published": "2026-10-19",
    "trust": "B",
    "flag": "context-only"
   },
@@ -199,10 +349,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "My wife says we can\u2019t afford to retire. I vetoed her $8,000 trip to Italy. We\u2019re in our 60s and have $4 million. Do I keep working?",
+   "title": "When should you dump your target-date funds?",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-   "published": "2026-10-18",
+   "url": "https://www.marketwatch.com/story/when-should-you-dump-your-target-date-funds-18082148?mod=mw_rss_topstories",
+   "published": "2026-10-19",
    "trust": "B",
    "flag": "context-only"
   },
@@ -211,10 +361,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "\u2018Some people did everything right\u2019: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
+   "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
-   "published": "2026-10-18",
+   "url": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
+   "published": "2026-10-19",
    "trust": "B",
    "flag": "context-only"
   },
@@ -223,10 +373,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?",
+   "title": "\u2018I don\u2019t feel sorry for myself\u2019: I\u2019m 64 and will be renting for the rest of my life \u2014 but here\u2019s I\u2019m still hopeful",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
-   "published": "2026-10-18",
+   "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+   "published": "2026-10-19",
    "trust": "B",
    "flag": "context-only"
   },
@@ -235,22 +385,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "I\u2019m 64 with two sons, but only one works in the family business. Is it ethical to leave him 70% of the company?",
+   "title": "\u2018I\u2019m naturally skeptical\u2019: I receive 10 calls a day offering me $15,000 loans at 8% interest. Is this a scam?",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
-   "published": "2026-10-18",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "I\u2019m 63 and diagnosed with lymphoma. Should I take my Social Security next year?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories",
-   "published": "2026-10-18",
+   "url": "https://www.marketwatch.com/story/im-naturally-skeptical-i-receive-10-calls-a-day-offering-me-15-000-loans-at-8-interest-is-this-a-scam-825c3431?mod=mw_rss_topstories",
+   "published": "2026-10-19",
    "trust": "B",
    "flag": "context-only"
   },
@@ -280,21 +418,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US rates / Fed",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Major Economic Indicators Latest Numbers",
-   "source": "BLS",
-   "url": "https://www.bls.gov/bls/",
-   "published": "2026-10-16",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -308,63 +431,15 @@
    "flag": "context-only"
   },
   {
-   "driver": "UK tax / reg",
+   "driver": "Gold",
    "holdings": [
-    "ALL (disposal gate)"
+    "QAU"
    ],
-   "title": "Herbal smoking products and Tobacco Products Duty",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/herbal-smoking-products",
+   "title": "Gold Futures Overview - CME Group",
+   "source": "CME Group",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeDc1RGtZSl9sWTFkQXE5RFZpdVo3VkRJT08zLU5TSUVSQWpLTUNOR3RjZEwxY2hYNUdLUzdrV2xsdDY1OTlkcGJxM1pyaUNOSndxdDNuY2N0NXROM1psWERyeVVRZko1ZGc?oc=5",
    "published": "2026-10-16",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Community Amateur Sports Clubs detailed guidance notes",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/community-amateur-sports-clubs-detailed-guidance-notes",
-   "published": "2026-10-16",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Software developers providing customs declaration software",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/list-of-software-developers-providing-customs-declaration-support",
-   "published": "2026-10-16",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: One Stop Shop Union scheme: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/one-stop-shop-union-scheme-service-availability-and-issues",
-   "published": "2026-10-16",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: VAT Import One Stop Shop Scheme: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/vat-import-one-stop-shop-scheme-service-availability-and-issues",
-   "published": "2026-10-16",
-   "trust": "A",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -380,20 +455,6 @@
    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
    "published": "2026-10-15",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Is the semiconductor industry headed for an almighty crash? - The Economist",
-   "source": "The Economist",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONG13VFVpMmRfamdQcy15WkdqVjVtOXNkZE0tbENrdHV2Vlk0QTNtXzlLR0NUcFdicXZEYlF6azZFRWZGLVRUcTgwTmwwbnBjVzhlaHh1X3RGSFB4dGtmVHNSY09ENVA2Vm9uOXhaajNodUtKOG1ibll1dXlORU10RWJ3YVViRG1qQTBhZTVqanc0VFItRThoY0IwdWpKX29RalFLTVY4aw?oc=5",
-   "published": "2026-10-15",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -443,18 +504,6 @@
    "title": "Australia Plans To End 50% Crypto Capital Gains Tax Discount - CoinMarketCap",
    "source": "CoinMarketCap",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ0loWTQ1SDViZXpSdkg1aGhqc3Y4Qm1PLThoSXpuOXR1S25wUmVyV0pGTHpTanJIVDRXUS1OREZ6ZzBXRUNmeUFtWVhHY25ER2trNjMxdFI1Q2xOa3hVeW5SdUxVUWU3RzIydG1DUnNhOU82MU1Cam90Q3R3R3NxUkVMU0dfQks5bV9oSUZzVERnVWs?oc=5",
-   "published": "2026-10-14",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "AU tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Large Super Funds Receive Phased Capital Gains Treatment Under Australia\u2019s New Division 296 Tax Rules - Kalkine",
-   "source": "Kalkine",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTlhTTW5TYmFQRktybmJibThORU1zTk1EbW1VR3BQNW05ZzdfVllETXZSV1Z2UjlRNmg0cUpEMWFLcDRaZllOTFRGOTRCMGlwMnZLVVRoTWZ4Zm1FdzJ3ZXVyVHlhVTl2Z3NTU2M2cUdDblRvYjFOTTFhaVZTMWgySklEeDdVTEk5OEZUbm9zNzlfVFFYc3JRSk15LTYtVjcwaFU3eFVpcUJ1Y1ZSaWpJN1BsX19nQ1Rqazg0NVEtTmlzdnV1X3dIVWdBRE56c2s2d0NRY3FmLWtWR2tzS1lqSlExMVc?oc=5",
    "published": "2026-10-14",
    "trust": "C",
    "flag": "context-only"
@@ -526,18 +575,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "Piero Cipollone: Interview with Corriere della Sera",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261008~3184e7d0d0.en.html",
-   "published": "2026-10-08",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "US rates / Fed",
    "holdings": [
     "IVV",
@@ -548,19 +585,6 @@
    "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
    "source": "Fed monetary",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
-   "published": "2026-10-07",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "Mixed outlook for energy expenditures this winter",
-   "source": "EIA Today in Energy",
-   "url": "https://www.eia.gov/todayinenergy/detail.php?id=68264",
    "published": "2026-10-07",
    "trust": "A",
    "flag": "context-only"

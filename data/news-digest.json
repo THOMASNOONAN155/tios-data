@@ -1,8 +1,181 @@
 {
- "generated": "2026-10-23T22:52Z",
+ "generated": "2026-10-24T22:13Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 43,
+ "count": 44,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Amazon Just Walked Away From a $427 Million Data Center Plan After Neighbors Fought Back - 24/7 Wall St.",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOamw0clpNLVEyY0hST1QyUlNJZlRRN3FLelU2bEJ1THJ6YkZmR1h0N3hmQjlsYWVJLWZvanBJaWRLd0w3dzRxWnBVQVVBTnNXdmZUa09FX1RhOS1VOGU2akVWSDc0aTZRZ1MtTDRmRXlxcXFYNW5odEY0djV2a3JKd0dBMVE2YUl6WEdOTVpOaVlYUmFvQThONk8xejg5V0drZ0lPNGhESE5XTEF2blhLRldYbTBvYUFiNXFZeGhGWGRTQ3FUcE9tZEVkMA?oc=5",
+   "published": "2026-10-24",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "The Great Semiconductor Pullback Looks Like A Generational Buying Opportunity (SOXX) - Seeking Alpha",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMUJtVkJ0dW1nNnlmUzI0elJRTkVEeTV1REhNcWoxS09MRFVRLTNrQjc5UjV6bi1VMTU5amNUeFJDZF94V0t1YUd4dEw5RGV3TUxlSllUdEp5SHVCb2RwZlhiQW9mSUJaT1RIWlpIeEg4SEFEb0s2NlZoVmg2UXdNV0IzZjBUMk8zdlduRWVsUWN4WlRVU1dlZVRseVk2b0cyYXFsMVctYjFyQk5tX055RmZR?oc=5",
+   "published": "2026-10-24",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
+   "published": "2026-10-24",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Block's new voice AI sounds eerily human, sparking awe and scam fears",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears",
+   "published": "2026-10-24",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
+   "published": "2026-10-24",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/23/why-mcdonalds-microsoft-and-google-saying-no-to-tokenized-stocks-isn-t-a-dealbreaker",
+   "published": "2026-10-24",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/24/argentina-drops-criminal-probe-into-president-milei-over-crashed-memecoin-libra",
+   "published": "2026-10-24",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "SharePoint Tax Manuals Test Site",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/sharepoint-tax-manuals-test-site",
+   "published": "2026-10-24",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Piero Cipollone: Interview with Milano Finanza",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html",
+   "published": "2026-10-24",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter\u2019s $50,000 debt. How can I keep him from becoming destitute?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+   "published": "2026-10-24",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018She\u2019s living the dream\u2019: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+   "published": "2026-10-24",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids \u2014 and I can\u2019t bear to leave.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+   "published": "2026-10-24",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Young Americans are giving up on car ownership. It\u2019s a path to financial freedom for some.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+   "published": "2026-10-24",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "I\u2019m 58 and hate annuities. How can I get dependable income in retirement?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/im-58-and-hate-annuities-how-can-i-get-dependable-income-in-retirement-cd6040f4?mod=mw_rss_topstories",
+   "published": "2026-10-24",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US mega-cap / AI capex",
    "holdings": [
@@ -26,9 +199,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Nvidia CEO Encourages Europe's Lagging AI Sector, Encourages Data Center Buildout - Broadband Breakfast",
-   "source": "Broadband Breakfast",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeHJNSk1FOFp6VkgyLUZOMF9wcjE4SU1Qd0Y0VUVWUlkzdVZaWGZXLTJrRlpmOGpwRVBWRE1aaEtHbVdpWWQ4T3dxYWtRdXlRVThYeXZER2lOZXZiZ19OOUJRUmtzbW82Mnd4d0NvejYwUWRLcTV3dXlqUzJtMlJRelFKSHdRZU9CYkhMQzNPc2g3WXpmdzNkTl9wa0w5X2JybkpGbHhRWDliNkJfalQtbw?oc=5",
+   "title": "Amazon\u2019s $5 billion Nvidia AI servers sit idle in warehouses amid data center power shortages - The American Bazaar",
+   "source": "The American Bazaar",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRnk2d0hpNlpIbnU3NGRDOElmbS1uWnd5dDBrWXVKY09ZYjRpVkdDazZOdktabmJ1LVJ6LUVwcHgwTjFrQ0YwakFwOG9uei1HLXZDMjczSkJPcGxFdjBqbUVvaWJmZ09YLWhIWlVPb0M1MW5PeGdRSURjdkJhM0s1S1g0a3pLWDRXWFpSU25vd3ZPckg4LVhiX3RMbXRkV3E4NkE0UFZPclIweDMzWExTR0ZTcWpOVW9lcFBlZm5IeE0zSFI5dzBTMjdQalZSOUJLekJfQ3kwd1MyeTA?oc=5",
    "published": "2026-10-23",
    "trust": "C",
    "flag": "context-only"
@@ -45,134 +218,6 @@
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPa2xLUGRSSjc0Tmx6OV93ajZhMVZ0aHUya3BwUTE0am5rc3pNNlhiaVg5Ymk0ZF9BTEFvMTVoU3d0Wk5aNkxMbXVrdjZVYWlWbF90Wm5SczVUTDhfMzZZX0Q1NGlncm1uMzdkNlZLNEtTVGV0dGl3QUxvcWtLdWczTTNZV0xieGFjdVoyNnF6Y0VYU3pqcDd1NWhvR3dGRVhT?oc=5",
    "published": "2026-10-23",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Taiwan Semiconductor Will Transition Into an Indispensible Utility of Global Computing Within 5 Years - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORGMxT29mTXJXTHdRdEM3Y253NjllcWxkRkZLNE1vdHhYVDZrcGJYdGNRd2p6U09YRmU2enJkSzM3a2I3ZnJMU2tyN3lGMm4zVFB0OEdSNVBGcUIyVThSUEdEM01VenA3RW9BUDhtd20xT2VURnZkVG9WZGJPVldaQWhObnNBSVBZU0hLRlE2S0ktc2JFT0hTY2k3RzhodUpaYXh5RFR6UzZXZnRKaHdJZnBEc0ZqVG1TOXc?oc=5",
-   "published": "2026-10-23",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Taiwan Semiconductor (TSMC) Posted Record Profit and the Stock Still Fell. Here's What the Market Is Worried About. - The Motley Fool",
-   "source": "The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUC14clR2aXF2cVFkUGpJWjYzNEFKYTlWQVBySmdMdUY4Y3QtQmNXbVlaVjVyWEpuNjNzbXlCRER4WVRyeFFwWGFHcXJPOFA3UGc5R1pNb05CX3V6ZkM4VWRibmdaRG9GN3NXbVBDTkZYZ1J2eUJSSkd5OWlza05OSnQ4TUE0VTNyOXhNTGtiSkRxd05xTmhB?oc=5",
-   "published": "2026-10-23",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "HKEX launches AI and semiconductor indexes, licenses AI index in China - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMzdaX2lJMXc1MkhwREhYTTFqUmZ2eEFtZmZrVVBtUGs1TmlhQ3g2T0k5MlZOeEJrVGxBbUVPNURRMDQxS1lnOVB0RmQ2Zzd0Nm1pMXlBeDdUUXR3YTFUV01DY3p1czExaHNWSmhDX3RndDlvVVJ3b3diOGR6WGhXY3QtWjUyOGw1V0pON19uZU5qeHdVTlNsdWlodFdsQW9nTVJlcDN4R2F0M0VGZHZuVDU0blpGY3Qz?oc=5",
-   "published": "2026-10-23",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Why Alpha HPA (ASX:A4N) Is Reporting a Fifth Japanese Semiconductor Customer for High-Purity Alumina - Kalkine",
-   "source": "Kalkine",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTUVtZWNGSk4tam9ZNzg3cS1xSGd5WUlPc0JQOW9ScWVaaW4ycE5WbnlMYXRZdnFXamJQTjFFNUZ3emVuUzJkbFU5bF85REkyN1IzQlR6T2kwZDdFa09CbWNCRGFEek9ianRBb2YxaTMxSkhOOXZTbWhqRE93Z3h4NE5TekRsMEhOTENOZVJsSHU3N3FrVUFKVzZaOHh2OFR4WEdCQWJUY1BORHZYX1ZxZ1JjSGhBelZCcU9uNG5Udy1HMTdzVUNwUDM4blQ?oc=5",
-   "published": "2026-10-23",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports",
-   "published": "2026-10-23",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt",
-   "published": "2026-10-23",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s",
-   "published": "2026-10-23",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
-   "published": "2026-10-23",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/10/23/bitcoin-steadies-near-usd81-700-as-altcoins-rebound-pepe-climbs-13",
-   "published": "2026-10-23",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "SharePoint Tax Manuals Test Site",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/sharepoint-tax-manuals-test-site",
-   "published": "2026-10-23",
-   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -236,63 +281,45 @@
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
+   "driver": "Semis / Taiwan",
    "holdings": [
-    "whole book"
+    "ASIA",
+    "EMKT",
+    "NDQ"
    ],
-   "title": "\u2018I don\u2019t feel sorry for myself\u2019: I\u2019m 64 and will be renting for the rest of my life. Is that so bad?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-   "published": "2026-10-23",
-   "trust": "B",
+   "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwart China's rare earths grip, sources say - Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrMWlJUVhXd21CY0x2OVo3SUVLV25tNnBDZVBKYnN4b1E2ZHd4Rm9FTzVGMDYySmtfU1lBRkxYUFl2eGlOWjllZEptTVZ6V3BVVFVtQVBaODVqWmp1V3dTckg2WUZVQVRYNTFIZU9yLU81bVJTNEhzZG8xR0xVNnFUcTRXSkg0cFVLOHBxSjVXSzdtdS13cFF4RkpscWdLeXdPb3Q4Sk9GQ1dybDZn?oc=5",
+   "published": "2026-10-22",
+   "trust": "C",
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
+   "driver": "Semis / Taiwan",
    "holdings": [
-    "whole book"
+    "ASIA",
+    "EMKT",
+    "NDQ"
    ],
-   "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
-   "published": "2026-10-23",
-   "trust": "B",
+   "title": "The Semiconductor and Data Center Boom Does Not Make a Manufacturing Rebound - www.policyarena.org",
+   "source": "www.policyarena.org",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEVWpOYnpyU2ppZ0ZSYjFXUDhkTzJLQlRPOHNtSG50Y29mRmZ3X2p2QWVxbWlpdDJ1MkJYcUpTNl9EZk40UUtTQXJLc2JCaTJFRkxWeWlsclhLOGhvcWs4UW9SUmhJSnBrdEpPMG8tUlI?oc=5",
+   "published": "2026-10-22",
+   "trust": "C",
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
+   "driver": "Semis / Taiwan",
    "holdings": [
-    "whole book"
+    "ASIA",
+    "EMKT",
+    "NDQ"
    ],
-   "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn\u2019t work out.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
-   "published": "2026-10-23",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
-   "published": "2026-10-23",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "The mobile ambitions of SpaceX are hitting telecom stocks again. Here\u2019s what the latest developments mean.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
-   "published": "2026-10-23",
-   "trust": "B",
+   "title": "Department of Commerce Announces Letters of Intent With 4 Companies for $389 Million of R&D Awards to Strengthen America\u2019s Energy Semiconductor Supply Chain - National Institute of Standards and Technology (.gov)",
+   "source": "National Institute of Standards and Technology (.gov)",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdEdiaElUdmdRUmROa1VJN00tV3M0SmpBSzRacktERVIyb2FwT2xiT1ZBazFtcGZaX2V2TmtiZ0ZLdWNVNDdKWUhGVFNkaVlQYWlQTVhSWGxtdFdUVlpkMURSc3dmWEVqRHMyZzdEZ0JXdHVEWjZicTlvUV9CU1FWeG1NdlgtVG9VbEwwYnNPbzJpM203VVl6cC0ySzRhZVBveXc4UnRJaXZqUFc0aXVfMVpHa29uMDZV?oc=5",
+   "published": "2026-10-22",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -390,21 +417,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Inside Prometheus: Meta\u2019s Journey to a Gigawatt-Scale Supercluster - Engineering at Meta",
-   "source": "Engineering at Meta",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQb0hwbjRNOXVvZy1iZGc5S0RZaHE5dXZIWEcwY0o4WEJyTTM2OTkxRjN4RHNweXJ5enluSVJBMnNvM1V1WW45XzFId3VWSVV3V3pyS0pFcExDOWJyOEFaaXVXTm02THEwR3dNZ0pOQm9zLTRpUGpIMDN5T0FncDlacTJGVDNvekxaOWUzRm54Ml9SaXJoTGxCVEFTeEhzbTN6OVlINkRLMGkyNmNEZk92SnlhMA?oc=5",
-   "published": "2026-10-19",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -439,18 +451,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0ZIQ2VBUW9WdGRQWUl6YzNyMFF5aHBwd3dBemhlOGMzYU1ONWdMQjhPNHduaklmZ2c5SmxBS0ZBYWJhTlZ0TjJoaEZMWU5tX3h2eDNHZUJYa1Nlb3l3UW1pV0lqQXZqSE0teUljQTlqQnNmMFktTUpZb2w3d002eGxPQzBxOU5pRHh4RU5OUWZQOHZlZGlZM1RndEZtRklOR0RlQ3g1cjU?oc=5",
    "published": "2026-10-19",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "Frank Elderson: From climate and nature risks to economic resilience and competitiveness",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html",
-   "published": "2026-10-19",
-   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -492,6 +492,19 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
    "published": "2026-10-15",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "China + iron ore",
+   "holdings": [
+    "VAS",
+    "VHY"
+   ],
+   "title": "The dangerous search for Australia\u2019s next iron ore - AFR",
+   "source": "AFR",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOUhFUklCNEgwWksyYm1kQWRtN2xOXy1XUnJBRVVDM1Fmd1pNMVZvLUlDQzVQdXowc085YWNfVW1fc0dGUjAxNDM5d0dvVWFybFByVWZzOHBIQnlSakx6T2pLTU1LSzB5VWdhUGFWQ19hbUFIUUp2Q1hwZHJhdElfQmgwY0xpNXpad3RtaU5BTzBBZFFuYW5oQllGeTBVSWc?oc=5",
+   "published": "2026-10-14",
+   "trust": "C",
    "flag": "context-only"
   },
   {

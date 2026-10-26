@@ -1,8 +1,38 @@
 {
- "generated": "2026-10-25T22:17Z",
+ "generated": "2026-10-26T23:33Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
  "count": 45,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Cadence unveils Nvidia-powered AI data center in Munich, Germany - Data Center Dynamics",
+   "source": "Data Center Dynamics",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPalZIclZtZzhOdnlLbVdQRHlldkFKcU04SWV5V3F2ZHlYN0dYSVlmaTFkcHhuWEx5MDlObFpRTzVuN29lRjdnVmtqN3NhclgtTkpGNEFWLXVjeHBmWS1HaE1QUFBwQXpBZ2dGZXk2cDFoT3NZbll0ZHpNbEJ4T1VkZlhwcWRubEpKODlZdS1JcUZWSTl2eHdUdXREemoxWkROY09iWFh2bXlWWGs?oc=5",
+   "published": "2026-10-26",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Hyperscaler Earnings Previews: Alphabet, Microsoft And Amazon - Maybe The Bearish Sentiment Will Help - Seeking Alpha",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWVlxRlpPVEhqT2RQNTgyTThMQUx6Rk4wb2FDYVpuaGN6SjhMZ3FDWVRwcmJsbWlUcEZfOFdjQUJhc0duZWpvbi1pWkE4WlB6bk5DMzJaRG9FcWNUa3V6NXdOXzZEb3ZzZVY2SUhBOF9KM0hQb2EtT0dLdEVfdUgtUm5HSXdCdGNnZTk0eUl2VTNjNmpmMEU2YmtXVUF3WUh5LVFUZnNwM1hsakNCY1VMZ1lUR2lRVEQ2SFUyZkpOZFFPZzluaWpTczhn?oc=5",
+   "published": "2026-10-26",
+   "trust": "C",
+   "flag": "context-only"
+  },
   {
    "driver": "Semis / Taiwan",
    "holdings": [
@@ -10,10 +40,52 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Taiwan Semiconductor Is Set to Cash in on AI. Here's What a $5,000 Investment Could Be Worth by 2030. - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM19uMDhwWHhPdVVRWEVIaGwxUUZYWldnaFVHdDlkMXF4LVBoM0F2YXQzYmptRFRHQlNvejdhNEhsUXdOQkl5RjJMeDN0VlRMSmJzdW1YeWN0UlJKb3pEeVl2SFFFb3BYeVB5TXJfVVEzZmQzcFFUbHBXeXlBb0thUjdpNFl0Sjk1S0ctTW93NXpkWURSa3M4ZDFJdEMyQQ?oc=5",
-   "published": "2026-10-25",
+   "title": "On Semiconductor options suggest 8.4% move on earnings By Investing.com - Investing.com Australia",
+   "source": "Investing.com Australia",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVC1WUnRfQUg1ZS1NdS1BNUNWRjg3SGs0TW5GbTJmYUNfWU91dnF2enNVcDNSaHBQUXZPa1Z2Q1lBbzVnR3V1b2NWOEFqWHUtLW1RNnhyam1oNDJELTd0azMxcDhWak9pNy1iSFZtR2Y2Q0Q0TU43eFp6V1dNTGZSemlKQzdJUXI4WFIydlNycnNoSlNFWDR3UlRIbmJucXJUMjJBSDdSTjJ5Q2ZyTFRMUm9WWQ?oc=5",
+   "published": "2026-10-26",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Alpha HPA (ASX:A4N) Adds Semiconductor Customers as Gladstone Manufacturing Expansion Advances - Kalkine",
+   "source": "Kalkine",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZFhIUmhYY21HVlVId2d2Rk50dzVSX1AtZTY4M3MzdlJ1VzlUdnZnUDVJS2xQdkZwUXlUOVNxQkNjQWU0ZVFjVl9FOW13N3B5S1g3ZHRsWlN0ekRqMXJWNkxhTU9FTWR0a3hYbmN1NmE5a3BTZGx4WTE1WGxNUG9kNG5JUUsyYzVpQnlhRm1naVV2ZC1sUmtlY081bDI2YW85RExmSXI1WG5QeVlRV2pNaUdLOEIwZExGR3NaRDlTcjdiU2M4amRfZW1n?oc=5",
+   "published": "2026-10-26",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "HCLTech and Rapidus partner open new semiconductor centres in India - Digital Watch Observatory",
+   "source": "Digital Watch Observatory",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51RUF3VFhGYTF5VHRMZEFrS2l5OTBiZlc3UXVFdU84Y3BUSm9MRFZCZTh4b2lkcVRZU2szLS04a2MzYlgxTWh2ZWktc1l0eHB2X1NWLWRDZ3JackRQZFBYWGNDWEVUQ0FfVm1VbFRCdHpQLVZNdnlR?oc=5",
+   "published": "2026-10-26",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "ADB is Bringing Resources to Semiconductor Industry Development\u2014Part 1 - All About Circuits",
+   "source": "All About Circuits",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSmROLTYwS29fOUY0QUkwR3RZUFN3UlM2UjM1YzJZa0NfeXNiN1RDUzhWTXlBMzZIajAyVVV5RXB0My1GSFJoN1FWVGkxYlpwU1ZZYmtpc25KSml2dVhycFl5dzBQcldlQVVvSkxxT2VfNVhUTjBSWGxyTFMtSEs4Rlk5TWNlRzBiTXJseWVXVGhjLVVhQXZrM3VkaGt5Vm5DYnhfRUdPUjNrUDVq?oc=5",
+   "published": "2026-10-26",
    "trust": "C",
    "flag": "context-only"
   },
@@ -22,10 +94,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Latvia targets tokenization rules in 2027 with commercial property in focus",
+   "title": "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/25/latvia-targets-tokenization-rules-in-2027-with-commercial-property-in-focus",
-   "published": "2026-10-25",
+   "url": "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines",
+   "published": "2026-10-26",
    "trust": "B",
    "flag": "context-only"
   },
@@ -34,10 +106,46 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "UK banks face 10,000 complaints in 3 months over crypto restrictions",
+   "title": "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/10/22/uk-banks-face-10-000-complaints-in-3-months-over-crypto-restrictions",
-   "published": "2026-10-25",
+   "url": "https://www.coindesk.com/policy/2026/10/26/nba-joins-pro-sports-leagues-on-cftc-prediction-markets-bandwagon-while-nfl-balks",
+   "published": "2026-10-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "OCC calls on community banks to enter the stablecoin payments market",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market",
+   "published": "2026-10-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029",
+   "published": "2026-10-26",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Canada opens consultation on draft stablecoin rules, maintains ban on yields",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/10/26/canada-opens-consultation-on-draft-stablecoin-rules-maintains-ban-on-yields",
+   "published": "2026-10-26",
    "trust": "B",
    "flag": "context-only"
   },
@@ -46,10 +154,82 @@
    "holdings": [
     "ALL (disposal gate)"
    ],
-   "title": "Guidance: Making Tax Digital for Income Tax: service availability and issues",
+   "title": "Official Statistics: Tax-Free Childcare Statistics, September 2026",
    "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/use-software-to-send-income-tax-updates-service-availability-and-issues",
-   "published": "2026-10-25",
+   "url": "https://www.gov.uk/government/statistics/announcements/tax-free-childcare-statistics-september-2026",
+   "published": "2026-10-26",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Economic Crime Supervision Handbook",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/economic-crime-supervision-handbook",
+   "published": "2026-10-26",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "HMRC email updates, videos and webinars if you\u2019re self-employed",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/help-and-support-if-youre-self-employed",
+   "published": "2026-10-26",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Research: The UK Customs Intellectual Property Enforcement Report 2021-2023",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/the-uk-customs-intellectual-property-enforcement-report-2021-2023",
+   "published": "2026-10-26",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: Transit newsletters \u2014 HMRC updates",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/community-common-transit-and-tir-newsletters",
+   "published": "2026-10-26",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html",
+   "published": "2026-10-26",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Frank Elderson: Taking action for nature \u2013 investing in economic resilience and prosperity",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261026~d903d7ad85.en.html",
+   "published": "2026-10-26",
    "trust": "A",
    "flag": "context-only"
   },
@@ -58,10 +238,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "\u2018She\u2019s living the dream\u2019: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+   "title": "\u2018You need only watch episodes of Judge Judy\u2019: I\u2019m in my 70s. Why do people keep making the same avoidable financial mistakes?",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
-   "published": "2026-10-25",
+   "url": "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
+   "published": "2026-10-26",
    "trust": "B",
    "flag": "context-only"
   },
@@ -70,10 +250,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "\u2018I don\u2019t feel sorry for myself\u2019: I\u2019m 64 and will be renting for the rest of my life. Is that so bad?",
+   "title": "Dividend stocks are having an excellent October as tech sector struggles",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-   "published": "2026-10-25",
+   "url": "https://www.marketwatch.com/story/dividend-stocks-are-having-an-excellent-october-as-tech-sector-struggles-5ae40b02?mod=mw_rss_topstories",
+   "published": "2026-10-26",
    "trust": "B",
    "flag": "context-only"
   },
@@ -82,10 +262,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "We stopped helping our neighbors with free home repairs and our friendship cooled. Who\u2019s to blame?",
+   "title": "Options traders are seizing control of the S&P 500",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
-   "published": "2026-10-25",
+   "url": "https://www.marketwatch.com/story/options-traders-are-seizing-control-of-the-s-p-500-1add94ca?mod=mw_rss_topstories",
+   "published": "2026-10-26",
    "trust": "B",
    "flag": "context-only"
   },
@@ -94,10 +274,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter\u2019s $50,000 debt. How can I keep him from becoming destitute?",
+   "title": "TikTok parent ByteDance\u2019s chatbot is now giving travel-booking sites a run for their money. And yours.",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
-   "published": "2026-10-25",
+   "url": "https://www.marketwatch.com/story/tiktok-parent-bytedances-chatbot-is-now-giving-travel-booking-sites-a-run-for-their-money-and-yours-028e4aa0?mod=mw_rss_topstories",
+   "published": "2026-10-26",
    "trust": "B",
    "flag": "context-only"
   },
@@ -106,11 +286,26 @@
    "holdings": [
     "whole book"
    ],
-   "title": "My partner of 17 years left me his $1 million home. His children are livid. Am I obliged to split it with them?",
+   "title": "Over 40% of Americans are heading toward retirement \u2018blind\u2019 \u2014 with no plan",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
-   "published": "2026-10-25",
+   "url": "https://www.marketwatch.com/story/over-40-of-americans-are-heading-toward-retirement-blind-with-no-plan-e49b502f?mod=mw_rss_topstories",
+   "published": "2026-10-26",
    "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Amazon's AI Data Center Capacity Sold Out Until 2028 - \uc870\uc120\uc77c\ubcf4",
+   "source": "\uc870\uc120\uc77c\ubcf4",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWlVUNi1ZRnE0UWhtOFdPYmZ6Vk0wVXdIZk8xcDY1UWN2Z1E0ZDlZRHU5aS1ESVBHTWxJenBlLVVlY2VYVzJJeEJzVF9JUE1MSEl0aDBJc19pRlRCYkxwWjU3OXBEanNRZEVkX3c1dk5kSlJ0Z1BRTHZPZlFzeTAzMTE4ZktUcEFh?oc=5",
+   "published": "2026-10-25",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -124,6 +319,21 @@
    "title": "Nvidia and 3 AI Infrastructure Stocks Backed by Hyperscaler Data Center Spending - Yahoo Finance",
    "source": "Yahoo Finance",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ0lCeUY5c1VqdGJvR0t4SlpGR3RsRTNHbHpPa3ViZHhZUExPenNrWER2YWtXNV9WMWhLXzN4V0dNb0d2ZVl3SlBYVnFDaWNqcmVzQnFzTWZGVFFiV25XcEE2TGwzUjZMZldOMFRHTWRCbDJYZTNmSXJEbElOU0FCVWJaSy1rR1dFLVpTb19QSXVodnFqVGtoRnVIeUJRZw?oc=5",
+   "published": "2026-10-24",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft May Be the Only Hyperscaler to Stay Cash-Flow Positive. What It Means for MSFT Stock - Barchart.com",
+   "source": "Barchart.com",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWFpDcUN6TWdfQ1AxeUMtTzZyNjdTRnJONzg0YWZTNFV6V2k5WDZxdl9TQXBrU1p0bk9PMVFLRkxma3VMdGNkSW8xcXczX1U1OUJBODNUN3BjaTZqMmNFcFFWQTZDb0VRZWRRY0Jnd2R4Wlk0TWFtbWpja2x0REQwd2xLaExFSVVDYnJfQm1iUl8xYndVMkZVZmRtV3JSVE5jMVBnRTA3T3diZ2ZZM0ktZDhqdldZajNyekE4WVNSVWJkZjI4X0g0cHB4T2FMcGJOTE1F?oc=5",
    "published": "2026-10-24",
    "trust": "C",
    "flag": "context-only"
@@ -156,54 +366,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
-   "published": "2026-10-24",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Block's new voice AI sounds eerily human, sparking awe and scam fears",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears",
-   "published": "2026-10-24",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
-   "published": "2026-10-24",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "SharePoint Tax Manuals Test Site",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/sharepoint-tax-manuals-test-site",
-   "published": "2026-10-24",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -216,83 +378,15 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
+   "driver": "Gold",
    "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
+    "QAU"
    ],
-   "title": "Nvidia CEO Encourages Europe's Lagging AI Sector, Encourages Data Center Buildout - Broadband Breakfast",
-   "source": "Broadband Breakfast",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeHJNSk1FOFp6VkgyLUZOMF9wcjE4SU1Qd0Y0VUVWUlkzdVZaWGZXLTJrRlpmOGpwRVBWRE1aaEtHbVdpWWQ4T3dxYWtRdXlRVThYeXZER2lOZXZiZ19OOUJRUmtzbW82Mnd4d0NvejYwUWRLcTV3dXlqUzJtMlJRelFKSHdRZU9CYkhMQzNPc2g3WXpmdzNkTl9wa0w5X2JybkpGbHhRWDliNkJfalQtbw?oc=5",
+   "title": "Gold Futures Overview - CME Group",
+   "source": "CME Group",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeDc1RGtZSl9sWTFkQXE5RFZpdVo3VkRJT08zLU5TSUVSQWpLTUNOR3RjZEwxY2hYNUdLUzdrV2xsdDY1OTlkcGJxM1pyaUNOSndxdDNuY2N0NXROM1psWERyeVVRZko1ZGc?oc=5",
    "published": "2026-10-23",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Amazon\u2019s $5 billion Nvidia AI servers sit idle in warehouses amid data center power shortages - The American Bazaar",
-   "source": "The American Bazaar",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRnk2d0hpNlpIbnU3NGRDOElmbS1uWnd5dDBrWXVKY09ZYjRpVkdDazZOdktabmJ1LVJ6LUVwcHgwTjFrQ0YwakFwOG9uei1HLXZDMjczSkJPcGxFdjBqbUVvaWJmZ09YLWhIWlVPb0M1MW5PeGdRSURjdkJhM0s1S1g0a3pLWDRXWFpSU25vd3ZPckg4LVhiX3RMbXRkV3E4NkE0UFZPclIweDMzWExTR0ZTcWpOVW9lcFBlZm5IeE0zSFI5dzBTMjdQalZSOUJLekJfQ3kwd1MyeTA?oc=5",
-   "published": "2026-10-23",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "AI Chips Outlook: TSMC and ASML Signal Multi-Year Demand Cycle - CMC Markets",
-   "source": "CMC Markets",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPa2xLUGRSSjc0Tmx6OV93ajZhMVZ0aHUya3BwUTE0am5rc3pNNlhiaVg5Ymk0ZF9BTEFvMTVoU3d0Wk5aNkxMbXVrdjZVYWlWbF90Wm5SczVUTDhfMzZZX0Q1NGlncm1uMzdkNlZLNEtTVGV0dGl3QUxvcWtLdWczTTNZV0xieGFjdVoyNnF6Y0VYU3pqcDd1NWhvR3dGRVhT?oc=5",
-   "published": "2026-10-23",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Simple Assessment payment plan: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/simple-assessment-payment-plan-service-availability-and-issues",
-   "published": "2026-10-23",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Self Assessment payment plan: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/self-assessment-payment-plan-service-availability-and-issues",
-   "published": "2026-10-23",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: VAT payment plan: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/vat-payment-plan-service-availability-and-issues",
-   "published": "2026-10-23",
-   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -305,33 +399,6 @@
    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
    "published": "2026-10-23",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwart China's rare earths grip, sources say - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVDZiLXZ3MjNBLVhJa0g3VzJ0SU9MalBLSjFrMWlJUVhXd21CY0x2OVo3SUVLV25tNnBDZVBKYnN4b1E2ZHd4Rm9FTzVGMDYySmtfU1lBRkxYUFl2eGlOWjllZEptTVZ6V3BVVFVtQVBaODVqWmp1V3dTckg2WUZVQVRYNTFIZU9yLU81bVJTNEhzZG8xR0xVNnFUcTRXSkg0cFVLOHBxSjVXSzdtdS13cFF4RkpscWdLeXdPb3Q4Sk9GQ1dybDZn?oc=5",
-   "published": "2026-10-22",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "China + iron ore",
-   "holdings": [
-    "VAS",
-    "VHY"
-   ],
-   "title": "Iron Ore CFR China (Platts) Overview - CME Group",
-   "source": "CME Group",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTR5VVR4cVVRZlR2bWFQNUFJcjFfak9tNG1wOTdWelNkNWcwQWw2V2g4WUdvVHJWdDZIRE9lRXp3YnNSaHRhSWRmWlhPNkRkZldTT0tVRUlHdk5UeGZ3MExWTWs0NWt4VWhDT0l4TUJLaXNvcm9NM0JLWi1RMGlHVFVVNnZ2VW1uTlJudG1NRURmY19sS0hWNWdvUmR0UQ?oc=5",
-   "published": "2026-10-22",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -348,21 +415,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Microsoft exits UK AI data center project over electricity delays - Network World",
-   "source": "Network World",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQazFRY2Z2dFo3WlpxekNGeFpXRTFQdmhjeFNBY2o5VHlwLUhCZmJ2d2dRZ1B1TDZmQUUzWkgxVndVbXpVTXE2bVhwQ1FQTERvU3FmNWlIdnJHSzctTVllNFNHRG9HMW9tQ0ZlektmM20wNkFQUWU0X2czRzhNUHlnSHFLUWptNWJGR0VOU2ZTTENhVE5DZEtGZlN4UFkzdkVodXladWVqXzg4OVU1ZTBRelRaWkhWUQ?oc=5",
-   "published": "2026-10-21",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -370,18 +422,6 @@
    "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
    "source": "ECB press",
    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf",
-   "published": "2026-10-21",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
    "published": "2026-10-21",
    "trust": "A",
    "flag": "context-only"
@@ -397,33 +437,6 @@
    "title": "Major Economic Indicators Latest Numbers",
    "source": "BLS",
    "url": "https://www.bls.gov/bls/",
-   "published": "2026-10-20",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Microsoft's latest AI data center problem isn't AI, it's electricity - Windows Central",
-   "source": "Windows Central",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTzdwbDFSeVVOcG1uYUZzQ1FZODc4RnUxWnBiWnFBdFk2X3NKdEhVY1hWcnhHZjNrTndGNWxlY1FtOUdvcXlyYTZBd1VRTXU2NEpOYU1tMUQxVzRpS195b2RLSUgwYWxBQkxzeUQ5MzA0Y2tPVG9Ua1hYRHpEc0hZMkUxaVBuVVRsNHJaOFJSYm43QVRjV0ROMXpnZ1E4N3R1dXRMY0FqZkNJaHl4eU83V214T1N1aXh0aXlXUXhnTkZ5b3JFZ1E3aVg2Z3RvZw?oc=5",
-   "published": "2026-10-20",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "Frank Elderson: Interview with Die Presse",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html",
    "published": "2026-10-20",
    "trust": "A",
    "flag": "context-only"
@@ -462,20 +475,6 @@
    "source": "Newstalk ZB",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0ZIQ2VBUW9WdGRQWUl6YzNyMFF5aHBwd3dBemhlOGMzYU1ONWdMQjhPNHduaklmZ2c5SmxBS0ZBYWJhTlZ0TjJoaEZMWU5tX3h2eDNHZUJYa1Nlb3l3UW1pV0lqQXZqSE0teUljQTlqQnNmMFktTUpZb2w3d002eGxPQzBxOU5pRHh4RU5OUWZQOHZlZGlZM1RndEZtRklOR0RlQ3g1cjU?oc=5",
    "published": "2026-10-19",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Semiconductor market to remain solid \u2018at least through next year,\u2019 South Korea finance minister says - CNBC",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZXhtaE1RUk5kMDU2aUdhQThmY1M1bzNaRmNYbDhMZGZsZ005eHVZWU1zM19WVHR5djJKcVIzVTFIZWpMMkZ0THljQXdmZTA4dU9nZms3OFhpd2IwdlVndGZzM3RkVlk5MXJLdmtNVDNZOHRKejNIbzVfaWJoUThhSTZyQm1WRng2blVuR9IBkgFBVV95cUxNazg5ZWV5amlrcnpLZkZnaDd5SjZsSmdXbVBEQVFfYUdZdUIzX20wbHJMNk9JRWtjZkhqRk8xZlpvenVvNGtoRWVHU3ZhMk1PZE1lOXBjZDFoNjY5cDFaOFpOd2Q3SkdxWXFLVHhUSUNqdDhJeGxWRkhwRXpoTnNiZVU3eGZiSzRFb1BZWEJiSVU5Zw?oc=5",
-   "published": "2026-10-17",
    "trust": "C",
    "flag": "context-only"
   },

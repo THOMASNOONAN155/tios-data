@@ -1,8 +1,171 @@
 {
- "generated": "2026-10-30T23:27Z",
+ "generated": "2026-10-31T23:04Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 41,
+ "count": 44,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta faces S&P downgrade as 2027 AI capex forecast tops $225bn - PPC Land",
+   "source": "PPC Land",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQTQ2LWlXTjRVVWtvclFyblFyY25OU1FNM1FRVThaUTd0QzhKNU54MFZYNmVfdDVvcDRDdkNLdmZmQmsza1RINXM2T0pxTEowV1M1cHdfLWV0SXhOV1JQZVRDT195ejBJcU9EbFFuV3ItTk5XbzZIcWtvd2ZZX2czd1dvZVd5UQ?oc=5",
+   "published": "2026-10-31",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Form 4 iShares Semiconductor ETF For: 31 October By Investing.com - Investing.com Australia",
+   "source": "Investing.com Australia",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTkl2M01HeDViX3BZMGp5cXkxRUpHZjYweDdVR3Jxb2FjM0d3dDZyclJMRkJrenNjX05Kd0dsSjQ3Tl9sZERCZVBpOC0teE9BalUxSm53Y1RvcmwtRGtnYldKOThmT3ExaGxQVVhMZXVBOUl5LXlZZFRDYVQ4OHFVUy1yOHl5OGhLOVVOTl9aX3BycTB2amo2dmRSaEFXZmZ0bWFCRHdUY0psMXpW?oc=5",
+   "published": "2026-10-31",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Taiwan Semiconductor Manufacturing (TSM) Draws New Sunbelt Real Estate Fund Around Phoenix Fabs - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMUs5cmo0YzlWOTcxalA1NXI2TUFYeGNyRUhLSFN2enpRZUVDNjhucU5KOFJkNzYtUjM4d2wxTTVYaWVpSU8xM0c0WllPeFRkN2RKQmJlTzlVOS1BRHlyS1lpYjNXY0pyWGpzMHQzTElhMzMzXzI5dnl3RkZ3MWZ1S296dzFPZTVvb3N4X0FJRGl2OFZHSGlQRFphYUE5bGFDVWFDckRNaFdFdw?oc=5",
+   "published": "2026-10-31",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/opinion/2026/10/31/bitcoin-s-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered",
+   "published": "2026-10-31",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "A stolen iPhone, $14,000 in losses and London's crypto theft problem",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/11/01/a-stolen-iphone-usd14-000-in-losses-and-london-s-crypto-theft-problem",
+   "published": "2026-10-31",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/31/traders-are-already-placing-leveraged-bets-on-anthropic-s-ipo-using-crypto-contracts",
+   "published": "2026-10-31",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach",
+   "published": "2026-10-31",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Institutions embrace crypto staking despite shrinking yields",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/10/26/institutions-embrace-crypto-staking-despite-shrinking-yields",
+   "published": "2026-10-31",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My abusive ex-husband promised $20,000 for our kids\u2019 education. Now he refuses to pay. Is he legally obligated?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
+   "published": "2026-10-31",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018Showy jewelry and fancy cars hold no appeal\u2019: We have a 99% chance of outliving our life savings. Why not spend it all?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
+   "published": "2026-10-31",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "This is where most people go wrong in their 30s and 40s",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/the-house-the-kids-college-and-the-raise-where-people-in-their-30s-and-40s-go-wrong-69ec6c90?mod=mw_rss_topstories",
+   "published": "2026-10-31",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "We\u2019re in our 70s. Should we pay off our 2.5% mortgage \u2014 or put the money in a high-yield savings account?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
+   "published": "2026-10-31",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018He was heartbroken\u2019: My husband\u2019s kids abandoned him when he was dying. Was he right to leave everything to me?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
+   "published": "2026-10-31",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -19,36 +182,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "AM Markets Need to Know: Nvidia backs AI data center, Amazon's Prime Video turns profitable, and more - TradingView",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMW1jbWJrcG5GcjFZSzlUbXcteUJGYWRGbFFJQi1TT0pqYjBqcGZfdEsxWjk2cWttZnF6QUVOQ1RXVTFmUXZCX1FsTml3MjROQm9XanZjMzlQN2IyQ1hyU2FJOWg5UW4yTEZRT1VtNDRCVi1ncG5UVDZGeTFjZjM4Q2VvVFI4ektUYmctYVpaaXBfVW4xS1RPdWltRjE4S1Z2aHZ5dG54aFQyNnZRN3NJTjN0X2lmMHUwTDVocWk3S1NhWm5IQVpYVldXWERMeFB4SmtYRFcwZzdXTVp6VktmX1pzSHhqQWJZeWpJU0hQV0owNUE?oc=5",
-   "published": "2026-10-30",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Big Tech\u2019s Data Center Blitz Is Burning Through Cash and Scaring Wall St. - The New York Times",
-   "source": "The New York Times",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR1hMOFZzQ0lFZmg4ci0xdnpsVkJsU1hmVW5zSjltYWs2OXBWNHpUV2Q2OHVZLWFqQUNxTVo3a0IzdkM4UU40WDZKTDFWNUJLODNlaFFLMVNyWWpKLU5EcFFGMUlyRFdqcUpORzJrQ3NRVTg0TnVPRTN0XzQ2ZWZxUlM1bmZTUWs?oc=5",
-   "published": "2026-10-30",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Semis / Taiwan",
    "holdings": [
     "ASIA",
@@ -58,48 +191,6 @@
    "title": "Why Are Semiconductor Stocks Falling Today? Intel Crashes 28%, AMD and Nvidia Slide - Stocks Down Under",
    "source": "Stocks Down Under",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84Q1dKMEZ2MC1XSDBVSDZYdWx2RktzZElqdDdzOEFFTlBDbjNnVUdKLU5zczkxQjRLRTFQSDlDM0VTdFhCYW1tZ3pJZ0oteWJEcVBhX0lBdkhzRGpjcTZUS29xVVk3a2VMMVVQb0RBamJ6TnRfVk5TMGdpVUc4bHM?oc=5",
-   "published": "2026-10-30",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "AI semiconductor industry trends: from chips to systems - SiliconANGLE",
-   "source": "SiliconANGLE",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUE9pREpseUxFdU9fWTVhYnAwRFVQVGNWa3owNzVuRi0xSlptRVh1c2NSQUpNYlY2djQ0RGNHXzFleWxFRDFLMV9LdUhQVllQb3FFdVNLdHpxNzhTdGhJWW1PV0tMUS14LXgxZlNRM1F6c0VmeWQ2UmlwdVRJSlV1a1lsNE1vTXdaTkgyWG9iTUxlNkVrNXptenpwUjRTem1KX0pIbFNuU3pHWGp3eTRBV1pmMVhhekM4Y2c?oc=5",
-   "published": "2026-10-30",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Aehr Test Systems (NASDAQ:AEHR) Adds Ex-Meta Infrastructure Chief Vijay Rao to Board, Targeting AI Semiconductor Growth - Kalkine",
-   "source": "Kalkine",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTG9XcGlyNG5RTFVHUUhXYzZJVzVZM2NMVlRfcE1OSDVKOG95NFFURTlpeC1vOU4xeHUtUDBmQ3hkRW5ZcGg5N2dpVGhlY1Z5QUNwa0pKYjh3aHRVbm5PUUVlMjJJbnhmVHA4VjMtRVVFV3FTTUJaQThRMElfeUYwdzdodFVmbmN1NU9XbUtmM1R5VS1lVGZZU1FyR1F1N1c2TUdrUGtoUThYR1NRTDFVZHh3WUkwV2k0dFRYYkNvT1VicTZ1bGJxYUpUTXRFVDY3M1ZhM2pZVjZnV29VVGx2VHpISk03NDlRbHBSOXhFV0RlbXhBZ0NZ?oc=5",
-   "published": "2026-10-30",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Semiconductor ETF sinks to below 200-DMA for first time in over a year - TradingView",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPME9TNmFzZC1LN0xTRlFNWk5kNXAzNlRtcC14dHBTVXZ0b3owQ2FMSFd5UF95T0ZIeUxlaVZoVGtWbDFfUjNHNjVhek95MHVmRXBFaUxra2JZcmJlSjFTQ01od1U1QUw3WEFwUVdFeTRObDRLdjNVblNuM1hxVzNfckw2OHFqTVFmTktneFNMNjJrejRiMUd1MDFnNk5wLVgzdTB0ZDd2S3ZraG5TOEpvUkc3ZXdNQ2NlbmU1UUpTeEd1T0cwajNhbzdnZUtXUQ?oc=5",
    "published": "2026-10-30",
    "trust": "C",
    "flag": "context-only"
@@ -118,63 +209,16 @@
    "flag": "context-only"
   },
   {
-   "driver": "Crypto",
+   "driver": "Energy / oil",
    "holdings": [
-    "CRYP"
+    "VHY",
+    "VAS"
    ],
-   "title": "Experts divided over Binance hack asset freezes, warn recovery is another matter",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/30/experts-divided-over-binance-hack-asset-freezes-warn-recovery-is-another-matter",
+   "title": "Tip to SRO led to arrest of Dade County High principal for improper sexual contact - WTVC",
+   "source": "WTVC",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMXd6Vmx5MGJkRnVncG51dC1EWE04YWJKeWhrX3lMT0RHM0Jya2JQWUU1Wm1zMjY1OFdzbEFkT0lqeW9LRURIRGhHSW9VdTN1TnFVMHA2OXNIY01jVEN1MEx6SGNXenNFSUJEaGk3U1lyZU9aUlpRSkxJR3FDOVYxOEZNNXJ3czhXYU1UckR0OVB4cEJnY1pDWUZmMHhMeW0ydXNjR2FEWUVZbkNuWkd5MmdycFJpN1M2SWc?oc=5",
    "published": "2026-10-30",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
-   "published": "2026-10-30",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
-   "published": "2026-10-30",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Binance arranges $6.34 billion to cover losses from record crypto hack",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
-   "published": "2026-10-30",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Here's how big bitcoin traders responded after the Binance hack hit",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/daybook-us/2026/10/30/here-s-how-big-bitcoin-traders-responded-after-the-binance-hack-hit",
-   "published": "2026-10-30",
-   "trust": "B",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -274,66 +318,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Has the tech bubble burst? Why the Nasdaq\u2019s rough ride looks eerily like 2000.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
-   "published": "2026-10-30",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "This cybersecurity stock will be the next to join the S&P 500",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
-   "published": "2026-10-30",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
-   "published": "2026-10-30",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
-   "published": "2026-10-30",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "In a wild October for markets, these stocks were the biggest winners and losers",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/in-a-wild-october-for-markets-these-stocks-were-the-biggest-winners-and-losers-3736f043?mod=mw_rss_topstories",
-   "published": "2026-10-30",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "US mega-cap / AI capex",
    "holdings": [
     "IVV",
@@ -379,6 +363,35 @@
    "flag": "context-only"
   },
   {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "IREN Drops 6% as Alphabet's AI Cash Burn Rattles Data Center Stocks; Cipher Digital Falls 5% Ahead of Earnings - 24/7 Wall St.",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPR0l0YnFWM29wRXR6eTlxcUh2Q25Tczd1ZXlOWVBUX3hWR2J2Y3lwR2IxN25YeWJ0a2ppN3JOLUV1MGd2MGo1WGdTa181bG5QNWNKS1hfVWowZmFLSFIyWW0xYjNVNkUtcnhwbnBCYjlobEJmLV90emtyZi0yRXdQY0N3cVVkbUVYZU1iaUdzUl9QcU4tNFRPN1ZobVJrdnQ5Nm5aV2laSEwzTU9KSlhhck00d2ZfQ0o2WE1MZjdnTkMxa2hpY3lnYlg4b0EyeHdGWXhKU2RrWHNnTHNQbFhWZ1JYSi0?oc=5",
+   "published": "2026-10-29",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Shaping Australia\u2019s semiconductor future - ANSTO",
+   "source": "ANSTO",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZHFUcTlGWlRTbXhUdjFLR2FHSmtMcTJKSjBIWHZRelJ4QTlfYWNXd09hMU4tdUgtLXdpWWF0MHpDYllzU0FxYl9KNHpFdzNmeHJXYThCdUVSdGpsYmZ3MXV3TnMwR2NHcjk5enJEN2dSV0d2bGpNTS1HM0FsTk1VZ0VidGM?oc=5",
+   "published": "2026-10-29",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -389,6 +402,18 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
    "published": "2026-10-29",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "AU tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Australia Plans To End 50% Crypto Capital Gains Tax Discount - CoinMarketCap",
+   "source": "CoinMarketCap",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ0loWTQ1SDViZXpSdkg1aGhqc3Y4Qm1PLThoSXpuOXR1S25wUmVyV0pGTHpTanJIVDRXUS1OREZ6ZzBXRUNmeUFtWVhHY25ER2trNjMxdFI1Q2xOa3hVeW5SdUxVUWU3RzIydG1DUnNhOU82MU1Cam90Q3R3R3NxUkVMU0dfQks5bV9oSUZzVERnVWs?oc=5",
+   "published": "2026-10-29",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -445,25 +470,26 @@
    "flag": "context-only"
   },
   {
+   "driver": "China + iron ore",
+   "holdings": [
+    "VAS",
+    "VHY"
+   ],
+   "title": "Iron Ore Declines to Two-Year Low as Demand Outlook Weakens - Bloomberg",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTDZqVWMtMnVJZmJyYnRuaXdvSE5VVzRrQzl3bU9XQ2hVZ1NCRVR4dEMwd1dxSUp5RzhPUTMwS0p2SGtydzUwQ3c1ZHBDYzlrMkNWdUpEWDN1emo5QjZlUU5LRklEdEE5a3RtMkRTVkp5TndiNVVaVHhmaWtKZ1ZYS3RkVUprSjI5X0Y2Y1B1VzQ3UUtDOWJKOHY1UVB2VHc1SUdKZmZLZWlZZGg2TTRv?oc=5",
+   "published": "2026-10-27",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
    "driver": "Gold",
    "holdings": [
     "QAU"
    ],
    "title": "After years of advocacy, San Antonio to welcome three Safe Haven Baby Boxes - KABB",
    "source": "KABB",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLXVpWGZMRGp6ZFVUMV9BenVGSm9aNlRUWVNKa0V0clh1T01qaTNCbTQ2Q0xFQ1pTaTNFNGpmT09BQUZ1X044VVFpYTczQjhKZDBWMERWVlBqZEhYdHRwUzZERG1QUmQ3NFJBVVJSS0JubWttVUZDV2N5NndVUl9zckZRWHdyYzhuU1l0NHY2c3F1dUlaRUJyZnBBU0dFWFNYdmFyeTNnZVFzUkd5Y1RvTw?oc=5",
-   "published": "2026-10-27",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "AU tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Spender leads business revolt against Chalmers\u2019 capital gains tax tweak - SMH.com.au",
-   "source": "SMH.com.au",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQzc3QV9uV21ydzZSaUVOWUNSYW1SUEJsbFFYZzE5amdPVTNFMWxtNmNfdnFjUTMtYXBIQUI1WW5paDBpMkpWRDlCZEFPcEZoNUgxdi1TcW5yUGxOaEFreng2RE5FWHl4enlfanAxTnVpRUFrV1lVUFhzUjJfYlVOVENSeDlfQ0s0ek1GOXhLYWY1UjR2NHNEbmlPdGxrLThpSGlicFJ0cHQ5LXNFaGVGSHI3d1ZlOTdZYUJuSVFvbFFORzJxejRqYVNEVQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSTRYVWRwaXNYc045OFBWMm95MDBnbUNHQUhUMTFSR0M5SVNDUHM1aTJWcXpvbkRCb2kyQ3J1cFdhbW1uT240V2xxaHVWVzlvNGVNcUp2aUUwdnhFWEs1TGxYUDVqaHFheFFBa0pGb2xfeEFTTEtENlJqZUpmNkxWUldjaVhTZXdWUXVncGZQcGVYSHVyOWlLcG53UElCSUFvX0hEZXNrRVpZbUczb3VJYzZVdmstQQ?oc=5",
    "published": "2026-10-27",
    "trust": "C",
    "flag": "context-only"
@@ -474,10 +500,10 @@
     "VAS",
     "VHY"
    ],
-   "title": "ZANAGA IRON ORE COMPANY LIMITED (ZIOC) Equity Price and Quote - London Stock Exchange",
-   "source": "London Stock Exchange",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV1I2Zlczc0d5c3g4enVDVDZwd0prQ2FnTEJZODRIRVVKVS1wa2dCMmVGWWhfanI0UENhQ05rdHktV0dKU1d5amJMc0FveXdZUExNZkhnTVB3VW5xU2xESWRwc0JpeXRqblI3OU5yMjNpcUVyOFFsSzdzb3JfZ2F3dTZjVXRGd3pXNTVacjhjYWYtZw?oc=5",
-   "published": "2026-10-24",
+   "title": "China iron ore stoush puts Australian mines in the firing line - SMH.com.au",
+   "source": "SMH.com.au",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdnZmZ1phNC1aQUZGT2lEbFZxTVM1WVpRYmxLX0hnZXpjN3NPbVZ4clFXZ1d2a1FYR3ZoVE5GbU43ZFJBb1hRdFJnZkVCcVY1UmJsR3pWLXdoRTZtdGhIdExxUHJFV1pRZEFaQUpsVjNHZkJpekN0QUFiWUtTdDN2enNqYkxfVmpMUVNwbEZUZlBvWjJRcWc4ZWZSWEM4VmR0cmhKdUZJdEhQMTE2S3ZybUlSOTI5djlSWUZ2LUJXOWxaa00?oc=5",
+   "published": "2026-10-22",
    "trust": "C",
    "flag": "context-only"
   },
@@ -495,15 +521,14 @@
    "flag": "context-only"
   },
   {
-   "driver": "China + iron ore",
+   "driver": "AU tax / reg",
    "holdings": [
-    "VAS",
-    "VHY"
+    "ALL (disposal gate)"
    ],
-   "title": "Australian iron ore miner warns of production slowdown without China deal - Financial Times",
-   "source": "Financial Times",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbGhhU0tQa01TbjRvYk44RDVSSGlVV09JbjBELVBkY0tuSzMydDFfQkFhcGh4cG9EaDZFd3lLa1FUWHh6ZlZfNjFSVVA0ODNaVkdjTEN0Zm1LMGIzaFY5SDBNSmxHODRZSFQtOXVSckRpQkRjc1RJd1BNMWM2aFFtNzBoYnY?oc=5",
-   "published": "2026-10-21",
+   "title": "NZ Super Fund warned Australia over capital gains tax changes - Newstalk ZB",
+   "source": "Newstalk ZB",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0ZIQ2VBUW9WdGRQWUl6YzNyMFF5aHBwd3dBemhlOGMzYU1ONWdMQjhPNHduaklmZ2c5SmxBS0ZBYWJhTlZ0TjJoaEZMWU5tX3h2eDNHZUJYa1Nlb3l3UW1pV0lqQXZqSE0teUljQTlqQnNmMFktTUpZb2w3d002eGxPQzBxOU5pRHh4RU5OUWZQOHZlZGlZM1RndEZtRklOR0RlQ3g1cjU?oc=5",
+   "published": "2026-10-20",
    "trust": "C",
    "flag": "context-only"
   },
@@ -518,6 +543,18 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68325",
    "published": "2026-10-19",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "AU tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "NZ Super Fund warned Australia over capital gains tax changes - NZ Herald",
+   "source": "NZ Herald",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbzdWNjRjU0p2TkVVUnowR0pabnFIUms1dk1GQmFkTFBIdFVTV3R5YjgxNUJOSFpMMy1IRUlVYmpXOEswLXVJdV8xZE41NXN5eXpMcWpaYWpVRUZzLXY0QjBWUHUyVm5WV3FycXJsOUNtdEpVSkl5Vkotd3hKR3JhTF9TcmVPQmdPMDBLRURnLWpxTkdudEdVWUJPMF9Gbl9SNlhJTE9vUjVrQlc2b1BCMXhwT1cwakw5bzRSc3JMWEF6QlJ6MWM1RlA3T0pmOWlOSUxGOV95dUlQQ09WNjlrN2xhczhXUFU?oc=5",
+   "published": "2026-10-19",
+   "trust": "C",
    "flag": "context-only"
   },
   {

@@ -2,6 +2,7 @@
 """Full walk-forward model selection and evaluation (slow: ~30 minutes).
 
     python3 backtest.py          # tune, compare, test factors, evaluate, calibrate season sims
+    python3 backtest.py --quick  # smoke test: no tuning, tiny simulation calibration
 
 Writes config/model_spec.json (used by weekly.py), reports/BACKTEST.md, reports/EXPERIMENTS.md and
 appends every trial to reports/experiment_log.csv.
@@ -73,18 +74,25 @@ def luck_vs_skill(m):
     return pd.DataFrame(out)
 
 
-def sim_calibration(spec, m, F, seasons, sigmas, rounds=(1, 10, 20, 30), n_sims=20000):
+def sim_calibration(spec, m, seasons, sigmas, rounds=(1, 10, 20, 30), n_sims=20000):
     """Simulate past seasons from several checkpoints using only information available at each
-    checkpoint; score title / top-4 / relegation probabilities against what happened."""
+    checkpoint (results after the checkpoint are blanked before features are rebuilt); score
+    title / top-4 / relegation probabilities against what happened."""
     recs = []
+    promoted = data.promoted_teams(m)
     for s in seasons:
         g = m[m["season"] == s]
         final = simulate.final_table(g, s).set_index("team")
         for rd in rounds:
             as_of = g.loc[g["gw"] >= rd, "date"].min()
             played, remaining = g[g["date"] < as_of], g[g["date"] >= as_of]
-            pred = predictor.fit_predict(spec, m[m["date"] < as_of], remaining.drop(columns=["hg", "ag"]).assign(
-                hg=np.nan, ag=np.nan), as_of, F_fix=F, with_factors=True)
+            fut = remaining.assign(hg=np.nan, ag=np.nan, hxg=np.nan, axg=np.nan, hr=np.nan, ar=np.nan,
+                                   hc=np.nan, ac=np.nan, hpen=np.nan, apen=np.nan)
+            Fc = None
+            if spec.get("factor_params"):
+                view = pd.concat([m[m["date"] < as_of], fut])
+                Fc = adjust.prepare(features.build(view), view, promoted)
+            pred = predictor.fit_predict(spec, m[m["date"] < as_of], fut, as_of, F_fix=Fc)
             for sg in sigmas:
                 res = simulate.simulate(s, played, remaining, pred, n_sims=n_sims, sigma=sg)["table"].set_index("team")
                 for t in res.index:
@@ -97,12 +105,12 @@ def sim_calibration(spec, m, F, seasons, sigmas, rounds=(1, 10, 20, 30), n_sims=
     return pd.DataFrame(recs)
 
 
-def main():
+def main(quick=False):
     print("Loading data (cache must be populated: run weekly.py once, or data.fetch_all())")
     data.fetch_all(refresh=False)
     m = models.add_market_lambdas(data.build_matches())
     f = features.build(m)
-    res = ex.run_all(m, f)
+    res = ex.run_all(m, f, quick=quick)
     promoted = data.promoted_teams(m)
     F = adjust.prepare(f, m, promoted)
 
@@ -148,7 +156,10 @@ def main():
     # season simulation calibration: sigma chosen on tuning seasons, checked on test seasons
     print("Season-simulation calibration")
     sigmas = [0.0, 0.05, 0.10, 0.15]
-    calib = sim_calibration(spec, m, F, ["2019-20", "2020-21", "2021-22"] + TEST_A + TEST_B, sigmas)
+    sim_seasons = ["2019-20", "2020-21", "2021-22"] + TEST_A + TEST_B
+    if quick:
+        sigmas, sim_seasons = [0.0, 0.1], ["2021-22", "2023-24"]
+    calib = sim_calibration(spec, m, sim_seasons, sigmas, n_sims=2000 if quick else 20000)
     calib["brier"] = (calib["p"] - calib["y"]) ** 2
     sig_tab = calib.assign(period=np.where(calib["season"].isin(TUNE), "Tuning", "Test")).pivot_table(
         index="sigma", columns="period", values="brier", aggfunc="mean").reset_index()
@@ -209,4 +220,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(quick="--quick" in sys.argv)

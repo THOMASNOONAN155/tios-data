@@ -204,10 +204,10 @@ def run_all(m: pd.DataFrame, f: pd.DataFrame, quick=False):
             kept.append(name)
             kept_params, base_scores = params, sc
     # lineup strength: data only from 2022-23, so fit on 2022-23 and judge on 2023-24 and TEST_B
-    lu_fit = base.index[(m.loc[base.index, "season"] == "2022-23") & F.loc[base.index, "xi_rel_h"].notna()]
-    params, _ = score_with(kept + ["lineup_strength"], lu_fit)
-    adj = adjust.apply(F.loc[base.index], base, params)
     ref_pred = adjust.apply(F.loc[base.index], base, kept_params) if kept_params else base
+    lu_fit = base.index[(m.loc[base.index, "season"] == "2022-23") & F.loc[base.index, "xi_rel_h"].notna()]
+    params = adjust.fit(F.loc[lu_fit], ref_pred.loc[lu_fit], m.loc[lu_fit], adjust.merge_specs(["lineup_strength"]))
+    adj = adjust.apply(F.loc[base.index], ref_pred, params)
     a_idx = base.index[m.loc[base.index, "season"] == "2023-24"]
     b_idx = base.index[m.loc[base.index, "season"].isin(TEST_B)]
     sc_new = {"TEST_A(23-24)": rps_on(adj, m, a_idx), "TEST_B": rps_on(adj, m, b_idx)}

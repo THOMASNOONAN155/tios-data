@@ -1,5 +1,168 @@
-{"models": {"dixon_coles": {"cls": "RatingModel", "params": {"name": "dixon_coles", "target": "goals", "dc": true}},
- "xg_goals_mix": {"cls": "RatingModel", "params": {"name": "xg_goals_mix", "target": "mix", "dc": true}},
- "market": {"cls": "RatingModel", "params": {"name": "market", "target": "market", "dc": true}},
- "elo": {"cls": "EloModel", "params": {"name": "elo"}}},
- "blend": {"xg_goals_mix": 0.4, "market": 0.4, "elo": 0.2}, "rho_from": "dixon_coles", "factors": [], "sim_sigma": 0.05}
+{
+  "models": {
+    "dixon_coles": {
+      "cls": "RatingModel",
+      "params": {
+        "name": "dixon_coles",
+        "target": "goals",
+        "dc": true
+      }
+    },
+    "xg_goals_mix": {
+      "cls": "RatingModel",
+      "params": {
+        "name": "xg_goals_mix",
+        "target": "mix",
+        "dc": true
+      }
+    }
+  },
+  "blend": {
+    "xg_goals_mix": 1.0
+  },
+  "rho_from": "dixon_coles",
+  "factors": [
+    "early_season",
+    "derby",
+    "motivation",
+    "finishing_luck",
+    "form"
+  ],
+  "factor_params": {
+    "beta": [
+      0.0708374589987075,
+      -0.03766294850711393,
+      -0.001601826280939574,
+      0.0880060266813714,
+      -0.055815983835910264,
+      -0.07184110570220166,
+      0.023380941832084303,
+      -0.01290772359160211
+    ],
+    "delta": [
+      0.0600000000000005,
+      -0.05999999999999961
+    ],
+    "centers": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.05550383363808702,
+      -0.060592892925097674,
+      0.008776351693755789,
+      0.008776351693755789
+    ],
+    "spec": {
+      "goals": [
+        [
+          "early",
+          "shrink"
+        ],
+        [
+          "derby",
+          "match"
+        ],
+        [
+          "ntp",
+          "own"
+        ],
+        [
+          "ntp",
+          "opp"
+        ],
+        [
+          "fin_luck",
+          "own"
+        ],
+        [
+          "def_luck",
+          "opp"
+        ],
+        [
+          "form_xgd5",
+          "own"
+        ],
+        [
+          "form_xgd5",
+          "opp"
+        ]
+      ],
+      "draw": [
+        "derby",
+        "both_ntp"
+      ]
+    }
+  },
+  "factor_params_tune_only": {
+    "beta": [
+      0.02706032087969578,
+      -0.030500393648458295,
+      0.08192443712274095,
+      0.14884554002239966,
+      -0.037478291135709815,
+      -0.04281883512930837,
+      0.04591972319979782,
+      0.008153102667754857
+    ],
+    "delta": [
+      0.04000000000000048,
+      -0.5
+    ],
+    "centers": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.033392518985514784,
+      -0.04019037159960199,
+      0.008403082592592575,
+      0.008403082592592573
+    ],
+    "spec": {
+      "goals": [
+        [
+          "early",
+          "shrink"
+        ],
+        [
+          "derby",
+          "match"
+        ],
+        [
+          "ntp",
+          "own"
+        ],
+        [
+          "ntp",
+          "opp"
+        ],
+        [
+          "fin_luck",
+          "own"
+        ],
+        [
+          "def_luck",
+          "opp"
+        ],
+        [
+          "form_xgd5",
+          "own"
+        ],
+        [
+          "form_xgd5",
+          "opp"
+        ]
+      ],
+      "draw": [
+        "derby",
+        "both_ntp"
+      ]
+    }
+  },
+  "sim_sigma": 0.0,
+  "selftest_reference": {
+    "season": "2025-26",
+    "rps": 0.2070045160436202
+  }
+}

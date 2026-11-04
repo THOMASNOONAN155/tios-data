@@ -1,31 +1,17 @@
 {
- "generated": "2026-11-03T01:59Z",
+ "generated": "2026-11-04T00:22Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
  "count": 43,
  "items": [
   {
-   "driver": "Semis / Taiwan",
+   "driver": "Crypto",
    "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
+    "CRYP"
    ],
-   "title": "South Korean semiconductor firms offered Chinese incentives - Digital Watch Observatory",
-   "source": "Digital Watch Observatory",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE45b1JHcjBEYmtmZDE5Wm5JM09UeDBrcmNZbXd2aVlqaUpwaVJGd1hTSmdyQ0EyWWxwREtETGJNQUR6YVVOYVRsbTF5MzNWTGxibDJGd1BpX3lXMUlHbjZESmJ1dFlNY2k0Y2VmRl8zdmdjUFpwR3k1NHBMOWF2Zw?oc=5",
-   "published": "2026-11-03",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Here\u2019s why Palantir\u2019s stock is down despite a \u2018bombastic\u2019 quarter",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
-   "published": "2026-11-03",
+   "title": "Live updates: 2026 U.S. midterm elections",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/11/03/election-2026-coindesk-live-blog",
+   "published": "2026-11-04",
    "trust": "B",
    "flag": "context-only"
   },
@@ -34,23 +20,26 @@
    "holdings": [
     "whole book"
    ],
-   "title": "Apple\u2019s iPhone business is booming. Here\u2019s why the stock is falling anyway.",
+   "title": "Here\u2019s why AMD\u2019s stock is rising \u2014 and sending a confident message about the AI trade",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories",
-   "published": "2026-11-03",
+   "url": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
+   "published": "2026-11-04",
    "trust": "B",
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
+   "driver": "US rates / Fed",
    "holdings": [
-    "whole book"
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
    ],
-   "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
+   "title": "Major Economic Indicators Latest Numbers",
+   "source": "BLS",
+   "url": "https://www.bls.gov/bls/",
    "published": "2026-11-03",
-   "trust": "B",
+   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -61,52 +50,25 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Amazon's $2 Billion Data Center Faces Election Day Threat as Voters Weigh 41 AI Infrastructure Measures - Benzinga",
-   "source": "Benzinga",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM1NfMTB2VDl0LWVvNURwZVNOdnhxWWhhMF8xRWJqWWR5TDREbHQzZm8xOTA0T1BLcUhsVjFVSkNBb1Jsa0J1dllUTTN0bzByX1JtOG5DQkZGczNjdGRPcWJxbDRwb1JTY3RlMFdMak5KZTFKNE1xQlBaWVZhWTJWaFp6V0QwaURuMV9EdzJZRmk3VUt3?oc=5",
-   "published": "2026-11-02",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Donovan\u2019s Deep Dives: TSMC\u2019s overseas expansion is a necessity, not a choice - Taipei Times",
-   "source": "Taipei Times",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHMVRVdXN6NkJwR1dsdjhBOVBzWkI1bWVvQ1VQLTNGTnJwMDdYRGRMZVpRS291QVRpT2xXbFQ5QnJXNFdrUmdyakxsT1NHOXhyLXVnVkdhSjZfYnBlVjNZanUwQ192QkxWd0d5QXRoWHhjelRhcGRF?oc=5",
-   "published": "2026-11-02",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Alpha HPA (ASX:A4N) HPA First Expansion Advances Alongside Semiconductor Materials Strategy - Kalkine",
-   "source": "Kalkine",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOamQ3QUpfZWI4cDVoX1ZBalVRelN5ODF5aEs3Yk9DQlhwUlFWOFBjY2E1VVVZZTJPOEZBVFNuN2dxZGRUN1RVbnhfbVQySDZNQnMweEN5WUNGcC1Zb01BdFA4RUEwTDZCTDVOOFNSbk92Nk9EZ0lHMjRmam1LbFdfUWZ3UDM1VlVZd1MwUE9xeWpjUUZrb19ZbkFGNjctWHNTdkcyVFgxalFFU2VtYXI2eTNqNzRnNEJLbVRPcVpjbXFWQ2NDZGNZ?oc=5",
-   "published": "2026-11-02",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "ON Semiconductor shares fall despite earnings beat - Yahoo Finance",
+   "title": "Nvidia orders data center clients to reduce China exposure: FT - Yahoo Finance",
    "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWDZYQWQwSlhjMG42dG5TbzlQQllOZDg4WENlNHdwUkd1bl9MaGhZcmVUX0U3cVczcXdZaThiVlo3SWRVcmhvZEx6azdpR1dBR2VpeVRTdmNyVEdxc1lnNGpGaWFFeFJEd0NyR01YVzNHZF9vb1J6Q1JQRWEtNFZOc1NweGhsYnhaYkM5LWJTSWltMmZsdnVNdXRvOThzUlNEcE1RWEw3U2NOM0k?oc=5",
-   "published": "2026-11-02",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU24zQnBzOGNvR2gwYWs0ekQ0b0JlSWd6Snd1TUVGOXJ3UWJOX25KaWhqX3ZZampncFphLWtDdUc4U3cxTm9pSTBHWFBicVlCemNoWFA5VXRUZzNPMXUzNV92MFdvc2N6c21FaEx5OHR5YnpES25CZVJhQjk3MjgtTDZZQm5zdUF0eWkyWHNPeVduTWpHZjdIQWptWWdKQQ?oc=5",
+   "published": "2026-11-03",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Nvidia Tells Data Center Clients to Trim China Business, FT Says - Bloomberg.com",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEJRRjh3WWlKcE9PTlBDM19qaEVoSUtzSmRzQ0g4Rl9YT1p1WUQtRWhFbjI3WTlxVkhja0s1UFdpaV9Gb3A0RG8wNnF2YWpMMldMdGtvNW03bUVvM0VZZGtCR1gyZmZheldrdHFja2QycUwxZDNZRkpEV2pjRkZmUVBuSUwyQkRORUtUOXpMX2k2Q21ZM1JkUFlEUlg2T2lXTUl1eXQzWUt6NE9WZ3RHdkJPMmM?oc=5",
+   "published": "2026-11-03",
    "trust": "C",
    "flag": "context-only"
   },
@@ -117,22 +79,90 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Edwards Completes $319M New York Semiconductor Pump Plant - Environmental Leader",
-   "source": "Environmental Leader",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN2VTRURiYTZaOWxKdGFBTnp3M0VDeVh3LVlxUnlsd1dMcWxNUV9BNERxekd3QzJHbm9QS0l2MlBBVWxCTkNGYzhhMW1RNm9VdUtCMzR3RHE4b3NyNnhVRzFoZ2ozY3BrR1M4eGtPWjFtTjljMlNrRzZsZnVmeEhMaG1VRFI2YmF2d1R1Q2p3NE5CVnFLYi1qTXRnV251TnJKWnVKNF95amw2VGdpcmMydg?oc=5",
-   "published": "2026-11-02",
+   "title": "Bosch to create semiconductor division from January 2028 - Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUWcyb0VBMFlESWkzWTRyTHFpVXlyVlNHdWdTRkJFX2ZkREwzbDk2TlFjcnd3Mk55UnNVR1lBdmNZMFBoSjVXcHlzcEtvdlhhR2xTRDRtc1J1eG13OWQzTlZ6Qkt3aE1tdHVRRnBKZzVlOHBiYUNZR182VXpzblZFaTNtWjR5QU9MUWFDUDV6ZVNibnRsVW1XRWdsS3YxaExBb0hHb0Vub0o?oc=5",
+   "published": "2026-11-03",
    "trust": "C",
    "flag": "context-only"
   },
   {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Can ON Semiconductor (NASDAQ:ON) Double AI Data Center Revenue as It Reports on November 2? - Kalkine",
+   "source": "Kalkine",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUmZJSDVKd092a2lYeE9OekMwMERrWEtva0ZNUFRhamFfdnJIR1VCYnhXNEJFQjcyejNaeElkVUdtNEhxUi1EaUF6YkVOR0hkMl9maTl5R3Y3ZHpweUtTOE5VdXdBcHQwT3F4UnRrenFFWmdRcGttdWYxS24wakRNQW91RGh0RGozZ1Y3bl9aWnlsQ2lrNUsxS2pKWnJFemZZQkNuUDNlV1FZakVOWTJwa1NNbWo5UWN4MVZEc2ZUNVNaQmRaZU1j?oc=5",
+   "published": "2026-11-03",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Lattice Semiconductor (NASDAQ:LSCC) Stock Surges 13% After Revenue Jumps 118% on AI Demand - Stocks Down Under",
+   "source": "Stocks Down Under",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPemlqTTNVTGJ5SjFtQkRyZTJtOGk3NkRIYzE0WjViQ2VaUGgyZEhBYTBpc1U2VmduODZ3U3lzTUp6aVZ5VDJ5RVNJMlZoVU5LZjNRQ1Q2UGlzSkpUU1ZyTzl2cVFSWGRRT1BoYVNfdExMeFFIcl9Eam1PQU9aR2t6Tw?oc=5",
+   "published": "2026-11-03",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Until Next Gen Computing Implodes I\u2019ll Keep Buying Taiwan Semiconductor - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQVBWRUIwVGJjVUVaczRjckFQc3QtTlFqNWk4eXlQTEk0MHhGZmMtd3NkbDkzdTlHUDBIVHREbGZRTHdqNG8tbjd4S1l5SGN3VzUxNDJOUC1JSmZBbUZqQWx6U0RrS3JlMktBRUJ4TUhNVVFTSTBpSkRBdTFvYVNYVGVQMUtQaXp3dDlCb3N3TFFhMUNQNUhmRGRmN0FZcDg?oc=5",
+   "published": "2026-11-03",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "China + iron ore",
+   "holdings": [
+    "VAS",
+    "VHY"
+   ],
+   "title": "PBOC to raise banks\u2019 forex reserve requirements amid yuan appreciation pressure - South China Morning Post",
+   "source": "South China Morning Post",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQVl3aHZtWlhyajlpU1RkRk1fbkhKT2JSQnVoV3dxa0U4bm1tWGRUUHI0d2d6amg0VDlMa0d1UUdIRnVFdkhlUllTLUNZNjk1UlNZUW1jbGNJT0lTZjZTQ195SU9DZXlxUU1scE5jZFZES0ZhRWo1WGxQaTlZYnV4TzJBbVNOWjhsT25MNU9tZHB5N3JubExtM2dJLXJXRWhuM3ZpUzBNREJjeEpQWkJTakNhS05UUktzTHhvODVrVDNLdGxhWjFN?oc=5",
+   "published": "2026-11-03",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "Global refinery inputs fell sharply in the second quarter of 2026 before modest recovery",
+   "source": "EIA Today in Energy",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=68404",
+   "published": "2026-11-03",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
    "driver": "Crypto",
    "holdings": [
     "CRYP"
    ],
-   "title": "Big crypto wants the one thing it can\u2019t buy: your vote",
+   "title": "What voters said about their views on crypto",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/opinion/2026/11/02/big-crypto-wants-the-one-thing-it-can-t-buy-your-vote",
-   "published": "2026-11-02",
+   "url": "https://www.coindesk.com/policy/2026/11/03/what-voters-said-about-their-views-on-crypto",
+   "published": "2026-11-03",
    "trust": "B",
    "flag": "context-only"
   },
@@ -141,10 +171,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
+   "title": "What happens if North Korea steals Wall Street's tokenized assets next",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-traders-eye-post-election-rally-as-exchange-outflows-point-to-supply-squeeze",
-   "published": "2026-11-02",
+   "url": "https://www.coindesk.com/business/2026/11/03/what-happens-if-north-korea-steals-wall-street-s-tokenized-assets-next",
+   "published": "2026-11-03",
    "trust": "B",
    "flag": "context-only"
   },
@@ -153,10 +183,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says",
+   "title": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/11/02/eu-entity-suspected-of-losing-usd106-million-from-crypto-exchange-accounts-zachxbt-says",
-   "published": "2026-11-02",
+   "url": "https://www.coindesk.com/policy/2026/11/03/cftc-gets-into-legal-clash-over-stock-perps-after-having-cleared-path-for-crypto-version",
+   "published": "2026-11-03",
    "trust": "B",
    "flag": "context-only"
   },
@@ -165,23 +195,72 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "NYSE tokenized stock plans take shape as four more transfer agents join",
+   "title": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails",
-   "published": "2026-11-02",
+   "url": "https://www.coindesk.com/policy/2026/11/03/justin-sun-seeks-sanctions-against-trump-linked-world-liberty-financial-over-uae-ties",
+   "published": "2026-11-03",
    "trust": "B",
    "flag": "context-only"
   },
   {
-   "driver": "Crypto",
+   "driver": "AU rates (RBA)",
    "holdings": [
-    "CRYP"
+    "VAS",
+    "VHY"
    ],
-   "title": "Brazil\u2019s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains",
-   "published": "2026-11-02",
-   "trust": "B",
+   "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
+   "source": "RBA",
+   "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
+   "published": "2026-11-03",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "International Manual",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/hmrc-internal-manuals/international-manual",
+   "published": "2026-11-03",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: Help to Save: service availability and issues",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/help-to-save-service-availability-and-issues",
+   "published": "2026-11-03",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Data Element 2/3: Document and Other Reference Codes: Licence Types \u2014 Imports and Exports of the Customs Declaration Service (CDS)",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/data-element-23-document-and-other-reference-codes-licence-types-imports-and-exports-of-the-customs-declaration-service-cds",
+   "published": "2026-11-03",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: Data Element 2/3: Documents and Other Reference Codes (Union) of the Customs Declaration Service (CDS)",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/data-element-23-documents-and-other-reference-codes-union-of-the-customs-declaration-service-cds",
+   "published": "2026-11-03",
+   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -192,56 +271,56 @@
    "title": "Debt Management and Banking Manual",
    "source": "gov.uk HMRC",
    "url": "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking",
-   "published": "2026-11-02",
+   "published": "2026-11-03",
    "trust": "A",
    "flag": "context-only"
   },
   {
-   "driver": "UK tax / reg",
+   "driver": "Cross-market",
    "holdings": [
-    "ALL (disposal gate)"
+    "whole book"
    ],
-   "title": "Self Assessment Manual",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-manual",
-   "published": "2026-11-02",
-   "trust": "A",
+   "title": "What analysts are telling us while Apple\u2019s stock falls after earnings report",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
+   "published": "2026-11-03",
+   "trust": "B",
    "flag": "context-only"
   },
   {
-   "driver": "UK tax / reg",
+   "driver": "Cross-market",
    "holdings": [
-    "ALL (disposal gate)"
+    "whole book"
    ],
-   "title": "Customs Declaration Service: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/customs-declaration-service-service-availability-and-issues",
-   "published": "2026-11-02",
-   "trust": "A",
+   "title": "Shopify\u2019s stock slides after earnings. This is what\u2019s worrying Wall Street.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
+   "published": "2026-11-03",
+   "trust": "B",
    "flag": "context-only"
   },
   {
-   "driver": "UK tax / reg",
+   "driver": "Cross-market",
    "holdings": [
-    "ALL (disposal gate)"
+    "whole book"
    ],
-   "title": "Guidance: Import Control System 2: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/import-control-system-2-service-availability-and-issues",
-   "published": "2026-11-02",
-   "trust": "A",
+   "title": "AI\u2019s control over the bond market is growing \u2014 even rivaling war and elections",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories",
+   "published": "2026-11-03",
+   "trust": "B",
    "flag": "context-only"
   },
   {
-   "driver": "UK tax / reg",
+   "driver": "Cross-market",
    "holdings": [
-    "ALL (disposal gate)"
+    "whole book"
    ],
-   "title": "Policy paper: Carbon border adjustment mechanism (CBAM): Policy summary",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-cbam-policy-summary",
-   "published": "2026-11-02",
-   "trust": "A",
+   "title": "S&P 500 is looking over the edge of a technical cliff \u2014 what happens if it falls off?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/s-p-500-is-looking-over-the-edge-of-a-technical-cliff-what-happens-if-it-falls-off-be97ebd9?mod=mw_rss_topstories",
+   "published": "2026-11-03",
+   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -257,30 +336,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Marvell and Lumentum shareholders unite in panning merger deal: \u2018It\u2019s a trash offer\u2019",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/marvell-and-lumentum-shareholders-unite-in-panning-merger-deal-its-a-trash-offer-53a9f307?mod=mw_rss_topstories",
-   "published": "2026-11-02",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
-   "published": "2026-11-02",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "US mega-cap / AI capex",
    "holdings": [
     "IVV",
@@ -293,34 +348,6 @@
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN2pnRkx6ck9TZTlDTTB5MVlNYzB1Sy1GOF9sbmJaRXNvVWtjeEtkaVpuVjNQYW9mMVBKVFR3ckF5NTBCM05kSlNQU2JPRWZVWVVISFV2RWRJVHNGbldSd2Q2UHFOWG5GVUZwVS1kMzVIWlpLZ3JYNUJIZWpaRV9neVRrQ0h2aHJDeTJOWjBDQk94eXJwT1pLY2Z2aF9acXpGQTJUTXFtZ1ZVUFRRSl92RExEVUdLRERpYzZjcWtYWUUxZTlULXc5TzVCRjMweGF6eEJDQUxR?oc=5",
    "published": "2026-11-01",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "China + iron ore",
-   "holdings": [
-    "VAS",
-    "VHY"
-   ],
-   "title": "Iron Ore CFR China (Platts) Overview - CME Group",
-   "source": "CME Group",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTR5VVR4cVVRZlR2bWFQNUFJcjFfak9tNG1wOTdWelNkNWcwQWw2V2g4WUdvVHJWdDZIRE9lRXp3YnNSaHRhSWRmWlhPNkRkZldTT0tVRUlHdk5UeGZ3MExWTWs0NWt4VWhDT0l4TUJLaXNvcm9NM0JLWi1RMGlHVFVVNnZ2VW1uTlJudG1NRURmY19sS0hWNWdvUmR0UQ?oc=5",
-   "published": "2026-10-31",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US rates / Fed",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Major Economic Indicators Latest Numbers",
-   "source": "BLS",
-   "url": "https://www.bls.gov/bls/",
-   "published": "2026-10-30",
-   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -403,16 +430,15 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
+   "driver": "Semis / Taiwan",
    "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
+    "ASIA",
+    "EMKT",
+    "NDQ"
    ],
-   "title": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd0tULWRvRHZoRUxrM1Z6NnVOUUo5LUJWRVo2Z05nbmhDSFhjRjgtb3ZJUzF1TXJzdWYxWG1Sa0EtcHl1Wmd5M09ZcWVORWpNQzNuX2FnRUoxcUVHbmlwYUNmTWtVMlQ4TC0xR1hQVmpvQU5PM2NtaG1jcmdvRE1xODdKWTFHcHplNGVKUVdXaUhtOTBLb2xIOHZUa2hJZW5EdGc?oc=5",
+   "title": "Shaping Australia\u2019s semiconductor future - ANSTO",
+   "source": "ANSTO",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZHFUcTlGWlRTbXhUdjFLR2FHSmtMcTJKSjBIWHZRelJ4QTlfYWNXd09hMU4tdUgtLXdpWWF0MHpDYllzU0FxYl9KNHpFdzNmeHJXYThCdUVSdGpsYmZ3MXV3TnMwR2NHcjk5enJEN2dSV0d2bGpNTS1HM0FsTk1VZ0VidGM?oc=5",
    "published": "2026-10-29",
    "trust": "C",
    "flag": "context-only"
@@ -428,18 +454,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
    "published": "2026-10-29",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "AU tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Australia Plans To End 50% Crypto Capital Gains Tax Discount - CoinMarketCap",
-   "source": "CoinMarketCap",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZ0loWTQ1SDViZXpSdkg1aGhqc3Y4Qm1PLThoSXpuOXR1S25wUmVyV0pGTHpTanJIVDRXUS1OREZ6ZzBXRUNmeUFtWVhHY25ER2trNjMxdFI1Q2xOa3hVeW5SdUxVUWU3RzIydG1DUnNhOU82MU1Cam90Q3R3R3NxUkVMU0dfQks5bV9oSUZzVERnVWs?oc=5",
-   "published": "2026-10-29",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -470,6 +484,19 @@
    "flag": "context-only"
   },
   {
+   "driver": "China + iron ore",
+   "holdings": [
+    "VAS",
+    "VHY"
+   ],
+   "title": "China's tug-of-war with Australian miners lurks beneath iron-ore calm - Mining Weekly",
+   "source": "Mining Weekly",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQc2RLYldFOEt3TTB5RHVZZlczX0o3QlZTODBkWnlDLTR2OUZEQ0wxY3M2c1ZvZEUyVV9uSkVFVUkwQ3dzaG0wUnFqMmVDc1BSMlpYU0JFaklLcXp3bVRGZHBPZ3dIWmJoNkJBXzNRQXdYeFA5MHNUSWZHQ0VRaWlkdTctVXhlVVVYTVVKOEZGYTdxZWN3QVd5UTZOOVlnQzJRTmN2bDMtQmxoYzYzMDFWUDV2c0N4Zkk?oc=5",
+   "published": "2026-10-26",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
    "driver": "Gold",
    "holdings": [
     "QAU"
@@ -477,20 +504,7 @@
    "title": "After years of advocacy, San Antonio to welcome three Safe Haven Baby Boxes - KABB",
    "source": "KABB",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSTRYVWRwaXNYc045OFBWMm95MDBnbUNHQUhUMTFSR0M5SVNDUHM1aTJWcXpvbkRCb2kyQ3J1cFdhbW1uT240V2xxaHVWVzlvNGVNcUp2aUUwdnhFWEs1TGxYUDVqaHFheFFBa0pGb2xfeEFTTEtENlJqZUpmNkxWUldjaVhTZXdWUXVncGZQcGVYSHVyOWlLcG53UElCSUFvX0hEZXNrRVpZbUczb3VJYzZVdmstQQ?oc=5",
-   "published": "2026-10-27",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "China + iron ore",
-   "holdings": [
-    "VAS",
-    "VHY"
-   ],
-   "title": "COMMENTARY: Why China\u2019s stimulus keeps missing the mark - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOazJDSjk5eWVKMWY5eFVycmx2U3ZWUDRxRUhuVDVaNUlkcGNQN18tREhKOU1DWDE2d3puS0kwZHBGRU40NGk5YVZTZFBqVER2R2NhdEtYOGZNY19xVE02QVk1bXYtUDVWOWNmTVFzTG0yZmcxZVQyXzJNTndaOU1rTDc4NkllWmlkMldBUEdLNjJBTVN1T3RSVXJjSkE5RVlaUGlxSldVWWl3OWVYZkJvVV82MHY4bTJSZHZjWk8yQXFJeEdDam1n?oc=5",
-   "published": "2026-10-25",
+   "published": "2026-10-26",
    "trust": "C",
    "flag": "context-only"
   },
@@ -530,18 +544,6 @@
    "source": "Financial Times",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbGhhU0tQa01TbjRvYk44RDVSSGlVV09JbjBELVBkY0tuSzMydDFfQkFhcGh4cG9EaDZFd3lLa1FUWHh6ZlZfNjFSVVA0ODNaVkdjTEN0Zm1LMGIzaFY5SDBNSmxHODRZSFQtOXVSckRpQkRjc1RJd1BNMWM2aFFtNzBoYnY?oc=5",
    "published": "2026-10-21",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "AU tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "NZ Super Fund warned Australia over capital gains tax changes - Newstalk ZB",
-   "source": "Newstalk ZB",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0ZIQ2VBUW9WdGRQWUl6YzNyMFF5aHBwd3dBemhlOGMzYU1ONWdMQjhPNHduaklmZ2c5SmxBS0ZBYWJhTlZ0TjJoaEZMWU5tX3h2eDNHZUJYa1Nlb3l3UW1pV0lqQXZqSE0teUljQTlqQnNmMFktTUpZb2w3d002eGxPQzBxOU5pRHh4RU5OUWZQOHZlZGlZM1RndEZtRklOR0RlQ3g1cjU?oc=5",
-   "published": "2026-10-20",
    "trust": "C",
    "flag": "context-only"
   },

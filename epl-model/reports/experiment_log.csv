@@ -1,0 +1,39 @@
+time,stage,test,description,decision,note,RPS_TUNE,RPS_TEST_A,RPS_TEST_B,dRPS_TEST_A,dRPS_TEST_B,dRPS_TEST_A_upper95,dRPS_TEST_B_upper95,p_noimprove_TEST_A,p_noimprove_TEST_B
+2026-11-04 14:48,1-tune,poisson,tuned settings reused from previous run (deterministic),tuned,"{""target"": ""goals"", ""dc"": false, ""half_life"": 365}",,,,,,,,,
+2026-11-04 14:48,1-tune,dixon_coles,tuned settings reused from previous run (deterministic),tuned,"{""target"": ""goals"", ""dc"": true, ""half_life"": 365}",,,,,,,,,
+2026-11-04 14:49,1-tune,xg,tuned settings reused from previous run (deterministic),tuned,"{""target"": ""xg"", ""dc"": true, ""reg"": 1}",,,,,,,,,
+2026-11-04 14:49,1-tune,xg_goals_mix,tuned settings reused from previous run (deterministic),tuned,"{""target"": ""mix"", ""dc"": true, ""reg"": 1, ""xg_weight"": 0.7}",,,,,,,,,
+2026-11-04 14:49,1-tune,market,tuned settings reused from previous run (deterministic),tuned,"{""target"": ""market"", ""dc"": true, ""half_life"": 90, ""reg"": 0.5, ""season_decay"": 0.5}",,,,,,,,,
+2026-11-04 14:49,1-tune,elo,tuned settings reused from previous run (deterministic),tuned,"{""k"": 10, ""home"": 40, ""season_regress"": 0.15}",,,,,,,,,
+2026-11-04 14:49,2-compare,poisson,"tuned model, walk-forward",,,0.19897,0.19987,0.20593,,,,,,
+2026-11-04 14:49,2-compare,dixon_coles,"tuned model, walk-forward",,,0.19913,0.19986,0.20586,,,,,,
+2026-11-04 14:49,2-compare,xg,"tuned model, walk-forward",,,0.19834,0.19793,0.20238,,,,,,
+2026-11-04 14:49,2-compare,xg_goals_mix,"tuned model, walk-forward",,,0.19812,0.19749,0.20243,,,,,,
+2026-11-04 14:49,2-compare,market,"tuned model, walk-forward",,,0.19786,0.19442,0.20503,,,,,,
+2026-11-04 14:49,2-compare,elo,"tuned model, walk-forward",,,0.20059,0.19819,0.20727,,,,,,
+2026-11-04 14:49,2-compare,closing_market,margin-free closing odds (benchmark),,,0.19586,0.18875,0.20082,,,,,,
+2026-11-04 14:49,3-blend,best single model (market),reference for blending (best on TUNE),baseline,,0.19786,0.19442,0.20503,,,,,,
+2026-11-04 14:49,3-blend,xg_goals_mix+market,"geometric blend of expected goals {""xg_goals_mix"": 0.4, ""market"": 0.6}",dropped,,0.19712,0.19513,0.20338,0.0007,-0.00169,0.00154,-0.00075,0.911,0.004
+2026-11-04 14:49,3-blend,xg_goals_mix+market+elo,"geometric blend of expected goals {""xg_goals_mix"": 0.4, ""market"": 0.6, ""elo"": 0.0}",dropped,,0.19712,0.19513,0.20338,0.0007,-0.00169,0.00154,-0.00075,0.911,0.004
+2026-11-04 14:49,3-blend,xg+dixon_coles+market,"geometric blend of expected goals {""xg"": 0.3, ""dixon_coles"": 0.1, ""market"": 0.6}",dropped,,0.19713,0.19524,0.20346,0.00081,-0.00161,0.00163,-0.00068,0.947,0.003
+2026-11-04 14:49,3-blend,xg+market+elo,"geometric blend of expected goals {""xg"": 0.4, ""market"": 0.6, ""elo"": 0.0}",dropped,,0.19716,0.19517,0.20327,0.00073,-0.0018,0.00164,-0.0008,0.902,0.003
+2026-11-04 14:50,3-blend,xg_goals_mix+dixon_coles+market+elo,"geometric blend of expected goals {""xg_goals_mix"": 0.4, ""dixon_coles"": 0.0, ""market"": 0.6, ""elo"": 0.0}",dropped,,0.19712,0.19513,0.20338,0.0007,-0.00169,0.00154,-0.00075,0.911,0.004
+2026-11-04 14:50,4-structural,no_crowd_home_adv,separate home advantage for matches without crowds (Jun 2020-May 2021),dropped,,0.1978,0.19443,0.20506,-0.0,0.0,0.0,0.0,0.068,0.832
+2026-11-04 14:51,4-structural,promoted_prior,promoted clubs' ratings start at the historical promoted-club average,dropped,,0.19735,0.19414,0.20509,-0.0003,2e-05,0.00023,0.00057,0.225,0.531
+2026-11-04 14:51,4-structural,red_card_downweight,matches with a red card count half in the rating fit (red cards as luck),dropped,,0.19784,0.19449,0.20524,5e-05,0.00017,0.00016,0.00029,0.784,0.996
+2026-11-04 14:51,4-structural,npxg_plus_avg_penalties,xG model rebuilt on non-penalty xG + average penalty value (penalties treated as luck); compared with the xG model,dropped,information only: the xG model is not in the selected blend,0.19848,0.19825,0.20247,0.00032,0.0001,0.00116,0.00068,0.725,0.618
+2026-11-04 14:51,5-factor,draw_bias,Global draw-rate correction,dropped,"coefficients {""beta"": [], ""delta"": [-0.1]}",0.19768,0.19446,0.20553,3e-05,0.00046,0.00033,0.00076,0.579,0.995
+2026-11-04 14:51,5-factor,early_season,Pull both sides towards each other in the first 7 rounds (early-season uncertainty),dropped,"coefficients {""beta"": [-0.0077], ""delta"": []}",0.19773,0.19445,0.20509,1e-05,3e-05,4e-05,5e-05,0.709,0.98
+2026-11-04 14:51,5-factor,promoted_early,Newly promoted side in the first 11 rounds,dropped (gain within noise),"coefficients {""beta"": [-0.0397, 0.2121], ""delta"": []}",0.19736,0.19402,0.20487,-0.00041,-0.00019,0.00012,0.00034,0.104,0.268
+2026-11-04 14:51,5-factor,rest_days,Short rest (3 days or fewer) for either side,dropped,"coefficients {""beta"": [0.0469, -0.1433], ""delta"": []}",0.19729,0.19324,0.20673,-0.0012,0.00167,-0.00022,0.00274,0.021,0.997
+2026-11-04 14:51,5-factor,rest_diff,Difference in days of rest between the sides,dropped,"coefficients {""beta"": [0.0014], ""delta"": []}",0.19771,0.19445,0.20503,2e-05,-4e-05,5e-05,0.0,0.792,0.06
+2026-11-04 14:51,5-factor,euro_congestion,UEFA match within 3 days before or 4 days after,dropped,"coefficients {""beta"": [0.0252, -0.0758, -0.0092], ""delta"": []}",0.19781,0.19443,0.20556,-0.0,0.00049,0.00029,0.00097,0.506,0.971
+2026-11-04 14:51,5-factor,manager_change,New manager or caretaker appointed in the last 60 days,dropped (gain within noise),"coefficients {""beta"": [-0.0261, 0.0004], ""delta"": []}",0.1978,0.19432,0.20506,-0.00011,-0.0,5e-05,0.00016,0.137,0.469
+2026-11-04 14:51,5-factor,derby,Derby (same city or classic rivalry): goal level and draw rate,dropped (gain within noise),"coefficients {""beta"": [-0.0253], ""delta"": [0.05]}",0.19771,0.19441,0.20502,-2e-05,-4e-05,8e-05,6e-05,0.362,0.255
+2026-11-04 14:51,5-factor,motivation,End of season (last 10 games): side has nothing left to play for,dropped (gain within noise),"coefficients {""beta"": [0.0762, 0.1178], ""delta"": [-0.5]}",0.19771,0.19435,0.20503,-9e-05,-3e-05,8e-05,0.00029,0.203,0.46
+2026-11-04 14:51,5-factor,finishing_luck,Recent goals minus xG (finishing / goalkeeping over-performance),dropped,"coefficients {""beta"": [-0.013, 0.0367], ""delta"": []}",0.19773,0.19459,0.20519,0.00015,0.00012,0.00033,0.00031,0.923,0.862
+2026-11-04 14:51,5-factor,penalty_skill,Penalties won per game over the last 38 games,dropped,"coefficients {""beta"": [-0.1469], ""delta"": []}",0.19767,0.1946,0.20495,0.00016,-0.00012,0.00034,0.0001,0.922,0.184
+2026-11-04 14:51,5-factor,red_card_rate,Red cards per game over the last 38 games (discipline),dropped,"coefficients {""beta"": [0.2115, 0.0817], ""delta"": []}",0.19773,0.19454,0.20507,0.00011,0.0,0.0002,0.00011,0.968,0.525
+2026-11-04 14:51,5-factor,set_pieces,Corner differential over the last 19 games (set-piece proxy),dropped,"coefficients {""beta"": [-0.0012, -0.0015], ""delta"": []}",0.19772,0.19444,0.20506,0.0,-1e-05,2e-05,1e-05,0.599,0.164
+2026-11-04 14:51,5-factor,form,xG difference over the last 5 games (form beyond long-term rating),dropped (gain within noise),"coefficients {""beta"": [0.0258, 0.0059], ""delta"": []}",0.19761,0.19414,0.20495,-0.0003,-0.00011,7e-05,0.0002,0.085,0.26
+2026-11-04 14:51,5-factor,lineup_strength,"Starting-XI attacking value vs the team's norm (absences, signings)",dropped,"coefficients [0.1402, -0.4028]",0.19773,0.18566,0.20689,0.0003,0.00183,0.00226,0.00345,0.588,0.973

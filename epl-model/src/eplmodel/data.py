@@ -84,9 +84,8 @@ def fetch_all(refresh: bool = True, log=print) -> dict:
     used = {}
     for code in SEASONS:
         dest = CACHE / "fd" / f"{code}_E0.csv"
-        if dest.exists() and code != CURRENT and not refresh_past_needed(dest):
-            continue
-        if dest.exists() and code == CURRENT and not refresh:
+        # completed seasons are downloaded once; the current season is refreshed on every run
+        if dest.exists() and dest.stat().st_size > 1000 and (code != CURRENT or not refresh):
             continue
         used[f"fd_{code}"] = _download([FD_DIRECT.format(code=code), FD_MIRROR.format(code=code)], dest)
         log(f"  football-data {label(code)} <- {used[f'fd_{code}']}")
@@ -116,10 +115,6 @@ def fetch_all(refresh: bool = True, log=print) -> dict:
             raise DataUnavailable(f"git clone/fetch of {url} failed: {e}") from e
         log(f"  {name} synced from {url}")
     return used
-
-
-def refresh_past_needed(dest) -> bool:
-    return dest.stat().st_size < 1000
 
 
 # --------------------------------------------------------------------------------------------

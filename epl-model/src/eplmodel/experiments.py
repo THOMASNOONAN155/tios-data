@@ -20,8 +20,8 @@ from datetime import datetime, timezone
 import numpy as np
 import pandas as pd
 
-from . import adjust, data, evaluate as ev, features, models
-from .config import CACHE, CONFIG, LIVE, REPORTS, TEST_A, TEST_B, TUNE
+from . import adjust, data, evaluate as ev, models
+from .config import CACHE, LIVE, TEST_A, TEST_B, TUNE
 
 PERIODS = {"TUNE": TUNE, "TEST_A": TEST_A, "TEST_B": TEST_B, "LIVE": LIVE}
 LOG = []
@@ -123,7 +123,7 @@ def tune_blend(preds, m, names, step=0.1):
     for combo in itertools.product(range(k + 1), repeat=len(names)):
         if sum(combo) != k:
             continue
-        w = {n: c * step for n, c in zip(names, combo)}
+        w = {n: round(c * step, 2) for n, c in zip(names, combo)}
         s = period_rps(blend(preds, w), m, ("TUNE",))["TUNE"]
         if s < best_s:
             best, best_s = w, s
@@ -250,7 +250,7 @@ def run_all(m: pd.DataFrame, f: pd.DataFrame, quick=False, reuse_tuning=False):
     print("Stage 5: factors")
     promoted = data.promoted_teams(m)
     F = adjust.prepare(f, m, promoted)
-    kept, kept_params = [], None
+    kept = []
     tune_idx = base.index[m.loc[base.index, "season"].isin(TUNE)]
     current_pred = base
 
@@ -263,10 +263,10 @@ def run_all(m: pd.DataFrame, f: pd.DataFrame, quick=False, reuse_tuning=False):
         k = len(adjust.FACTORS[name].get("goals", []))
         own = {"beta": [round(x, 4) for x in params["beta"][-k:]] if k else [],
                "delta": [round(x, 4) for x in params["delta"]]}
-        if judge("5-factor", name, json.dumps(adjust.FACTORS[name]), new, current_pred, m,
+        if judge("5-factor", name, adjust.DESCRIPTIONS[name], new, current_pred, m,
                  note="coefficients " + json.dumps(own)):
             kept.append(name)
-            kept_params, current_pred = params, new
+            current_pred = new
     # lineup strength: data only from 2022-23, so fit on 2022-23 and judge on 2023-24 and TEST_B
     lu_fit = base.index[(m.loc[base.index, "season"] == "2022-23") & F.loc[base.index, "xi_rel_h"].notna()]
     params = adjust.fit(F.loc[lu_fit], current_pred.loc[lu_fit], m.loc[lu_fit], adjust.merge_specs(["lineup_strength"]))

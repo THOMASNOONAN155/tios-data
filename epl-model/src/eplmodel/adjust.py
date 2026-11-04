@@ -34,6 +34,25 @@ FACTORS = {
 }
 
 
+DESCRIPTIONS = {
+    "rest_days": "Short rest (3 days or fewer) for either side",
+    "rest_diff": "Difference in days of rest between the sides",
+    "euro_congestion": "UEFA match within 3 days before or 4 days after",
+    "manager_change": "New manager or caretaker appointed in the last 60 days",
+    "early_season": "Pull both sides towards each other in the first 7 rounds (early-season uncertainty)",
+    "promoted_early": "Newly promoted side in the first 11 rounds",
+    "derby": "Derby (same city or classic rivalry): goal level and draw rate",
+    "motivation": "End of season (last 10 games): side has nothing left to play for",
+    "finishing_luck": "Recent goals minus xG (finishing / goalkeeping over-performance)",
+    "penalty_skill": "Penalties won per game over the last 38 games",
+    "red_card_rate": "Red cards per game over the last 38 games (discipline)",
+    "set_pieces": "Corner differential over the last 19 games (set-piece proxy)",
+    "form": "xG difference over the last 5 games (form beyond long-term rating)",
+    "lineup_strength": "Starting-XI attacking value vs the team's norm (absences, signings)",
+    "draw_bias": "Global draw-rate correction",
+}
+
+
 def prepare(f: pd.DataFrame, m: pd.DataFrame, promoted: dict) -> pd.DataFrame:
     """Derived feature columns used by FACTORS."""
     f = f.copy()

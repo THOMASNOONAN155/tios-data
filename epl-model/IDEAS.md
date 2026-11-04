@@ -1,29 +1,34 @@
 # Ideas backlog
 
-Ranked by expected value for accuracy/insight versus effort. "Tested" items were run through the
-walk-forward protocol in `backtest.py` (results in `reports/EXPERIMENTS.md`); the rest are untested.
+Ranked by expected value for accuracy or insight versus effort. "Tested" items went through the walk-forward
+protocol in `backtest.py`, with the bootstrap significance rule; results are in `reports/EXPERIMENTS.md`. The
+rest are untested, with the reason.
 
-| # | Idea | Value | Effort | Status |
+| # | Idea | Value | Effort | Status / result |
 |---|---|---|---|---|
-| 1 | Blend goals, xG and market-based ratings | High | Low | Tested (stage 3) |
-| 2 | Tune time decay / season-boundary decay (form vs long-term strength) | High | Low | Tested (stage 1) |
-| 3 | Dixon-Coles low-score correction and an explicit draw adjustment | High | Low | Tested |
-| 4 | Promoted-team prior and early-season shrinkage | Medium | Low | Tested |
-| 5 | Rest days, European congestion | Medium | Medium | Tested (UEFA coverage partial) |
-| 6 | Manager change ("new manager bounce") | Medium | Low | Tested |
-| 7 | Starting-XI strength from player xG+xA (absences, signings) | High | High | Tested on 2022-26 only; needs lineup feed for live use |
-| 8 | Finishing luck, penalties, red cards: skill or luck | Medium | Low | Tested (+ persistence analysis) |
-| 9 | Derbies and end-of-season motivation | Low | Low | Tested |
-| 10 | Set pieces (corner differential as proxy) | Low | Low | Tested |
-| 11 | Championship (E1) results/odds to rate promoted clubs before they arrive | Medium | Medium | Untested – football-data E1 files are in the same mirror |
-| 12 | Shot-level xG (Poisson-binomial per shot, set-piece vs open play split) | Medium | High | Untested – no reachable shot-level source (Understat/FBref blocked here) |
-| 13 | Live injury/availability feed (FPL `chance_of_playing`) for the upcoming gameweek | High | Medium | Untested – FPL API blocked here; vaastav snapshot lags |
-| 14 | Domestic cup fixtures (FA Cup, League Cup) for congestion | Low | Medium | Untested – no reachable fixture source |
-| 15 | Bivariate Poisson / Weibull count model instead of DC | Low | Medium | Untested |
-| 16 | Team-specific home advantage (shrunk) | Low | Low | Untested |
-| 17 | ClubElo ratings as an extra blend input | Medium | Low | Untested – snapshot timing could leak same-day results |
-| 18 | Referee tendencies (cards, penalties) | Low | Low | Untested |
-| 19 | Weather, pitch, kickoff time, travel distance | Low | Medium | Untested |
-| 20 | Betting value / Kelly staking vs closing odds | Insight | Low | Not pursued – model does not beat the close |
-| 21 | Opening-to-closing line movement as information signal | Medium | Medium | Untested – needs opening odds (football-data pre-closing columns exist) |
-| 22 | Squad market value / wage bill as long-run prior | Medium | Medium | Untested – no free reachable source |
+| 1 | Market-based ratings from past closing odds | High | Low | **Tested – chosen model** (best on tuning seasons) |
+| 2 | Blend goals, xG, market and Elo ratings | High | Low | Tested – helps Test B, hurts Test A; dropped |
+| 3 | Tune time decay and season-boundary decay (form vs long-term strength) | High | Low | Tested – tuned (market: 90-day half-life, previous seasons ×0.5) |
+| 4 | xG vs goals weighting | High | Low | Tested – 70% xG best among goal models; xG beats goals on both test periods |
+| 5 | Dixon-Coles correction and explicit draw adjustment | High | Low | Dixon-Coles used; extra draw correction dropped |
+| 6 | Recent form (xG difference, last 5) on top of ratings | Medium | Low | Tested – small gain on both periods, within noise; dropped |
+| 7 | Promoted-team prior / early-season effects | Medium | Low | Tested – within noise or worse; dropped |
+| 8 | Rest days, European congestion | Medium | Medium | Tested – unstable across periods; dropped (UEFA coverage partial) |
+| 9 | Manager change | Medium | Low | Tested – within noise; dropped |
+| 10 | Starting-XI strength (absences, signings) | High | High | Tested 2022-26 – worse; dropped. Would need a real lineup/injury feed |
+| 11 | Finishing luck, penalties, red cards | Medium | Low | Tested – no gain; persistence analysis confirms mostly luck |
+| 12 | No-crowd home advantage (2020-21) | Medium | Low | Tested – no change on test periods; dropped |
+| 13 | Derbies, end-of-season motivation, set pieces (corners) | Low | Low | Tested – within noise; shown as notes on the Dashboard only |
+| 14 | Recalibrate the market-based model's draw rate for 2024-26 (draws under-predicted) | Medium | Low | Untested – watch for one more season before acting |
+| 15 | Championship (E1) results and odds to rate promoted clubs before they arrive | Medium | Medium | Untested – the football-data E1 files are in the same mirror |
+| 16 | Live injury/availability feed (FPL `chance_of_playing`) | High | Medium | Untested – FPL API blocked here; the vaastav snapshot lags |
+| 17 | Shot-level xG (per-shot model, set-piece vs open-play split) | Medium | High | Untested – no reachable shot-level source |
+| 18 | Opening-to-closing line movement as an information signal | Medium | Medium | Untested – pre-closing odds exist in football-data files |
+| 19 | Domestic cup fixtures for congestion | Low | Medium | Untested – no reachable fixture source |
+| 20 | ClubElo ratings as a blend input | Medium | Low | Untested – snapshot timing could leak same-day results |
+| 21 | Bivariate Poisson / Weibull count model instead of Dixon-Coles | Low | Medium | Untested |
+| 22 | Team-specific home advantage (shrunk) | Low | Low | Untested |
+| 23 | Referee tendencies (cards, penalties) | Low | Low | Untested |
+| 24 | Squad market value / wage bill as a long-run prior | Medium | Medium | Untested – no free reachable source |
+| 25 | Weather, kickoff time, travel distance | Low | Medium | Untested |
+| 26 | Betting value / staking vs closing odds | Insight | Low | Not pursued – the model does not beat the close |

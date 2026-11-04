@@ -3,16 +3,11 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 
-import numpy as np
 import pandas as pd
 
 from . import evaluate as ev
 from .config import N_SIMS, REPORTS
 from .predictor import compact_grid
-
-
-def _pct(x):
-    return f"{x:.0%}"
 
 
 def match_notes(F, idx, gw_fx):
@@ -86,7 +81,10 @@ def build_context(season, gw, gw_fx, out, pr, luck, sos, fdiff, sims, m, live_pr
     tf = REPORTS / "latest_tests.csv"
     if tf.exists():
         t0 = pd.read_csv(tf)
-        t0 = t0[t0["stage"].isin(["3-blend", "4-structural", "5-factor"])]
+        t0 = t0[t0["stage"].isin(["3-blend", "4-structural", "5-factor"])].copy()
+        from .adjust import DESCRIPTIONS
+        fac = t0["stage"] == "5-factor"
+        t0.loc[fac, "description"] = t0.loc[fac, "test"].map(DESCRIPTIONS).fillna(t0.loc[fac, "description"])
         tests = pd.DataFrame({"Stage": t0["stage"], "Test": t0["test"], "Decision": t0["decision"],
                               "RPS Test A": t0.get("RPS_TEST_A"), "RPS Test B": t0.get("RPS_TEST_B"),
                               "dRPS Test A": t0.get("dRPS_TEST_A"), "Upper95 A": t0.get("dRPS_TEST_A_upper95"),

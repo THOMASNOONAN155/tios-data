@@ -18,7 +18,7 @@ import numpy as np
 import pandas as pd
 
 from eplmodel import adjust, data, evaluate as ev, experiments as ex, features, models, predictor, simulate
-from eplmodel.config import CACHE, CONFIG, LIVE, REPORTS, TEST_A, TEST_B, TUNE
+from eplmodel.config import CONFIG, LIVE, REPORTS, TEST_A, TEST_B, TUNE
 
 PERIOD_ROWS = [("Tuning 2018-22", TUNE), ("Test A 2022-24", TEST_A), ("Test B 2024-26", TEST_B), ("Live 2026-27", LIVE)]
 
@@ -193,7 +193,10 @@ def main(quick=False, reuse_tuning=False):
              "only if its gain is clearly bigger than noise on both Test A (2022-24) and Test B (2024-26): a paired "
              "bootstrap over match dates (2,000 resamples) must put the one-sided 95% upper bound of dRPS below zero "
              "in each period. Parameters and coefficients are fitted on the tuning seasons (2018-22) only. "
-             "Full history across runs: `experiment_log.csv`.", "", fmt_table(logdf.fillna(""), 5)]
+             "Full history across runs: `experiment_log.csv`.", "",
+             fmt_table(logdf[[c for c in ["stage", "test", "description", "decision", "RPS_TUNE", "RPS_TEST_A", "RPS_TEST_B",
+                                          "dRPS_TEST_A", "dRPS_TEST_A_upper95", "dRPS_TEST_B", "dRPS_TEST_B_upper95",
+                                          "note"] if c in logdf]].fillna(""), 5)]
     (REPORTS / "EXPERIMENTS.md").write_text("\n".join(ex_md) + "\n")
     main_rows = acc[acc["Forecaster"].isin(["Model (final)", "Closing market"])]
     md = ["# Backtest results", "",

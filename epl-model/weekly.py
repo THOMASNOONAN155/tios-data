@@ -8,7 +8,6 @@ Outputs: output/EPL_Model.xlsx, output/weekly_report.md, output/predictions.csv
 """
 import sys
 import time
-from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))

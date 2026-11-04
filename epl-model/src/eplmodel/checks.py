@@ -8,7 +8,7 @@ from . import data
 from .config import CACHE, REPORTS
 
 
-def _pair(m, other, cols, max_days=3):
+def _pair(m, other, max_days=3):
     j = m.reset_index().merge(other, on=["home", "away"], suffixes=("", "_o"))
     j = j[(j["date"] - j["date_o"]).abs().dt.days <= max_days]
     return j.drop_duplicates("index")
@@ -31,7 +31,7 @@ def run(m: pd.DataFrame) -> tuple[list[str], dict]:
     for s, g in m.groupby("season"):
         row = [s, str(len(g))]
         for other in (fx, of):
-            j = _pair(g, other[other["season"] == s].drop(columns="season"), [])
+            j = _pair(g, other[other["season"] == s].drop(columns="season"))
             bad = j[(j["hg"] != j["hg_o"]) | (j["ag"] != j["ag_o"])]
             total_mis += len(bad)
             examples += [f"{r.season} {r.home} v {r.away} ({r.date:%Y-%m-%d}): football-data {r.hg}-{r.ag}, "
@@ -58,7 +58,7 @@ def run(m: pd.DataFrame) -> tuple[list[str], dict]:
         x = pd.DataFrame({"home": x["HomeTeam"].map(data.team), "away": x["AwayTeam"].map(data.team),
                           "date_o": pd.to_datetime(x["MatchDate"]), "hg_o": x["FTHome"], "ag_o": x["FTAway"],
                           "b365_H_o": x["OddHome"], "elo_h": x["HomeElo"], "elo_a": x["AwayElo"]})
-        j = _pair(m, x, [])
+        j = _pair(m, x)
         # the compilation's "OddHome" is Bet365 in some seasons and the market average in others:
         # count a match as consistent if it equals either pre-match price in our primary file
         avg = pd.concat([pd.read_csv(CACHE / "fd" / f, encoding="utf-8-sig", usecols=lambda c: c in (

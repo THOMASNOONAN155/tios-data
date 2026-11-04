@@ -1,71 +1,71 @@
 # Premier League 2026-27 — Gameweek 10
 
-Fri 06 Nov – Sun 08 Nov 2026 · generated 2026-11-04 14:25 UTC · results to 02 Nov 2026 · self-test PASSED
+Fri 06 Nov – Sun 08 Nov 2026 · generated 2026-11-04 15:03 UTC · results to 02 Nov 2026 · self-test PASSED
 
 ## Matches
 
-| Kickoff | Match | xG | Most likely | H / D / A | Over 2.5 | BTTS | Top 5 scores |
-|---|---|---|---|---|---|---|---|
-| Fri 06 Nov 20:00 | Everton v Coventry | 1.43 – 0.91 | 1-1 (13%) | 48% / 29% / 23% | 41% | 46% | 1-1 13%, 1-0 13%, 0-0 11%, 2-0 10%, 2-1 9% |
-| Sat 07 Nov 12:30 | Leeds v Tottenham | 1.37 – 1.14 | 1-1 (14%) | 41% / 28% / 30% | 46% | 52% | 1-1 14%, 1-0 10%, 0-0 9%, 2-1 9%, 0-1 8% |
-| Sat 07 Nov 15:00 | Arsenal v Hull | 1.78 – 0.55 | 1-0 (17%) | 67% / 23% / 10% | 41% | 36% | 1-0 17%, 2-0 15%, 0-0 10%, 1-1 10%, 3-0 9% |
-| Sat 07 Nov 15:00 | Fulham v Newcastle | 1.55 – 1.32 | 1-1 (12%) | 42% / 26% / 32% | 55% | 59% | 1-1 12%, 2-1 9%, 1-0 8%, 1-2 8%, 2-0 7% |
-| Sat 07 Nov 17:30 | Nott'm Forest v Man City | 1.14 – 1.65 | 1-1 (12%) | 26% / 26% / 48% | 53% | 56% | 1-1 12%, 1-2 10%, 0-1 9%, 0-2 8%, 0-0 7% |
-| Sun 08 Nov 14:00 | Brighton v Brentford | 1.82 – 1.31 | 1-1 (11%) | 49% / 24% / 27% | 60% | 62% | 1-1 11%, 2-1 9%, 2-0 7%, 1-0 7%, 1-2 7% |
-| Sun 08 Nov 14:00 | Crystal Palace v Liverpool | 1.23 – 1.71 | 1-1 (12%) | 27% / 25% / 48% | 56% | 59% | 1-1 12%, 1-2 10%, 0-1 8%, 0-2 8%, 2-1 7% |
-| Sun 08 Nov 14:00 | Ipswich v Bournemouth | 1.24 – 2.00 | 1-1 (10%) | 23% / 23% / 54% | 63% | 62% | 1-1 10%, 1-2 10%, 0-2 8%, 0-1 7%, 1-3 6% |
-| Sun 08 Nov 14:00 | Sunderland v Chelsea | 1.20 – 1.54 | 1-1 (13%) | 29% / 27% / 44% | 52% | 56% | 1-1 13%, 1-2 9%, 0-1 9%, 0-2 8%, 0-0 7% |
-| Sun 08 Nov 16:30 | Man United v Aston Villa | 1.63 – 1.30 | 1-1 (12%) | 44% / 26% / 30% | 56% | 59% | 1-1 12%, 2-1 9%, 1-0 8%, 1-2 7%, 2-0 7% |
+| Kickoff | Match | xG | Most likely | H / D / A | Over 2.5 | BTTS | Top 5 scores | Notes |
+|---|---|---|---|---|---|---|---|---|
+| Fri 06 Nov 20:00 | Everton v Coventry | 1.80 – 1.04 | 1-1 (12%) | 55% / 25% / 21% | 54% | 55% | 1-1 12%, 2-1 10%, 1-0 10%, 2-0 9%, 0-0 7% | Coventry newly promoted |
+| Sat 07 Nov 12:30 | Leeds v Tottenham | 1.45 – 1.32 | 1-1 (13%) | 39% / 27% / 34% | 52% | 57% | 1-1 13%, 2-1 9%, 1-0 8%, 1-2 8%, 0-1 8% |  |
+| Sat 07 Nov 15:00 | Arsenal v Hull | 2.94 – 0.53 | 2-0 (14%) | 85% / 11% / 4% | 67% | 39% | 2-0 14%, 3-0 13%, 4-0 10%, 1-0 9%, 2-1 7% | Hull newly promoted |
+| Sat 07 Nov 15:00 | Fulham v Newcastle | 1.52 – 1.47 | 1-1 (12%) | 38% / 26% / 36% | 57% | 61% | 1-1 12%, 2-1 9%, 1-2 8%, 1-0 7%, 0-1 7% |  |
+| Sat 07 Nov 17:30 | Nott'm Forest v Man City | 1.06 – 1.97 | 1-1 (11%) | 19% / 23% / 58% | 58% | 57% | 1-1 11%, 1-2 10%, 0-2 9%, 0-1 9%, 1-3 7% |  |
+| Sun 08 Nov 14:00 | Brighton v Brentford | 1.73 – 1.31 | 1-1 (12%) | 47% / 25% / 28% | 58% | 61% | 1-1 12%, 2-1 9%, 1-0 8%, 2-0 7%, 1-2 7% |  |
+| Sun 08 Nov 14:00 | Crystal Palace v Liverpool | 1.17 – 1.95 | 1-1 (11%) | 22% / 23% / 55% | 60% | 60% | 1-1 11%, 1-2 10%, 0-2 8%, 0-1 8%, 1-3 6% |  |
+| Sun 08 Nov 14:00 | Ipswich v Bournemouth | 1.24 – 1.68 | 1-1 (12%) | 28% / 25% / 47% | 56% | 59% | 1-1 12%, 1-2 9%, 0-1 8%, 0-2 8%, 2-1 7% | Ipswich newly promoted |
+| Sun 08 Nov 14:00 | Sunderland v Chelsea | 1.12 – 1.58 | 1-1 (13%) | 26% / 27% / 47% | 51% | 54% | 1-1 13%, 0-1 10%, 1-2 9%, 0-2 8%, 0-0 7% |  |
+| Sun 08 Nov 16:30 | Man United v Aston Villa | 1.99 – 1.21 | 1-1 (10%) | 55% / 23% / 22% | 62% | 61% | 1-1 10%, 2-1 10%, 2-0 8%, 1-0 8%, 3-1 6% |  |
 
 ## Power rankings
 
 | # | Move | Team | Net | Attack | Defence | xGD/game |
 |---|---|---|---|---|---|---|
-| 1 | – | Arsenal | +0.89 | 1.71 | 0.82 | +0.85 |
-| 2 | – | Man City | +0.75 | 1.87 | 1.12 | +0.77 |
-| 3 | – | Liverpool | +0.44 | 1.65 | 1.21 | +0.29 |
-| 4 | – | Brighton | +0.36 | 1.63 | 1.28 | +0.44 |
-| 5 | ▲1 | Chelsea | +0.22 | 1.62 | 1.40 | +0.05 |
-| 6 | ▼1 | Bournemouth | +0.19 | 1.54 | 1.35 | +0.65 |
-| 7 | – | Brentford | +0.13 | 1.52 | 1.39 | +0.18 |
-| 8 | – | Man United | +0.09 | 1.50 | 1.42 | -0.07 |
-| 9 | – | Newcastle | -0.03 | 1.46 | 1.49 | -0.60 |
-| 10 | – | Aston Villa | -0.04 | 1.38 | 1.41 | -0.47 |
-| 11 | – | Leeds | -0.06 | 1.27 | 1.33 | -0.04 |
-| 12 | – | Nott'm Forest | -0.10 | 1.25 | 1.35 | +0.58 |
-| 13 | – | Fulham | -0.13 | 1.24 | 1.38 | +0.11 |
-| 14 | – | Everton | -0.17 | 1.18 | 1.35 | -0.10 |
-| 15 | ▲1 | Tottenham | -0.18 | 1.23 | 1.42 | +0.18 |
-| 16 | ▼1 | Crystal Palace | -0.30 | 1.29 | 1.59 | -0.88 |
-| 17 | – | Hull | -0.35 | 1.03 | 1.38 | -0.46 |
-| 18 | – | Sunderland | -0.37 | 1.11 | 1.48 | -0.28 |
-| 19 | – | Coventry | -0.55 | 1.03 | 1.58 | -0.59 |
-| 20 | – | Ipswich | -0.78 | 1.18 | 1.96 | -0.64 |
+| 1 | – | Arsenal | +1.15 | 2.04 | 0.88 | +0.85 |
+| 2 | – | Man City | +1.12 | 2.20 | 1.08 | +0.77 |
+| 3 | – | Liverpool | +0.65 | 1.92 | 1.27 | +0.29 |
+| 4 | – | Chelsea | +0.46 | 1.77 | 1.31 | +0.05 |
+| 5 | – | Man United | +0.41 | 1.76 | 1.35 | -0.07 |
+| 6 | – | Brighton | +0.25 | 1.61 | 1.36 | +0.44 |
+| 7 | – | Brentford | +0.11 | 1.56 | 1.45 | +0.18 |
+| 8 | – | Bournemouth | +0.05 | 1.48 | 1.43 | +0.65 |
+| 9 | – | Tottenham | +0.03 | 1.51 | 1.48 | +0.18 |
+| 10 | – | Newcastle | -0.02 | 1.53 | 1.56 | -0.60 |
+| 11 | ▲1 | Aston Villa | -0.09 | 1.45 | 1.54 | -0.47 |
+| 12 | ▼1 | Leeds | -0.11 | 1.32 | 1.43 | -0.04 |
+| 13 | – | Nott'm Forest | -0.19 | 1.30 | 1.49 | +0.58 |
+| 14 | – | Everton | -0.20 | 1.29 | 1.49 | -0.10 |
+| 15 | – | Fulham | -0.25 | 1.32 | 1.57 | +0.11 |
+| 16 | – | Sunderland | -0.33 | 1.15 | 1.48 | -0.28 |
+| 17 | – | Crystal Palace | -0.45 | 1.22 | 1.68 | -0.88 |
+| 18 | – | Ipswich | -0.71 | 1.16 | 1.88 | -0.64 |
+| 19 | – | Coventry | -0.79 | 1.13 | 1.91 | -0.59 |
+| 20 | – | Hull | -1.10 | 0.94 | 2.04 | -0.46 |
 
 ## Season odds (20,000 simulations)
 
 | Team | Pts now | Projected | Title | Top 4 | Top 5 | Relegation |
 |---|---|---|---|---|---|---|
-| Arsenal | 24 | 81.3 | 73.8% | 99.7% | 99.9% | 0.0% |
-| Man City | 21 | 73.9 | 21.1% | 94.5% | 97.7% | 0.0% |
-| Brighton | 19 | 65.5 | 2.9% | 68.5% | 81.2% | 0.0% |
-| Liverpool | 15 | 63.8 | 1.4% | 56.1% | 72.6% | 0.0% |
-| Chelsea | 16 | 59.9 | 0.5% | 32.6% | 50.4% | 0.1% |
-| Bournemouth | 12 | 56.2 | 0.2% | 16.6% | 29.7% | 0.8% |
-| Brentford | 14 | 55.3 | 0.1% | 13.7% | 25.3% | 0.8% |
-| Aston Villa | 12 | 51.4 | 0.0% | 4.7% | 10.0% | 3.3% |
-| Leeds | 11 | 49.7 | 0.0% | 3.0% | 6.9% | 5.0% |
-| Newcastle | 11 | 49.4 | 0.0% | 2.8% | 6.4% | 5.8% |
-| Everton | 13 | 49.3 | 0.0% | 2.7% | 6.2% | 5.5% |
-| Man United | 7 | 48.6 | 0.0% | 2.1% | 5.4% | 7.3% |
-| Tottenham | 12 | 47.6 | 0.0% | 1.6% | 3.8% | 8.4% |
-| Fulham | 9 | 45.3 | 0.0% | 0.7% | 1.9% | 15.2% |
-| Nott'm Forest | 6 | 44.1 | 0.0% | 0.4% | 1.3% | 19.7% |
-| Hull | 11 | 42.5 | 0.0% | 0.2% | 0.6% | 26.5% |
-| Crystal Palace | 7 | 41.5 | 0.0% | 0.2% | 0.5% | 34.2% |
-| Sunderland | 5 | 38.2 | 0.0% | 0.1% | 0.1% | 52.5% |
-| Coventry | 9 | 38.2 | 0.0% | 0.0% | 0.1% | 54.4% |
-| Ipswich | 11 | 37.3 | 0.0% | 0.0% | 0.1% | 60.7% |
+| Arsenal | 24 | 84.7 | 60.5% | 98.4% | 99.5% | 0.0% |
+| Man City | 21 | 79.6 | 31.7% | 94.2% | 97.2% | 0.0% |
+| Liverpool | 15 | 67.3 | 3.2% | 57.9% | 72.1% | 0.0% |
+| Brighton | 19 | 64.7 | 1.9% | 47.3% | 62.6% | 0.1% |
+| Chelsea | 16 | 64.7 | 2.0% | 45.5% | 61.0% | 0.1% |
+| Brentford | 14 | 55.8 | 0.3% | 13.1% | 22.9% | 1.3% |
+| Man United | 7 | 54.3 | 0.2% | 10.5% | 18.9% | 2.0% |
+| Bournemouth | 12 | 54.2 | 0.1% | 9.1% | 17.3% | 2.0% |
+| Tottenham | 12 | 52.0 | 0.1% | 6.2% | 11.9% | 3.2% |
+| Aston Villa | 12 | 51.1 | 0.0% | 5.2% | 10.0% | 4.5% |
+| Leeds | 11 | 49.6 | 0.0% | 3.3% | 7.3% | 5.2% |
+| Newcastle | 11 | 49.5 | 0.0% | 3.9% | 7.7% | 6.0% |
+| Everton | 13 | 49.3 | 0.0% | 3.3% | 6.8% | 6.0% |
+| Fulham | 9 | 43.5 | 0.0% | 0.8% | 1.9% | 17.5% |
+| Nott'm Forest | 6 | 42.5 | 0.0% | 0.6% | 1.5% | 20.3% |
+| Crystal Palace | 7 | 39.1 | 0.0% | 0.2% | 0.5% | 35.7% |
+| Sunderland | 5 | 39.1 | 0.0% | 0.2% | 0.4% | 34.4% |
+| Ipswich | 11 | 38.7 | 0.0% | 0.2% | 0.5% | 37.1% |
+| Coventry | 9 | 35.6 | 0.0% | 0.1% | 0.2% | 53.0% |
+| Hull | 11 | 31.8 | 0.0% | 0.0% | 0.0% | 71.5% |
 
 ## Luck (actual points minus expected points from xG)
 
@@ -96,7 +96,7 @@ Fri 06 Nov – Sun 08 Nov 2026 · generated 2026-11-04 14:25 UTC · results to 0
 
 | Forecaster | Matches | RPS | Log loss | Correct |
 |---|---|---|---|---|
-| Model | 90 | 0.2060 | 1.0191 | 51% |
+| Model | 90 | 0.2016 | 1.0061 | 49% |
 | Closing market | 90 | 0.2059 | 1.0190 | 48% |
 
 ## Self-test
@@ -108,9 +108,9 @@ Fri 06 Nov – Sun 08 Nov 2026 · generated 2026-11-04 14:25 UTC · results to 0
   [PASS] scores agree across sources (0 mismatches)
   [PASS] closing odds agree across mirrors (0 differing cells)
   [PASS] no look-ahead: scrambling future results leaves predictions unchanged (max change 0.00e+00 (2025-12-13))
-  [PASS] walk-forward 2025-26 RPS reproduces backtest (now 0.20700 vs backtest 0.20700)
+  [PASS] walk-forward 2025-26 RPS reproduces backtest (now 0.20721 vs backtest 0.20721)
   [PASS] scoreline grids and 1X2 sum to 1
-  [PASS] expected goals in plausible range (0.67-2.53)
+  [PASS] expected goals in plausible range (0.63-3.20)
   [PASS] all match probabilities in [0, 1]
   [PASS] season simulation probabilities consistent (title 1.000, top4 4.000, relegation 3.000)
   [PASS] Excel workbook opens with all sheets (missing: none)

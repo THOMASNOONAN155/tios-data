@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import numpy as np
-import pandas as pd
 import xlsxwriter
 
 from .predictor import compact_grid
@@ -28,6 +27,9 @@ class Book:
             "num1": wb.add_format({**base, "num_format": "0.0", "border": 1, "border_color": "#D9D9D9", "align": "center"}),
             "num2": wb.add_format({**base, "num_format": "0.00", "border": 1, "border_color": "#D9D9D9", "align": "center"}),
             "num3": wb.add_format({**base, "num_format": "0.000", "border": 1, "border_color": "#D9D9D9", "align": "center"}),
+            "num4": wb.add_format({**base, "num_format": "0.0000", "border": 1, "border_color": "#D9D9D9", "align": "center"}),
+            "delta": wb.add_format({**base, "num_format": "+0.00000;-0.00000;0.00000", "border": 1,
+                                    "border_color": "#D9D9D9", "align": "center"}),
             "int": wb.add_format({**base, "num_format": "0", "border": 1, "border_color": "#D9D9D9", "align": "center"}),
             "pct": wb.add_format({**base, "num_format": "0%", "border": 1, "border_color": "#D9D9D9", "align": "center"}),
             "pct1": wb.add_format({**base, "num_format": "0.0%", "border": 1, "border_color": "#D9D9D9", "align": "center"}),
@@ -81,7 +83,6 @@ def build(path, ctx):
     """ctx keys: gw, gw_dates, generated, matches(df), grids(list), rankings(df), history(df), luck(df),
     fixtures(df), sos(df), sims(df), accuracy(df), live(df), about(list[str])."""
     b = Book(path)
-    sheet_name = lambda s: s
 
     # Dashboard ------------------------------------------------------------------------------
     ws = b.sheet("Dashboard", f"Premier League {ctx['season']} — Gameweek {ctx['gw']} predictions",
@@ -230,14 +231,10 @@ def build(path, ctx):
     ft = ctx.get("tests")
     end = 3
     if ft is not None and len(ft):
-        num = [c for c in ft.columns if ft[c].dtype != object]
-        end = b.table(ws, ft, 3, fmts={c: "num3" if c.startswith("p ") else "num3" for c in num} |
-                      {c: "num3" for c in num if c.startswith("RPS")},
-                      widths={"Test": 26, "Decision": 24, "Description": 60, "Stage": 12},
+        fm = {c: "num4" for c in ft.columns if c.startswith("RPS")}
+        fm |= {c: "delta" for c in ft.columns if c.startswith("dRPS") or c.startswith("Upper")}
+        end = b.table(ws, ft, 3, fmts=fm, widths={"Test": 30, "Decision": 26, "Description": 70, "Stage": 12},
                       scales={c: RED_GREEN for c in ft.columns if c.startswith("dRPS")})
-        for c in [c for c in ft.columns if c.startswith("dRPS") or c.startswith("Upper")]:
-            j = list(ft.columns).index(c)
-            ws.set_column(j, j, 12, b.wb.add_format({"num_format": "+0.00000;-0.00000;0", "font_size": 10}))
     lv = ctx.get("luck_skill")
     if lv is not None and len(lv):
         ws.write(end + 2, 0, "Luck or skill? Correlation of each team measure with the same measure next season", b.f["h2"])

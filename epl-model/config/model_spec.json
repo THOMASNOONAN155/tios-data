@@ -1,0 +1,5 @@
+{"models": {"dixon_coles": {"cls": "RatingModel", "params": {"name": "dixon_coles", "target": "goals", "dc": true}},
+ "xg_goals_mix": {"cls": "RatingModel", "params": {"name": "xg_goals_mix", "target": "mix", "dc": true}},
+ "market": {"cls": "RatingModel", "params": {"name": "market", "target": "market", "dc": true}},
+ "elo": {"cls": "EloModel", "params": {"name": "elo"}}},
+ "blend": {"xg_goals_mix": 0.4, "market": 0.4, "elo": 0.2}, "rho_from": "dixon_coles", "factors": [], "sim_sigma": 0.05}

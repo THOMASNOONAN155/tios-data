@@ -4,16 +4,20 @@ Compares, walk-forward, on development (2012-19), holdout (2020-25) and live 202
   original model (baseline.py), new model (selected factors), Vegas closing line,
   and "new model + line" (blend weight fit only on earlier seasons) to test whether the model adds anything to the market.
 """
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))   # nfl-model/ on the path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from nflmodel.common import RESULTS, INPUTS, config
 import json, os, warnings
 import numpy as np, pandas as pd
 from scipy.stats import norm
 warnings.filterwarnings('ignore')
-from model import build_features, walk_forward, load_all
-from extra import build_extra, adjusted_line
-from metrics import evaluate, line_as_model, calibration_table, no_vig_prob
+from nflmodel.features import build_features, walk_forward, load_all
+from nflmodel.extra import build_extra, adjusted_line
+from nflmodel.metrics import evaluate, line_as_model, calibration_table, no_vig_prob
 import baseline
 
-SEL = json.load(open('results/selected.json')); PARAMS = json.load(open('results/params.json'))
+SEL = config(); PARAMS = SEL['ratings']
 PERIODS = {'Development 2012-19': range(2012, 2020), 'Holdout 2020-25': range(2020, 2026), 'Live 2026 (wks 1-8)': range(2026, 2027)}
 
 
@@ -49,11 +53,12 @@ def main():
     data = load_all()
     f = build_extra(build_features(PARAMS, data=data), data[0], data[1])
     new = walk_forward(f, SEL['features'], range(2010, 2027), **SEL['opts'])
-    R1 = json.load(open('results/selected_round1.json'))
+    R1 = dict(features=SEL['round1_features'], opts={})
     r1 = walk_forward(f, R1['features'], range(2010, 2027), **R1['opts'])
     adj = pd.concat([adjusted_line(f, s, SEL['line_adjust'])[0] for s in range(2012, 2027)])
     adj = adj[adj.spread_line.notna()].assign(pred=lambda d: d.pred_adj, prob=lambda d: d.prob_adj)
-    new.to_csv('results/predictions_new.csv', index=False)
+    keep = ['game_id', 'season', 'week', 'game_type', 'home_team', 'away_team', 'result', 'spread_line', 'pred', 'prob', 'sigma']
+    new[keep].round(4).to_csv(os.path.join(RESULTS, 'predictions_new.csv'), index=False)   # slim: what later research needs
     base = baseline.predict(range(2010, 2027))
     base_pr = base.assign(pred=base.pr_pred, prob=base.pr_prob)
     line = line_as_model(new)
@@ -67,7 +72,7 @@ def main():
     for p, s in PERIODS.items():
         R += [f'\n## {p}\n', table(M, list(s))]
     R += ['\n## 2026 Weeks 3-8 (the window used in the original README)\n', table(M, [2026], range(3, 9))]
-    orig = os.path.join('data', 'original_workbook_picks_2026.json')
+    orig = os.path.join(INPUTS, 'original_workbook_picks_2026.json')
     if os.path.exists(orig):
         mp = pd.DataFrame(json.load(open(orig)))
         mp[['a', 'h']] = mp.g.str.split('@', expand=True); mp[['a', 'h']] = mp[['a', 'h']].replace({'LAR': 'LA', 'WSH': 'WAS'})
@@ -118,7 +123,7 @@ def main():
         R.append(f"\nResult spread (sigma) used for win probabilities: {last.sigma.iloc[0]:.2f} pts")
         _, sg, cf = adjusted_line(f, 2026, SEL['line_adjust'])
         R.append(f"\nAdjusted line for 2026 = closing line + " + ' + '.join(f'{v:.3f} x {k}' for k, v in cf.items()) + f" (result spread {sg:.2f} pts)")
-    open('results/report.md', 'w').write('\n'.join(R) + '\n')
+    open(os.path.join(RESULTS, 'report.md'), 'w').write('\n'.join(R) + '\n')
     print('\n'.join(R))
 
 

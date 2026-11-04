@@ -2,8 +2,19 @@
 import math, os
 import numpy as np, pandas as pd
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-DATA = os.path.join(HERE, 'data')
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # nfl-model/
+CACHE = os.path.join(ROOT, 'cache')          # downloaded + rebuilt data (git-ignored; weekly.py recreates it)
+RAW = os.path.join(CACHE, 'raw')             # raw nflverse files
+DATA = CACHE                                 # derived per-game tables live in the cache too
+INPUTS = os.path.join(ROOT, 'data')          # hand-edited inputs (committed): qb_overrides.csv
+RESULTS = os.path.join(ROOT, 'results')      # research outputs (committed)
+OUTPUT = os.path.join(ROOT, 'output')        # weekly reports
+CONFIG_PATH = os.path.join(ROOT, 'config', 'model.json')
+
+
+def config():
+    import json
+    return json.load(open(CONFIG_PATH))
 
 # Relocated franchises keep one rating history.
 FRANCHISE = {'OAK': 'LV', 'SD': 'LAC', 'STL': 'LA'}

@@ -1,17 +1,17 @@
 """Extra per-game tables from the nflverse play-by-play already in data/raw (run fetch_data.py first), plus the
 free nfelo QB-Elo file (538-style Elo, maintained publicly at github.com/greerreNFL/nfeloqb).
 
-Outputs (committed, compact):
-  data/team_games_x.csv   per (game, offence team): early-down / red-zone / turnover-adjusted EPA, pass rate over
+Outputs (in cache/):
+  cache/team_games_x.csv   per (game, offence team): early-down / red-zone / turnover-adjusted EPA, pass rate over
                           expected, pace, no-huddle, 4th-down go decisions, special-teams EPA, penalty yards
-  data/player_weeks.csv   per (game, team, player): targets, pressures (sacks + QB hits) -> how much each player matters
-  data/nfelo.csv          nfelo pre-game Elo / QB-Elo and win probability per game_id
+  cache/player_weeks.csv   per (game, team, player): targets, pressures (sacks + QB hits) -> how much each player matters
+  cache/nfelo.csv          nfelo pre-game Elo / QB-Elo and win probability per game_id
 Usage: python3 fetch_extra.py            (all seasons)   |   python3 fetch_extra.py --current 2026
 """
 import argparse, os, urllib.request
 import numpy as np, pandas as pd
 
-HERE = os.path.dirname(os.path.abspath(__file__)); RAW = os.path.join(HERE, 'data', 'raw'); OUT = os.path.join(HERE, 'data')
+from nflmodel.common import RAW, CACHE as OUT
 NFELO_URL = 'https://raw.githubusercontent.com/greerreNFL/nfeloqb/main/qb_elos.csv'
 COLS = ['game_id', 'season', 'week', 'season_type', 'posteam', 'defteam', 'play_type', 'epa', 'wp', 'down', 'ydstogo',
         'yardline_100', 'qtr', 'pass_oe', 'no_huddle', 'game_seconds_remaining', 'interception', 'fumble_lost', 'qb_dropback',

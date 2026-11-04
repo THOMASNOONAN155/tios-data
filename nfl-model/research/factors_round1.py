@@ -2,14 +2,18 @@
 (2012-2019) AND on the holdout seasons (2020-2025), and does not worsen log-loss on either.
 2026 is not used here at all (it is the final untouched check in report.py).
 Writes results/factors.csv and results/factors.md."""
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))   # nfl-model/ on the path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from nflmodel.common import RESULTS, INPUTS, config
 import json, sys, warnings
 import numpy as np, pandas as pd
 warnings.filterwarnings('ignore')
-from model import build_features, walk_forward, load_all
-from metrics import evaluate
+from nflmodel.features import build_features, walk_forward, load_all
+from nflmodel.metrics import evaluate
 
 DEV = list(range(2012, 2020)); HOLD = list(range(2020, 2026))
-PARAMS = json.load(open('results/params.json')) if len(sys.argv) < 2 else {}
+PARAMS = config()['ratings']
 CORE = ['home', 'mkt_d']
 
 CANDIDATES = [
@@ -82,8 +86,8 @@ def main():
         core, core_opts = best[1], best[2]
         if stage > 15: break
     final_dev, final_hold = run(f, core, core_opts, DEV), run(f, core, core_opts, HOLD)
-    df = pd.DataFrame(rows); df.to_csv('results/factors.csv', index=False)
-    json.dump(dict(features=core, opts=core_opts, dev=final_dev, holdout=final_hold), open('results/selected.json', 'w'), indent=1, default=float)
+    df = pd.DataFrame(rows); df.to_csv(os.path.join(RESULTS, 'factors.csv'), index=False)
+    json.dump(dict(features=core, opts=core_opts, dev=final_dev, holdout=final_hold), open(os.path.join(RESULTS, 'round1_selected.json'), 'w'), indent=1, default=float)
     print('FINAL', core, core_opts); print('dev', final_dev); print('hold', final_hold)
 
 

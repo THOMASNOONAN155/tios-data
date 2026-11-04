@@ -13,10 +13,14 @@ What cannot be reproduced for past seasons (no historical record exists in the o
   FTN DVOA (paywalled, only 2026 Weeks 1-8 typed in), hand-valued injuries / QB absences, eye-test, "your ranking".
   Efficiency is therefore 100% EPA here (the workbook used 75% EPA + 25% DVOA).
 """
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))   # nfl-model/ on the path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from nflmodel.common import RESULTS, INPUTS, config
 import numpy as np, pandas as pd
 from scipy.stats import norm
-from common import TEAMS, TIDX, load_games, DATA
-from ratings import load_team_games
+from nflmodel.common import TEAMS, TIDX, load_games, DATA
+from nflmodel.ratings import load_team_games
 
 N = len(TEAMS); HFA = 1.5
 
@@ -121,9 +125,9 @@ def predict(seasons, g=None, tg=None):
 
 if __name__ == '__main__':
     import sys
-    from metrics import evaluate, fmt, line_as_model
+    from nflmodel.metrics import evaluate, fmt, line_as_model
     seasons = list(range(2009, 2027))
     d = predict(seasons)
-    d.to_csv(f'{DATA}/../results/baseline_predictions.csv', index=False)
+    d.round(4).to_csv(os.path.join(RESULTS, 'baseline_predictions.csv'), index=False)
     print('original tips engine:', fmt(evaluate(d)))
     print('closing line        :', fmt(evaluate(line_as_model(d))))

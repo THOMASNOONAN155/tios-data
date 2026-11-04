@@ -6,11 +6,11 @@ win probability = Phi(margin / sigma), sigma = residual SD on the training seaso
 import json, os, hashlib
 import numpy as np, pandas as pd
 from scipy.stats import norm
-from common import TEAMS, TIDX, DATA, load_games, FRANCHISE
-from ratings import market_ratings, results_ratings, epa_ratings, load_team_games, qb_values
+from nflmodel.common import TEAMS, TIDX, DATA, INPUTS, load_games, FRANCHISE
+from nflmodel.ratings import market_ratings, results_ratings, epa_ratings, load_team_games, qb_values
 
 FIRST_RATED = 2008   # ratings warm up on 2006-07 games
-CACHE = os.path.join(DATA, 'cache'); os.makedirs(CACHE, exist_ok=True)
+CACHE = os.path.join(DATA, 'features'); os.makedirs(CACHE, exist_ok=True)
 
 DEFAULT = dict(m_hl=4.0, m_off=6.0, m_lam=2.0,
                r_hl=6.0, r_off=10.0, r_lam=8.0,
@@ -25,7 +25,7 @@ def _key(p):
 def apply_qb_overrides(g, path=None):
     """data/qb_overrides.csv (season,week,team,qb_name): who will START an upcoming game. nflverse only fills the
     starting QB once a game is played, so without an override the model assumes last game's starter."""
-    path = path or os.path.join(DATA, 'qb_overrides.csv')
+    path = path or os.path.join(INPUTS, 'qb_overrides.csv')
     if not os.path.exists(path): return g
     o = pd.read_csv(path, comment='#')
     if o.empty: return g
@@ -71,7 +71,7 @@ def build_features(p=None, data=None, force=False):
     Mf = market_ratings(g, FIRST_RATED, 1.5, 30.0, p['m_lam'])          # 'recent form' versions: short memory
     Ef = epa_ratings(tg, FIRST_RATED, 3.0, 30.0, p['e_lam'], gt=p['e_gt'], schedule=g)
     # warm/dome teams: home stadium indoor or south of 34N latitude (season by season)
-    from common import STADIUMS
+    from nflmodel.common import STADIUMS
     hg = g[g.location == 'Home'].groupby(['season', 'home_team']).agg(sid=('stadium_id', lambda x: x.value_counts().index[0]),
                                                                      ind=('indoor', 'mean'))
     warm = {k: float(v.ind > 0.5 or STADIUMS[v.sid][0] < 34.0) for k, v in hg.iterrows()}

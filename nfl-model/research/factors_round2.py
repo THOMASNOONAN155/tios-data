@@ -9,17 +9,21 @@ Development = 2012-19 (2015-19 for injury-report features, whose data start in 2
 Holdout = 2020-25. 2026 is not used here.
 Also tests gradient boosting and model combinations. Writes results/round2_log.csv, results/round2_selected.json.
 """
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))   # nfl-model/ on the path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from nflmodel.common import RESULTS, INPUTS, config
 import json, sys, warnings
 import numpy as np, pandas as pd
 from scipy.stats import norm
 warnings.filterwarnings('ignore')
-from model import build_features, load_all
-from extra import build_extra
-from metrics import evaluate
+from nflmodel.features import build_features, load_all
+from nflmodel.extra import build_extra
+from nflmodel.metrics import evaluate
 
-P = json.load(open('results/params.json')); SEL = json.load(open('results/selected.json'))
+P = config()['ratings']
 DEV, DEV_INJ, HOLD = list(range(2012, 2020)), list(range(2015, 2020)), list(range(2020, 2026))
-BASE_A = SEL['features']
+BASE_A = config()['round1_features']   # round 2 started from the round-1 model
 
 
 def load():
@@ -28,7 +32,7 @@ def load():
     gm = g.set_index('game_id')
     f['gametime'] = gm.gametime.reindex(f.game_id).values; f['weekday'] = gm.weekday.reindex(f.game_id).values
     f['total_line'] = gm.total_line.reindex(f.game_id).values
-    nm = pd.read_csv('results/predictions_new.csv')[['game_id', 'pred']].rename(columns={'pred': 'model_pred'})
+    nm = pd.read_csv(os.path.join(RESULTS, 'predictions_new.csv'))[['game_id', 'pred']].rename(columns={'pred': 'model_pred'})
     f = f.merge(nm, on='game_id', how='left')
     return f
 
@@ -182,7 +186,6 @@ def main():
     f = load(); log = []
     def rec(track, stage, name, group, r):
         r = dict(track=track, stage=stage, factor=name, group=group, **r); log.append(r)
-        pd.DataFrame(log).to_csv('results/round2_partial.csv', index=False)
         print(track, stage, name, {k: (round(v, 4) if isinstance(v, float) else v) for k, v in r.items() if k not in ('track', 'stage', 'factor', 'group')}, flush=True)
     # ---------------- Track A: greedy forward selection over the new candidates
     base = list(BASE_A); stage = 0
@@ -231,13 +234,12 @@ def main():
             ('Gradient boosting on line residual, situations only', 'gbm', ['line', 'early', 'prime', 'div', 'qbchg', 'rest_d', 'bye_d', 'miles_d', 'tz_d', 'tot45', 'highwind', 'model_edge'], dict(max_depth=2, learning_rate=0.03, max_iter=300, min_samples_leaf=200, l2_regularization=5.0))):
         r = compare(f, baseB, feats, DEV_INJ, 'B', model=model, gbm_params=gp); rec('B', 'ML', nm, 'Machine learning', r)
     L = pd.DataFrame(log)
-    if 'B' in sys.argv: L = pd.concat([pd.read_csv('results/round2_log_A.csv'), L])
-    L.to_csv('results/round2_log.csv', index=False)
+    L.to_csv(os.path.join(RESULTS, 'round2_log.csv'), index=False)
     out = dict(trackA=sel_A, trackB=baseB)
     for k, feats, tr in (('A', sel_A, 'A'), ('B', baseB, 'B')):
         out[k + '_dev'] = score(f, feats, DEV, track=tr); out[k + '_hold'] = score(f, feats, HOLD, track=tr); out[k + '_2026'] = score(f, feats, [2026], track=tr)
     out['line_dev'] = score(f, [], DEV, track='B'); out['line_hold'] = score(f, [], HOLD, track='B'); out['line_2026'] = score(f, [], [2026], track='B')
-    json.dump(out, open('results/round2_selected.json', 'w'), indent=1, default=float)
+    json.dump(out, open(os.path.join(RESULTS, 'round2_selected.json'), 'w'), indent=1, default=float)
     print('A', sel_A, '\nB', baseB)
 
 

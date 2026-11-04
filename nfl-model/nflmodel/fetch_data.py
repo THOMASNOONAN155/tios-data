@@ -13,16 +13,15 @@ Sources (all public, no login):
       https://github.com/nflverse/nflverse-data/releases/download/players/players.csv
 
 Usage:
-  python3 fetch_data.py                 # all seasons (2006..current), skips files already present
-  python3 fetch_data.py --current 2026  # re-download only the current season's files + games.csv
-Raw files go to data/raw/ (not committed). Outputs (committed):
-  data/games.csv, data/team_games.csv, data/qb_games.csv, data/injury_out.csv, data/manifest.json
+  python3 -m nflmodel.fetch_data                 # all seasons (2006..current), skips files already present
+  python3 -m nflmodel.fetch_data --current 2026  # re-download only the current season's files + games.csv
+Raw files go to cache/raw/. Outputs (also in cache/, not committed):
+  cache/games.csv, data/team_games.csv, data/qb_games.csv, data/injury_out.csv, data/manifest.json
 """
 import argparse, hashlib, json, os, sys, time, urllib.request
 import numpy as np, pandas as pd
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-RAW = os.path.join(HERE, 'data', 'raw'); OUT = os.path.join(HERE, 'data')
+from nflmodel.common import RAW, CACHE as OUT
 GAMES_URL = 'https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv'
 REL = 'https://github.com/nflverse/nflverse-data/releases/download'
 FIRST = 2006

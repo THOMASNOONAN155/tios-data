@@ -4,8 +4,8 @@ All features are 'home minus away' unless noted. Built on top of model.build_fea
 """
 import os, json
 import numpy as np, pandas as pd
-from common import TEAMS, TIDX, DATA, FRANCHISE
-from ratings import slots, _decay, GW
+from nflmodel.common import TEAMS, TIDX, DATA, FRANCHISE
+from nflmodel.ratings import slots, _decay, GW
 
 N = len(TEAMS)
 FIX = lambda s: s.replace(FRANCHISE).replace({'LAR': 'LA', 'JAC': 'JAX', 'WSH': 'WAS'})
@@ -112,7 +112,7 @@ def coach_features(g):
 
 
 def build_extra(f, g, tg, cache=True):
-    path = os.path.join(DATA, 'cache', 'extra.pkl')
+    path = os.path.join(DATA, 'features', 'extra.pkl')
     if cache and os.path.exists(path) and os.path.getmtime(path) > os.path.getmtime(f'{DATA}/team_games_x.csv') \
             and os.path.getmtime(path) > os.path.getmtime(f'{DATA}/games.csv'):
         x = pd.read_pickle(path)

@@ -1,13 +1,17 @@
 """Tune rating hyper-parameters on DEVELOPMENT seasons only (2012-2019), walk-forward.
 Each candidate is scored by the RMSE of a walk-forward blend (betas fit on earlier seasons) on 2012-2019.
 Writes results/tuning.json. The holdout seasons (2020+) are never looked at here."""
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))   # nfl-model/ on the path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from nflmodel.common import RESULTS, INPUTS, config
 import itertools, json, warnings
 import numpy as np, pandas as pd
 warnings.filterwarnings('ignore')
-from common import TIDX
-from model import load_all, FIRST_RATED, walk_forward
-from ratings import market_ratings, epa_ratings, results_ratings
-from metrics import evaluate
+from nflmodel.common import TIDX
+from nflmodel.features import load_all, FIRST_RATED, walk_forward
+from nflmodel.ratings import market_ratings, epa_ratings, results_ratings
+from nflmodel.metrics import evaluate
 
 DEV = list(range(2012, 2020))
 
@@ -49,7 +53,7 @@ def main():
         s = score(f.dropna(subset=['res_d']), ['home', 'mkt_d', 'res_d']); res['results'].append(((hl, off, lam), s)); print('results', hl, off, lam, s)
     out = {k: sorted(v, key=lambda x: x[1][0])[:8] for k, v in res.items()}
     out['best_market'] = best_m[:2]; out['best_epa'] = best_e
-    json.dump(out, open('results/tuning.json', 'w'), indent=1, default=str)
+    json.dump(out, open(os.path.join(RESULTS, 'tuning.json'), 'w'), indent=1, default=str)
     print(json.dumps({k: out[k][:3] for k in ('market', 'epa', 'results')}, default=str, indent=1))
 
 

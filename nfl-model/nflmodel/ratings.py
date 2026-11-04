@@ -7,7 +7,7 @@ Three rating families, each a weighted ridge regression with exponential time de
 Time decay: weight = 0.5 ** (age / half_life); age counts weeks, plus `offseason` extra weeks per season boundary.
 """
 import numpy as np, pandas as pd
-from common import TEAMS, TIDX, FRANCHISE
+from nflmodel.common import TEAMS, TIDX, FRANCHISE
 
 N = len(TEAMS)
 GW = 23  # calendar slots per season (weeks 1-22 + spare)

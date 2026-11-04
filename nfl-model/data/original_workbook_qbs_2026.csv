@@ -1,0 +1,37 @@
+team,name,role,wb_dropbacks,wb_epa_db,wb_cpoe
+BAL,Lamar Jackson,Starter,112,0.37,7.4
+BAL,Tyler Huntley,Backup,131,-0.03,0.9
+BUF,Josh Allen,Starter,241,0.29,4.0
+CHI,Caleb Williams,Starter,186,0.28,7.6
+SF,Brock Purdy,Starter,232,0.29,4.3
+DET,Jared Goff,Starter,269,0.24,1.1
+JAX,Trevor Lawrence,Starter,220,0.28,3.9
+NE,Drake Maye,Starter,276,0.22,7.3
+CIN,Joe Burrow,Starter,290,0.23,9.0
+ATL,Michael Penix Jr.,Starter,184,0.02,-4.3
+DAL,Dak Prescott,Starter,333,0.15,0.2
+HOU,C.J. Stroud,Starter,267,0.14,2.3
+WSH,Jayden Daniels,Starter,178,0.12,5.6
+KC,Patrick Mahomes,Starter,255,0.15,1.6
+GB,Jordan Love,Starter,328,0.13,-1.1
+LV,Kirk Cousins,Starter,301,0.16,-0.4
+NYJ,Geno Smith,Starter,275,0.13,6.0
+LAR,Matthew Stafford,Starter,318,0.07,0.6
+CAR,Bryce Young,Starter,298,0.05,-0.2
+NO,Tyler Shough,Starter,297,0.03,-0.1
+CLE,Deshaun Watson,Starter,307,-0.0,-0.1
+SEA,Sam Darnold,Starter,237,-0.03,-2.4
+MIA,Malik Willis,Starter,227,0.01,-5.4
+ARI,Jacoby Brissett,Starter,331,-0.06,-0.3
+DEN,Bo Nix,Starter,271,-0.0,-2.6
+PHI,Jalen Hurts,Starter (on IR),179,-0.05,-2.2
+MIN,Kyler Murray,Starter,185,-0.04,2.0
+NYG,Jameis Winston,Backup,179,-0.08,-7.5
+PIT,Aaron Rodgers,Starter,312,-0.1,-1.9
+TB,Jalon Daniels,Backup,123,-0.11,-6.6
+TEN,Cam Ward,Starter,280,-0.1,-0.9
+IND,Daniel Jones,Starter,299,-0.2,-3.7
+TB,Baker Mayfield,Starter,134,-0.23,-0.9
+LAC,Justin Herbert,Starter,255,-0.27,-4.2
+NYG,J.J. McCarthy,Starter,51,0.27,7.1
+PHI,Tanner McKee,Backup (starting),129,-0.17,-2.4

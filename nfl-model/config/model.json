@@ -1,0 +1,43 @@
+{
+ "_note": "Settings used by weekly.py. Chosen by research/ scripts (see README). ratings: half-lives etc. chosen in round 1 (research/tune.py). season_tau chosen in research/round3_season.py.",
+ "ratings": {
+  "m_hl": 2.5,
+  "m_off": 0.0,
+  "m_lam": 0.5,
+  "r_hl": 4.0,
+  "r_off": 2.0,
+  "r_lam": 4.0,
+  "e_hl": 3.0,
+  "e_off": 2.0,
+  "e_lam": 3.0,
+  "e_gt": false,
+  "qb_hl": 40.0,
+  "qb_prior_n": 250.0,
+  "qb_prior": -0.05
+ },
+ "features": [
+  "home",
+  "mkt_d",
+  "res_d",
+  "qb_d",
+  "epa_off_d",
+  "epa_def_d",
+  "st_d",
+  "nfelo_pts",
+  "go4_d"
+ ],
+ "opts": {},
+ "line_adjust": [
+  "st_opp_d",
+  "mkt_d"
+ ],
+ "round1_features": [
+  "home",
+  "mkt_d",
+  "res_d",
+  "qb_d",
+  "epa_off_d",
+  "epa_def_d"
+ ],
+ "season_tau": 4.0
+}

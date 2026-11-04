@@ -1,5 +1,6 @@
 """ONE COMMAND each week:   python3 weekly.py
   1. downloads the latest nflverse data for the current season (scores, lines, play-by-play, injury reports)
+     and the latest nfelo QB-Elo file
   2. rebuilds the walk-forward ratings
   3. writes this week's power rankings and game predictions (with win probabilities) to output/
 
@@ -16,7 +17,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); os.chdir(HERE)
 from common import TEAMS, TIDX, DISPLAY, load_games
 from model import build_features, walk_forward, load_all
 from ratings import market_ratings, results_ratings, epa_ratings
-from report import blend_with_line
+from extra import build_extra, team_extra_ratings, nfelo_team_points, adjusted_line
 
 P = json.load(open('results/params.json')); SEL = json.load(open('results/selected.json'))
 show = lambda t: DISPLAY.get(t, t)
@@ -33,7 +34,13 @@ def team_scores(data, season, week, betas):
         if k not in M: return None
         comp = pd.DataFrame({'market': betas['mkt_d'] * M[k][0], 'results': betas['res_d'] * R[k][0],
                              'epa_off': betas['epa_off_d'] * E[k][1], 'epa_def': betas['epa_def_d'] * E[k][2]}, index=TEAMS)
+        k2 = (season, w)
+        comp['special_teams'] = betas['st_d'] * ST[k2][0] if k2 in ST else 0.0
+        comp['fourth_down'] = betas['go4_d'] * GO[k2][0] if k2 in GO else 0.0
+        nf = nfelo_team_points(g, season, w)
+        comp['nfelo'] = betas['nfelo_pts'] * pd.Series(nf).reindex(TEAMS).values
         comp['score'] = comp.sum(1); return comp
+    ST, GO = team_extra_ratings(g, tg, season)
     return at(week), at(week - 1) if week > 1 else None
 
 
@@ -54,14 +61,17 @@ def main():
     if not a.no_fetch:
         print(f'Updating {season} data from nflverse ...', flush=True)
         subprocess.run([sys.executable, 'fetch_data.py', '--current', str(season)], check=True)
+        subprocess.run([sys.executable, 'fetch_extra.py', '--current', str(season)], check=True)
     data = load_all(); g = data[0]
     reg = g[(g.season == season) & (g.game_type == 'REG')]
     week = a.week or int(reg[reg.result.isna()].week.min())
-    f = build_features(P, data=data, force=True)
-    hist = walk_forward(f, SEL['features'], range(2010, season + 1), **SEL['opts'])
-    bl = blend_with_line(hist)
+    f = build_extra(build_features(P, data=data, force=True), g, data[1], cache=False)
+    hist = walk_forward(f, SEL['features'], [season], **SEL['opts'])
     cur = hist[(hist.season == season) & (hist.week == week)].copy()
-    cb = bl[(bl.season == season) & (bl.week == week)].set_index('game_id')
+    if cur.nfelo_pts.isna().any():
+        print('WARNING: nfelo has no forecast yet for some games this week; those games use 0 for that input.')
+    adj, adj_sig, adj_coef = adjusted_line(f, season, SEL['line_adjust'])
+    cb = adj[adj.week == week].set_index('game_id')
     betas = {k: cur['b_' + k].iloc[0] for k in SEL['features']}
     # ---------- game predictions
     gi = g.set_index('game_id')
@@ -70,12 +80,13 @@ def main():
         x = gi.loc[r.game_id]; ln = r.spread_line
         pm = r.pred; ph = r.prob
         b = cb.loc[r.game_id] if r.game_id in cb.index and not np.isnan(ln) else None
+        if b is not None: b = b.rename({'pred_adj': 'pred', 'prob_adj': 'prob'})
         rows.append({'Kickoff (ET)': f'{x.weekday[:3]} {x.gameday} {x.gametime}', 'Away': show(r.away_team), 'Home': show(r.home_team),
                      'Model tip': show(r.home_team) if pm >= 0 else show(r.away_team),
                      'Win %': round(100 * max(ph, 1 - ph), 1), 'Model margin (home)': round(pm, 1),
                      'Line (+ = home fav)': ln, 'Edge vs line': round(pm - ln, 1) if not np.isnan(ln) else None,
-                     'Blend tip': (show(r.home_team) if b.pred >= 0 else show(r.away_team)) if b is not None else None,
-                     'Blend win %': round(100 * max(b.prob, 1 - b.prob), 1) if b is not None else None,
+                     'TIP (adjusted line)': (show(r.home_team) if b.pred >= 0 else show(r.away_team)) if b is not None else None,
+                     'Tip win %': round(100 * max(b.prob, 1 - b.prob), 1) if b is not None else None,
                      'Home QB adj (pts)': round(betas['qb_d'] * r.qb_h, 1), 'Away QB adj (pts)': round(betas['qb_d'] * r.qb_a, 1),
                      'Home QB': x.home_qb_id if isinstance(x.home_qb_id, str) else r.qbid_h,
                      'Away QB': x.away_qb_id if isinstance(x.away_qb_id, str) else r.qbid_a})
@@ -97,20 +108,23 @@ def main():
         pr = prev.score.rank(ascending=False, method='first').astype(int); now['last_wk'] = pr
     rec = record(g, season, week)
     rk = pd.DataFrame({'Rank': now['rank'], 'Team': [show(t) for t in now.index], 'Record': [rec[t] for t in now.index],
-                       'Power (pts vs avg)': now.power.round(1), 'Market': now.market.round(1), 'Results': now.results.round(1),
-                       'EPA offence': now.epa_off.round(1), 'EPA defence': now.epa_def.round(1), 'QB this week': now.qb_now.round(1),
+                       'Power (pts vs avg)': now.power.round(1), 'Market': now.market.round(1), 'Results + Elo': (now.results + now.nfelo).round(1),
+                       'EPA offence': now.epa_off.round(1), 'EPA defence': now.epa_def.round(1),
+                       'Special teams': now.special_teams.round(1), '4th-down': now.fourth_down.round(1),
+                       'QB this week': now.qb_now.round(1),
                        'Last week rank': now.get('last_wk', pd.Series(index=now.index, dtype=float)).values})
     os.makedirs('output', exist_ok=True)
     tag = f'{season}_wk{week:02d}'
     games.to_csv(f'output/{tag}_predictions.csv', index=False); rk.to_csv(f'output/{tag}_power_rankings.csv', index=False)
-    blend_a = cb.blend_a.iloc[0] if len(cb) else float('nan')
+    coef = ' + '.join(f'{v:.2f} x {k}' for k, v in adj_coef.items())
     md = [f'# {season} Week {week}: predictions and power rankings\n',
-          'Built only from games before this week. "Model" ignores this week\'s betting line; "Blend" = line + '
-          f'{blend_a:.2f} x (model - line), the mix that worked best on past seasons. Historically the blend (and the line itself) '
-          'picks winners slightly better than the model alone; see README.\n',
+          'Built only from games before this week. **TIP (adjusted line)** = current betting line + a small correction '
+          f'({coef}); it is the most accurate option tested but almost never changes the line\'s pick. '
+          '"Model" ignores the betting line entirely and is less accurate than the line (see README).\n',
           f'Win probabilities assume results spread around the predicted margin with SD {cur.sigma.iloc[0]:.1f} pts.\n',
           '## Games\n', games.drop(columns=['Home QB adj (pts)', 'Away QB adj (pts)']).to_markdown(index=False),
-          '\n## Power rankings\n', 'Power = expected margin against an average team on a neutral field (points).\n',
+          '\n## Power rankings\n', 'Power = expected margin against an average team on a neutral field (points). "Results + Elo" combines the '
+          'damped-margin rating and nfelo\'s QB-adjusted Elo, which overlap (both measure results), so they are shown together.\n',
           rk.to_markdown(index=False)]
     open(f'output/{tag}.md', 'w').write('\n'.join(md) + '\n')
     pd.set_option('display.width', 200); pd.set_option('display.max_columns', 20)

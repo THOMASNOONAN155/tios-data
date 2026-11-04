@@ -5,7 +5,10 @@
   "res_d",
   "qb_d",
   "epa_off_d",
-  "epa_def_d"
+  "epa_def_d",
+  "st_d",
+  "nfelo_pts",
+  "go4_d"
  ],
  "opts": {},
  "dev": {
@@ -39,5 +42,10 @@
   "wk_acc_sd": 0.11902974386515526,
   "wk_acc_p10": 0.5,
   "wk_RMSE_sd": 2.5036009468856615
- }
+ },
+ "line_adjust": [
+  "st_opp_d",
+  "mkt_d"
+ ],
+ "note": "Round 2 (factors2.py): standalone model adds special teams, nfelo forecast, 4th-down aggressiveness; adjusted line = closing line + special teams + market drift."
 }

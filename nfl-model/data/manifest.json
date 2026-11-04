@@ -1,8 +1,8 @@
 {
  "games.csv": {
   "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-  "sha": "92d79a0d2d215690",
-  "fetched": "2026-11-04 11:34 UTC"
+  "sha": "50c6b4a3ef4670bc",
+  "fetched": "2026-11-04 11:59 UTC"
  },
  "pbp_2006": {
   "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2006.parquet",

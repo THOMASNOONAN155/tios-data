@@ -1,7 +1,8 @@
 """The weekly Excel workbook (output/NFL_Model_<season>.xlsx), rebuilt by weekly.py every week.
 
 Same colour theme as the original NFL_Tipping workbook (navy #17202B / #243447, gold #C99A2E, paper #F4F6F9, Arial).
-All tipping/betting tracking from the original is gone; the stats and model views are kept and extended.
+The tipping half (week tabs, Leaderboard, Money, My Stats, Spreads & Totals, Head to Head, Expert Scout, Edge Finder,
+Value Report) is added by nflmodel/tipping_book.py from inputs/tipping_inputs.xlsx.
 """
 import os
 import numpy as np, pandas as pd
@@ -187,6 +188,10 @@ def build(path, ctx):
         ws.cell(r, c0 + 1, ' · '.join(f'{show(t)} {p*100:.0f}%' for t, p in bub.p_playoffs.items()) or 'none between 25% and 75%').font = F(10); r += 1
     ws.cell(r + 1, c0, 'Predicted winner = betting line + small tested corrections (ties the line in testing; no betting edge).').font = F(8, False, GREY, True)
     ws.freeze_panes = 'A4'
+    if ctx.get('tipping') is not None:
+        from nflmodel import tipping_book
+        tipping_book.dashboard_block(ws, ctx['tipping'], r2 + 3)
+        ws.column_dimensions['B'].width = 26
     # =========================== Power Rankings
     ws = wb.create_sheet('Power Rankings')
     band(ws, 'POWER RANKINGS', 'Power = expected margin vs an average team on a neutral field (pts), with this week\'s starting QB. Parts add up to Power.', 20)
@@ -335,12 +340,18 @@ def build(path, ctx):
     lines = ['How to read it', '• Predicted winner = betting line + small tested corrections. It ties the closing line in 15 seasons of testing; there is no betting edge.',
              '• Power = points better than an average team on a neutral field. Ranks, efficiency and projections use only games before this week.',
              '• Season projections are calibrated: in past seasons, teams given 40–60% playoff chances made it 48% of the time.', '',
-             'Self-test for this run'] + [f'• {s}: {m}' for s, m in ctx['checks']] + ['', 'Data: nflverse (scores, lines, play-by-play, injuries, snaps, FTN charting), nfelo QB-Elo. Full sources and test results: README.md.']
+             '• Tipping: your entries live in inputs/tipping_inputs.xlsx (never written to; backed up before every run). Week tabs and the Leaderboard\'s',
+             '  weekly wins are live formulas; fair odds/lines = midpoint of open and close, prices = ROUND(2/(1/open+1/close),2). Cream cells = copied from your inputs file.',
+             '', 'Self-test for this run'] + [f'• {s}: {m}' for s, m in ctx['checks']] + ['', 'Data: nflverse (scores, lines, play-by-play, injuries, snaps, FTN charting), nfelo QB-Elo. Full sources and test results: README.md.']
     for i, t in enumerate(lines):
         c = ws.cell(4 + i, 1, t); c.font = F(11, True, GOLD) if t in ('How to read it', 'Self-test for this run') else F(10)
     ws.column_dimensions['A'].width = 140
+    if ctx.get('tipping') is not None:
+        from nflmodel import tipping_book
+        tipping_book.add_tipping(wb, ctx['tipping'], ctx['tipping'].get('model_tips', {}))
+    wb.calculation.fullCalcOnLoad = True      # week tabs and the Leaderboard are live formulas
     for w_ in wb.worksheets:
-        w_.sheet_properties.tabColor = GOLD if w_.title == 'Dashboard' else ACCENT
+        w_.sheet_properties.tabColor = GOLD if w_.title == 'Dashboard' else (NAVY if w_.title.startswith('Wk ') else ACCENT)
         w_.sheet_view.zoomScale = 100
         w_.page_setup.orientation = 'landscape'; w_.page_setup.fitToWidth = 1; w_.page_setup.fitToHeight = 0
         w_.sheet_properties.pageSetUpPr.fitToPage = True; w_.print_options.horizontalCentered = True

@@ -3,15 +3,19 @@
   1. updates the data (first run: downloads everything, about 5 minutes; later runs: this season only, about 1 minute)
   2. rebuilds the walk-forward ratings
   3. writes the weekly report to output/: tips with win %, power rankings, strength of schedule, season projections
-  4. runs a self-test and stops with an error message if anything looks wrong
+  4. reads your tipping entries from inputs/tipping_inputs.xlsx (backed up first, never written to) and rebuilds the
+     tipping sheets of output/NFL_Model_<season>.xlsx (week tabs, Leaderboard, Money, My Stats, ...)
+  5. runs a self-test (model, tipping maths, LibreOffice recalculation of the workbook) and stops if anything looks wrong
 
 Options:  --week N        report for week N (default: the next week with unplayed games)
           --season YYYY   (default: latest season)
           --no-fetch      use the data already downloaded
           --sims N        season simulations (default 20000)
-Before running: if a team will start a different QB from last week, add a row to data/qb_overrides.csv.
+          --no-recalc     skip the LibreOffice recalculation check of the workbook
+Before running: type this week's tips, bets, expert picks, odds and last week's scores into inputs/tipping_inputs.xlsx
+(see README, "Entering your picks each week"). If a team will start a different QB from last week, add a row to data/qb_overrides.csv.
 """
-import argparse, json, os, subprocess, sys, time, warnings
+import argparse, glob, hashlib, json, os, shutil, subprocess, sys, time, warnings
 warnings.filterwarnings('ignore')
 HERE = os.path.dirname(os.path.abspath(__file__)); os.chdir(HERE); sys.path.insert(0, HERE)
 import numpy as np, pandas as pd
@@ -22,6 +26,9 @@ from nflmodel.teamtable import build_team_table
 from nflmodel.views import season_views
 from nflmodel.season import simulate, game_leverage
 from nflmodel import workbook
+from nflmodel.tipping_inputs import read_inputs
+from nflmodel import tipping_sheets as TSH, tipping_check as TCK
+from nflmodel.tipping import MODEL, LINE
 
 CFG = config(); TAU = CFG.get('season_tau', 4.0)
 show = lambda t: DISPLAY.get(t, t)
@@ -40,6 +47,52 @@ def update_data(season, fetch):
         run('nflmodel.fetch_data', '--current', str(season)); run('nflmodel.fetch_extra', '--current', str(season)); run('nflmodel.fetch_noise', '--current', str(season))
 
 
+TIP_INPUTS = os.path.join(HERE, 'inputs', 'tipping_inputs.xlsx')
+TO_TIPPING = {'LA': 'LAR', 'WAS': 'WSH'}           # nflverse team codes -> the codes used in the tipping inputs
+
+
+def sha(path):
+    return hashlib.sha256(open(path, 'rb').read()).hexdigest()
+
+
+def backup_inputs(keep=30):
+    """Copy the inputs file to inputs/backups/ before anything else runs (the run never writes to the inputs file)."""
+    if not os.path.exists(TIP_INPUTS): return None
+    d = os.path.join(HERE, 'inputs', 'backups'); os.makedirs(d, exist_ok=True)
+    dst = os.path.join(d, f'tipping_inputs_{time.strftime("%Y%m%d_%H%M%S")}.xlsx'); shutil.copy2(TIP_INPUTS, dst)
+    for old in sorted(glob.glob(os.path.join(d, 'tipping_inputs_*.xlsx')))[:-keep]: os.remove(old)
+    return dst
+
+
+def model_tips(preds, adj, G, upto):
+    """The model's tip (and win % of that team) for every game of the season up to week `upto`, keyed by the tipping gid."""
+    p = preds.merge(adj[['game_id', 'pred_adj', 'prob_adj']], on='game_id', how='left')
+    key = {(r.week, frozenset((r.away, r.home))): r.gid for r in G.itertuples()}
+    out = {}
+    for r in p[p.week <= upto].itertuples():
+        has = r.spread_line == r.spread_line and r.pred_adj == r.pred_adj
+        m, ph = (r.pred_adj, r.prob_adj) if has else (r.pred, r.prob)
+        h, a = TO_TIPPING.get(r.home_team, r.home_team), TO_TIPPING.get(r.away_team, r.away_team)
+        gid = key.get((r.week, frozenset((a, h))))
+        if gid: out[gid] = dict(tip=h if m >= 0 else a, prob=float(max(ph, 1 - ph)))
+    return out
+
+
+def tipping_md(t):
+    if t is None: return []
+    R, you = t['R'], t['you']; M = t['money'].dropna(subset=['staked'])
+    top = R.sort_values('order').head(8)
+    tbl = pd.DataFrame({'Rank': top['rank'].astype(int), 'Tipper': top.index, 'W–L': [f'{int(r.W)}–{int(r.L)}' for r in top.itertuples()],
+                        'Win %': [f'{r.win_pct * 100:.1f}%' for r in top.itertuples()]})
+    L = ['## Tipping', '',
+         f"**You:** {int(R.at[you, 'W'])}–{int(R.at[you, 'L'])} ({R.at[you, 'win_pct'] * 100:.1f}%), rank #{int(R.at[you, 'rank'])} of {len(R)}. "
+         f"**Model:** {int(R.at[MODEL, 'W'])}–{int(R.at[MODEL, 'L'])}. **Betting line:** {int(R.at[LINE, 'W'])}–{int(R.at[LINE, 'L'])}."]
+    if len(M):
+        L.append(f"**Money** (tips + spreads + over/unders, locks included): {M.pl.sum():+,.0f} on ${M.staked.sum():,.0f} staked.")
+    L += ['', tbl.to_markdown(index=False), '', 'Full detail: the week tabs, Leaderboard, Money, My Stats and the other tipping sheets in the Excel workbook.', '']
+    return L
+
+
 def qb_names(g):
     n = pd.concat([g[['home_qb_id', 'home_qb_name']].set_axis(['i', 'n'], axis=1), g[['away_qb_id', 'away_qb_name']].set_axis(['i', 'n'], axis=1)])
     return n.dropna().drop_duplicates('i', keep='last').set_index('i').n
@@ -51,8 +104,11 @@ def pct(x):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--season', type=int); ap.add_argument('--week', type=int)
-    ap.add_argument('--no-fetch', action='store_true'); ap.add_argument('--sims', type=int, default=20000); a = ap.parse_args()
+    ap.add_argument('--no-fetch', action='store_true'); ap.add_argument('--sims', type=int, default=20000)
+    ap.add_argument('--no-recalc', action='store_true'); a = ap.parse_args()
     t0 = time.time()
+    bak = backup_inputs(); inputs_sha = sha(TIP_INPUTS) if bak else None
+    if bak: print(f'Backed up your inputs file to inputs/backups/{os.path.basename(bak)}', flush=True)
     season = a.season or (int(load_games().season.max()) if os.path.exists(os.path.join(CACHE, 'games.csv')) else int(time.strftime('%Y')))
     update_data(season, not a.no_fetch)
     data = load_all(); g = data[0]
@@ -145,6 +201,23 @@ def main():
     chk(abs(proj.exp_wins.sum() - len(reg)) < 1.0, f'projected wins add up to games played ({proj.exp_wins.sum():.1f} vs {len(reg)})')
     man_p = os.path.join(CACHE, 'manifest.json')
     fetched = json.load(open(man_p)).get('games.csv', {}).get('fetched', 'unknown') if os.path.exists(man_p) else 'unknown'
+    # ---------------- tipping: your entries + experts + the model and the line as two extra tippers
+    tctx = None
+    if os.path.exists(TIP_INPUTS):
+        try:
+            inp = read_inputs(TIP_INPUTS)
+            G0 = TSH.T.game_log(inp)
+            mt = model_tips(preds, adj, G0, week)
+            tctx = TSH.compute(inp, include_new=True, model_picks=pd.Series({k: v['tip'] for k, v in mt.items()}, dtype=object),
+                               model_probs=pd.Series({k: v['prob'] for k, v in mt.items()}, dtype=float))
+            tctx['model_tips'] = mt
+            n_wk = int((G0.week <= week).sum())
+            chk(len(mt) == n_wk, f'tipping: the model has a tip for {len(mt)} of {n_wk} games in weeks 1–{week} of the inputs file', fatal=False)
+            checks += [(s_, 'tipping: ' + m_) for s_, m_ in TCK.maths_checks(tctx)]
+        except Exception as e:
+            chk(False, f'tipping inputs could not be read: {e!r}')
+    else:
+        chk(False, 'inputs/tipping_inputs.xlsx not found: the tipping sheets were skipped', fatal=False)
     done = preds[(preds.week < week) & preds.result.notna() & (preds.result != 0)]
     acc = (np.sign(done.pred) == np.sign(done.result)).mean() if len(done) else np.nan
 
@@ -184,7 +257,8 @@ def main():
           '## Rest and travel still to come', '',
           'For information only: in testing, rest, byes, travel and time zones did not measurably change results once team strength was known.', '',
           travel_tbl.to_markdown(index=False), '',
-          '## Self-test', ''] + [f'- {s}: {m}' for s, m in checks]
+          ] + tipping_md(tctx) + ['## Self-test', '']
+    L_self = len(L)
     if len(done):
         L += ['', f'Model-only tips so far this season (walk-forward): {acc * 100:.1f}% of {len(done)} games.']
     os.makedirs(OUTPUT, exist_ok=True); tag = f'{season}_wk{week:02d}'
@@ -194,12 +268,26 @@ def main():
     full.insert(0, 'rank', rk); full.index = [show(t) for t in full.index]
     full.sort_values('rank').round(3).to_csv(os.path.join(OUTPUT, f'{tag}_teams.csv'), index_label='team')
     xlsx = os.path.join(OUTPUT, f'NFL_Model_{season}.xlsx')
+    wctx = dict(season=season, week=week, tips=show_tips, now=now, hist=T[T.week <= week], views=v, proj=proj, lev=lev, g=g,
+                checks=checks, fetched=fetched, qb_now_ids=qb_now_ids, sims=a.sims, tipping=tctx)
     try:
-        workbook.build(xlsx, dict(season=season, week=week, tips=show_tips, now=now, hist=T[T.week <= week], views=v, proj=proj, lev=lev, g=g,
-                                  checks=checks, fetched=fetched, qb_now_ids=qb_now_ids, sims=a.sims))
+        workbook.build(xlsx, wctx)
         chk(os.path.getsize(xlsx) > 20000, f'Excel workbook written ({os.path.basename(xlsx)}, {os.path.getsize(xlsx) // 1024} KB)')
+        if tctx is not None and not a.no_recalc:
+            rc = TCK.recalc(xlsx)
+            if rc is None:
+                chk(False, 'LibreOffice not found: workbook formulas not recalculated/checked (install LibreOffice, or use --no-recalc)', fatal=False)
+            else:
+                bad, wbv = TCK.scan_errors(rc); n, mm = TCK.compare(wbv, tctx); shutil.rmtree(os.path.dirname(rc), ignore_errors=True)
+                chk(not bad, f'LibreOffice recalculation: {len(bad)} formula errors (#REF!, #N/A, #DIV/0!, #VALUE!, ...)' + (f': {bad[:5]}' if bad else ''))
+                chk(not mm, f'recalculated week-tab and leaderboard formulas match the Python engine ({n:,} cells, {len(mm)} mismatches)' + (f': {mm[:5]}' if mm else ''))
+        if tctx is not None:
+            chk(sha(TIP_INPUTS) == inputs_sha, 'inputs/tipping_inputs.xlsx unchanged by this run (backed up first)')
+        workbook.build(xlsx, wctx)          # rebuilt so the About sheet lists the complete self-test
     except Exception as e:
         chk(False, f'Excel workbook failed: {e!r}')
+    L[L_self:L_self] = [f'- {s}: {m}' for s, m in checks]
+    open(os.path.join(OUTPUT, f'{tag}.md'), 'w').write('\n'.join(L) + '\n')
     print(f'\nNFL {season} WEEK {week} TIPS'); print(show_tips.to_string(index=False))
     print('\nSELF-TEST'); [print(f'  {s}: {m}') for s, m in checks]
     print(f'\nWritten in {time.time() - t0:.0f}s: output/{tag}.md (full report), output/{tag}_tips.csv, output/{tag}_teams.csv, output/NFL_Model_{season}.xlsx')

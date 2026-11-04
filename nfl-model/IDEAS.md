@@ -41,3 +41,17 @@ Earlier rounds covered 108 more ideas: README section 5 and `results/factors.csv
 | 13 | **Bet sizing (Kelly)** on edges against the line | none | low | Not recommended: no betting edge was found in 3 rounds. |
 | 14 | **Interactive dashboard** (HTML page with filters) for the weekly report | presentation only | medium | The markdown and CSV outputs cover the content. |
 | 15 | **Email or Slack delivery** of the weekly report | convenience | low | Needs a connector or credentials; out of scope here. |
+
+## Tested in round 4 (none kept)
+
+Full tables: `results/round4_noise.md` and `results/round4_early.md`.
+
+- **Penalties:** EPA without penalty plays; penalty EPA as a team trait.
+- **Luck:** results without return TDs or field-goal luck; special teams without field-goal luck; blocked kicks.
+- **Play impact:** leverage-weighted EPA; win-probability added; EPA without big plays; big-play dependence.
+- **QB left the game mid-game:** those games down-weighted in the EPA and results ratings.
+- **FTN interception-worthy throws:** exploratory only, 2022+.
+- **Hail Marys:** too rare to matter.
+- **Early-season fixes:** 7, none kept.
+
+New idea from round 4: **non-QB players leaving mid-game** (snap counts below their usual share). The QB version didn't help, so this is low priority.

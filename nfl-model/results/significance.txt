@@ -1,6 +1,6 @@
 Holdout 2020-25, paired bootstrap over weeks (2000 resamples), 95% intervals:
-  rmse_new_orig   -0.373   [-0.529, -0.213]
-  rmse_new_line   +0.166   [+0.041, +0.289]
-  su_new_orig     +2.050   [+0.315, +3.688]
-  su_new_line     -1.615   [-3.057, -0.124]
-  ATS 50.2% of 1577; 95% range if no skill: 47.5%..52.5%; break-even at -110 odds is 52.4%
+  rmse_new_orig              -0.358   [-0.514, -0.200]
+  rmse_new_line              +0.180   [+0.056, +0.298]
+  su_new_orig                +1.801   [+0.121, +3.423]
+  su_new_line                -1.863   [-3.340, -0.373]
+  ATS 50.2% of 1577; 95% range if no skill: 47.5%..52.5%; break-even at -110 is 52.4%

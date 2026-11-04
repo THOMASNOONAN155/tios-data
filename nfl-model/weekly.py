@@ -21,10 +21,12 @@ from nflmodel.extra import build_extra, adjusted_line
 from nflmodel.teamtable import build_team_table
 from nflmodel.views import season_views
 from nflmodel.season import simulate, game_leverage
+from nflmodel import workbook
 
 CFG = config(); TAU = CFG.get('season_tau', 4.0)
 show = lambda t: DISPLAY.get(t, t)
-NEEDED = ['games.csv', 'team_games.csv', 'qb_games.csv', 'injury_out.csv', 'team_games_x.csv', 'player_weeks.csv', 'nfelo.csv', 'weather_pbp.csv']
+NEEDED = ['games.csv', 'team_games.csv', 'qb_games.csv', 'injury_out.csv', 'team_games_x.csv', 'player_weeks.csv', 'nfelo.csv', 'weather_pbp.csv',
+          'starters.csv', 'noise_games.csv']
 
 
 def update_data(season, fetch):
@@ -32,10 +34,10 @@ def update_data(season, fetch):
     run = lambda *a: subprocess.run([sys.executable, '-m', *a], check=True)
     if missing:
         print(f'First run (or cache cleared): downloading all seasons from nflverse. Missing: {", ".join(missing)}', flush=True)
-        run('nflmodel.fetch_data'); run('nflmodel.fetch_extra')
+        run('nflmodel.fetch_data'); run('nflmodel.fetch_extra'); run('nflmodel.fetch_noise')
     elif fetch:
         print(f'Updating {season} data from nflverse and nfelo ...', flush=True)
-        run('nflmodel.fetch_data', '--current', str(season)); run('nflmodel.fetch_extra', '--current', str(season))
+        run('nflmodel.fetch_data', '--current', str(season)); run('nflmodel.fetch_extra', '--current', str(season)); run('nflmodel.fetch_noise', '--current', str(season))
 
 
 def qb_names(g):
@@ -67,13 +69,14 @@ def main():
     # ---------------- tips
     cur = preds[preds.week == week].merge(adj[['game_id', 'pred_adj', 'prob_adj']], on='game_id', how='left')
     qn = lambda i: names.get(i, str(i).replace('override:', '')) if isinstance(i, str) else '?'
-    tips = []
+    tips = []; qb_now_ids = []
     for r in cur.itertuples():
         x = gi.loc[r.game_id]; has_line = r.spread_line == r.spread_line
         p_tip = r.prob_adj if has_line else r.prob; m_tip = r.pred_adj if has_line else r.pred
         tip = r.home_team if m_tip >= 0 else r.away_team
         hq = x.home_qb_id if isinstance(x.home_qb_id, str) else r.qbid_h
         aq = x.away_qb_id if isinstance(x.away_qb_id, str) else r.qbid_a
+        qb_now_ids += [hq, aq]
         if has_line:
             line = f'{show(r.home_team)} -{r.spread_line:g}' if r.spread_line > 0 else (f'{show(r.away_team)} -{-r.spread_line:g}' if r.spread_line < 0 else 'pick em')
         else:
@@ -169,7 +172,7 @@ def main():
           '## Season projections', '',
           f'{a.sims:,} simulations of the remaining schedule. Each run gives every team a season-long strength error (SD {TAU:.0f} pts) on top of '
           'game-to-game randomness. That setting was chosen on 2012–19 and checked on 2020–25, where simulated playoff chances matched reality '
-          '(teams given 40–60% made it 49% of the time). "Likely range" = 10th–90th percentile of wins; in testing it held the final total about 86% '
+          '(teams given 40–60% made it 48% of the time). "Likely range" = 10th–90th percentile of wins; in testing it held the final total about 86% '
           'of the time. Tiebreakers are simplified (wins, then division record, then conference record).', '',
           proj_tbl.to_markdown(index=False), '',
           '## Strength of schedule', '',
@@ -190,9 +193,16 @@ def main():
     full = v.join(now[['power_qb', 'market', 'results', 'epa_off', 'epa_def', 'special_teams', 'fourth_down', 'nfelo', 'qb_now']]).join(proj, rsuffix='_sim')
     full.insert(0, 'rank', rk); full.index = [show(t) for t in full.index]
     full.sort_values('rank').round(3).to_csv(os.path.join(OUTPUT, f'{tag}_teams.csv'), index_label='team')
+    xlsx = os.path.join(OUTPUT, f'NFL_Model_{season}.xlsx')
+    try:
+        workbook.build(xlsx, dict(season=season, week=week, tips=show_tips, now=now, hist=T[T.week <= week], views=v, proj=proj, lev=lev, g=g,
+                                  checks=checks, fetched=fetched, qb_now_ids=qb_now_ids, sims=a.sims))
+        chk(os.path.getsize(xlsx) > 20000, f'Excel workbook written ({os.path.basename(xlsx)}, {os.path.getsize(xlsx) // 1024} KB)')
+    except Exception as e:
+        chk(False, f'Excel workbook failed: {e!r}')
     print(f'\nNFL {season} WEEK {week} TIPS'); print(show_tips.to_string(index=False))
     print('\nSELF-TEST'); [print(f'  {s}: {m}') for s, m in checks]
-    print(f'\nWritten in {time.time() - t0:.0f}s: output/{tag}.md (full report), output/{tag}_tips.csv, output/{tag}_teams.csv')
+    print(f'\nWritten in {time.time() - t0:.0f}s: output/{tag}.md (full report), output/{tag}_tips.csv, output/{tag}_teams.csv, output/NFL_Model_{season}.xlsx')
     if any(s == 'FAIL' for s, _ in checks):
         sys.exit("SELF-TEST FAILED: see the FAIL lines above. Don't use this week's output until it's fixed.")
     print('SELF-TEST PASSED' + (' (with warnings)' if any(s == 'WARN' for s, _ in checks) else ''))

@@ -2,10 +2,10 @@ Adjusted-line coefficients (fit 2010-25): {'st_opp_d': np.float64(0.302), 'mkt_d
 typical size of adjustment (holdout): mean |adj| = 0.67 pts, games where tip differs from line: 7 of 1610
   in those games: adjusted line right 4, line right 3
 Holdout 2020-25, paired bootstrap over weeks, 95% intervals:
-  rmse_adj_minus_line    -0.032 [-0.069, +0.004]
-  tips_adj_minus_line    +0.062 [-0.248, +0.372]
-  rmse_newA_minus_line   +0.116 [-0.005, +0.244]
-  tips_newA_minus_line   -1.429 [-2.855, -0.063]
-  ATS of adjusted line: 52.4% of 1577 (no-skill 95% range 47.5-52.5%, break-even 52.4%)
-  rmse_round2_minus_round1   -0.049 [-0.105, +0.007]
-  tips_round2_minus_round1   +0.186 [-1.062, +1.431]
+  rmse_adj_minus_line        -0.032   [-0.069, +0.004]
+  tips_adj_minus_line        +0.062   [-0.248, +0.372]
+  rmse_newA_minus_line       +0.129   [+0.012, +0.258]
+  tips_newA_minus_line       -1.366   [-2.873, +0.000]
+  rmse_round2_minus_round1   -0.051   [-0.110, +0.008]
+  tips_round2_minus_round1   +0.497   [-0.874, +1.805]
+  ATS of adjusted line: 52.4% of 1577; 95% range if no skill: 47.5%..52.5%; break-even at -110 is 52.4%

@@ -2,13 +2,13 @@
 
 | Idea | Track | Δ RMSE dev | Δ RMSE holdout | Δ log-loss dev | Δ log-loss holdout | Δ tips dev (pts) | Δ tips holdout (pts) | Result |
 |---|---|---|---|---|---|---|---|---|
-| Denver altitude: extra home edge in Denver | standalone | +0.015 | +0.000 | +0.0005 | -0.0001 | -0.0 | -0.1 | hurt |
+| Denver altitude: extra home edge in Denver | standalone | +0.015 | +0.000 | +0.0005 | -0.0001 | -0.2 | -0.1 | hurt |
 | Denver altitude vs line | vs line | +0.014 | -0.000 | +0.0004 | -0.0001 | +0.0 | +0.0 | no clear effect |
-| Team-specific home edge (from earlier seasons, shrunk) | standalone | +0.004 | +0.001 | +0.0001 | +0.0001 | +0.2 | -0.1 | hurt |
+| Team-specific home edge (from earlier seasons, shrunk) | standalone | +0.003 | +0.002 | +0.0001 | +0.0001 | +0.2 | -0.1 | hurt |
 | Team-specific home edge vs line | vs line | +0.003 | +0.005 | -0.0001 | +0.0003 | +0.4 | -0.1 | hurt |
-| Referee tendency (home margin vs model, earlier seasons) | standalone | +0.024 | +0.001 | +0.0003 | -0.0002 | +0.3 | -0.2 | hurt |
+| Referee tendency (home margin vs model, earlier seasons) | standalone | +0.019 | +0.001 | +0.0002 | -0.0002 | +0.3 | -0.2 | hurt |
 | Referee tendency vs line | vs line | +0.002 | +0.003 | +0.0003 | +0.0002 | +0.3 | -0.1 | hurt |
-| Grass/turf: road team on unfamiliar surface | standalone | -0.006 | +0.012 | -0.0006 | +0.0006 | +0.2 | -0.1 | no clear effect |
+| Grass/turf: road team on unfamiliar surface | standalone | -0.006 | +0.012 | -0.0006 | +0.0006 | +0.1 | +0.1 | no clear effect |
 | Grass/turf mismatch vs line | vs line | +0.004 | +0.004 | -0.0007 | +0.0005 | +0.3 | -0.1 | hurt |
 
 ## Win-probability methods
@@ -18,5 +18,5 @@
 | Adjusted line: normal curve (current) | 0.6087 | 0.6074 | 0.2106 | 0.2101 | current |
 | Adjusted line: from no-vig moneylines + adjustment | 0.6089 | 0.6073 | 0.2108 | 0.2100 | not better on both |
 | Adjusted line: result spread grows with the total | 0.6088 | 0.6075 | 0.2106 | 0.2101 | not better on both |
-| Model: normal curve (current) | 0.6104 | 0.6194 | 0.2115 | 0.2156 | current |
-| Model: logistic recalibration | 0.6103 | 0.6198 | 0.2116 | 0.2156 | not better on both |
+| Model: normal curve (current) | 0.6108 | 0.6201 | 0.2117 | 0.2159 | current |
+| Model: logistic recalibration | 0.6108 | 0.6205 | 0.2118 | 0.2159 | not better on both |

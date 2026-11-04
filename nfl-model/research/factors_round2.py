@@ -7,7 +7,7 @@ Track B (beat the line): prediction = closing line + adjustment. Base = the clos
 Keep rule (both tracks): RMSE lower on development AND holdout, log-loss not worse (tolerance 0.0002) on either.
 Development = 2012-19 (2015-19 for injury-report features, whose data start in 2013; fixed before testing).
 Holdout = 2020-25. 2026 is not used here.
-Also tests gradient boosting and model combinations. Writes results/round2_log.csv, results/round2_selected.json.
+Also tests gradient boosting and model combinations. Writes results/round2_log.csv, results/round2_selected.json, results/round2_table.md.
 """
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))   # nfl-model/ on the path
@@ -32,7 +32,9 @@ def load():
     gm = g.set_index('game_id')
     f['gametime'] = gm.gametime.reindex(f.game_id).values; f['weekday'] = gm.weekday.reindex(f.game_id).values
     f['total_line'] = gm.total_line.reindex(f.game_id).values
-    nm = pd.read_csv(os.path.join(RESULTS, 'predictions_new.csv'))[['game_id', 'pred']].rename(columns={'pred': 'model_pred'})
+    from nflmodel.features import walk_forward
+    # 'model disagreement with the line' = the ROUND-1 model's walk-forward prediction (what round 2 started from)
+    nm = walk_forward(f, BASE_A, range(2010, 2027))[['game_id', 'pred']].rename(columns={'pred': 'model_pred'})
     f = f.merge(nm, on='game_id', how='left')
     return f
 
@@ -240,7 +242,29 @@ def main():
         out[k + '_dev'] = score(f, feats, DEV, track=tr); out[k + '_hold'] = score(f, feats, HOLD, track=tr); out[k + '_2026'] = score(f, feats, [2026], track=tr)
     out['line_dev'] = score(f, [], DEV, track='B'); out['line_hold'] = score(f, [], HOLD, track='B'); out['line_2026'] = score(f, [], [2026], track='B')
     json.dump(out, open(os.path.join(RESULTS, 'round2_selected.json'), 'w'), indent=1, default=float)
+    write_table(L)
     print('A', sel_A, '\nB', baseB)
+
+
+def write_table(d):
+    """results/round2_table.md: every round-2 test, first pass (each factor on its own), plus the ML rows."""
+    d = d[~d.factor.astype(str).str.startswith('>>>')]
+    lab = {'HELPED (kept)': '**helped (kept)**', 'HURT': 'hurt', 'NO CLEAR EFFECT': 'no clear effect'}
+    def tbl(x, title):
+        L = [f'\n**{title}**\n', '| Group | Factor | Δ RMSE dev | Δ RMSE holdout | Δ tips dev (pts) | Δ tips holdout (pts) | Result |', '|---|---|---|---|---|---|---|']
+        L += [f'| {r.group} | {r.factor} | {r.dev_dRMSE:+.3f} | {r.hold_dRMSE:+.3f} | {r.dev_dTips:+.1f} | {r.hold_dTips:+.1f} | {lab[r.verdict]} |' for r in x.itertuples()]
+        return '\n'.join(L)
+    st = d.stage.astype(str)
+    out = [tbl(d[(d.track == 'A') & (st == '1')], 'Track A: standalone model (no betting line). Each factor added on its own to the round-1 model'),
+           tbl(d[(d.track == 'A') & (st == 'ML')], 'Track A: machine learning and combinations, compared with the final round-2 linear model'),
+           tbl(d[(d.track == 'B') & (st == '1')], 'Track B: beat the line. Each adjustment added on its own to the closing line'),
+           tbl(d[(d.track == 'B') & (st == 'ML')], 'Track B: machine learning on what the line gets wrong, compared with the final adjusted line')]
+    nice = {'epa_early': 'early downs only', 'epa_rz': 'red zone only', 'epa_to50': 'turnovers at half weight', 'epa_fl50': 'lost fumbles at half weight',
+            'epa_noto': 'turnovers removed', 'epa_pass': 'passing plays only', 'epa_run': 'running plays only', 'epa_gt': 'garbage time removed'}
+    txt = '\n'.join(out) + '\n'
+    for k, v in nice.items():
+        txt = txt.replace(f'EPA variant: {k} (replaces EPA off/def)', f'EPA, {v} (replacing plain EPA)').replace(f'EPA variant: {k} (added)', f'EPA, {v} (added to plain EPA)')
+    open(os.path.join(RESULTS, 'round2_table.md'), 'w').write(txt)
 
 
 if __name__ == '__main__':

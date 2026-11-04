@@ -113,8 +113,8 @@ def coach_features(g):
 
 def build_extra(f, g, tg, cache=True):
     path = os.path.join(DATA, 'features', 'extra.pkl')
-    if cache and os.path.exists(path) and os.path.getmtime(path) > os.path.getmtime(f'{DATA}/team_games_x.csv') \
-            and os.path.getmtime(path) > os.path.getmtime(f'{DATA}/games.csv'):
+    srcs = [f'{DATA}/{x}' for x in ('team_games_x.csv', 'games.csv', 'starters.csv', 'nfelo.csv') if os.path.exists(f'{DATA}/{x}')]
+    if cache and os.path.exists(path) and os.path.getmtime(path) > max(os.path.getmtime(x) for x in srcs):
         x = pd.read_pickle(path)
         if len(x) == len(f): return f.merge(x, on='game_id', how='left')
     t = team_game_frame(g, tg); F0 = 2008; X = pd.DataFrame({'game_id': f.game_id.values})

@@ -121,6 +121,18 @@ def load_games():
         w = pd.read_csv(wp)
         g = g.merge(w, on='game_id', how='left')
         g['temp'] = g.temp.fillna(g.temp_pbp); g['wind'] = g.wind.fillna(g.wind_pbp)
+    # starting QB = the QB on the team's first dropback (play-by-play), where it differs from games.csv (round-4 audit)
+    sp = os.path.join(DATA, 'starters.csv')
+    g['qb_fixed'] = 0
+    if os.path.exists(sp):
+        st = pd.read_csv(sp); st['team'] = st.team.replace(FRANCHISE).replace({'LAR': 'LA', 'WSH': 'WAS', 'JAC': 'JAX'})
+        st = st.set_index(['game_id', 'team'])
+        for side in ('home', 'away'):
+            k = list(zip(g.game_id, g[side + '_team']))
+            sid = st.qb_id.reindex(k).values; snm = st.qb_name.reindex(k).values
+            ch = pd.notna(sid) & (sid != g[side + '_qb_id'].values)
+            g.loc[ch, side + '_qb_id'] = sid[ch]; g.loc[ch, side + '_qb_name'] = np.where(pd.notna(snm[ch]), snm[ch], g.loc[ch, side + '_qb_name'])
+            g['qb_fixed'] += ch.astype(int)
     g['indoor'] = g.roof.isin(['dome', 'closed']).astype(int)
     g.loc[g.indoor == 1, ['temp', 'wind']] = np.nan
     g['played'] = g.result.notna().astype(int)

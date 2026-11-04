@@ -5,10 +5,10 @@ Ranking published before each week (weeks 2-17). **Remaining-season accuracy** =
 | Method | Remaining-season accuracy, dev | holdout | 2026 (wks 2-8) | Next-week accuracy, dev | holdout | Correlation, dev | holdout | Stability (places/wk), holdout | Verdict |
 |---|---|---|---|---|---|---|---|---|---|
 | nfelo QB-adjusted Elo | 62.3% | 63.2% | 62.9% | 63.9% | 64.9% | 0.506 | 0.495 | 2.24 | not better on both |
-| Model power (current, incl. QB) | 63.1% | 62.7% | 62.4% | 64.5% | 66.1% | 0.526 | 0.513 | 2.10 | current method |
-| Model power without QB adjustment | 63.4% | 62.7% | 61.1% | 65.0% | 66.2% | 0.525 | 0.515 | 1.83 | not better on both |
-| Model power, 2-week average | 63.1% | 62.4% | 60.9% | 64.7% | 66.6% | 0.522 | 0.504 | 1.50 | not better on both |
-| Model power, 3-week average | 62.9% | 62.4% | 60.9% | 65.1% | 66.6% | 0.518 | 0.497 | 1.24 | not better on both |
+| Model power (current, incl. QB) | 63.2% | 62.7% | 62.6% | 64.6% | 66.0% | 0.526 | 0.514 | 2.08 | current method |
+| Model power without QB adjustment | 63.4% | 62.7% | 61.6% | 64.9% | 66.1% | 0.525 | 0.515 | 1.85 | not better on both |
+| Model power, 2-week average | 63.1% | 62.5% | 61.4% | 65.0% | 66.5% | 0.522 | 0.504 | 1.49 | not better on both |
+| Model power, 3-week average | 62.9% | 62.4% | 60.9% | 65.2% | 66.3% | 0.518 | 0.498 | 1.25 | not better on both |
 | Original workbook PR score | 61.7% | 61.8% | 56.4% | 63.6% | 64.0% | 0.463 | 0.475 | 2.00 | not better on both |
 | Results rating only | 61.6% | 61.7% | 58.7% | 63.3% | 64.2% | 0.468 | 0.476 | 3.23 | not better on both |
 | Market rating only | 62.3% | 61.5% | 58.7% | 63.1% | 65.0% | 0.486 | 0.466 | 1.64 | not better on both |
@@ -25,7 +25,7 @@ For each team and each week 4-14: season-to-date win %, Pythagorean win % (from 
 |---|---|---|---|
 | Actual win % so far | 0.2637 | 0.2596 | baseline |
 | Pythagorean win % (points for/against) | 0.2237 | 0.2254 | **better than record on both** |
-| Model expected win % (pre-game probabilities) | 0.2157 | 0.2202 | **better than record on both** |
+| Model expected win % (pre-game probabilities) | 0.2158 | 0.2200 | **better than record on both** |
 
 ## Offence and defence rankings
 
@@ -44,5 +44,5 @@ Does a team's rating change over the last 4 weeks predict how it does over the r
 
 | Period | Slope (pts of future margin per pt of trend) | Correlation |
 |---|---|---|
-| Development | -0.072 | -0.029 |
-| Holdout | -0.202 | -0.082 |
+| Development | -0.067 | -0.026 |
+| Holdout | -0.199 | -0.080 |

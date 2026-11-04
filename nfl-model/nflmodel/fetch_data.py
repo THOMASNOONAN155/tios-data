@@ -26,7 +26,7 @@ GAMES_URL = 'https://raw.githubusercontent.com/nflverse/nfldata/master/data/game
 REL = 'https://github.com/nflverse/nflverse-data/releases/download'
 FIRST = 2006
 PBP_COLS = ['game_id', 'season', 'week', 'season_type', 'posteam', 'defteam', 'play_type', 'epa', 'success', 'wp',
-            'pass', 'rush', 'qb_dropback', 'id', 'qb_epa', 'fumble', 'fumble_lost', 'interception', 'weather']
+            'pass', 'rush', 'qb_dropback', 'id', 'qb_epa', 'fumble', 'fumble_lost', 'interception', 'weather', 'play_id']
 
 
 def get(url, dest, force=False):
@@ -82,6 +82,15 @@ def weather_table(pbp):
     return w[['game_id', 'temp_pbp', 'wind_pbp']]
 
 
+def starter_table(pbp, players):
+    """The QB on each team's FIRST dropback = the starter (knowable before kickoff). games.csv sometimes lists the QB who
+    played most instead (e.g. Week 17 rest games), which leaks hindsight into a pre-game feature."""
+    d = pbp[(pbp.qb_dropback == 1) & pbp.id.notna() & pbp.posteam.notna()].sort_values(['game_id', 'play_id'])
+    if 'position' in players: d = d[d.id.isin(players[players.position == 'QB'].gsis_id)]   # skip trick plays / wildcat snaps
+    f = d.groupby(['game_id', 'posteam']).id.first().reset_index().rename(columns={'posteam': 'team', 'id': 'qb_id'})
+    return f.merge(players[['gsis_id', 'display_name']], left_on='qb_id', right_on='gsis_id', how='left').drop(columns='gsis_id').rename(columns={'display_name': 'qb_name'})
+
+
 def qb_game_table(pbp):
     d = pbp[(pbp.qb_dropback == 1) & pbp.qb_epa.notna() & pbp.id.notna()]
     return d.groupby(['game_id', 'season', 'week', 'posteam', 'id']).agg(dropbacks=('qb_epa', 'size'), qb_epa=('qb_epa', 'sum')) \
@@ -131,13 +140,18 @@ def main():
     WX = [pd.read_csv(wx_path)] if a.current and os.path.exists(wx_path) else []
     if a.current: WX = [x[~x.game_id.str.startswith(str(a.current))] for x in WX]
     pl = get(f'{REL}/players/players.csv', f'{RAW}/players.csv', force=bool(a.current))
-    players = pd.read_csv(pl, low_memory=False, usecols=['gsis_id', 'pfr_id']).dropna().drop_duplicates('pfr_id')
+    pfull = pd.read_csv(pl, low_memory=False, usecols=['gsis_id', 'pfr_id', 'display_name', 'position'])
+    players = pfull[['gsis_id', 'pfr_id']].dropna().drop_duplicates('pfr_id')
+    pnames = pfull[['gsis_id', 'display_name', 'position']].dropna(subset=['gsis_id']).drop_duplicates('gsis_id')
+    sp = f'{OUT}/starters.csv'
+    SQ = [pd.read_csv(sp)] if a.current and os.path.exists(sp) else []
+    if a.current: SQ = [x[~x.game_id.str.startswith(str(a.current))] for x in SQ]
     for s in seasons:
         print('season', s)
         f = get(f'{REL}/pbp/play_by_play_{s}.parquet', f'{RAW}/pbp_{s}.parquet', force=bool(a.current))
         if not f: continue
         pbp = pd.read_parquet(f, columns=PBP_COLS)
-        TG.append(team_game_table(pbp)); QB.append(qb_game_table(pbp)); WX.append(weather_table(pbp))
+        TG.append(team_game_table(pbp)); QB.append(qb_game_table(pbp)); WX.append(weather_table(pbp)); SQ.append(starter_table(pbp, pnames))
         man[f'pbp_{s}'] = {'url': f'{REL}/pbp/play_by_play_{s}.parquet', 'sha': sha(f), 'plays': int(len(pbp))}
         if s >= 2012:
             if a.current:
@@ -148,6 +162,7 @@ def main():
     pd.concat(TG).sort_values(['season', 'week', 'game_id']).to_csv(tg_path, index=False)
     pd.concat(QB).sort_values(['season', 'week', 'game_id']).to_csv(qb_path, index=False)
     pd.concat(WX).to_csv(wx_path, index=False)
+    pd.concat(SQ).to_csv(sp, index=False)
     if IJ: pd.concat(IJ).sort_values(['season', 'week']).to_csv(ij_path, index=False)
     mpath = f'{OUT}/manifest.json'
     old = json.load(open(mpath)) if os.path.exists(mpath) else {}

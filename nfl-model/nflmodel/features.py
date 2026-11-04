@@ -62,7 +62,9 @@ def build_features(p=None, data=None, force=False):
     p = dict(DEFAULT, **(p or {}))
     path = os.path.join(CACHE, f'feat_{_key(p)}.pkl')
     g, tg, qbg, inj = data or load_all()
-    if not force and os.path.exists(path) and os.path.getmtime(path) > os.path.getmtime(f'{DATA}/games.csv'):
+    srcs = [f'{DATA}/{x}' for x in ('games.csv', 'starters.csv', 'qb_games.csv') if os.path.exists(f'{DATA}/{x}')] + [os.path.join(INPUTS, 'qb_overrides.csv')]
+    newest = max(os.path.getmtime(x) for x in srcs if os.path.exists(x))
+    if not force and os.path.exists(path) and os.path.getmtime(path) > newest:
         return pd.read_pickle(path)
     M = market_ratings(g, FIRST_RATED, p['m_hl'], p['m_off'], p['m_lam'])
     R = results_ratings(g, FIRST_RATED, p['r_hl'], p['r_off'], p['r_lam'])

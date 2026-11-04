@@ -1,17 +1,18 @@
 # NFL weekly predictor
 
-Each week this produces three things:
+Each week this produces four things:
 
 - **game tips with win %**
 - **power rankings**
 - **season projections:** playoff, division and #1-seed odds
+- **a polished Excel workbook** (`output/NFL_Model_2026.xlsx`)
 
 It's a rebuild of the original `nfl_power_rankings` workbook. Every number was tested walk-forward on 15 seasons of real data: each prediction uses only games played before it.
 
 **Bottom line:**
 
 - It picks winners better than the original model, by about 2 percentage points on seasons it was never tuned on.
-- **It does not beat the Vegas closing line.** The tip it gives (the line plus two small tested corrections) ties the line. After more than 130 tested ideas, nothing beat it.
+- **It does not beat the Vegas closing line.** The tip it gives (the line plus two small tested corrections) ties the line. After more than 160 tested ideas over four rounds, nothing beat it.
 
 ## Run it each week
 
@@ -32,6 +33,7 @@ python3 weekly.py
    - all 32 teams rated
    - simulation totals adding up: 14 playoff spots, 8 division winners, 2 #1 seeds
    - data up to date
+   - the Excel workbook written
 
 **Options:**
 
@@ -42,21 +44,28 @@ python3 weekly.py
 
 ## What the outputs mean
 
-`output/<season>_wk<NN>.md` is the full weekly report:
+**`output/NFL_Model_2026.xlsx`** is rebuilt every week. It uses the original workbook's navy-and-gold theme, has frozen headers and colour scales, and has no tipping or betting tracking.
 
-| Section | What it shows |
+| Sheet | What it shows |
 |---|---|
-| **Tips** | **TIP** and its **Win %**: the betting line plus small corrections for special teams and market drift. It's the most accurate option, and it ties the line. **Model only** is the model's pick without seeing the line. The section also lists the starting QBs assumed. |
-| **Biggest games** | The games whose result swings the teams' playoff chances most |
-| **Power rankings** | **Power**: points better than an average team on a neutral field, with this week's QB. Also offence and defence rank, expected wins and **luck** (wins minus expected), strength of schedule played and still to play (rank 1 = hardest), the 4-week trend and the QB adjustment. |
-| **Season projections** | Projected wins and likely range, and chances to win the division, make the playoffs and get the #1 seed, from 20,000 simulations |
-| **Strength of schedule** | Whose record an easy or hard schedule has flattered or hurt, in wins, and the hardest and easiest schedules left |
-| **Rest and travel to come** | For information only: tested, with no measurable effect |
+| **Dashboard** | This week's games with the predicted winner and win %; the top 5 risers and fallers in the power rankings; playoff-race highlights (the biggest games, the #1-seed race, bubble teams) |
+| **Power Rankings** | 1–32 with movement and the parts of the power score: market, results + Elo, EPA offence and defence, special teams, 4th-down, QB. Also offence and defence ranks, expected wins, luck, strength of schedule and trend. |
+| **Ranking History** | Rank before every week, plus a chart of the current top 8 over the season |
+| **Team Efficiency** | EPA per play (raw and opponent-adjusted), success rate, pass/rush/early-down EPA, pass rate over expected, pace, 4th-down go rate, special teams, penalties, turnovers, big plays, field-goal luck, win-probability added, blocked kicks. Includes an offence-vs-defence scatter. |
+| **QBs** | EPA per dropback, completion % over expected, completion %, yards per attempt, TDs and INTs, INT rate, and the **adjusted INT rate**: interception-worthy throws per attempt from FTN charting, which strips out tipped and dropped picks. Also lucky or unlucky INTs, drops by receivers, sack rate. |
+| **Luck & Expected Wins** | Wins vs expected wins (the model's pre-game chances), Pythagorean wins, fumble luck, field-goal luck, return TDs, turnover margin. Includes an expected-vs-actual scatter. |
+| **Strength of Schedule** | Opponent strength played and remaining, adjusted for each opponent's QB and home/away; schedule effect in wins; rest and travel still to come |
+| **Season Projections** | Projected wins with likely range, and division, playoff and #1-seed odds, from 20,000 simulations. Includes a playoff-odds chart. |
+| **About** | How to read it, and this run's self-test |
+
+**`output/<season>_wk<NN>.md`** has the same content as a plain-text report.
 
 There are also two CSV files:
 
 - `_tips.csv`: the tips table, with margins
 - `_teams.csv`: every team stat and projection
+
+**TIP** is the betting line plus small corrections for special teams and market drift. It's the most accurate option, and it ties the line. **Model only** is the model's pick without seeing the line.
 
 ## Results, all rounds
 
@@ -65,9 +74,9 @@ There are also two CSV files:
 | | Tips right | Error (RMSE, pts) | ATS | Log-loss |
 |---|---|---|---|---|
 | Original workbook model (re-implemented) | 63.1% | 13.19 | 51.4% | 0.641 |
-| After round 1 | 65.2% | 12.82 | 50.2% | 0.622 |
-| After round 2: **Model only** | 65.3% | 12.77 | 50.2% | 0.619 |
-| **TIP: adjusted line** (round 2) | **66.8%** | **12.62** | 52.3% | **0.607** |
+| After round 1 | 65.0% | 12.83 | 50.0% | 0.623 |
+| After round 2: **Model only** | 65.4% | 12.78 | 50.5% | 0.620 |
+| **TIP: adjusted line** | **66.8%** | **12.62** | 52.3% | **0.607** |
 | Vegas closing line | 66.8% | 12.66 | — | 0.608 |
 
 **Live 2026, Weeks 1–8** (121 games, never used for anything):
@@ -75,15 +84,32 @@ There are also two CSV files:
 | | Tips right | Error (pts) |
 |---|---|---|
 | Original | 63.3% | 12.20 |
-| Model only | 65.8% | 12.32 |
+| Model only | 65.0% | 12.20 |
 | TIP | 65.8% | 12.20 |
 | Line | 65.8% | 12.18 |
 
-**How sure we can be** (resampling the holdout weeks, 95% intervals):
+**How sure we can be** (resampling the holdout weeks 2,000 times, 95% intervals; `results/significance*.txt`):
 
-- The gain from the original to the new model is real: error 0.37 points lower, tips right 2.1 percentage points higher.
-- The TIP against the line is no real difference: error 0.03 points lower (−0.07 to +0.00), tips right +0.1 percentage points (−0.2 to +0.4).
-- Model only against the line: **the line is better**.
+- **New model vs the original:** a real gain. Error is 0.36 points lower (−0.52 to −0.20) and tips right 1.9 percentage points higher (+0.2 to +3.6).
+- **TIP vs the line:** no real difference. Error is 0.03 points lower (−0.07 to +0.00) and tips right +0.1 percentage points (−0.2 to +0.4).
+- **Model only vs the line:** **the line is better**, by 0.13 points of error and 1.4 percentage points of tips.
+
+**Part of the season** (round 4, `results/round4_early.md`). Weeks 1–4 are weaker for every method, including the line.
+
+| Holdout 2020–25 | Weeks 1–4 | Weeks 5–8 | Weeks 9–18 |
+|---|---|---|---|
+| Model only | 63.9% | 63.7% | 66.7% |
+| TIP | 63.4% | 66.0% | 68.6% |
+| Line | 63.4% | 66.0% | 68.5% |
+| Power-ranking accuracy (published before Weeks 2–4 / 5–8 / 9–17) | 61.0% | 63.2% | 63.8% |
+
+The model is no weaker than the line early. On holdout it was slightly *better* in Weeks 1–4 (error 12.48 vs 12.59), but slightly worse in that window on 2012–19.
+
+Seven early-season fixes were tested, and none passed on both periods:
+
+- different weights for nfelo, the QB value, the results rating, or the market and nfelo together in early weeks
+- separate weights fitted only on Weeks 1–4
+- less carry-over of last season's market rating
 
 **Power rankings** (round 3). Accuracy here means: of all remaining games, the share won by the higher-ranked team, using the ranking published before each of Weeks 2–17.
 
@@ -94,19 +120,15 @@ There are also two CSV files:
 | Original workbook score | 61.7% | 61.8% | 2.0 |
 | Win–loss record | 59.1% | 60.0% | 3.0 |
 
-Nothing beat the current power score on both periods, so it stays. Full table: `results/round3_rankings.md`.
+**Season simulation** (round 3, `results/round3_season.md`):
 
-**Season simulation** (round 3). Simulated from before Weeks 1, 5, 9 and 13 of every season:
-
-- **Playoff chances match reality.** Teams given 40–60% made the playoffs 49% of the time, and teams given 80–95% made it 85%.
+- **Playoff chances match reality.** Teams given 40–60% made the playoffs 48% of the time, and teams given 80–95% made it 85%.
 - **Accuracy (Brier score).** Playoff calls scored 0.16 on holdout, against 0.25 for a no-information guess. Lower is better.
-- **Win totals:** off by 1.7 wins on average, 2.3 from Week 1 and 1.1 from Week 13.
+- **Win totals:** off by 1.7 wins on average.
 
-Full results: `results/round3_season.md`.
+**Luck.** Expected wins predicted a team's rest-of-season win % better than its actual record did: error 0.22 against 0.26.
 
-**Luck.** A team's expected wins (the sum of the model's pre-game win chances) predicted its rest-of-season win % better than its actual record did: error 0.22 against 0.26. Pythagorean win % (from points scored and allowed) was also better than the record.
-
-## What was tested (over 130 ideas in 3 rounds)
+## What was tested (over 160 ideas in 4 rounds)
 
 The rules were the same every time:
 
@@ -114,21 +136,58 @@ The rules were the same every time:
 - walk-forward testing
 - a change is **kept only if it improves both** the development seasons (2012–19) and the holdout seasons (2020–25)
 
-Every result is logged.
+Every result is logged in `results/`.
 
-| Round | Kept | Tested and dropped | Full log |
+| Round | Kept | Tested and dropped | Log |
 |---|---|---|---|
-| 1 | Market rating from past lines; results rating; **starting-QB value**; EPA split into offence and defence | Rest, byes, short weeks, travel, time zones, body clock, weather, divisional games, home-field variants, recent form, early-season tweaks, success rate, injuries | `results/factors.csv` |
-| 2 | Special teams; nfelo forecast; 4th-down aggressiveness. **TIP** = line + special teams + market drift | Player value by position (offensive line, receivers, pass rush, secondary); 8 EPA variants; pace, pass rate over expected, no-huddle, coaching changes; penalties; luck measures; gradient boosting (overfit every time); 30+ "where the line is wrong" situations (big favourites, prime time, after a QB change, …) | `results/round2_log.csv`, `results/round2_table.md` |
-| 3 | Season-simulation uncertainty (SD 4 pts) | Other ranking methods; Denver altitude; team-specific home field; referees; grass/turf; moneyline-based, recalibrated and total-scaled win % | `results/round3_*.md` |
+| 1 | Market rating from past lines; results rating; **starting-QB value**; EPA split into offence and defence | Rest, byes, travel, time zones, weather, divisional games, home-field variants, recent form, early-season tweaks, success rate, injuries | `factors.csv` |
+| 2 | Special teams; nfelo forecast; 4th-down aggressiveness. **TIP** = line + special teams + market drift | Player value by position; 8 EPA variants; play-calling and coaching; penalties; luck; gradient boosting (overfit every time); 30+ "where the line is wrong" situations | `round2_log.csv`, `round2_table.md` |
+| 3 | Season-simulation uncertainty (SD 4 pts) | Other ranking methods; Denver altitude; team home field; referees; grass/turf; alternative win-% methods | `round3_*.md` |
+| 4 | None. The noise measures are shown as stats in the workbook instead. | **Penalties:** EPA without penalty plays, penalty EPA. **Luck:** results without return TDs or field-goal luck, special teams without field-goal luck, blocked kicks. **Play impact:** leverage-weighted EPA, win-probability added, big plays vs the rest, big-play dependence. **QB left the game:** those games down-weighted in the ratings. **FTN interception-worthy throws:** exploratory only, since the data starts in 2022. **Early-season fixes** (7). | `round4_noise.md`, `round4_early.md` |
 
-The remaining ideas, ranked by value against effort, are in [`IDEAS.md`](IDEAS.md).
+Remaining ideas, ranked by value against effort: [`IDEAS.md`](IDEAS.md).
+
+## Data audit (round 4, `results/audit_data.md`)
+
+**Scores**
+
+- 0 mismatches between nflverse and nfelo, a separately maintained source, across 5,552 games.
+- 0 mismatches between nflverse and play-by-play final scores in sample seasons from 2008 to 2026.
+- 0 mismatches between nflverse and your workbook for 2026.
+
+**2026 lines vs your workbook's consensus close**
+
+- **Spreads:** 81% exact, 93% within half a point.
+- **Opposite favourites:** two near-pick'em games where the two sources disagree: Week 6 DAL@GB and Week 8 KC@DEN. nflverse's spread agrees with its own moneyline, so it's kept.
+
+**Starting QBs: an error was found and fixed**
+
+- **The error:** nflverse sometimes lists the QB who played most rather than the one who started, mostly in Week 17 rest games. Knowing that is hindsight.
+- **The fix:** the model now uses the QB on each team's first dropback (players listed at QB only). This corrects 88 team-games.
+- **Effect:** disagreement with nfelo fell from 76 games to 17. The results tables above already include the fix. It moved holdout results by at most 0.2 percentage points; on 2026, model-only tips went from 65.8% to 65.0% (one game).
+
+**Player and team stats vs nflverse's official stats**
+
+- Interceptions: 100% exact.
+- Targets: 98–99% exact.
+- Lost fumbles: 92–94% exact. The gaps are special-teams fumbles, which we include and the official offensive totals leave out.
+- 2026 QB EPA per dropback vs your workbook: correlation 0.94.
+
+**Reproducibility check**
+
+`bash research/run_all.sh` re-runs all the research. Before the QB fix, it reproduced every committed result exactly, with three exceptions:
+
+- the gradient-boosting rows, which vary slightly run to run, with verdicts unchanged
+- one significance interval, from a one-off script now saved as `research/significance.py`, with the same estimate
+- two round-3 rows that had depended on a file later overwritten, both still "hurt"
+
+`round2_table.md` was hand-made; it's now generated by code.
 
 ## How it works
 
-- **Ratings (before every week):** three ridge-regression ratings, each with time decay that carries across seasons, so Week 1 starts from last season:
+- **Ratings (before every week):** three ridge-regression ratings, each with time decay that carries across seasons:
   - **market:** from earlier closing lines
-  - **results:** damped point margins
+  - **results:** damped margins
   - **EPA:** offence and defence per play, opponent-adjusted
 - **Adjustments on top:** the starting QB's value against the team's recent starters, special teams, 4th-down aggressiveness and nfelo's QB-adjusted Elo.
 - **Weights:** fitted before each season using only earlier seasons.
@@ -137,30 +196,23 @@ The remaining ideas, ranked by value against effort, are in [`IDEAS.md`](IDEAS.m
 | Folder | Contents |
 |---|---|
 | `weekly.py` | The weekly command |
-| `nflmodel/` | The library: data download (`fetch_data.py`, `fetch_extra.py`), ratings, features, season simulation, views |
-| `research/` | Everything behind the results: `baseline.py` (original model), `tune.py`, `factors_round1.py`, `factors_round2.py`, `round3_*.py`, `report.py` |
+| `nflmodel/` | The library: data download (`fetch_data.py`, `fetch_extra.py`, `fetch_noise.py`), ratings, features, season simulation, views, `workbook.py` (the Excel file) |
+| `research/` | Everything behind the results. `run_all.sh` re-runs it all in about 15 minutes: `baseline.py`, `tune.py`, `factors_round1.py`, `factors_round2.py`, `significance.py`, `round3_*.py`, `audit_data.py`, `round4_*.py`, `report.py` |
 | `config/model.json` | The settings and features the weekly run uses |
-| `data/` | Your hand-edited inputs: `qb_overrides.csv`, plus your workbook's 2026 picks for comparison |
-| `results/` | Research outputs: `report.md` (main before-vs-after report), factor logs, significance tests |
-| `output/` | Weekly reports (2026 Week 9 included as an example) |
+| `data/` | Hand-edited inputs (`qb_overrides.csv`) and tables exported from your original workbook for the audit |
+| `results/` | Research outputs and logs |
+| `output/` | Weekly reports and the Excel workbook |
 | `cache/` | Downloads and rebuilt tables, created automatically and git-ignored |
-
-To re-run the research after the cache exists:
-
-```bash
-python3 research/report.py
-python3 research/round3_rankings.py
-python3 research/round3_season.py
-```
 
 ## Data sources (all free, all real)
 
 | Data | Source |
 |---|---|
-| Scores, closing spreads and moneylines, schedules, rest, roof, weather, starting QBs, coaches (2006–) | nflverse `games.csv`: https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv. Its line matched the 5-source closing line in your workbook exactly in 81% of 2026 games (average difference 0.16 pts). |
-| Play-by-play with EPA, about 1M plays (2006–) | nflverse: `github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_<season>.parquet` |
-| Injury reports (2013–), snap counts (2012–), player IDs | nflverse releases: `injuries`, `snap_counts`, `players` |
-| QB-adjusted Elo, in FiveThirtyEight's format | nfelo: https://raw.githubusercontent.com/greerreNFL/nfeloqb/main/qb_elos.csv |
+| Scores, closing spreads and moneylines, schedules, rest, roof, weather, coaches (2006–) | nflverse `games.csv`: https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv |
+| Play-by-play with EPA, win probability and field-goal make probability, about 1M plays (2006–) | nflverse: `github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_<season>.parquet`. Starting QBs come from here: the first dropback by a listed QB. |
+| Injury reports (2013–), snap counts (2012–), player IDs, official player and team stats (audit) | nflverse releases: `injuries`, `snap_counts`, `players`, `stats_player`, `stats_team` |
+| FTN charting: interception-worthy throws, drops, catchable balls (2022–) | nflverse release `ftn_charting` |
+| QB-adjusted Elo, with its own scores and starters | nfelo: https://raw.githubusercontent.com/greerreNFL/nfeloqb/main/qb_elos.csv |
 | Stadium locations; 8 international-venue corrections | Hand-entered from public facts (`nflmodel/common.py`) |
 
 **Couldn't get:**
@@ -172,10 +224,11 @@ python3 research/round3_season.py
 ## Limitations
 
 - **No edge against the market.** It doesn't beat the closing line on tips, and it has no betting edge against the spread.
-- **The backtest uses the actual starting QB.** That's normally known before kickoff, so the backtest is slightly flattering. In live use, keep `qb_overrides.csv` up to date.
-- **nfelo is a third-party file.** If it isn't updated for a week, the self-test warns you and that input is set to 0.
-- **The season simulation simplifies tiebreakers** (wins, then division record, then conference record) and assumes today's starting QBs play the rest of the season.
-- **Only regular-season games are predicted and scored.** There's no totals (over/under) model.
-- **Small samples.** 2026 has 121 games; differences of a few percent there are noise.
-- **The research reused the same holdout period.** It decided keep-or-drop in all three rounds, so 2026 is the only fully untouched check.
-- **The original workbook is untouched.** This is a separate Python model.
+- **The upcoming week's starting QB is assumed.** It's last week's starter unless `qb_overrides.csv` says otherwise.
+- **nfelo is a third-party file.** If it isn't updated for a week, the self-test warns you.
+- **The season simulation simplifies tiebreakers** and assumes today's starting QBs play the rest of the season.
+- **Only regular-season games are scored.** There's no totals model.
+- **FTN-based stats start in 2022.** They're shown, but can't be tested under the two-period rule.
+- **2026 is a small sample** (121 games).
+- **The research reused the same holdout period.** It decided keep-or-drop in all four rounds, so 2026 is the only fully untouched check.
+- **The original workbook is untouched.** The new workbook is generated from scratch each week.

@@ -4,20 +4,20 @@ Simulated from before weeks 1, 5, 9 and 13 of every season, 5,000 runs each, usi
 
 | tau (season-long rating uncertainty, pts) | Period | Brier: playoffs | Brier: division | Brier: #1 seed | Win-total error (MAE) | 80% range hit rate |
 |---|---|---|---|---|---|---|
-| 0 | development | 0.1445 | 0.1093 | nan | 1.56 | 78% |
-| 0 | holdout | 0.1661 | 0.1345 | 0.0464 | 1.68 | 76% |
-| 1 | development | 0.1442 | 0.1091 | nan | 1.56 | 79% |
-| 1 | holdout | 0.1658 | 0.1343 | 0.0462 | 1.68 | 76% |
-| 2 | development | 0.1434 | 0.1088 | nan | 1.56 | 81% |
-| 2 | holdout | 0.1644 | 0.1334 | 0.0462 | 1.68 | 79% |
-| 3 | development | 0.1428 | 0.1087 | nan | 1.56 | 84% |
-| 3 | holdout | 0.1628 | 0.1323 | 0.0460 | 1.68 | 82% |
-| 4 | development | 0.1424 | 0.1089 | nan | 1.56 | 87% |
-| 4 | holdout | 0.1615 | 0.1313 | 0.0459 | 1.68 | 86% |
-| 5 | development | 0.1426 | 0.1094 | nan | 1.56 | 90% |
-| 5 | holdout | 0.1605 | 0.1305 | 0.0459 | 1.68 | 90% |
+| 0 | development | 0.1446 | 0.1094 | nan | 1.56 | 78% |
+| 0 | holdout | 0.1661 | 0.1346 | 0.0463 | 1.68 | 76% |
+| 1 | development | 0.1443 | 0.1092 | nan | 1.56 | 79% |
+| 1 | holdout | 0.1657 | 0.1345 | 0.0461 | 1.68 | 76% |
+| 2 | development | 0.1435 | 0.1089 | nan | 1.56 | 81% |
+| 2 | holdout | 0.1643 | 0.1335 | 0.0461 | 1.68 | 79% |
+| 3 | development | 0.1429 | 0.1087 | nan | 1.56 | 83% |
+| 3 | holdout | 0.1628 | 0.1324 | 0.0460 | 1.68 | 82% |
+| 4 | development | 0.1425 | 0.1089 | nan | 1.56 | 87% |
+| 4 | holdout | 0.1614 | 0.1314 | 0.0459 | 1.68 | 86% |
+| 5 | development | 0.1426 | 0.1095 | nan | 1.56 | 90% |
+| 5 | holdout | 0.1604 | 0.1306 | 0.0459 | 1.68 | 90% |
 | 6 | development | 0.1430 | 0.1103 | nan | 1.56 | 94% |
-| 6 | holdout | 0.1601 | 0.1299 | 0.0460 | 1.68 | 93% |
+| 6 | holdout | 0.1601 | 0.1301 | 0.0460 | 1.68 | 93% |
 
 Chosen on development: **tau = 4**. Beats tau = 0 on holdout too: **yes, kept**.
 
@@ -26,11 +26,11 @@ Chosen on development: **tau = 4**. Beats tau = 0 on holdout too: **yes, kept**.
 
 | Simulated playoff chance | Team-seasons | Average predicted | Actually made playoffs |
 |---|---|---|---|
-| (-0.001, 0.05] | 284.0 | 1.3% | 0.0% |
-| (0.05, 0.2] | 304.0 | 12.4% | 15.8% |
-| (0.2, 0.4] | 411.0 | 29.6% | 31.4% |
-| (0.4, 0.6] | 295.0 | 49.6% | 49.2% |
-| (0.6, 0.8] | 222.0 | 70.3% | 66.7% |
+| (-0.001, 0.05] | 286.0 | 1.3% | 0.0% |
+| (0.05, 0.2] | 305.0 | 12.5% | 15.7% |
+| (0.2, 0.4] | 405.0 | 29.5% | 31.6% |
+| (0.4, 0.6] | 293.0 | 49.3% | 48.5% |
+| (0.6, 0.8] | 227.0 | 70.1% | 67.0% |
 | (0.8, 0.95] | 160.0 | 87.8% | 85.0% |
 | (0.95, 1.0] | 116.0 | 98.5% | 98.3% |
 
@@ -38,9 +38,9 @@ Chosen on development: **tau = 4**. Beats tau = 0 on holdout too: **yes, kept**.
 
 | Simulated from before week | Brier: playoffs | Brier: division | Win-total MAE |
 |---|---|---|---|
-| 1 | 0.2297 | 0.1682 | 2.34 |
-| 5 | 0.1609 | 0.1242 | 1.81 |
-| 9 | 0.1394 | 0.1200 | 1.46 |
-| 13 | 0.1160 | 0.1127 | 1.10 |
+| 1 | 0.2298 | 0.1675 | 2.34 |
+| 5 | 0.1611 | 0.1244 | 1.81 |
+| 9 | 0.1391 | 0.1210 | 1.46 |
+| 13 | 0.1158 | 0.1127 | 1.10 |
 
 For reference, a no-information guess (every team 44% to make the playoffs) scores Brier 0.2461 on holdout.

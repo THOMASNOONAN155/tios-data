@@ -1,0 +1,3 @@
+# Upcoming starting QBs that differ from each team's last starter. Leave empty if none.
+# Use the name exactly as nflverse writes it (see games.csv home_qb_name / away_qb_name). Team codes as in the workbook.
+season,week,team,qb_name

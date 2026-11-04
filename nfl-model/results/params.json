@@ -1,0 +1,4 @@
+{"m_hl": 2.5, "m_off": 0.0, "m_lam": 0.5,
+ "r_hl": 4.0, "r_off": 2.0, "r_lam": 4.0,
+ "e_hl": 3.0, "e_off": 2.0, "e_lam": 3.0, "e_gt": false,
+ "qb_hl": 40.0, "qb_prior_n": 250.0, "qb_prior": -0.05}

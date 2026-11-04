@@ -3,6 +3,7 @@
 
     python3 backtest.py          # tune, compare, test factors, evaluate, calibrate season sims
     python3 backtest.py --quick  # smoke test: no tuning, tiny simulation calibration
+    python3 backtest.py --reuse-tuning  # skip stage 1 if cache/tuned_specs.json exists
 
 Writes config/model_spec.json (used by weekly.py), reports/BACKTEST.md, reports/EXPERIMENTS.md and
 appends every trial to reports/experiment_log.csv.
@@ -105,14 +106,13 @@ def sim_calibration(spec, m, seasons, sigmas, rounds=(1, 10, 20, 30), n_sims=200
     return pd.DataFrame(recs)
 
 
-def main(quick=False):
+def main(quick=False, reuse_tuning=False):
     print("Loading data (cache must be populated: run weekly.py once, or data.fetch_all())")
     data.fetch_all(refresh=False)
     m = models.add_market_lambdas(data.build_matches())
     f = features.build(m)
-    res = ex.run_all(m, f, quick=quick)
-    promoted = data.promoted_teams(m)
-    F = adjust.prepare(f, m, promoted)
+    res = ex.run_all(m, f, quick=quick, reuse_tuning=reuse_tuning)
+    F = res["F"]
 
     # final specification ---------------------------------------------------------------------
     spec = {"models": {n: res["specs"][n] for n in set(res["blend"]) | {"dixon_coles"}}, "blend": res["blend"],
@@ -153,9 +153,10 @@ def main(quick=False):
                           "bin": draw_bins}).groupby("bin", observed=True).agg(n=("draw", "size"), predicted=("pD", "mean"),
                                                                               actual=("draw", "mean")).reset_index()
     lvs = luck_vs_skill(m)
+    lvs.to_csv(REPORTS / "luck_vs_skill.csv", index=False)
     # season simulation calibration: sigma chosen on tuning seasons, checked on test seasons
     print("Season-simulation calibration")
-    sigmas = [0.0, 0.05, 0.10, 0.15]
+    sigmas = [0.05, 0.10, 0.15, 0.20, 0.25, 0.30]
     sim_seasons = ["2019-20", "2020-21", "2021-22"] + TEST_A + TEST_B
     if quick:
         sigmas, sim_seasons = [0.0, 0.1], ["2021-22", "2023-24"]
@@ -184,11 +185,14 @@ def main(quick=False):
 
     # reports ---------------------------------------------------------------------------------
     logdf = pd.DataFrame(ex.LOG)
+    logdf.to_csv(REPORTS / "latest_tests.csv", index=False)
     logf = REPORTS / "experiment_log.csv"
     logdf.to_csv(logf, mode="a", header=not logf.exists(), index=False)
     ex_md = ["# Experiment log", "", "Every test run by `backtest.py`, in order. RPS = ranked probability score "
-             "(lower is better). Rule: a change is **kept** only if it lowers RPS on both Test A (2022-24) and "
-             "Test B (2024-26); parameters and coefficients are fitted on the tuning seasons (2018-22) only. "
+             "(lower is better); dRPS = change vs the current model (negative = better). Rule: a change is **kept** "
+             "only if its gain is clearly bigger than noise on both Test A (2022-24) and Test B (2024-26): a paired "
+             "bootstrap over match dates (2,000 resamples) must put the one-sided 95% upper bound of dRPS below zero "
+             "in each period. Parameters and coefficients are fitted on the tuning seasons (2018-22) only. "
              "Full history across runs: `experiment_log.csv`.", "", fmt_table(logdf.fillna(""), 5)]
     (REPORTS / "EXPERIMENTS.md").write_text("\n".join(ex_md) + "\n")
     main_rows = acc[acc["Forecaster"].isin(["Model (final)", "Closing market"])]
@@ -220,4 +224,4 @@ def main(quick=False):
 
 
 if __name__ == "__main__":
-    main(quick="--quick" in sys.argv)
+    main(quick="--quick" in sys.argv, reuse_tuning="--reuse-tuning" in sys.argv)

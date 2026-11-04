@@ -3,7 +3,10 @@
 1. Tune each model's hyper-parameters on TUNE seasons only (walk-forward RPS).
 2. Compare tuned models on TUNE, TEST_A and TEST_B against the margin-free closing market.
 3. Blend models (weights fitted on TUNE).
-4. Test each factor/structural change: fitted on TUNE, kept only if RPS improves on BOTH test periods.
+4. Structural changes to the rating fit, and 5. factor adjustments fitted on TUNE.
+   A blend, structural change or factor is kept only if its RPS gain is statistically clear on BOTH
+   test periods: a paired bootstrap over match dates must put the one-sided 95% upper bound of the
+   RPS change below zero in each period.
 Every trial is appended to reports/experiment_log.csv and summarised in reports/EXPERIMENTS.md.
 """
 from __future__ import annotations
@@ -24,12 +27,14 @@ PERIODS = {"TUNE": TUNE, "TEST_A": TEST_A, "TEST_B": TEST_B, "LIVE": LIVE}
 LOG = []
 
 
-def log(stage, name, desc, scores, decision="", note=""):
+def log(stage, name, desc, scores, decision="", note="", extra=None):
     rec = {"time": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"), "stage": stage, "test": name,
-           "description": desc, **{f"RPS_{k}": round(v, 5) for k, v in scores.items()}, "decision": decision,
-           "note": note}
+           "description": desc, **{f"RPS_{k}": round(v, 5) for k, v in scores.items()}, **(extra or {}),
+           "decision": decision, "note": note}
     LOG.append(rec)
-    print(f"  [{stage}] {name:<34} " + " ".join(f"{k}={v:.5f}" for k, v in scores.items()) + f"  {decision} {note}")
+    print(f"  [{stage}] {name:<34} " + " ".join(f"{k}={v:.5f}" for k, v in scores.items())
+          + "".join(f" {k}={v}" for k, v in (extra or {}).items() if k.startswith("dRPS") and "upper" not in k)
+          + f"  {decision} {note}", flush=True)
 
 
 def period_rps(pred, m, periods=("TUNE", "TEST_A", "TEST_B")):
@@ -40,11 +45,6 @@ def period_rps(pred, m, periods=("TUNE", "TEST_A", "TEST_B")):
         if len(idx):
             out[k] = ev.rps(p.loc[idx, ["pH", "pD", "pA"]].to_numpy(), ev.outcome(m.loc[idx])).mean()
     return out
-
-
-def rps_on(pred, m, idx):
-    p = ev.probs_from_pred(pred.loc[idx])
-    return ev.rps(p[["pH", "pD", "pA"]].to_numpy(), ev.outcome(m.loc[idx])).mean()
 
 
 def make(spec):
@@ -141,16 +141,62 @@ def market_pred(m):
     return mp
 
 
-def run_all(m: pd.DataFrame, f: pd.DataFrame, quick=False):
+def per_match_rps(pred, m, idx):
+    p = ev.probs_from_pred(pred.loc[idx])
+    return pd.Series(ev.rps(p[["pH", "pD", "pA"]].to_numpy(), ev.outcome(m.loc[idx])), index=idx)
+
+
+def significance(new, ref, m, idx, n_boot=2000, seed=11):
+    """Paired cluster bootstrap of the per-match RPS change (new - ref), resampling match dates.
+    Returns (mean change, one-sided 95% upper bound, share of resamples with no improvement)."""
+    d = per_match_rps(new, m, idx) - per_match_rps(ref, m, idx)
+    g = d.groupby(m.loc[idx, "date"].values)
+    sums, counts = g.sum().to_numpy(), g.size().to_numpy()
+    rng = np.random.default_rng(seed)
+    pick = rng.integers(0, len(sums), (n_boot, len(sums)))
+    boot = sums[pick].sum(1) / counts[pick].sum(1)
+    return float(d.mean()), float(np.percentile(boot, 95)), float((boot >= 0).mean())
+
+
+def judge(stage, name, desc, new, ref, m, periods=("TEST_A", "TEST_B"), idx_override=None, note=""):
+    """Keep only if the RPS gain is significant (one-sided 95% bootstrap) on both test periods."""
+    scores = period_rps(new, m)
+    stats, ok = {}, True
+    for k in periods:
+        idx = idx_override[k] if idx_override else new.index[m.loc[new.index, "season"].isin(PERIODS[k])]
+        idx = idx.intersection(ref.index)
+        mean, hi, p = significance(new, ref, m, idx)
+        stats[k] = (mean, hi, p)
+        ok &= hi < 0
+        if idx_override:
+            scores[k] = per_match_rps(new, m, idx).mean()
+    extra = {f"dRPS_{k}": round(v[0], 5) for k, v in stats.items()}
+    extra |= {f"dRPS_{k}_upper95": round(v[1], 5) for k, v in stats.items()}
+    extra |= {f"p_noimprove_{k}": round(v[2], 3) for k, v in stats.items()}
+    raw_better = all(v[0] < 0 for v in stats.values())
+    decision = "KEPT" if ok else ("dropped (gain within noise)" if raw_better else "dropped")
+    log(stage, name, desc, scores, decision, note, extra)
+    return ok
+
+
+def run_all(m: pd.DataFrame, f: pd.DataFrame, quick=False, reuse_tuning=False):
     t0 = time.time()
     LOG.clear()
     start = "2018-07-01"
     print("Stage 1: tuning on", TUNE)
     specs, preds = {}, {}
+    tuned_file = CACHE / "tuned_specs.json"
+    cached = json.loads(tuned_file.read_text()) if reuse_tuning and tuned_file.exists() else {}
     for name, spec in BASE_SPECS.items():
-        specs[name] = tune(name, spec, m) if not quick else spec
+        if name in cached:
+            specs[name] = cached[name]
+            log("1-tune", name, "tuned settings reused from previous run (deterministic)", {}, "tuned",
+                json.dumps({k: v for k, v in cached[name]["params"].items() if k != "name"}))
+        else:
+            specs[name] = tune(name, spec, m) if not quick else spec
         preds[name] = run_model(specs[name], m, start)
-        preds[name].to_pickle(CACHE / f"pred_{name}.pkl")
+    if not quick:
+        tuned_file.write_text(json.dumps(specs, indent=1))
     # 2. comparison
     print("Stage 2: model comparison")
     mk = market_pred(m)
@@ -162,61 +208,73 @@ def run_all(m: pd.DataFrame, f: pd.DataFrame, quick=False):
     # 3. blends
     print("Stage 3: blends (weights fitted on TUNE)")
     cands = ["dixon_coles", "xg", "xg_goals_mix", "market", "elo"]
-    best_blend, best_name, best_scores = None, None, None
     single = {n: period_rps(preds[n], m) for n in cands}
     ref = min(cands, key=lambda n: single[n]["TUNE"])
-    log("3-blend", f"best single model ({ref})", "reference for blending", single[ref], "baseline")
-    current, current_scores = {ref: 1.0}, single[ref]
+    log("3-blend", f"best single model ({ref})", "reference for blending (best on TUNE)", single[ref], "baseline")
+    current = {ref: 1.0}
     for combo in [("xg_goals_mix", "market"), ("xg_goals_mix", "market", "elo"), ("xg", "dixon_coles", "market"),
                   ("xg", "market", "elo"), ("xg_goals_mix", "dixon_coles", "market", "elo")]:
         w, _ = tune_blend(preds, m, list(combo))
-        sc = period_rps(blend(preds, w), m)
-        better = sc["TEST_A"] < current_scores["TEST_A"] and sc["TEST_B"] < current_scores["TEST_B"]
-        log("3-blend", "+".join(combo), "geometric blend of expected goals " + json.dumps(w), sc,
-            "KEPT" if better else "dropped", "beats current on both test periods" if better else "")
-        if better:
-            current, current_scores = w, sc
+        if judge("3-blend", "+".join(combo), "geometric blend of expected goals " + json.dumps(w), blend(preds, w),
+                 blend(preds, current), m):
+            current = w
     base = blend(preds, current)
-    # 4. factors
-    print("Stage 4: factors")
+    # 4. structural changes to the rating fit (re-run walk-forward for each blend component)
+    print("Stage 4: structural tests")
+    for name, change, desc in [
+            ("no_crowd_home_adv", {"no_crowd": True}, "separate home advantage for matches without crowds (Jun 2020-May 2021)"),
+            ("promoted_prior", {"promoted_prior": True}, "promoted clubs' ratings start at the historical promoted-club average"),
+            ("red_card_downweight", {"red_weight": 0.5}, "matches with a red card count half in the rating fit (red cards as luck)")]:
+        new_preds = dict(preds)
+        changed = False
+        for n in current:
+            if specs[n]["cls"] == "RatingModel":
+                sp = copy.deepcopy(specs[n])
+                sp["params"].update(change)
+                new_preds[n] = run_model(sp, m, start)
+                changed = True
+        if changed and judge("4-structural", name, desc, blend(new_preds, current), base, m):
+            for n in current:
+                if specs[n]["cls"] == "RatingModel":
+                    specs[n]["params"].update(change)
+            preds = new_preds
+            base = blend(preds, current)
+    # penalties as luck: non-penalty xG plus league-average penalty value, on the xG model (information only
+    # if the xG model is not part of the selected blend)
+    sp = copy.deepcopy(specs["xg"])
+    sp["params"]["target"] = "npxg_pen"
+    judge("4-structural", "npxg_plus_avg_penalties", "xG model rebuilt on non-penalty xG + average penalty value "
+          "(penalties treated as luck); compared with the xG model", run_model(sp, m, start), preds["xg"], m,
+          note="" if "xg" in current else "information only: the xG model is not in the selected blend")
+    # 5. factors
+    print("Stage 5: factors")
     promoted = data.promoted_teams(m)
     F = adjust.prepare(f, m, promoted)
     kept, kept_params = [], None
-    base_pred = base.copy()
-    base_scores = current_scores
-
     tune_idx = base.index[m.loc[base.index, "season"].isin(TUNE)]
-
-    def score_with(names, fit_idx):
-        spec = adjust.merge_specs(names)
-        params = adjust.fit(F.loc[fit_idx], base.loc[fit_idx], m.loc[fit_idx], spec)
-        return params, period_rps(adjust.apply(F.loc[base.index], base, params), m)
+    current_pred = base
 
     order = ["draw_bias", "early_season", "promoted_early", "rest_days", "rest_diff", "euro_congestion", "manager_change",
              "derby", "motivation", "finishing_luck", "penalty_skill", "red_card_rate", "set_pieces", "form"]
     for name in order:
-        params, sc = score_with(kept + [name], tune_idx)
-        better = sc["TEST_A"] < base_scores["TEST_A"] and sc["TEST_B"] < base_scores["TEST_B"]
-        coefs = {"beta": [round(x, 4) for x in params["beta"]], "delta": [round(x, 4) for x in params["delta"]]}
-        log("4-factor", name, json.dumps(adjust.FACTORS[name]), sc, "KEPT" if better else "dropped",
-            json.dumps(coefs))
-        if better:
+        spec = adjust.merge_specs(kept + [name])
+        params = adjust.fit(F.loc[tune_idx], base.loc[tune_idx], m.loc[tune_idx], spec)
+        new = adjust.apply(F.loc[base.index], base, params)
+        k = len(adjust.FACTORS[name].get("goals", []))
+        own = {"beta": [round(x, 4) for x in params["beta"][-k:]] if k else [],
+               "delta": [round(x, 4) for x in params["delta"]]}
+        if judge("5-factor", name, json.dumps(adjust.FACTORS[name]), new, current_pred, m,
+                 note="coefficients " + json.dumps(own)):
             kept.append(name)
-            kept_params, base_scores = params, sc
+            kept_params, current_pred = params, new
     # lineup strength: data only from 2022-23, so fit on 2022-23 and judge on 2023-24 and TEST_B
-    ref_pred = adjust.apply(F.loc[base.index], base, kept_params) if kept_params else base
     lu_fit = base.index[(m.loc[base.index, "season"] == "2022-23") & F.loc[base.index, "xi_rel_h"].notna()]
-    params = adjust.fit(F.loc[lu_fit], ref_pred.loc[lu_fit], m.loc[lu_fit], adjust.merge_specs(["lineup_strength"]))
-    adj = adjust.apply(F.loc[base.index], ref_pred, params)
+    params = adjust.fit(F.loc[lu_fit], current_pred.loc[lu_fit], m.loc[lu_fit], adjust.merge_specs(["lineup_strength"]))
+    adj = adjust.apply(F.loc[base.index], current_pred, params)
     a_idx = base.index[m.loc[base.index, "season"] == "2023-24"]
     b_idx = base.index[m.loc[base.index, "season"].isin(TEST_B)]
-    sc_new = {"TEST_A(23-24)": rps_on(adj, m, a_idx), "TEST_B": rps_on(adj, m, b_idx)}
-    sc_old = {"TEST_A(23-24)": rps_on(ref_pred, m, a_idx), "TEST_B": rps_on(ref_pred, m, b_idx)}
-    better = all(sc_new[k] < sc_old[k] for k in sc_new)
-    log("4-factor", "lineup_strength", "starting-XI xG+xA value vs team norm; fitted on 2022-23 (first season "
-        "with FPL starts)", sc_new, "KEPT" if better else "dropped",
-        f"reference {json.dumps({k: round(v, 5) for k, v in sc_old.items()})}; beta={np.round(params['beta'], 4).tolist()}")
-    if better:
-        kept.append("lineup_strength")
-    return {"specs": specs, "preds": preds, "blend": current, "factors": kept, "base_scores": base_scores,
+    judge("5-factor", "lineup_strength", "starting-XI xG+xA value vs team norm; fitted on 2022-23 (first season with "
+          "FPL starts), judged on 2023-24 and TEST_B; not usable live without a lineup feed", adj, current_pred, m,
+          idx_override={"TEST_A": a_idx, "TEST_B": b_idx}, note="coefficients " + json.dumps(np.round(params["beta"], 4).tolist()))
+    return {"specs": specs, "preds": preds, "blend": current, "factors": kept, "F": F,
             "elapsed": time.time() - t0}

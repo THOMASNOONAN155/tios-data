@@ -88,8 +88,10 @@ def build(path, ctx):
                  f"{ctx['gw_dates']} · generated {ctx['generated']} · data to {ctx['data_to']}")
     md = ctx["matches"]
     end = b.table(ws, md, 3, fmts={"xG H": "num2", "xG A": "num2", "Score %": "pct", "Home %": "pct", "Draw %": "pct",
-                                   "Away %": "pct", "Over 2.5 %": "pct", "BTTS %": "pct"},
-                  widths={"Kickoff (UK)": 16, "Home": 15, "Away": 15, "Top 5 scores": 46, "Most likely": 11},
+                                   "Away %": "pct", "Over 2.5 %": "pct", "BTTS %": "pct", "Form xGD (last 5) H": "num2",
+                                   "Form xGD (last 5) A": "num2"},
+                  widths={"Kickoff (UK)": 16, "Home": 15, "Away": 15, "Top 5 scores": 46, "Most likely": 11,
+                          "Notes": 48},
                   scales={"Home %": WHITE_BLUE, "Draw %": WHITE_BLUE, "Away %": WHITE_BLUE, "Over 2.5 %": WHITE_BLUE,
                           "BTTS %": WHITE_BLUE})
     ws.freeze_panes(4, 3)
@@ -220,6 +222,27 @@ def build(path, ctx):
         ws.write(end + 2, 0, "This season so far (live, walk-forward)", b.f["h2"])
         b.table(ws, ctx["live"], end + 3, fmts={c: "num3" for c in ctx["live"].columns if ctx["live"][c].dtype != object}
                 | {"Matches": "int"}, widths={"Forecaster": 26}, freeze=False)
+
+    # Factor tests ---------------------------------------------------------------------------
+    ws = b.sheet("Factor Tests", "Every change tested, and whether it was kept",
+                 "dRPS = change in ranked probability score vs the current model (negative = better). Kept only if the "
+                 "one-sided 95% bootstrap upper bound is below zero in BOTH test periods.")
+    ft = ctx.get("tests")
+    end = 3
+    if ft is not None and len(ft):
+        num = [c for c in ft.columns if ft[c].dtype != object]
+        end = b.table(ws, ft, 3, fmts={c: "num3" if c.startswith("p ") else "num3" for c in num} |
+                      {c: "num3" for c in num if c.startswith("RPS")},
+                      widths={"Test": 26, "Decision": 24, "Description": 60, "Stage": 12},
+                      scales={c: RED_GREEN for c in ft.columns if c.startswith("dRPS")})
+        for c in [c for c in ft.columns if c.startswith("dRPS") or c.startswith("Upper")]:
+            j = list(ft.columns).index(c)
+            ws.set_column(j, j, 12, b.wb.add_format({"num_format": "+0.00000;-0.00000;0", "font_size": 10}))
+    lv = ctx.get("luck_skill")
+    if lv is not None and len(lv):
+        ws.write(end + 2, 0, "Luck or skill? Correlation of each team measure with the same measure next season", b.f["h2"])
+        b.table(ws, lv, end + 3, fmts={"Team-seasons": "int", "Correlation with next season": "num2"},
+                widths={"Measure": 38}, scales={"Correlation with next season": GREEN_RED}, freeze=False)
 
     # About ----------------------------------------------------------------------------------
     ws = b.sheet("About", "About this workbook")

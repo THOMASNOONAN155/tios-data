@@ -15,13 +15,39 @@ def _pct(x):
     return f"{x:.0%}"
 
 
-def build_context(season, gw, gw_fx, out, pr, luck, sos, fdiff, sims, m, live_probs, spec, check_stats):
+def match_notes(F, idx, gw_fx):
+    """Plain-language flags for the factors we track (kept or not) for each fixture."""
+    notes = []
+    for i, (h, a) in zip(idx, zip(gw_fx["home"], gw_fx["away"])):
+        f, n = F.loc[i], []
+        if f.get("derby", 0):
+            n.append("Derby")
+        for side, t in (("h", h), ("a", a)):
+            if f.get(f"promoted_early_{side}", 0) > 0:
+                n.append(f"{t} newly promoted")
+            if f.get(f"new_mgr_{side}", 0):
+                n.append(f"{t} new manager")
+            if f.get(f"ntp_{side}", 0):
+                n.append(f"{t} nothing to play for")
+            if f.get(f"rest_{side}", 7) <= 3:
+                n.append(f"{t} {int(f[f'rest_{side}'])} days' rest")
+            if f.get(f"euro_before_{side}", 0) or f.get(f"euro_after_{side}", 0):
+                n.append(f"{t} European week")
+        notes.append("; ".join(n))
+    return notes
+
+
+def build_context(season, gw, gw_fx, out, pr, luck, sos, fdiff, sims, m, live_probs, spec, check_stats, F=None):
     md = pd.DataFrame({
         "Kickoff (UK)": gw_fx["kickoff"].values, "Home": gw_fx["home"].values, "Away": gw_fx["away"].values,
         "xG H": out["xg_h"].values, "xG A": out["xg_a"].values, "Most likely": out["ml_score"].values,
         "Score %": out["ml_pct"].values, "Home %": out["pH"].values, "Draw %": out["pD"].values,
         "Away %": out["pA"].values, "Over 2.5 %": out["pOver25"].values, "BTTS %": out["pBTTS"].values,
         "Top 5 scores": out["top5"].values})
+    if F is not None:
+        md["Form xGD (last 5) H"] = F.loc[gw_fx.index, "form_xgd5_h"].values
+        md["Form xGD (last 5) A"] = F.loc[gw_fx.index, "form_xgd5_a"].values
+        md["Notes"] = match_notes(F, gw_fx.index, gw_fx)
     grids = [(f"{h} v {a}", g) for h, a, g in zip(gw_fx["home"], gw_fx["away"], out["grid"])]
     now = pr["now"]
     rankings = pd.DataFrame({
@@ -56,6 +82,18 @@ def build_context(season, gw, gw_fx, out, pr, luck, sos, fdiff, sims, m, live_pr
         acc = acc[acc["Forecaster"].isin(["Model (final)", "Closing market"])][
             ["Period", "Forecaster", "Matches", "RPS", "LogLoss", "Brier", "Correct%", "ExactScore%", "GoalMAE",
              "OU2.5 LogLoss", "Draw% pred", "Draw% actual"]]
+    tests = None
+    tf = REPORTS / "latest_tests.csv"
+    if tf.exists():
+        t0 = pd.read_csv(tf)
+        t0 = t0[t0["stage"].isin(["3-blend", "4-structural", "5-factor"])]
+        tests = pd.DataFrame({"Stage": t0["stage"], "Test": t0["test"], "Decision": t0["decision"],
+                              "RPS Test A": t0.get("RPS_TEST_A"), "RPS Test B": t0.get("RPS_TEST_B"),
+                              "dRPS Test A": t0.get("dRPS_TEST_A"), "Upper95 A": t0.get("dRPS_TEST_A_upper95"),
+                              "dRPS Test B": t0.get("dRPS_TEST_B"), "Upper95 B": t0.get("dRPS_TEST_B_upper95"),
+                              "Description": t0["description"].str.slice(0, 160)})
+    lvf = REPORTS / "luck_vs_skill.csv"
+    luck_skill = pd.read_csv(lvf) if lvf.exists() else None
     live = None
     if len(live_probs):
         lm = m.loc[live_probs.index]
@@ -70,7 +108,7 @@ def build_context(season, gw, gw_fx, out, pr, luck, sos, fdiff, sims, m, live_pr
     ctx = {"season": season, "gw": gw, "gw_dates": f"{dates.min():%a %d %b} – {dates.max():%a %d %b %Y}",
            "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"), "data_to": f"{m['date'].max():%d %b %Y}",
            "matches": md, "grids": grids, "rankings": rankings, "history": hist, "luck": lk, "fixtures": fdo,
-           "sims": sp, "accuracy": acc, "live": live, "n_sims": N_SIMS, "spec": spec, "positions": sims["positions"]}
+           "sims": sp, "accuracy": acc, "live": live, "tests": tests, "luck_skill": luck_skill, "n_sims": N_SIMS, "spec": spec, "positions": sims["positions"]}
     ctx["about"] = about_lines(ctx, check_stats)
     return ctx
 
@@ -106,6 +144,10 @@ def about_lines(ctx, check_stats):
         "Fixture Difficulty: next five opponents with the model's expected points (green = easier) and strength of schedule.",
         f"Season Projections: {ctx['n_sims']:,} simulations of the remaining fixtures with rating uncertainty.",
         "Model vs Market: walk-forward accuracy against margin-free closing odds.",
+        "Factor Tests: every blend, structural change and factor tested, its RPS change on each test period, the "
+        "bootstrap noise bound and the keep/drop decision; plus how far luck-type measures persist season to season.",
+        "Dashboard notes flag derbies, promoted sides, short rest, European weeks and teams with nothing to play for. "
+        "Only factors marked KEPT on the Factor Tests sheet change the probabilities.",
         "## Data sources",
         "football-data.co.uk results, match stats and closing odds (1X2, over/under 2.5, Asian handicap; Pinnacle, Betfair "
         "Exchange and market average), via the GitHub mirror ValentinMartine/football_predictions when the site is unreachable.",
@@ -124,10 +166,12 @@ def write_markdown(path, ctx, test_lines, ok):
     L = [f"# Premier League {ctx['season']} — Gameweek {ctx['gw']}", "",
          f"{ctx['gw_dates']} · generated {ctx['generated']} · results to {ctx['data_to']} · "
          f"self-test {'PASSED' if ok else 'FAILED'}", "", "## Matches", "",
-         "| Kickoff | Match | xG | Most likely | H / D / A | Over 2.5 | BTTS | Top 5 scores |", "|---|---|---|---|---|---|---|---|"]
+         "| Kickoff | Match | xG | Most likely | H / D / A | Over 2.5 | BTTS | Top 5 scores | Notes |",
+         "|---|---|---|---|---|---|---|---|---|"]
     for r in ctx["matches"].itertuples(index=False):
+        note = r[15] if len(r) > 15 else ""
         L.append(f"| {r[0]} | {r[1]} v {r[2]} | {r[3]:.2f} – {r[4]:.2f} | {r[5]} ({r[6]:.0%}) | "
-                 f"{r[7]:.0%} / {r[8]:.0%} / {r[9]:.0%} | {r[10]:.0%} | {r[11]:.0%} | {r[12]} |")
+                 f"{r[7]:.0%} / {r[8]:.0%} / {r[9]:.0%} | {r[10]:.0%} | {r[11]:.0%} | {r[12]} | {note} |")
     L += ["", "## Power rankings", "", "| # | Move | Team | Net | Attack | Defence | xGD/game |", "|---|---|---|---|---|---|---|"]
     for r in ctx["rankings"].itertuples(index=False):
         mv = "–" if r[1] == 0 else (f"▲{int(r[1])}" if r[1] > 0 else f"▼{int(-r[1])}")

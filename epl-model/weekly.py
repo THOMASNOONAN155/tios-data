@@ -96,7 +96,7 @@ def main(offline=False):
     print("6/6 Writing outputs")
     OUTPUT.mkdir(exist_ok=True)
     ctx = report.build_context(season_label, next_gw, gw_fx, out, pr, luck, sos, fdiff, sims, m, pw.loc[live_idx],
-                               spec, check_stats)
+                               spec, check_stats, F=F)
     xlsx = OUTPUT / "EPL_Model.xlsx"
     excel.build(str(xlsx), ctx)
     results += selftest.check_workbook(xlsx)

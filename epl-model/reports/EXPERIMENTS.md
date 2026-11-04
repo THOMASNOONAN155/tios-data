@@ -2,33 +2,39 @@
 
 Every test run by `backtest.py`, in order. RPS = ranked probability score (lower is better). Rule: a change is **kept** only if it lowers RPS on both Test A (2022-24) and Test B (2024-26); parameters and coefficients are fitted on the tuning seasons (2018-22) only. Full history across runs: `experiment_log.csv`.
 
-| time | stage | test | description | RPS_TUNE | RPS_TEST_A | RPS_TEST_B | decision | note | RPS_TEST_A(23-24) |
+| time | stage | test | description | RPS_TUNE | decision | note | RPS_TEST_A | RPS_TEST_B | RPS_TEST_A(23-24) |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-04 14:22 | 2-compare | poisson | tuned model, walk-forward | 0.19929 | 0.19915 | 0.20505 |  |  |  |
-| 2026-11-04 14:22 | 2-compare | dixon_coles | tuned model, walk-forward | 0.19948 | 0.19915 | 0.20496 |  |  |  |
-| 2026-11-04 14:22 | 2-compare | xg | tuned model, walk-forward | 0.19836 | 0.19799 | 0.20244 |  |  |  |
-| 2026-11-04 14:22 | 2-compare | xg_goals_mix | tuned model, walk-forward | 0.19820 | 0.19754 | 0.20263 |  |  |  |
-| 2026-11-04 14:22 | 2-compare | market | tuned model, walk-forward | 0.19928 | 0.19897 | 0.20837 |  |  |  |
-| 2026-11-04 14:22 | 2-compare | elo | tuned model, walk-forward | 0.20139 | 0.19687 | 0.20557 |  |  |  |
-| 2026-11-04 14:22 | 2-compare | closing_market | margin-free closing odds (benchmark) | 0.19586 | 0.18875 | 0.20082 |  |  |  |
-| 2026-11-04 14:22 | 3-blend | best single model (xg_goals_mix) | reference for blending | 0.19820 | 0.19754 | 0.20263 | baseline |  |  |
-| 2026-11-04 14:22 | 3-blend | xg_goals_mix+market | geometric blend of expected goals {"xg_goals_mix": 0.7000000000000001, "market": 0.30000000000000004} | 0.19779 | 0.19724 | 0.20363 | dropped |  |  |
-| 2026-11-04 14:22 | 3-blend | xg_goals_mix+market+elo | geometric blend of expected goals {"xg_goals_mix": 0.7000000000000001, "market": 0.30000000000000004, "elo": 0.0} | 0.19779 | 0.19724 | 0.20363 | dropped |  |  |
-| 2026-11-04 14:22 | 3-blend | xg+dixon_coles+market | geometric blend of expected goals {"xg": 0.5, "dixon_coles": 0.2, "market": 0.30000000000000004} | 0.19776 | 0.19724 | 0.20348 | dropped |  |  |
-| 2026-11-04 14:22 | 3-blend | xg+market+elo | geometric blend of expected goals {"xg": 0.6000000000000001, "market": 0.4, "elo": 0.0} | 0.19783 | 0.19743 | 0.20384 | dropped |  |  |
-| 2026-11-04 14:22 | 3-blend | xg_goals_mix+dixon_coles+market+elo | geometric blend of expected goals {"xg_goals_mix": 0.7000000000000001, "dixon_coles": 0.0, "market": 0.30000000000000004, "elo": 0.0} | 0.19779 | 0.19724 | 0.20363 | dropped |  |  |
-| 2026-11-04 14:22 | 4-factor | draw_bias | {"draw": ["const"]} | 0.19799 | 0.19753 | 0.20300 | dropped | {"beta": [], "delta": [-0.14]} |  |
-| 2026-11-04 14:22 | 4-factor | early_season | {"goals": [["early", "shrink"]]} | 0.19816 | 0.19746 | 0.20250 | KEPT | {"beta": [0.0359], "delta": []} |  |
-| 2026-11-04 14:22 | 4-factor | promoted_early | {"goals": [["promoted_early", "own"], ["promoted_early", "opp"]]} | 0.19797 | 0.19726 | 0.20253 | dropped | {"beta": [-0.0048, -0.0572, 0.1352], "delta": []} |  |
-| 2026-11-04 14:22 | 4-factor | rest_days | {"goals": [["short_rest", "own"], ["short_rest", "opp"]]} | 0.19764 | 0.19590 | 0.20435 | dropped | {"beta": [0.0274, 0.0795, -0.1357], "delta": []} |  |
-| 2026-11-04 14:22 | 4-factor | rest_diff | {"goals": [["rest_diff_h", "home"]]} | 0.19818 | 0.19739 | 0.20257 | dropped | {"beta": [0.0346, -0.0039], "delta": []} |  |
-| 2026-11-04 14:22 | 4-factor | euro_congestion | {"goals": [["euro_before", "own"], ["euro_before", "opp"], ["euro_after", "own"]]} | 0.19795 | 0.19767 | 0.20356 | dropped | {"beta": [0.0245, 0.0663, -0.0931, 0.0411], "delta": []} |  |
-| 2026-11-04 14:22 | 4-factor | manager_change | {"goals": [["new_mgr", "own"], ["new_mgr", "opp"]]} | 0.19794 | 0.19778 | 0.20251 | dropped | {"beta": [0.048, 0.0336, -0.0357], "delta": []} |  |
-| 2026-11-04 14:22 | 4-factor | derby | {"goals": [["derby", "match"]], "draw": ["derby"]} | 0.19816 | 0.19745 | 0.20250 | KEPT | {"beta": [0.0373, -0.0199], "delta": [0.04]} |  |
-| 2026-11-04 14:22 | 4-factor | motivation | {"goals": [["ntp", "own"], ["ntp", "opp"]], "draw": ["both_ntp"]} | 0.19812 | 0.19717 | 0.20235 | KEPT | {"beta": [0.0376, -0.0229, 0.0684, 0.1537], "delta": [0.04, -0.5]} |  |
-| 2026-11-04 14:22 | 4-factor | finishing_luck | {"goals": [["fin_luck", "own"], ["def_luck", "opp"]]} | 0.19809 | 0.19714 | 0.20209 | KEPT | {"beta": [0.0405, -0.0216, 0.0654, 0.1538, -0.036, -0.0368], "delta": [0.04, -0.5]} |  |
-| 2026-11-04 14:22 | 4-factor | penalty_skill | {"goals": [["pen_rate", "own"]]} | 0.19809 | 0.19716 | 0.20206 | dropped | {"beta": [0.0415, -0.0213, 0.0646, 0.1543, -0.0359, -0.0368, -0.0354], "delta": [0.04, -0.5]} |  |
-| 2026-11-04 14:22 | 4-factor | red_card_rate | {"goals": [["red_rate", "own"], ["red_rate", "opp"]]} | 0.19803 | 0.19746 | 0.20196 | dropped | {"beta": [0.0439, -0.0211, 0.0636, 0.1564, -0.0336, -0.0345, 0.2702, -0.1991], "delta": [0.04, -0.5]} |  |
-| 2026-11-04 14:22 | 4-factor | set_pieces | {"goals": [["corner_diff", "own"], ["corner_diff", "opp"]]} | 0.19741 | 0.19724 | 0.20256 | dropped | {"beta": [-0.0098, -0.0273, 0.0831, 0.1337, -0.0357, -0.0386, 0.0133, -0.0085], "delta": [0.05, -0.5]} |  |
-| 2026-11-04 14:22 | 4-factor | form | {"goals": [["form_xgd5", "own"], ["form_xgd5", "opp"]]} | 0.19781 | 0.19671 | 0.20202 | KEPT | {"beta": [0.0271, -0.0305, 0.0819, 0.1488, -0.0375, -0.0428, 0.0459, 0.0082], "delta": [0.04, -0.5]} |  |
-| 2026-11-04 14:22 | 4-factor | lineup_strength | starting-XI xG+xA value vs team norm; fitted on 2022-23 (first season with FPL starts) |  |  | 0.20608 | dropped | reference {"TEST_A(23-24)": 0.18854, "TEST_B": 0.20202}; beta=[0.0, -0.0163, -0.1226, 0.2199, -0.0771, 0.2493, -0.0574, -0.01, 0.239, -0.3985] | 0.19318 |
+| 2026-11-04 14:26 | 1-tune | poisson | coordinate-descent tuning over 15 settings | 0.19897 | tuned | {"target": "goals", "dc": false, "half_life": 365} |  |  |  |
+| 2026-11-04 14:28 | 1-tune | dixon_coles | coordinate-descent tuning over 15 settings | 0.19913 | tuned | {"target": "goals", "dc": true, "half_life": 365} |  |  |  |
+| 2026-11-04 14:30 | 1-tune | xg | coordinate-descent tuning over 20 settings | 0.19834 | tuned | {"target": "xg", "dc": true, "reg": 1} |  |  |  |
+| 2026-11-04 14:34 | 1-tune | xg_goals_mix | coordinate-descent tuning over 32 settings | 0.19812 | tuned | {"target": "mix", "dc": true, "reg": 1, "xg_weight": 0.7} |  |  |  |
+| 2026-11-04 14:37 | 1-tune | market | coordinate-descent tuning over 23 settings | 0.19786 | tuned | {"target": "market", "dc": true, "half_life": 90, "reg": 0.5, "season_decay": 0.5} |  |  |  |
+| 2026-11-04 14:38 | 1-tune | elo | coordinate-descent tuning over 19 settings | 0.20059 | tuned | {"k": 10, "home": 40, "season_regress": 0.15} |  |  |  |
+| 2026-11-04 14:38 | 2-compare | poisson | tuned model, walk-forward | 0.19897 |  |  | 0.19987 | 0.20593 |  |
+| 2026-11-04 14:38 | 2-compare | dixon_coles | tuned model, walk-forward | 0.19913 |  |  | 0.19986 | 0.20586 |  |
+| 2026-11-04 14:38 | 2-compare | xg | tuned model, walk-forward | 0.19834 |  |  | 0.19793 | 0.20238 |  |
+| 2026-11-04 14:38 | 2-compare | xg_goals_mix | tuned model, walk-forward | 0.19812 |  |  | 0.19749 | 0.20243 |  |
+| 2026-11-04 14:38 | 2-compare | market | tuned model, walk-forward | 0.19786 |  |  | 0.19442 | 0.20503 |  |
+| 2026-11-04 14:38 | 2-compare | elo | tuned model, walk-forward | 0.20059 |  |  | 0.19819 | 0.20727 |  |
+| 2026-11-04 14:38 | 2-compare | closing_market | margin-free closing odds (benchmark) | 0.19586 |  |  | 0.18875 | 0.20082 |  |
+| 2026-11-04 14:38 | 3-blend | best single model (market) | reference for blending | 0.19786 | baseline |  | 0.19442 | 0.20503 |  |
+| 2026-11-04 14:38 | 3-blend | xg_goals_mix+market | geometric blend of expected goals {"xg_goals_mix": 0.4, "market": 0.6000000000000001} | 0.19712 | dropped |  | 0.19513 | 0.20338 |  |
+| 2026-11-04 14:38 | 3-blend | xg_goals_mix+market+elo | geometric blend of expected goals {"xg_goals_mix": 0.4, "market": 0.6000000000000001, "elo": 0.0} | 0.19712 | dropped |  | 0.19513 | 0.20338 |  |
+| 2026-11-04 14:38 | 3-blend | xg+dixon_coles+market | geometric blend of expected goals {"xg": 0.30000000000000004, "dixon_coles": 0.1, "market": 0.6000000000000001} | 0.19713 | dropped |  | 0.19524 | 0.20346 |  |
+| 2026-11-04 14:38 | 3-blend | xg+market+elo | geometric blend of expected goals {"xg": 0.4, "market": 0.6000000000000001, "elo": 0.0} | 0.19716 | dropped |  | 0.19517 | 0.20327 |  |
+| 2026-11-04 14:38 | 3-blend | xg_goals_mix+dixon_coles+market+elo | geometric blend of expected goals {"xg_goals_mix": 0.4, "dixon_coles": 0.0, "market": 0.6000000000000001, "elo": 0.0} | 0.19712 | dropped |  | 0.19513 | 0.20338 |  |
+| 2026-11-04 14:38 | 4-factor | draw_bias | {"draw": ["const"]} | 0.19768 | dropped | {"beta": [], "delta": [-0.1]} | 0.19446 | 0.20553 |  |
+| 2026-11-04 14:38 | 4-factor | early_season | {"goals": [["early", "shrink"]]} | 0.19773 | dropped | {"beta": [-0.0077], "delta": []} | 0.19445 | 0.20509 |  |
+| 2026-11-04 14:38 | 4-factor | promoted_early | {"goals": [["promoted_early", "own"], ["promoted_early", "opp"]]} | 0.19736 | KEPT | {"beta": [-0.0397, 0.2121], "delta": []} | 0.19402 | 0.20487 |  |
+| 2026-11-04 14:38 | 4-factor | rest_days | {"goals": [["short_rest", "own"], ["short_rest", "opp"]]} | 0.19692 | dropped | {"beta": [-0.0588, 0.194, 0.0474, -0.1401], "delta": []} | 0.19286 | 0.20652 |  |
+| 2026-11-04 14:38 | 4-factor | rest_diff | {"goals": [["rest_diff_h", "home"]]} | 0.19734 | dropped | {"beta": [-0.0406, 0.2122, 0.0017], "delta": []} | 0.19404 | 0.20483 |  |
+| 2026-11-04 14:38 | 4-factor | euro_congestion | {"goals": [["euro_before", "own"], ["euro_before", "opp"], ["euro_after", "own"]]} | 0.19744 | dropped | {"beta": [-0.0405, 0.2096, 0.0222, -0.0705, -0.0106], "delta": []} | 0.19401 | 0.20530 |  |
+| 2026-11-04 14:38 | 4-factor | manager_change | {"goals": [["new_mgr", "own"], ["new_mgr", "opp"]]} | 0.19742 | KEPT | {"beta": [-0.0273, 0.2271, -0.0243, -0.0201], "delta": []} | 0.19398 | 0.20486 |  |
+| 2026-11-04 14:38 | 4-factor | derby | {"goals": [["derby", "match"]], "draw": ["derby"]} | 0.19740 | KEPT | {"beta": [-0.0291, 0.2264, -0.0225, -0.0183, -0.0218], "delta": [0.05]} | 0.19395 | 0.20483 |  |
+| 2026-11-04 14:38 | 4-factor | motivation | {"goals": [["ntp", "own"], ["ntp", "opp"]], "draw": ["both_ntp"]} | 0.19740 | KEPT | {"beta": [-0.0121, 0.2378, -0.0267, -0.0217, -0.0235, 0.0828, 0.1248], "delta": [0.05, -0.5]} | 0.19385 | 0.20479 |  |
+| 2026-11-04 14:38 | 4-factor | finishing_luck | {"goals": [["fin_luck", "own"], ["def_luck", "opp"]]} | 0.19742 | dropped | {"beta": [-0.0123, 0.2366, -0.0269, -0.0242, -0.0229, 0.0836, 0.125, -0.0078, 0.0376], "delta": [0.05, -0.5]} | 0.19401 | 0.20493 |  |
+| 2026-11-04 14:38 | 4-factor | penalty_skill | {"goals": [["pen_rate", "own"]]} | 0.19736 | dropped | {"beta": [-0.0147, 0.2367, -0.0286, -0.0211, -0.0218, 0.0793, 0.1272, -0.1475], "delta": [0.05, -0.5]} | 0.19398 | 0.20467 |  |
+| 2026-11-04 14:38 | 4-factor | red_card_rate | {"goals": [["red_rate", "own"], ["red_rate", "opp"]]} | 0.19742 | dropped | {"beta": [-0.0122, 0.2385, -0.0296, -0.0213, -0.0224, 0.0811, 0.1253, 0.2326, 0.0513], "delta": [0.05, -0.5]} | 0.19398 | 0.20478 |  |
+| 2026-11-04 14:38 | 4-factor | set_pieces | {"goals": [["corner_diff", "own"], ["corner_diff", "opp"]]} | 0.19747 | KEPT | {"beta": [-0.0166, 0.2396, -0.0271, -0.0199, -0.0228, 0.0804, 0.1277, -0.0017, 0.0014], "delta": [0.05, -0.5]} | 0.19382 | 0.20469 |  |
+| 2026-11-04 14:38 | 4-factor | form | {"goals": [["form_xgd5", "own"], ["form_xgd5", "opp"]]} | 0.19739 | KEPT | {"beta": [-0.016, 0.252, -0.0227, -0.02, -0.0286, 0.0872, 0.1294, -0.0115, -0.0017, 0.0483, 0.0153], "delta": [0.05, -0.5]} | 0.19331 | 0.20432 |  |
+| 2026-11-04 14:38 | 4-factor | lineup_strength | starting-XI xG+xA value vs team norm; fitted on 2022-23 (first season with FPL starts) |  | dropped | reference {"TEST_A(23-24)": 0.18337, "TEST_B": 0.20432}; beta=[0.1278, -0.3751] |  | 0.20566 | 0.18362 |

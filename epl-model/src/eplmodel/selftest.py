@@ -10,7 +10,7 @@ from .config import CURRENT, SEASONS, label
 from .models import grid_markets, score_grid
 
 SHEETS = ["Dashboard", "Power Rankings", "Ranking History", "Attack & Defence", "Expected Points & Luck",
-          "Fixture Difficulty", "Season Projections", "Model vs Market", "About"]
+          "Fixture Difficulty", "Season Projections", "Model vs Market", "Factor Tests", "About"]
 
 
 def check_data(m, check_stats):

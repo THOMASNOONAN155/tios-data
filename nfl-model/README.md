@@ -5,7 +5,7 @@ Each week this produces four things:
 - **game tips with win %**
 - **power rankings**
 - **season projections:** playoff, division and #1-seed odds
-- **a polished Excel workbook** (`output/NFL_Model_2026.xlsx`)
+- **a polished Excel workbook** (`output/NFL_Model_2026.xlsx`), which now also holds your **tipping and betting tracker**: a tab for every week, the Leaderboard, Money, My Stats, Spreads & Totals, Head to Head, Expert Scout, Edge Finder and Value Report
 
 It's a rebuild of the original `nfl_power_rankings` workbook. Every number was tested walk-forward on 15 seasons of real data: each prediction uses only games played before it.
 
@@ -13,6 +13,49 @@ It's a rebuild of the original `nfl_power_rankings` workbook. Every number was t
 
 - It picks winners better than the original model, by about 2 percentage points on seasons it was never tuned on.
 - **It does not beat the Vegas closing line.** The tip it gives (the line plus two small tested corrections) ties the line. After more than 160 tested ideas over four rounds, nothing beat it.
+
+## Entering your picks each week
+
+Everything you type lives in **`inputs/tipping_inputs.xlsx`**. `weekly.py` reads it but never writes to it, and copies it to `inputs/backups/` (git-ignored, last 30 kept) before every run. The output workbook is rebuilt from it each time, so **never type into `output/NFL_Model_2026.xlsx`**: anything typed there is overwritten.
+
+In the inputs file, the cream cells are the ones you type in. Most have drop-downs. Each week:
+
+1. **Open the `Wk N` tab** for the coming week. The fixtures (rows 6–21) are already there.
+2. **Odds (rows 30–45):** type the **open** prices in columns C–J and the **close** in K–R: home line, away/home spread price, total, over/under price, away/home win odds. Win odds are decimal; spread and over/under prices can be decimal or American (−110). If you only have one of open/close, leave the other blank and that one is used.
+3. **Your picks (rows 6–21):** `Your tip` (H), `Your spread bet` (I, a team) and `Your over/under` (J, Over or Under).
+4. **Lock of the week (row 25):** the tip lock team in B25, the spread lock team in E25 and the O/U lock (any team in that game) in H25. Locks pay at double stake.
+5. **Expert picks (rows 49 onwards):** one row per tipper on the `Tippers` sheet, one column per game. Leave a cell blank if that expert hasn't picked.
+6. **After the games:** type the scores in F/G (away points, home points). Winners, ✓/✗, P/L and every stat update on the next run.
+7. **Run** `python3 weekly.py`.
+
+**`Settings` sheet:**
+
+- B5–B8: stakes ($100 tips, $50 spreads, $25 over/unders) and the lock multiplier (×2)
+- B9: what the Leaderboard ranks by
+- B10: the Head to Head opponent
+- B11: the Edge Finder week (blank = the next week with your tips and odds)
+
+**`Tippers` sheet:** rename or add experts here. An outlet of exactly `Bot` marks a typed bot, like "Stats model", which is left out of the expert consensus.
+
+**Fair-price rule, used everywhere:**
+
+- Lines and totals are the midpoint of open and close, with quarter points going to the .5.
+- Prices and win odds are `ROUND(2/(1/open+1/close),2)`.
+- The closing number alone is never used to pay a bet. The Edge Finder and Value Report use the closing market only to estimate each side's true chance, as the original workbook did.
+
+**Carried over from your original workbook:** all 2026 data for Weeks 1–8 (tips, bets, locks, expert picks, odds, scores, notes) was imported with `research/import_tipping.py`.
+
+- The cell-by-cell check, `results/tipping_import_check.md`, compared 7,295 typed cells: 0 mismatches and 0 cells left behind.
+- The tipping engine (`nflmodel/tipping*.py`) was then checked against every number your original workbook shows (`research/verify_tipping.py`, `results/tipping_engine_check.md`): 9,826 cells, 0 mismatches.
+- One label changed on purpose: on Head to Head, a game that ended in a tie is labelled "Neither (tie)" instead of "Them".
+
+**New this season:** the model's tip and win % and the line's pick sit next to your tip on every week tab. "Model (nfl-model)" and "Vegas line" are on the Leaderboard as two extra tippers. Through Week 8:
+
+- the model was 79–42, #2 of 38
+- the line was 77–44, #5
+- you were 77–44, also #5
+
+The model's tip is this README's TIP: the line plus two small corrections. The line's pick is the favourite by the fair home line.
 
 ## Run it each week
 
@@ -34,6 +77,9 @@ python3 weekly.py
    - simulation totals adding up: 14 playoff spots, 8 division winners, 2 #1 seeds
    - data up to date
    - the Excel workbook written
+   - **tipping maths:** fair prices and lines on known cases, tip/spread/over-under P/L, lock doubling, leaderboard totals = the sum of the weekly wins, and Money = the sum of every bet
+   - **the workbook itself:** it is recalculated in LibreOffice (headless), every cell is scanned for `#REF!`, `#N/A`, `#DIV/0!` and `#VALUE!`, and the recalculated week-tab and Leaderboard formulas (about 7,000 cells) are compared with the Python engine. Without LibreOffice installed this is a warning, not a failure; `--no-recalc` skips it.
+   - your inputs file unchanged by the run
 
 **Options:**
 
@@ -41,14 +87,32 @@ python3 weekly.py
 - `--season 2026` picks the season.
 - `--no-fetch` skips the download.
 - `--sims 50000` sets the number of season simulations.
+- `--no-recalc` skips the LibreOffice check.
 
 ## What the outputs mean
 
-**`output/NFL_Model_2026.xlsx`** is rebuilt every week. It uses the original workbook's navy-and-gold theme, has frozen headers and colour scales, and has no tipping or betting tracking.
+**`output/NFL_Model_2026.xlsx`** is rebuilt every week in one navy-and-gold theme. It has frozen headers, colour scales and links between sheets: row 3 of every tipping sheet, the Contents block on the Dashboard, and previous/next on the week tabs. Cream cells were copied from your inputs file.
+
+**Tipping sheets:**
 
 | Sheet | What it shows |
 |---|---|
-| **Dashboard** | This week's games with the predicted winner and win %; the top 5 risers and fallers in the power rankings; playoff-race highlights (the biggest games, the #1-seed race, bubble teams) |
+| **Wk 1 … Wk 18** | Games, scores and your tip; fair odds, line and total (live formulas from the open/close odds at the bottom of the tab); winner, ✓/✗, stake (locks ×2) and P/L; the model's tip, model win %, the line's pick, the model's ✓/✗ and the panel consensus. Spread and over/under bets at the fair line and price, with result and P/L. Every tipper's pick, coloured right or wrong, with their weekly score. |
+| **Leaderboard** | Every tipper, the model and the line. Weekly wins are live formulas from the week tabs. Also W–L, win %, games behind, pace, last week, last 3, best/worst week, 10+ weeks, weeks won, P/L at $100 flat, ROI, ATS, dog wins, same-as-you %. Below it, the race week by week with a "wins behind the leader" chart. |
+| **Money** | Real money with locks: tiles, week-by-week table and bank chart; where the money comes from (fav/dog, home/away, laid/took points, over/under); tips by price; locks of the week |
+| **My Stats** | Your tips at $100 flat, by price band, fav/dog, home/away, time slot, division, lone calls and against the spread; when the crowd agrees; teams that pay you or cost you; every team; week by week |
+| **Spreads & Totals** | Spread and over/under records by side, line size, total size, slot and division; week by week |
+| **Head to Head** | You vs one tipper (set in the inputs): records, the disagreements game by game, and you vs every expert |
+| **Expert Scout** | Every tipper's win rate overall, over the last 3 weeks, in close games, with big favourites, on underdog calls, against the consensus and against the spread; agreement with you; strongest situation |
+| **Edge Finder** | One week, game by game: true chances from the closing market, EV at your fair prices for tips, spreads and totals, the expert lean, and the top 5 value plays |
+| **Value Report** | Expected vs actual P/L (skill or luck), your tips against the market's chances, and whether you took the value, against a value bot |
+| **Settings** | A read-only copy of your stakes and the fair-price rule |
+
+**Model sheets:**
+
+| Sheet | What it shows |
+|---|---|
+| **Dashboard** | This week's games with the predicted winner and win %; the top 5 risers and fallers in the power rankings; playoff-race highlights (the biggest games, the #1-seed race, bubble teams); your tipping season so far; contents with links |
 | **Power Rankings** | 1–32 with movement and the parts of the power score: market, results + Elo, EPA offence and defence, special teams, 4th-down, QB. Also offence and defence ranks, expected wins, luck, strength of schedule and trend. |
 | **Ranking History** | Rank before every week, plus a chart of the current top 8 over the season |
 | **Team Efficiency** | EPA per play (raw and opponent-adjusted), success rate, pass/rush/early-down EPA, pass rate over expected, pace, 4th-down go rate, special teams, penalties, turnovers, big plays, field-goal luck, win-probability added, blocked kicks. Includes an offence-vs-defence scatter. |
@@ -196,10 +260,11 @@ Remaining ideas, ranked by value against effort: [`IDEAS.md`](IDEAS.md).
 | Folder | Contents |
 |---|---|
 | `weekly.py` | The weekly command |
-| `nflmodel/` | The library: data download (`fetch_data.py`, `fetch_extra.py`, `fetch_noise.py`), ratings, features, season simulation, views, `workbook.py` (the Excel file) |
-| `research/` | Everything behind the results. `run_all.sh` re-runs it all in about 15 minutes: `baseline.py`, `tune.py`, `factors_round1.py`, `factors_round2.py`, `significance.py`, `round3_*.py`, `audit_data.py`, `round4_*.py`, `report.py` |
+| `nflmodel/` | The library: data download (`fetch_data.py`, `fetch_extra.py`, `fetch_noise.py`), ratings, features, season simulation, views, `workbook.py` (the Excel file). Tipping: `tipping_inputs.py` (the inputs-file layout and reader), `tipping.py` (fair prices, P/L, locks, tippers), `tipping_stats.py` and `tipping_sheets.py` (every stat), `tipping_book.py` (the sheets), `tipping_check.py` (self-tests) |
+| `inputs/` | **Your typed entries**, `tipping_inputs.xlsx`. Never written by the code; backed up to `inputs/backups/` before each run. |
+| `research/` | Everything behind the results. `run_all.sh` re-runs it all in about 15 minutes: `baseline.py`, `tune.py`, `factors_round1.py`, `factors_round2.py`, `significance.py`, `round3_*.py`, `audit_data.py`, `round4_*.py`, `report.py`. Also `import_tipping.py` and `verify_tipping.py`, the one-off import from your tipping workbook and its checks. |
 | `config/model.json` | The settings and features the weekly run uses |
-| `data/` | Hand-edited inputs (`qb_overrides.csv`) and tables exported from your original workbook for the audit |
+| `data/` | Hand-edited inputs (`qb_overrides.csv`), tables exported from your original workbook for the audit, and `tipping_spread_table.csv` (the original's spread-cover table, used by the Edge Finder) |
 | `results/` | Research outputs and logs |
 | `output/` | Weekly reports and the Excel workbook |
 | `cache/` | Downloads and rebuilt tables, created automatically and git-ignored |

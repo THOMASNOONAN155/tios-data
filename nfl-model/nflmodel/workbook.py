@@ -355,5 +355,7 @@ def build(path, ctx):
         w_.sheet_view.zoomScale = 100
         w_.page_setup.orientation = 'landscape'; w_.page_setup.fitToWidth = 1; w_.page_setup.fitToHeight = 0
         w_.sheet_properties.pageSetUpPr.fitToPage = True; w_.print_options.horizontalCentered = True
+    from nflmodel import polish      # navigation, sheet order, team colours, tiers and charts (presentation only)
+    polish.apply(wb, W, [(int(rk[t]), show(t), float(now.power_qb[t])) for t in rk.sort_values().index])
     os.makedirs(os.path.dirname(path), exist_ok=True); wb.save(path)
     return path

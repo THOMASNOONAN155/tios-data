@@ -136,9 +136,32 @@ def qb_season_stats(g, season, week, qb_now):
     s['Team'] = s.Team.map(show)
     cols = ['Name', 'Team', 'Starter now', 'Dropbacks', 'EPA/dropback', 'CPOE', 'Comp %', 'Y/A', 'TD', 'INT', 'INT rate',
             'Adj. INT rate (INT-worthy)', 'Lucky / unlucky INTs', 'Drops by receivers', 'Sack rate']
-    s = s[[c for c in cols if c in s.columns]].sort_values('EPA/dropback', ascending=False)
+    s = s[[c for c in cols if c in s.columns]].copy()
+    s['QB score'] = qb_score(s)
+    s = s.sort_values('QB score', ascending=False)
+    s.insert(0, 'Rank', range(1, len(s) + 1))
+    s = s[['Rank', 'Name', 'Team', 'Starter now', 'QB score'] + [c for c in s.columns if c not in ('Rank', 'Name', 'Team', 'Starter now', 'QB score')]]
     s['Starter now'] = np.where(s['Starter now'], 'yes', '')
     return s.reset_index(drop=True)
+
+
+QB_SCORE = [('EPA/dropback', 0.6, 1), ('CPOE', 0.2, 1), ('Adj. INT rate (INT-worthy)', 0.1, -1), ('Sack rate', 0.1, -1)]
+QB_SHRINK = 150   # dropbacks: a QB's numbers count fully only once he has played plenty; until then they lean toward the average QB
+
+
+def qb_score(s):
+    """One number per QB for the ranking (50 = average of the QBs listed, every 10 = one standard deviation).
+    EPA per dropback carries most of the weight (it already counts sacks and turnovers); accuracy (CPOE), interception-worthy
+    throws and sack rate add the rest. Each stat is pulled toward the average by QB_SHRINK dropbacks, so a QB with 50 good
+    dropbacks can't top the list on a hot streak. Presentation only: the model's own QB values are unchanged."""
+    n = s.Dropbacks.astype(float); tot = pd.Series(0.0, index=s.index); wsum = 0.0
+    for c, w, sign in QB_SCORE:
+        if c not in s.columns or s[c].notna().sum() < 5: continue
+        x = s[c].astype(float); m = np.average(x.fillna(x.mean()), weights=n)
+        sh = (n * x.fillna(m) + QB_SHRINK * m) / (n + QB_SHRINK)
+        sd = sh.std() or 1.0
+        tot += w * sign * (sh - m) / sd; wsum += w
+    return (50 + 10 * tot / (wsum or 1)).round(1)
 
 
 # ------------------------------------------------------------------ the workbook
@@ -259,15 +282,15 @@ def build(path, ctx):
     ws.add_chart(sc, f'A{r2 + 3}')
     # =========================== QBs
     ws = wb.create_sheet('QBs')
-    band(ws, 'QUARTERBACKS', f'Season to date, 40+ dropbacks. Adj. INT rate = interception-worthy throws per attempt (FTN charting): it strips out tipped and dropped picks.', 16)
+    band(ws, 'QUARTERBACKS  ·  RANKED BEST TO WORST', f'Every QB with 40+ dropbacks. QB score: 50 = average, 60+ = elite. EPA/dropback 60%, accuracy 20%, INT-worthy throws 10%, sacks 10%; small samples pulled to average.', 18)
     qs = qb_season_stats(g, S, W, ctx['qb_now_ids'])
-    fm = {'EPA/dropback': '+0.00;-0.00;0.00', 'CPOE': '+0.0;-0.0;0.0', 'Comp %': '0.0%', 'Y/A': '0.0', 'INT rate': '0.0%',
+    fm = {'Rank': '0', 'QB score': '0.0', 'EPA/dropback': '+0.00;-0.00;0.00', 'CPOE': '+0.0;-0.0;0.0', 'Comp %': '0.0%', 'Y/A': '0.0', 'INT rate': '0.0%',
           'Adj. INT rate (INT-worthy)': '0.0%', 'Sack rate': '0.0%', 'Lucky / unlucky INTs': '+0;-0;0', 'Dropbacks': '0', 'TD': '0', 'INT': '0', 'Drops by receivers': '0'}
-    r1, r2 = table(ws, qs, 4, 1, fm, [20, 7, 8, 10, 10, 8, 8, 7, 6, 6, 8, 11, 10, 10, 8])
-    for c, rev in (('EPA/dropback', False), ('CPOE', False), ('INT rate', True), ('Adj. INT rate (INT-worthy)', True), ('Sack rate', True)):
+    r1, r2 = table(ws, qs, 4, 1, fm, [6, 20, 7, 8, 9, 10, 10, 8, 8, 7, 6, 6, 8, 11, 10, 10, 8])
+    for c, rev in (('QB score', False), ('EPA/dropback', False), ('CPOE', False), ('INT rate', True), ('Adj. INT rate (INT-worthy)', True), ('Sack rate', True)):
         if c in qs.columns: L = col_of(qs, c); scale(ws, f'{L}{r1}:{L}{r2}', reverse=rev)
     ws.cell(r2 + 2, 1, 'Lucky / unlucky INTs = interceptions minus interception-worthy throws (positive = more picks than the throws deserved).').font = F(8, False, GREY, True)
-    ws.freeze_panes = 'B5'
+    ws.freeze_panes = 'C5'
     # =========================== Luck & Expected Wins (+ scatter)
     ws = wb.create_sheet('Luck & Expected Wins')
     band(ws, 'LUCK & EXPECTED WINS', 'Expected wins = sum of the model\'s pre-game win chances. In testing it predicted the rest of the season better than the actual record.', 12)

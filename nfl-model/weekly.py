@@ -107,8 +107,14 @@ def main():
     ap.add_argument('--no-fetch', action='store_true'); ap.add_argument('--sims', type=int, default=20000)
     ap.add_argument('--no-recalc', action='store_true'); a = ap.parse_args()
     t0 = time.time()
-    bak = backup_inputs(); inputs_sha = sha(TIP_INPUTS) if bak else None
+    bak = backup_inputs()
     if bak: print(f'Backed up your inputs file to inputs/backups/{os.path.basename(bak)}', flush=True)
+    # picks made in the workbook's dropdowns go into the inputs file first (the build itself never writes to it)
+    from nflmodel.pick_sync import sync
+    for f_ in sorted(glob.glob(os.path.join(OUTPUT, 'NFL_Model_*.xlsx')))[-1:]:
+        ch_ = sync(f_, TIP_INPUTS)
+        if ch_: print('Picks copied from the workbook into your inputs file:\n  ' + '\n  '.join(ch_), flush=True)
+    inputs_sha = sha(TIP_INPUTS) if bak else None
     season = a.season or (int(load_games().season.max()) if os.path.exists(os.path.join(CACHE, 'games.csv')) else int(time.strftime('%Y')))
     update_data(season, not a.no_fetch)
     data = load_all(); g = data[0]

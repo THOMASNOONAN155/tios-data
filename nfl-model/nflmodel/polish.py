@@ -70,7 +70,8 @@ def team_cf(ws, rng):
     for t, (bg, fg) in TEAM.items():
         codes = [t] + [a for a, b in ALIAS.items() if b == t]
         cond = 'OR(' + ','.join(f'{first}="{c}"' for c in codes) + ')' if len(codes) > 1 else f'{first}="{t}"'
-        ws.conditional_formatting.add(rng, FormulaRule(formula=[cond], fill=fill(bg), font=Font(name=FONT, color=fg, bold=True)))
+        ws.conditional_formatting.add(rng, FormulaRule(formula=[cond], fill=PatternFill(fill_type='solid', fgColor=bg, bgColor=bg),
+                                                       font=Font(name=FONT, color=fg, bold=True)))
 
 
 def _txt(sz=800, bold=False, col=INK):
@@ -151,7 +152,7 @@ def power_rankings(wb):
     ch = BarChart(); ch.type = 'bar'; ch.legend = None; ch.gapWidth = 35; ch.height = 17.5; ch.width = 15
     ch.add_data(Reference(ws, min_col=cP, min_row=hr, max_row=last), titles_from_data=True)
     ch.set_categories(Reference(ws, min_col=cT, min_row=r1, max_row=last))
-    ch.x_axis.scaling.orientation = 'maxMin'; ch.x_axis.tickLblPos = 'low'; ch.y_axis.majorGridlines = None; ch.y_axis.number_format = '+0;-0;0'
+    ch.x_axis.scaling.orientation = 'maxMin'; ch.x_axis.tickLblPos = 'low'; ch.y_axis.majorGridlines = None; ch.y_axis.number_format = '+0;-0;0'; ch.y_axis.crosses = 'max'
     tidy(ch, 'Power score (pts vs an average team)')
     s = ch.series[0]
     for i, r in enumerate(range(r1, last + 1)):
@@ -167,7 +168,7 @@ def power_rankings(wb):
             sb = BarChart(); sb.type = 'bar'; sb.grouping = 'stacked'; sb.overlap = 100; sb.gapWidth = 40; sb.height = 11; sb.width = 24
             sb.add_data(Reference(ws, min_col=cs[0], max_col=cs[-1], min_row=hr, max_row=min(last, r1 + 11)), titles_from_data=True)
             sb.set_categories(Reference(ws, min_col=cT, min_row=r1, max_row=min(last, r1 + 11)))
-            sb.x_axis.scaling.orientation = 'maxMin'; sb.x_axis.tickLblPos = 'low'; sb.y_axis.majorGridlines = None; sb.legend.position = 'b'
+            sb.x_axis.scaling.orientation = 'maxMin'; sb.x_axis.tickLblPos = 'low'; sb.y_axis.majorGridlines = None; sb.legend.position = 'b'; sb.y_axis.crosses = 'max'
             tidy(sb, 'What makes up the power score: top 12')
             for s_, col in zip(sb.series, ('1F4E79', '7B3FA0', '2E7D4F', '9FD0B0', 'C99A2E', '8A5A12', 'B23B3B')):
                 s_.graphicalProperties = GraphicalProperties(solidFill=col, ln=LineProperties(noFill=True))
@@ -185,23 +186,23 @@ def ranking_history(wb, current_order):
     ws._charts = []
     ch = LineChart(); ch.height = 11; ch.width = 24; ch.display_blanks = 'gap'
     ch.y_axis.scaling.orientation = 'maxMin'; ch.y_axis.scaling.min = 1; ch.y_axis.scaling.max = 32; ch.y_axis.majorUnit = 4
-    ch.y_axis.title = 'Rank (1 = best)'; ch.x_axis.crosses = 'max'
+    ch.x_axis.crosses = 'max'
     for i in range(min(8, last - hr)):
         r = hr + 1 + i; t = ws.cell(r, 1).value
         s = Series(Reference(ws, min_col=2, max_col=ncol, min_row=r), title=t)
         solid(s, line_colour(t), 31750, marker='circle'); ch.series.append(s)
     ch.set_categories(Reference(ws, min_col=2, max_col=ncol, min_row=hr)); ch.legend.position = 'r'
-    tidy(ch, 'The rank race: current top 8')
+    tidy(ch, 'The rank race: current top 8 (1 = best)')
     ws.add_chart(ch, f'{COL(ncol + 2)}4')
     # second chart: the bottom 8, so the whole league is covered at a glance
     ch2 = LineChart(); ch2.height = 11; ch2.width = 24; ch2.display_blanks = 'gap'
     ch2.y_axis.scaling.orientation = 'maxMin'; ch2.y_axis.scaling.min = 1; ch2.y_axis.scaling.max = 32; ch2.y_axis.majorUnit = 4
-    ch2.y_axis.title = 'Rank (1 = best)'; ch2.x_axis.crosses = 'max'
+    ch2.x_axis.crosses = 'max'
     for r in range(max(hr + 1, last - 7), last + 1):
         t = ws.cell(r, 1).value; s = Series(Reference(ws, min_col=2, max_col=ncol, min_row=r), title=t)
         solid(s, line_colour(t), 31750, marker='circle'); ch2.series.append(s)
     ch2.set_categories(Reference(ws, min_col=2, max_col=ncol, min_row=hr)); ch2.legend.position = 'r'
-    tidy(ch2, 'And the bottom 8')
+    tidy(ch2, 'The bottom 8 (1 = best)')
     ws.add_chart(ch2, f'{COL(ncol + 2)}27')
 
 
@@ -217,7 +218,9 @@ def scatter_colours(wb, name, diagonal=None):
             s.marker.symbol = 'circle'; s.marker.size = 8
             s.marker.graphicalProperties = GraphicalProperties(solidFill=col, ln=LineProperties(solidFill=WHITE))
             s.graphicalProperties = GraphicalProperties(ln=LineProperties(noFill=True))
-            if s.dLbls is not None: s.dLbls.txPr = _txt(700, True, INK)
+            if s.dLbls is not None:
+                s.dLbls.showLegendKey = False; s.dLbls.showVal = False; s.dLbls.showCatName = False; s.dLbls.showSerName = True
+                s.dLbls.position = 'r'; s.dLbls.txPr = _txt(650, True, INK)
         tidy(ch); ch.height = 13; ch.width = 19
         ch.scatterStyle = 'lineMarker'; ch.visible_cells_only = False
         if diagonal:
@@ -242,9 +245,34 @@ def luck_diagonal(wb):
     return (f'{q}${COL(hc)}$5:${COL(hc)}$6', f'{q}${COL(hc + 1)}$5:${COL(hc + 1)}$6')
 
 
+def luck_chart(wb):
+    """Wins above (+) or below (−) what each team's play deserved, sorted, green = lucky, red = unlucky."""
+    ws = wb['Luck & Expected Wins']; hr = 4
+    cT, cL = find_header(ws, 'Team', hr), find_header(ws, 'Luck (wins)', hr)
+    if not cT or not cL: return
+    last = hr
+    while ws.cell(last + 1, cT).value: last += 1
+    team_cf(ws, f'{COL(cT)}{hr + 1}:{COL(cT)}{last}')
+    ws._charts = []
+    ch = BarChart(); ch.type = 'bar'; ch.legend = None; ch.gapWidth = 30; ch.height = 16.5; ch.width = 15
+    ch.add_data(Reference(ws, min_col=cL, min_row=hr, max_row=last), titles_from_data=True)
+    ch.set_categories(Reference(ws, min_col=cT, min_row=hr + 1, max_row=last))
+    ch.x_axis.scaling.orientation = 'maxMin'; ch.x_axis.tickLblPos = 'low'; ch.y_axis.crosses = 'max'
+    ch.y_axis.majorGridlines = None; ch.y_axis.number_format = '+0.0;-0.0;0'
+    tidy(ch, 'Luck: wins above (+) or below (−) what their play deserved')
+    s = ch.series[0]; s.invertIfNegative = False
+    for i, r in enumerate(range(hr + 1, last + 1)):
+        v = ws.cell(r, cL).value or 0
+        dp = DataPoint(idx=i); dp.graphicalProperties = GraphicalProperties(solidFill=GREEN if v > 0.25 else RED if v < -0.25 else 'B8C0CA'); s.dPt.append(dp)
+    s.dLbls = DataLabelList(); s.dLbls.showVal = True; s.dLbls.showSerName = False; s.dLbls.showCatName = False; s.dLbls.showLegendKey = False
+    s.dLbls.numFmt = '+0.0;-0.0;0'; s.dLbls.position = 'outEnd'; s.dLbls.txPr = _txt(650)
+    ch.x_axis.txPr = _txt(750, True)
+    ws.add_chart(ch, f'{COL(ws.max_column + 2)}4')
+
+
 def projections(wb):
     ws = wb['Season Projections']
-    team_cf(ws, 'B5:B36'); team_cf(ws, 'L5:L36')
+    team_cf(ws, 'B5:B36')
     for ch in ws._charts:
         if not isinstance(ch, BarChart): continue
         tidy(ch, 'Playoff odds'); ch.gapWidth = 30
@@ -255,7 +283,9 @@ def projections(wb):
             dp = DataPoint(idx=i); dp.graphicalProperties = GraphicalProperties(solidFill=col); s.dPt.append(dp)
         s.dLbls = DataLabelList(); s.dLbls.showVal = True; s.dLbls.showSerName = False; s.dLbls.showCatName = False; s.dLbls.showLegendKey = False
         s.dLbls.numFmt = '0%'; s.dLbls.position = 'outEnd'; s.dLbls.txPr = _txt(700)
-        ch.x_axis.txPr = _txt(750, True); ch.y_axis.majorGridlines = None
+        ch.x_axis.txPr = _txt(750, True); ch.y_axis.majorGridlines = None; ch.y_axis.crosses = 'max'; ch.y_axis.delete = True
+    for k in (12, 13): ws.column_dimensions[COL(k)].hidden = True     # the chart's sorted copy of the table: the chart reads it, you don't need to
+    for ch in ws._charts: ch.visible_cells_only = False
     ws.cell(38, 1, 'Chart colours: green = 75%+ to make the playoffs, gold = 25–75% (in the race), grey = under 25%.').font = F(8, False, GREY, True)
 
 
@@ -341,6 +371,42 @@ def week_tabs(wb, week):
             ws.cell(1, 1).value = (ws.cell(1, 1).value or '') + '   ◀ THIS WEEK'
 
 
+def pick_dropdowns(wb):
+    """Dropdowns in the cream pick cells of every week tab: tip and spread bet = the two teams, over/under = Over/Under,
+    locks = any team playing that week. weekly.py copies whatever is picked here back into the inputs file on the next run."""
+    from openpyxl.worksheet.datavalidation import DataValidation
+    from nflmodel.tipping_book import GAME0, BET0
+    for w in range(1, 19):
+        n = f'Wk {w}'
+        if n not in wb.sheetnames: continue
+        ws = wb[n]; rows = [GAME0 + j for j in range(16) if ws.cell(GAME0 + j, 3).value and ws.cell(GAME0 + j, 4).value]
+        if not rows: continue
+        ou = DataValidation(type='list', formula1='"Over,Under"', allow_blank=True)
+        ou.promptTitle = 'Over / under'; ou.prompt = 'Pick Over or Under'; ou.showInputMessage = True
+        ws.add_data_validation(ou)
+        for j, i in enumerate(rows):
+            b = BET0 + (i - GAME0)
+            tip = DataValidation(type='list', formula1=f'=$C${i}:$D${i}', allow_blank=True)
+            tip.promptTitle = 'Your tip'; tip.prompt = 'Pick a team from the list'; tip.showInputMessage = True
+            sp = DataValidation(type='list', formula1=f'=$C${i}:$D${i}', allow_blank=True)
+            sp.promptTitle = 'Spread bet'; sp.prompt = 'Pick the team you are taking on the line'; sp.showInputMessage = True
+            ws.add_data_validation(tip); ws.add_data_validation(sp)
+            tip.add(f'G{i}'); sp.add(f'G{b}'); ou.add(f'P{b}')
+        # locks: a hidden list of this week's teams in column X
+        hc = 24
+        for k, i in enumerate(rows):
+            ws.cell(GAME0 + 2 * k, hc, ws.cell(i, 3).value); ws.cell(GAME0 + 2 * k + 1, hc, ws.cell(i, 4).value)
+        ws.column_dimensions[COL(hc)].hidden = True
+        lk = DataValidation(type='list', formula1=f'=${COL(hc)}${GAME0}:${COL(hc)}${GAME0 + 2 * len(rows) - 1}', allow_blank=True)
+        lk.promptTitle = 'Lock of the week'; lk.prompt = 'Pick a team playing this week'; lk.showInputMessage = True
+        ws.add_data_validation(lk); lk.add('E7'); lk.add('H7'); lk.add('K7')
+        # say so in the title band
+        c2 = ws.cell(2, 1)
+        if isinstance(c2.value, str) and 'edit them there' in c2.value:
+            c2.value = c2.value.replace('Cream cells come from inputs/tipping_inputs.xlsx (edit them there, not here).',
+                                        'Pick from the dropdowns in the cream cells (tip, spread, over/under, locks): the next run copies them into the inputs file.')
+
+
 def tipping_nav(wb, week):
     """The tipping sheets already have Dashboard / Leaderboard / Money / My Stats in row 3: add this week and the rankings."""
     names = ['Leaderboard', 'Money', 'My Stats', 'Spreads & Totals', 'Head to Head', 'Expert Scout', 'Edge Finder', 'Value Report', 'Settings'] + \
@@ -382,9 +448,24 @@ def apply(wb, week, rank_rows):
     if 'Power Rankings' in wb.sheetnames: power_rankings(wb)
     if 'Ranking History' in wb.sheetnames: ranking_history(wb, [t for _, t, _ in rank_rows])
     scatter_colours(wb, 'Team Efficiency')
-    if 'Luck & Expected Wins' in wb.sheetnames: scatter_colours(wb, 'Luck & Expected Wins', luck_diagonal(wb))
+    if 'Luck & Expected Wins' in wb.sheetnames: luck_chart(wb)
     if 'Season Projections' in wb.sheetnames: projections(wb)
     for n, fn in (('Leaderboard', leaderboard), ('Money', money), ('Value Report', value_report), ('My Stats', my_stats)):
         if n in wb.sheetnames: fn(wb)
     week_tabs(wb, week)
     tipping_nav(wb, week)
+    if 'Team Efficiency' in wb.sheetnames:
+        c = find_header(wb['Team Efficiency'], 'Team', 4)
+        if c: team_cf(wb['Team Efficiency'], f'{COL(c)}5:{COL(c)}36')
+    if 'QBs' in wb.sheetnames:
+        c = find_header(wb['QBs'], 'Team', 4)
+        if c: team_cf(wb['QBs'], f'{COL(c)}5:{COL(c)}{wb["QBs"].max_row}')
+    pick_dropdowns(wb)
+    for ws in wb.worksheets:
+        for ch in ws._charts:
+            if ch.title is not None:
+                try: ch.title.overlay = False
+                except Exception: pass
+            if isinstance(ch, BarChart):
+                for s_ in ch.series:
+                    s_.invertIfNegative = False

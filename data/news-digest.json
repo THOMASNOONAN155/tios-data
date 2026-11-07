@@ -1,8 +1,203 @@
 {
- "generated": "2026-11-06T23:56Z",
+ "generated": "2026-11-07T23:24Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 43,
+ "count": 42,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Data center demonstrators break into Microsoft site in Amsterdam, say more European protests planned - DW.com",
+   "source": "DW.com",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ3RiVDV2VjRMcFY2ZWVqMjAtc0RTell3bjZ6dXZvQlFNZjFoTUJEUVJIM214Rk5lNzdOYU12UUR2TjVJV0VlMU9SdDRPODdNaXhJakVaSTdTTlh6akNaM1VhY3gtblY2eHVqcVJObTVPelRqRVFZN3g1ekxsWWVhTlctZlpVdkZDaFJQaEp0NVlFVnZ0dEtHZXN30gGaAUFVX3lxTE1WX29ENlloaUU5WEV5US12X2hjVVM4S2lzTXphRUl4V2szNVV3VERkaklGMGJiM2dQOWJDQzEzSWZDZnpMWlhlcnBhYkpZd2NOa05MUWt4RS1zTGo2ZVVrSmJOem4taXhxZ2RSRHVtYzdVVmhXWFFNWmdBY1IxRFRocEtZWWhxdXMyNmR1eWNfSC02R05pbF9oX3c?oc=5",
+   "published": "2026-11-07",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Did Apple Just Get a Boost From Democrats? Data Center Moratoriums Could Benefit the iPhone Maker - The Motley Fool",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTmNJZk9GdnpaeEk4OFc0OVpXUndSQVpFTm9SRTAtWVhhTENTN3p0a291dndFZnh5WWVmWVA3Y0NZZDd4ZUVfUm9ZSW1FTGVjQWI2YUFmQ2l0TWRuMl9MdjBSOWRvM3pWMGNmSmdzR0pvTjJZWVNVa3Y2Z0NfQmhkN204VEp2LTZwQjU5M3pNd08?oc=5",
+   "published": "2026-11-07",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Microsoft Faces AI Backlash as 100+ Protesters Break Into $1B Amsterdam Data Center Project - Brave New Coin",
+   "source": "Brave New Coin",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPazY1dXhKdi0yY1Jwb1ZHUFZ5WDNZOWVaN0FaWTVmTmVIQjhNdW5ZM1h0OEJXcXl2ZzlzZG81cWpTTVpWc2pHajZKWk9zRFhtRWl3enh0R0NDem1VRXhKRHRHaC1IQnZUbERRaUM2cDh3QmE2Vm8yZXVHcDEtNlJkQTFYT1hpdnV6SlhtV0tHTHZ6bUg2ejE0OVRQaHBjV2lIdzMycVV6NXNaRHpFY1RaQ3NDaFZKZWtyUm41eWNlVUw?oc=5",
+   "published": "2026-11-07",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "ON Semiconductor Corporation (ON) Seasonal returns chart - Yahoo Finance Australia",
+   "source": "Yahoo Finance Australia",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qeVJoTnVjeGFZTWV6aWFYb2tDRmVKQjBfVHZWZnhfU3lZVFVITDl0UWNoSlJ5UGdPU0xlc0M2WHFrYVFDVXljWEwzekhzTUVaTWxzUzZQVjNnZS1Wbm1F?oc=5",
+   "published": "2026-11-07",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Taiwan Strait peace a priority: IPAC - Taipei Times",
+   "source": "Taipei Times",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xT3dRTWlWWS10NGpuV1FWOWpielRFZWppS0ZSZ3M5X25LbGlGdmgyM0dIaDQ4SUVDb1k2SmNBZ29TS0xaNFc2LVkwVE5ieDZNT3BVNHdPbUxwRUxaWVlpc2s2M2ZVSFd4elFobUJ2Zld2TnloZWFGcQ?oc=5",
+   "published": "2026-11-07",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "CIIE 2026: Major names in semiconductor industry deepen links - CGTN",
+   "source": "CGTN",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQ1ZqR2xRY2hrS2xzdFU3Wk5QMVZWeG1uaktSd1R5WkZlTFFCT0hhSEVYbnFFZ0tTbGRnX3BsYTRHMEVXeGZLLWN0YlBqSWlpSnBZOHA1QjBvOVVGQjhmeVpia1NoRnV6bGxaNlNTS19keUQ0ZVg2NmdwelRzMmZqWmp5cEdxd3UtbWVHOEg3VXVkQjV0eFFXOTR0eHZQbno1TmM1T2VPUlpfeFlrbXI5c2ZHbVdtOE8z?oc=5",
+   "published": "2026-11-07",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
+   "published": "2026-11-07",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
+   "published": "2026-11-07",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets",
+   "published": "2026-11-07",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
+   "published": "2026-11-07",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "This retired professor has reinvented himself \u2014 as a Taylor Swift scholar",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
+   "published": "2026-11-07",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Second-guessing my adviser: Is an annuity the right move in this market?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
+   "published": "2026-11-07",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Here are the 2027 capital-gains tax rates for each income level",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/here-are-the-2027-capital-gains-tax-rates-for-each-income-level-166fc306?mod=mw_rss_topstories",
+   "published": "2026-11-07",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Medicare prescription drug costs will jump 50% in 2027.\u00a0Doing nothing could cost you.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/medicare-prescription-drug-costs-will-jump-50-in-2027-doing-nothing-could-cost-you-b701dfb7?mod=mw_rss_topstories",
+   "published": "2026-11-07",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Democrats\u2019 big election win revives a difficult Social Security question: Who pays?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/democrats-big-election-win-revives-a-difficult-social-security-question-who-pays-17ba9448?mod=mw_rss_topstories",
+   "published": "2026-11-07",
+   "trust": "B",
+   "flag": "context-only"
+  },
   {
    "driver": "US rates / Fed",
    "holdings": [
@@ -34,131 +229,15 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
+   "driver": "Semis / Taiwan",
    "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
+    "ASIA",
+    "EMKT",
+    "NDQ"
    ],
-   "title": "Data center demonstrators break into Microsoft site in Amsterdam, say more European protests planned - DW.com",
-   "source": "DW.com",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ3RiVDV2VjRMcFY2ZWVqMjAtc0RTell3bjZ6dXZvQlFNZjFoTUJEUVJIM214Rk5lNzdOYU12UUR2TjVJV0VlMU9SdDRPODdNaXhJakVaSTdTTlh6akNaM1VhY3gtblY2eHVqcVJObTVPelRqRVFZN3g1ekxsWWVhTlctZlpVdkZDaFJQaEp0NVlFVnZ0dEtHZXN30gGaAUFVX3lxTE1WX29ENlloaUU5WEV5US12X2hjVVM4S2lzTXphRUl4V2szNVV3VERkaklGMGJiM2dQOWJDQzEzSWZDZnpMWlhlcnBhYkpZd2NOa05MUWt4RS1zTGo2ZVVrSmJOem4taXhxZ2RSRHVtYzdVVmhXWFFNWmdBY1IxRFRocEtZWWhxdXMyNmR1eWNfSC02R05pbF9oX3c?oc=5",
-   "published": "2026-11-06",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Protesters break into Microsoft data center site in Amsterdam as Europe\u2019s backlash spreads - ABC News - Breaking News, Latest News and Videos",
-   "source": "Breaking News, Latest News and Videos",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLVZBM1lFdnRrdnV1dE55ZFZpN3dyMnJlaElSckNIU1VjNzFWWlBZbmFxNUl4aURvRURzZUxDSmdkMlBhdFNjMEF4VVVBLXJ5S3lDMmVtMW1CM1FxOWcwN00tcC1kVE93OG1uejlBYzlHZnNWX3lJS0Z3MWR4ZjZIWWpndDBTX3djWFNYbElHQ0hOYmJYNVR4N3dsMHBwdFZhak03S0NTa1lsSjl3Zy1XOGxfS0FEQdIBuwFBVV95cUxOVGpmblItT2dxbGlSenJDX0ZTeXF5VlhEZkl6Wm9aZ2lhRHFFNk9DVVpBTWJWSnVFME1ja0E5dzJnbXRPQjlDWWZUN0VsMXZ2c1BtRUoxdmFIWTM2bHIyRFhZMVFYbDdjX05PZ01zVnprZFc5b3hKRFFjV09OUUI0T1E4Yzh6M0xGUzhDRGRYV2xncHJVSWRQSGQ0X0tBMkRPbTdzRlRKSDhLa3lxWGJEc0tBMjB2Z2ZlaFpz?oc=5",
-   "published": "2026-11-06",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Why Amazon and Other AI Data-Center Stocks Will Be Post-Midterm Winners - Barron's",
-   "source": "Barron's",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTmFWemxsVHJERmFRb0lsaExBZnpqQ2JQSmVqSzFFM2Zra1JRa3A0R3Z1WFg2UWtqWV9fUm85T050ZEV0SllCNlVFb0wzLUZ1dWF3RU5aR1Job2V1WTZMbnMzeGxZZWh5Q1QzY1dhczBCYnZuaVdqaGM0ckR4UzZud1JoUXNfdw?oc=5",
-   "published": "2026-11-06",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Alphabet takes $548 million stake in partner Qualcomm in data center push - Reuters",
+   "title": "AI boom turns chip packaging into the next battleground for semiconductors - Reuters",
    "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZXlYcFdWcV9JU25ST013NGFEdWszTUFKS0xKNG5vYVhnVm1fbHFoa2lUWk16RGhqMmVXdzFkQ0NwRGcwaTdSdl82VjdUZWREdnhJZ1VIYXJUQzdWbVJCUTlySUJHVFFzc0M1QlNieFRSTU81bkF2MWpfbUlWQUxnUEhsUzdnUlBwRGo1a0hPcWh3VkFmYnJOX3E2UnE?oc=5",
-   "published": "2026-11-06",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "TSMC considers making advanced memory chips, The Information reports - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPR3VDQTJfT19xV0p2UGZRSUVERlJKVE8xb0VENzVOMEM2UjhPd0ZUM1JISzRGbjJ5aEs0TmZnLVZVQVZlTUZyTEhfUnRJaFJyNmxwbFRhcXdHTExjQURvckJ3bUtTTUtYMmlzektZbGRQemdVMDFrNDhsMUtMdjMzREpIbm90ZjkwNWYyR3lyY2p6RW51cGNvc2czWEo2ampYSVhBaW5ZQm15TWQ0ZGFyOGFESlBEMzBKd2c?oc=5",
-   "published": "2026-11-06",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Can chip manufacturers find an alternative to helium? - Marketplace.org",
-   "source": "Marketplace.org",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xaV81U3QyaUNvcExSQ2FGYm1McHhoQ0NfVlpwVGFEVy1FNWxqOWtFeTlzdG1tWUVPM2FLMWhwTUlRMGE3MkdOT3hkSkFLQ3dXZklxVnhBR09LZi1ld2dWT3ZXbGZhR2dONVFFLQ?oc=5",
-   "published": "2026-11-06",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Taiwan Semiconductor Manufacturing up 5.93% on Friday - Global Banking & Finance Review",
-   "source": "Global Banking & Finance Review",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOUVQRnBrNnFOV3VlWmlkWXZxbDI5V1B0bWlvOElNT2F0N3pUdE8tckZ3X2FTeW5aQkMxTWxXQnRUY19pajc1blFBbml5VlpCZ2MxNkRMZ010X3doNVhzVDNSMkFvZENBdFhFQi1CQjg0MlF4ZHhDMXV5bjNxWXR2REtlbWtUa2RtajQ0X3dRRHZ4MVhFZktHcU9NNVI?oc=5",
-   "published": "2026-11-06",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "TSMC Mulls Making Advanced AI Memory Chips, Information Says - Bloomberg.com",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVVJGbWZwV3FvN1Q3OHRSQTdCTGI4eFFHM2VKYzItYlM3SjFKVW1vbkZCMzJiRDVOLXhhSXBIX0lybV9FNUlfVFU4UzJIYUUyVkdka3VXdG1LOEVIWTBqblFCaGt3NEE5bTB2bU92MkZ5VHFPalZ3MzJwSHN6YmFtNjF5YWxiUFZHYXBqbTVGUHhGYnhHUHZVcUhXNndCdGdBM0N3bGpUeW1EYjZGc2hV?oc=5",
-   "published": "2026-11-06",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Taiwan Semiconductor Stocks Jump 7.45% as Taiwan Slashes Short Selling After Rout - TradingView",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUFIzRHlhNU1SeEliNWFWRXBkWjg0b1NwVTBqamJLQzdQcTg0T0pWcktpNHhibHVIMlBzVWdRTzU0YnNDWGtUaG5makgtLXhmaGVISXdjcmRZRDZaYnRRX0E3QTM2eTFMWjNfRUhhSlYyZ1MtWjBiczNSQzd0U1V4M0dSaWpaM3NZS3UxX0dJZmZiQ3dnR3BkX3lZZXREakE5N3BoWlFHQ2FhaGZVZ1VPNVIzNG9JYkFaUG0xcjdNMjZsd0hlR1l1Z0xNcFQ0bzZZS2h0cmVCMA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVTRsRWo5SjhUM1lPV19Xc1ZKUjNWWEx1eTFkZEZLYmpjVG1FNFltZDRRdVBwZ3RBVnk0NlQtbDZmaWdmaFhSY0NFT3Rpa2YzZVRzNl8zSHNzcVdhR3RZdEpFeVNkMW93SDFrbTY5SE9NM3NneHpZOFYxN1FGOVU1ekxjSF9aZ2FyZnRXLU5aY2pFT0gtYTVwMEhfUmU2a2lOaURTeURqcDQ0M185ekd4ZWJwVHdiVWEwanduVElR?oc=5",
    "published": "2026-11-06",
    "trust": "C",
    "flag": "context-only"
@@ -196,42 +275,6 @@
    "title": "U.S. prediction markets regulator issues demand that clashes directly with courts",
    "source": "CoinDesk",
    "url": "https://www.coindesk.com/policy/2026/11/06/u-s-prediction-markets-regulator-issues-demand-that-clashes-directly-with-courts",
-   "published": "2026-11-06",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "The crypto industry has found new ways to grow. Making money from them is another story",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/11/05/the-crypto-industry-has-found-new-ways-to-grow-making-money-from-them-is-another-story",
-   "published": "2026-11-06",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/11/05/thailand-moves-to-block-bitget-as-crypto-exchange-s-local-acquisition-faces-uncertainty",
-   "published": "2026-11-06",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate",
    "published": "2026-11-06",
    "trust": "B",
    "flag": "context-only"
@@ -309,63 +352,17 @@
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
+   "driver": "Semis / Taiwan",
    "holdings": [
-    "whole book"
+    "ASIA",
+    "EMKT",
+    "NDQ"
    ],
-   "title": "\u2018I have no financial safety net\u2019: I\u2019m 66, rely on Social Security and have just $500 in savings. What hope do I have?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
-   "published": "2026-11-06",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Elon Musk opens the door for a big SpaceX acquisition",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories",
-   "published": "2026-11-06",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Data centers run on debt. That was a problem for bonds this year \u2014 and it\u2019s only going to get worse.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
-   "published": "2026-11-06",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Nvidia, AMD and other chip stocks rebound \u2014 but is relief from the \u2018violent\u2019 selloff only temporary?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
-   "published": "2026-11-06",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018It seems bizarre\u2019: We\u2019re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
-   "published": "2026-11-06",
-   "trust": "B",
+   "title": "Did the AI bubble just burst? Semiconductor index sees worst sell-off since Covid - FXStreet",
+   "source": "FXStreet",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSFR0ajM1RU1VdEFjQTYyanBud0k4Z3JVSG5FUnFyR0NqQk82T2twR1dqN0pKRFowOXdTWUhMbGlRUGNWYkN0T25uOG9lMDJiSEdiWjAzYUI3cWJpdElZSHRXQ294LURWY1ZsY2xTbEdaNTJSNXpZLW90TnNtM3BnY01HRGJWYm15T25WcHpySGMxRWlHbWhONnp2cnhHdzZvOXpIaDNlc0I2bnpmWC12cGd5dFhBOVlLOWwwbDkzd0Q?oc=5",
+   "published": "2026-11-05",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -379,6 +376,18 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68424",
    "published": "2026-11-05",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Gold",
+   "holdings": [
+    "QAU"
+   ],
+   "title": "Gold price recovery gathers pace after US midterms but $4,200 remains a major hurdle - investingLive",
+   "source": "investingLive",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN1lNd2xsWDJaVnZRRWMtYlk0VWpLYmJJUG5uVzJVRlRiUWE3M2hZTUJoSXl1X2RLZUI1Y3RBLXh5VjhBenhzOXpFR05HZjYzUWZyMXBnS1FwUVZKQjI4N3E0YWZadDVFcl9Ecnc4cjZmOFhPcEZ3YUxfSU1LbVFGbG9mRHpnQWNidTBvcjRvcjdFSHZUdUhJbGRKZzJycUtvQzBUVmJBa2NxVWF3M2RONjE5Vk4tV3htd1kwZEpDSQ?oc=5",
+   "published": "2026-11-05",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -419,13 +428,16 @@
    "flag": "context-only"
   },
   {
-   "driver": "AU tax / reg",
+   "driver": "US mega-cap / AI capex",
    "holdings": [
-    "ALL (disposal gate)"
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
    ],
-   "title": "Australia to End 50% Capital Gains Tax Discount in July 2027, Increasing Crypto Tax Burden - bloomingbit",
-   "source": "bloomingbit",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFSzRvV2VOajNyRnl1WVh1WG9CemlUbVowekhmUGpMdDB2LWtfODRudUNsc3dTVmRWV3pjRXRUbHUxSng0d2JPdjRNSVhEVDdwNGtpaQ?oc=5",
+   "title": "Satellite images expose potential trouble behind Microsoft's $5 billion AI spending shortfall - Business Insider",
+   "source": "Business Insider",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSzRQNlBSSGpYS1RHM0w3V0VpZjh6c1hJVXE0SFVGdXpEeUI5SWxQQmZLMjZLQXFuMnI2QzA3RW5ReVhxdkd1YjI2N245RDlnRjZxdy03LVlRSDMwTDFnMk12MEtJVWtxTXlMcXcwNUVnc0JQU0VrVWFwOWhGZHlsYWh3N1hFeVlGMWo5ck13?oc=5",
    "published": "2026-11-04",
    "trust": "C",
    "flag": "context-only"
@@ -479,30 +491,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68404",
    "published": "2026-11-03",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "Boris Vuj\u010di\u0107: Integrated, open and resilient: Europe\u2019s strengths in a fragmenting world",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
-   "published": "2026-11-02",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Gold",
-   "holdings": [
-    "QAU"
-   ],
-   "title": "Gold Price Today, October 31, 2026: Gold Rates Drop Ahead of Diwali; Check City-Wise Prices - Jagran Josh",
-   "source": "Jagran Josh",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTFNEZ2UxNlNrTURIUVowSU83MEZqeU9ZYzhETy02X2ZmWGt4dlQ2bDRjQjRiT1F5OGU2WTRWVHR0TG1nbVRBdF9UYWRWZFdtMHpkSDEtd2FpanQ5Skk2Wkx2czYza0ZTRzI5dzJ6YXVpaEJJdmRHT1MwOFZGNWNremhpeExxN1Vya0M0YXI2R1NCSF9OMHcxQm81ZWlYQlBIYkc1OUpVckd0QjZaTFc4aDZmT1VfdF9XVUhTVVBkeFVESjBmc1lzUGZGbkxkWGFyaEF1dmMwWXM4Y04x0gHjAUFVX3lxTFBlb1J4WVVWRFFVVmZ2N0JHYmlpQ0Z2alNRTm9IWXRoZnVraHdETDB1dnNJM3J5MzZoRk1Uenc0SUp5S2VjWkt4OC0zcmRTNEphNWNfV0ZRMWlzdGtKZTFqdVotZm1ta28yUFYteEFOcVpJNVFZdDZwaW53OGpJTVpHZnV3UTAyTXVsaTQ3VDYzdTBqdzNMSnVWRW1wTzVsS2NFVTVFMEdWWC1SUlVrdWhDTFlSSUxIbjVTZDFnQ3o0OFlfQ0pZUGxGMUNmQ1F2TlRtb0JrTkdkTjFhVkJ4TEFyWnBj?oc=5",
-   "published": "2026-10-31",
-   "trust": "C",
    "flag": "context-only"
   },
   {

@@ -1,0 +1,1452 @@
+{
+"10|BUF|NYJ": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"10|CAR|NO": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"10|HOU|CLE": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"10|JAX|TEN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"10|KC|ATL": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"10|LAC|BAL": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"10|LAR|ARI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"10|MIA|IND": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"10|MIN|GB": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"10|NE|DET": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"10|PIT|CIN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"10|SEA|LV": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"10|SF|DAL": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"10|WSH|NYG": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"11|ARI|KC": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"11|BAL|CAR": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"11|CIN|WSH": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"11|IND|HOU": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"11|JAX|NYG": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"11|LV|DEN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"11|MIA|BUF": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"11|MIN|SF": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"11|NO|CHI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"11|NYJ|LAC": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"11|PIT|PHI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"11|TB|DET": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"11|TEN|DAL": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|ATL|MIN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|BAL|HOU": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|CAR|TB": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|CHI|DET": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|DEN|PIT": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|GB|LAR": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|KC|BUF": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|LV|CLE": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|NE|LAC": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|NO|CIN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|NYG|IND": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|NYJ|MIA": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|PHI|DAL": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|SEA|SF": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|TEN|JAX": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"12|WSH|ARI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|BUF|NE": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|CAR|MIN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|CIN|CLE": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|DAL|SEA": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|DET|ATL": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|GB|NO": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|HOU|PIT": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|JAX|CHI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|KC|LAR": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|LAC|TB": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|MIA|DEN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|PHI|ARI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|SF|NYG": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"13|WSH|TEN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|ATL|CLE": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|BUF|GB": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|CHI|MIA": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|DEN|NYJ": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|HOU|WSH": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|IND|PHI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|KC|CIN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|LAC|LV": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|LAR|SF": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|MIN|NE": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|NO|CAR": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|NYG|SEA": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|PIT|JAX": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|TB|BAL": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"14|TEN|DET": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|ATL|WSH": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|BAL|PIT": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|CHI|BUF": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|CIN|CAR": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|CLE|NYG": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|DAL|LAR": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|DEN|LV": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|DET|MIN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|IND|TEN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|JAX|HOU": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|MIA|GB": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|NE|KC": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|NO|TB": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|NYJ|ARI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|SEA|PHI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"15|SF|LAC": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|ARI|NO": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|BUF|DEN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|CAR|PIT": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|CIN|IND": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|CLE|BAL": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|GB|CHI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|HOU|PHI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|JAX|DAL": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|LAC|MIA": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|LAR|SEA": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|NE|NYJ": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|NYG|DET": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|SF|KC": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|TB|ATL": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|TEN|LV": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"16|WSH|MIN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|BAL|CIN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|BUF|MIA": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|DEN|NE": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|DET|CHI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|HOU|GB": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|IND|CLE": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|KC|LAC": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|LAR|TB": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|LV|ARI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|MIN|NYJ": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|NO|ATL": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|NYG|DAL": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|PHI|SF": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|PIT|TEN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|SEA|CAR": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"17|WSH|JAX": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|ATL|CAR": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|CHI|MIN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|CLE|CIN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|DAL|WSH": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|DET|GB": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|JAX|IND": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|LAC|DEN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|LV|KC": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|MIA|NE": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|NYJ|BUF": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|PHI|NYG": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|PIT|BAL": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|SEA|LAR": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|SF|ARI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|TB|NO": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"18|TEN|HOU": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"1|ARI|LAC": {
+"ou": "Over",
+"spread": "LAC",
+"tip": "LAC"
+},
+"1|ATL|PIT": {
+"ou": "Over",
+"spread": "ATL",
+"tip": "ATL"
+},
+"1|BAL|IND": {
+"ou": "Under",
+"spread": "BAL",
+"tip": "BAL"
+},
+"1|BUF|HOU": {
+"ou": "Over",
+"spread": "BUF",
+"tip": "BUF"
+},
+"1|CHI|CAR": {
+"ou": "Under",
+"spread": "CHI",
+"tip": "CHI"
+},
+"1|CLE|JAX": {
+"ou": "Over",
+"spread": "JAX",
+"tip": "JAX"
+},
+"1|DAL|NYG": {
+"ou": "Over",
+"spread": "DAL",
+"tip": "DAL"
+},
+"1|DEN|KC": {
+"ou": "Over",
+"spread": "KC",
+"tip": "KC"
+},
+"1|GB|MIN": {
+"ou": "Under",
+"spread": "GB",
+"tip": "GB"
+},
+"1|MIA|LV": {
+"ou": "Over",
+"spread": "LV",
+"tip": "LV"
+},
+"1|NE|SEA": {
+"ou": "Under",
+"spread": "NE",
+"tip": "NE"
+},
+"1|NO|DET": {
+"ou": "Over",
+"spread": "DET",
+"tip": "DET"
+},
+"1|NYJ|TEN": {
+"ou": "Under",
+"spread": "TEN",
+"tip": "TEN"
+},
+"1|SF|LAR": {
+"ou": "Under",
+"spread": "SF",
+"tip": "SF"
+},
+"1|TB|CIN": {
+"ou": "Under",
+"spread": "TB",
+"tip": "TB"
+},
+"1|WSH|PHI": {
+"ou": "Over",
+"spread": "PHI",
+"tip": "PHI"
+},
+"2|CAR|ATL": {
+"ou": "Under",
+"spread": "CAR",
+"tip": "CAR"
+},
+"2|CIN|HOU": {
+"ou": "Under",
+"spread": "CIN",
+"tip": "HOU"
+},
+"2|CLE|TB": {
+"ou": "Over",
+"spread": "CLE",
+"tip": "TB"
+},
+"2|DET|BUF": {
+"ou": "Over",
+"spread": "BUF",
+"tip": "BUF"
+},
+"2|GB|NYJ": {
+"ou": "Under",
+"spread": "GB",
+"tip": "GB"
+},
+"2|IND|KC": {
+"ou": "Under",
+"spread": "KC",
+"tip": "KC"
+},
+"2|JAX|DEN": {
+"ou": "Under",
+"spread": "JAX",
+"tip": "DEN"
+},
+"2|LV|LAC": {
+"ou": "Under",
+"spread": "LV",
+"tip": "LV"
+},
+"2|MIA|SF": {
+"ou": "Under",
+"spread": "SF",
+"tip": "SF"
+},
+"2|MIN|CHI": {
+"ou": "Under",
+"spread": "CHI",
+"tip": "CHI"
+},
+"2|NO|BAL": {
+"ou": "Over",
+"spread": "BAL",
+"tip": "BAL"
+},
+"2|NYG|LAR": {
+"ou": "Under",
+"spread": "LAR",
+"tip": "LAR"
+},
+"2|PHI|TEN": {
+"ou": "Over",
+"spread": "TEN",
+"tip": "PHI"
+},
+"2|PIT|NE": {
+"ou": "Over",
+"spread": "NE",
+"tip": "NE"
+},
+"2|SEA|ARI": {
+"ou": "Over",
+"spread": "SEA",
+"tip": "SEA"
+},
+"2|WSH|DAL": {
+"ou": "Over",
+"spread": "WSH",
+"tip": "WSH"
+},
+"3|ARI|SF": {
+"ou": "Under",
+"spread": "SF",
+"tip": "SF"
+},
+"3|ATL|GB": {
+"ou": "Over",
+"spread": "ATL",
+"tip": "GB"
+},
+"3|BAL|DAL": {
+"ou": "Under",
+"spread": "DAL",
+"tip": "DAL"
+},
+"3|CAR|CLE": {
+"ou": "Under",
+"spread": "CLE",
+"tip": "CLE"
+},
+"3|CIN|PIT": {
+"ou": "Over",
+"spread": "CIN",
+"tip": "CIN"
+},
+"3|HOU|IND": {
+"ou": "Under",
+"spread": "HOU",
+"tip": "HOU"
+},
+"3|KC|MIA": {
+"ou": "Over",
+"spread": "KC",
+"tip": "KC"
+},
+"3|LAC|BUF": {
+"ou": "Over",
+"spread": "BUF",
+"tip": "BUF"
+},
+"3|LAR|DEN": {
+"ou": "Under",
+"spread": "DEN",
+"tip": "DEN"
+},
+"3|LV|NO": {
+"ou": "Under",
+"spread": "LV",
+"tip": "LV"
+},
+"3|MIN|TB": {
+"ou": "Under",
+"spread": "MIN",
+"tip": "MIN"
+},
+"3|NE|JAX": {
+"ou": "Under",
+"spread": "NE",
+"tip": "NE"
+},
+"3|NYJ|DET": {
+"ou": "Under",
+"spread": "NYJ",
+"tip": "DET"
+},
+"3|PHI|CHI": {
+"ou": "Under",
+"spread": "CHI",
+"tip": "CHI"
+},
+"3|SEA|WSH": {
+"ou": "Over",
+"spread": "SEA",
+"tip": "SEA"
+},
+"3|TEN|NYG": {
+"ou": "Over",
+"spread": "TEN",
+"tip": "TEN"
+},
+"4|ARI|NYG": {
+"ou": "Over",
+"spread": "ARI",
+"tip": "ARI"
+},
+"4|ATL|NO": {
+"ou": "Under",
+"spread": "ATL",
+"tip": "ATL"
+},
+"4|DAL|HOU": {
+"ou": "Under",
+"spread": "DAL",
+"tip": "HOU"
+},
+"4|DEN|SF": {
+"ou": "Under",
+"spread": "DEN",
+"tip": "DEN"
+},
+"4|DET|CAR": {
+"ou": "Under",
+"spread": "CAR",
+"tip": "CAR"
+},
+"4|GB|TB": {
+"ou": "Over",
+"spread": "TB",
+"tip": "TB"
+},
+"4|IND|WSH": {
+"ou": "Under",
+"spread": "WSH",
+"tip": "IND"
+},
+"4|JAX|CIN": {
+"ou": "Under",
+"spread": "JAX",
+"tip": "CIN"
+},
+"4|KC|LV": {
+"ou": "Under",
+"spread": "KC",
+"tip": "KC"
+},
+"4|LAC|SEA": {
+"ou": "Over",
+"spread": "SEA",
+"tip": "SEA"
+},
+"4|LAR|PHI": {
+"ou": "Under",
+"spread": "PHI",
+"tip": "LAR"
+},
+"4|MIA|MIN": {
+"ou": "Under",
+"spread": "MIN",
+"tip": "MIN"
+},
+"4|NE|BUF": {
+"ou": "Over",
+"spread": "NE",
+"tip": "BUF"
+},
+"4|NYJ|CHI": {
+"ou": "Over",
+"spread": "CHI",
+"tip": "CHI"
+},
+"4|PIT|CLE": {
+"ou": "Over",
+"spread": "CLE",
+"tip": "CLE"
+},
+"4|TEN|BAL": {
+"ou": "Under",
+"spread": "TEN",
+"tip": "BAL"
+},
+"5|BAL|ATL": {
+"ou": "Over",
+"spread": "BAL",
+"tip": "ATL"
+},
+"5|BUF|LAR": {
+"ou": "Under",
+"spread": "BUF",
+"tip": "BUF"
+},
+"5|CHI|GB": {
+"ou": "Under",
+"spread": "GB",
+"tip": "GB"
+},
+"5|CIN|MIA": {
+"ou": "Over",
+"spread": "CIN",
+"tip": "CIN"
+},
+"5|CLE|NYJ": {
+"ou": "Over",
+"spread": "CLE",
+"tip": "CLE"
+},
+"5|DEN|LAC": {
+"ou": "Under",
+"spread": "DEN",
+"tip": "DEN"
+},
+"5|DET|ARI": {
+"ou": "Under",
+"spread": "DET",
+"tip": "DET"
+},
+"5|HOU|TEN": {
+"ou": "Under",
+"spread": "TEN",
+"tip": "HOU"
+},
+"5|IND|PIT": {
+"ou": "Under",
+"spread": "IND",
+"tip": "IND"
+},
+"5|LV|NE": {
+"ou": "Under",
+"spread": "NE",
+"tip": "NE"
+},
+"5|MIN|NO": {
+"ou": "Over",
+"spread": "NO",
+"tip": "MIN"
+},
+"5|NYG|WSH": {
+"ou": "Over",
+"spread": "NYG",
+"tip": "WSH"
+},
+"5|PHI|JAX": {
+"ou": "Under",
+"spread": "JAX",
+"tip": "JAX"
+},
+"5|SF|SEA": {
+"ou": "Under",
+"spread": "SEA",
+"tip": "SEA"
+},
+"5|TB|DAL": {
+"ou": "Over",
+"spread": "TB",
+"tip": "DAL"
+},
+"6|ARI|LAR": {
+"ou": "Over",
+"spread": "ARI",
+"tip": "LAR"
+},
+"6|BAL|CLE": {
+"ou": "Under",
+"spread": "CLE",
+"tip": "BAL"
+},
+"6|BUF|LV": {
+"ou": "Over",
+"spread": "LV",
+"tip": "BUF"
+},
+"6|CAR|PHI": {
+"ou": "Under",
+"spread": "CAR",
+"tip": "CAR"
+},
+"6|CHI|ATL": {
+"ou": "Over",
+"spread": "ATL",
+"tip": "ATL"
+},
+"6|DAL|GB": {
+"ou": "Over",
+"spread": "DAL",
+"tip": "GB"
+},
+"6|HOU|JAX": {
+"ou": "Over",
+"spread": "JAX",
+"tip": "JAX"
+},
+"6|LAC|KC": {
+"ou": "Under",
+"spread": "KC",
+"tip": "KC"
+},
+"6|NO|NYG": {
+"ou": "Over",
+"spread": "NO",
+"tip": "NO"
+},
+"6|NYJ|NE": {
+"ou": "Over",
+"spread": "NYJ",
+"tip": "NE"
+},
+"6|PIT|TB": {
+"ou": "Under",
+"spread": "TB",
+"tip": "TB"
+},
+"6|SEA|DEN": {
+"ou": "Under",
+"spread": "SEA",
+"tip": "SEA"
+},
+"6|TEN|IND": {
+"ou": "Under",
+"spread": "TEN",
+"tip": "TEN"
+},
+"6|WSH|SF": {
+"ou": "Over",
+"spread": "SF",
+"tip": "SF"
+},
+"7|CIN|BAL": {
+"ou": "Under",
+"spread": "CIN",
+"tip": "CIN"
+},
+"7|CLE|TEN": {
+"ou": "Over",
+"spread": "CLE",
+"tip": "CLE"
+},
+"7|DAL|PHI": {
+"ou": "Over",
+"spread": "PHI",
+"tip": "DAL"
+},
+"7|DEN|ARI": {
+"ou": "Under",
+"spread": "DEN",
+"tip": "DEN"
+},
+"7|GB|DET": {
+"ou": "Over",
+"spread": "GB",
+"tip": "GB"
+},
+"7|IND|MIN": {
+"ou": "Over",
+"spread": "IND",
+"tip": "MIN"
+},
+"7|KC|SEA": {
+"ou": "Under",
+"spread": "KC",
+"tip": "KC"
+},
+"7|LAR|LV": {
+"ou": "Under",
+"spread": "LV",
+"tip": "LAR"
+},
+"7|MIA|NYJ": {
+"ou": "Under",
+"spread": "MIA",
+"tip": "MIA"
+},
+"7|NE|CHI": {
+"ou": "Over",
+"spread": "NE",
+"tip": "NE"
+},
+"7|NYG|HOU": {
+"ou": "Over",
+"spread": "NYG",
+"tip": "HOU"
+},
+"7|PIT|NO": {
+"ou": "Over",
+"spread": "PIT",
+"tip": "PIT"
+},
+"7|SF|ATL": {
+"ou": "Over",
+"spread": "SF",
+"tip": "SF"
+},
+"7|TB|CAR": {
+"ou": "Under",
+"spread": "TB",
+"tip": "TB"
+},
+"8|ARI|DAL": {
+"ou": "Over",
+"spread": "ARI",
+"tip": "DAL"
+},
+"8|ATL|TB": {
+"ou": "Over",
+"spread": "TB",
+"tip": "TB"
+},
+"8|BAL|BUF": {
+"ou": "Under",
+"spread": "BUF",
+"tip": "BUF"
+},
+"8|CAR|GB": {
+"ou": "Over",
+"spread": "GB",
+"tip": "GB"
+},
+"8|CHI|SEA": {
+"ou": "Over",
+"spread": "CHI",
+"tip": "CHI"
+},
+"8|CLE|PIT": {
+"ou": "Under",
+"spread": "CLE",
+"tip": "PIT"
+},
+"8|IND|JAX": {
+"ou": "Under",
+"spread": "JAX",
+"tip": "JAX"
+},
+"8|KC|DEN": {
+"ou": "Over",
+"spread": "DEN",
+"tip": "DEN"
+},
+"8|LAC|LAR": {
+"ou": "Under",
+"spread": "LAC",
+"tip": "LAR"
+},
+"8|LV|NYJ": {
+"ou": "Over",
+"spread": "LV",
+"tip": "LV"
+},
+"8|MIN|DET": {
+"ou": "Under",
+"spread": "MIN",
+"tip": "DET"
+},
+"8|NE|MIA": {
+"ou": "Over",
+"spread": "NE",
+"tip": "NE"
+},
+"8|PHI|WSH": {
+"ou": "Over",
+"spread": "PHI",
+"tip": "PHI"
+},
+"8|TEN|CIN": {
+"ou": "Under",
+"spread": "TEN",
+"tip": "CIN"
+},
+"9|ARI|SEA": {
+"ou": "Over",
+"spread": "SEA",
+"tip": "SEA"
+},
+"9|BUF|MIN": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"9|CIN|ATL": {
+"ou": "Under",
+"spread": "CIN",
+"tip": "CIN"
+},
+"9|CLE|NO": {
+"ou": "Over",
+"spread": "CLE",
+"tip": "CLE"
+},
+"9|DAL|IND": {
+"ou": "Over",
+"spread": "DAL",
+"tip": "DAL"
+},
+"9|DEN|CAR": {
+"ou": "Under",
+"spread": "CAR",
+"tip": "CAR"
+},
+"9|DET|MIA": {
+"ou": "Over",
+"spread": "DET",
+"tip": "DET"
+},
+"9|GB|NE": {
+"ou": "Under",
+"spread": "GB",
+"tip": "GB"
+},
+"9|HOU|LAC": {
+"ou": "Under",
+"spread": "LAC",
+"tip": "LAC"
+},
+"9|JAX|BAL": {
+"ou": "Under",
+"spread": "BAL",
+"tip": "JAX"
+},
+"9|LAR|WSH": {
+"ou": "Under",
+"spread": "WSH",
+"tip": "LAR"
+},
+"9|LV|SF": {
+"ou": "Under",
+"spread": "LV",
+"tip": "SF"
+},
+"9|NYG|PHI": {
+"ou": "Over",
+"spread": "PHI",
+"tip": "PHI"
+},
+"9|NYJ|KC": {
+"ou": "Under",
+"spread": "NYJ",
+"tip": "KC"
+},
+"9|TB|CHI": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"lock|1": {
+"ou": null,
+"spread": null,
+"tip": "CHI"
+},
+"lock|10": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"lock|11": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"lock|12": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"lock|13": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"lock|14": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"lock|15": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"lock|16": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"lock|17": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"lock|18": {
+"ou": null,
+"spread": null,
+"tip": null
+},
+"lock|2": {
+"ou": null,
+"spread": null,
+"tip": "LAR"
+},
+"lock|3": {
+"ou": null,
+"spread": null,
+"tip": "SF"
+},
+"lock|4": {
+"ou": null,
+"spread": null,
+"tip": "SEA"
+},
+"lock|5": {
+"ou": null,
+"spread": null,
+"tip": "NE"
+},
+"lock|6": {
+"ou": null,
+"spread": null,
+"tip": "KC"
+},
+"lock|7": {
+"ou": null,
+"spread": null,
+"tip": "SF"
+},
+"lock|8": {
+"ou": null,
+"spread": null,
+"tip": "JAX"
+},
+"lock|9": {
+"ou": null,
+"spread": null,
+"tip": null
+}
+}

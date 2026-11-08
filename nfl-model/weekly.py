@@ -112,7 +112,7 @@ def main():
     # picks made in the workbook's dropdowns go into the inputs file first (the build itself never writes to it)
     from nflmodel.pick_sync import sync
     for f_ in sorted(glob.glob(os.path.join(OUTPUT, 'NFL_Model_*.xlsx')))[-1:]:
-        ch_ = sync(f_, TIP_INPUTS)
+        ch_ = sync(f_, TIP_INPUTS, os.path.join(OUTPUT, '.picks_built.json'))
         if ch_: print('Picks copied from the workbook into your inputs file:\n  ' + '\n  '.join(ch_), flush=True)
     inputs_sha = sha(TIP_INPUTS) if bak else None
     season = a.season or (int(load_games().season.max()) if os.path.exists(os.path.join(CACHE, 'games.csv')) else int(time.strftime('%Y')))
@@ -290,6 +290,9 @@ def main():
         if tctx is not None:
             chk(sha(TIP_INPUTS) == inputs_sha, 'inputs/tipping_inputs.xlsx unchanged by this run (backed up first)')
         workbook.build(xlsx, wctx)          # rebuilt so the About sheet lists the complete self-test
+        if tctx is not None:
+            from nflmodel.pick_sync import snapshot
+            snapshot(TIP_INPUTS, os.path.join(OUTPUT, '.picks_built.json'))   # what this build wrote, for the next pick sync
     except Exception as e:
         chk(False, f'Excel workbook failed: {e!r}')
     L[L_self:L_self] = [f'- {s}: {m}' for s, m in checks]

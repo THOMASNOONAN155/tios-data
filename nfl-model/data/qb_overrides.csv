@@ -2,3 +2,4 @@
 # Use the name exactly as nflverse writes it (see games.csv home_qb_name / away_qb_name). Team codes as in the workbook.
 season,week,team,qb_name
 2026,10,BAL,Jacoby Brissett
+2026,9,MIN,Carson Wentz

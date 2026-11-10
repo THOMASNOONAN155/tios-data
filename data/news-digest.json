@@ -1,9 +1,35 @@
 {
- "generated": "2026-11-08T23:25Z",
+ "generated": "2026-11-10T02:32Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
  "count": 41,
  "items": [
   {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Sunrise Energy Metals Completes US$5 Million Strategic Investment in Agni Semiconductor - Kalkine",
+   "source": "Kalkine",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWThic3FsYzhPQTFweU12NmQ0N0JOcVhQdEVxenNXTWZVanB6Qk5odXlvRnRBR1FWMElIblN5Z2dWSE4wZGR1dC1iaGFBUFhZek9FeFVKSTBoYzBrVlJTYjU2Vjg2MVFxNEFzaXo3SmRITVlDVF8wamdNMVNESER3NE1yM050clZzUGxEb2hNVnVaSkJKblVOTEhmREU3ckZaTVIxNUFGT1JXX0tBUnN0Q3lmQzFWX3NyTGp2VThDejdLZDZGODBB?oc=5",
+   "published": "2026-11-10",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "The short seller who saw signs of Nvidia\u2019s China scandal months ago claims Megaspeed isn\u2019t the only company helping China access chips",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
+   "published": "2026-11-10",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
    "driver": "US mega-cap / AI capex",
    "holdings": [
     "IVV",
@@ -11,10 +37,10 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Microsoft Is Reportedly Getting Pickier About AI Data Center Deals. Is the Stock a Buy Now? - The Motley Fool",
-   "source": "The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdmxmRExkR3Bmc3lfdW8zM3A4c3lGZFlEMUVxYlFmSk1sTmt0TkNGZk5JRDh2bEVtT1loMDU5LTVnOUNOcTBSMW1hckloZm0wQksyclNlMHVEa1RTXzRJdDBVS0dMdm1CMTZZclFPa09oQnNVUDdCdnlZaUk5aXJfUlRORHhSMnJDQ2NWOExCTjZHTm5GQTdJeEl6blNYczE3NVJXMUVHUlhQOWJkcm5YMzZ0cm5CMDZIVE1tSy02aTlzV29pT2xFeWh1LUg?oc=5",
-   "published": "2026-11-08",
+   "title": "Nvidia\u2019s Data Center Vision Spurs Race to Reinvent Electric Transformers - Bloomberg.com",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU2MxVGFaT09uZmVnOTVrbjRFVnBfRTdHYXZHVXRobnMyVEtVQ3Z4RTNyNkc2Wm1Ic0c0VEJqVzIxMW8wSXhlM1dadm9LZC1iUVFBSkFOWmlGdGxldnk3emR3M0Y3OVFmV0FIdk4waG9OdUxiem1OeEphX1RGMWJ4Q1RhZlFZMC1feGZ3azFRYkFYYngzaGU5RFZCaGZjbWFBaTJDX0dMNGxQMDhuX0l5ZGJUdEZrMGxwNjNIUEJUckE?oc=5",
+   "published": "2026-11-09",
    "trust": "C",
    "flag": "context-only"
   },
@@ -26,10 +52,10 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Hundreds arrested after Microsoft data center protest turns violent \u2014 Stop Dirty Data Centers coalition demands halt to AI data center expansion; Dutch police seize break-in tools, suspected stolen items from construction site - Tom's Hardware",
-   "source": "Tom's Hardware",
-   "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQSnJkTk1iOUMxUlhJLWRxclRsN3RueFRFUHBILTdGYTJwQVJodEFHUk9yM2NrVG9SazgyMVloRkZ1VmFTRlZhWjk1NUhDaERielU5ajh2eER6WnhLSkRWN0hmSDV6NTE0cUh2eWxlS0oyOTNTRV9LYlk0cEtEZFdVNk5ETWhWeGtidkVwdWpwQjFrcXg5UmpQNUljT2JfdUtXc2hwYi1wc0theWJmSFdOdFBMbVh3N2x6N2FhTmZGdlJkLVc0SkZaT3RnaUh2OTdBYXYxQzEzYXduRjFWeWtfTFZwUENldndjN2p3dHZIcnRVZlA1V0JBT2xLMDlPUWJtcTU4aXRyZlFRdURPRTBBVHR1Ym9rcTVvMVZCZUpFMVBVN281QVRpX3pEVzVnb0RYZUdIY2luX29Wb0RjblpjOENjdEJ2d2RCX0pMOXVtd1hmT2lkR0l6Vk5aLW5uUDdHR3Bic3ZRSmpOYU5ZZzNyRl91RzRaMGVjeW5VQjgxUGt2V0lZSWh4ZzdZeUlLVk0?oc=5",
-   "published": "2026-11-08",
+   "title": "Amazon, Microsoft among hyperscalers that benefit if a data center slowdown occurs: Ives (AMZN:NASDAQ) - Seeking Alpha",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYWZWYl9tamprSjdWMThvU05yQ1dBTjBpTzczcV9sRU1Nd1kyVmI1SXdGQWc1dXdFSHhxNjZoMEpEdVhxZFJJcnNfMTFndlpiRVhRU0RlVFJEZ0dIOE5pNHRENG9ldGt6ZDlsb0l3Vld5S21KWVowRTVlZ2dDcEFCZmhPNldobDFfVTFtaDNGZXAzNjRzc2R2VDFsaWZvYmMzTktWQ3B0ZFc2X1UwQ2NhTEFoUWpsRnZCZUVXWHBnNzZDUQ?oc=5",
+   "published": "2026-11-09",
    "trust": "C",
    "flag": "context-only"
   },
@@ -40,10 +66,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Nvidia (NASDAQ:NVDA) Reportedly Pushes TSMC Into 3D DRAM: What It Means for Micron Stock - Stocks Down Under",
-   "source": "Stocks Down Under",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11Y1ZZUmI1bVNPbXhsVWp4ZW13Rm1NaWdKaEpvbERlMUo3aFFNOXMzRXMyZEwwOXBIdjkzVE95Tm5HaFlTY0NrZnJwcmZvTzZwb01aYnRQUWhHTjh3b2dValJEbmJVQm5jLVo0S1dR?oc=5",
-   "published": "2026-11-08",
+   "title": "LLNL, Diamond Quanta Partner to Advance Semiconductor Manufacturing - Mirage News",
+   "source": "Mirage News",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qSjdZbzU0UlpQQ1BOaEpsTEJkOXlUQzVIaWY1WWk4bzVRNnFWMTIxb19ocU1xRENULUpyNWdFaUR6aUFiME1IVTFsTUJaQnlMRWxuVUR1M0prd20waThpRjF2MzlSNWRDQXZvSEwzYzJ0UEd6cVZPWDJBblV2c2c?oc=5",
+   "published": "2026-11-09",
    "trust": "C",
    "flag": "context-only"
   },
@@ -54,10 +80,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "This Semiconductor ETF Just Had Its Worst Day Since March 2020 - The Motley Fool",
-   "source": "The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZmhweVA1cG5XUkJkWEItZEE1a09seXBNZEhlbEJZb2E4dG1kUEZwWGlJbkNNaVdwTGVnVTFKOGc4cWI0eWpxeGxqVXVRQTYyNnFvYWM3c0sxRGwyOGtjNy1hWWRHRGppZGs5X2NzMjFBdDB1ZXpVNEZIWGtFRXRkOGpRVzdHNnZTcTV6TmJCdm5tU2xRTDhteA?oc=5",
-   "published": "2026-11-08",
+   "title": "From projected phase to surface-state electrostatics in FIB-prepared semiconductor lamellae - Nature",
+   "source": "Nature",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBKcC1BaWQ1YnU4RFhiaDBCcWpqaktmcW9SVHlkVmtzZmdUV2U2cVI1YnhvYXc1ZUNsemRFWTlzM2tIT0JDMThHQ0IwTXFKVWJHQmp1WFV0Q0NwdHVha29n?oc=5",
+   "published": "2026-11-09",
    "trust": "C",
    "flag": "context-only"
   },
@@ -68,10 +94,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Korea\u2019s economic rebound may be more fragile than it looks - Korea JoongAng Daily",
-   "source": "Korea JoongAng Daily",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNXpjMnBWU011MzF2dVd3cVE2Mk41MWJhOXlTaUhtaWM2Wm1JdmExeE5QUGEzaWxmclBKdmgwb0hZRHhTbGQ0dlVjbmV6Ym8wRnNpS1ZqY0lSb3luT3RjNHdhSDU3aWZMUVZKTXNsY1FWSEFWSi1DNWtqMUVxOHNhaVc5dm1Lcm9MU2NJTQ?oc=5",
-   "published": "2026-11-08",
+   "title": "Agni Semiconductor raises $11M seed for scandium-based memory chips - Dealroom",
+   "source": "Dealroom",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMUpkUFZzMlNsT2hrWGM4R0VwY0FZYVdZak0xeUhPN1hLcUZQdGw0LXUtYlhOYllmdTNKQmtoVU9QM1prMXdzcDU2d3BQT0hzdnJzQ19NdnRrZDBRdXNFZ1pDOFBVQlZ4U0c4YWNaMUlBQWYxRU9GcjcxeFhvaHU4UEE4cWhfb0NoMDdTSXBVNnBwR3ZPYUxTODFHSUZ4UGhnV2c?oc=5",
+   "published": "2026-11-09",
    "trust": "C",
    "flag": "context-only"
   },
@@ -82,10 +108,23 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "TSMC mulls making advanced AI memory chips: report - Taipei Times",
-   "source": "Taipei Times",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qWEVWWXd0STVhTGhLYUthdjZjdURXSUJpTWJieVFQckRucl9iMjZ5NWFaUmI1SXRTVFM0VEFLZGFPRVRlSTVZOE92RTJ0ck5EakJLaHZwNG8xRmlfbF9hVWJCQ3liSjZueXprRXVxMl9SWW5ZaEE?oc=5",
-   "published": "2026-11-08",
+   "title": "Improving Semiconductor Manufacturing with Analytical Solutions - AZoM",
+   "source": "AZoM",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5wMnVjblpaWUU3UlNCWmdPRVlhdTZnU2RTcndPMEJxWWVQbk9jTl9XY0hZelVSVUZNTUl6c1phUUQxRHJDSlg0dUktbEh4bHdPUDdzaExtNU4zWTdoWXc?oc=5",
+   "published": "2026-11-09",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "Key shakes up Georgia Tech staff, fires DC Semore, 3 other assistants - ESPN",
+   "source": "ESPN",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZThUUUk2dWpTX2J5WHpvdWxJUmhIUE52bERQbFNsV01taWsyQkppZkdDMWk0dUYxbmNkZ1ZKQTdFYU0xVUJKTnBJblgyWlFNdmljTXVySkN6dEQ5Tnk2V0dnc1VTWU9QUUdxYzVTelNaSGJQXzJjc1pxekpnTTFsMndyY1BTRTRFVlNMWU9Bc2M2Ql9pM183Zml5NkptQ3JFNVRHdVZhbHZPRjdydE5TdTZBRTFKUQ?oc=5",
+   "published": "2026-11-09",
    "trust": "C",
    "flag": "context-only"
   },
@@ -94,10 +133,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "What the election results mean for crypto: State of Crypto",
+   "title": "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/11/08/what-the-election-results-mean-for-crypto-state-of-crypto",
-   "published": "2026-11-08",
+   "url": "https://www.coindesk.com/business/2026/11/09/securitize-pushes-into-usd6-trillion-asset-backed-finance-market-with-river-one-acquisition",
+   "published": "2026-11-09",
    "trust": "B",
    "flag": "context-only"
   },
@@ -106,10 +145,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Stablecoin growth has stalled. The payments boom hasn't",
+   "title": "Robinhood backs tokenization of its stock on OKX\u2013ICE platform even as most companies opt out",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/11/08/stablecoin-growth-has-stalled-the-payments-boom-hasn-t",
-   "published": "2026-11-08",
+   "url": "https://www.coindesk.com/business/2026/11/09/robinhood-backs-tokenization-of-its-stock-on-okx-ice-platform-even-as-most-companies-opt-out",
+   "published": "2026-11-09",
    "trust": "B",
    "flag": "context-only"
   },
@@ -118,70 +157,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+   "title": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000",
-   "published": "2026-11-08",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "You follow the rules for smart stock trading. But are they the right rules?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/you-follow-the-rules-for-smart-stock-trading-but-are-they-the-right-rules-9bfe5846?mod=mw_rss_topstories",
-   "published": "2026-11-08",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "A new setback for the AI trade: Nvidia\u2019s board is probing CEO Huang\u2019s relationship with alleged spy",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9?mod=mw_rss_topstories",
-   "published": "2026-11-08",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018It seems bizarre\u2019: We\u2019re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
-   "published": "2026-11-08",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Two months after my father\u2019s funeral, my stepmother asked me to repay his $40,000 wedding gift. Should I do what she says?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/shes-a-type-a-personality-my-stepmother-wants-me-to-repay-my-late-fathers-40-000-wedding-gift-should-i-oblige-51fc64f7?mod=mw_rss_topstories",
-   "published": "2026-11-08",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Funeral homes are finding new life hosting weddings and golf outings, as the traditional burial business dies out",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/funeral-homes-are-finding-new-life-hosting-weddings-and-golf-outings-as-the-traditional-burial-business-dies-out-15831d13?mod=mw_rss_topstories",
-   "published": "2026-11-08",
+   "url": "https://www.coindesk.com/tech/2026/11/09/a-bitcoin-block-just-neared-a-2015-transaction-record-but-paid-only-usd180-in-fees",
+   "published": "2026-11-09",
    "trust": "B",
    "flag": "context-only"
   },
@@ -190,10 +169,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
+   "title": "Google\u2019s AI chip push adds more pressure on Nvidia",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
-   "published": "2026-11-07",
+   "url": "https://www.coindesk.com/markets/2026/11/09/google-s-ai-chip-push-adds-more-pressure-on-nvidia",
+   "published": "2026-11-09",
    "trust": "B",
    "flag": "context-only"
   },
@@ -202,10 +181,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
+   "title": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/11/07/u-s-treasury-moves-to-cut-off-crypto-exchange-mexc-over-usd16-billion-in-alleged-illicit-flows",
-   "published": "2026-11-07",
+   "url": "https://www.coindesk.com/business/2026/11/09/north-korean-hackers-are-creating-memecoins-to-wash-loot-from-usd6-3-billion-binance-hack",
+   "published": "2026-11-09",
    "trust": "B",
    "flag": "context-only"
   },
@@ -214,11 +193,107 @@
    "holdings": [
     "ALL (disposal gate)"
    ],
-   "title": "Customs Declaration Service: service availability and issues",
+   "title": "Get childcare: step by step",
    "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/customs-declaration-service-service-availability-and-issues",
-   "published": "2026-11-07",
+   "url": "https://www.gov.uk/get-childcare",
+   "published": "2026-11-09",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Check genuine HMRC contact that uses more than one communication method",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
+   "published": "2026-11-09",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Notice: Notices made under The Customs (Export) (EU Exit) Regulations 2019",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/notices-to-be-made-under-the-customs-export-eu-exit-regulations-2019",
+   "published": "2026-11-09",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance: Employers PAYE payment plan: service availability and issues",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/employers-paye-payment-plan-service-availability-and-issues",
+   "published": "2026-11-09",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Mergers and acquisitions",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/draft-guidance-and-legislation-to-aid-preparation-for-reporting-benefits-in-kind-in-real-time/mergers-and-acquisitions",
+   "published": "2026-11-09",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "This retired professor has reinvented himself \u2014 as a Taylor Swift scholar",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
+   "published": "2026-11-09",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Rocket Lab shares dip after the company\u2019s \u2018defining\u2019 quarter misses the mark",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
+   "published": "2026-11-09",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Here\u2019s how Bernie Sanders wants to keep Social Security solvent \u2018for generations\u2019",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+   "published": "2026-11-09",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "As Nvidia\u2019s stock falls, here\u2019s what Wall Street has to say about the Jensen Huang scandal",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+   "published": "2026-11-09",
+   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -264,15 +339,16 @@
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
+   "driver": "US mega-cap / AI capex",
    "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
    ],
-   "title": "AI boom turns chip packaging into the next battleground for semiconductors - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVTRsRWo5SjhUM1lPV19Xc1ZKUjNWWEx1eTFkZEZLYmpjVG1FNFltZDRRdVBwZ3RBVnk0NlQtbDZmaWdmaFhSY0NFT3Rpa2YzZVRzNl8zSHNzcVdhR3RZdEpFeVNkMW93SDFrbTY5SE9NM3NneHpZOFYxN1FGOVU1ekxjSF9aZ2FyZnRXLU5aY2pFT0gtYTVwMEhfUmU2a2lOaURTeURqcDQ0M185ekd4ZWJwVHdiVWEwanduVElR?oc=5",
+   "title": "Nvidia Eyes Surprise AI Data Center Deal With Apollo - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMW1hQlNZcnlXZnI2YW1taElsZTBaN0NXTnhDRU9pT0huT3BWNU1la0xiazZVQVRVWmpnWTVfUXE5MUtuVUJsZVIxNkJSUVJIV0wwQkFqUWxKZUV4ZGd6Z3ROanZ1N05reXBoTHhtSVgzWlN0YTdoSWdzTG5ielNNQzR6VEhCTURnQW12dkw0M3BwQUxwd0dF?oc=5",
    "published": "2026-11-06",
    "trust": "C",
    "flag": "context-only"
@@ -286,54 +362,6 @@
    "title": "U.S. crude oil imports from Venezuela in July were highest since 2017",
    "source": "EIA Today in Energy",
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68425",
-   "published": "2026-11-06",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Report a problem using the Customs Declaration Service",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/guidance/report-a-problem-using-the-customs-declaration-service",
-   "published": "2026-11-06",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Transparency data: Sixth Trade Specialised Committee on Customs Cooperation and Rules of Origin agenda",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/sixth-trade-specialised-committee-on-customs-cooperation-and-rules-of-origin-agenda",
-   "published": "2026-11-06",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: NCTS: software developers",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/ncts-software-developers",
-   "published": "2026-11-06",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Rates and allowances: HMRC interest rates for late and early payments",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/rates-and-allowances-hmrc-interest-rates-for-late-and-early-payments",
    "published": "2026-11-06",
    "trust": "A",
    "flag": "context-only"
@@ -361,21 +389,6 @@
    "title": "AI data center firm IREN delays Microsoft AI deliveries, plans $15 billion spending push - Reuters",
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSnlxQ1JoQmdtMWZ4UzhHRWJacmNRTGNCeDJmTWRRV2xpdU9xUzY2MzhVSklqMkNxeG93QVNnRUZCYUxvVUNBaHVta2lPS2VxMDlxQnZvandHTXZQVk1LNmVTakZxTzJjcHFGbjBwUHd0ajBwdl9HUERfaEsyWGNicU9yeklKMldtNldLMk5rNWpRNnMyWXY1QUNVa3lLU21tcXEwbXUzMFUzTTZtNnRN?oc=5",
-   "published": "2026-11-05",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Microsoft Reportedly Steps Back From Renewing Data Center Contract With Nvidia-Backed Nscale - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTWNPVjRQUkY3M1RtSzc1aDZZbFQ0Sm5Eb2RQVFJEQzhhcTd0NEM1Wmwwa3IwSXB2TWVPTVdlYWJaWFNVWTRkdDFSVmhlaGRLRTJ5MkkwdGs2SUUzTllUV1Y1WGVrc2FqMnNNS092Wm1TWWlsZXhqcy1mSTkzN2tsSjZMSnVFWHU1anhLQXB2QjBBT2NwS21VMXlDYzQxM3pWSmhoTjRvQQ?oc=5",
    "published": "2026-11-05",
    "trust": "C",
    "flag": "context-only"
@@ -460,9 +473,9 @@
     "VAS",
     "VHY"
    ],
-   "title": "PBOC to raise banks\u2019 forex reserve requirements amid yuan appreciation pressure - South China Morning Post",
-   "source": "South China Morning Post",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQVl3aHZtWlhyajlpU1RkRk1fbkhKT2JSQnVoV3dxa0U4bm1tWGRUUHI0d2d6amg0VDlMa0d1UUdIRnVFdkhlUllTLUNZNjk1UlNZUW1jbGNJT0lTZjZTQ195SU9DZXlxUU1scE5jZFZES0ZhRWo1WGxQaTlZYnV4TzJBbVNOWjhsT25MNU9tZHB5N3JubExtM2dJLXJXRWhuM3ZpUzBNREJjeEpQWkJTakNhS05UUktzTHhvODVrVDNLdGxhWjFN?oc=5",
+   "title": "Iron ore enters its best three months, but Fortescue has a China problem - Market Index",
+   "source": "Market Index",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWg3c3VxZ0ZqaTZwMEVVS0NMRmEzNXBwR0hIZ19hdGFJVXIzMEcyWHdRUC1BeWhQRU9TT0QyekxMQk1RaW50WmVzTlc1bTZPeEVOVXVVbWRNOXdscUxpYWFqeWZTS0o1NE8wWnlLUlFGYmZlcHRpVlNod0ZsWl9FazlodkY0Ml8xNlV3TmhoY3ZWUExhU1IxcEo1TzZWbEt3Q0hWYmtGOTRNU3M?oc=5",
    "published": "2026-11-03",
    "trust": "C",
    "flag": "context-only"
@@ -519,18 +532,6 @@
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
    "published": "2026-10-28",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Gold",
-   "holdings": [
-    "QAU"
-   ],
-   "title": "After years of advocacy, San Antonio to welcome three Safe Haven Baby Boxes - KABB",
-   "source": "KABB",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLXVpWGZMRGp6ZFVUMV9BenVGSm9aNlRUWVNKa0V0clh1T01qaTNCbTQ2Q0xFQ1pTaTNFNGpmT09BQUZ1X044VVFpYTczQjhKZDBWMERWVlBqZEhYdHRwUzZERG1QUmQ3NFJBVVJSS0JubWttVUZDV2N5NndVUl9zckZRWHdyYzhuU1l0NHY2c3F1dUlaRUJyZnBBU0dFWFNYdmFyeTNnZVFzUkd5Y1RvTw?oc=5",
-   "published": "2026-10-26",
-   "trust": "C",
    "flag": "context-only"
   }
  ]

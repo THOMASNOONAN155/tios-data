@@ -36,6 +36,7 @@ def apply_qb_overrides(g, path=None):
         pid = nm.get(r.qb_name, 'override:' + r.qb_name)   # unknown QB (e.g. debut) -> treated as replacement level
         m = (g.season == r.season) & (g.week == r.week)
         g.loc[m & (g.home_team == t), 'home_qb_id'] = pid; g.loc[m & (g.away_team == t), 'away_qb_id'] = pid
+        g.loc[m & (g.home_team == t), 'home_qb_name'] = r.qb_name; g.loc[m & (g.away_team == t), 'away_qb_name'] = r.qb_name
     return g
 
 

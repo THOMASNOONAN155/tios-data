@@ -1,8 +1,52 @@
 {
- "generated": "2026-11-12T01:47Z",
+ "generated": "2026-11-13T00:52Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 42,
+ "count": 46,
  "items": [
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Sodick Powers AI and Semiconductor Growth With Ultra-Precision Technology - The Worldfolio",
+   "source": "The Worldfolio",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTmg2cWFCeHRQald0NVljMVBxdGk1Z2llVFA3MUw2M3hrTTJQQm5kS0dvdWc0bFBYTWxBSDdMVzVPUTcycEwtYkhFMWVtSm5GTGVkYk1DaGhNRnlMZGk5VUt1TnBlMEpPSERfY0lTVFBiLWhQSEItVFJWbk9fSjNlQl9VSWpheGszQlM3Q0JSMHJzcnpONWxoakxuZ1o2SWt6Qk5QcS12RlJxVHJfbXRROFk4aTRSQkpSc3NTT2tVMjFpeXJPSmc?oc=5",
+   "published": "2026-11-13",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US rates / Fed",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+   "source": "Fed monetary",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+   "published": "2026-11-12",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US rates / Fed",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Barr, American Inequality and the Future of AI",
+   "source": "Fed speeches",
+   "url": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
+   "published": "2026-11-12",
+   "trust": "A",
+   "flag": "context-only"
+  },
   {
    "driver": "US mega-cap / AI capex",
    "holdings": [
@@ -11,9 +55,54 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Nvidia Export Curbs Could Shift AI Demand Toward These Data Center Stocks - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVTJUV2NtRlFXRDJLbmcwQmp2Zk1FTnJ2MDlNUGM5c0htWHFVZ3RBLXdvcWtVc3NFUFRpRzNmUGozY3pROG90U2c5cDFSQ09Xbm1jLWhRVGhyZFhjcFVwSkVZQnFTTVAtREFyU011VlJhUkV1eUtwQjZNdHNhZmRQWXlaVnhFZ2MwTHdKaWNGWDBtOGxrSlFXTHE5VQ?oc=5",
+   "title": "What to Watch in Nvidia Earnings: Leadership, Data Center Concerns Take Center Stage - Morningstar",
+   "source": "Morningstar",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbDhxQUxlWkU3SVVSNUZiZ0x2ZWo1WmZtRklVbWpZYThjVHBRZ28zS05kbGtNS2lzSHJsdXRRc09JcXU1clpOcWZ4VE9IT3BwMWIyNS1OS29vcEgyaVlfVnBjVUdudnJtOUdSZFFMWUFnTVpMTlc4UENmLWZwSTM2bnhoalpGME45ZGNqTFFUX2ExcXJ2WXlJMTVPVDY2d3JNZ3lucGRudVR3Y1pZLVhXeDROZEpDcEFxYnJtZ051Tk8?oc=5",
+   "published": "2026-11-12",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Meta Is Handing Its AI Data Center Buildout to an Amazon Veteran - 24/7 Wall St.",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTkhRcnVRa1VoSFJDQV9VRUxPRmZZYUlOaGlPV2pkSFkwd1plcVN6SzdoVU9VR2NGUzZpdk5KM205SHBUTUhuT1NaYUZFMG9RUlV4Z1NpVDZPUWxlbzE0eDEyd2dMTmN6U3lDNUkxYUZZREw4blBCN1FMYkNSWHZDSExHdWFFQ1ZUUTJRSklLSGR3U1JpdmM3bmZVWHlmc3EwZmdfRlF1Tm1oTjlp?oc=5",
+   "published": "2026-11-12",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "\u2018Water for life, not data\u2019: Amazon data center plan draws Eastern Washington protests - GeekWire",
+   "source": "GeekWire",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObmVFUTRuTUxqMHU2ZTdPaF9KRVFyLWEyWXEteGl6VXFxZ096VERXd1RYbnFuLUY3X2c5MmsxaGUyNVZJNUhsOVEtb1lmc3V5Rm9janhjcmFaLVhEZkN0S0xtQmxPaFJidnRNUFVLMUJWWUpwNWZnOEx3eV9CX3BVYWU3aWhycDJNNUdobGFNTlFvVEkzbHlTVktTTE52TXlUZzkyZUxlU0VzeURUeVN2REdB?oc=5",
+   "published": "2026-11-12",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Nvidia turmoil threatens to roil data center energy deals - Axios",
+   "source": "Axios",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONlo0VC00YjhldFViTF9CeUF6SFllWDBPWlFjOTk1WFh6cXRvRVJpX1R2Sk9PdUxwQ0ZBVUltMnJfcGNsOW5QekFoVFdIbjBvbkNOVVBvY3ZXb21UbEtYVFhBQWgzRVhLY0ZWSVBTaGFsRFFSRll4QVkzN2Z6WHZmZkhIaF9NaWxvWmJlSHROcEFETjBDM2c?oc=5",
    "published": "2026-11-12",
    "trust": "C",
    "flag": "context-only"
@@ -25,11 +114,212 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "What Could ON Semiconductor (ON) Gain From Its EliteSiC M4 Launch? - Yahoo Finance Singapore",
-   "source": "Yahoo Finance Singapore",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZWtaaXo0QVZjeS00a1lMOGFVV2UzVUl1ODNxQmxtLWNuQ0l4Tk9nV1lHUjJWeld0OU9PVzV4VFRfRVFwbTQ4QzZHSFBQbktTSjVVa3dFZGk5bWhnM0RfdEg1Rkp0S0dIVzBIN1lwXzZnU3pVYTFnaUdjZ1l5ZVNuSUVJcnphajNqbWJtbXRn?oc=5",
+   "title": "Can Valens Semiconductor (NYSE:VLN) Expand Beyond Premium Products With Its New Growth Plan? - Kalkine",
+   "source": "Kalkine",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRGs2Y0FQaG5uVklhcHhjSU9SRHprZlU5SjZETmk4X1ZWNmRCeVh1T09EdWtkOUc3Ujd5RGQzYW4yU0VmYkhBdkhMbk54SFBHVGl2V2pIX1U1MlhqUDJGRDN1SzgtaF9PMVFrQndKa0JKRWM3OEZ4LVNBLXBpRlZTbnZrSGM1TUVZcUt2eXVmZFFOSW1yRGdVVVlBZUd5YUFSVUpUbHRLZnBwdDNabEVwUVhQRzRSMFFJLUpMVHZ4ZHdLVDVuUXc?oc=5",
    "published": "2026-11-12",
    "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors - Unit 42",
+   "source": "Unit 42",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44bmZxVl9qQS1zWUZxcmhxMm42YkRzLVVxcS1JZXdBOGpNOXpBRUFvTUhrVjlqa1ZSd1ZXNG9BZlh3RDhwREpPOVFvcWhGcm9wUmN1c25IQ0loVFk0WXBoZ1NFYkdBMHV4MHlpMEoyODhnQkI4M3EwdmlKdEx6WGM?oc=5",
+   "published": "2026-11-12",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Prediction: $500 a Month Invested in Taiwan Semiconductor Manufacturing Will Be Worth This Much by 2030 - The Motley Fool",
+   "source": "The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOXlKY3lHM0ZxSmtYek91OERnSTJLTk5ZVXhDNVVlWElzZE03bV9obkxFYkVEdzlEMFYtSk1BT0x0RWF4T0lvZGNKbTY1UU91cklGdnE2SGhZLWpTb09heVdSeklGdmhuVnd6RXRZbERWeGhkc3JPdkRlYjBUU1pfRVoxa1c1eVczSkt2aTQ3eWxvZm9YbGVjVQ?oc=5",
+   "published": "2026-11-12",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "CEA-Leti programme targets semiconductor manufacturing emissions - Innovation News Network",
+   "source": "Innovation News Network",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV1NkRV9xRjlnT01DVVN4a0wxSVFfUDBBaWdTUmF0THVQWEtwOEFYU29hblgyTjFIM0IwMGd4dEZmZUxBV280ZU5ldXQwTjNYTTZ5cTh6TlZJYlZ6a3FmNjBrMkRySFQ1NXh6REp0NjRFYlNXX3RWN2xiWVRKQnpLMmRKTTJSaHUydGhzOWtSLThwNmhmSURrcl9nd1BYR2dpdmpmaDZMT1dhaG9yMFE?oc=5",
+   "published": "2026-11-12",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "China + iron ore",
+   "holdings": [
+    "VAS",
+    "VHY"
+   ],
+   "title": "Has China\u2019s latest easing cycle run its course? PBOC report hints at a pause - South China Morning Post",
+   "source": "South China Morning Post",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNTdTY2dkSWtKcGpaZkl1ZW05eUNNSjk2UmZEMlNNSzRGTFBXZV9pbkhCTDF6OFgzTUlwdjByUThBcUIxcFhCMG1pMi1mb0NoYUloZWlkVDdvNHdCdVdSdVFWWnhtUmM1clpQVG1YSkNacVUteDZCSUZCX1JJMktMRlpGQ0J2Y0J3UXlGMUNLWEtfd3JBYWI2cEhCaWhCdlpfeVRySHRaUWxMemcwdUpBZ05hd0tibU9qem9Ta0RaSzUzeEJoZWlnQQ?oc=5",
+   "published": "2026-11-12",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "China + iron ore",
+   "holdings": [
+    "VAS",
+    "VHY"
+   ],
+   "title": "Tata Steel targets 10 million tonnes of domestic iron ore sales this year as captive curbs ease - Livemint",
+   "source": "Livemint",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSDA1Y0hnUXhRc3pMWURweWliSm9Ud3BlVjRFNkpPUFRFaFllQXFKOW5hdXhpcE5pQS14QnRkYzNBODNTNFgxeVJoaHFOZ2F3WGVCTjQ2UEstcFR5c1ZIeWd0cklmcnlSQ3BxNGJORHR6V1dkZE9YeERDRU9SbGRDUWkyYVV2b291MzItdkJJV091VDAzeXFPNTRUV1NDTmg4N3MxSF9obFlNRDBSUHpKYko2Y050QdIBuwFBVV95cUxOYUE1eElrekdXRDRVUWJob3ozMHhYWTFvWkJON3dMSUZOdUxDV1BWQmppLXJoV3hXY1A4UTdEUmhmamlBNjVwM0c3NVBfWHJzWHFhaTQ4RUFseTYwNUpzd3NjcHdYRjVDd0w1N2R0UDktcjZUZFU0M1QtNDNmYVlYbDgwY2NVZjU3UFN5ZDk5TE96eVktOEcxLUViM19mamVRb1FEQUtVTXgxbHFXelJQR25JSU5GMndCZUZr?oc=5",
+   "published": "2026-11-12",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Energy / oil",
+   "holdings": [
+    "VHY",
+    "VAS"
+   ],
+   "title": "EIA forecasts Alaskan crude oil production to grow 13% in 2027",
+   "source": "EIA Today in Energy",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=68444",
+   "published": "2026-11-12",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
+   "published": "2026-11-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
+   "published": "2026-11-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Kalshi ends Donald Trump Jr.\u2019s advisory contract over 1789 Capital\u2019s Polymarket investment",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/11/12/kalshi-ends-donald-trump-jr-s-advisory-contract-over-1789-capital-s-polymarket-investment",
+   "published": "2026-11-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/policy/2026/11/12/illinois-crypto-tax-is-impossible-to-enforce-as-written-crypto-industry-tells-court",
+   "published": "2026-11-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout",
+   "published": "2026-11-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Rating Manual section 3: maintaining the rating list",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/rating-manual-section-3-valuation-principles",
+   "published": "2026-11-12",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Part 5: Transitional Relief",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/rating-manual-section-3-valuation-principles/part-5-transitional-relief",
+   "published": "2026-11-12",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Get ready for MTD: an agent toolkit",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/get-ready-for-mtd-an-agent-toolkit",
+   "published": "2026-11-12",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Guidance and other useful information",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/get-ready-for-mtd-an-agent-toolkit/guidance-and-other-useful-information",
+   "published": "2026-11-12",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Nicotine Approval Scheme",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/consultations/nicotine-approval-scheme",
+   "published": "2026-11-12",
+   "trust": "A",
    "flag": "context-only"
   },
   {
@@ -37,9 +327,9 @@
    "holdings": [
     "whole book"
    ],
-   "title": "Nvidia\u2019s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
+   "title": "Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
+   "url": "https://www.marketwatch.com/story/who-can-replace-jensen-huang-as-nvidia-ceo-these-four-names-are-buzzing-in-ai-circles-66c31ec2?mod=mw_rss_topstories",
    "published": "2026-11-12",
    "trust": "B",
    "flag": "context-only"
@@ -49,9 +339,45 @@
    "holdings": [
     "whole book"
    ],
-   "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+   "title": "Opening trading-card packs has become a $2 billion market",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
+   "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
+   "published": "2026-11-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
+   "published": "2026-11-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018He calls my plans a fantasy\u2019: My husband says we can\u2019t afford our $200,000-a-year dream retirement. I think he\u2019s cheap.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
+   "published": "2026-11-12",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Am I overpaying for health insurance? How to answer the key question this open-enrollment season.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/am-i-overpaying-for-health-insurance-how-to-answer-the-key-question-this-open-enrollment-season-2d00ed55?mod=mw_rss_topstories",
    "published": "2026-11-12",
    "trust": "B",
    "flag": "context-only"
@@ -69,248 +395,6 @@
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbHVPQkdUam9PM2tBLW5JWl95TC1vRGFoRm5haXFNSFZyWTlaWlNTOExtTnBoYTVtdS1nTUVRTDdOa2VDUXhoZFNsZ1ZXVjlPUzZSLVF6T1k5cUw0LVloUFcxWTNXdkZEUWcwMmVMY0dVR0RGN04zNXVUam5qQTZoTGFpVzFaRWhtcU1VUEtIYTdndw?oc=5",
    "published": "2026-11-11",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "This Number Tells Me The Microsoft Data Center Selloff Is Excessive, Prompting Me to Buy - 24/7 Wall St.",
-   "source": "24/7 Wall St.",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcDFRb2NpUlJCWG9WMmw4QUt0V1ZhTHJnYTRaOFd6VGJSaDFXRjJzclVWVHdTTE5rQURqYlNrSkI5RjZIdmhYVlp6bEdTc19CbEJpUEtqbnd6QVpmSnFieDNrSGNnWTJjMnVRWTVRQjl0YlpaMy1xNEkwWkRvLWxYNmhpMGNPUTB5WUdWX2ZWN2Q2MDdaTHlYeU01bWl0eGlQbzFjZHhiZURtdlEwcl90Wm5SZzlZc0ZCc1AwNml0ZDJfWXFRMmJMNkpPRQ?oc=5",
-   "published": "2026-11-11",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Microsoft data center in Washington state brings \"a kind of boom\" despite growing AI pushback - CBS News",
-   "source": "CBS News",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9NMkdUQ2lNanlnUUxqNWJCM0dTM0I2RldsYnBmVURXVWVqYWtKZ0lnaHpzQzI4NnVlc0tFdjdZY296TGZWa09uWXhVX0liaFlIbzRmUUNfU0NwSHpsUXlZWGxnZU9TMTQwNTVGY2haVEQ5TXhwZWdWdnhn?oc=5",
-   "published": "2026-11-11",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Adisyn (ASX:AI1) Pursues Graphene Semiconductor Interconnects Through Its International Research Strategy - Kalkine",
-   "source": "Kalkine",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ3RTbnJxdmZ0bF9kaWR6eWhnV0s4b1NoOFlnMUI4NVVHbm1JSk1xQWxrTFF5bi1KOVhHYWY3WGx4aDgzb2Y2Tm1GSkpVV2Ztczd1NzZ0RFlXWE14anY0eFh1VEFpeGZxcVJleUFrN0xyQkRqV2pTQ1VST1g0UUtJMF9nTGVJRjJlSjJOWkg5MGVicndrTEp3MUFvOHVwZnkzWk1XM0FwTUVyNUdIVUh6c0Z5TXZrZDQzSGNYWjFDYmViNzU5WmctMnlXMGdKa3NES1BSVDcyTnVLS1k?oc=5",
-   "published": "2026-11-11",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "An organic semiconductor-based photocatalyst sheet for overall solar-driven water splitting - Nature",
-   "source": "Nature",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GbmIwQ0RwaHNlcXFBXzlaQ1U1UDVzWGM5d25Wb0ZialBkMVhrZzRXaTNXdU5melZQUWs4ZDItX1poTGthdFJqN3RYcXhUeFA0aEpaNTgzMnJCb3p5bGZN?oc=5",
-   "published": "2026-11-11",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Silicon Quantum Computing names W.H. Teh manufacturing chief - TelcoNews Australia",
-   "source": "TelcoNews Australia",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR0VOZmJnSXNGeGhtSkRPQzFBd0NzQkhOVTB6X1lJUHgxRWNqZ21ZV2lPQlg3dFN3bGlVYzJXTC1MaTR2RnZFblNsb21nSEt2NFlqaUlHdF9fdHVVTnprajc5LU1VUVczcWZVbjR0WjR3Q0JjUXExZVgtYjY3MUtyZzQ2VFp3TS1yaDdEWW9Hd0pKN200?oc=5",
-   "published": "2026-11-11",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Organic semiconductor sheet enables light-driven water splitting without external voltage - Tech Xplore",
-   "source": "Tech Xplore",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYkJtczJJcVhxYlpfMGV2VnJScnF5alNFWTFBbDZ4bnZmbUpVWlF4TXBjbXdZd0ttblVKZUJTQ1JvWkNIdVp1U0c0WVI0ZVpUN1FwZEFHSVJwZTNBRWVISTVudVBsSUN1VkE1VTVxS1A4anQzVllBaGhPa3dXc3B0QTFoRGNkc1BTUy1Mcg?oc=5",
-   "published": "2026-11-11",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Crypto Long & Short: The GENIUS Act\u2019s guarantees don\u2019t cover DeFi lending",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/coindesk-indices/2026/11/11/crypto-long-and-short-the-genius-act-s-guarantees-don-t-cover-defi-lending",
-   "published": "2026-11-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month",
-   "published": "2026-11-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Meet Spiko, the largest tokenized fund in the world you\u2019ve probably never heard about",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/11/11/meet-spiko-the-largest-tokenized-fund-in-the-world-you-ve-probably-never-heard-about",
-   "published": "2026-11-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/tech/2026/11/11/live-news-coreweave-jumps-14-as-earnings-fuel-rebound-across-battered-ai-stocks",
-   "published": "2026-11-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitcoin barely flinches at hot CPI as ETF selling slows",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows",
-   "published": "2026-11-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Fulfilment House Due Diligence Scheme: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/fulfilment-house-due-diligence-scheme-service-availability-and-issues",
-   "published": "2026-11-11",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "VAT Supply and Consideration",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/vat-supply-and-consideration",
-   "published": "2026-11-11",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Employment related securities: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/employment-related-securities-service-availability-and-issues",
-   "published": "2026-11-11",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Soft Drinks Industry Levy: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/soft-drinks-industry-levy-service-availability-and-issues",
-   "published": "2026-11-11",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Charities: service availability and issues",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/charities-service-availability-and-issues",
-   "published": "2026-11-11",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Your holiday credit-card bills are going up. What you can do to ease the pain.",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/your-holiday-credit-card-bills-are-going-up-what-you-can-do-to-ease-the-pain-5ddeb446?mod=mw_rss_topstories",
-   "published": "2026-11-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "I\u2019m 63 and spending $95,000 on a roof deck for my $500,000 home. Am I being extravagant?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
-   "published": "2026-11-11",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "CoreWeave just gave a shot in the arm to Micron, Lumentum and the rest of the AI trade",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories",
-   "published": "2026-11-11",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -380,21 +464,6 @@
    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html",
    "published": "2026-11-10",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Nvidia\u2019s Data Center Vision Spurs Race to Reinvent Electric Transformers - Bloomberg.com",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU2MxVGFaT09uZmVnOTVrbjRFVnBfRTdHYXZHVXRobnMyVEtVQ3Z4RTNyNkc2Wm1Ic0c0VEJqVzIxMW8wSXhlM1dadm9LZC1iUVFBSkFOWmlGdGxldnk3emR3M0Y3OVFmV0FIdk4waG9OdUxiem1OeEphX1RGMWJ4Q1RhZlFZMC1feGZ3azFRYkFYYngzaGU5RFZCaGZjbWFBaTJDX0dMNGxQMDhuX0l5ZGJUdEZrMGxwNjNIUEJUckE?oc=5",
-   "published": "2026-11-09",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -533,19 +602,6 @@
    "source": "EIA Today in Energy",
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
    "published": "2026-10-30",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Energy / oil",
-   "holdings": [
-    "VHY",
-    "VAS"
-   ],
-   "title": "LNG imports make up increasing share of Colombia's natural gas supply",
-   "source": "EIA Today in Energy",
-   "url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
-   "published": "2026-10-29",
    "trust": "A",
    "flag": "context-only"
   }

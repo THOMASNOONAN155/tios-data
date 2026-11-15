@@ -5,9 +5,9 @@
 "tip": null
 },
 "10|CAR|NO": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Over",
+"spread": "CAR",
+"tip": "CAR"
 },
 "10|HOU|CLE": {
 "ou": null,

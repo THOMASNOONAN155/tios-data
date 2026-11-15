@@ -10,9 +10,9 @@
 "tip": "CAR"
 },
 "10|HOU|CLE": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Under",
+"spread": "HOU",
+"tip": "HOU"
 },
 "10|JAX|TEN": {
 "ou": "Over",

@@ -55,9 +55,9 @@
 "tip": null
 },
 "10|SEA|LV": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Under",
+"spread": "LV",
+"tip": "SEA"
 },
 "10|SF|DAL": {
 "ou": null,

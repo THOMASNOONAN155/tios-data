@@ -60,9 +60,9 @@
 "tip": "SEA"
 },
 "10|SF|DAL": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Under",
+"spread": "DAL",
+"tip": "SF"
 },
 "10|WSH|NYG": {
 "ou": "Under",

@@ -25,9 +25,9 @@
 "tip": "KC"
 },
 "10|LAC|BAL": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Under",
+"spread": "LAC",
+"tip": "LAC"
 },
 "10|LAR|ARI": {
 "ou": "Under",

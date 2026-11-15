@@ -50,9 +50,9 @@
 "tip": "NE"
 },
 "10|PIT|CIN": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Over",
+"spread": "CIN",
+"tip": "CIN"
 },
 "10|SEA|LV": {
 "ou": "Under",

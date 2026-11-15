@@ -45,9 +45,9 @@
 "tip": null
 },
 "10|NE|DET": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Over",
+"spread": "NE",
+"tip": "NE"
 },
 "10|PIT|CIN": {
 "ou": null,

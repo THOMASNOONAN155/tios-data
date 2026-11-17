@@ -1,19 +1,61 @@
 {
- "generated": "2026-11-15T23:44Z",
+ "generated": "2026-11-17T02:45Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 46,
+ "count": 44,
  "items": [
   {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "I\u2019m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
+   "published": "2026-11-17",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US rates / Fed",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Warsh, Opening Remarks",
+   "source": "Fed speeches",
+   "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
+   "published": "2026-11-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US rates / Fed",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Barr, Some Potential Financial Stability Implications of Artificial Intelligence",
+   "source": "Fed speeches",
+   "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+   "published": "2026-11-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
    "driver": "Semis / Taiwan",
    "holdings": [
     "ASIA",
     "EMKT",
     "NDQ"
    ],
-   "title": "TSMC banks record aid as fabs expand - Taipei Times",
-   "source": "Taipei Times",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzVHRXRS1EZDlKLUkyak81dkMxOGZBZlk5aE01TzZlTHBKMWxnbUhWUkpuMXNiZGtYZlA5MWVKSUMtU2lGcVZKUG4zTzBDc2JzUXpFSmVZay00ZHdRV3hQWVlSRDhpNHhZM0FWMjNENGJaMU5qSEE?oc=5",
-   "published": "2026-11-15",
+   "title": "Why is Taiwan Semiconductor Manufacturing stock tumbling today? By Investing.com - Investing.com Australia",
+   "source": "Investing.com Australia",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLWh0TlRSc1ZNSUVHUmoyUlJoMHJTR1RUQUZNVUd2WXQzamJ5VXlwR2o0Y0JHcFVGbHFPTjBJdXNQQXloZFF4djBFd2dYV2RZN3V6RVYyLVJUbFJJOFVGQzlDOFRUaTJiSEwzNHgxTmVXNGZkbG1nRklVU1htc2RaZ1ZlT19EWFlXSXRiVEduOVlUeW9MUW1uZjJNUmNKNFNHWUlfY2xuNFlkUGg4R1BBWlFsclo1RU9MT202ckZJRDk?oc=5",
+   "published": "2026-11-16",
    "trust": "C",
    "flag": "context-only"
   },
@@ -24,10 +66,10 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Analysis: South Wales built a semiconductor powerhouse\u2014but the rules of manufacturing are changing - digitimes",
-   "source": "digitimes",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONDBQQ0NwbnRiSzhQSDZRSWZYSmtQUkxySEVRclZCS0NNNDJXSnYxeXFZeEZUVG94VzhoSUs2ZlBGTkFvc3BJUHFOTEgyNG1wVnBuWjBpNVRveklyaEFGMnlZUkNEclZOc3FSbnFSSEpQSVNjVUtnQVFxZGlwX0VTMEt5NGYwMEhjN0xrcU5YOXZ2M2pXTG1nYmpDaExEOUdIc0pRR3JR?oc=5",
-   "published": "2026-11-15",
+   "title": "Measurements reveal link between quantum spin and sound-carrying vibrations in an ultrathin semiconductor - Phys.org",
+   "source": "Phys.org",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMDZqVm4tMHFmVzRqSW43U0tRSWVZbmpzMUczd3BZb1dCMGFIN2N5VC01SUozaWpMYjh2MVljSDhyZzJWWnhBYlY2MWMwU3JNeFF5NkRsbEJUR2FBT0N5VmkyLTdLTXFLNk02U1VMX1lndVVpZ20xVUlCVkNJdVNNXw?oc=5",
+   "published": "2026-11-16",
    "trust": "C",
    "flag": "context-only"
   },
@@ -38,10 +80,38 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Alpha and Omega Semiconductor (AOSL) Stock Fair Value Falls After Analysts Cut Targets - Yahoo Finance UK",
-   "source": "Yahoo Finance UK",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaXFRclhQUElRZWRUSDlKcXhGVlBUVml1bnhaUmxpVS1qTHQ1NGxKdUJxSFBzY3VMZnJQSDhCT0VSUXRSeHVXVExEeEtzWDNJRXlKLVFIQ3RLX25rZnFWSXE0Wm9lRmpMa2h2OVBmTk1BcjJmY0MzRm1XRWcyUXVHcWkzSm9EYzRIazZwZnRn?oc=5",
-   "published": "2026-11-15",
+   "title": "Mixed-dimensional complementary metal\u2013oxide\u2013semiconductor technology for high-performance integrated circuits - Nature",
+   "source": "Nature",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wYVFQb1FPNXlzRWFSRlNGTjBfekk2ZmZ1d0k5N09xRUc4UU1EUGRMX3h5WXJjdG5XQTVnZUhqeDRrRC05OHBXVWt1RjVQeGUzVHpPVHpDbjNYVTVXdVhv?oc=5",
+   "published": "2026-11-16",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "3G Capital starts position Nu, adds to Taiwan Semiconductor, cuts stake in Intel among Q3 moves - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNYkNNTGNqZzBPcjlCRUpyTVZSM1NYdEl3UGR5OGlaM1ZRUTBCQXZ0RGdvOXNOc3M2XzVZdjJ1UEIzTnYwWDJNdFl4OHpoenkwVVcyQXlRRk1WZnctM3RXZUZucFgwN05vbVotMXFkR0JpS2MyUzN5Ty1GWTlhdmlkajVSV2dHNUxkR2VhNVRjVnYxbmJlZDZUMnJHOUVoZWRkbDJkNHJqaTJmRXlCbDQ0U2VWd1V6VlFlR05nRmR6c1pOQU9iVEdGTzlhdjBfWnU5SFg1ZGcwSm1MOHVMUDVqVk80dDZ3UUlsMzF4cg?oc=5",
+   "published": "2026-11-16",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Semiconductor ETF tumbles 15% as AI boom faces fresh test - QuotedData",
+   "source": "QuotedData",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUlVhUXdMOTRNUUN4eXEwRmVMSnphS2NCdWI1bTRRS3NIRm8zVE9IWG9VeWFXR2o2NUFiWmhtRl9sR3EybDBCUkl5dE51YWY0ZzZKZW9iQjFPeFJXRWxsbk9KZy05WEViRGE0YzJVdTl4MkVzdEJmWmd5RFZXelZ4QkxTY2NHVkR1aGpRNW9WdURXdw?oc=5",
+   "published": "2026-11-16",
    "trust": "C",
    "flag": "context-only"
   },
@@ -51,10 +121,23 @@
     "VAS",
     "VHY"
    ],
-   "title": "Madeleine King may intervene as China iron ore deals threaten $10b hit - AFR",
-   "source": "AFR",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaXNfWlFpa3F6MHd2a3BLOXB0dVhOQ2RhYmNQam41Zjc0cmJvZXNlYXhxNU1jang1TXRXazJlX2N2RWx5OGcwQkZubUZCLUtUZnYyTHlCbU5tZDJ6SHQwZDZmNkpEZzNZcjhIbWJyOFFOaUFwR0lSWVRUUWZEWWRBc2VZSHJFMVJINzYzT1pfVU40dGRkQXFITVV4NlFWeHllbUdSTUpKaUVvY1RIcnNPWDc0OHRIUUJEUHh0bHlfaWYtWjA?oc=5",
-   "published": "2026-11-15",
+   "title": "Chinese Iron Ore Futures Hit Four-Year Low on Weak Steel Outlook - Bloomberg.com",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQTU1b0dOanhPdEY4SHVhWWNaN1Ftd0V3bU5RZ0lGVVN3LWxDMF9tNlFLSWNKSFp3T0Z1a05NLVkxb0RlVVA5czY4emJiRkxJaVpkSEdWTTJjeXgwRlgtemVjZFdLWHp1b0tjZ3dqRnRwNWVwSm44cm1ndGJ4RThDX3BlQ2Q1cnN3QVYzN2JFZXUzT3lTSEFnbDhTVUw3RVhNWndLYnROMlFHaDZYM24wZHFPV3VVdw?oc=5",
+   "published": "2026-11-16",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "China + iron ore",
+   "holdings": [
+    "VAS",
+    "VHY"
+   ],
+   "title": "Australia calls out China\u2019s iron ore trade \u2018manipulation\u2019 - Free Malaysia Today",
+   "source": "Free Malaysia Today",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMDd0Z2xsVHR5TjV3LTVkQnYwV3IwZFI0aFpKbUZWckt2MlVvUDFjc0wtY09GRklKYjZJMURNUEJTYkVLOFJySWd3Wk9pbE1SQUNCWjM0UHlPODBDRERZSUMza1N4XzAzaHN1Y2pLNTFfSHhCWkVaMDNTcEUzSlByR0UySTJOaHprUnZqZlNpZ1I4VTlKbHdfUFdQdmMxcnhHT3dzMm1tZWJ2OUNIb3U3OXk0eEtKNk0?oc=5",
+   "published": "2026-11-16",
    "trust": "C",
    "flag": "context-only"
   },
@@ -63,10 +146,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
+   "title": "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
-   "published": "2026-11-15",
+   "url": "https://www.coindesk.com/markets/2026/11/16/former-robinhood-engineer-pleads-guilty-to-insider-trading-scheme-on-hyperliquid",
+   "published": "2026-11-16",
    "trust": "B",
    "flag": "context-only"
   },
@@ -75,10 +158,10 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
+   "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
-   "published": "2026-11-15",
+   "url": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
+   "published": "2026-11-16",
    "trust": "B",
    "flag": "context-only"
   },
@@ -87,10 +170,130 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
+   "title": "U.S. Senate Democrats tell CFTC to back off its demand prediction markets defy bans",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto",
-   "published": "2026-11-15",
+   "url": "https://www.coindesk.com/policy/2026/11/16/u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans",
+   "published": "2026-11-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit",
+   "published": "2026-11-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Brazil's central bank faces backlash over stablecoin money laundering remarks",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/11/16/brazil-s-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
+   "published": "2026-11-16",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Transparency data: HMRC major projects: appointment letters for Senior Responsible Owners",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/government/publications/hmrc-major-projects-appointment-letters-for-senior-responsible-owners",
+   "published": "2026-11-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Get your postponed import VAT statement",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/get-your-postponed-import-vat-statement",
+   "published": "2026-11-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Sailing a pleasure craft that is arriving in the UK",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/sailing-a-pleasure-craft-that-is-arriving-in-the-uk",
+   "published": "2026-11-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Pay handling fees for distance sales to Northern Ireland \u2018at risk\u2019 of entering the EU",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/pay-handling-fees-for-distance-sales-to-northern-ireland-at-risk-of-entering-the-eu",
+   "published": "2026-11-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "UK tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "Migrating your pension scheme to the Managing Pension Schemes service",
+   "source": "gov.uk HMRC",
+   "url": "https://www.gov.uk/guidance/migrating-your-pension-scheme-to-the-managing-pension-schemes-service",
+   "published": "2026-11-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Frank Elderson: Smart supervision for small banks",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261116_1~11dd7f62af.en.html",
+   "published": "2026-11-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Europe",
+   "holdings": [
+    "HEUR"
+   ],
+   "title": "Boris Vuj\u010di\u0107: Risks and resilience in the euro area financial system",
+   "source": "ECB press",
+   "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+   "published": "2026-11-16",
+   "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "United Airlines resolves system outage that delayed flights Monday",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/united-airlines-suffers-system-outage-amid-lingering-faa-ground-stop-delays-5e33f94c?mod=mw_rss_topstories",
+   "published": "2026-11-16",
    "trust": "B",
    "flag": "context-only"
   },
@@ -99,10 +302,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "\u2018It leaves me with a sour taste\u2019: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
+   "title": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
-   "published": "2026-11-15",
+   "url": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
+   "published": "2026-11-16",
    "trust": "B",
    "flag": "context-only"
   },
@@ -111,10 +314,10 @@
    "holdings": [
     "whole book"
    ],
-   "title": "Should a widow leave her late partner\u2019s home to her stepkids \u2014 or cut off contact with them?",
+   "title": "Do Amazon\u2019s Black Friday deals really save you money? A new report casts doubt.",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
-   "published": "2026-11-15",
+   "url": "https://www.marketwatch.com/story/do-amazons-black-friday-deals-really-save-you-money-03859cf3?mod=mw_rss_topstories",
+   "published": "2026-11-16",
    "trust": "B",
    "flag": "context-only"
   },
@@ -123,35 +326,24 @@
    "holdings": [
     "whole book"
    ],
-   "title": "My older brother, who has no children, cut our only sister out of his will. I\u2019ll get everything. Do I tell her?",
+   "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
    "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/she-has-a-history-of-financial-mismanagement-my-brother-cut-my-sister-out-of-his-will-im-getting-everything-do-i-tell-her-3e537851?mod=mw_rss_topstories",
-   "published": "2026-11-15",
+   "url": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
+   "published": "2026-11-16",
    "trust": "B",
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
+   "driver": "China + iron ore",
    "holdings": [
-    "whole book"
+    "VAS",
+    "VHY"
    ],
-   "title": "Nvidia is gearing up for one of Wall Street\u2019s most anticipated earnings calls in years",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+   "title": "Australia Warns China Iron Ore Push Could Breach Trade Rules - Bloomberg.com",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYm1uVkdRajZyYm1PUm9EX1lLVm82a3JUcDhxajFfcVIxdDJDdExxMW9PZjJEVURmMll2QzhHTWwxUy1pXzk1U0V2bG8xUmVRXzh2Z1VTZVU5bklJM2VQS3d6eW43TzVaenNLR0t3V0hGVEhvU1VIOWVJeWhxajJBNGtta0pXRDJheHJIYjhNZ2VZNXIteGw5SjZBRDBqUEx5TEJPbkJYS3MyQUxielJWZg?oc=5",
    "published": "2026-11-15",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Budget airlines are going upscale with first-class seats and faster wifi",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/budget-airlines-are-going-upscale-with-first-class-seats-and-faster-wifi-999868ab?mod=mw_rss_topstories",
-   "published": "2026-11-15",
-   "trust": "B",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -170,42 +362,16 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
+   "driver": "Energy / oil",
    "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
+    "VHY",
+    "VAS"
    ],
-   "title": "Nvidia's Ousted CEO Said a 1-Gigawatt Data Center Delay Costs $10 Billion a Quarter. Here's Why That Matters for Power Stocks. - The Motley Fool",
-   "source": "The Motley Fool",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUWl6b2pYWE9JeUVLZm9CdVJKMG5tZVpVczRqb3cySk5NcjVVZFlMNFBZcnMycmYyZlZIcFk5a3pfdS1BaWthZ0hpaFVMOWxlbmpfOWxWV3YtSXVnV2pFR1RwN25hNlJxZzlGTWsxVExXTGI0cXZuOTRPQXVLNUVwdHVUa0tySVozLVhHVEtzcWw2MzNEWUE?oc=5",
+   "title": "Quebec's Felix Asselin remains unbeaten at Canadian mixed curling championship - Yahoo Sports",
+   "source": "Yahoo Sports",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbERGWjVWWnptemVvYjl3aFoybk1RZnVROXlHbXZ0NnI0d2NxaENLVGpIVVpERndOQWlMUEx2SENQcnBWNHZYNENsTDYyNV9sM3E0MllraXg1UTZEaHNTZmhQekNpWmxTTXpaWFF6SVZhbVVYYnpOdElZZW9nakhLVWZ1UmViVEhsZ2R4ZlVxTQ?oc=5",
    "published": "2026-11-14",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
-   "published": "2026-11-14",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
-   "published": "2026-11-14",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -224,46 +390,14 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
+   "driver": "China + iron ore",
    "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
+    "VAS",
+    "VHY"
    ],
-   "title": "Alice Huang-Linked Firm Procured Banned Nvidia Chips in China - Bloomberg.com",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZGhfekJtSDUzVXhKZHNDNzgtTXc1RXBUVk9sR3JJX0ZtNDdmazBHU2ZvRXJEN25HMWpOTVdxWng1Y1VXa05OSGlwMmFGUllzMDgyRnkzWWxFdk5pLUhZd1BvUUNXS3NYYXg2TzdxSk9MSXowWWpGTG1CdUxka01oODhvVzBnNDN3Sk5uYWtybjVoelhGRVFWNk5MR2g1Ykx3cXVJazNUWE92ZElRbmVQYzEwaUxBc3lHRHdBVDJvVjA?oc=5",
-   "published": "2026-11-13",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Sublime To Supply Low-Carbon Cement For Meta Data Center - Carbon Herald",
-   "source": "Carbon Herald",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNb012YzlLVHNBY09TUzBRSFlaclkzZ29kblAwN2pjcmhKNURJTi1CdkNGSGl1bDMxRnBUUUxwYUR6M2JKU1RKQXVJUi12ZkJtWWEyTTdkYmlrSGVfaVVIUnVMUWtmeWZSLWZYMFhWYlNPeURJckg2ekJ5UVAzZjljZ0k1REp1ZFJHbHc?oc=5",
-   "published": "2026-11-13",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Singtel CEO sees limited impact on data center business amid Nvidia fallout - CNBC",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMWhSaUhSTkR6UlV5X1l2V2FXNzZnSWV0UE5BdU9xNGRxT1Y1S0d2LVljTUZURmJmRi1pTnlOekZWTER2eGUxeVJCOTFKNV9vVDEtdUp3TDBlY2taRl80MEdfekdLX2wyUlBzLV80d0NZUVdlMktNb2RMT2pDb3M3ZW1DcVpROWkzN0Utd1JaNlR1UE5qVUVnRHh5Nk10ODBybkFlbHNRbXlKVEtZLXkyMw?oc=5",
+   "title": "BHP may restructure its Australian iron ore business to cut costs - GMK Center",
+   "source": "GMK Center",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeWQ1TU4xX0hvTTQ5Rl9POTdzRUFPcnVxbW54SkctT1NXV2duN0UxaFI4bDgzVXNlYnZqY1Q2UGtCRFRhZDN5WUxteXZNY0EwTTZmaWIwVmI4eTNjUW94WmQ2Q2tnaUxPSXJSN2pPaFZIQVZlRDFqSXFKWjh2OWVXN2lfcDlWQVBJakJXS2tlcUhKZ1l5Mm02dtIBngFBVV95cUxORGd6Sjk1N2NEMkVkNVhueUdNS21oS3J5dTMxTkF6U09mVndvUnJvLW1ZZlJ1S1d5ZENJenNZNXdZdlNFTFoyamhZSFVjVHVXbVZIcVFxNjVmSHFkbmdqVHk1elBVMTFrdjJ1Ry15cjUzcGVodU54MzhqbFlmVVNkV1lmOHdsYUYwSW85ZGZYaXBiUmJNR2lVTTdGTU9XUQ?oc=5",
    "published": "2026-11-13",
    "trust": "C",
    "flag": "context-only"
@@ -277,66 +411,6 @@
    "title": "Hydropower generation in the Southwest fell to record lows this summer",
    "source": "EIA Today in Energy",
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68445",
-   "published": "2026-11-13",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Remittance Basis and Domicile Manual",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/residence-domicile-and-remittance-basis",
-   "published": "2026-11-13",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Residence and FIG Regime Manual",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual",
-   "published": "2026-11-13",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Vaping Products Duty and Vaping Duty Stamps guidance",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/vaping-products-duty-and-vaping-duty-stamps-guidance",
-   "published": "2026-11-13",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "COTAX Manual",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/hmrc-internal-manuals/cotax-manual",
-   "published": "2026-11-13",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "UK tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Guidance: Find software suppliers for filing charities repayments online",
-   "source": "gov.uk HMRC",
-   "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers",
    "published": "2026-11-13",
    "trust": "A",
    "flag": "context-only"
@@ -384,35 +458,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "What to Watch in Nvidia Earnings: Leadership, China, Data Center Concerns Take Center Stage - Morningstar",
-   "source": "Morningstar",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMEZCYkRYOFlEWjNtcXBXUXh4Z1dOZ1Q4aWwwMGtXZHVBYXR0YVhqTzZVcnN3My1HRmtIMjUzUTNMa3dJRHBQVkMxMHNQVXNwTnBpTHVLMUF3Q05FUTVINFVjbUlpM0ZfVW9FWWNkSmdUOEhHdVNsWlVzQl9kU2xqRW51SVNCNEc1SldTSmllUjZ5aG5RUW5nSkhjTEtNWWRDeVR4RldUanBUaFo4d245ZWQ0MW5yZE56ZWxPTEcwZ1E?oc=5",
-   "published": "2026-11-12",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors - Unit 42",
-   "source": "Unit 42",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44bmZxVl9qQS1zWUZxcmhxMm42YkRzLVVxcS1JZXdBOGpNOXpBRUFvTUhrVjlqa1ZSd1ZXNG9BZlh3RDhwREpPOVFvcWhGcm9wUmN1c25IQ0loVFk0WXBoZ1NFYkdBMHV4MHlpMEoyODhnQkI4M3EwdmlKdEx6WGM?oc=5",
-   "published": "2026-11-12",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -423,33 +468,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68444",
    "published": "2026-11-12",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "An organic semiconductor-based photocatalyst sheet for overall solar-driven water splitting - Nature",
-   "source": "Nature",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GbmIwQ0RwaHNlcXFBXzlaQ1U1UDVzWGM5d25Wb0ZialBkMVhrZzRXaTNXdU5melZQUWs4ZDItX1poTGthdFJqN3RYcXhUeFA0aEpaNTgzMnJCb3p5bGZN?oc=5",
-   "published": "2026-11-11",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "China + iron ore",
-   "holdings": [
-    "VAS",
-    "VHY"
-   ],
-   "title": "China's central bank vows to step up policy support for the economy - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNncxU3NCdkhlZnJiY0psUGxYalpGa1FLS1BlNkpoYWpQSlg0T3A3VEFMN1RHbVBMaDROSUpSNFpoUktITUxBemhjSVNSR2dRWV9IamNIcHdfc3FxLTlQZnB4T3kzbTIxVnJpYUJWbnlKXzVSVGtJck92RDZHdlV0YnVreGlDWmI3OXU1RGo2LUdpZE9kd1kyVDdLQ0I0X3drN0V0UlFBbmxxbTBIY1JJ?oc=5",
-   "published": "2026-11-11",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -465,33 +483,6 @@
    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
    "published": "2026-11-10",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "US rates / Fed",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
-   "source": "Fed speeches",
-   "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
-   "published": "2026-11-10",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "AU tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Growing push for alternate CGT plan to avoid 'unintended consequences' - Yahoo Finance Australia",
-   "source": "Yahoo Finance Australia",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcklDaXhQcUlBRl9mcUpFb1lqbjhmRERYVUZIaXdtY3kwa2UzZENUeXFMN3c3NzlpQVRCUGMydC1kT1ZDMGZVNk1DbHVvSHJBM3d4bFRnQ1RvcUNfU1V0SUdOV0RMekhpT3ZQbmtuei0yNmh5aWNkZTN4OWpfNTN6SHFobWsxaHkycVVYOFhZZDhRMnR6OWZtSkFqNHdSWlBWTkw2SUpGejRXQ3RKdTRhVE4tQ2dfWjBtQlA0dHotUWNmMGFPYmE4SU1Fc2xlRF9iZldKZ291SE9CeXM?oc=5",
-   "published": "2026-11-10",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -519,18 +510,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
-   "published": "2026-11-07",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
    "driver": "Energy / oil",
    "holdings": [
     "VHY",
@@ -539,18 +518,6 @@
    "title": "U.S. crude oil imports from Venezuela in July were highest since 2017",
    "source": "EIA Today in Energy",
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68425",
-   "published": "2026-11-06",
-   "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Europe",
-   "holdings": [
-    "HEUR"
-   ],
-   "title": "ECB publishes consolidated banking data for end-June 2026",
-   "source": "ECB press",
-   "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html",
    "published": "2026-11-06",
    "trust": "A",
    "flag": "context-only"

@@ -1365,9 +1365,9 @@
 "tip": "CHI"
 },
 "lock|10": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "JAX",
+"spread": "JAX",
+"tip": "JAX"
 },
 "lock|11": {
 "ou": null,

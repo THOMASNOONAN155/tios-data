@@ -291,6 +291,30 @@ def build(path, ctx):
         if c in qs.columns: L = col_of(qs, c); scale(ws, f'{L}{r1}:{L}{r2}', reverse=rev)
     ws.cell(r2 + 2, 1, 'Lucky / unlucky INTs = interceptions minus interception-worthy throws (positive = more picks than the throws deserved).').font = F(8, False, GREY, True)
     ws.freeze_panes = 'C5'
+    # =========================== Injuries (every player, this week's games; information only, not in the formula)
+    from nflmodel import injury_report as IR
+    gw = g[(g.season == S) & (g.week == W)].sort_values(['gameday', 'gametime'])
+    games = [(show(r.away_team), show(r.home_team), f'{r.gameday} {r.gametime}') for r in gw.itertuples()]
+    ws = wb.create_sheet('Injuries')
+    band(ws, f'INJURIES  ·  WEEK {W}  ·  EVERY PLAYER', 'Official NFL practice and game-status reports (refreshed every run) plus injured-reserve and long-term absences from team news (data/injury_notes.csv). '
+         'Snaps = his average share of the team\'s snaps this season. Information only: non-QB injuries made predictions worse in testing, so they reach the model through the betting line.', 12)
+    it = IR.table(S, W, games)
+    if len(it):
+        it['Role'] = it.Snaps.map(IR.importance)
+        it = it[['Game', 'Team', 'Player', 'Pos', 'Role', 'Snaps', 'Status', 'Injury', 'Practice', 'Detail', 'Source']]
+        r0 = 4
+        for game, grp in it.groupby('Game', sort=False):
+            section(ws, r0, 1, game, 11)
+            r1, r2 = table(ws, grp.drop(columns=['Game']), r0 + 1, 1, {'Snaps': '0%'}, [7, 22, 6, 9, 7, 16, 24, 17, 34, 24])
+            for rr in range(r1, r2 + 1):
+                st = ws.cell(rr, 6).value or ''
+                col = 'B3261E' if st in ('Out for season', 'Injured reserve', 'Out', 'Not on roster', 'PUP', 'Not available') else ('B7791F' if st in ('Doubtful', 'Questionable', 'Uncertain', 'Day-to-day', 'Significant injury') else None)
+                if col: ws.cell(rr, 6).font = F(10, True, col)
+                if ws.cell(rr, 4).value == 'Starter': ws.cell(rr, 4).font = F(10, True, INK)
+            r0 = r2 + 2
+    else:
+        ws.cell(4, 1, 'No injury reports for this week yet.').font = F(10, False, GREY, True)
+    ws.freeze_panes = 'A4'
     # =========================== Luck & Expected Wins (+ scatter)
     ws = wb.create_sheet('Luck & Expected Wins')
     band(ws, 'LUCK & EXPECTED WINS', 'Expected wins = sum of the model\'s pre-game win chances. In testing it predicted the rest of the season better than the actual record.', 12)

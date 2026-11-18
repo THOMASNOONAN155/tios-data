@@ -353,9 +353,9 @@ def dashboard(wb, week, rank_rows):
 def model_nav(wb, week):
     this = f'Wk {week}'
     items = [('⌂ Dashboard', 'Dashboard'), (f'▶ Wk {week}', this), ('Power Rankings', 'Power Rankings'), ('Ranking History', 'Ranking History'),
-             ('Projections', 'Season Projections'), ('Team Efficiency', 'Team Efficiency'), ('QBs', 'QBs'), ('Luck', 'Luck & Expected Wins'),
+             ('Projections', 'Season Projections'), ('Team Efficiency', 'Team Efficiency'), ('QBs', 'QBs'), ('Injuries', 'Injuries'), ('Luck', 'Luck & Expected Wins'),
              ('Schedule', 'Strength of Schedule')]
-    for n in ('Power Rankings', 'Ranking History', 'Team Efficiency', 'QBs', 'Luck & Expected Wins', 'Strength of Schedule', 'Season Projections', 'About'):
+    for n in ('Power Rankings', 'Ranking History', 'Team Efficiency', 'QBs', 'Injuries', 'Luck & Expected Wins', 'Strength of Schedule', 'Season Projections', 'About'):
         if n in wb.sheetnames and not any(ws_c.value for ws_c in wb[n][3]):
             nav_bar(wb[n], [i for i in items if i[1] != n])
 
@@ -425,7 +425,7 @@ def tipping_nav(wb, week):
 
 def order_and_tabs(wb, week):
     tipping = ['Leaderboard', 'Money', 'My Stats', 'Spreads & Totals', 'Head to Head', 'Expert Scout', 'Edge Finder', 'Value Report']
-    model = ['Power Rankings', 'Ranking History', 'Season Projections', 'Team Efficiency', 'QBs', 'Luck & Expected Wins', 'Strength of Schedule']
+    model = ['Power Rankings', 'Ranking History', 'Season Projections', 'Team Efficiency', 'QBs', 'Injuries', 'Luck & Expected Wins', 'Strength of Schedule']
     weeks = [f'Wk {w}' for w in range(1, 19)]
     info = ['About', 'Settings']
     want = ['Dashboard'] + [n for n in tipping + model + weeks + info if n in wb.sheetnames]

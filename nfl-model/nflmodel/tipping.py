@@ -3,7 +3,7 @@ inputs/tipping_inputs.xlsx, with the same rules:
   fair price  = ROUND(2 / (1/open + 1/close), 2)             (only one entered -> that one)
   fair line   = midpoint of open and close; a quarter-point midpoint goes to the .5 (INT(sum/2)+0.5)
   tips are paid at the FAIR win odds; spreads / totals at the FAIR line and price; pushes return the stake
-  locks of the week: that tip / spread bet / over-under bet is staked at Settings x the normal stake
+  lock of the week: that head-to-head tip is staked at Settings x the normal tip stake (spreads / totals are never locked)
 Tippers: you, every expert (in Tippers order), the bots (panel consensus, always the favourite, always the home team,
 always the underdog), the old typed 'Stats model' row, and two new ones from nfl-model: Model and Vegas line.
 """

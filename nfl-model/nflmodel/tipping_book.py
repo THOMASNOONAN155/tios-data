@@ -126,12 +126,12 @@ def week_tab(wb, ctx, wk, model):
     band(ws, f'WEEK {wk}  ·  TIPS, BETS & RESULTS', f'{len(g)} games · {played} played. Cream cells come from inputs/tipping_inputs.xlsx (edit them there, '
          'not here). Fair odds and lines = midpoint of open and close; prices = ROUND(2/(1/open+1/close),2).', 21)
     # settings + locks
-    cell(ws, 4, 1, f'Stakes: tip ${S["tip"]:,.0f} · spread ${S["spread"]:,.0f} · over/under ${S["ou"]:,.0f} · lock of the week ×{S["lock"]:g}', size=9, color=GREY, align=LEFT, italic=True)
+    cell(ws, 4, 1, f'Stakes: tip ${S["tip"]:,.0f} · spread ${S["spread"]:,.0f} · over/under ${S["ou"]:,.0f} · lock of the week (head-to-head tip only) ×{S["lock"]:g}', size=9, color=GREY, align=LEFT, italic=True)
     link(ws, 4, 12, 'Settings ▸', 'Settings')
     cell(ws, 7, 1, 'LOCK OF THE WEEK', size=8, bold=True, color=GOLD, align=LEFT)
-    for c, lab, v in ((4, 'Tip', lk.get('tip')), (7, 'Spread', lk.get('spread')), (10, 'O/U game', lk.get('ou'))):
+    for c, lab, v in ((4, 'Tip (head to head)', lk.get('tip')),):
         cell(ws, 7, c, lab, size=9, bold=True, align=RIGHT); cell(ws, 7, c + 1, v or '', bold=True, bg=CREAM)
-    TL, SL, OL = '$E$7', '$H$7', '$K$7'
+    TL = '$E$7'   # lock of the week = head-to-head tip only
     # tiles (live)
     gl, gr = GAME0, GAME0 + max(len(g), 1) - 1; bl, br = BET0, BET0 + max(len(g), 1) - 1
     tile(ws, 4 + 1, 14, 'Tips', f'=COUNTIF(M{gl}:M{gr},"✓")&"–"&COUNTIF(M{gl}:M{gr},"✗")')
@@ -168,7 +168,7 @@ def week_tab(wb, ctx, wk, model):
         cell(ws, b, 3, f'=IF(J{i}="","",-J{i})', LN, bg=bg); cell(ws, b, 4, '=' + f_fair(oo(j, 4), oo(j, 12)), ODD, bg=bg)
         cell(ws, b, 5, f'=J{i}', LN, bg=bg); cell(ws, b, 6, '=' + f_fair(oo(j, 5), oo(j, 13)), ODD, bg=bg)
         cell(ws, b, 7, r.spread_bet or None, bold=True, bg=CREAM)
-        cell(ws, b, 8, f'=IF(G{b}="","",Settings!$B$6*IF(G{b}={SL},Settings!$B$8,1))', STK, bg=bg)
+        cell(ws, b, 8, f'=IF(G{b}="","",Settings!$B$6)', STK, bg=bg)
         cell(ws, b, 9, f'=IF(G{b}="","",IF(G{b}=C{i},C{b},E{b}))', LN, bg=bg)
         cell(ws, b, 10, f'=IF(G{b}="","",IFERROR({f_dec(f"IF(G{b}=C{i},D{b},F{b})")},""))', ODD, bg=bg)
         m = f'(IF(G{b}=C{i},E{i}-F{i},F{i}-E{i})+I{b})'
@@ -177,7 +177,7 @@ def week_tab(wb, ctx, wk, model):
         cell(ws, b, 13, '=' + f_line(oo(j, 6), oo(j, 14)), '0.0', bg=bg)
         cell(ws, b, 14, '=' + f_fair(oo(j, 7), oo(j, 15)), ODD, bg=bg); cell(ws, b, 15, '=' + f_fair(oo(j, 8), oo(j, 16)), ODD, bg=bg)
         cell(ws, b, 16, r.ou_bet or None, bold=True, bg=CREAM)
-        cell(ws, b, 17, f'=IF(P{b}="","",Settings!$B$7*IF(AND({OL}<>"",OR({OL}=C{i},{OL}=D{i})),Settings!$B$8,1))', STK, bg=bg)
+        cell(ws, b, 17, f'=IF(P{b}="","",Settings!$B$7)', STK, bg=bg)
         t = f'(E{i}+F{i})'
         cell(ws, b, 18, f'=IF(OR(P{b}="",L{i}="",M{b}=""),"",IF({t}>M{b},IF(P{b}="Over","✓","✗"),IF({t}<M{b},IF(P{b}="Under","✓","✗"),"Push")))', bg=bg)
         pr = f_dec(f'IF(P{b}="Over",N{b},O{b})')
@@ -363,28 +363,25 @@ def money_sheet(wb, ctx):
     cell(ws, r0 + 9, 12, '"Needed" = the win rate the average price needs to break even.', size=8, color=GREY, italic=True, align=LEFT)
     # locks
     r1 = xx + 2
-    section(ws, r1, 2, f'Locks of the week (×{S["lock"]:g} stake)', 20)
-    header(ws, r1 + 1, 2, ['Week', 'Tip lock', 'Odds', 'Result', 'P/L', 'Game', 'Spread lock', 'Line', 'Result', 'P/L', 'Game', 'O/U lock (team in game)', 'Your bet',
-                           'Result', 'P/L', 'Game', 'Lock P/L', 'Extra from locking', 'Check'])
-    Lk = X['locks']; tot = [0.0, 0.0, 0.0, 0.0, 0.0]
+    section(ws, r1, 2, f'Lock of the week: head-to-head tip at ×{S["lock"]:g} stake', 9)
+    header(ws, r1 + 1, 2, ['Week', 'Lock (team to win)', 'Game', 'Odds', 'Result', 'P/L at normal stake', 'Extra from locking', 'Lock P/L', 'Check'])
+    Lk = X['locks']; tot = [0.0, 0.0, 0.0]
     for i, (wk, r) in enumerate(Lk.iterrows()):
         y = r1 + 2 + i; bg = PAPER if i % 2 else None
         g_ = lambda k: r[k] if k in r.index else None
-        chk = ' · '.join(c for c in (g_('tip_check'), g_('sp_check'), g_('ou_check')) if isinstance(c, str) and c)
-        vals = [(f'Wk {wk}', None), (g_('tip'), None), (g_('tip_odds'), ODD), (g_('tip_res'), None), (g_('tip_pl'), MON), (g_('tip_game'), None), (g_('sp'), None),
-                (g_('sp_line'), LN), (g_('sp_res'), None), (g_('sp_pl'), MON), (g_('sp_game'), None), (g_('ou'), None), (g_('ou_bet'), None), (g_('ou_res'), None),
-                (g_('ou_pl'), MON), (g_('ou_game'), None), (g_('lock_pl'), MON), (g_('extra'), MON), (chk or None, None)]
+        vals = [(f'Wk {wk}', None), (g_('tip'), None), (g_('tip_game'), None), (g_('tip_odds'), ODD), (g_('tip_res'), None),
+                (g_('normal_pl'), MON), (g_('extra'), MON), (g_('lock_pl'), MON), (g_('tip_check') or None, None)]
         for j, (v, f_) in enumerate(vals):
             v = None if isinstance(v, float) and np.isnan(v) else v
-            cell(ws, y, 2 + j, v, f_, bg=bg, size=9 if j == 18 else 10, color='B3261E' if j == 18 else INK)
-        for k, key in enumerate(('tip_pl', 'sp_pl', 'ou_pl', 'lock_pl', 'extra')):
-            v = g_(key); tot[k] += 0 if v is None or np.isnan(v) else v
+            cell(ws, y, 2 + j, v, f_, bg=bg, size=9 if j == 8 else 10, color='B3261E' if j == 8 else INK)
+        for k, key in enumerate(('normal_pl', 'extra', 'lock_pl')):
+            v = g_(key); tot[k] += 0 if v is None or (isinstance(v, float) and np.isnan(v)) else v
     y = r1 + 2 + len(Lk)
-    for j in range(19): cell(ws, y, 2 + j, None, bg=SLATE)
+    for j in range(9): cell(ws, y, 2 + j, None, bg=SLATE)
     cell(ws, y, 2, 'Season', bold=True, color=WHITE, bg=SLATE)
-    for c, v in zip((6, 11, 16, 18, 19), tot): cell(ws, y, c, v, MON, bold=True, color=WHITE, bg=SLATE)
-    pos_neg(ws, f'F{r1 + 2}:F{y - 1}'); pos_neg(ws, f'K{r1 + 2}:K{y - 1}'); pos_neg(ws, f'P{r1 + 2}:P{y - 1}'); pos_neg(ws, f'R{r1 + 2}:S{y - 1}')
-    cell(ws, y + 1, 2, 'Locks are typed on each week of the inputs file (row 25). "Extra from locking" = what the lock added over a normal stake.', size=8, color=GREY, italic=True, align=LEFT)
+    for c, v in zip((7, 8, 9), tot): cell(ws, y, c, v, MON, bold=True, color=WHITE, bg=SLATE)
+    pos_neg(ws, f'G{r1 + 2}:I{y - 1}')
+    cell(ws, y + 1, 2, 'Your lock of the week is typed in row 25, column B of each week in the inputs file. It doubles the stake on that head-to-head tip only; spreads and totals are never locked.', size=8, color=GREY, italic=True, align=LEFT)
     widths(ws, {'A': 2, 'B': 22, 'C': 10, 'D': 9, 'E': 9, 'F': 12, 'G': 13, 'H': 11, 'I': 10, 'J': 9, 'K': 10, 'L': 12, 'M': 11, 'N': 10, 'O': 11, 'P': 10,
                 'Q': 12, 'R': 11, 'S': 11, 'T': 26, 'U': 10, 'V': 10})
     ws.freeze_panes = 'A5'

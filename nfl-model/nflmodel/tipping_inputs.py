@@ -22,7 +22,7 @@ NG, NW = 16, 18
 G0, LOCK_ROW, O0, E0 = 6, 25, 30, 49          # first game row, lock row, first odds row, first expert row
 GAME_COLS = ['#', 'Kickoff (UK)', 'Slot', 'Away', 'Home', 'Away pts', 'Home pts', 'Your tip', 'Your spread bet', 'Your over/under', 'Notes']
 ODDS_FIELDS = ['Home line', 'Away price', 'Home price', 'Total', 'Over price', 'Under price', 'Away win odds', 'Home win odds']
-LOCK_COLS = ['Tip lock (team)', 'Spread lock (team)', 'Over/under lock (a team in that game)']
+LOCK_COLS = ['Lock of the week: head-to-head tip (team)']
 TEAMS = {'ARI': ('Arizona Cardinals', 'NFC West'), 'ATL': ('Atlanta Falcons', 'NFC South'), 'BAL': ('Baltimore Ravens', 'AFC North'),
          'BUF': ('Buffalo Bills', 'AFC East'), 'CAR': ('Carolina Panthers', 'NFC South'), 'CHI': ('Chicago Bears', 'NFC North'),
          'CIN': ('Cincinnati Bengals', 'AFC North'), 'CLE': ('Cleveland Browns', 'AFC North'), 'DAL': ('Dallas Cowboys', 'NFC East'),
@@ -36,7 +36,7 @@ TEAMS = {'ARI': ('Arizona Cardinals', 'NFC West'), 'ATL': ('Atlanta Falcons', 'N
          'TEN': ('Tennessee Titans', 'AFC South'), 'WSH': ('Washington Commanders', 'NFC East')}
 SETTINGS = [('Stake per tip ($)', 100, 'Every tip is staked this much at your fair win odds.'),
             ('Stake per spread bet ($)', 50, ''), ('Stake per over / under bet ($)', 25, ''),
-            ('Lock of the week multiplier', 2, 'Your tip, spread and over/under locks are staked at this many times the normal stake.'),
+            ('Lock of the week multiplier', 2, 'Your lock of the week (a head-to-head tip) is staked at this many times the normal tip stake.'),
             ('Rank leaderboard by', 'Wins', 'Wins, Win % or Profit.'),
             ('Head to Head opponent', 'Steve Gardner', 'Any name from the Tippers sheet (or Model / Vegas line).'),
             ('Edge Finder week', None, 'Blank = the latest week with odds entered. Type 1-18 to look at another week.')]
@@ -71,12 +71,12 @@ def new_workbook(tippers):
     wb = Workbook(); ws = wb.active; ws.title = 'Read me'
     _band(ws, 'TIPPING INPUTS  ·  the only file you type in', 'weekly.py reads this file and never changes it. A dated backup is made before every run (inputs/backups/).', 3)
     text = ['EACH WEEK', '1. Before kickoff: open the week tab. Enter the open and close odds in the ODDS FEED (open as soon as you have it, close before kickoff).',
-            '2. Pick your tip, spread bet and over/under for each game from the drop-downs in the cream cells. Add your locks of the week (row 25).',
+            '2. Pick your tip, spread bet and over/under for each game from the drop-downs in the cream cells. Add your lock of the week (row 25, column B: the team you tip to win).',
             '3. Enter each expert\'s pick in EXPERT PICKS (row 49 on). Leave a cell blank if they did not publish one.',
             '4. After the games: type the two scores. Then run python3 weekly.py: everything else is worked out in output/NFL_Model_2026.xlsx.',
             '', 'RULES THE OUTPUT USES', '• Fair price = ROUND(2 / (1/open + 1/close), 2) for every price; fair line / total = midpoint of open and close, quarter points rounded to the .5.',
             '• If only one of open / close is entered, that one is used.', '• A tie: type both scores; every pick on that game is graded wrong (as before).',
-            '• Lock of the week: double stake on that tip / spread bet / over-under bet.', '',
+            '• Lock of the week: double stake on that head-to-head tip (spreads and totals are never locked).', '',
             'ADDING AN EXPERT', '• Add the name and outlet at the bottom of Tippers, then use the next empty row in EXPERT PICKS on each week tab (same order as Tippers).',
             '• A tipper whose outlet is exactly "Bot" (like the old Stats model row) is scored and ranked but left out of the panel consensus and the expert-only stats.']
     for i, t in enumerate(text):
@@ -116,9 +116,9 @@ def _week_sheet(wb, wk, n_experts):
         team_dv.add(f'D{r}:E{r}')
         pick = DataValidation(type='list', formula1=f'=$D${r}:$E${r}', allow_blank=True); ws.add_data_validation(pick); pick.add(f'H{r}:I{r}')
         ou_dv.add(f'J{r}')
-    _section(ws, LOCK_ROW - 2, 'LOCKS OF THE WEEK  ·  double stake  ·  type the team')
+    _section(ws, LOCK_ROW - 2, 'LOCK OF THE WEEK  ·  head-to-head tip only  ·  double stake  ·  type the team')
     for j, h in enumerate(LOCK_COLS): _hdr(ws, LOCK_ROW - 1, 2 + j * 3, h); ws.merge_cells(start_row=LOCK_ROW - 1, start_column=2 + j * 3, end_row=LOCK_ROW - 1, end_column=4 + j * 3)
-    for j in range(3):
+    for j in range(len(LOCK_COLS)):
         _cream(ws.cell(LOCK_ROW, 2 + j * 3)); team_dv.add(f'{COL(2 + j * 3)}{LOCK_ROW}')
     _section(ws, O0 - 3, 'ODDS FEED  ·  OPEN & CLOSE  ·  decimal prices; home line: − = home favoured')
     ws.cell(O0 - 2, 3, 'OPEN').font = F(9, True, GOLD); ws.cell(O0 - 2, 11, 'CLOSE').font = F(9, True, GOLD)
@@ -211,7 +211,7 @@ def read_inputs(path):
                           **{f'open_{k}': _num(od[2 + j]) for j, k in enumerate(['hline', 'aprice', 'hprice', 'total', 'oprice', 'uprice', 'aml', 'hml'])},
                           **{f'close_{k}': _num(od[10 + j]) for j, k in enumerate(['hline', 'aprice', 'hprice', 'total', 'oprice', 'uprice', 'aml', 'hml'])}))
         lr = rows[LOCK_ROW - 1]
-        locks = dict(tip=_txt(lr[1]), spread=_txt(lr[4]), ou=_txt(lr[7]))
+        locks = dict(tip=_txt(lr[1]), spread=None, ou=None)   # lock of the week = head-to-head tip only (Tom, Nov 2026)
         ex = {}
         for e, (name, _) in enumerate(tippers[1:]):
             r = rows[E0 - 1 + e]

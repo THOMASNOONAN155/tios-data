@@ -343,20 +343,8 @@ def money_extra(ctx):
                 r = m.iloc[0]; d.update(tip=lk['tip'], tip_game=f'{r.away} @ {r.home}', tip_odds=r.tip_odds if r.tip == lk['tip'] else np.nan,
                                          tip_res=('to play' if r.tip_res is None else ('W' if r.tip_pl > 0 else 'L')) if r.tip == lk['tip'] else '',
                                          tip_pl=r.tip_pl_real if (r.tip == lk['tip'] and r.tip_res) else np.nan, tip_check='' if r.tip == lk['tip'] else "tip lock isn't your tip")
-        if lk.get('spread'):
-            m = g[(g.away == lk['spread']) | (g.home == lk['spread'])]
-            if len(m):
-                r = m.iloc[0]; ok = r.spread_bet == lk['spread']
-                d.update(sp=lk['spread'], sp_game=f'{r.away} @ {r.home}', sp_line=r.sp_line if ok else np.nan, sp_res=(('to play' if r.sp_res is None else {'✓': 'W', '✗': 'L', 'Push': 'P'}[r.sp_res]) if ok else ''),
-                         sp_pl=r.sp_pl_real if (ok and r.sp_res) else np.nan, sp_check='' if ok else "spread lock isn't your bet")
-        if lk.get('ou'):
-            m = g[(g.away == lk['ou']) | (g.home == lk['ou'])]
-            if len(m):
-                r = m.iloc[0]; ok = bool(r.ou_bet)
-                d.update(ou=lk['ou'], ou_game=f'{r.away} @ {r.home}', ou_bet=r.ou_bet or '', ou_res=(('to play' if r.ou_res is None else {'✓': 'W', '✗': 'L', 'Push': 'P'}[r.ou_res]) if ok else ''),
-                         ou_pl=r.ou_pl_real if (ok and r.ou_res) else np.nan, ou_check='' if ok else 'no O/U bet on that game')
-        pls = [d.get(k) for k in ('tip_pl', 'sp_pl', 'ou_pl') if d.get(k) is not None and not np.isnan(d.get(k))]
-        if pls: d['lock_pl'] = sum(pls); d['extra'] = d['lock_pl'] * (S['lock'] - 1) / S['lock']
+        if d.get('tip_pl') is not None and not np.isnan(d['tip_pl']):
+            d['lock_pl'] = d['tip_pl']; d['normal_pl'] = d['tip_pl'] / S['lock']; d['extra'] = d['tip_pl'] - d['normal_pl']
         locks.append(d)
     return dict(where=where, price=price, locks=pd.DataFrame(locks).set_index('week'))
 
@@ -538,6 +526,5 @@ def extra_cells(ctx, cells):
         x = 35 + i; c.update({f'O{x}': d['tips'], f'P{x}': d['wl'], f'Q{x}': nan(d['pct']), f'R{x}': nan(d['needed']), f'S{x}': d['staked'], f'T{x}': d['pl'], f'U{x}': nan(d['roi'])})
     for wk, r in mx['locks'].iterrows():
         x = 55 + wk
-        for col, k in (('C', 'tip'), ('D', 'tip_odds'), ('E', 'tip_res'), ('F', 'tip_pl'), ('G', 'tip_game'), ('H', 'sp'), ('I', 'sp_line'), ('J', 'sp_res'), ('K', 'sp_pl'), ('L', 'sp_game'),
-                       ('M', 'ou'), ('N', 'ou_bet'), ('O', 'ou_res'), ('P', 'ou_pl'), ('Q', 'ou_game'), ('R', 'lock_pl'), ('S', 'extra')):
+        for col, k in (('C', 'tip'), ('D', 'tip_game'), ('E', 'tip_odds'), ('F', 'tip_res'), ('G', 'normal_pl'), ('H', 'extra'), ('I', 'lock_pl')):
             if k in r.index: c[f'{col}{x}'] = nan(r[k])

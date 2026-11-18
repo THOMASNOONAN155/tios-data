@@ -399,12 +399,12 @@ def pick_dropdowns(wb):
         ws.column_dimensions[COL(hc)].hidden = True
         lk = DataValidation(type='list', formula1=f'=${COL(hc)}${GAME0}:${COL(hc)}${GAME0 + 2 * len(rows) - 1}', allow_blank=True)
         lk.promptTitle = 'Lock of the week'; lk.prompt = 'Pick a team playing this week'; lk.showInputMessage = True
-        ws.add_data_validation(lk); lk.add('E7'); lk.add('H7'); lk.add('K7')
+        ws.add_data_validation(lk); lk.add('E7')   # lock = head-to-head tip only
         # say so in the title band
         c2 = ws.cell(2, 1)
         if isinstance(c2.value, str) and 'edit them there' in c2.value:
             c2.value = c2.value.replace('Cream cells come from inputs/tipping_inputs.xlsx (edit them there, not here).',
-                                        'Pick from the dropdowns in the cream cells (tip, spread, over/under, locks): the next run copies them into the inputs file.')
+                                        'Pick from the dropdowns in the cream cells (tip, spread, over/under, lock of the week): the next run copies them into the inputs file.')
 
 
 def tipping_nav(wb, week):

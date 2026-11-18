@@ -84,7 +84,7 @@ def sync(workbook_path, inputs_path, built_json=None):
                 changes.append(f'Wk {wk} {away} @ {home}: {key} {old or "(blank)"} → {v}')
         lp = picked.get(('lock', wk)) or {}
         lb = (built or {}).get(_key(('lock', wk)), {})
-        for key, col in (('tip', 2), ('spread', 5), ('ou', 8)):
+        for key, col in (('tip', 2),):   # lock of the week = head-to-head tip only
             v = lp.get(key)
             if v is None or v == _t(ws.cell(LOCK_ROW, col).value): continue
             if built is not None and v == lb.get(key): continue

@@ -235,7 +235,7 @@ def build(path, ctx):
     for c in ('Off rank', 'Def rank', 'SOS played rank', 'SOS left rank'):
         L = col_of(pr, c); scale(ws, f'{L}{r1}:{L}{r2}', reverse=True)
     for i in range(r1, r2 + 1): ws.cell(i, 5).font = F(10, True)
-    ws.cell(r2 + 2, 1, 'Off/Def rank from opponent-adjusted EPA per play. Luck = wins minus expected wins. SOS rank 1 = hardest. '
+    ws.cell(r2 + 2, 1, 'Off/Def rank = blend of opponent-adjusted EPA per play and points (round 5 test). Luck = wins minus expected wins. SOS rank 1 = hardest. '
             '4-wk trend is for interest only: in testing it did not predict the rest of the season.').font = F(8, False, GREY, True)
     ws.freeze_panes = 'D5'
     # =========================== Ranking History (+ trend chart)

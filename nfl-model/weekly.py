@@ -153,7 +153,8 @@ def main():
 
     # ---------------- power rankings and season views
     now = T[T.week == week].set_index('team'); prev = T[T.week == week - 1].set_index('team') if week > 1 else None
-    v = season_views(g, T, preds, season, week)
+    from nflmodel.ratings import offdef_scores
+    v = season_views(g, T, preds, season, week, offdef=offdef_scores(g, data[1], season, week, CFG['ratings']))
     rk = now.power_qb.rank(ascending=False, method='first').astype(int)
     prk = prev.power_qb.rank(ascending=False, method='first').astype(int) if prev is not None and not prev.empty else None
 
@@ -242,7 +243,7 @@ def main():
         L.append('')
     L += ['## Power rankings', '',
           "**Power** = expected margin against an average team on a neutral field, in points, with this week's starting QB. "
-          '**Off/Def rank** = opponent-adjusted EPA per play. **Exp. wins** = sum of the model\'s pre-game win chances in games played; '
+          '**Off/Def rank** = equal blend of opponent-adjusted EPA per play and opponent-adjusted points (round 5: predicts rest-of-season scoring better than EPA alone). **Exp. wins** = sum of the model\'s pre-game win chances in games played; '
           '**Luck** = actual wins minus expected (+ = record flattered; in testing expected wins predicted the rest of the season better than the record). '
           '**SOS** rank 1 = hardest schedule played / still to play, adjusted for opponent strength and the QB each opponent had. '
           '**4-wk trend** = change in power over 4 weeks (for interest only: trend did not predict the rest of the season). '

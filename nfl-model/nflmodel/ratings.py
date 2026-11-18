@@ -109,6 +109,31 @@ def epa_ratings(tg, first_season, hl=6.0, off=10.0, lam=150.0, window=3, gt=True
     return out
 
 
+def offdef_scores(g, tg, season, week, p):
+    """Offence / defence scores for the Off rank and Def rank (round 5, results/round5_offdef.md).
+
+    Equal blend of z-scores of two opponent-adjusted ratings, both from the same ridge as the model's EPA rating:
+    EPA per play and points per game. In walk-forward tests (2012-25) the blend predicted a team's remaining-season
+    points scored and allowed better than EPA alone, on both development and holdout seasons. Display only: inside
+    the prediction formula it did not help (results/round5_power.md), so the power rating is unchanged.
+    Returns (off_score, def_score) Series by team, higher = better for both.
+    """
+    from nflmodel.common import TEAMS
+    t = tg[tg.season.between(season - 3, season)].copy()
+    sc = g[['game_id', 'home_score', 'away_score']]
+    t = t.merge(sc, on='game_id', how='left')
+    t['pts'] = np.where(t.team == t.home_team, t.home_score, t.away_score) * t.plays   # y = points per game in the ridge
+    t = t[t.pts.notna()]
+    sched = g[g.season.between(season - 3, season)]
+    E = epa_ratings(t, season, p['e_hl'], p['e_off'], p['e_lam'], gt=False, metric='epa', schedule=sched)
+    P = epa_ratings(t, season, p['e_hl'], p['e_off'], p['e_lam'], gt=False, metric='pts', schedule=sched)
+    if (season, week) not in E or (season, week) not in P: return None, None
+    z = lambda v: (v - v.mean()) / v.std() if v.std() > 0 else v * 0
+    off = (z(E[(season, week)][1]) + z(P[(season, week)][1])) / 2
+    de = -(z(E[(season, week)][2]) + z(P[(season, week)][2])) / 2          # ratings: + = allows more; flip so + = better
+    return pd.Series(off, index=TEAMS), pd.Series(de, index=TEAMS)
+
+
 def qb_values(games, qbg, hl=40.0, off=10.0, prior_n=250.0, prior_mean=-0.05):
     """Pre-game shrunk EPA/dropback for each game's two starting QBs, and each team's recent-QB baseline.
 

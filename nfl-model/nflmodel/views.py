@@ -18,7 +18,7 @@ def team_games(g, season):
     return pd.DataFrame(rows)
 
 
-def season_views(g, T, preds, season, week):
+def season_views(g, T, preds, season, week, offdef=None):
     """T: team table (teamtable.build_team_table). preds: walk-forward game predictions with home win 'prob'.
     Returns one row per team."""
     tg = team_games(g, season)
@@ -56,8 +56,12 @@ def season_views(g, T, preds, season, week):
             body_clock_left=int(((r.tz >= 2) & (r.ko <= 13.6)).sum())))
     v = pd.DataFrame(out).set_index('team')
     v['luck'] = v.wins - v.exp_wins
-    v['off_rank'] = v.off_pts.rank(ascending=False, method='min').astype(int)
-    v['def_rank'] = v.def_pts.rank(ascending=False, method='min').astype(int)
+    if offdef is not None and offdef[0] is not None:   # round 5: EPA + points blend (results/round5_offdef.md)
+        v['off_score'] = offdef[0].reindex(v.index); v['def_score'] = offdef[1].reindex(v.index)
+    else:
+        v['off_score'] = v.off_pts; v['def_score'] = v.def_pts
+    v['off_rank'] = v.off_score.rank(ascending=False, method='min').astype(int)
+    v['def_rank'] = v.def_score.rank(ascending=False, method='min').astype(int)
     v['sos_past_rank'] = v.sos_past.rank(ascending=False, method='min')       # 1 = hardest so far
     v['sos_left_rank'] = v.sos_left.rank(ascending=False, method='min')       # 1 = hardest remaining
     return v

@@ -100,9 +100,9 @@
 "tip": null
 },
 "11|MIA|BUF": {
-"ou": null,
+"ou": "Over",
 "spread": null,
-"tip": null
+"tip": "BUF"
 },
 "11|MIN|SF": {
 "ou": null,

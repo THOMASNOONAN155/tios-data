@@ -1,8 +1,23 @@
 {
- "generated": "2026-11-21T01:04Z",
+ "generated": "2026-11-22T00:05Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
- "count": 51,
+ "count": 52,
  "items": [
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Key facts: Alphabet raises AI capex; Search slows; FCF turns negative - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT3BwTE81SV9GVWY5V0F3c2M4V2xWdDY0bU1WbUtJNnQxa2pHVXpXUG9XZ3NPZ0dFZUZyRFJkeklvSThKVUt3U2JQVE5wY3Foejk0ZXdDNnNUTzZrRjlSalB2V2xDRk43QVFPYXhXLWplUTFaaldrOVQ0d0paV1B0cVoxUldRc05rLTAtcVNzamY0dHlTekxRTzFSVVNmd1hkT181cXdMc2tIbVZPbDRQcEswZlNwX1VSN2dYODZhaF9ZTS1HbGxn?oc=5",
+   "published": "2026-11-21",
+   "trust": "C",
+   "flag": "context-only"
+  },
   {
    "driver": "Semis / Taiwan",
    "holdings": [
@@ -10,11 +25,131 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "Taiwan Semiconductor (TSM) Dropped 9.48% to $318.71 \u2014 Navigating the Chip Sector Sell-Off Without Panic - Moomoo",
-   "source": "Moomoo",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcW9VanQ0MlV1NzU3Q1h2ZEtVM1dhVnhQcWM4MXQwdmRkbVpaLVJaejFzVUZNck5tcmJFbDMzYTBzTDAzOTFrbW5pVkhNUk10c0M2STVUbi1nck1iOXMwSmc1OHRjT2VjRWlnRmN1T0ZoSDgyZVp2Z1hZcjVFVzRsWk9GTlF4YUdGbnplWElpWmlPZHdyU2lUamd2cTV5M0RqLUktSDlOZVZnbnQyVHIxclpn?oc=5",
+   "title": "KOSPI Breaks Below 4,870 as Semiconductor Fears Prompt Brokerages to Leave 4,300 Level Open - BigGo Finance",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYNU1nMmN1ZkNxMDhuN252QWRpSDVCbUc4X0FGcWlXYzBTTnpWT1FIY1A2QTVMUUFERzhGWi1SUGs1OUlGcEJfX2tLNjc4bzVEbHk1X20yVGsxYm80cGc3eGdiQXN3Y1pENGs2c2VrUUpBdHhNdEE?oc=5",
    "published": "2026-11-21",
    "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
+   "published": "2026-11-21",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
+   "published": "2026-11-21",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
+   "published": "2026-11-21",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
+   "published": "2026-11-21",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
+   "published": "2026-11-21",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "I\u2019m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
+   "published": "2026-11-21",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018It\u2019s downright dirty\u2019: My brother moved in with our ailing mother and closed her bank account. What can I do?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
+   "published": "2026-11-21",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018I\u2019ve been a stay-at-home mom\u2019: I\u2019m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
+   "published": "2026-11-21",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "\u2018Buyers are out for blood\u2019: With home sales at a record low, buyers are calling the shots",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6?mod=mw_rss_topstories",
+   "published": "2026-11-21",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
+   "published": "2026-11-21",
+   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -70,9 +205,9 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "5C announces Data Center Partner designation within the NVIDIA Partner Network in new blog - Yahoo Finance Australia",
-   "source": "Yahoo Finance Australia",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMklsZlhUMGxoczNuQ3U4TzBtc0NobUw2VWNpVWQ4NG12S3R4WEh1b001Y1dQVkYwSTREY1pCd3pTRGhyRTNuZmtJOEtMbzRNSnczQW1RNllFY1paelhkdl9tRGJudTJqVXgzQmpzVnRmT2pJc0FfZE1sZUlseHdKNmx1YUxDTW01?oc=5",
+   "title": "Nvidia\u2019s $228 Billion Data Center Bet: Three Things to Know - BloombergNEF",
+   "source": "BloombergNEF",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTVdHd1V2a3IybElrbTBrZlBhX0Z4ODlON2MwWmdFQ2tfNmhnMU83UnFCN3p4UGdyUmRxQjN4WnAzZDdoWTd4SmJHOGhoTjFKdzAxUVdiM3d0aUJORHFVUkR1b3FRUmdoUEN4S2UwNEUxTG5rNGFSRXc4MmNzdlR5REx0UU05SXBXaVkxUEp5VkpWdHEzQ0JMYjJJal9UbE5HRlp4WA?oc=5",
    "published": "2026-11-20",
    "trust": "C",
    "flag": "context-only"
@@ -93,49 +228,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Lambda deploys Nvidia Photonics switches at QScale data center - Data Center Dynamics",
-   "source": "Data Center Dynamics",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONDdrVzE0Z1V0MVExa0t4TWRma0ZpSTFfUUhXMlZ6S2dybWpLYjl5MU82UF81b0Fsc1FCWmtncFd5d3h4X1cyWkZKeExJQ0RuTjdIa0dZNjU5dFoyQm43cW5uUmtSX1lFOHFWaDA0Y3IzaUxUUS1ZOFdobEpSU1JoaVBXZ1ZSNzBBcWpEdjl5UDhqTTBCcDZiTDJORWpZUk9tbFJWZ1J1NHVBZw?oc=5",
-   "published": "2026-11-20",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "onsemi, Nova, Power Integrations, Credo Technology Group Holding, and Navitas Semiconductor shares plummet, what you need to know - TradingView",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNd0FnbFJoNjRNMGhfdFBaRlBLQ0tfUXJDMlVaUUw4WWlHVVcyb3dudXRSTlNwSEUxM2JPeFhUNHh2UV8tVFRlZ1R6aGFZWWU5WV9NZWxKcmU4VHFpNXZPUTdMdzJzNnd3dXlWQnlSVUliOHJ1c2RoZHc3d3RldWRPNk5sZm5aSFZ3UnM2RUVVeHdiaDhIQncwNEJNY1VuRWxLU2RqbEFlT0hFcFNZS0lXNUdjWXJXT1FBLU9od3p5V2FyUnZPY2pSdnNiSHVWMGlFbzBMVFhhdDNKVXlTOWhYMDctdktlRHJhRnJBcUdTUlpUSzZqbGVwMVBESG80QVRlbm41SkFqdTFxY29rTXlnWXFrUQ?oc=5",
-   "published": "2026-11-20",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Monitoring Gas Purity in Semiconductor Manufacturing - AZoM",
-   "source": "AZoM",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95VE10eHpPYkx0eHRqQ1lsSDFpZG5RR0VVZzd2Smh4SC10Z0J2dzRscVNKdVB1VWJqVmR2b2JVWTNOanFFWUNCM0NrWmEtTmFxZzlSTmtmNnBWQzEtbVE?oc=5",
-   "published": "2026-11-20",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Semis / Taiwan",
    "holdings": [
     "ASIA",
@@ -147,80 +239,6 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaGlPZGhsSnpuOEdtUGprWUxqS3FDQlhLV2w1R1JTc2VGczdyeUZQa0tjTVpEb0NaV3Y0OTRZS2E4U0lXU25qZk5ndWNocFhKZmQzNGJiUkRORFFuZXAycTFrYUw5SjVSdmNiVmdTZkl2czhEM243LU1YZ01JQ0kyX0xrZkFwOU9TeHFkNkxmLXM3bXp0VWZYc0lNYUM?oc=5",
    "published": "2026-11-20",
    "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "US AI chip curbs hit China tech stocks, spur self-sufficiency push - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNM3JhZ1hpWlJqYlVISU9pcFFUS0N1Sk9MeEx5aU9jWmt5OVBxY2RkeWNCWDBITU5nYmdNdzFNQm4xTkZVbTM3T214cjhzSDBPWHFsaGt0Uk56c2F0TUFOOWl2ZlZHRGhjdXN5WDNPM3BiS3E1QW9lbHZ0NjZDUVNtaVZBbGUzNmxMR1o4c3REOGE3c3R4ZFk3d1VpR3diM0FmTnphSVdtR0M5MWpHRm9OeFJtaTQ5U1p6bnVRc3VnTW54cVVW?oc=5",
-   "published": "2026-11-20",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Kalshi races to get ahead of New York order that could shut down exchange",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/11/20/kalshi-races-to-get-ahead-of-new-york-order-that-could-shut-down-exchange",
-   "published": "2026-11-20",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
-   "published": "2026-11-20",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play",
-   "published": "2026-11-20",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/11/20/former-point72-head-of-proprietary-research-says-ai-could-turn-data-into-a-new-asset-class-for-wall-street",
-   "published": "2026-11-20",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/policy/2026/11/20/hong-kong-moves-to-extend-crypto-licensing-rules-to-brokers-advisers-and-custodians",
-   "published": "2026-11-20",
-   "trust": "B",
    "flag": "context-only"
   },
   {
@@ -296,66 +314,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
-   "published": "2026-11-20",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
-   "published": "2026-11-20",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "These stocks were crushed the most this week as the tech wreck accelerated",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
-   "published": "2026-11-20",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Nvidia\u2019s stock clinches a stretch of weekly losses not seen since 2008",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
-   "published": "2026-11-20",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "Everyone\u2019s making money off \u2018GTA 6\u2019 this week \u2014 except investors in Take-Two\u2019s stock",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/everyones-making-money-off-gta-6-this-week-except-investors-in-take-twos-stock-489ee01b?mod=mw_rss_topstories",
-   "published": "2026-11-20",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
    "driver": "US rates / Fed",
    "holdings": [
     "IVV",
@@ -368,6 +326,34 @@
    "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm",
    "published": "2026-11-19",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say - Reuters",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc1pDUGRULVJNeGdkT21ERVNzMEl6RHJKTEtLRWFFQjFpYjdxWU5NMmM3Zl8zUzlHQUd3UzJlNE1UV2tlZnZFTEZrNnRKSWU1Y1lkSU1ISmF6U1JGNWNEeUJETVpHNDI5QTEwMWJTTmRraUgyaDR2RUJ1UlRadVJZMW9MUTZCeXdpZHRZRWl1X1VIZ0xBbllSWEUxMGxmdmllVFgxbmxuTmljOFFBTUkyUGR2NDRfTmM0Rm5xcXFxaHk?oc=5",
+   "published": "2026-11-19",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "TSMC and Samsung suspend some chip shipments to Chinese customers - Financial Times",
+   "source": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVmdYLWxyejBmNWE2ZmVSbk93M0w2ajJMbzZvWE54bG5QU2JqYzNqYUhobnJVX1h6bkcyT0JZX1VLMHNYZG4tM0Q4Vmd3dGJIRG9yS2dYcjIyLVpvV3RwUHFpRXU2cU51dXdWTTBRcy1wNHBJZEYtYURQcVhOTXlZRU5nLW8?oc=5",
+   "published": "2026-11-19",
+   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -389,9 +375,9 @@
     "VAS",
     "VHY"
    ],
-   "title": "Iron ore freight rates rise in November compared to October - GMK Center",
-   "source": "GMK Center",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdnpXbW04eWpMNmd6YUVfemgxNDlTQjQzU3RXTHBfczhLNjVMUjM3MHJrTm5LN05vdm1COFdGLWY3a3JmaHZObGIzNVIyUXYwYVItbDJwa1NPZlJGVXd0NGZrbUtXWGhGZ2dYbVVqc3YzUEFhYlh1RnlqTFB5MnVfX2J3YjhMLU5hLTF4ZHBqRUfSAZYBQVVfeXFMT0FuN0lrRThBNWcwMjFicE85S0IwenAtb05RZ3piMDVkVzFxdjhoSU5wUnl1OXlvNGJMX3ZxcHRsdFdFbTZUTzlFQldTN2RseGVoWHhPWkl5a2RHdkN1VXdUcC0wb0pBbnhqSnlqOGZkakVkRjdLZTA2aS1WaUVaZjYxRGlzU29ZSlIzaFBFYVBxU0JGZW53?oc=5",
+   "title": "Guinea storms into iron ore export top three - Splash247",
+   "source": "Splash247",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IeS1uMkV6aUxzWFlUM1Z6dkhaTS1ld0hxUVFKLXBmUWJQakxWMG00bmc0VHpXam8zVVQzN2xwV2ZucV9jMmVlZkp3ZFluaGRBUTRCa2xPaHRyWW80cTMzNkJua0ZOOEpiOEdfY3FMUkQ5QjZSSUE?oc=5",
    "published": "2026-11-19",
    "trust": "C",
    "flag": "context-only"
@@ -447,9 +433,38 @@
     "NDQ",
     "GGUS"
    ],
+   "title": "NVIDIA sales, profit more than double as AI data center business booms - upi",
+   "source": "upi",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUEFLbXVCeDhkMEJ2akp3MUtvR0gzZW5rTkJmSnJqdUI3MHU3TVZGbEdMQUJjV3F1SGFlQUFicXFzS2ZOR1NtUngtZGF1WjdQYzF4TTB2emlpa19hY3pOYnFNeEFSTF9WaUhMVGVJSEpGaXdNNXZwazRXZ0VmY3BuVHd1eHd2LXRmME1DLW9KeHJsMmvSAZgBQVVfeXFMTTB4T1MwaV93VmdQNGV6Z3VkZS1sbjRISG9NSFFCNG92Y0lvVE9GTkpRWEJwTC00N3BkcnI3YkYxaHpFbGNmUVo1ZTF0WXNBczJ2TXMtaWR6ZUtQMjZ2VGw1dmhSbm5lSUZ4cTdWRnVWb25wVUlZbFRhNkNja3Qwd3dudHdrdTZZSEZGWmtlSWVjaVE2Z1NsVjk?oc=5",
+   "published": "2026-11-18",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
    "title": "Trump\u2019s China data center curb advances despite Amazon, Google, Meta lobbying - The Japan Times",
    "source": "The Japan Times",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSlVMeFp3clJxUzJ0VS0zRWdfLUtkNU5VT18wQWowQkphVlhmLTFyWTZYVTlWeVlqUzgxdU1Cc1dzSWtFTlJuZ1BrQVhzMlVjVmJIR2gzb1dJZU9icWhRTzBVdEFocUxaOWxlZ0dvSmtQR1VVb0VldjlFOHFHMFZUWHlfME9LSDJENlBqbHV3?oc=5",
+   "published": "2026-11-18",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Why You Should Buy and Hold Taiwan Semiconductor (TSM) for Three Years - Yahoo Finance",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb0x1blQ0eHk0WF9udXpIRUNHbS1sYm9KcUF0VlpKYzdoS1lhTlhYVk9ua2RIUjg4SXVJdFFudFN6WFhyYzBuSVRpc2IyT2J3VlA3MUpXWEwyV2ZJV3EzR2VwRUFaT0REcC1PUG5FQTNOUDAydC1FcnlRREEzVWFDSkdRaUljNldUQ29RTU1Lakk5SGdFcC1XajdqTVFuQlU?oc=5",
    "published": "2026-11-18",
    "trust": "C",
    "flag": "context-only"
@@ -595,21 +610,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Nvidia fallout: Commerce targets loophole for China's data center use - CNBC",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yWU92TlhWYTJNSmRPc1U1cUhXZEZ0S0VzZnN4elVCdlhGWC1KcVdlaFZueDByekdBRS1sY2VIYng4a3hYS2ZCaFFIcWhxSEpXMGZrc2lnTUJnQ2h0WFlSaDZ2bnhqUmYzTG1BbDhvZmdfSTdm0gF6QVVfeXFMUHFJM25PazZPemswSExvMGFkZDdFSnliWTh3R1VDdElTbkF2d2x2ZlM2UlQ1OU5OOVVvWU91bGREaXNaRW4tamNOLURnTUFIQUJBMVp0TDBkaDdUNENDcnhUOHdZWk9Tdy1MeGlWbjJNZjhHMG5aSndhamc?oc=5",
-   "published": "2026-11-16",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "AU tax / reg",
    "holdings": [
     "ALL (disposal gate)"
@@ -644,6 +644,18 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68445",
    "published": "2026-11-13",
    "trust": "A",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Gold",
+   "holdings": [
+    "QAU"
+   ],
+   "title": "bmflex - Binance",
+   "source": "Binance",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14UUM1eE40TFBwU2hQRDBHTEdzMGQ2M0ctRHI2TmNvNVNxQmNua1VFYkV3WFE2ZU44N3gtSkh4LXlJVVd5eVVGTXJzY0p5dmNwWWpxLWYxNWdLYkFrd0p5Tlc4bzA?oc=5",
+   "published": "2026-11-13",
+   "trust": "C",
    "flag": "context-only"
   },
   {

@@ -110,7 +110,7 @@
 "tip": null
 },
 "11|NO|CHI": {
-"ou": "Under",
+"ou": "Over",
 "spread": "CHI",
 "tip": "CHI"
 },
@@ -120,9 +120,9 @@
 "tip": null
 },
 "11|PIT|PHI": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Under",
+"spread": "PIT",
+"tip": "PIT"
 },
 "11|TB|DET": {
 "ou": "Under",

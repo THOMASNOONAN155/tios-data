@@ -110,7 +110,7 @@
 "tip": null
 },
 "11|NO|CHI": {
-"ou": "Under",
+"ou": null,
 "spread": "CHI",
 "tip": "CHI"
 },
@@ -125,9 +125,9 @@
 "tip": null
 },
 "11|TB|DET": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Under",
+"spread": "TB",
+"tip": "TB"
 },
 "11|TEN|DAL": {
 "ou": null,

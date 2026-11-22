@@ -130,9 +130,9 @@
 "tip": "TB"
 },
 "11|TEN|DAL": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Over",
+"spread": "TEN",
+"tip": "DAL"
 },
 "12|ATL|MIN": {
 "ou": null,

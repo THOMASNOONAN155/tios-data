@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T00:05Z",
+ "generated": "2026-11-23T00:35Z",
  "note": "CONTEXT ONLY \u2014 never a buy/sell/timing signal. Free keyless feeds. See ANALYST-SPEC.md.",
  "count": 52,
  "items": [
@@ -11,10 +11,25 @@
     "NDQ",
     "GGUS"
    ],
-   "title": "Key facts: Alphabet raises AI capex; Search slows; FCF turns negative - TradingView",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT3BwTE81SV9GVWY5V0F3c2M4V2xWdDY0bU1WbUtJNnQxa2pHVXpXUG9XZ3NPZ0dFZUZyRFJkeklvSThKVUt3U2JQVE5wY3Foejk0ZXdDNnNUTzZrRjlSalB2V2xDRk43QVFPYXhXLWplUTFaaldrOVQ0d0paV1B0cVoxUldRc05rLTAtcVNzamY0dHlTekxRTzFSVVNmd1hkT181cXdMc2tIbVZPbDRQcEswZlNwX1VSN2dYODZhaF9ZTS1HbGxn?oc=5",
-   "published": "2026-11-21",
+   "title": "How Amazon Plays the Long, Expensive Data Center Game That Neoclouds Can\u2019t - The Information",
+   "source": "The Information",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORkt3LUxXYjZSOEgweWR3SHowTnJQd19PNVE3NnRVaHhhcDBQNC1vaXVibjRKRDBUVF84dEhJcDN1MTlsX1A4Q0hZelo3RmtMelhhM3lhbmtOZUNSc3VfWGRNdDNfRVQ5LXRwN01nc1lsVVNxdk9GQXYxUTNJY2EtSUFrTnpuekItcEowd0Jod3lkODNQS04wQWgwVUszd1ppem8yelZydTdKSFozamdVaGY2V0FhQQ?oc=5",
+   "published": "2026-11-22",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Kevin O\u2019Leary Says \u2018The Bank of NVIDIA Is Closed\u2019 as AI Data Center Boom Faces Scrutiny - Benzinga",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQXy0yWDlCVlVHckdscDRZd1VobE9GUml3RXhFSGlsQ0JvRXNMM0o3NG0yc1VENGF6UXVKN1Jma25KSk5acVhPV1IxUzJINFhLalJxYW5pWU5NZEJWSTV2YXJHa200MzVCYXFBTk9mQkNKNnBfb3NjNmQ3VmRjTkR6dzlvS254d2RNeUVnV19WUVFnM0h2N1ZWZEpNZlZWd2ZUODgyTlg5S29uNnNvNFlIUFBXakM2Sy1leWhqeFBfeEliUWl2Umpfc2hZSFJJSlVPTUdN?oc=5",
+   "published": "2026-11-22",
    "trust": "C",
    "flag": "context-only"
   },
@@ -25,9 +40,176 @@
     "EMKT",
     "NDQ"
    ],
-   "title": "KOSPI Breaks Below 4,870 as Semiconductor Fears Prompt Brokerages to Leave 4,300 Level Open - BigGo Finance",
+   "title": "Apple Moves To Secure Long-Term Memory Supply As AI Demand Tightens Chip Market - ChannelNews.com.au",
+   "source": "ChannelNews.com.au",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeUJmZ09xY2NnaTkyWnN1Y2xINkFiTkJsT3FkYTR5b2VIMGc2azZiVGUyZjk3TWVnQ0RzRGd3QjNSLU1HZWlEVXQ3RnI1aFNaZjFnLUU0X2RsZFREdDBUeVdsdVBrLVVrRWlicHEwdkNLUUU1d0FaMWQwZVd5cGFybG84R0VmV3pwRUxVbFotem1yTlprYTZnQ0dval82cGk2NncweXpFNXd2MnhVT2Z5cA?oc=5",
+   "published": "2026-11-22",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Retail investors grab odd-lot shares as TSMC plunges - Taipei Times",
+   "source": "Taipei Times",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TeHZXOVNtWkRHX3FRMEpBYXlIMENBN09wQ0MwUFQtZUpoUzFtUVpsdWR1dmR6QjZ3M3VsaGVGbWlRcG1jMDVnNzkwdkVWS0Z6U2kyd05TMnJlbVRCd3ZNQVBTUEtYVmVySlhIQjB1SDZXYkhTc1E?oc=5",
+   "published": "2026-11-22",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Burry Hedges AI Bubble: Halves Nvidia and Semiconductor ETF Puts, Keeps Nasdaq Short - BigGo Finance",
    "source": "BigGo Finance",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYNU1nMmN1ZkNxMDhuN252QWRpSDVCbUc4X0FGcWlXYzBTTnpWT1FIY1A2QTVMUUFERzhGWi1SUGs1OUlGcEJfX2tLNjc4bzVEbHk1X20yVGsxYm80cGc3eGdiQXN3Y1pENGs2c2VrUUpBdHhNdEE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8xR0FFUDFPXzBNbTFPWFJsQk1jWnRncGo4RG5BTmFmTXhGZDFIWkFTZ2Zyd1liQTFaU2RWcUIxODk0alB4c19DamtJdkVDeVZrUUhxYjFEZFVxR2lkdVBqYTNaeW5QWTNrVFR2NTd6TkFwZlNWRWc?oc=5",
+   "published": "2026-11-22",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Korea\u2019s boom may be hiding a dangerous warning - Korea JoongAng Daily",
+   "source": "Korea JoongAng Daily",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZm1OaDVSbHlrcmhtRE85RW9RbGRWSkdHQTR4aldEMDVwdHlKX0NPMFJsZlBQckxXdWRuWjc5TlV2SlJnOXRFRlVYRFpXbnYwRS05RU9IdGV4a0pBYjlYbGNGX2tPSHZuYTV4NXQ0ZzBHYURubk5JMEpVZWVaaFRldGJvZkRjSktDYkZxS1lQMkJSUWF2?oc=5",
+   "published": "2026-11-22",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Semis / Taiwan",
+   "holdings": [
+    "ASIA",
+    "EMKT",
+    "NDQ"
+   ],
+   "title": "Form 4 Lattice Semiconductor Corporation: Tracy Ann Feanny (SVP, General Counsel) For: 16 November - Investing.com Australia",
+   "source": "Investing.com Australia",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSm9ZRkV0amRWeExLb0dzdXU3NVdkVlFlWVRvMDhXZ3hmeHk4dzY4V09XYmkwX0gwX25aakx6OTVoVmZuSUpjZE1VN3BJXy03enhZMkRSR1JoTGtYbWVOWS1zLWlMMVlvclZZa3hEQnhMUjVYRDBXUTJaWjZSZFFScDhic2ZXUkNlRmQ3c0Z0X3ZkX3pyaXFIaUhIdW4zczJ1R3RQZEVRU0k2d2pkdTN4NlhGbVktcGxXaFV3Y2dydWx0X1FuTmIwdFJuTGNhWDZmQ1hESmJMMGs3cDdhS2duWElLcXItREpCeGc?oc=5",
+   "published": "2026-11-22",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "More on the pending oversight hearings: State of Crypto",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/",
+   "published": "2026-11-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Crypto",
+   "holdings": [
+    "CRYP"
+   ],
+   "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+   "published": "2026-11-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "AU tax / reg",
+   "holdings": [
+    "ALL (disposal gate)"
+   ],
+   "title": "How the new super tax is changing inheritance behaviour - The Australian",
+   "source": "The Australian",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMVc3QU1zTS0tQmFDUS01YWUxb1JBRUxWeE9WcFh6SnBVclBxNXlNX3VIOUFGM1BoME50ZkxEbmMxWmFrWnhWU1N2YWt2eFp6aWdzbWY3ZjFhaUtsSzNsVjA2bkdETzJBSXFFaG5yYklnWU9DalpMSW1acWdyQjJGSENoTV96cElQLU9aVkIyOVZSU3FXTzRDR01DNHB6ZW9VY1Y3YkpwMUdWVkZEV1FsS3RKREtybEthZTByQV9GQ2VUek11cE1ocFpsWVRNMUt5aU9RTUViVGdUSlVtQkc2ajg5TkNjY0JPY184U1paMTQyYkVxTC1UVEp1dnBFQ2py?oc=5",
+   "published": "2026-11-22",
+   "trust": "C",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Corporate America hunts for \u2018generational\u2019 growth in AI, trading cards and the L.A. airport",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
+   "published": "2026-11-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Ron Johnson\u2019s Social Security gaffe buried important news",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/ron-johnsons-social-security-gaffe-buried-important-news-b96e0ce8?mod=mw_rss_topstories",
+   "published": "2026-11-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Social Security should be shut down, this Republican senator says",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
+   "published": "2026-11-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "Medicare beneficiaries could skip the nursing home for cheaper care at home under new bill",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/medicare-beneficiaries-could-skip-the-nursing-home-for-cheaper-care-at-home-under-new-bill-e289c8d0?mod=mw_rss_topstories",
+   "published": "2026-11-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "Cross-market",
+   "holdings": [
+    "whole book"
+   ],
+   "title": "These little-known investments could be among the best bargains in a crash",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+   "published": "2026-11-22",
+   "trust": "B",
+   "flag": "context-only"
+  },
+  {
+   "driver": "US mega-cap / AI capex",
+   "holdings": [
+    "IVV",
+    "VGS",
+    "NDQ",
+    "GGUS"
+   ],
+   "title": "Key facts: Alphabet raises AI capex; Search slows; FCF turns negative - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT3BwTE81SV9GVWY5V0F3c2M4V2xWdDY0bU1WbUtJNnQxa2pHVXpXUG9XZ3NPZ0dFZUZyRFJkeklvSThKVUt3U2JQVE5wY3Foejk0ZXdDNnNUTzZrRjlSalB2V2xDRk43QVFPYXhXLWplUTFaaldrOVQ0d0paV1B0cVoxUldRc05rLTAtcVNzamY0dHlTekxRTzFSVVNmd1hkT181cXdMc2tIbVZPbDRQcEswZlNwX1VSN2dYODZhaF9ZTS1HbGxn?oc=5",
    "published": "2026-11-21",
    "trust": "C",
    "flag": "context-only"
@@ -61,93 +243,9 @@
    "holdings": [
     "CRYP"
    ],
-   "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+   "title": "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos",
    "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated",
-   "published": "2026-11-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug",
-   "published": "2026-11-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Crypto",
-   "holdings": [
-    "CRYP"
-   ],
-   "title": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
-   "source": "CoinDesk",
-   "url": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion",
-   "published": "2026-11-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "I\u2019m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
-   "published": "2026-11-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018It\u2019s downright dirty\u2019: My brother moved in with our ailing mother and closed her bank account. What can I do?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
-   "published": "2026-11-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018I\u2019ve been a stay-at-home mom\u2019: I\u2019m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
-   "published": "2026-11-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "\u2018Buyers are out for blood\u2019: With home sales at a record low, buyers are calling the shots",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6?mod=mw_rss_topstories",
-   "published": "2026-11-21",
-   "trust": "B",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Cross-market",
-   "holdings": [
-    "whole book"
-   ],
-   "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
+   "url": "https://www.coindesk.com/tech/2026/11/21/openai-anthropic-and-rivals-seek-ai-agent-rules-to-prevent-commerce-chaos",
    "published": "2026-11-21",
    "trust": "B",
    "flag": "context-only"
@@ -213,30 +311,26 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
+   "driver": "China + iron ore",
    "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
+    "VAS",
+    "VHY"
    ],
-   "title": "YTL Power denies Johor's data center assisted transfer of NVIDIA GPUs to Chinese clients - TNGlobal",
-   "source": "TNGlobal",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcHZpNnEzYmFYbXVqZmVjczY2dk56RHlEbzNwQmowb2dWMkNmSjlSN05YWmdkNVl2NVBRRVlKVWlON3dWZk9lM1EwT1JzUzdvSXNzV0FfMnI3NjJRVnl3VEhQSmc3QTZVWVYtWXNzNjJDeDZKREx2b3RzZUhoN19uTXgzUHVncVNYQkFrWXFkX3l6cHg4NzdtSGktSVJESWVwU0hBZVk1ZjZpdHQ1Y0ptcGVVSkJaekw5b1hjNkMzT20?oc=5",
+   "title": "China cut iron ore production by 11.7% y/y in 10 months - GMK Center",
+   "source": "GMK Center",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON0pGOVJTMHR6X083TkNaU0tjamhkSGFQQ0JLdjNDeGhJTzZYRVVnNldJOVpoVzZLZnlnanJRMUNXQ3ZERS1RWTBMZ2lXNS1fZDdFVzh0YWczTlROczJfZENKNmlqWDJ3T0hwdkhXbDJoU3VDdFpWNVpEdWNRVzZmeDNTSVYxNG9mN0HSAY8BQVVfeXFMTTZtR3A4WXRzRmt3bE5RSXBybVZGVzJremZZRXJReWVUNzNvYnlNRk1vdGNHb3dGYXJUTjdFTGRxN19BQ211WkstS2JiSFlpemhRNU52ME1pTTNoTnRkd2VRQjFLYjBqMnpRNWFuaVR1bXlkWnpEamlrNThkUnR3ZjY3NXliZjM0SGhTeGR1MUk?oc=5",
    "published": "2026-11-20",
    "trust": "C",
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
+   "driver": "Gold",
    "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
+    "QAU"
    ],
-   "title": "Taiwan Semiconductor Manufacturing down 8.66% on Friday - Global Banking & Finance Review",
-   "source": "Global Banking & Finance Review",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaGlPZGhsSnpuOEdtUGprWUxqS3FDQlhLV2w1R1JTc2VGczdyeUZQa0tjTVpEb0NaV3Y0OTRZS2E4U0lXU25qZk5ndWNocFhKZmQzNGJiUkRORFFuZXAycTFrYUw5SjVSdmNiVmdTZkl2czhEM243LU1YZ01JQ0kyX0xrZkFwOU9TeHFkNkxmLXM3bXp0VWZYc0lNYUM?oc=5",
+   "title": "Gold Futures Overview - CME Group",
+   "source": "CME Group",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeDc1RGtZSl9sWTFkQXE5RFZpdVo3VkRJT08zLU5TSUVSQWpLTUNOR3RjZEwxY2hYNUdLUzdrV2xsdDY1OTlkcGJxM1pyaUNOSndxdDNuY2N0NXROM1psWERyeVVRZko1ZGc?oc=5",
    "published": "2026-11-20",
    "trust": "C",
    "flag": "context-only"
@@ -329,42 +423,14 @@
    "flag": "context-only"
   },
   {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say - Reuters",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc1pDUGRULVJNeGdkT21ERVNzMEl6RHJKTEtLRWFFQjFpYjdxWU5NMmM3Zl8zUzlHQUd3UzJlNE1UV2tlZnZFTEZrNnRKSWU1Y1lkSU1ISmF6U1JGNWNEeUJETVpHNDI5QTEwMWJTTmRraUgyaDR2RUJ1UlRadVJZMW9MUTZCeXdpZHRZRWl1X1VIZ0xBbllSWEUxMGxmdmllVFgxbmxuTmljOFFBTUkyUGR2NDRfTmM0Rm5xcXFxaHk?oc=5",
-   "published": "2026-11-19",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "TSMC and Samsung suspend some chip shipments to Chinese customers - Financial Times",
-   "source": "Financial Times",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVmdYLWxyejBmNWE2ZmVSbk93M0w2ajJMbzZvWE54bG5QU2JqYzNqYUhobnJVX1h6bkcyT0JZX1VLMHNYZG4tM0Q4Vmd3dGJIRG9yS2dYcjIyLVpvV3RwUHFpRXU2cU51dXdWTTBRcy1wNHBJZEYtYURQcVhOTXlZRU5nLW8?oc=5",
-   "published": "2026-11-19",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "China + iron ore",
    "holdings": [
     "VAS",
     "VHY"
    ],
-   "title": "Mining giants head to China amid iron ore tensions - Australian Mining",
-   "source": "Australian Mining",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOR1RCQm9tSExZQ3lhaWVWVGwtSWlyQ1lINEtNc3BTUVYtY1hjNjRTSU9WLW1vbFNzUHd6bGhqR1NHQVVVa3RfSzBNRnNGb3g5Vm13Y0xrdm91TnRWbEdtT2cyaFVJS3JTM3NZbGNFTTJYOW9aVUc5ZlJzYjFaQWQtQVhDMVpMa2FNVFROMFBZREc?oc=5",
+   "title": "Australia PM and China\u2019s Xi Jinping hail \u2018turnaround\u2019 despite iron ore tensions - Financial Times",
+   "source": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkRjb0Rma1lqX0xiWEJGMGNfWXpZaEJPR0pkQmI5WTdJek50SkpSTm80S0ljN0tGaG80R0ZZZXU1bktzLXVMeDg1ZW5KNTR5bDV1YmdlM2VsSmF3RFZmdF9FTGJuVnBOalFwcUp0QXV1TU5ycVJ5REp1cWladVlFRjdpa0E?oc=5",
    "published": "2026-11-19",
    "trust": "C",
    "flag": "context-only"
@@ -441,35 +507,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "US mega-cap / AI capex",
-   "holdings": [
-    "IVV",
-    "VGS",
-    "NDQ",
-    "GGUS"
-   ],
-   "title": "Trump\u2019s China data center curb advances despite Amazon, Google, Meta lobbying - The Japan Times",
-   "source": "The Japan Times",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSlVMeFp3clJxUzJ0VS0zRWdfLUtkNU5VT18wQWowQkphVlhmLTFyWTZYVTlWeVlqUzgxdU1Cc1dzSWtFTlJuZ1BrQVhzMlVjVmJIR2gzb1dJZU9icWhRTzBVdEFocUxaOWxlZ0dvSmtQR1VVb0VldjlFOHFHMFZUWHlfME9LSDJENlBqbHV3?oc=5",
-   "published": "2026-11-18",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Semis / Taiwan",
-   "holdings": [
-    "ASIA",
-    "EMKT",
-    "NDQ"
-   ],
-   "title": "Why You Should Buy and Hold Taiwan Semiconductor (TSM) for Three Years - Yahoo Finance",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb0x1blQ0eHk0WF9udXpIRUNHbS1sYm9KcUF0VlpKYzdoS1lhTlhYVk9ua2RIUjg4SXVJdFFudFN6WFhyYzBuSVRpc2IyT2J3VlA3MUpXWEwyV2ZJV3EzR2VwRUFaT0REcC1PUG5FQTNOUDAydC1FcnlRREEzVWFDSkdRaUljNldUQ29RTU1Lakk5SGdFcC1XajdqTVFuQlU?oc=5",
-   "published": "2026-11-18",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "China + iron ore",
    "holdings": [
     "VAS",
@@ -509,18 +546,6 @@
    "flag": "context-only"
   },
   {
-   "driver": "AU tax / reg",
-   "holdings": [
-    "ALL (disposal gate)"
-   ],
-   "title": "Australia capital gains tax changes: Centrelink exemption could save retirees thousands - Beinsure",
-   "source": "Beinsure",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MemRBZHZSVjYwUnZkVTkyZDNVUkFmOFdkRF9jcnBxNFRlWjdTT3JqQ2FrNk1oYVgwSTdJaVdfYWw1STFCVzNua2ROLTBHRDBLYUYxV2FzYUM4aUtoVDNUM0lDaVRiejlPVFRoUjJCVQ?oc=5",
-   "published": "2026-11-18",
-   "trust": "C",
-   "flag": "context-only"
-  },
-  {
    "driver": "Europe",
    "holdings": [
     "HEUR"
@@ -557,19 +582,6 @@
    "url": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
    "published": "2026-11-17",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "China + iron ore",
-   "holdings": [
-    "VAS",
-    "VHY"
-   ],
-   "title": "China Flexes Muscle in Iron Ore, Squeezing Australia and Its Miners - WSJ",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRW9tOUktVWVKMUttQi1YVUtBdnM0WlNBYktsNmhkVXFjZXhfdGppbFBOMjdOY2E3M3lmS0RsdV9UZDRKdFBHenN6Zk1hYjFxeXJ5ekU5QjlURFJuUkR0VE9zb3JOM2JMX2dlV3BfWmJHWUdkd2xqLVViUlM2OGpudWIwbjU5Q3JiazJLNzZ4ckQ5SFFsazJUSmVsV0NIMS1jZVJyVVo4TQ?oc=5",
-   "published": "2026-11-17",
-   "trust": "C",
    "flag": "context-only"
   },
   {
@@ -644,18 +656,6 @@
    "url": "https://www.eia.gov/todayinenergy/detail.php?id=68445",
    "published": "2026-11-13",
    "trust": "A",
-   "flag": "context-only"
-  },
-  {
-   "driver": "Gold",
-   "holdings": [
-    "QAU"
-   ],
-   "title": "bmflex - Binance",
-   "source": "Binance",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14UUM1eE40TFBwU2hQRDBHTEdzMGQ2M0ctRHI2TmNvNVNxQmNua1VFYkV3WFE2ZU44N3gtSkh4LXlJVVd5eVVGTXJzY0p5dmNwWWpxLWYxNWdLYkFrd0p5Tlc4bzA?oc=5",
-   "published": "2026-11-13",
-   "trust": "C",
    "flag": "context-only"
   },
   {

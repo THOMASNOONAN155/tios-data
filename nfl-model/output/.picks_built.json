@@ -105,9 +105,9 @@
 "tip": "BUF"
 },
 "11|MIN|SF": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Under",
+"spread": "MIN",
+"tip": "SF"
 },
 "11|NO|CHI": {
 "ou": "Over",

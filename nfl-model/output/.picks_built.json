@@ -80,9 +80,9 @@
 "tip": "BAL"
 },
 "11|CIN|WSH": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Over",
+"spread": "CIN",
+"tip": "CIN"
 },
 "11|IND|HOU": {
 "ou": "Under",

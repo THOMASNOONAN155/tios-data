@@ -150,24 +150,24 @@
 "tip": null
 },
 "12|CHI|DET": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Over",
+"spread": "CHI",
+"tip": "CHI"
 },
 "12|DEN|PIT": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Over",
+"spread": "DEN",
+"tip": "DEN"
 },
 "12|GB|LAR": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Under",
+"spread": "LAR",
+"tip": "LAR"
 },
 "12|KC|BUF": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Under",
+"spread": "BUF",
+"tip": "BUF"
 },
 "12|LV|CLE": {
 "ou": null,
@@ -195,9 +195,9 @@
 "tip": null
 },
 "12|PHI|DAL": {
-"ou": null,
-"spread": null,
-"tip": null
+"ou": "Under",
+"spread": "PHI",
+"tip": "DAL"
 },
 "12|SEA|SF": {
 "ou": null,
